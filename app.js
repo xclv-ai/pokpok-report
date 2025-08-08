@@ -142,5 +142,6 @@
     ]);
   }
 
-  createRoot(document.getElementById("root")).render(h(App));
+  //createRoot(document.getElementById("root")).app(happApp));
+  createRoot(document.getElementById("app")).render(h(App));
 })();
