@@ -1,43 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>PokPok Report — Brand Perception Gaps</title>
-  <meta name="description" content="Interactive brand perception vs PDP dashboard (standalone, GitHub Pages-ready).">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PokPok Brand Perception Gaps Report</title>
   <link rel="stylesheet" href="styles.css" />
-  <!-- React + ReactDOM UMD -->
-  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-  <!-- Recharts UMD (bundles d3 deps) -->
-  <script crossorigin src="https://unpkg.com/recharts/umd/Recharts.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-  <header class="topbar">
-    <div class="brand">PokPok Report</div>
-    <nav class="tabs" id="tabs">
-      <button data-tab="ksp" class="active">Key Selling Points</button>
-      <button data-tab="comm">Communication Focus</button>
-      <button data-tab="tov">Tone of Voice</button>
-      <button data-tab="visual">Visual Identity</button>
-      <button data-tab="arch">Archetypes</button>
-      <button data-tab="overall">Overall</button>
-    </nav>
+  <header>
+    <h1>PokPok Brand Perception Gaps Report</h1>
+    <p class="subtitle">Dynamic analysis & visualization</p>
   </header>
 
-  <main class="container">
-    <section class="hero card">
-      <h1>Where Target Vision Meets PDP Reality — <span class="accent">Mind the Gap</span></h1>
-      <p id="intro"></p>
+  <nav class="tabs">
+    <button class="tab-btn active" data-tab="ksp">Key Selling Points</button>
+    <button class="tab-btn" data-tab="tov">Tone of Voice</button>
+    <button class="tab-btn" data-tab="archetypes">Brand Archetypes</button>
+    <button class="tab-btn" data-tab="overall">Overall Perception</button>
+  </nav>
+
+  <main>
+    <section id="ksp" class="tab-content active">
+      <h2>Key Selling Points</h2>
+      <div id="ksp-list"></div>
+      <canvas id="ksp-chart"></canvas>
     </section>
 
-    <section id="panel" class="panel card">
-      <!-- React mount point -->
-      <div id="app"></div>
+    <section id="tov" class="tab-content">
+      <h2>Tone of Voice</h2>
+      <div id="tov-sliders"></div>
+    </section>
+
+    <section id="archetypes" class="tab-content">
+      <h2>Brand Archetype Mix</h2>
+      <canvas id="archetype-chart"></canvas>
+    </section>
+
+    <section id="overall" class="tab-content">
+      <h2>Overall Brand Perception</h2>
+      <canvas id="overall-chart"></canvas>
     </section>
   </main>
-
-  <footer class="footer">Built for live reviews. Drop new JSON to update.</footer>
 
   <script src="app.js"></script>
 </body>
