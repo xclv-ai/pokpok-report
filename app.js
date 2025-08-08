@@ -1,7 +1,6 @@
 
 (() => {
-  const { createElement: h, useEffect, useMemo, useState } = React;
-  const { createRoot } = ReactDOM;
+  const { createElement: h, useEffect, useMemo, useState } = React;  const { createRoot } = ReactDOM;
   const { ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar, Legend, Sankey, Tooltip } = Recharts;
 
   // Helpers
@@ -34,6 +33,7 @@
     );
   }
 
+  
   function KSP({ narrative }) {
     const targetKSP = ["Designed for specific skin tones","Accessible price point","Gradual tan","Moisturizing","Ease of use"];
     const pdpKSP = ["Dermatologist Recommended","Gradual tan","Moisturizing","Ease of use"];
