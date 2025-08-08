@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PokPok Report — Brand Perception Gaps</title>
+  <meta name="description" content="Interactive brand perception vs PDP dashboard (standalone, GitHub Pages-ready).">
+  <link rel="stylesheet" href="styles.css" />
+  <!-- React + ReactDOM UMD -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <!-- Recharts UMD (bundles d3 deps) -->
+  <script crossorigin src="https://unpkg.com/recharts/umd/Recharts.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">PokPok Report</div>
+    <nav class="tabs" id="tabs">
+      <button data-tab="ksp" class="active">Key Selling Points</button>
+      <button data-tab="comm">Communication Focus</button>
+      <button data-tab="tov">Tone of Voice</button>
+      <button data-tab="visual">Visual Identity</button>
+      <button data-tab="arch">Archetypes</button>
+      <button data-tab="overall">Overall</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <h1>Where Target Vision Meets PDP Reality — <span class="accent">Mind the Gap</span></h1>
+      <p id="intro"></p>
+    </section>
+
+    <section id="panel" class="panel card">
+      <!-- React mount point -->
+      <div id="app"></div>
+    </section>
+  </main>
+
+  <footer class="footer">Built for live reviews. Drop new JSON to update.</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
