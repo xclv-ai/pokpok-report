@@ -1,40 +1,58 @@
-// Robust loader + visible errors + charts
-const $ = (q, el = document) => el.querySelector(q);
+// === app.js — Vanilla JS (no React) ===
+// Requires in index.html: <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 
-function fail(msg, err) {
+const $ = (q, el = document) => el.querySelector(q);
+const $$ = (q, el = document) => [...el.querySelectorAll(q)];
+
+function errorBox(msg) {
   const box = document.createElement("div");
-  box.style.cssText = "margin:16px;padding:12px;border:1px solid #fecaca;background:#fff1f2;color:#7f1d1d;border-radius:8px;";
+  box.style.cssText = "margin:16px;padding:12px;border:1px solid #fecaca;background:#fff1f2;color:#7f1d1d;border-radius:8px";
   box.textContent = "Error: " + msg;
   (document.querySelector(".tab-content.active") || document.body).prepend(box);
-  if (err) console.error(msg, err);
 }
 
+function parseTOV(str) {
+  if (!str) return {};
+  const out = {};
+  str.split(";").map(s => s.trim()).filter(Boolean).forEach(line => {
+    const [label, rest] = line.split(":");
+    const num = rest ? Number((rest.match(/\d+/) || [0])[0]) : 0;
+    out[(label || "Axis").trim()] = num;
+  });
+  return out;
+}
+
+function parseBAM(str) {
+  if (!str) return {};
+  const out = {};
+  (str.match(/([A-Za-z ]+)\s\((\d+)%\)/g) || []).forEach(m => {
+    const name = m.replace(/\s\(\d+%\)/, "").trim();
+    const val = Number((m.match(/\((\d+)%\)/) || [])[1]) || 0;
+    out[name] = val;
+  });
+  return out;
+}
+
+// Tabs
 document.addEventListener("DOMContentLoaded", () => {
-  // Tabs
-  document.querySelectorAll(".tab-btn").forEach(btn => {
+  $$(".tab-btn").forEach(btn => {
     btn.addEventListener("click", () => {
-      document.querySelector(".tab-btn.active")?.classList.remove("active");
+      $(".tab-btn.active")?.classList.remove("active");
       btn.classList.add("active");
-      document.querySelector(".tab-content.active")?.classList.remove("active");
+      $(".tab-content.active")?.classList.remove("active");
       document.getElementById(btn.dataset.tab)?.classList.add("active");
     });
   });
 
-  // Ensure Chart.js present
-  if (!window.Chart) {
-    fail("Chart.js did not load. Check <script src=\"https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js\"> is BEFORE app.js.");
-    return;
-  }
-
-  // Load JSON (no cache)
+  // Load JSON
   fetch("data.json", { cache: "no-store" })
-    .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+    .then(r => { if (!r.ok) throw new Error(`data.json HTTP ${r.status}`); return r.json(); })
     .then(json => {
       const r = json?.Brand_Perception_Gaps_Analysis;
-      if (!r) return fail("Missing key: Brand_Perception_Gaps_Analysis in data.json");
+      if (!r) { errorBox("Missing key: Brand_Perception_Gaps_Analysis in data.json"); return; }
       renderAll(r);
     })
-    .catch(e => fail("Could not load data.json (path/caching/.nojekyll). Try hard refresh: Cmd/Ctrl+Shift+R.", e));
+    .catch(e => errorBox("Cannot load data.json. Ensure .nojekyll exists and hard-refresh (Cmd/Ctrl+Shift+R)."));
 });
 
 function renderAll(r) {
@@ -46,39 +64,35 @@ function renderAll(r) {
 
 /* ---------- KSP ---------- */
 function renderKSP(r) {
-  const cont = $("#ksp-list"); if (!cont) return;
-  cont.innerHTML = r.key_selling_points ? `<p>${r.key_selling_points}</p>` : "<p>No KSP narrative provided.</p>";
+  const kspDiv = $("#ksp-list");
+  if (kspDiv) kspDiv.innerHTML = r.key_selling_points ? `<p>${r.key_selling_points}</p>` : "<p>No KSP narrative.</p>";
 
-  const ctx = document.getElementById("ksp-chart")?.getContext("2d");
-  if (!ctx) return;
+  const ctx = $("#ksp-chart")?.getContext("2d");
+  if (!ctx || !window.Chart) return;
+
+  // Simple count proxy so something is visual immediately
+  const targetKSP = ["Designed for specific skin tones","Accessible price point","Gradual tan","Moisturizing","Ease of use"];
+  const pdpKSP    = ["Dermatologist Recommended","Gradual tan","Moisturizing","Ease of use"];
+  const missing = targetKSP.filter(k=>!pdpKSP.includes(k)).length;
+  const extra   = pdpKSP.filter(k=>!targetKSP.includes(k)).length;
+  const shared  = pdpKSP.filter(k=>targetKSP.includes(k)).length;
+
   new Chart(ctx, {
     type: "bar",
-    data: {
-      labels: ["Missing", "Extra", "Shared"],
-      datasets: [{ data: [2, 1, 3], backgroundColor: ["#fecaca","#bbf7d0","#e5e7eb"], borderWidth: 0 }]
-    },
-    options: { plugins:{legend:{display:false}}, animation:{duration:800} }
+    data: { labels: ["Missing","Extra","Shared"], datasets: [{ data: [missing,extra,shared], backgroundColor: ["#fecaca","#bbf7d0","#e5e7eb"] }] },
+    options: { plugins:{ legend:{ display:false } }, animation:{ duration:800 }, scales:{ y:{ beginAtZero:true, ticks:{ precision:0 } } } }
   });
 }
 
-/* ---------- Tone of Voice ---------- */
-function parseTOV(str) {
-  if (!str) return {};
-  const out = {};
-  str.split(";").map(s=>s.trim()).filter(Boolean).forEach(line=>{
-    const [label, rest] = line.split(":");
-    const num = rest ? Number((rest.match(/\d+/)||[0])[0]) : 0;
-    out[(label||"Axis").trim()] = num;
-  });
-  return out;
-}
+/* ---------- Tone of Voice (sliders with dots) ---------- */
 function renderTOV(r) {
-  const wrap = document.getElementById("tov-sliders"); if (!wrap) return;
+  const wrap = $("#tov-sliders"); if (!wrap) return;
   wrap.innerHTML = "";
+
   const t = parseTOV(r.tone_of_voice_evaluation?.target_tov);
   const p = parseTOV(r.tone_of_voice_evaluation?.actual_pdp_tov);
   const axes = Object.keys(t).length ? Object.keys(t) : Object.keys(p);
-  if (!axes.length) return wrap.insertAdjacentHTML("beforeend","<p class='small'>No tone-of-voice scales found.</p>");
+  if (!axes.length) { wrap.innerHTML = "<p>No tone-of-voice scales.</p>"; return; }
 
   axes.forEach(axis => {
     const tVal = t[axis] ?? 0, pVal = p[axis] ?? 0;
@@ -94,24 +108,15 @@ function renderTOV(r) {
   });
 }
 
-/* ---------- Archetypes ---------- */
-function parseBAM(str) {
-  if (!str) return {};
-  const out = {};
-  (str.match(/([A-Za-z ]+)\s\((\d+)%\)/g) || []).forEach(m => {
-    const name = m.replace(/\s\(\d+%\)/,"").trim();
-    const val = Number((m.match(/\((\d+)%\)/)||[])[1])||0;
-    out[name] = val;
-  });
-  return out;
-}
+/* ---------- Archetypes (radar) ---------- */
 function renderArchetypes(r) {
-  const ctx = document.getElementById("archetype-chart")?.getContext("2d");
-  if (!ctx) return;
+  const ctx = $("#archetype-chart")?.getContext("2d"); if (!ctx) return;
+
   const t = parseBAM(r.brand_archetypes_mix_evaluation?.target_bam);
   const a = parseBAM(r.brand_archetypes_mix_evaluation?.actual_pdp_bam);
   const labels = [...new Set([...Object.keys(t), ...Object.keys(a)])];
-  if (!labels.length) return ctx.canvas.insertAdjacentHTML("afterend","<p class='small'>No archetype mix.</p>");
+  if (!labels.length) { ctx.canvas.insertAdjacentHTML("afterend","<p>No archetype mix.</p>"); return; }
+
   new Chart(ctx, {
     type: "radar",
     data: {
@@ -121,16 +126,29 @@ function renderArchetypes(r) {
         { label:"PDP",    data: labels.map(k=>a[k]||0), borderColor:"#feb47b", backgroundColor:"rgba(254,180,123,.25)", pointRadius:3 }
       ]
     },
-    options: { animation:{duration:900}, scales:{ r:{ suggestedMin:0, suggestedMax:100, ticks:{display:false} } } }
+    options: { animation:{ duration:900 }, scales:{ r:{ suggestedMin:0, suggestedMax:100, ticks:{ display:false } } } }
   });
 }
 
-/* ---------- Overall ---------- */
+/* ---------- Overall (scatter) ---------- */
 function renderOverall(r) {
-  const ctx = document.getElementById("overall-chart")?.getContext("2d");
-  if (!ctx) return;
+  const ctx = $("#overall-chart")?.getContext("2d"); if (!ctx) return;
+
   new Chart(ctx, {
     type: "scatter",
-    data: { datasets:[
-      { label:"Target", data:[{x:-0.4,y:0.1}], pointBackgroundColor:"#ff7e5f", pointRadius:6 },
-      { label:"PD
+    data: {
+      datasets: [
+        { label:"Target", data:[{ x:-0.4, y: 0.1 }], pointBackgroundColor:"#ff7e5f", pointRadius:6 },
+        { label:"PDP",    data:[{ x: 0.5, y:-0.3 }], pointBackgroundColor:"#111827", pointRadius:6 }
+      ]
+    },
+    options: {
+      animation:{ duration:700 },
+      scales:{
+        x:{ min:-1, max:1, title:{ display:true, text:"Relatable  ↔  Authoritative" } },
+        y:{ min:-1, max:1, title:{ display:true, text:"Playful  ↔  Serious" } }
+      },
+      plugins:{ legend:{ position:"bottom" } }
+    }
+  });
+}
