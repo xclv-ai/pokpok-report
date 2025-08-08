@@ -1,42 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Brand Perception Dashboard — PokPok</title>
-  <meta name="description" content="Target vs PDP brand perception — elegant, animated, no-build dashboard.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PokPok Brand Perception Dashboard</title>
   <link rel="stylesheet" href="styles.css" />
-  <!-- Chart.js -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-  <header class="hdr">
-    <div class="logo-dot" aria-hidden="true"></div>
-    <div class="titles">
-      <h1>Brand Perception Dashboard</h1>
-      <p class="sub">Target vs PDP — clean, animated & client-ready</p>
-    </div>
+  <header>
+    <h1>Brand Perception GAP Analysis</h1>
+    <p id="brandName"></p>
   </header>
-
-  <nav class="tabs" id="tabs">
-    <button class="tab active" data-tab="ksp">Key Selling Points</button>
-    <button class="tab" data-tab="tov">Tone of Voice</button>
-    <button class="tab" data-tab="visual">Visual Identity</button>
-    <button class="tab" data-tab="arch">Archetypes</button>
-    <button class="tab" data-tab="overall">Overall</button>
-  </nav>
-
-  <main class="wrap">
-    <section class="card intro reveal">
-      <p id="intro" class="muted"></p>
+  <main>
+    <section id="toneOfVoice">
+      <h2>Tone of Voice GAP</h2>
+      <canvas id="tovRadar"></canvas>
+      <div id="tovNarrative"></div>
     </section>
-
-    <section class="card panel reveal">
-      <div id="panel"></div>
+    <section id="archetypeMix">
+      <h2>Brand Archetype Mix</h2>
+      <canvas id="archetypeRadar"></canvas>
+    </section>
+    <section id="kspGaps">
+      <h2>Key Selling Points GAP</h2>
+      <div id="kspContent"></div>
     </section>
   </main>
-
-  <footer class="ftr">Update <code>data.json</code> to refresh content. No build required. • © PokPok</footer>
   <script src="app.js"></script>
 </body>
 </html>
