@@ -1,13 +1,268 @@
 {
-  "marker_name": "Purpose",
-  "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
-  "slider_a_value": "4/5",
-  "slider_a_position_name": "▼ Bio-Active (Plant-powered efficacy)",
-  "slider_b_label": "[SLIDER] MISSION VECTOR (The Goal)",
-  "slider_b_value": "4/5",
-  "slider_b_position_name": "▼ Enhancement (Glow, texture, feel)",
-  "territory": "The Empowerer (Psychological Uplift)",
-  "reasoning": "This isn't medicine; it's a mood shift. The authority comes from the earth—'Sustainable natural shea', '7 nourishing oils'—but the goal is pure sensory elevation. They aren't fixing a disease; they are selling a vibe. 'Vanilla Cashmere', 'Whipped', and 'Nuzzly' don't repair your skin; they upgrade your reality. Plant power + Psychological elevation = The Empowerer.",
-  "evidence": "Sustainable natural shea... 7 nourishing oils... Vanilla Cashmere... Whipped... Nuzzly... cozy, musk, sweet",
-  "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere"
+  "marker_01": {
+    "marker_name": "Purpose",
+    "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
+    "slider_a_value": "4/5",
+    "slider_a_position_name": "▼ Bio-Active (Plant-powered efficacy)",
+    "slider_b_label": "[SLIDER] MISSION VECTOR (The Goal)",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "▼ Restoration (Repairing damage)",
+    "territory": "The Harmonizer (Natural Balance)",
+    "reasoning": "The authority here doesn't come from a test tube; it comes from a nut. 'Sustainable wild-grown shea' tells the customer that nature did the hard work, and the brand just bottled it (Source: 4/5 Bio-Active). The mission isn't to change your face or save the planet; it's simply to fix the dry, itchy reality of having skin. 'Soothing protection' and '24-hour hydration' are promises of restoration, not transformation (Mission: 2/5 Restoration). Nature + Repair = The Harmonizer.",
+    "evidence": "Sustainable wild-grown shea... Soothing protection... 24-hour hydration... Instant moisture... Shea Oil + Shea Butter",
+    "evidence_src": "product_description.text_content + hero_banner.claims"
+  },
+  "marker_02": {
+    "marker_name": "Mission & Vision",
+    "slider_a_label": "[SLIDER] SCOPE OF IMPACT (The Blast Radius)",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ Optimization (General appearance/glow)",
+    "slider_b_label": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
+    "slider_b_value": "5/5",
+    "slider_b_position_name": "▼ Democratic (Universal access for everyone)",
+    "territory": "The Democratizers (Accessible Skin Health)",
+    "reasoning": "They aren't trying to colonize Mars; they just want your legs to be soft. The scope is strictly limited to making your daily routine slightly better—'Shea Better' is a promise of optimization, not revolution (Scope: 2/5 Optimization). And with a price point around $9 for 16oz and distribution everywhere, the velvet rope is non-existent. This is a club everyone can join (Access: 5/5 Democratic).",
+    "evidence": "$8.99... Shea Better... 16 fl oz... Body Lotion... 24H Moisture",
+    "evidence_src": "price_block + product_title"
+  },
+  "marker_03": {
+    "marker_name": "Values",
+    "slider_a_label": "[SLIDER] PERFORMANCE PRIORITY (The Trade-Off)",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ Gentle (Effective but comfortable)",
+    "slider_b_label": "[SLIDER] INFORMATION DENSITY (The Transparency)",
+    "slider_b_value": "3/5",
+    "slider_b_position_name": "▼ Explained (Simplified science for layman)",
+    "territory": "Safety First (The Safe Harbor)",
+    "reasoning": "When push comes to shove, this brand chooses 'Comfort' over 'Acid Burn.' 'Hypoallergenic,' 'Derma-tested,' and 'Paraben-free' are the walls of the safe harbor (Performance: 2/5 Gentle). They tell you what's in it—'7 nourishing oils'—but they don't bore you with the molecular weight. It's science explaining itself to a friend, not a peer review (Transparency: 3/5 Explained).",
+    "evidence": "Hypoallergenic... Derma-tested... Paraben-free... 7 nourishing oils + butters... Made for sensitive skin",
+    "evidence_src": "ingredients_section + claim_badges"
+  },
+  "marker_04": {
+    "marker_name": "Positioning",
+    "slider_a_label": "[SLIDER] AESTHETIC VIBE (The Uniform)",
+    "slider_a_value": "4/5",
+    "slider_a_position_name": "▼ Polished (Designed for the Shelfie)",
+    "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Price Signal)",
+    "slider_b_value": "3/5",
+    "slider_b_position_name": "▼ Masstige (Premium feel, drugstore price)",
+    "territory": "The Gentle Giant (The Family Staple)",
+    "reasoning": "The bottle is pastel purple, smooth, and photographs like a dream—it's wearing a silk robe, not a lab coat (Aesthetic: 4/5 Polished). But the price tag is pure grocery store reality. It's the 'treat' you throw in the cart next to the milk. Accessible luxury is the definition of Masstige (Value: 3/5 Masstige).",
+    "evidence": "Pastel purple bottle... Vanilla Cashmere... Whipped Body Lotion... $8.99",
+    "evidence_src": "product_image + price_display"
+  },
+  "marker_05": {
+    "marker_name": "Personality",
+    "slider_a_label": "[SLIDER] THE THERMOSTAT (Emotional Heat)",
+    "slider_a_value": "5/5",
+    "slider_a_position_name": "▼ Effusive (High energy, hugs, exclamation points)",
+    "slider_b_label": "[SLIDER] THE POWER DYNAMIC (Authority Stance)",
+    "slider_b_value": "1/5",
+    "slider_b_position_name": "▼ The BFF (Slang, equality)",
+    "territory": "The Trusted Friend (Sincerity)",
+    "reasoning": "This brand isn't just warm; it's practically hugging you through the screen. Words like 'Nuzzly,' 'Sweet,' and 'Cozy' turn the heat up to maximum (Thermostat: 5/5 Effusive). And there is zero authority here—no doctor lecturing you. It's a peer saying 'OMG you have to try this' (Power Dynamic: 1/5 The BFF).",
+    "evidence": "Sweet & nuzzly... Whipped... Cozy up... OMG... smells like warm caramel pudding",
+    "evidence_src": "product_description.intro_text + fragrance_notes"
+  },
+  "marker_06": {
+    "marker_name": "Archetypes Mix",
+    "primary": {
+      "archetype": "The Lover",
+      "group": "C (Connection)",
+      "percentage": "65%"
+    },
+    "secondary": {
+      "archetype": "The Innocent",
+      "group": "D (Knowledge)",
+      "percentage": "25%"
+    },
+    "tertiary": {
+      "archetype": "The Caregiver",
+      "group": "A (Structure)",
+      "percentage": "10%"
+    },
+    "territory": "The Uniters (Belonging & Joy)",
+    "reasoning": "This is a love letter to your skin. 'Vanilla Cashmere,' 'Nuzzly,' 'Whipped'—it's all about sensory pleasure and intimacy (Primary: The Lover). Beneath the romance is a simple, safe promise of 'Clean' and 'Sustainable' (Secondary: The Innocent). They want you to feel good and belong to the club of soft skin.",
+    "evidence": "Vanilla Cashmere... Nuzzly... Whipped... Sustainable... Clean",
+    "evidence_src": "product_title + product_description"
+  },
+  "marker_07": {
+    "marker_name": "Tone of Voice",
+    "slider_a_label": "[SLIDER] HUMOR (The Comedy Scale)",
+    "slider_a_value": "3/5",
+    "slider_a_position_name": "▼ Light (Pleasant, not trying to be funny)",
+    "slider_b_label": "[SLIDER] FORMALITY (The Dress Code)",
+    "slider_b_value": "5/5",
+    "slider_b_position_name": "▼ Slang (Internet-native, abbreviations)",
+    "slider_c_label": "[SLIDER] RESPECT (The Power Dynamic)",
+    "slider_c_value": "4/5",
+    "slider_c_position_name": "▼ Cheeky (Playful, teasing, confident)",
+    "slider_d_label": "[SLIDER] ENTHUSIASM (The Energy Level)",
+    "slider_d_value": "5/5",
+    "slider_d_position_name": "▼ Hype (Manic energy, caps, OBSESSED)",
+    "territory": "The Hype Beast (Loud & Playful)",
+    "reasoning": "'Whipped,' 'Nuzzly,' 'Caramel Pudding'—this is the vocabulary of a text message, not a medical journal (Formality: 5/5 Slang). The energy is cranked to 11; they aren't just selling lotion, they are selling an obsession (Enthusiasm: 5/5 Hype). High casualness + high energy = The Hype Beast.",
+    "evidence": "Whipped... Nuzzly... Caramel pudding... Cozy up... 24H hydration",
+    "evidence_src": "product_description + fragrance_notes"
+  },
+  "marker_08": {
+    "marker_name": "Visual Identity",
+    "slider_a_label": "[SLIDER] THE THERMOSTAT (Visual Temperature)",
+    "slider_a_value": "4/5",
+    "slider_a_position_name": "▼ Radiating (Soft, inviting, approachable)",
+    "slider_b_label": "[SLIDER] THE ENTROPY SCALE (Layout Control)",
+    "slider_b_value": "4/5",
+    "slider_b_position_name": "▼ Playful (Asymmetry, surprise elements)",
+    "territory": "Gen-Z Pop (Dopamine)",
+    "reasoning": "Pastel purples, rounded fonts, and creamy texture swatches radiate warmth—there is not a cold, clinical line in sight (Thermostat: 4/5 Radiating). The layout feels bouncy and fun, designed to trigger a dopamine hit rather than convey information efficiency (Entropy: 4/5 Playful). It's the visual equivalent of a pop song.",
+    "evidence": "Pastel purple bottle... Pink text... Creamy texture swatches... Rounded typography... Lifestyle smile shots",
+    "evidence_src": "product_gallery_images + page_design"
+  },
+  "marker_09": {
+    "marker_name": "Messaging",
+    "slider_a_label": "[SLIDER] THE HOOK TARGET (The Subject)",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ The Component (Natural/tangible subject)",
+    "slider_b_label": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
+    "slider_b_value": "4/5",
+    "slider_b_position_name": "▼ Evocative (Descriptive, sensory language)",
+    "territory": "The Alchemist (Romantic)",
+    "reasoning": "They hook you with the ingredients—'Shea,' 'Vanilla,' 'Oil'—tangible things from the earth (Hook: 2/5 Component). But they don't sell you the chemistry of shea; they sell you the romance of 'Cashmere' and 'Nuzzly.' They transmute a nut into a feeling (Persuasion: 4/5 Evocative).",
+    "evidence": "Shea... Vanilla... Oil... Cashmere... Nuzzly... Sweet",
+    "evidence_src": "product_title + product_description"
+  },
+  "marker_10": {
+    "marker_name": "Narrative",
+    "slider_a_label": "[SLIDER] THE PROTAGONIST (The Hero)",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "▼ The Nobel (Faceless PhDs, Dermatologists)",
+    "slider_b_label": "[SLIDER] THE SETTING (The Stage)",
+    "slider_b_value": "4/5",
+    "slider_b_position_name": "▼ Harvest (Farms, gardens, botanical sourcing)",
+    "territory": "The Green Lab (Optimization)",
+    "reasoning": "There is no founder story here. It's a faceless brand backed by 'Dermatologists' (Protagonist: 1/5 Nobel). But the stage is set in the wild—'Wild Grown,' 'Sustainable,' 'Harvest.' They use the authority of the garden to back up the authority of the lab (Setting: 4/5 Harvest).",
+    "evidence": "Dermatologist-tested... Wild Grown... Sustainable... Natural Shea",
+    "evidence_src": "claims_section + ingredient_story"
+  },
+  "marker_11": {
+    "marker_name": "Key Selling Points",
+    "slider_a_label": "[SLIDER] THE VALIDATOR (Who Says It Works?)",
+    "slider_a_value": "3/5",
+    "slider_a_position_name": "▼ The Certifiers (Third-party logos: EWG, PETA)",
+    "slider_b_label": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
+    "slider_b_value": "4/5",
+    "slider_b_position_name": "▼ The List (Free-from, Vegan, Clean)",
+    "territory": "Formula Purity (Safety)",
+    "reasoning": "Who says it's good? The badges say so. 'Allure Best of Beauty' and 'PETA Cruelty-Free' are the currency of trust here (Validator: 3/5 Certifiers). The proof isn't a graph; it's a checklist. 'Paraben-free,' 'Phthalate-free'—the truth is in what is ABSENT, not what is present (Proof: 4/5 The List).",
+    "evidence": "Allure Best of Beauty... PETA Cruelty-Free... Paraben-free... Phthalate-free",
+    "evidence_src": "badges_section + product_details"
+  },
+  "marker_12": {
+    "marker_name": "USP",
+    "slider_a_label": "[SLIDER] THE OWNERSHIP OBJECT (What You Claim to Own)",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ The Hero (Owned mental link)",
+    "slider_b_label": "[SLIDER] THE TARGET SCOPE (How Wide Is The Net?)",
+    "slider_b_value": "3/5",
+    "slider_b_position_name": "▼ The Category (General face cream)",
+    "territory": "The Ingredient King (Raw Material)",
+    "reasoning": "The USP is right in the name: 'Shea Better.' They are staking a claim on Shea butter as their territory (Ownership: 2/5 The Hero). The scope is as broad as it gets—body lotion for everyone. They aren't solving a niche disease; they are solving dry skin for the masses (Scope: 3/5 Category).",
+    "evidence": "Shea Better... Shea Oil... Shea Butter... Body Lotion",
+    "evidence_src": "product_title + hero_text"
+  },
+  "marker_13": {
+    "marker_name": "Focus",
+    "slider_a_label": "[SLIDER] THE DEPTH GAUGE (Content Purpose)",
+    "slider_a_value": "4/5",
+    "slider_a_position_name": "▼ The Editorial (Styled shots, models, textures)",
+    "slider_b_label": "[SLIDER] THE INTENT VECTOR (Content Goal)",
+    "slider_b_value": "4/5",
+    "slider_b_position_name": "▼ The Pitch (Benefits, value props)",
+    "territory": "Lifestyle Aesthetic (Desire)",
+    "reasoning": "They don't teach you biology; they show you a mood. The content is dominated by creamy textures and styled shots (Depth: 4/5 Editorial). The goal isn't to prove a thesis but to close the deal with benefit-driven hooks like '24-hour hydration' (Intent: 4/5 The Pitch).",
+    "evidence": "Texture close-ups... Styled bottle shots... 24-hour hydration... Soft skin",
+    "evidence_src": "image_gallery + benefit_bullets"
+  },
+  "marker_14": {
+    "marker_name": "Functional Benefits",
+    "slider_a_label": "[SLIDER] THE ACTION VECTOR (The Mechanism)",
+    "slider_a_value": "4/5",
+    "slider_a_position_name": "▼ The Healer (Soothes irritation/redness)",
+    "slider_b_label": "[SLIDER] THE OUTCOME TARGET (The Goal)",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "▼ Sensory (Softness, relief from tightness)",
+    "territory": "Restoration (Recovery)",
+    "reasoning": "Functionally, this is a repair crew. 'Soothing' and 'Protection' imply that your skin is currently under attack or broken (Action: 4/5 The Healer). The result isn't looking younger; it's feeling softer. It's a tactile payoff, not a visual one (Outcome: 2/5 Sensory).",
+    "evidence": "Soothing protection... Instant moisture... Soft skin... Relief",
+    "evidence_src": "product_benefits"
+  },
+  "marker_15": {
+    "marker_name": "Emotional Benefits",
+    "slider_a_label": "[SLIDER] THE ANXIETY AXIS (The Emotional Direction)",
+    "slider_a_value": "4/5",
+    "slider_a_position_name": "▼ Delight (A pleasant surprise/smell)",
+    "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS (The Audience)",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "▼ Comfort (I feel normal again)",
+    "territory": "Indulgence (Pleasure)",
+    "reasoning": "They sell dopamine. 'Vanilla Cashmere' and 'Sweet' are designed to trigger a moment of joy, not just relief (Anxiety: 4/5 Delight). It's a private moment—'Nuzzly' implies a feeling you keep to yourself or share intimately, not broadcast to the world (Self-Perception: 2/5 Comfort).",
+    "evidence": "Vanilla Cashmere... Sweet... Nuzzly... Cozy up",
+    "evidence_src": "fragrance_description"
+  },
+  "marker_16": {
+    "marker_name": "Self-Expression",
+    "slider_a_label": "[SLIDER] THE SIGNAL DRIVER (Purchase Motivation)",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ The Smart Choice (I buy it because it makes sense)",
+    "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION (Social Position)",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "▼ The Trending (What is currently hot/viral)",
+    "territory": "The Pragmatist (Rationality)",
+    "reasoning": "You buy this because it works and it's $9. It's a rational calculation dressed up in fun colors (Signal: 2/5 Smart Choice). Socially, you are joining the 'Trending' crowd—millions of people use this. It's popular, not niche (Tribal: 2/5 Trending).",
+    "evidence": "$8.99... Allure Best of Beauty... 5000+ reviews",
+    "evidence_src": "price + reviews + badges"
+  },
+  "marker_17": {
+    "marker_name": "Social Benefits",
+    "slider_a_label": "[SLIDER] THE SOCIAL VECTOR (Social Goal)",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ Acceptance (I want to be accepted by the group)",
+    "slider_b_label": "[SLIDER] THE GROUP DYNAMIC (Tribal Scale)",
+    "slider_b_value": "1/5",
+    "slider_b_position_name": "▼ The Majority (What most people use)",
+    "territory": "The Safe Choice (Belonging)",
+    "reasoning": "Nobody gets fired for buying eos. It's the 'Safe Choice' because everyone else has already vetted it (Social Vector: 2/5 Acceptance). It connects you to the massive majority of consumers who just want good lotion without the fuss (Group Dynamic: 1/5 The Majority).",
+    "evidence": "Allure Best of Beauty... Dermatologist-tested... Global rating count",
+    "evidence_src": "badges + review_count"
+  },
+  "brand": "eos (Evolution of Smooth)",
+  "product_title": "Shea Better Body Lotion - Vanilla Cashmere",
+  "overall_perception_summary": {
+    "headline": "The Sensual Democratizer",
+    "description": "eos takes the codes of luxury (cashmere, vanilla, rituals) and sells them at a grocery store price point. It feels like a 'hack'—a way to get a premium sensory experience without the premium price tag. It plays the role of the fun, reliable best friend who knows exactly what you need to feel better right now."
+  },
+  "category_summaries": {
+    "foundation": {
+      "title": "The Gentle Democratizer",
+      "description": "The brand rejects clinical stiffness to position itself as a Harmonizer, using Shea butter to restore balance rather than force change. By adopting a Masstige strategy, it democratizes the concept of 'Ritual Body Care' into a $9 Daily Essential. It proves that safety and efficacy don't have to be boring or expensive."
+    },
+    "identity": {
+      "title": "The Intimate Pop-Star",
+      "description": "There is zero distance here; the brand is a 'Nuzzly' Lover (65%) that whispers (and sometimes shouts) about how good you smell. Visually, it uses a Gen-Z Pop aesthetic—all pastels and curves—to trigger a dopamine response. The Voice is a Hype Beast, using slang and enthusiasm to break down the walls of corporate formality."
+    },
+    "communication": {
+      "title": "Sensory Alchemist",
+      "description": "The messaging bypasses the brain to aim straight for the senses, hooking you with ingredients but persuading you with Evocative feelings ('Cashmere'). As The Ingredient King of Shea, it creates a moat around a commodity. The focus is purely on Lifestyle Aesthetic—showing you the mood, not the manual."
+    },
+    "benefits": {
+      "title": "Indulgent Restoration",
+      "description": "Functionally, it is a Healer that restores hydration to parched skin. But the real payoff is Emotional Indulgence—a private moment of 'Sweet' delight in a stressful day. Socially, it offers the comfort of The Safe Choice, allowing you to signal pragmatism and trend-awareness simultaneously."
+    }
+  },
+  "quick_labels": {
+    "brand_voice": "Dopamine Bestie",
+    "visual_appeal": "Pastel Pop",
+    "value_prop": "Sensory Masstige",
+    "positioning": "Joyful Staple"
+  }
 }
