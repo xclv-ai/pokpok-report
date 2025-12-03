@@ -52,7 +52,7 @@
     "slider_b_position_name": "▼ Democratic (Universal access for everyone)",
     "territory": "The Democratizers (Accessible Skin Health)",
     "reasoning": "This isn't a crusade to save the rainforest; it's a mission to save your morning routine from boredom. The scope is purely personal optimization—making your skin feel 'soft' and 'smooth' (Scope: 2/5 Optimization). At roughly $9 for a massive bottle available at Target and Amazon, the velvet rope has been burned down. This is luxury coding sold at commodity pricing (Access: 5/5 Democratic).",
-    "evidence": "24-hour hydration... instantly saturating... $9.97... Available at Target/Amazon/Walmart",
+    "evidence": "24-hour hydration... instantly saturating... $8.99 (approx market price)... Available at Target/Amazon/Walmart",
     "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere"
   },
   "marker_3": {
@@ -78,8 +78,8 @@
     "slider_b_position_name": "▼ Masstige (Premium feel, drugstore price)",
     "territory": "The Gentle Giant (The Family Staple)",
     "reasoning": "Visually, it's candy. The pastel purple bottle, the soft curves, the 'whipped' imagery—it's designed to look good on Instagram (Aesthetic: 4/5 Polished). But the price reality is the supermarket aisle. You don't save up for eos; you throw it in the cart with the milk (Value: 3/5 Masstige). It's the friendly giant that brings aesthetic joy to the mass market.",
-    "evidence": "Pastel purple packaging... Soft curve bottle design... Whipped cream imagery... $9.97 price point",
-    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere"
+    "evidence": "Pastel purple packaging... Soft curve bottle design... Whipped cream imagery... $8-10 price point",
+    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere visual_analysis.packaging + price_point"
   },
   "marker_5": {
     "marker_name": "Personality",
@@ -92,7 +92,7 @@
     "territory": "The Trusted Friend (Sincerity)",
     "reasoning": "This brand wants to hug you. Words like 'Nuzzly,' 'Sweet cream,' and 'Cozy' create a high-warmth environment (Thermostat: 4/5 Affectionate). There is zero authority here—no doctor looking down at you. It's a peer saying, 'OMG you have to smell this.' It's the BFF in the group chat, not the specialist in the clinic.",
     "evidence": "Nuzzly... Sweet cream... Cozy... smells like... yummy... smooth",
-    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere"
+    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere product_description.tone + scent_description"
   },
   "marker_6": {
     "marker_name": "Archetypes Mix",
@@ -122,8 +122,8 @@
     "slider_a_value": "3/5",
     "slider_a_position_name": "▼ Light (Pleasant, not trying to be funny)",
     "slider_b_label": "[SLIDER] FORMALITY (The Dress Code)",
-    "slider_b_value": "5/5",
-    "slider_b_position_name": "▼ Slang (Internet-native, abbreviations)",
+    "slider_b_value": "4/5",
+    "slider_b_position_name": "▼ Conversational (Spoken style, contractions)",
     "slider_c_label": "[SLIDER] RESPECT (The Power Dynamic)",
     "slider_c_value": "4/5",
     "slider_c_position_name": "▼ Cheeky (Playful, teasing, confident)",
@@ -131,9 +131,9 @@
     "slider_d_value": "5/5",
     "slider_d_position_name": "▼ Hype (Manic energy, caps, OBSESSED)",
     "territory": "The Hype Beast (Loud & Playful)",
-    "reasoning": "The energy is cranked to 11. They aren't just describing a scent; they are 'obsessed' with it. It's 'Sooo good!' '24-hour!' The dress code is sweatpants-chic (Slang), and the respect level is Cheeky BFF. It reads like a TikTok caption, not a medical journal.",
+    "reasoning": "The energy is cranked to 11. They aren't just describing a scent; they are 'obsessed' with it. It's 'Soothing!' '24-hour!' The dress code is sweatpants-chic (Conversational), and the respect level is Cheeky BFF. It reads like a TikTok caption, not a medical journal.",
     "evidence": "Obsessed... smells like whipped frosting... Nuzzly... !... Sooo good",
-    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere"
+    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere scent_notes"
   },
   "marker_8": {
     "marker_name": "Visual Identity",
@@ -146,7 +146,25 @@
     "territory": "Gen-Z Pop (Dopamine)",
     "reasoning": "Look at the colors—pastel purple, soft pinks. It's warm and inviting (Thermostat: 4/5 Radiating). The layout isn't a rigid Swiss grid; it's dynamic, with swirls of cream, floating ingredients, and rounded fonts. It's designed to trigger a dopamine hit, mimicking the aesthetic of a candy store or a viral Instagram feed.",
     "evidence": "Pastel purple bottle... Swirls of cream... Floating vanilla beans... Rounded typography... Soft lighting",
-    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere"
+    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere",
+    "look_and_feel": "Vibrant & approachable, simple & clean; bright, contemporary aesthetics with subtle clinical credibility.",
+    "distinctive_assets": [
+      "Pink eos logo (soft, rounded)",
+      "Pastel purple bottle color",
+      "Soft, pastel backgrounds",
+      "Creamy texture photography",
+      "Allure Best of Beauty badge"
+    ],
+    "primary_palette": {
+      "colors": [
+        "#E8D4E8",
+        "#FF69B4",
+        "#FFD700",
+        "#FFFFFF",
+        "#8B4513"
+      ],
+      "description": "Predominantly soft purple and pink with yellow accent text, creating warm approachability with clean white backgrounds."
+    }
   },
   "marker_9": {
     "marker_name": "Messaging",
@@ -172,7 +190,7 @@
     "territory": "The Green Lab (Optimization)",
     "reasoning": "There is no founder hero here. The protagonist is the 'Evolution of Smooth' entity itself, backed by 'Dermatologists' (Protagonist: 1/5 Nobel). But the setting is the harvest—'Sustainable wild-grown shea.' They are taking the harvest and optimizing it in the lab for your pleasure. Science unlocking nature.",
     "evidence": "Sustainable wild-grown shea... Dermatologist recommended... Evolution of Smooth",
-    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere"
+    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere brand_story_context + ingredient_sourcing"
   },
   "marker_11": {
     "marker_name": "Key Selling Points",
@@ -185,20 +203,20 @@
     "territory": "Sensory Experience (Pleasure)",
     "reasoning": "While they flash an Allure badge, the real validation comes from the 'Fans'—the viral reputation. But the ultimate proof isn't a chart; it's the 'Feel.' The text spends 80% of its time describing the 'whipped' texture and the 'cashmere' scent. If it feels good, it works. That's the logic.",
     "evidence": "Whipped... absorption... non-greasy... smells like... soft skin... Allure Best of Beauty",
-    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere"
+    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere awards_badges"
   },
   "marker_12": {
     "marker_name": "USP",
     "slider_a_label": "[SLIDER] THE OWNERSHIP OBJECT (What You Claim to Own)",
     "slider_a_value": "2/5",
-    "slider_a_position_name": "▼ The Hero (Owned mental link)",
+    "slider_a_position_name": "▼ The Hero (Owned mental link: 'We are the Oat brand')",
     "slider_b_label": "[SLIDER] THE TARGET SCOPE (How Wide Is The Net?)",
     "slider_b_value": "3/5",
     "slider_b_position_name": "▼ The Category (General face cream)",
     "territory": "The Ingredient King (Raw Material)",
     "reasoning": "They are staking their claim on one word: Shea. It's in the name 'Shea Better.' They want to own the mental link between 'Shea' and 'Smooth' (Ownership: 2/5 Hero). The scope is broad—body lotion for everyone. They aren't niche; they want to be the King of Shea in the mass market.",
     "evidence": "Shea Better... Shea Oil... Shea Butter... Instant moisture",
-    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere"
+    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere product_name + primary_benefit"
   },
   "marker_13": {
     "marker_name": "Focus",
@@ -211,7 +229,7 @@
     "territory": "Lifestyle Aesthetic (Desire)",
     "reasoning": "The page is a mood board. It's not teaching you about lipid barriers; it's showing you swirls of cream and vanilla beans in soft lighting. It creates a visual desire (Depth: 4/5 Editorial). The intent is a Pitch—selling the dream of smelling like a cupcake and feeling like silk.",
     "evidence": "Stylized cream swirls... Vanilla bean imagery... Soft focus photography... Lifestyle context",
-    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere"
+    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere visual_analysis.gallery + page_layout"
   },
   "marker_14": {
     "marker_name": "Functional Benefits",
@@ -237,7 +255,7 @@
     "territory": "Indulgence (Pleasure)",
     "reasoning": "This is a dopamine hit. You don't buy 'Vanilla Cashmere' for safety; you buy it for Delight. It turns a chore (lotioning) into a treat (Anxiety: 4/5 Delight). But it's a private treat—a 'Sanctuary' moment in your bathroom where you smell good for yourself, not necessarily for the red carpet.",
     "evidence": "Vanilla Cashmere... sweet caramel... cozy... treat yourself... nuzzly",
-    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere"
+    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere scent_profile + emotional_keywords"
   },
   "marker_16": {
     "marker_name": "Self-Expression",
@@ -249,8 +267,8 @@
     "slider_b_position_name": "▼ The Trending (What is currently hot/viral)",
     "territory": "The Trend-Setter (Relevance)",
     "reasoning": "Buying eos is a rational choice ($9) that signals you are plugged into the 'cool' internet aesthetic. It's The Smart Choice because it's cheap, but it's The Trending choice because it's viral. You aren't buying it to be elite; you're buying it to be relevant and chemically smart with your money.",
-    "evidence": "$9.97 price point... Viral reputation... Contemporary aesthetic... Award winner",
-    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere"
+    "evidence": "$8.99 price point... Viral reputation... Contemporary aesthetic... Award winner",
+    "evidence_src": "https://evolutionofsmooth.com/products/shea-better-body-lotion-vanilla-cashmere visual_style"
   },
   "marker_17": {
     "marker_name": "Social Benefits",
