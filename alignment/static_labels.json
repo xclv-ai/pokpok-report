@@ -1,5 +1,5 @@
 {
-  "version": "1.5.0",
+  "version": "1.6.0",
   "last_updated": "2025-12-10",
   "source": "FOUNDATION/IDENTITY/COMMUNICATION/BENEFITS MARKERS EVALUATION RULES system prompt",
   "binding_guide": {
@@ -19,11 +19,11 @@
           "left_label": "Clinical Lab",
           "right_label": "Natural Wisdom",
           "positions": [
-            { "score": "1/5", "name": "Pure Clinical", "description": "Sterile, molecular, synthetic" },
-            { "score": "2/5", "name": "Derm-Validated", "description": "White coat authority" },
-            { "score": "3/5", "name": "Hybrid Science", "description": "Nature refined by lab" },
-            { "score": "4/5", "name": "Bio-Active", "description": "Plant-powered efficacy" },
-            { "score": "5/5", "name": "Raw Nature", "description": "The Garden / The Source" }
+            { "score": "1/5", "name": "▼ Pure Clinical (Sterile, molecular, synthetic)" },
+            { "score": "2/5", "name": "▼ Derm-Validated (White coat authority)" },
+            { "score": "3/5", "name": "▼ Hybrid Science (Nature refined by lab)" },
+            { "score": "4/5", "name": "▼ Bio-Active (Plant-powered efficacy)" },
+            { "score": "5/5", "name": "▼ Raw Nature (The Garden / The Source)" }
           ]
         },
         {
@@ -32,11 +32,11 @@
           "left_label": "Fixing Problems",
           "right_label": "Elevating Aesthetics",
           "positions": [
-            { "score": "1/5", "name": "Pathology Cure", "description": "Treating disease/symptoms" },
-            { "score": "2/5", "name": "Restoration", "description": "Repairing damage" },
-            { "score": "3/5", "name": "Maintenance", "description": "Daily health/Protection" },
-            { "score": "4/5", "name": "Enhancement", "description": "Glow, texture, feel" },
-            { "score": "5/5", "name": "Transformation", "description": "Joy, vibe, psychology" }
+            { "score": "1/5", "name": "▼ Pathology Cure (Treating disease/symptoms)" },
+            { "score": "2/5", "name": "▼ Restoration (Repairing damage)" },
+            { "score": "3/5", "name": "▼ Maintenance (Daily health/Protection)" },
+            { "score": "4/5", "name": "▼ Enhancement (Glow, texture, feel)" },
+            { "score": "5/5", "name": "▼ Transformation (Joy, vibe, psychology)" }
           ]
         }
       ],
@@ -74,11 +74,11 @@
           "left_label": "Individual Skin Health",
           "right_label": "Global / Societal Impact",
           "positions": [
-            { "score": "1/5", "name": "Micro-Correction", "description": "Fixing specific pathologies" },
-            { "score": "2/5", "name": "Optimization", "description": "General appearance/glow" },
-            { "score": "3/5", "name": "Lifestyle", "description": "Routine and wellness habits" },
-            { "score": "4/5", "name": "Industry Reform", "description": "Changing beauty standards" },
-            { "score": "5/5", "name": "The Crusade", "description": "Saving the Earth/Society" }
+            { "score": "1/5", "name": "▼ Micro-Correction (Fixing specific pathologies)" },
+            { "score": "2/5", "name": "▼ Optimization (General appearance/glow)" },
+            { "score": "3/5", "name": "▼ Lifestyle (Routine and wellness habits)" },
+            { "score": "4/5", "name": "▼ Industry Reform (Changing beauty standards)" },
+            { "score": "5/5", "name": "▼ The Crusade (Saving the Earth/Society)" }
           ]
         },
         {
@@ -87,11 +87,11 @@
           "left_label": "Exclusive / Premium",
           "right_label": "Mass / Democratic",
           "positions": [
-            { "score": "1/5", "name": "The Velvet Rope", "description": "Gatekept by price or license" },
-            { "score": "2/5", "name": "Aspirational", "description": "High status, expensive investment" },
-            { "score": "3/5", "name": "Selective", "description": "Requires education to appreciate" },
-            { "score": "4/5", "name": "Approachable", "description": "Easy to find, easy to buy" },
-            { "score": "5/5", "name": "Democratic", "description": "Universal access for everyone" }
+            { "score": "1/5", "name": "▼ The Velvet Rope (Gatekept by price or license)" },
+            { "score": "2/5", "name": "▼ Aspirational (High status, expensive investment)" },
+            { "score": "3/5", "name": "▼ Selective (Requires education to appreciate)" },
+            { "score": "4/5", "name": "▼ Approachable (Easy to find, easy to buy)" },
+            { "score": "5/5", "name": "▼ Democratic (Universal access for everyone)" }
           ]
         }
       ],
@@ -129,11 +129,11 @@
           "left_label": "Safety / Tolerance",
           "right_label": "Potency / Results",
           "positions": [
-            { "score": "1/5", "name": "Hypoallergenic", "description": "Do no harm" },
-            { "score": "2/5", "name": "Gentle", "description": "Effective but comfortable" },
-            { "score": "3/5", "name": "Balanced", "description": "Standard trade-off" },
-            { "score": "4/5", "name": "High-Performance", "description": "Actives take the lead" },
-            { "score": "5/5", "name": "Aggressive", "description": "Clinical strength" }
+            { "score": "1/5", "name": "▼ Hypoallergenic (Do no harm)" },
+            { "score": "2/5", "name": "▼ Gentle (Effective but comfortable)" },
+            { "score": "3/5", "name": "▼ Balanced (Standard trade-off)" },
+            { "score": "4/5", "name": "▼ High-Performance (Actives take the lead)" },
+            { "score": "5/5", "name": "▼ Aggressive (Clinical strength)" }
           ]
         },
         {
@@ -142,11 +142,11 @@
           "left_label": "Radical Honesty (Data)",
           "right_label": "Curated Mystique (Brand)",
           "positions": [
-            { "score": "1/5", "name": "The Spec Sheet", "description": "Exact percentages, pH, sourcing" },
-            { "score": "2/5", "name": "Evidence-First", "description": "Charts, diagrams, studies" },
-            { "score": "3/5", "name": "Explained", "description": "Simplified science for layman" },
-            { "score": "4/5", "name": "Story-First", "description": "Focus on legend or vibe" },
-            { "score": "5/5", "name": "The Black Box", "description": "Trust our secret complex" }
+            { "score": "1/5", "name": "▼ The Spec Sheet (Exact percentages, pH, sourcing)" },
+            { "score": "2/5", "name": "▼ Evidence-First (Charts, diagrams, studies)" },
+            { "score": "3/5", "name": "▼ Explained (Simplified science for layman)" },
+            { "score": "4/5", "name": "▼ Story-First (Focus on legend or vibe)" },
+            { "score": "5/5", "name": "▼ The Black Box (Trust our secret complex)" }
           ]
         }
       ],
@@ -184,11 +184,11 @@
           "left_label": "Sterile / Medical",
           "right_label": "Aesthetic / Lifestyle",
           "positions": [
-            { "score": "1/5", "name": "Clinical Sterile", "description": "Zero emotion" },
-            { "score": "2/5", "name": "Professional", "description": "Clean and serious" },
-            { "score": "3/5", "name": "Balanced", "description": "Science meets design" },
-            { "score": "4/5", "name": "Polished", "description": "Designed for the Shelfie" },
-            { "score": "5/5", "name": "High Fashion", "description": "Artistic, abstract" }
+            { "score": "1/5", "name": "▼ Clinical Sterile (Zero emotion)" },
+            { "score": "2/5", "name": "▼ Professional (Clean and serious)" },
+            { "score": "3/5", "name": "▼ Balanced (Science meets design)" },
+            { "score": "4/5", "name": "▼ Polished (Designed for the Shelfie)" },
+            { "score": "5/5", "name": "▼ High Fashion (Artistic, abstract)" }
           ]
         },
         {
@@ -197,11 +197,11 @@
           "left_label": "Utilitarian / Value",
           "right_label": "Prestige / Luxury",
           "positions": [
-            { "score": "1/5", "name": "Bulk Utility", "description": "Commodity pricing" },
-            { "score": "2/5", "name": "Daily Essential", "description": "Reliable staple" },
-            { "score": "3/5", "name": "Masstige", "description": "Premium feel, drugstore price" },
-            { "score": "4/5", "name": "Aspirational", "description": "An investment" },
-            { "score": "5/5", "name": "Ultra-Luxury", "description": "Status symbol" }
+            { "score": "1/5", "name": "▼ Bulk Utility (Commodity pricing)" },
+            { "score": "2/5", "name": "▼ Daily Essential (Reliable staple)" },
+            { "score": "3/5", "name": "▼ Masstige (Premium feel, drugstore price)" },
+            { "score": "4/5", "name": "▼ Aspirational (An investment)" },
+            { "score": "5/5", "name": "▼ Ultra-Luxury (Status symbol)" }
           ]
         }
       ],
@@ -239,11 +239,11 @@
           "left_label": "Stoic / Clinical (Cold)",
           "right_label": "Nurturing / Human (Warm)",
           "positions": [
-            { "score": "1/5", "name": "Robotic", "description": "Zero emotion" },
-            { "score": "2/5", "name": "Distant", "description": "Professional, polite" },
-            { "score": "3/5", "name": "Pleasant", "description": "Standard corporate friendliness" },
-            { "score": "4/5", "name": "Affectionate", "description": "Uses Love, emojis, softness" },
-            { "score": "5/5", "name": "Effusive", "description": "High energy, hugs, exclamation points" }
+            { "score": "1/5", "name": "▼ Robotic (Zero emotion)" },
+            { "score": "2/5", "name": "▼ Distant (Professional, polite)" },
+            { "score": "3/5", "name": "▼ Pleasant (Standard corporate friendliness)" },
+            { "score": "4/5", "name": "▼ Affectionate (Uses Love, emojis, softness)" },
+            { "score": "5/5", "name": "▼ Effusive (High energy, hugs, exclamation points)" }
           ]
         },
         {
@@ -252,11 +252,11 @@
           "left_label": "Peer / Relatable",
           "right_label": "Expert / Authoritative",
           "positions": [
-            { "score": "1/5", "name": "The BFF", "description": "Slang, equality" },
-            { "score": "2/5", "name": "The Insider", "description": "Cool, knowing" },
-            { "score": "3/5", "name": "The Guide", "description": "Helpful but leads" },
-            { "score": "4/5", "name": "The Specialist", "description": "Highly educated" },
-            { "score": "5/5", "name": "The Deity", "description": "Unquestionable authority" }
+            { "score": "1/5", "name": "▼ The BFF (Slang, equality)" },
+            { "score": "2/5", "name": "▼ The Insider (Cool, knowing)" },
+            { "score": "3/5", "name": "▼ The Guide (Helpful but leads)" },
+            { "score": "4/5", "name": "▼ The Specialist (Highly educated)" },
+            { "score": "5/5", "name": "▼ The Deity (Unquestionable authority)" }
           ]
         }
       ],
@@ -339,11 +339,11 @@
           "left_label": "Serious",
           "right_label": "Funny",
           "positions": [
-            { "score": "1/5", "name": "Grave", "description": "Solemn, warning-like" },
-            { "score": "2/5", "name": "Serious", "description": "No jokes, strictly business" },
-            { "score": "3/5", "name": "Light", "description": "Pleasant, not trying to be funny" },
-            { "score": "4/5", "name": "Witty", "description": "Clever wordplay, puns" },
-            { "score": "5/5", "name": "Hilarious", "description": "Memes, sarcasm, lol-driven" }
+            { "score": "1/5", "name": "▼ Grave (Solemn, warning-like)" },
+            { "score": "2/5", "name": "▼ Serious (No jokes, strictly business)" },
+            { "score": "3/5", "name": "▼ Light (Pleasant, not trying to be funny)" },
+            { "score": "4/5", "name": "▼ Witty (Clever wordplay, puns)" },
+            { "score": "5/5", "name": "▼ Hilarious (Memes, sarcasm, lol-driven)" }
           ]
         },
         {
@@ -352,11 +352,11 @@
           "left_label": "Formal",
           "right_label": "Casual",
           "positions": [
-            { "score": "1/5", "name": "Academic", "description": "Complex vocabulary, textbook" },
-            { "score": "2/5", "name": "Traditional", "description": "Corporate, proper grammar" },
-            { "score": "3/5", "name": "Professional", "description": "Clean, standard English" },
-            { "score": "4/5", "name": "Conversational", "description": "Spoken style, contractions" },
-            { "score": "5/5", "name": "Slang", "description": "Internet-native, abbreviations" }
+            { "score": "1/5", "name": "▼ Academic (Complex vocabulary, textbook)" },
+            { "score": "2/5", "name": "▼ Traditional (Corporate, proper grammar)" },
+            { "score": "3/5", "name": "▼ Professional (Clean, standard English)" },
+            { "score": "4/5", "name": "▼ Conversational (Spoken style, contractions)" },
+            { "score": "5/5", "name": "▼ Slang (Internet-native, abbreviations)" }
           ]
         },
         {
@@ -365,11 +365,11 @@
           "left_label": "Respectful",
           "right_label": "Irreverent",
           "positions": [
-            { "score": "1/5", "name": "Deferential", "description": "Servile, client on pedestal" },
-            { "score": "2/5", "name": "Respectful", "description": "Polite, courteous, careful" },
-            { "score": "3/5", "name": "Neutral", "description": "Direct, neither rude nor fawning" },
-            { "score": "4/5", "name": "Cheeky", "description": "Playful, teasing, confident" },
-            { "score": "5/5", "name": "Provocative", "description": "Shocking, edgy, bold" }
+            { "score": "1/5", "name": "▼ Deferential (Servile, client on pedestal)" },
+            { "score": "2/5", "name": "▼ Respectful (Polite, courteous, careful)" },
+            { "score": "3/5", "name": "▼ Neutral (Direct, neither rude nor fawning)" },
+            { "score": "4/5", "name": "▼ Cheeky (Playful, teasing, confident)" },
+            { "score": "5/5", "name": "▼ Provocative (Shocking, edgy, bold)" }
           ]
         },
         {
@@ -378,11 +378,11 @@
           "left_label": "Matter-of-Fact",
           "right_label": "Enthusiastic",
           "positions": [
-            { "score": "1/5", "name": "Clinical", "description": "Zero emotion, pure data" },
-            { "score": "2/5", "name": "Dry", "description": "Just the facts, concise" },
-            { "score": "3/5", "name": "Helpful", "description": "Encouraging, positive" },
-            { "score": "4/5", "name": "Excited", "description": "Exclamation points, adjectives" },
-            { "score": "5/5", "name": "Hype", "description": "Manic energy, caps, OBSESSED" }
+            { "score": "1/5", "name": "▼ Clinical (Zero emotion, pure data)" },
+            { "score": "2/5", "name": "▼ Dry (Just the facts, concise)" },
+            { "score": "3/5", "name": "▼ Helpful (Encouraging, positive)" },
+            { "score": "4/5", "name": "▼ Excited (Exclamation points, adjectives)" },
+            { "score": "5/5", "name": "▼ Hype (Manic energy, caps, OBSESSED)" }
           ]
         }
       ],
@@ -420,11 +420,11 @@
           "left_label": "Cold (Clinical)",
           "right_label": "Warm (Sensory)",
           "positions": [
-            { "score": "1/5", "name": "Sterile", "description": "Hospital white, cool blue" },
-            { "score": "2/5", "name": "Cool", "description": "Clean, distant, professional" },
-            { "score": "3/5", "name": "Neutral", "description": "Neither warm nor cold" },
-            { "score": "4/5", "name": "Radiating", "description": "Soft, inviting, approachable" },
-            { "score": "5/5", "name": "Hot", "description": "Saturated, sensory, tactile" }
+            { "score": "1/5", "name": "▼ Sterile (Hospital white, cool blue)" },
+            { "score": "2/5", "name": "▼ Cool (Clean, distant, professional)" },
+            { "score": "3/5", "name": "▼ Neutral (Neither warm nor cold)" },
+            { "score": "4/5", "name": "▼ Radiating (Soft, inviting, approachable)" },
+            { "score": "5/5", "name": "▼ Hot (Saturated, sensory, tactile)" }
           ]
         },
         {
@@ -433,11 +433,11 @@
           "left_label": "Minimalist (Control)",
           "right_label": "Expressive (Chaos)",
           "positions": [
-            { "score": "1/5", "name": "Swiss Grid", "description": "Rigid structure, negative space" },
-            { "score": "2/5", "name": "Structured", "description": "Orderly, predictable hierarchy" },
-            { "score": "3/5", "name": "Dynamic", "description": "Balanced movement and structure" },
-            { "score": "4/5", "name": "Playful", "description": "Asymmetry, surprise elements" },
-            { "score": "5/5", "name": "Anarchic", "description": "No rules, maximum expression" }
+            { "score": "1/5", "name": "▼ Swiss Grid (Rigid structure, negative space)" },
+            { "score": "2/5", "name": "▼ Structured (Orderly, predictable hierarchy)" },
+            { "score": "3/5", "name": "▼ Dynamic (Balanced movement and structure)" },
+            { "score": "4/5", "name": "▼ Playful (Asymmetry, surprise elements)" },
+            { "score": "5/5", "name": "▼ Anarchic (No rules, maximum expression)" }
           ]
         }
       ],
@@ -489,11 +489,11 @@
           "left_label": "Ingredient Name",
           "right_label": "End Benefit",
           "positions": [
-            { "score": "1/5", "name": "The Molecule", "description": "Chemical subject" },
-            { "score": "2/5", "name": "The Component", "description": "Natural/tangible subject" },
-            { "score": "3/5", "name": "The Feature", "description": "Action subject" },
-            { "score": "4/5", "name": "The Result", "description": "Effect subject" },
-            { "score": "5/5", "name": "The Dream", "description": "Identity subject" }
+            { "score": "1/5", "name": "▼ The Molecule (Chemical subject)" },
+            { "score": "2/5", "name": "▼ The Component (Natural/tangible subject)" },
+            { "score": "3/5", "name": "▼ The Feature (Action subject)" },
+            { "score": "4/5", "name": "▼ The Result (Effect subject)" },
+            { "score": "5/5", "name": "▼ The Dream (Identity subject)" }
           ]
         },
         {
@@ -502,11 +502,11 @@
           "left_label": "Rational / Data",
           "right_label": "Emotional / Vibes",
           "positions": [
-            { "score": "1/5", "name": "Raw Data", "description": "Charts, percentages, clinically proven" },
-            { "score": "2/5", "name": "Rational", "description": "Logical cause-and-effect" },
-            { "score": "3/5", "name": "Balanced", "description": "Facts with nice tone" },
-            { "score": "4/5", "name": "Evocative", "description": "Descriptive, sensory language" },
-            { "score": "5/5", "name": "Pure Vibes", "description": "Abstract, poetic, mood-driven" }
+            { "score": "1/5", "name": "▼ Raw Data (Charts, percentages, clinically proven)" },
+            { "score": "2/5", "name": "▼ Rational (Logical cause-and-effect)" },
+            { "score": "3/5", "name": "▼ Balanced (Facts with nice tone)" },
+            { "score": "4/5", "name": "▼ Evocative (Descriptive, sensory language)" },
+            { "score": "5/5", "name": "▼ Pure Vibes (Abstract, poetic, mood-driven)" }
           ]
         }
       ],
@@ -544,11 +544,11 @@
           "left_label": "The Scientist",
           "right_label": "The Founder / Sufferer",
           "positions": [
-            { "score": "1/5", "name": "The Nobel", "description": "Faceless PhDs, Dermatologists" },
-            { "score": "2/5", "name": "The Professional", "description": "Estheticians, Industry Insiders" },
-            { "score": "3/5", "name": "The Partnership", "description": "Founder + Doctor collab" },
-            { "score": "4/5", "name": "The Visionary", "description": "Founder with a dream" },
-            { "score": "5/5", "name": "The Survivor", "description": "Founder who cured own pain" }
+            { "score": "1/5", "name": "▼ The Nobel (Faceless PhDs, Dermatologists)" },
+            { "score": "2/5", "name": "▼ The Professional (Estheticians, Industry Insiders)" },
+            { "score": "3/5", "name": "▼ The Partnership (Founder + Doctor collab)" },
+            { "score": "4/5", "name": "▼ The Visionary (Founder with a dream)" },
+            { "score": "5/5", "name": "▼ The Survivor (Founder who cured own pain)" }
           ]
         },
         {
@@ -557,11 +557,11 @@
           "left_label": "The Lab",
           "right_label": "The Source",
           "positions": [
-            { "score": "1/5", "name": "Sterile", "description": "Test tubes, molecules, clean rooms" },
-            { "score": "2/5", "name": "Tech-Forward", "description": "Biotech, cold-press machinery" },
-            { "score": "3/5", "name": "Studio", "description": "Kitchen table, salon, atelier" },
-            { "score": "4/5", "name": "Harvest", "description": "Farms, gardens, botanical sourcing" },
-            { "score": "5/5", "name": "Wild", "description": "Glaciers, volcanoes, ancient springs" }
+            { "score": "1/5", "name": "▼ Sterile (Test tubes, molecules, clean rooms)" },
+            { "score": "2/5", "name": "▼ Tech-Forward (Biotech, cold-press machinery)" },
+            { "score": "3/5", "name": "▼ Studio (Kitchen table, salon, atelier)" },
+            { "score": "4/5", "name": "▼ Harvest (Farms, gardens, botanical sourcing)" },
+            { "score": "5/5", "name": "▼ Wild (Glaciers, volcanoes, ancient springs)" }
           ]
         }
       ],
@@ -599,11 +599,11 @@
           "left_label": "Authority (Doctors)",
           "right_label": "Community (Peers)",
           "positions": [
-            { "score": "1/5", "name": "The Board", "description": "Dermatologist developed/recommended" },
-            { "score": "2/5", "name": "The Lab", "description": "Scientists, Estheticians" },
-            { "score": "3/5", "name": "The Certifiers", "description": "Third-party logos: EWG, PETA" },
-            { "score": "4/5", "name": "The Users", "description": "Percentage of users who agree" },
-            { "score": "5/5", "name": "The Fans", "description": "Viral TikToks, 5-star review counts" }
+            { "score": "1/5", "name": "▼ The Board (Dermatologist developed/recommended)" },
+            { "score": "2/5", "name": "▼ The Lab (Scientists, Estheticians)" },
+            { "score": "3/5", "name": "▼ The Certifiers (Third-party logos: EWG, PETA)" },
+            { "score": "4/5", "name": "▼ The Users (Percentage of users who agree)" },
+            { "score": "5/5", "name": "▼ The Fans (Viral TikToks, 5-star review counts)" }
           ]
         },
         {
@@ -612,11 +612,11 @@
           "left_label": "Clinical Study",
           "right_label": "Lifestyle Attribute",
           "positions": [
-            { "score": "1/5", "name": "The Graph", "description": "Instrumental studies, molecular charts" },
-            { "score": "2/5", "name": "The Stat", "description": "95% saw reduction in acne" },
-            { "score": "3/5", "name": "The Visual", "description": "Before & After photos" },
-            { "score": "4/5", "name": "The List", "description": "Free-from, Vegan, Clean" },
-            { "score": "5/5", "name": "The Feel", "description": "Focus on texture, scent, absorption" }
+            { "score": "1/5", "name": "▼ The Graph (Instrumental studies, molecular charts)" },
+            { "score": "2/5", "name": "▼ The Stat (95% saw reduction in acne)" },
+            { "score": "3/5", "name": "▼ The Visual (Before & After photos)" },
+            { "score": "4/5", "name": "▼ The List (Free-from, Vegan, Clean)" },
+            { "score": "5/5", "name": "▼ The Feel (Focus on texture, scent, absorption)" }
           ]
         }
       ],
@@ -654,11 +654,11 @@
           "left_label": "The Ingredient",
           "right_label": "The Lifestyle",
           "positions": [
-            { "score": "1/5", "name": "The Molecule", "description": "Owns a specific active ingredient" },
-            { "score": "2/5", "name": "The Method", "description": "Owns a proprietary process" },
-            { "score": "3/5", "name": "The Benefit", "description": "Owns a specific outcome" },
-            { "score": "4/5", "name": "The Audience", "description": "Owns a customer segment" },
-            { "score": "5/5", "name": "The Movement", "description": "Owns a cultural identity" }
+            { "score": "1/5", "name": "▼ The Molecule (Owns a specific active ingredient)" },
+            { "score": "2/5", "name": "▼ The Method (Owns a proprietary process)" },
+            { "score": "3/5", "name": "▼ The Benefit (Owns a specific outcome)" },
+            { "score": "4/5", "name": "▼ The Audience (Owns a customer segment)" },
+            { "score": "5/5", "name": "▼ The Movement (Owns a cultural identity)" }
           ]
         },
         {
@@ -667,11 +667,11 @@
           "left_label": "Whispered (Implied)",
           "right_label": "Screamed (Explicit)",
           "positions": [
-            { "score": "1/5", "name": "The Hint", "description": "Implied through design" },
-            { "score": "2/5", "name": "The Suggestion", "description": "Soft copy mentions" },
-            { "score": "3/5", "name": "The Statement", "description": "Clear bullet point" },
-            { "score": "4/5", "name": "The Headline", "description": "Leads with the claim" },
-            { "score": "5/5", "name": "The War Cry", "description": "Entire identity built on claim" }
+            { "score": "1/5", "name": "▼ The Hint (Implied through design)" },
+            { "score": "2/5", "name": "▼ The Suggestion (Soft copy mentions)" },
+            { "score": "3/5", "name": "▼ The Statement (Clear bullet point)" },
+            { "score": "4/5", "name": "▼ The Headline (Leads with the claim)" },
+            { "score": "5/5", "name": "▼ The War Cry (Entire identity built on claim)" }
           ]
         }
       ],
@@ -709,11 +709,11 @@
           "left_label": "Educational (How-To)",
           "right_label": "Lifestyle (Aesthetic)",
           "positions": [
-            { "score": "1/5", "name": "The Lecture", "description": "Dense ingredient education" },
-            { "score": "2/5", "name": "The Tutorial", "description": "Application guides and routines" },
-            { "score": "3/5", "name": "The Balanced", "description": "Mix of how and wow" },
-            { "score": "4/5", "name": "The Editorial", "description": "Aspirational imagery" },
-            { "score": "5/5", "name": "The Art Film", "description": "Pure aesthetic, zero education" }
+            { "score": "1/5", "name": "▼ The Lecture (Dense ingredient education)" },
+            { "score": "2/5", "name": "▼ The Tutorial (Application guides and routines)" },
+            { "score": "3/5", "name": "▼ The Balanced (Mix of how and wow)" },
+            { "score": "4/5", "name": "▼ The Editorial (Aspirational imagery)" },
+            { "score": "5/5", "name": "▼ The Art Film (Pure aesthetic, zero education)" }
           ]
         },
         {
@@ -722,11 +722,11 @@
           "left_label": "Product Shots",
           "right_label": "Model/Context Shots",
           "positions": [
-            { "score": "1/5", "name": "Pack Shot Only", "description": "Product floating in white space" },
-            { "score": "2/5", "name": "Product-First", "description": "Product with subtle context" },
-            { "score": "3/5", "name": "Balanced", "description": "Equal product and lifestyle" },
-            { "score": "4/5", "name": "Context-First", "description": "Lifestyle with product placed" },
-            { "score": "5/5", "name": "No Product", "description": "Pure lifestyle, product is hidden" }
+            { "score": "1/5", "name": "▼ Pack Shot Only (Product floating in white space)" },
+            { "score": "2/5", "name": "▼ Product-First (Product with subtle context)" },
+            { "score": "3/5", "name": "▼ Balanced (Equal product and lifestyle)" },
+            { "score": "4/5", "name": "▼ Context-First (Lifestyle with product placed)" },
+            { "score": "5/5", "name": "▼ No Product (Pure lifestyle, product is hidden)" }
           ]
         }
       ],
@@ -764,11 +764,11 @@
           "left_label": "Repair (Fix Existing)",
           "right_label": "Prevent (Stop Future)",
           "positions": [
-            { "score": "1/5", "name": "Rescue", "description": "Emergency fix for acute damage" },
-            { "score": "2/5", "name": "Repair", "description": "Reversing existing damage" },
-            { "score": "3/5", "name": "Maintain", "description": "Daily upkeep" },
-            { "score": "4/5", "name": "Protect", "description": "Shield from future damage" },
-            { "score": "5/5", "name": "Fortify", "description": "Long-term defense building" }
+            { "score": "1/5", "name": "▼ Rescue (Emergency fix for acute damage)" },
+            { "score": "2/5", "name": "▼ Repair (Reversing existing damage)" },
+            { "score": "3/5", "name": "▼ Maintain (Daily upkeep)" },
+            { "score": "4/5", "name": "▼ Protect (Shield from future damage)" },
+            { "score": "5/5", "name": "▼ Fortify (Long-term defense building)" }
           ]
         },
         {
@@ -777,11 +777,11 @@
           "left_label": "Invisible (Internal)",
           "right_label": "Visible (External)",
           "positions": [
-            { "score": "1/5", "name": "Barrier", "description": "Invisible protection" },
-            { "score": "2/5", "name": "Hydration", "description": "Feel but not see" },
-            { "score": "3/5", "name": "Texture", "description": "Softness, smoothness" },
-            { "score": "4/5", "name": "Tone", "description": "Even color, brightness" },
-            { "score": "5/5", "name": "Glow", "description": "Visible radiance" }
+            { "score": "1/5", "name": "▼ Barrier (Invisible protection)" },
+            { "score": "2/5", "name": "▼ Hydration (Feel but not see)" },
+            { "score": "3/5", "name": "▼ Texture (Softness, smoothness)" },
+            { "score": "4/5", "name": "▼ Tone (Even color, brightness)" },
+            { "score": "5/5", "name": "▼ Glow (Visible radiance)" }
           ]
         }
       ],
@@ -819,11 +819,11 @@
           "left_label": "Comfort (Safety)",
           "right_label": "Excitement (Joy)",
           "positions": [
-            { "score": "1/5", "name": "Relief", "description": "Anxiety reduction" },
-            { "score": "2/5", "name": "Calm", "description": "Peaceful, soothing" },
-            { "score": "3/5", "name": "Satisfaction", "description": "Contented, complete" },
-            { "score": "4/5", "name": "Delight", "description": "Pleasant surprise" },
-            { "score": "5/5", "name": "Euphoria", "description": "Intense joy" }
+            { "score": "1/5", "name": "▼ Relief (Anxiety reduction)" },
+            { "score": "2/5", "name": "▼ Calm (Peaceful, soothing)" },
+            { "score": "3/5", "name": "▼ Satisfaction (Contented, complete)" },
+            { "score": "4/5", "name": "▼ Delight (Pleasant surprise)" },
+            { "score": "5/5", "name": "▼ Euphoria (Intense joy)" }
           ]
         },
         {
@@ -832,11 +832,11 @@
           "left_label": "Private (Self)",
           "right_label": "Public (Others)",
           "positions": [
-            { "score": "1/5", "name": "Sanctuary", "description": "Pure self-care moment" },
-            { "score": "2/5", "name": "Ritual", "description": "Personal routine" },
-            { "score": "3/5", "name": "Preparation", "description": "Getting ready" },
-            { "score": "4/5", "name": "Confidence", "description": "Ready to face world" },
-            { "score": "5/5", "name": "Spotlight", "description": "Ready to shine" }
+            { "score": "1/5", "name": "▼ Sanctuary (Pure self-care moment)" },
+            { "score": "2/5", "name": "▼ Ritual (Personal routine)" },
+            { "score": "3/5", "name": "▼ Preparation (Getting ready)" },
+            { "score": "4/5", "name": "▼ Confidence (Ready to face world)" },
+            { "score": "5/5", "name": "▼ Spotlight (Ready to shine)" }
           ]
         }
       ],
@@ -874,11 +874,11 @@
           "left_label": "Rationality (Smart)",
           "right_label": "Relevance (Cool)",
           "positions": [
-            { "score": "1/5", "name": "The Pragmatist", "description": "I'm practical and smart" },
-            { "score": "2/5", "name": "The Researcher", "description": "I do my homework" },
-            { "score": "3/5", "name": "The Balanced", "description": "I'm thoughtful" },
-            { "score": "4/5", "name": "The Tastemaker", "description": "I know what's good" },
-            { "score": "5/5", "name": "The Trendsetter", "description": "I define what's next" }
+            { "score": "1/5", "name": "▼ The Pragmatist (I'm practical and smart)" },
+            { "score": "2/5", "name": "▼ The Researcher (I do my homework)" },
+            { "score": "3/5", "name": "▼ The Balanced (I'm thoughtful)" },
+            { "score": "4/5", "name": "▼ The Tastemaker (I know what's good)" },
+            { "score": "5/5", "name": "▼ The Trendsetter (I define what's next)" }
           ]
         },
         {
@@ -887,11 +887,11 @@
           "left_label": "Classic (Timeless)",
           "right_label": "Trending (Now)",
           "positions": [
-            { "score": "1/5", "name": "Heritage", "description": "Time-tested, proven" },
-            { "score": "2/5", "name": "Established", "description": "Known and trusted" },
-            { "score": "3/5", "name": "Current", "description": "Modern and relevant" },
-            { "score": "4/5", "name": "Rising", "description": "On the upswing" },
-            { "score": "5/5", "name": "Viral", "description": "The moment right now" }
+            { "score": "1/5", "name": "▼ Heritage (Time-tested, proven)" },
+            { "score": "2/5", "name": "▼ Established (Known and trusted)" },
+            { "score": "3/5", "name": "▼ Current (Modern and relevant)" },
+            { "score": "4/5", "name": "▼ Rising (On the upswing)" },
+            { "score": "5/5", "name": "▼ Viral (The moment right now)" }
           ]
         }
       ],
@@ -929,11 +929,11 @@
           "left_label": "Belonging (Fit In)",
           "right_label": "Distinction (Stand Out)",
           "positions": [
-            { "score": "1/5", "name": "Mass Acceptance", "description": "Be like everyone" },
-            { "score": "2/5", "name": "Group Fit", "description": "Be like my tribe" },
-            { "score": "3/5", "name": "Balanced", "description": "Fit in while unique" },
-            { "score": "4/5", "name": "Selective", "description": "Chosen differentiation" },
-            { "score": "5/5", "name": "Outsider", "description": "Deliberately different" }
+            { "score": "1/5", "name": "▼ Mass Acceptance (Be like everyone)" },
+            { "score": "2/5", "name": "▼ Group Fit (Be like my tribe)" },
+            { "score": "3/5", "name": "▼ Balanced (Fit in while unique)" },
+            { "score": "4/5", "name": "▼ Selective (Chosen differentiation)" },
+            { "score": "5/5", "name": "▼ Outsider (Deliberately different)" }
           ]
         },
         {
@@ -942,11 +942,11 @@
           "left_label": "Mass (Everyone)",
           "right_label": "Niche (The Few)",
           "positions": [
-            { "score": "1/5", "name": "Universal", "description": "For absolutely everyone" },
-            { "score": "2/5", "name": "Mainstream", "description": "For most people" },
-            { "score": "3/5", "name": "Segment", "description": "For specific types" },
-            { "score": "4/5", "name": "Niche", "description": "For those who know" },
-            { "score": "5/5", "name": "Exclusive", "description": "For the select few" }
+            { "score": "1/5", "name": "▼ Universal (For absolutely everyone)" },
+            { "score": "2/5", "name": "▼ Mainstream (For most people)" },
+            { "score": "3/5", "name": "▼ Segment (For specific types)" },
+            { "score": "4/5", "name": "▼ Niche (For those who know)" },
+            { "score": "5/5", "name": "▼ Exclusive (For the select few)" }
           ]
         }
       ],
