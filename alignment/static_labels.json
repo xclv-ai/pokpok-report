@@ -1,1053 +1,704 @@
 {
-  "version": "1.6.0",
-  "last_updated": "2025-12-10",
+  "version": "2.0.0",
+  "last_updated": "2025-12-11",
   "source": "FOUNDATION/IDENTITY/COMMUNICATION/BENEFITS MARKERS EVALUATION RULES system prompt",
   "binding_guide": {
-    "categories": "Access via labels.categories['1'].title, labels.categories['1'].bullet_1, etc.",
-    "markers": "Access via labels.markers['1'].title, labels.markers['1'].sliders[0].title, etc.",
-    "conditions": "Access via labels.conditions.healthy.label, labels.conditions.healthy.bg_color, etc."
+    "markers": "Access via labels.marker_1.marker_name, labels.marker_1.slider_a_title, labels.marker_1.territory_1_title, etc.",
+    "categories": "Access via labels.category_1.title, labels.category_1.marker_id_1, etc.",
+    "conditions": "Access via labels.condition_healthy.label, labels.condition_healthy.bg_color, etc."
   },
-  "markers": {
-    "1": {
-      "title": "Brand Purpose",
-      "intro_heading": "[?] BRAND PURPOSE (THE VITAL SIGN)",
-      "intro_description": "You have ingredients (Mass) and marketing spend (Force). But without Purpose, you have no Direction. This isn't about \"saving the world\"; it's the fundamental calculation the customer's brain makes in milliseconds: \"Does this exist to Fix me, Protect me, or Elevate me?\" If the PDP doesn't transmit this signal instantly, you aren't a brand. You are just a commodity with a logo.",
-      "sliders": [
-        {
-          "order": "a",
-          "title": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
-          "left_label": "Clinical Lab",
-          "right_label": "Natural Wisdom",
-          "positions": [
-            { "score": "1/5", "name": "▼ Pure Clinical (Sterile, molecular, synthetic)" },
-            { "score": "2/5", "name": "▼ Derm-Validated (White coat authority)" },
-            { "score": "3/5", "name": "▼ Hybrid Science (Nature refined by lab)" },
-            { "score": "4/5", "name": "▼ Bio-Active (Plant-powered efficacy)" },
-            { "score": "5/5", "name": "▼ Raw Nature (The Garden / The Source)" }
-          ]
-        },
-        {
-          "order": "b",
-          "title": "[SLIDER] MISSION VECTOR (The Goal)",
-          "left_label": "Fixing Problems",
-          "right_label": "Elevating Aesthetics",
-          "positions": [
-            { "score": "1/5", "name": "▼ Pathology Cure (Treating disease/symptoms)" },
-            { "score": "2/5", "name": "▼ Restoration (Repairing damage)" },
-            { "score": "3/5", "name": "▼ Maintenance (Daily health/Protection)" },
-            { "score": "4/5", "name": "▼ Enhancement (Glow, texture, feel)" },
-            { "score": "5/5", "name": "▼ Transformation (Joy, vibe, psychology)" }
-          ]
-        }
-      ],
-      "territories": [
-        {
-          "name": "The Healer",
-          "subtitle": "CLINICAL CORRECTION",
-          "description": "We treat skin issues as pathologies, not flaws. The PDP is a prescription pad: clinical data, sterile visuals, and molecular repair. We don't pamper; we cure."
-        },
-        {
-          "name": "The Guardian",
-          "subtitle": "SCIENTIFIC PROTECTION",
-          "description": "We engineer shields against the modern world. The PDP emphasizes immunity, SPF, and barrier defense. We don't wait for damage to happen; we prevent the environment from touching you."
-        },
-        {
-          "name": "The Harmonizer",
-          "subtitle": "NATURAL BALANCE",
-          "description": "We restore equilibrium using biology, not chemistry. The PDP proves that nature fixes what the city broke. It's about gentleness, not force."
-        },
-        {
-          "name": "The Empowerer",
-          "subtitle": "PSYCHOLOGICAL UPLIFT",
-          "description": "We treat the mind, not just the face. The PDP sells dopamine and confidence, ignoring \"flaws\" entirely. It's not medicine; it's a psychological unlock."
-        }
-      ]
-    },
-    "2": {
-      "title": "Brand Mission",
-      "intro_heading": "[?] MISSION & VISION (THE AMBITION VECTOR)",
-      "intro_description": "Most brands treat Mission as a poetic slogan. Wrong. On the digital shelf, Mission is a targeting system. It defines the Blast Radius of your ambition. The customer subconsciously calculates this instantly: \"Is this brand trying to fix a specific pimple, or is it trying to save the planet?\" \"Is this club for the elite few, or the democratic many?\" If the PDP doesn't define the size of the battlefield, you aren't a leader. You are a bystander.",
-      "sliders": [
-        {
-          "order": "a",
-          "title": "[SLIDER] SCOPE OF IMPACT (The Blast Radius)",
-          "left_label": "Individual Skin Health",
-          "right_label": "Global / Societal Impact",
-          "positions": [
-            { "score": "1/5", "name": "▼ Micro-Correction (Fixing specific pathologies)" },
-            { "score": "2/5", "name": "▼ Optimization (General appearance/glow)" },
-            { "score": "3/5", "name": "▼ Lifestyle (Routine and wellness habits)" },
-            { "score": "4/5", "name": "▼ Industry Reform (Changing beauty standards)" },
-            { "score": "5/5", "name": "▼ The Crusade (Saving the Earth/Society)" }
-          ]
-        },
-        {
-          "order": "b",
-          "title": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
-          "left_label": "Exclusive / Premium",
-          "right_label": "Mass / Democratic",
-          "positions": [
-            { "score": "1/5", "name": "▼ The Velvet Rope (Gatekept by price or license)" },
-            { "score": "2/5", "name": "▼ Aspirational (High status, expensive investment)" },
-            { "score": "3/5", "name": "▼ Selective (Requires education to appreciate)" },
-            { "score": "4/5", "name": "▼ Approachable (Easy to find, easy to buy)" },
-            { "score": "5/5", "name": "▼ Democratic (Universal access for everyone)" }
-          ]
-        }
-      ],
-      "territories": [
-        {
-          "name": "The Democratizers",
-          "subtitle": "ACCESSIBLE SKIN HEALTH",
-          "description": "We strip away the mystery and the markup. The PDP proves skin health isn't a privilege. Simple ingredients, ruthlessly efficient. It's not \"cheap\"; it's smart."
-        },
-        {
-          "name": "The Scientific Vanguard",
-          "subtitle": "ELITE SKIN SCIENCE",
-          "description": "We push the boundaries of biotechnology. The PDP signals \"advanced warfare\" against aging via patents and complex molecules. If you ask the price, you can't afford the results."
-        },
-        {
-          "name": "The Earth Saviors",
-          "subtitle": "ACCESSIBLE GLOBAL MISSION",
-          "description": "We save the planet through skincare. The product is secondary to the impact (Zero Waste, Cruelty-Free). You don't just buy a moisturizer; you buy a clear conscience."
-        },
-        {
-          "name": "The High Priests",
-          "subtitle": "ELITE GLOBAL MISSION",
-          "description": "We sell a worldview, not just a lotion. The PDP is a manifesto that requires \"education\" to decode. We don't want everyone; we want the right ones."
-        }
-      ]
-    },
-    "3": {
-      "title": "Brand Values",
-      "intro_heading": "[?] VALUES (THE OPERATING CODE)",
-      "intro_description": "Values aren't inspirational posters on a breakroom wall. On the digital shelf, they are the Operating Code that resolves conflict. When \"High Potency\" clashes with \"Sensitive Skin,\" which one wins? When \"Marketing Magic\" clashes with \"Raw Data,\" what do you show? The PDP reveals the brand's true hierarchy of laws. It tells the customer: \"We will sacrifice X to give you Y.\" We map this because you can't be \"Safe\" and \"Aggressive\" at the same time.",
-      "sliders": [
-        {
-          "order": "a",
-          "title": "[SLIDER] PERFORMANCE PRIORITY (The Trade-Off)",
-          "left_label": "Safety / Tolerance",
-          "right_label": "Potency / Results",
-          "positions": [
-            { "score": "1/5", "name": "▼ Hypoallergenic (Do no harm)" },
-            { "score": "2/5", "name": "▼ Gentle (Effective but comfortable)" },
-            { "score": "3/5", "name": "▼ Balanced (Standard trade-off)" },
-            { "score": "4/5", "name": "▼ High-Performance (Actives take the lead)" },
-            { "score": "5/5", "name": "▼ Aggressive (Clinical strength)" }
-          ]
-        },
-        {
-          "order": "b",
-          "title": "[SLIDER] INFORMATION DENSITY (The Transparency)",
-          "left_label": "Radical Honesty (Data)",
-          "right_label": "Curated Mystique (Brand)",
-          "positions": [
-            { "score": "1/5", "name": "▼ The Spec Sheet (Exact percentages, pH, sourcing)" },
-            { "score": "2/5", "name": "▼ Evidence-First (Charts, diagrams, studies)" },
-            { "score": "3/5", "name": "▼ Explained (Simplified science for layman)" },
-            { "score": "4/5", "name": "▼ Story-First (Focus on legend or vibe)" },
-            { "score": "5/5", "name": "▼ The Black Box (Trust our secret complex)" }
-          ]
-        }
-      ],
-      "territories": [
-        {
-          "name": "Safety First",
-          "subtitle": "THE SAFE HARBOR",
-          "description": "Code: \"Do No Harm.\" The PDP is a medical clearance form. They sacrifice potency to guarantee absolute tolerance."
-        },
-        {
-          "name": "Radical Transparency",
-          "subtitle": "THE OPEN SOURCE",
-          "description": "Code: \"Show the Receipts.\" The PDP is a lab report listing every percentage. They sacrifice mystery to treat you like a chemist."
-        },
-        {
-          "name": "Heritage & Craft",
-          "subtitle": "THE TRUSTED TRADITION",
-          "description": "Code: \"Respect the Source.\" The PDP relies on the mystique of nature. They sacrifice hard data to build bonds based on legacy."
-        },
-        {
-          "name": "Clinical Efficacy",
-          "subtitle": "THE MAGIC BULLET",
-          "description": "Code: \"Results at All Costs.\" The PDP sells a proprietary miracle. They sacrifice transparency to sell the dream of transformation."
-        }
-      ]
-    },
-    "4": {
-      "title": "Brand Positioning",
-      "intro_heading": "[?] POSITIONING (THE MENTAL SLOT)",
-      "intro_description": "Positioning isn't a slide in a pitch deck; it is the specific parking spot you occupy in the customer's brain. The brain hates chaos, so it simplifies brands into archetypes to save energy. On the PDP, you are either the Doctor or the Model. You are either a Utility or a Luxury. You cannot be both. We scan for this because if you try to park in two spots at once, you get towed.",
-      "sliders": [
-        {
-          "order": "a",
-          "title": "[SLIDER] AESTHETIC VIBE (The Uniform)",
-          "left_label": "Sterile / Medical",
-          "right_label": "Aesthetic / Lifestyle",
-          "positions": [
-            { "score": "1/5", "name": "▼ Clinical Sterile (Zero emotion)" },
-            { "score": "2/5", "name": "▼ Professional (Clean and serious)" },
-            { "score": "3/5", "name": "▼ Balanced (Science meets design)" },
-            { "score": "4/5", "name": "▼ Polished (Designed for the Shelfie)" },
-            { "score": "5/5", "name": "▼ High Fashion (Artistic, abstract)" }
-          ]
-        },
-        {
-          "order": "b",
-          "title": "[SLIDER] VALUE PERCEPTION (The Price Signal)",
-          "left_label": "Utilitarian / Value",
-          "right_label": "Prestige / Luxury",
-          "positions": [
-            { "score": "1/5", "name": "▼ Bulk Utility (Commodity pricing)" },
-            { "score": "2/5", "name": "▼ Daily Essential (Reliable staple)" },
-            { "score": "3/5", "name": "▼ Masstige (Premium feel, drugstore price)" },
-            { "score": "4/5", "name": "▼ Aspirational (An investment)" },
-            { "score": "5/5", "name": "▼ Ultra-Luxury (Status symbol)" }
-          ]
-        }
-      ],
-      "territories": [
-        {
-          "name": "The Medical Authority",
-          "subtitle": "THE DOCTOR'S CHOICE",
-          "description": "Spot: The Pharmacy. The PDP is boring on purpose to signal safety. You don't buy it to feel cool; you buy it because it works."
-        },
-        {
-          "name": "The Scientific Miracle",
-          "subtitle": "THE EXPENSIVE CURE",
-          "description": "Spot: The Med-Spa. The PDP uses clinical codes to justify a high price. The signal: \"Serious science costs money.\""
-        },
-        {
-          "name": "The Gentle Giant",
-          "subtitle": "THE FAMILY STAPLE",
-          "description": "Spot: The Supermarket. The PDP is warm, soft, and safe. It sacrifices \"Cool\" to be the reliable choice for the whole house."
-        },
-        {
-          "name": "The Clean Essentialist",
-          "subtitle": "THE TRENDY STATUS",
-          "description": "Spot: Sephora. The PDP is designed to be looked at. You buy it because it makes your bathroom counter look better."
-        }
-      ]
-    },
-    "5": {
-      "title": "Brand Personality",
-      "intro_heading": "[?] PERSONALITY (THE BEDSIDE MANNER)",
-      "intro_description": "If Archetype is the Role you play, Personality is how you behave in the room. Based on Jennifer Aaker's Dimensions, we measure the behavioral traits the PDP projects. Does the brand act like a distant, sterile surgeon (High Competence, Low Warmth)? Or like a hyper-active cheerleader (High Excitement, High Warmth)? We map this because customers don't just buy products; they buy the energy of the entity selling them.",
-      "sliders": [
-        {
-          "order": "a",
-          "title": "[SLIDER] THE THERMOSTAT (Emotional Heat)",
-          "left_label": "Stoic / Clinical (Cold)",
-          "right_label": "Nurturing / Human (Warm)",
-          "positions": [
-            { "score": "1/5", "name": "▼ Robotic (Zero emotion)" },
-            { "score": "2/5", "name": "▼ Distant (Professional, polite)" },
-            { "score": "3/5", "name": "▼ Pleasant (Standard corporate friendliness)" },
-            { "score": "4/5", "name": "▼ Affectionate (Uses Love, emojis, softness)" },
-            { "score": "5/5", "name": "▼ Effusive (High energy, hugs, exclamation points)" }
-          ]
-        },
-        {
-          "order": "b",
-          "title": "[SLIDER] THE POWER DYNAMIC (Authority Stance)",
-          "left_label": "Peer / Relatable",
-          "right_label": "Expert / Authoritative",
-          "positions": [
-            { "score": "1/5", "name": "▼ The BFF (Slang, equality)" },
-            { "score": "2/5", "name": "▼ The Insider (Cool, knowing)" },
-            { "score": "3/5", "name": "▼ The Guide (Helpful but leads)" },
-            { "score": "4/5", "name": "▼ The Specialist (Highly educated)" },
-            { "score": "5/5", "name": "▼ The Deity (Unquestionable authority)" }
-          ]
-        }
-      ],
-      "territories": [
-        {
-          "name": "The Trusted Friend",
-          "subtitle": "DOMINANT TRAIT: SINCERITY",
-          "description": "The brand behaves like a trusted friend. The PDP signals honesty, warmth, and \"realness.\" It avoids jargon and pretension. Keywords: Down-to-earth, Original, Cheerful. Perception: \"Safe, Family-Friendly, Honest.\""
-        },
-        {
-          "name": "The Trendsetter",
-          "subtitle": "DOMINANT TRAIT: EXCITEMENT",
-          "description": "Behaves like a cool influencer. Signals energy, youth, and risk. It breaks visual rules to stay viral. Keywords: Daring, Spirited, Contemporary. Perception: \"Cool, Viral, Fun.\""
-        },
-        {
-          "name": "The Reliable Expert",
-          "subtitle": "DOMINANT TRAIT: COMPETENCE",
-          "description": "The brand behaves like a scientist or doctor. The PDP signals intelligence, success, and hard work. It sacrifices emotion for precision. Keywords: Reliable, Intelligent, Corporate. Perception: \"Effective, Smart, Serious.\""
-        },
-        {
-          "name": "The Luxury Icon",
-          "subtitle": "DOMINANT TRAIT: SOPHISTICATION",
-          "description": "Behaves like the elite. The PDP signals charm, class, and exclusivity. It uses negative space and refined language to build desire. Keywords: Upper Class, Charming, Glamorous. Perception: \"Expensive, Status, Beautiful.\""
-        }
-      ]
-    },
-    "6": {
-      "title": "Brand Archetypes Mix",
-      "intro_heading": "[?] ARCHETYPES (THE ROLE YOU PLAY)",
-      "intro_description": "Archetypes aren't tarot cards; they are efficiency hacks for the human brain. The brain is lazy. It wants to categorize you instantly to save energy. \"Is this brand the Teacher (Sage) or the Rebel (Outlaw)?\" On a PDP, you cannot be complex. If you try to be everything, you become nothing--a \"grey blur\" that the brain filters out as noise. We map this to confirm you have chosen a specific Character Role that the customer can instantly recognize and trust.",
-      "archetype_groups": {
-        "A": {
-          "name": "The Stabilizers",
-          "motivation": "CONTROL & ORDER",
-          "description": "Offers certainty in a chaotic world. The PDP signals protection, absolute perfection, and structure. Safe, not sorry.",
-          "archetypes": ["The Ruler", "The Caregiver", "The Creator"]
-        },
-        "B": {
-          "name": "The Disruptors",
-          "motivation": "RISK & MASTERY",
-          "description": "Exists to overthrow the status quo. The PDP signals intensity, rule-breaking, and transformation. Results at any cost.",
-          "archetypes": ["The Hero", "The Magician", "The Outlaw"]
-        },
-        "C": {
-          "name": "The Uniters",
-          "motivation": "BELONGING & JOY",
-          "description": "Prioritizes the tribe over the product. The PDP signals warmth, inclusivity, and sensory fun. It feels like a club.",
-          "archetypes": ["The Everyman", "The Jester", "The Lover"]
-        },
-        "D": {
-          "name": "The Seekers",
-          "motivation": "INDEPENDENCE & TRUTH",
-          "description": "Driven by the search for answers. The PDP signals purity, simplicity, and raw data. A return to the source.",
-          "archetypes": ["The Sage", "The Explorer", "The Innocent"]
-        }
-      },
-      "archetype_details": {
-        "The Caregiver": { "core_drive": "SERVICE & COMPASSION", "description": "The Altruist. Driven to protect and nurture others." },
-        "The Ruler": { "core_drive": "CONTROL & STABILITY", "description": "The Boss. Driven to create order and prosperity." },
-        "The Creator": { "core_drive": "INNOVATION & VISION", "description": "The Architect. Driven to imagine and build the new." },
-        "The Sage": { "core_drive": "TRUTH & WISDOM", "description": "The Scholar. Driven to understand the world through data." },
-        "The Innocent": { "core_drive": "SAFETY & OPTIMISM", "description": "The Idealist. Driven by purity, simplicity, and faith." },
-        "The Explorer": { "core_drive": "FREEDOM & DISCOVERY", "description": "The Seeker. Driven by autonomy and new experiences." },
-        "The Hero": { "core_drive": "MASTERY & COURAGE", "description": "The Warrior. Driven to prove worth through action." },
-        "The Magician": { "core_drive": "TRANSFORMATION & AWE", "description": "The Visionary. Driven to turn dreams into reality." },
-        "The Outlaw": { "core_drive": "DISRUPTION & LIBERATION", "description": "The Rebel. Driven to break rules that don't work." },
-        "The Everyman": { "core_drive": "BELONGING & CONNECTION", "description": "The Neighbor. Driven to fit in and connect." },
-        "The Jester": { "core_drive": "JOY & PERSPECTIVE", "description": "The Entertainer. Driven to live in the moment." },
-        "The Lover": { "core_drive": "INTIMACY & PASSION", "description": "The Partner. Driven by desire and connection." }
-      }
-    },
-    "7": {
-      "title": "Tone of Voice",
-      "intro_heading": "[?] TONE OF VOICE (THE BROADCAST FREQUENCY)",
-      "intro_description": "Tone of Voice isn't about what you say; it is the frequency you broadcast on. On a PDP, the customer isn't reading; they are listening to the vibe. Are you a lecturer or a drinking buddy? A scientist or a cheerleader? We measure these 4 dimensions because a mismatch between your Product (Serious) and your Voice (Silly) creates cognitive dissonance. And confusion kills conversion.",
-      "sliders": [
-        {
-          "order": "a",
-          "title": "[SLIDER] HUMOR (The Comedy Scale)",
-          "left_label": "Serious",
-          "right_label": "Funny",
-          "positions": [
-            { "score": "1/5", "name": "▼ Grave (Solemn, warning-like)" },
-            { "score": "2/5", "name": "▼ Serious (No jokes, strictly business)" },
-            { "score": "3/5", "name": "▼ Light (Pleasant, not trying to be funny)" },
-            { "score": "4/5", "name": "▼ Witty (Clever wordplay, puns)" },
-            { "score": "5/5", "name": "▼ Hilarious (Memes, sarcasm, lol-driven)" }
-          ]
-        },
-        {
-          "order": "b",
-          "title": "[SLIDER] FORMALITY (The Dress Code)",
-          "left_label": "Formal",
-          "right_label": "Casual",
-          "positions": [
-            { "score": "1/5", "name": "▼ Academic (Complex vocabulary, textbook)" },
-            { "score": "2/5", "name": "▼ Traditional (Corporate, proper grammar)" },
-            { "score": "3/5", "name": "▼ Professional (Clean, standard English)" },
-            { "score": "4/5", "name": "▼ Conversational (Spoken style, contractions)" },
-            { "score": "5/5", "name": "▼ Slang (Internet-native, abbreviations)" }
-          ]
-        },
-        {
-          "order": "c",
-          "title": "[SLIDER] RESPECT (The Power Dynamic)",
-          "left_label": "Respectful",
-          "right_label": "Irreverent",
-          "positions": [
-            { "score": "1/5", "name": "▼ Deferential (Servile, client on pedestal)" },
-            { "score": "2/5", "name": "▼ Respectful (Polite, courteous, careful)" },
-            { "score": "3/5", "name": "▼ Neutral (Direct, neither rude nor fawning)" },
-            { "score": "4/5", "name": "▼ Cheeky (Playful, teasing, confident)" },
-            { "score": "5/5", "name": "▼ Provocative (Shocking, edgy, bold)" }
-          ]
-        },
-        {
-          "order": "d",
-          "title": "[SLIDER] ENTHUSIASM (The Energy Level)",
-          "left_label": "Matter-of-Fact",
-          "right_label": "Enthusiastic",
-          "positions": [
-            { "score": "1/5", "name": "▼ Clinical (Zero emotion, pure data)" },
-            { "score": "2/5", "name": "▼ Dry (Just the facts, concise)" },
-            { "score": "3/5", "name": "▼ Helpful (Encouraging, positive)" },
-            { "score": "4/5", "name": "▼ Excited (Exclamation points, adjectives)" },
-            { "score": "5/5", "name": "▼ Hype (Manic energy, caps, OBSESSED)" }
-          ]
-        }
-      ],
-      "territories": [
-        {
-          "name": "The Clinical Authority",
-          "subtitle": "STYLE: ACADEMIC & DRY",
-          "description": "Sounds like a diagnosis. Zero humor, purely informational. Builds trust through distance and precision."
-        },
-        {
-          "name": "The Modern Minimalist",
-          "subtitle": "STYLE: DIRECT & CONCISE",
-          "description": "Sounds like an instruction manual. Short sentences. No fluff. Builds trust through absolute efficiency."
-        },
-        {
-          "name": "The Gentle Guide",
-          "subtitle": "STYLE: WARM & HELPFUL",
-          "description": "Sounds like a good neighbor. Cheerful, polite, and encouraging. Builds trust through kindness and simplicity."
-        },
-        {
-          "name": "The Hype Beast",
-          "subtitle": "STYLE: LOUD & PLAYFUL",
-          "description": "Sounds like a text message. Uses slang, emojis, and high energy. Builds trust through vulnerability and fun."
-        }
-      ]
-    },
-    "8": {
-      "title": "Visual Identity",
-      "intro_heading": "[?] VISUAL IDENTITY (THE SEMIOTIC SCAN)",
-      "intro_description": "Your customer processes visuals 60,000 times faster than text. Before they read a word, their brain has already decoded your Vibe (Safe vs. Fun) and looked for your Anchors (Codes). We measure this in two layers: First, the Positioning (Are you a Hospital or a Playground?). Second, the Distinctive Assets (The specific colors, shapes, and characters that act as mental shortcuts). If you lack these anchors, you are invisible.",
-      "sliders": [
-        {
-          "order": "a",
-          "title": "[SLIDER] THE THERMOSTAT (Visual Temperature)",
-          "left_label": "Cold (Clinical)",
-          "right_label": "Warm (Sensory)",
-          "positions": [
-            { "score": "1/5", "name": "▼ Sterile (Hospital white, cool blue)" },
-            { "score": "2/5", "name": "▼ Cool (Clean, distant, professional)" },
-            { "score": "3/5", "name": "▼ Neutral (Neither warm nor cold)" },
-            { "score": "4/5", "name": "▼ Radiating (Soft, inviting, approachable)" },
-            { "score": "5/5", "name": "▼ Hot (Saturated, sensory, tactile)" }
-          ]
-        },
-        {
-          "order": "b",
-          "title": "[SLIDER] THE ENTROPY SCALE (Layout Control)",
-          "left_label": "Minimalist (Control)",
-          "right_label": "Expressive (Chaos)",
-          "positions": [
-            { "score": "1/5", "name": "▼ Swiss Grid (Rigid structure, negative space)" },
-            { "score": "2/5", "name": "▼ Structured (Orderly, predictable hierarchy)" },
-            { "score": "3/5", "name": "▼ Dynamic (Balanced movement and structure)" },
-            { "score": "4/5", "name": "▼ Playful (Asymmetry, surprise elements)" },
-            { "score": "5/5", "name": "▼ Anarchic (No rules, maximum expression)" }
-          ]
-        }
-      ],
-      "territories": [
-        {
-          "name": "Pharma-Code",
-          "subtitle": "CODE: STERILITY",
-          "description": "Clinical white and medical blue. The aesthetics of the lab. Signals safety, rigor, and zero risk."
-        },
-        {
-          "name": "Gen-Z Pop",
-          "subtitle": "CODE: DOPAMINE",
-          "description": "Neons, stickers, and chaos. The aesthetics of the playground. Signals fun, youth, and dopamine."
-        },
-        {
-          "name": "Earthy Organic",
-          "subtitle": "CODE: HARMONY",
-          "description": "Warm beige and paper textures. The aesthetics of the spa. Signals nature, gentleness, and calm."
-        },
-        {
-          "name": "The Traditionalist",
-          "subtitle": "CODE: HERITAGE",
-          "description": "Sharp lines and black void. The aesthetics of the art gallery. Signals status, price, and silence."
-        }
-      ],
-      "extended_fields": [
-        "look_and_feel",
-        "distinctive_asset_1",
-        "distinctive_asset_2",
-        "distinctive_asset_3",
-        "distinctive_asset_4",
-        "distinctive_asset_5",
-        "palette_color_1",
-        "palette_color_2",
-        "palette_color_3",
-        "palette_color_4",
-        "palette_color_5",
-        "primary_palette"
-      ]
-    },
-    "9": {
-      "title": "Messaging",
-      "intro_heading": "[?] MESSAGING (THE PRIMARY HOOK)",
-      "intro_description": "Messaging isn't about writing long paragraphs; it's about the Hook. On the digital shelf, the customer reads your Headline and maybe one sub-header. That's it. In those 2 seconds, you either hook them with a Molecule (Logic) or a Dream (Emotion). We measure this to see if your \"Hook\" matches your \"Product.\" If you sell a commodity moisturizer but speak like a poet, the customer detects the lie.",
-      "sliders": [
-        {
-          "order": "a",
-          "title": "[SLIDER] THE HOOK TARGET (The Subject)",
-          "left_label": "Ingredient Name",
-          "right_label": "End Benefit",
-          "positions": [
-            { "score": "1/5", "name": "▼ The Molecule (Chemical subject)" },
-            { "score": "2/5", "name": "▼ The Component (Natural/tangible subject)" },
-            { "score": "3/5", "name": "▼ The Feature (Action subject)" },
-            { "score": "4/5", "name": "▼ The Result (Effect subject)" },
-            { "score": "5/5", "name": "▼ The Dream (Identity subject)" }
-          ]
-        },
-        {
-          "order": "b",
-          "title": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
-          "left_label": "Rational / Data",
-          "right_label": "Emotional / Vibes",
-          "positions": [
-            { "score": "1/5", "name": "▼ Raw Data (Charts, percentages, clinically proven)" },
-            { "score": "2/5", "name": "▼ Rational (Logical cause-and-effect)" },
-            { "score": "3/5", "name": "▼ Balanced (Facts with nice tone)" },
-            { "score": "4/5", "name": "▼ Evocative (Descriptive, sensory language)" },
-            { "score": "5/5", "name": "▼ Pure Vibes (Abstract, poetic, mood-driven)" }
-          ]
-        }
-      ],
-      "territories": [
-        {
-          "name": "The Chemist",
-          "subtitle": "STRATEGY: INTELLECTUAL",
-          "description": "Sells the noun. Assumes the user is smart enough to know the chemistry. Feels like a hardware store."
-        },
-        {
-          "name": "The Problem Solver",
-          "subtitle": "STRATEGY: FUNCTIONAL",
-          "description": "Sells the relief. Identifies a specific pain point and offers a mechanical fix. Feels like a clinic."
-        },
-        {
-          "name": "The Promise Maker",
-          "subtitle": "STRATEGY: ASPIRATIONAL",
-          "description": "Sells the reflection. Ignores the \"how\" to focus entirely on the \"wow.\" Feels like a magazine."
-        },
-        {
-          "name": "The Alchemist",
-          "subtitle": "STRATEGY: ROMANTIC",
-          "description": "Sells the source. Elevates raw ingredients into romantic elements using poetic language. Feels like a spa."
-        }
-      ]
-    },
-    "10": {
-      "title": "Narrative",
-      "intro_heading": "[?] NARRATIVE (THE ORIGIN MYTH)",
-      "intro_description": "A product needs a factory; a brand needs a birth certificate. On the digital shelf, the \"Story\" isn't a fairy tale; it is the Trust Anchor. It answers the question: \"Who birthed this, and why?\" Did a scientist create it after 20 years of research? Or did a sufferer create it because nothing else worked? We map this because customers trust Authority (The Doctor) and Empathy (The Sufferer) in completely different ways.",
-      "sliders": [
-        {
-          "order": "a",
-          "title": "[SLIDER] THE PROTAGONIST (The Hero)",
-          "left_label": "The Scientist",
-          "right_label": "The Founder / Sufferer",
-          "positions": [
-            { "score": "1/5", "name": "▼ The Nobel (Faceless PhDs, Dermatologists)" },
-            { "score": "2/5", "name": "▼ The Professional (Estheticians, Industry Insiders)" },
-            { "score": "3/5", "name": "▼ The Partnership (Founder + Doctor collab)" },
-            { "score": "4/5", "name": "▼ The Visionary (Founder with a dream)" },
-            { "score": "5/5", "name": "▼ The Survivor (Founder who cured own pain)" }
-          ]
-        },
-        {
-          "order": "b",
-          "title": "[SLIDER] THE SETTING (The Stage)",
-          "left_label": "The Lab",
-          "right_label": "The Source",
-          "positions": [
-            { "score": "1/5", "name": "▼ Sterile (Test tubes, molecules, clean rooms)" },
-            { "score": "2/5", "name": "▼ Tech-Forward (Biotech, cold-press machinery)" },
-            { "score": "3/5", "name": "▼ Studio (Kitchen table, salon, atelier)" },
-            { "score": "4/5", "name": "▼ Harvest (Farms, gardens, botanical sourcing)" },
-            { "score": "5/5", "name": "▼ Wild (Glaciers, volcanoes, ancient springs)" }
-          ]
-        }
-      ],
-      "territories": [
-        {
-          "name": "The Lab Breakthrough",
-          "subtitle": "ORIGIN: INTELLECTUAL",
-          "description": "Born from research. The story is about time, patents, and rigor. \"We studied this molecule for 10 years.\" Trust is built on data."
-        },
-        {
-          "name": "The Personal Cure",
-          "subtitle": "ORIGIN: EMPATHETIC",
-          "description": "Born from struggle. The story is about the founder's pain (acne, eczema) and their quest to fix it. Trust is built on shared suffering."
-        },
-        {
-          "name": "The Green Lab",
-          "subtitle": "ORIGIN: OPTIMIZATION",
-          "description": "Born from synthesis. The story is about using science to unlock the power of plants. \"Powered by Nature, Proven by Science.\" Trust is built on best-of-both-worlds."
-        },
-        {
-          "name": "The Ritual",
-          "subtitle": "ORIGIN: CULTURAL",
-          "description": "Born from wisdom. The story is about rediscovering an ancient secret or ingredient (Geisha secrets, Glacial water). Trust is built on heritage."
-        }
-      ]
-    },
-    "11": {
-      "title": "Key Selling Points",
-      "intro_heading": "[?] KEY SELLING POINTS (THE EVIDENCE)",
-      "intro_description": "Claims are cheap; proof is currency. On the digital shelf, the customer is a skeptic. They are looking for the \"Reason to Believe\" (RTB). KSPs are the bullets you fire to kill that skepticism. We measure this because you cannot win with every weapon. You either win with Authority (The Doctor) or Popularity (The Crowd). You win with Hard Data (Charts) or Soft Vibes (Texture). If you try to fire all guns at once, you miss the target.",
-      "sliders": [
-        {
-          "order": "a",
-          "title": "[SLIDER] THE VALIDATOR (Who Says It Works?)",
-          "left_label": "Authority (Doctors)",
-          "right_label": "Community (Peers)",
-          "positions": [
-            { "score": "1/5", "name": "▼ The Board (Dermatologist developed/recommended)" },
-            { "score": "2/5", "name": "▼ The Lab (Scientists, Estheticians)" },
-            { "score": "3/5", "name": "▼ The Certifiers (Third-party logos: EWG, PETA)" },
-            { "score": "4/5", "name": "▼ The Users (Percentage of users who agree)" },
-            { "score": "5/5", "name": "▼ The Fans (Viral TikToks, 5-star review counts)" }
-          ]
-        },
-        {
-          "order": "b",
-          "title": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
-          "left_label": "Clinical Study",
-          "right_label": "Lifestyle Attribute",
-          "positions": [
-            { "score": "1/5", "name": "▼ The Graph (Instrumental studies, molecular charts)" },
-            { "score": "2/5", "name": "▼ The Stat (95% saw reduction in acne)" },
-            { "score": "3/5", "name": "▼ The Visual (Before & After photos)" },
-            { "score": "4/5", "name": "▼ The List (Free-from, Vegan, Clean)" },
-            { "score": "5/5", "name": "▼ The Feel (Focus on texture, scent, absorption)" }
-          ]
-        }
-      ],
-      "territories": [
-        {
-          "name": "Derm-Validation",
-          "subtitle": "PROOF: EXPERTISE",
-          "description": "Relies on the white coat. Evidence is clinical studies and doctor recommendations. Trust the expert."
-        },
-        {
-          "name": "Formula Purity",
-          "subtitle": "PROOF: SAFETY",
-          "description": "Relies on the checklist. Evidence is \"Free-From\" claims and safety certifications. Trust the ingredients."
-        },
-        {
-          "name": "Viral Results",
-          "subtitle": "PROOF: OUTCOMES",
-          "description": "Relies on the crowd. Evidence is Before/After photos and user statistics. Trust the hype."
-        },
-        {
-          "name": "Sensory Experience",
-          "subtitle": "PROOF: PLEASURE",
-          "description": "Relies on the vibe. Evidence is texture, scent, and \"glow\" descriptions. Trust the feeling."
-        }
-      ]
-    },
-    "12": {
-      "title": "USP",
-      "intro_heading": "[?] USP (THE OWNED ASSET)",
-      "intro_description": "A USP isn't a tagline; it's the Mental Real Estate you own. On the digital shelf, every brand is fighting for a single word association in the customer's mind. What word does YOUR brand own? Is it an Ingredient (\"The Vitamin C brand\"), a Process (\"The Fermentation brand\"), or a Lifestyle (\"The Clean Girl brand\")? We measure this because owning nothing means you are nothing.",
-      "sliders": [
-        {
-          "order": "a",
-          "title": "[SLIDER] THE OWNERSHIP OBJECT (What You Claim to Own)",
-          "left_label": "The Ingredient",
-          "right_label": "The Lifestyle",
-          "positions": [
-            { "score": "1/5", "name": "▼ The Molecule (Owns a specific active ingredient)" },
-            { "score": "2/5", "name": "▼ The Method (Owns a proprietary process)" },
-            { "score": "3/5", "name": "▼ The Benefit (Owns a specific outcome)" },
-            { "score": "4/5", "name": "▼ The Audience (Owns a customer segment)" },
-            { "score": "5/5", "name": "▼ The Movement (Owns a cultural identity)" }
-          ]
-        },
-        {
-          "order": "b",
-          "title": "[SLIDER] THE CLAIM INTENSITY (How Loud Is The Claim?)",
-          "left_label": "Whispered (Implied)",
-          "right_label": "Screamed (Explicit)",
-          "positions": [
-            { "score": "1/5", "name": "▼ The Hint (Implied through design)" },
-            { "score": "2/5", "name": "▼ The Suggestion (Soft copy mentions)" },
-            { "score": "3/5", "name": "▼ The Statement (Clear bullet point)" },
-            { "score": "4/5", "name": "▼ The Headline (Leads with the claim)" },
-            { "score": "5/5", "name": "▼ The War Cry (Entire identity built on claim)" }
-          ]
-        }
-      ],
-      "territories": [
-        {
-          "name": "The Ingredient King",
-          "subtitle": "OWNS THE MOLECULE",
-          "description": "The brand is synonymous with a single hero ingredient. \"When you think Retinol, you think [Brand].\""
-        },
-        {
-          "name": "The Method Master",
-          "subtitle": "OWNS THE PROCESS",
-          "description": "The brand is synonymous with a unique delivery system or formulation technique. \"Only [Brand] ferments this way.\""
-        },
-        {
-          "name": "The Outcome Owner",
-          "subtitle": "OWNS THE RESULT",
-          "description": "The brand is synonymous with a specific benefit. \"For glass skin, you need [Brand].\""
-        },
-        {
-          "name": "The Tribe Leader",
-          "subtitle": "OWNS THE IDENTITY",
-          "description": "The brand is synonymous with a lifestyle or belief system. \"If you're Clean Girl, you use [Brand].\""
-        }
-      ]
-    },
-    "13": {
-      "title": "Focus",
-      "intro_heading": "[?] FOCUS (THE ATTENTION ECONOMY)",
-      "intro_description": "On the digital shelf, attention is currency. What does the brand want you to LOOK at? Some brands obsess over ingredients (The Lab). Others obsess over lifestyle imagery (The Magazine). We measure this because the Focus reveals where the brand believes value lives. If you show molecules, you're selling logic. If you show sunsets, you're selling feelings.",
-      "sliders": [
-        {
-          "order": "a",
-          "title": "[SLIDER] THE CONTENT TYPE (What Is Shown)",
-          "left_label": "Educational (How-To)",
-          "right_label": "Lifestyle (Aesthetic)",
-          "positions": [
-            { "score": "1/5", "name": "▼ The Lecture (Dense ingredient education)" },
-            { "score": "2/5", "name": "▼ The Tutorial (Application guides and routines)" },
-            { "score": "3/5", "name": "▼ The Balanced (Mix of how and wow)" },
-            { "score": "4/5", "name": "▼ The Editorial (Aspirational imagery)" },
-            { "score": "5/5", "name": "▼ The Art Film (Pure aesthetic, zero education)" }
-          ]
-        },
-        {
-          "order": "b",
-          "title": "[SLIDER] THE VISUAL PRIORITY (What Dominates)",
-          "left_label": "Product Shots",
-          "right_label": "Model/Context Shots",
-          "positions": [
-            { "score": "1/5", "name": "▼ Pack Shot Only (Product floating in white space)" },
-            { "score": "2/5", "name": "▼ Product-First (Product with subtle context)" },
-            { "score": "3/5", "name": "▼ Balanced (Equal product and lifestyle)" },
-            { "score": "4/5", "name": "▼ Context-First (Lifestyle with product placed)" },
-            { "score": "5/5", "name": "▼ No Product (Pure lifestyle, product is hidden)" }
-          ]
-        }
-      ],
-      "territories": [
-        {
-          "name": "The Academy",
-          "subtitle": "FOCUS: EDUCATION",
-          "description": "Content is designed to teach. Ingredients, routines, and science dominate. The brand positions as a professor."
-        },
-        {
-          "name": "The Showroom",
-          "subtitle": "FOCUS: PRODUCT",
-          "description": "Content is designed to showcase the product itself. Pack shots, textures, and ingredients in action."
-        },
-        {
-          "name": "The Magazine",
-          "subtitle": "FOCUS: LIFESTYLE",
-          "description": "Content is designed to inspire desire. Aspirational imagery and vibes dominate. The brand positions as a curator."
-        },
-        {
-          "name": "The Gallery",
-          "subtitle": "FOCUS: AESTHETIC",
-          "description": "Content is pure visual experience. Abstract, artistic, the product is secondary to the mood created."
-        }
-      ]
-    },
-    "14": {
-      "title": "Functional Benefits",
-      "intro_heading": "[?] FUNCTIONAL BENEFITS (THE MECHANICAL PAYOFF)",
-      "intro_description": "Functional Benefits are what the product DOES to your skin. This is the rational purchase justification. On the digital shelf, customers ask: \"Will this Fix my problem or Prevent my future problem?\" \"Is the benefit Visible (glow) or Invisible (barrier)?\" We measure this because the Functional Benefit must match the Customer Problem. Selling 'Anti-Aging' to a teenager is malpractice.",
-      "sliders": [
-        {
-          "order": "a",
-          "title": "[SLIDER] THE ACTION MODE (What It Does)",
-          "left_label": "Repair (Fix Existing)",
-          "right_label": "Prevent (Stop Future)",
-          "positions": [
-            { "score": "1/5", "name": "▼ Rescue (Emergency fix for acute damage)" },
-            { "score": "2/5", "name": "▼ Repair (Reversing existing damage)" },
-            { "score": "3/5", "name": "▼ Maintain (Daily upkeep)" },
-            { "score": "4/5", "name": "▼ Protect (Shield from future damage)" },
-            { "score": "5/5", "name": "▼ Fortify (Long-term defense building)" }
-          ]
-        },
-        {
-          "order": "b",
-          "title": "[SLIDER] THE BENEFIT VISIBILITY (How You See It)",
-          "left_label": "Invisible (Internal)",
-          "right_label": "Visible (External)",
-          "positions": [
-            { "score": "1/5", "name": "▼ Barrier (Invisible protection)" },
-            { "score": "2/5", "name": "▼ Hydration (Feel but not see)" },
-            { "score": "3/5", "name": "▼ Texture (Softness, smoothness)" },
-            { "score": "4/5", "name": "▼ Tone (Even color, brightness)" },
-            { "score": "5/5", "name": "▼ Glow (Visible radiance)" }
-          ]
-        }
-      ],
-      "territories": [
-        {
-          "name": "The Mechanic",
-          "subtitle": "MODE: REPAIR",
-          "description": "Product exists to fix what's broken. Active repair of existing damage or conditions."
-        },
-        {
-          "name": "The Bodyguard",
-          "subtitle": "MODE: PROTECT",
-          "description": "Product exists to prevent future damage. SPF, antioxidants, barrier defense."
-        },
-        {
-          "name": "The Housekeeper",
-          "subtitle": "MODE: MAINTAIN",
-          "description": "Product exists for daily upkeep. Hydration, cleansing, routine maintenance."
-        },
-        {
-          "name": "The Beautician",
-          "subtitle": "MODE: ENHANCE",
-          "description": "Product exists to create visible improvement. Glow, tone, immediate radiance."
-        }
-      ]
-    },
-    "15": {
-      "title": "Emotional Benefits",
-      "intro_heading": "[?] EMOTIONAL BENEFITS (THE INTERNAL SHIFT)",
-      "intro_description": "Emotional Benefits are how the product makes you FEEL. This is the irrational purchase driver. On the digital shelf, customers don't just buy results; they buy feelings. \"Will this make me feel Safe or Excited?\" \"Will I feel it Privately (self-care) or Publicly (confidence)?\" We measure this because the Emotional Benefit often matters more than the Functional one. You're selling therapy, not lotion.",
-      "sliders": [
-        {
-          "order": "a",
-          "title": "[SLIDER] THE EMOTIONAL DIRECTION (What Feeling)",
-          "left_label": "Comfort (Safety)",
-          "right_label": "Excitement (Joy)",
-          "positions": [
-            { "score": "1/5", "name": "▼ Relief (Anxiety reduction)" },
-            { "score": "2/5", "name": "▼ Calm (Peaceful, soothing)" },
-            { "score": "3/5", "name": "▼ Satisfaction (Contented, complete)" },
-            { "score": "4/5", "name": "▼ Delight (Pleasant surprise)" },
-            { "score": "5/5", "name": "▼ Euphoria (Intense joy)" }
-          ]
-        },
-        {
-          "order": "b",
-          "title": "[SLIDER] THE BENEFIT AUDIENCE (Who Sees)",
-          "left_label": "Private (Self)",
-          "right_label": "Public (Others)",
-          "positions": [
-            { "score": "1/5", "name": "▼ Sanctuary (Pure self-care moment)" },
-            { "score": "2/5", "name": "▼ Ritual (Personal routine)" },
-            { "score": "3/5", "name": "▼ Preparation (Getting ready)" },
-            { "score": "4/5", "name": "▼ Confidence (Ready to face world)" },
-            { "score": "5/5", "name": "▼ Spotlight (Ready to shine)" }
-          ]
-        }
-      ],
-      "territories": [
-        {
-          "name": "The Sanctuary",
-          "subtitle": "FEELING: PRIVATE COMFORT",
-          "description": "The product delivers a private moment of peace. Self-care ritual, anxiety relief, personal escape."
-        },
-        {
-          "name": "The Armor",
-          "subtitle": "FEELING: PUBLIC CONFIDENCE",
-          "description": "The product delivers confidence to face the world. Preparation for judgment, readiness for spotlight."
-        },
-        {
-          "name": "The Treat",
-          "subtitle": "FEELING: PRIVATE DELIGHT",
-          "description": "The product delivers sensory pleasure. A moment of indulgence, dopamine hit, guilty pleasure."
-        },
-        {
-          "name": "The Badge",
-          "subtitle": "FEELING: PUBLIC JOY",
-          "description": "The product delivers shareable excitement. Unboxing moment, social currency, visible delight."
-        }
-      ]
-    },
-    "16": {
-      "title": "Self-Expression",
-      "intro_heading": "[?] SELF-EXPRESSION (THE IDENTITY BADGE)",
-      "intro_description": "Self-Expression Benefits are what buying this product SAYS about you. This is the social currency embedded in purchase. On the digital shelf, customers ask: \"Does buying this make me look Smart or Cool?\" \"Am I joining a Trend or bucking it?\" We measure this because modern consumers don't just buy products; they curate identities. Your brand is a casting vote for who they want to be.",
-      "sliders": [
-        {
-          "order": "a",
-          "title": "[SLIDER] THE SIGNAL TYPE (What It Says)",
-          "left_label": "Rationality (Smart)",
-          "right_label": "Relevance (Cool)",
-          "positions": [
-            { "score": "1/5", "name": "▼ The Pragmatist (I'm practical and smart)" },
-            { "score": "2/5", "name": "▼ The Researcher (I do my homework)" },
-            { "score": "3/5", "name": "▼ The Balanced (I'm thoughtful)" },
-            { "score": "4/5", "name": "▼ The Tastemaker (I know what's good)" },
-            { "score": "5/5", "name": "▼ The Trendsetter (I define what's next)" }
-          ]
-        },
-        {
-          "order": "b",
-          "title": "[SLIDER] THE TREND POSITION (Where You Stand)",
-          "left_label": "Classic (Timeless)",
-          "right_label": "Trending (Now)",
-          "positions": [
-            { "score": "1/5", "name": "▼ Heritage (Time-tested, proven)" },
-            { "score": "2/5", "name": "▼ Established (Known and trusted)" },
-            { "score": "3/5", "name": "▼ Current (Modern and relevant)" },
-            { "score": "4/5", "name": "▼ Rising (On the upswing)" },
-            { "score": "5/5", "name": "▼ Viral (The moment right now)" }
-          ]
-        }
-      ],
-      "territories": [
-        {
-          "name": "The Pragmatist",
-          "subtitle": "SIGNAL: SMART CHOICE",
-          "description": "Purchase signals: \"I'm rational. I don't fall for hype. I make informed decisions.\""
-        },
-        {
-          "name": "The Connoisseur",
-          "subtitle": "SIGNAL: REFINED TASTE",
-          "description": "Purchase signals: \"I appreciate quality. I know the good stuff. I'm discerning.\""
-        },
-        {
-          "name": "The Trendsetter",
-          "subtitle": "SIGNAL: CULTURAL CURRENCY",
-          "description": "Purchase signals: \"I'm in the know. I discover things first. I define cool.\""
-        },
-        {
-          "name": "The Loyalist",
-          "subtitle": "SIGNAL: TRIBAL BELONGING",
-          "description": "Purchase signals: \"I belong to this tribe. This brand is my identity. We're in this together.\""
-        }
-      ]
-    },
-    "17": {
-      "title": "Social Benefits",
-      "intro_heading": "[?] SOCIAL BENEFITS (THE TRIBAL CARD)",
-      "intro_description": "Social Benefits are how the product helps you navigate RELATIONSHIPS. This is the tribal membership embedded in purchase. On the digital shelf, customers ask: \"Will this help me Fit In or Stand Out?\" \"Am I joining the Majority or an Elite Club?\" We measure this because humans are tribal animals. Your brand is an invitation to a specific table.",
-      "sliders": [
-        {
-          "order": "a",
-          "title": "[SLIDER] THE SOCIAL GOAL (Fit In vs Stand Out)",
-          "left_label": "Belonging (Fit In)",
-          "right_label": "Distinction (Stand Out)",
-          "positions": [
-            { "score": "1/5", "name": "▼ Mass Acceptance (Be like everyone)" },
-            { "score": "2/5", "name": "▼ Group Fit (Be like my tribe)" },
-            { "score": "3/5", "name": "▼ Balanced (Fit in while unique)" },
-            { "score": "4/5", "name": "▼ Selective (Chosen differentiation)" },
-            { "score": "5/5", "name": "▼ Outsider (Deliberately different)" }
-          ]
-        },
-        {
-          "order": "b",
-          "title": "[SLIDER] THE TRIBE SIZE (Mass vs Elite)",
-          "left_label": "Mass (Everyone)",
-          "right_label": "Niche (The Few)",
-          "positions": [
-            { "score": "1/5", "name": "▼ Universal (For absolutely everyone)" },
-            { "score": "2/5", "name": "▼ Mainstream (For most people)" },
-            { "score": "3/5", "name": "▼ Segment (For specific types)" },
-            { "score": "4/5", "name": "▼ Niche (For those who know)" },
-            { "score": "5/5", "name": "▼ Exclusive (For the select few)" }
-          ]
-        }
-      ],
-      "territories": [
-        {
-          "name": "The Mainstream",
-          "subtitle": "TRIBE: MASS ACCEPTANCE",
-          "description": "Purchase signals: \"I'm normal. I make safe choices. I belong to the majority.\""
-        },
-        {
-          "name": "The Insider",
-          "subtitle": "TRIBE: KNOWLEDGE CLUB",
-          "description": "Purchase signals: \"I know things others don't. I discovered this before it was big.\""
-        },
-        {
-          "name": "The Elite",
-          "subtitle": "TRIBE: EXCLUSIVE ACCESS",
-          "description": "Purchase signals: \"I have access others don't. I'm in the room where it happens.\""
-        },
-        {
-          "name": "The Rebel",
-          "subtitle": "TRIBE: COUNTER-CULTURE",
-          "description": "Purchase signals: \"I reject the mainstream. I choose differently on purpose.\""
-        }
-      ]
-    }
+  "marker_1": {
+    "marker_name": "Brand Purpose",
+    "intro_heading": "[?] BRAND PURPOSE (THE VITAL SIGN)",
+    "intro_description": "You have ingredients (Mass) and marketing spend (Force). But without Purpose, you have no Direction. This isn't about \"saving the world\"; it's the fundamental calculation the customer's brain makes in milliseconds: \"Does this exist to Fix me, Protect me, or Elevate me?\" If the PDP doesn't transmit this signal instantly, you aren't a brand. You are just a commodity with a logo.",
+    "slider_a_title": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
+    "slider_a_left_label": "← Clinical Lab",
+    "slider_a_right_label": "Natural Wisdom →",
+    "slider_a_score_1": "▼ Pure Clinical (Sterile, molecular, synthetic)",
+    "slider_a_score_2": "▼ Derm-Validated (White coat authority)",
+    "slider_a_score_3": "▼ Hybrid Science (Nature refined by lab)",
+    "slider_a_score_4": "▼ Bio-Active (Plant-powered efficacy)",
+    "slider_a_score_5": "▼ Raw Nature (The Garden / The Source)",
+    "slider_b_title": "[SLIDER] MISSION VECTOR (The Goal)",
+    "slider_b_left_label": "← Fixing Problems",
+    "slider_b_right_label": "Elevating Aesthetics →",
+    "slider_b_score_1": "▼ Pathology Cure (Treating disease/symptoms)",
+    "slider_b_score_2": "▼ Restoration (Repairing damage)",
+    "slider_b_score_3": "▼ Maintenance (Daily health/Protection)",
+    "slider_b_score_4": "▼ Enhancement (Glow, texture, feel)",
+    "slider_b_score_5": "▼ Transformation (Joy, vibe, psychology)",
+    "territory_1_title": "The Healer",
+    "territory_1_subtitle": "CLINICAL CORRECTION",
+    "territory_1_description": "We treat skin issues as pathologies, not flaws. The PDP is a prescription pad: clinical data, sterile visuals, and molecular repair. We don't pamper; we cure.",
+    "territory_2_title": "The Guardian",
+    "territory_2_subtitle": "SCIENTIFIC PROTECTION",
+    "territory_2_description": "We engineer shields against the modern world. The PDP emphasizes immunity, SPF, and barrier defense. We don't wait for damage to happen; we prevent the environment from touching you.",
+    "territory_3_title": "The Harmonizer",
+    "territory_3_subtitle": "NATURAL BALANCE",
+    "territory_3_description": "We restore equilibrium using biology, not chemistry. The PDP proves that nature fixes what the city broke. It's about gentleness, not force.",
+    "territory_4_title": "The Empowerer",
+    "territory_4_subtitle": "PSYCHOLOGICAL UPLIFT",
+    "territory_4_description": "We treat the mind, not just the face. The PDP sells dopamine and confidence, ignoring \"flaws\" entirely. It's not medicine; it's a psychological unlock."
   },
-  "conditions": {
-    "healthy": {
-      "label": "Healthy Condition",
-      "alignment_range": "[90-100%]",
-      "bg_color": "rgb(232, 252, 237)",
-      "accent_color": "rgb(0, 130, 54)"
-    },
-    "stable": {
-      "label": "Stable Condition",
-      "alignment_range": "[70-89%]",
-      "bg_color": "rgb(235, 243, 255)",
-      "accent_color": "rgb(20, 71, 230)"
-    },
-    "guarded": {
-      "label": "Guarded Condition",
-      "alignment_range": "[50-69%]",
-      "bg_color": "rgb(254, 246, 231)",
-      "accent_color": "rgb(229, 115, 0)"
-    },
-    "critical": {
-      "label": "Critical Condition",
-      "alignment_range": "[0-49%]",
-      "bg_color": "rgb(255, 229, 231)",
-      "accent_color": "rgb(231, 0, 10)"
-    }
+  "marker_2": {
+    "marker_name": "Brand Mission",
+    "intro_heading": "[?] MISSION & VISION (THE AMBITION VECTOR)",
+    "intro_description": "Most brands treat Mission as a poetic slogan. Wrong. On the digital shelf, Mission is a targeting system. It defines the Blast Radius of your ambition. The customer subconsciously calculates this instantly: \"Is this brand trying to fix a specific pimple, or is it trying to save the planet?\" \"Is this club for the elite few, or the democratic many?\" If the PDP doesn't define the size of the battlefield, you aren't a leader. You are a bystander.",
+    "slider_a_title": "[SLIDER] SCOPE OF IMPACT (The Blast Radius)",
+    "slider_a_left_label": "← Individual Skin Health",
+    "slider_a_right_label": "Global / Societal Impact →",
+    "slider_a_score_1": "▼ Micro-Correction (Fixing specific pathologies)",
+    "slider_a_score_2": "▼ Optimization (General appearance/glow)",
+    "slider_a_score_3": "▼ Lifestyle (Routine and wellness habits)",
+    "slider_a_score_4": "▼ Industry Reform (Changing beauty standards)",
+    "slider_a_score_5": "▼ The Crusade (Saving the Earth/Society)",
+    "slider_b_title": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
+    "slider_b_left_label": "← Exclusive / Premium",
+    "slider_b_right_label": "Mass / Democratic →",
+    "slider_b_score_1": "▼ The Velvet Rope (Gatekept by price or license)",
+    "slider_b_score_2": "▼ Aspirational (High status, expensive investment)",
+    "slider_b_score_3": "▼ Selective (Requires education to appreciate)",
+    "slider_b_score_4": "▼ Approachable (Easy to find, easy to buy)",
+    "slider_b_score_5": "▼ Democratic (Universal access for everyone)",
+    "territory_1_title": "The Democratizers",
+    "territory_1_subtitle": "ACCESSIBLE SKIN HEALTH",
+    "territory_1_description": "We strip away the mystery and the markup. The PDP proves skin health isn't a privilege. Simple ingredients, ruthlessly efficient. It's not \"cheap\"; it's smart.",
+    "territory_2_title": "The Scientific Vanguard",
+    "territory_2_subtitle": "ELITE SKIN SCIENCE",
+    "territory_2_description": "We push the boundaries of biotechnology. The PDP signals \"advanced warfare\" against aging via patents and complex molecules. If you ask the price, you can't afford the results.",
+    "territory_3_title": "The Earth Saviors",
+    "territory_3_subtitle": "ACCESSIBLE GLOBAL MISSION",
+    "territory_3_description": "We save the planet through skincare. The product is secondary to the impact (Zero Waste, Cruelty-Free). You don't just buy a moisturizer; you buy a clear conscience.",
+    "territory_4_title": "The High Priests",
+    "territory_4_subtitle": "ELITE GLOBAL MISSION",
+    "territory_4_description": "We sell a worldview, not just a lotion. The PDP is a manifesto that requires \"education\" to decode. We don't want everyone; we want the right ones."
   },
-  "categories": {
-    "1": {
-      "number": "1.",
-      "title": "Foundation",
-      "subtitle": "The Strategic Core",
-      "description": "(DEFINING THE \"WHY\")",
-      "bullet_1": "Purpose",
-      "bullet_2": "Mission & Vision",
-      "bullet_3": "Values",
-      "bullet_4": "Positioning",
-      "bullet_5": "",
-      "marker_ids": [1, 2, 3, 4]
-    },
-    "2": {
-      "number": "2.",
-      "title": "Identity",
-      "subtitle": "The Strategic Core",
-      "description": "(DEFINING THE \"FACE\")",
-      "bullet_1": "Personality",
-      "bullet_2": "Archetypes Mix",
-      "bullet_3": "Tone of Voice",
-      "bullet_4": "Visual Identity",
-      "bullet_5": "",
-      "marker_ids": [5, 6, 7, 8]
-    },
-    "3": {
-      "number": "3.",
-      "title": "Communication",
-      "subtitle": "The Strategic Core",
-      "description": "(DEFINING THE \"HOW\")",
-      "bullet_1": "Messaging",
-      "bullet_2": "Narrative/Story",
-      "bullet_3": "Key Selling Points",
-      "bullet_4": "USP",
-      "bullet_5": "Focus",
-      "marker_ids": [9, 10, 11, 12, 13]
-    },
-    "4": {
-      "number": "4.",
-      "title": "Benefits",
-      "subtitle": "The Strategic Core",
-      "description": "(\"THE PAYOFF\")",
-      "bullet_1": "Functional",
-      "bullet_2": "Emotional",
-      "bullet_3": "Self-Expression",
-      "bullet_4": "Social",
-      "bullet_5": "",
-      "marker_ids": [14, 15, 16, 17]
-    }
+  "marker_3": {
+    "marker_name": "Brand Values",
+    "intro_heading": "[?] VALUES (THE OPERATING CODE)",
+    "intro_description": "Values aren't inspirational posters on a breakroom wall. On the digital shelf, they are the Operating Code that resolves conflict. When \"High Potency\" clashes with \"Sensitive Skin,\" which one wins? When \"Marketing Magic\" clashes with \"Raw Data,\" what do you show? The PDP reveals the brand's true hierarchy of laws. It tells the customer: \"We will sacrifice X to give you Y.\" We map this because you can't be \"Safe\" and \"Aggressive\" at the same time.",
+    "slider_a_title": "[SLIDER] PERFORMANCE PRIORITY (The Trade-Off)",
+    "slider_a_left_label": "← Safety / Tolerance",
+    "slider_a_right_label": "Potency / Results →",
+    "slider_a_score_1": "▼ Hypoallergenic (Do no harm)",
+    "slider_a_score_2": "▼ Gentle (Effective but comfortable)",
+    "slider_a_score_3": "▼ Balanced (Standard trade-off)",
+    "slider_a_score_4": "▼ High-Performance (Actives take the lead)",
+    "slider_a_score_5": "▼ Aggressive (Clinical strength)",
+    "slider_b_title": "[SLIDER] INFORMATION DENSITY (The Transparency)",
+    "slider_b_left_label": "← Radical Honesty (Data)",
+    "slider_b_right_label": "Curated Mystique (Brand) →",
+    "slider_b_score_1": "▼ The Spec Sheet (Exact percentages, pH, sourcing)",
+    "slider_b_score_2": "▼ Evidence-First (Charts, diagrams, studies)",
+    "slider_b_score_3": "▼ Explained (Simplified science for layman)",
+    "slider_b_score_4": "▼ Story-First (Focus on legend or vibe)",
+    "slider_b_score_5": "▼ The Black Box (Trust our secret complex)",
+    "territory_1_title": "Safety First",
+    "territory_1_subtitle": "THE SAFE HARBOR",
+    "territory_1_description": "Code: \"Do No Harm.\" The PDP is a medical clearance form. They sacrifice potency to guarantee absolute tolerance.",
+    "territory_2_title": "Radical Transparency",
+    "territory_2_subtitle": "THE OPEN SOURCE",
+    "territory_2_description": "Code: \"Show the Receipts.\" The PDP is a lab report listing every percentage. They sacrifice mystery to treat you like a chemist.",
+    "territory_3_title": "Heritage & Craft",
+    "territory_3_subtitle": "THE TRUSTED TRADITION",
+    "territory_3_description": "Code: \"Respect the Source.\" The PDP relies on the mystique of nature. They sacrifice hard data to build bonds based on legacy.",
+    "territory_4_title": "Clinical Efficacy",
+    "territory_4_subtitle": "THE MAGIC BULLET",
+    "territory_4_description": "Code: \"Results at All Costs.\" The PDP sells a proprietary miracle. They sacrifice transparency to sell the dream of transformation."
+  },
+  "marker_4": {
+    "marker_name": "Brand Positioning",
+    "intro_heading": "[?] POSITIONING (THE MENTAL SLOT)",
+    "intro_description": "Positioning isn't a slide in a pitch deck; it is the specific parking spot you occupy in the customer's brain. The brain hates chaos, so it simplifies brands into archetypes to save energy. On the PDP, you are either the Doctor or the Model. You are either a Utility or a Luxury. You cannot be both. We scan for this because if you try to park in two spots at once, you get towed.",
+    "slider_a_title": "[SLIDER] AESTHETIC VIBE (The Uniform)",
+    "slider_a_left_label": "← Sterile / Medical",
+    "slider_a_right_label": "Aesthetic / Lifestyle →",
+    "slider_a_score_1": "▼ Clinical Sterile (Zero emotion)",
+    "slider_a_score_2": "▼ Professional (Clean and serious)",
+    "slider_a_score_3": "▼ Balanced (Science meets design)",
+    "slider_a_score_4": "▼ Polished (Designed for the Shelfie)",
+    "slider_a_score_5": "▼ High Fashion (Artistic, abstract)",
+    "slider_b_title": "[SLIDER] VALUE PERCEPTION (The Price Signal)",
+    "slider_b_left_label": "← Utilitarian / Value",
+    "slider_b_right_label": "Prestige / Luxury →",
+    "slider_b_score_1": "▼ Bulk Utility (Commodity pricing)",
+    "slider_b_score_2": "▼ Daily Essential (Reliable staple)",
+    "slider_b_score_3": "▼ Masstige (Premium feel, drugstore price)",
+    "slider_b_score_4": "▼ Aspirational (An investment)",
+    "slider_b_score_5": "▼ Ultra-Luxury (Status symbol)",
+    "territory_1_title": "The Medical Authority",
+    "territory_1_subtitle": "THE DOCTOR'S CHOICE",
+    "territory_1_description": "Spot: The Pharmacy. The PDP is boring on purpose to signal safety. You don't buy it to feel cool; you buy it because it works.",
+    "territory_2_title": "The Scientific Miracle",
+    "territory_2_subtitle": "THE EXPENSIVE CURE",
+    "territory_2_description": "Spot: The Med-Spa. The PDP uses clinical codes to justify a high price. The signal: \"Serious science costs money.\"",
+    "territory_3_title": "The Gentle Giant",
+    "territory_3_subtitle": "THE FAMILY STAPLE",
+    "territory_3_description": "Spot: The Supermarket. The PDP is warm, soft, and safe. It sacrifices \"Cool\" to be the reliable choice for the whole house.",
+    "territory_4_title": "The Clean Essentialist",
+    "territory_4_subtitle": "THE TRENDY STATUS",
+    "territory_4_description": "Spot: Sephora. The PDP is designed to be looked at. You buy it because it makes your bathroom counter look better."
+  },
+  "marker_5": {
+    "marker_name": "Brand Personality",
+    "intro_heading": "[?] PERSONALITY (THE BEDSIDE MANNER)",
+    "intro_description": "If Archetype is the Role you play, Personality is how you behave in the room. Based on Jennifer Aaker's Dimensions, we measure the behavioral traits the PDP projects. Does the brand act like a distant, sterile surgeon (High Competence, Low Warmth)? Or like a hyper-active cheerleader (High Excitement, High Warmth)? We map this because customers don't just buy products; they buy the energy of the entity selling them.",
+    "slider_a_title": "[SLIDER] THE THERMOSTAT (Emotional Heat)",
+    "slider_a_left_label": "← Stoic / Clinical (Cold)",
+    "slider_a_right_label": "Nurturing / Human (Warm) →",
+    "slider_a_score_1": "▼ Robotic (Zero emotion)",
+    "slider_a_score_2": "▼ Distant (Professional, polite)",
+    "slider_a_score_3": "▼ Pleasant (Standard corporate friendliness)",
+    "slider_a_score_4": "▼ Affectionate (Uses Love, emojis, softness)",
+    "slider_a_score_5": "▼ Effusive (High energy, hugs, exclamation points)",
+    "slider_b_title": "[SLIDER] THE POWER DYNAMIC (Authority Stance)",
+    "slider_b_left_label": "← Peer / Relatable",
+    "slider_b_right_label": "Expert / Authoritative →",
+    "slider_b_score_1": "▼ The BFF (Slang, equality)",
+    "slider_b_score_2": "▼ The Insider (Cool, knowing)",
+    "slider_b_score_3": "▼ The Guide (Helpful but leads)",
+    "slider_b_score_4": "▼ The Specialist (Highly educated)",
+    "slider_b_score_5": "▼ The Deity (Unquestionable authority)",
+    "territory_1_title": "The Trusted Friend",
+    "territory_1_subtitle": "DOMINANT TRAIT: SINCERITY",
+    "territory_1_description": "The brand behaves like a trusted friend. The PDP signals honesty, warmth, and \"realness.\" It avoids jargon and pretension. Keywords: Down-to-earth, Original, Cheerful. Perception: \"Safe, Family-Friendly, Honest.\"",
+    "territory_2_title": "The Trendsetter",
+    "territory_2_subtitle": "DOMINANT TRAIT: EXCITEMENT",
+    "territory_2_description": "Behaves like a cool influencer. Signals energy, youth, and risk. It breaks visual rules to stay viral. Keywords: Daring, Spirited, Contemporary. Perception: \"Cool, Viral, Fun.\"",
+    "territory_3_title": "The Reliable Expert",
+    "territory_3_subtitle": "DOMINANT TRAIT: COMPETENCE",
+    "territory_3_description": "The brand behaves like a scientist or doctor. The PDP signals intelligence, success, and hard work. It sacrifices emotion for precision. Keywords: Reliable, Intelligent, Corporate. Perception: \"Effective, Smart, Serious.\"",
+    "territory_4_title": "The Luxury Icon",
+    "territory_4_subtitle": "DOMINANT TRAIT: SOPHISTICATION",
+    "territory_4_description": "Behaves like the elite. The PDP signals charm, class, and exclusivity. It uses negative space and refined language to build desire. Keywords: Upper Class, Charming, Glamorous. Perception: \"Expensive, Status, Beautiful.\""
+  },
+  "marker_6": {
+    "marker_name": "Brand Archetypes Mix",
+    "intro_heading": "[?] ARCHETYPES (THE ROLE YOU PLAY)",
+    "intro_description": "Archetypes aren't tarot cards; they are efficiency hacks for the human brain. The brain is lazy. It wants to categorize you instantly to save energy. \"Is this brand the Teacher (Sage) or the Rebel (Outlaw)?\" On a PDP, you cannot be complex. If you try to be everything, you become nothing--a \"grey blur\" that the brain filters out as noise. We map this to confirm you have chosen a specific Character Role that the customer can instantly recognize and trust.",
+    "archetype_group_a_name": "The Stabilizers",
+    "archetype_group_a_motivation": "CONTROL & ORDER",
+    "archetype_group_a_description": "Offers certainty in a chaotic world. The PDP signals protection, absolute perfection, and structure. Safe, not sorry.",
+    "archetype_group_a_archetype_1": "The Ruler",
+    "archetype_group_a_archetype_2": "The Caregiver",
+    "archetype_group_a_archetype_3": "The Creator",
+    "archetype_group_b_name": "The Disruptors",
+    "archetype_group_b_motivation": "RISK & MASTERY",
+    "archetype_group_b_description": "Exists to overthrow the status quo. The PDP signals intensity, rule-breaking, and transformation. Results at any cost.",
+    "archetype_group_b_archetype_1": "The Hero",
+    "archetype_group_b_archetype_2": "The Magician",
+    "archetype_group_b_archetype_3": "The Outlaw",
+    "archetype_group_c_name": "The Uniters",
+    "archetype_group_c_motivation": "BELONGING & JOY",
+    "archetype_group_c_description": "Prioritizes the tribe over the product. The PDP signals warmth, inclusivity, and sensory fun. It feels like a club.",
+    "archetype_group_c_archetype_1": "The Everyman",
+    "archetype_group_c_archetype_2": "The Jester",
+    "archetype_group_c_archetype_3": "The Lover",
+    "archetype_group_d_name": "The Seekers",
+    "archetype_group_d_motivation": "INDEPENDENCE & TRUTH",
+    "archetype_group_d_description": "Driven by the search for answers. The PDP signals purity, simplicity, and raw data. A return to the source.",
+    "archetype_group_d_archetype_1": "The Sage",
+    "archetype_group_d_archetype_2": "The Explorer",
+    "archetype_group_d_archetype_3": "The Innocent",
+    "archetype_caregiver_core_drive": "SERVICE & COMPASSION",
+    "archetype_caregiver_description": "The Altruist. Driven to protect and nurture others.",
+    "archetype_ruler_core_drive": "CONTROL & STABILITY",
+    "archetype_ruler_description": "The Boss. Driven to create order and prosperity.",
+    "archetype_creator_core_drive": "INNOVATION & VISION",
+    "archetype_creator_description": "The Architect. Driven to imagine and build the new.",
+    "archetype_sage_core_drive": "TRUTH & WISDOM",
+    "archetype_sage_description": "The Scholar. Driven to understand the world through data.",
+    "archetype_innocent_core_drive": "SAFETY & OPTIMISM",
+    "archetype_innocent_description": "The Idealist. Driven by purity, simplicity, and faith.",
+    "archetype_explorer_core_drive": "FREEDOM & DISCOVERY",
+    "archetype_explorer_description": "The Seeker. Driven by autonomy and new experiences.",
+    "archetype_hero_core_drive": "MASTERY & COURAGE",
+    "archetype_hero_description": "The Warrior. Driven to prove worth through action.",
+    "archetype_magician_core_drive": "TRANSFORMATION & AWE",
+    "archetype_magician_description": "The Visionary. Driven to turn dreams into reality.",
+    "archetype_outlaw_core_drive": "DISRUPTION & LIBERATION",
+    "archetype_outlaw_description": "The Rebel. Driven to break rules that don't work.",
+    "archetype_everyman_core_drive": "BELONGING & CONNECTION",
+    "archetype_everyman_description": "The Neighbor. Driven to fit in and connect.",
+    "archetype_jester_core_drive": "JOY & PERSPECTIVE",
+    "archetype_jester_description": "The Entertainer. Driven to live in the moment.",
+    "archetype_lover_core_drive": "INTIMACY & PASSION",
+    "archetype_lover_description": "The Partner. Driven by desire and connection."
+  },
+  "marker_7": {
+    "marker_name": "Tone of Voice",
+    "intro_heading": "[?] TONE OF VOICE (THE BROADCAST FREQUENCY)",
+    "intro_description": "Tone of Voice isn't about what you say; it is the frequency you broadcast on. On a PDP, the customer isn't reading; they are listening to the vibe. Are you a lecturer or a drinking buddy? A scientist or a cheerleader? We measure these 4 dimensions because a mismatch between your Product (Serious) and your Voice (Silly) creates cognitive dissonance. And confusion kills conversion.",
+    "slider_a_title": "[SLIDER] HUMOR (The Comedy Scale)",
+    "slider_a_left_label": "← Serious",
+    "slider_a_right_label": "Funny →",
+    "slider_a_score_1": "▼ Grave (Solemn, warning-like)",
+    "slider_a_score_2": "▼ Serious (No jokes, strictly business)",
+    "slider_a_score_3": "▼ Light (Pleasant, not trying to be funny)",
+    "slider_a_score_4": "▼ Witty (Clever wordplay, puns)",
+    "slider_a_score_5": "▼ Hilarious (Memes, sarcasm, lol-driven)",
+    "slider_b_title": "[SLIDER] FORMALITY (The Dress Code)",
+    "slider_b_left_label": "← Formal",
+    "slider_b_right_label": "Casual →",
+    "slider_b_score_1": "▼ Academic (Complex vocabulary, textbook)",
+    "slider_b_score_2": "▼ Traditional (Corporate, proper grammar)",
+    "slider_b_score_3": "▼ Professional (Clean, standard English)",
+    "slider_b_score_4": "▼ Conversational (Spoken style, contractions)",
+    "slider_b_score_5": "▼ Slang (Internet-native, abbreviations)",
+    "slider_c_title": "[SLIDER] RESPECT (The Power Dynamic)",
+    "slider_c_left_label": "← Respectful",
+    "slider_c_right_label": "Irreverent →",
+    "slider_c_score_1": "▼ Deferential (Servile, client on pedestal)",
+    "slider_c_score_2": "▼ Respectful (Polite, courteous, careful)",
+    "slider_c_score_3": "▼ Neutral (Direct, neither rude nor fawning)",
+    "slider_c_score_4": "▼ Cheeky (Playful, teasing, confident)",
+    "slider_c_score_5": "▼ Provocative (Shocking, edgy, bold)",
+    "slider_d_title": "[SLIDER] ENTHUSIASM (The Energy Level)",
+    "slider_d_left_label": "← Matter-of-Fact",
+    "slider_d_right_label": "Enthusiastic →",
+    "slider_d_score_1": "▼ Clinical (Zero emotion, pure data)",
+    "slider_d_score_2": "▼ Dry (Just the facts, concise)",
+    "slider_d_score_3": "▼ Helpful (Encouraging, positive)",
+    "slider_d_score_4": "▼ Excited (Exclamation points, adjectives)",
+    "slider_d_score_5": "▼ Hype (Manic energy, caps, OBSESSED)",
+    "territory_1_title": "The Clinical Authority",
+    "territory_1_subtitle": "STYLE: ACADEMIC & DRY",
+    "territory_1_description": "Sounds like a diagnosis. Zero humor, purely informational. Builds trust through distance and precision.",
+    "territory_2_title": "The Modern Minimalist",
+    "territory_2_subtitle": "STYLE: DIRECT & CONCISE",
+    "territory_2_description": "Sounds like an instruction manual. Short sentences. No fluff. Builds trust through absolute efficiency.",
+    "territory_3_title": "The Gentle Guide",
+    "territory_3_subtitle": "STYLE: WARM & HELPFUL",
+    "territory_3_description": "Sounds like a good neighbor. Cheerful, polite, and encouraging. Builds trust through kindness and simplicity.",
+    "territory_4_title": "The Hype Beast",
+    "territory_4_subtitle": "STYLE: LOUD & PLAYFUL",
+    "territory_4_description": "Sounds like a text message. Uses slang, emojis, and high energy. Builds trust through vulnerability and fun."
+  },
+  "marker_8": {
+    "marker_name": "Visual Identity",
+    "intro_heading": "[?] VISUAL IDENTITY (THE SEMIOTIC SCAN)",
+    "intro_description": "Your customer processes visuals 60,000 times faster than text. Before they read a word, their brain has already decoded your Vibe (Safe vs. Fun) and looked for your Anchors (Codes). We measure this in two layers: First, the Positioning (Are you a Hospital or a Playground?). Second, the Distinctive Assets (The specific colors, shapes, and characters that act as mental shortcuts). If you lack these anchors, you are invisible.",
+    "slider_a_title": "[SLIDER] THE THERMOSTAT (Visual Temperature)",
+    "slider_a_left_label": "← Cold (Clinical)",
+    "slider_a_right_label": "Warm (Sensory) →",
+    "slider_a_score_1": "▼ Sterile (Hospital white, cool blue)",
+    "slider_a_score_2": "▼ Cool (Clean, distant, professional)",
+    "slider_a_score_3": "▼ Neutral (Neither warm nor cold)",
+    "slider_a_score_4": "▼ Radiating (Soft, inviting, approachable)",
+    "slider_a_score_5": "▼ Hot (Saturated, sensory, tactile)",
+    "slider_b_title": "[SLIDER] THE ENTROPY SCALE (Layout Control)",
+    "slider_b_left_label": "← Minimalist (Control)",
+    "slider_b_right_label": "Expressive (Chaos) →",
+    "slider_b_score_1": "▼ Swiss Grid (Rigid structure, negative space)",
+    "slider_b_score_2": "▼ Structured (Orderly, predictable hierarchy)",
+    "slider_b_score_3": "▼ Dynamic (Balanced movement and structure)",
+    "slider_b_score_4": "▼ Playful (Asymmetry, surprise elements)",
+    "slider_b_score_5": "▼ Anarchic (No rules, maximum expression)",
+    "territory_1_title": "Pharma-Code",
+    "territory_1_subtitle": "CODE: STERILITY",
+    "territory_1_description": "Clinical white and medical blue. The aesthetics of the lab. Signals safety, rigor, and zero risk.",
+    "territory_2_title": "Gen-Z Pop",
+    "territory_2_subtitle": "CODE: DOPAMINE",
+    "territory_2_description": "Neons, stickers, and chaos. The aesthetics of the playground. Signals fun, youth, and dopamine.",
+    "territory_3_title": "Earthy Organic",
+    "territory_3_subtitle": "CODE: HARMONY",
+    "territory_3_description": "Warm beige and paper textures. The aesthetics of the spa. Signals nature, gentleness, and calm.",
+    "territory_4_title": "The Traditionalist",
+    "territory_4_subtitle": "CODE: HERITAGE",
+    "territory_4_description": "Sharp lines and black void. The aesthetics of the art gallery. Signals status, price, and silence.",
+    "extended_field_1": "look_and_feel",
+    "extended_field_2": "distinctive_asset_1",
+    "extended_field_3": "distinctive_asset_2",
+    "extended_field_4": "distinctive_asset_3",
+    "extended_field_5": "distinctive_asset_4",
+    "extended_field_6": "distinctive_asset_5",
+    "extended_field_7": "palette_color_1",
+    "extended_field_8": "palette_color_2",
+    "extended_field_9": "palette_color_3",
+    "extended_field_10": "palette_color_4",
+    "extended_field_11": "palette_color_5",
+    "extended_field_12": "primary_palette"
+  },
+  "marker_9": {
+    "marker_name": "Messaging",
+    "intro_heading": "[?] MESSAGING (THE PRIMARY HOOK)",
+    "intro_description": "Messaging isn't about writing long paragraphs; it's about the Hook. On the digital shelf, the customer reads your Headline and maybe one sub-header. That's it. In those 2 seconds, you either hook them with a Molecule (Logic) or a Dream (Emotion). We measure this to see if your \"Hook\" matches your \"Product.\" If you sell a commodity moisturizer but speak like a poet, the customer detects the lie.",
+    "slider_a_title": "[SLIDER] THE HOOK TARGET (The Subject)",
+    "slider_a_left_label": "← Ingredient Name",
+    "slider_a_right_label": "End Benefit →",
+    "slider_a_score_1": "▼ The Molecule (Chemical subject)",
+    "slider_a_score_2": "▼ The Component (Natural/tangible subject)",
+    "slider_a_score_3": "▼ The Feature (Action subject)",
+    "slider_a_score_4": "▼ The Result (Effect subject)",
+    "slider_a_score_5": "▼ The Dream (Identity subject)",
+    "slider_b_title": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
+    "slider_b_left_label": "← Rational / Data",
+    "slider_b_right_label": "Emotional / Vibes →",
+    "slider_b_score_1": "▼ Raw Data (Charts, percentages, clinically proven)",
+    "slider_b_score_2": "▼ Rational (Logical cause-and-effect)",
+    "slider_b_score_3": "▼ Balanced (Facts with nice tone)",
+    "slider_b_score_4": "▼ Evocative (Descriptive, sensory language)",
+    "slider_b_score_5": "▼ Pure Vibes (Abstract, poetic, mood-driven)",
+    "territory_1_title": "The Chemist",
+    "territory_1_subtitle": "STRATEGY: INTELLECTUAL",
+    "territory_1_description": "Sells the noun. Assumes the user is smart enough to know the chemistry. Feels like a hardware store.",
+    "territory_2_title": "The Problem Solver",
+    "territory_2_subtitle": "STRATEGY: FUNCTIONAL",
+    "territory_2_description": "Sells the relief. Identifies a specific pain point and offers a mechanical fix. Feels like a clinic.",
+    "territory_3_title": "The Promise Maker",
+    "territory_3_subtitle": "STRATEGY: ASPIRATIONAL",
+    "territory_3_description": "Sells the reflection. Ignores the \"how\" to focus entirely on the \"wow.\" Feels like a magazine.",
+    "territory_4_title": "The Alchemist",
+    "territory_4_subtitle": "STRATEGY: ROMANTIC",
+    "territory_4_description": "Sells the source. Elevates raw ingredients into romantic elements using poetic language. Feels like a spa."
+  },
+  "marker_10": {
+    "marker_name": "Narrative",
+    "intro_heading": "[?] NARRATIVE (THE ORIGIN MYTH)",
+    "intro_description": "A product needs a factory; a brand needs a birth certificate. On the digital shelf, the \"Story\" isn't a fairy tale; it is the Trust Anchor. It answers the question: \"Who birthed this, and why?\" Did a scientist create it after 20 years of research? Or did a sufferer create it because nothing else worked? We map this because customers trust Authority (The Doctor) and Empathy (The Sufferer) in completely different ways.",
+    "slider_a_title": "[SLIDER] THE PROTAGONIST (The Hero)",
+    "slider_a_left_label": "← The Scientist",
+    "slider_a_right_label": "The Founder / Sufferer →",
+    "slider_a_score_1": "▼ The Nobel (Faceless PhDs, Dermatologists)",
+    "slider_a_score_2": "▼ The Professional (Estheticians, Industry Insiders)",
+    "slider_a_score_3": "▼ The Partnership (Founder + Doctor collab)",
+    "slider_a_score_4": "▼ The Visionary (Founder with a dream)",
+    "slider_a_score_5": "▼ The Survivor (Founder who cured own pain)",
+    "slider_b_title": "[SLIDER] THE SETTING (The Stage)",
+    "slider_b_left_label": "← The Lab",
+    "slider_b_right_label": "The Source →",
+    "slider_b_score_1": "▼ Sterile (Test tubes, molecules, clean rooms)",
+    "slider_b_score_2": "▼ Tech-Forward (Biotech, cold-press machinery)",
+    "slider_b_score_3": "▼ Studio (Kitchen table, salon, atelier)",
+    "slider_b_score_4": "▼ Harvest (Farms, gardens, botanical sourcing)",
+    "slider_b_score_5": "▼ Wild (Glaciers, volcanoes, ancient springs)",
+    "territory_1_title": "The Lab Breakthrough",
+    "territory_1_subtitle": "ORIGIN: INTELLECTUAL",
+    "territory_1_description": "Born from research. The story is about time, patents, and rigor. \"We studied this molecule for 10 years.\" Trust is built on data.",
+    "territory_2_title": "The Personal Cure",
+    "territory_2_subtitle": "ORIGIN: EMPATHETIC",
+    "territory_2_description": "Born from struggle. The story is about the founder's pain (acne, eczema) and their quest to fix it. Trust is built on shared suffering.",
+    "territory_3_title": "The Green Lab",
+    "territory_3_subtitle": "ORIGIN: OPTIMIZATION",
+    "territory_3_description": "Born from synthesis. The story is about using science to unlock the power of plants. \"Powered by Nature, Proven by Science.\" Trust is built on best-of-both-worlds.",
+    "territory_4_title": "The Ritual",
+    "territory_4_subtitle": "ORIGIN: CULTURAL",
+    "territory_4_description": "Born from wisdom. The story is about rediscovering an ancient secret or ingredient (Geisha secrets, Glacial water). Trust is built on heritage."
+  },
+  "marker_11": {
+    "marker_name": "Key Selling Points",
+    "intro_heading": "[?] KEY SELLING POINTS (THE EVIDENCE)",
+    "intro_description": "Claims are cheap; proof is currency. On the digital shelf, the customer is a skeptic. They are looking for the \"Reason to Believe\" (RTB). KSPs are the bullets you fire to kill that skepticism. We measure this because you cannot win with every weapon. You either win with Authority (The Doctor) or Popularity (The Crowd). You win with Hard Data (Charts) or Soft Vibes (Texture). If you try to fire all guns at once, you miss the target.",
+    "slider_a_title": "[SLIDER] THE VALIDATOR (Who Says It Works?)",
+    "slider_a_left_label": "← Authority (Doctors)",
+    "slider_a_right_label": "Community (Peers) →",
+    "slider_a_score_1": "▼ The Board (Dermatologist developed/recommended)",
+    "slider_a_score_2": "▼ The Lab (Scientists, Estheticians)",
+    "slider_a_score_3": "▼ The Certifiers (Third-party logos: EWG, PETA)",
+    "slider_a_score_4": "▼ The Users (Percentage of users who agree)",
+    "slider_a_score_5": "▼ The Fans (Viral TikToks, 5-star review counts)",
+    "slider_b_title": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
+    "slider_b_left_label": "← Clinical Study",
+    "slider_b_right_label": "Lifestyle Attribute →",
+    "slider_b_score_1": "▼ The Graph (Instrumental studies, molecular charts)",
+    "slider_b_score_2": "▼ The Stat (95% saw reduction in acne)",
+    "slider_b_score_3": "▼ The Visual (Before & After photos)",
+    "slider_b_score_4": "▼ The List (Free-from, Vegan, Clean)",
+    "slider_b_score_5": "▼ The Feel (Focus on texture, scent, absorption)",
+    "territory_1_title": "Derm-Validation",
+    "territory_1_subtitle": "PROOF: EXPERTISE",
+    "territory_1_description": "Relies on the white coat. Evidence is clinical studies and doctor recommendations. Trust the expert.",
+    "territory_2_title": "Formula Purity",
+    "territory_2_subtitle": "PROOF: SAFETY",
+    "territory_2_description": "Relies on the checklist. Evidence is \"Free-From\" claims and safety certifications. Trust the ingredients.",
+    "territory_3_title": "Viral Results",
+    "territory_3_subtitle": "PROOF: OUTCOMES",
+    "territory_3_description": "Relies on the crowd. Evidence is Before/After photos and user statistics. Trust the hype.",
+    "territory_4_title": "Sensory Experience",
+    "territory_4_subtitle": "PROOF: PLEASURE",
+    "territory_4_description": "Relies on the vibe. Evidence is texture, scent, and \"glow\" descriptions. Trust the feeling."
+  },
+  "marker_12": {
+    "marker_name": "USP",
+    "intro_heading": "[?] USP (THE OWNED ASSET)",
+    "intro_description": "A USP isn't a tagline; it's the Mental Real Estate you own. On the digital shelf, every brand is fighting for a single word association in the customer's mind. What word does YOUR brand own? Is it an Ingredient (\"The Vitamin C brand\"), a Process (\"The Fermentation brand\"), or a Lifestyle (\"The Clean Girl brand\")? We measure this because owning nothing means you are nothing.",
+    "slider_a_title": "[SLIDER] THE OWNERSHIP OBJECT (What You Claim to Own)",
+    "slider_a_left_label": "← The Ingredient",
+    "slider_a_right_label": "The Lifestyle →",
+    "slider_a_score_1": "▼ The Molecule (Owns a specific active ingredient)",
+    "slider_a_score_2": "▼ The Method (Owns a proprietary process)",
+    "slider_a_score_3": "▼ The Benefit (Owns a specific outcome)",
+    "slider_a_score_4": "▼ The Audience (Owns a customer segment)",
+    "slider_a_score_5": "▼ The Movement (Owns a cultural identity)",
+    "slider_b_title": "[SLIDER] THE CLAIM INTENSITY (How Loud Is The Claim?)",
+    "slider_b_left_label": "← Whispered (Implied)",
+    "slider_b_right_label": "Screamed (Explicit) →",
+    "slider_b_score_1": "▼ The Hint (Implied through design)",
+    "slider_b_score_2": "▼ The Suggestion (Soft copy mentions)",
+    "slider_b_score_3": "▼ The Statement (Clear bullet point)",
+    "slider_b_score_4": "▼ The Headline (Leads with the claim)",
+    "slider_b_score_5": "▼ The War Cry (Entire identity built on claim)",
+    "territory_1_title": "The Ingredient King",
+    "territory_1_subtitle": "OWNS THE MOLECULE",
+    "territory_1_description": "The brand is synonymous with a single hero ingredient. \"When you think Retinol, you think [Brand].\"",
+    "territory_2_title": "The Method Master",
+    "territory_2_subtitle": "OWNS THE PROCESS",
+    "territory_2_description": "The brand is synonymous with a unique delivery system or formulation technique. \"Only [Brand] ferments this way.\"",
+    "territory_3_title": "The Outcome Owner",
+    "territory_3_subtitle": "OWNS THE RESULT",
+    "territory_3_description": "The brand is synonymous with a specific benefit. \"For glass skin, you need [Brand].\"",
+    "territory_4_title": "The Tribe Leader",
+    "territory_4_subtitle": "OWNS THE IDENTITY",
+    "territory_4_description": "The brand is synonymous with a lifestyle or belief system. \"If you're Clean Girl, you use [Brand].\""
+  },
+  "marker_13": {
+    "marker_name": "Focus",
+    "intro_heading": "[?] FOCUS (THE ATTENTION ECONOMY)",
+    "intro_description": "On the digital shelf, attention is currency. What does the brand want you to LOOK at? Some brands obsess over ingredients (The Lab). Others obsess over lifestyle imagery (The Magazine). We measure this because the Focus reveals where the brand believes value lives. If you show molecules, you're selling logic. If you show sunsets, you're selling feelings.",
+    "slider_a_title": "[SLIDER] THE CONTENT TYPE (What Is Shown)",
+    "slider_a_left_label": "← Educational (How-To)",
+    "slider_a_right_label": "Lifestyle (Aesthetic) →",
+    "slider_a_score_1": "▼ The Lecture (Dense ingredient education)",
+    "slider_a_score_2": "▼ The Tutorial (Application guides and routines)",
+    "slider_a_score_3": "▼ The Balanced (Mix of how and wow)",
+    "slider_a_score_4": "▼ The Editorial (Aspirational imagery)",
+    "slider_a_score_5": "▼ The Art Film (Pure aesthetic, zero education)",
+    "slider_b_title": "[SLIDER] THE VISUAL PRIORITY (What Dominates)",
+    "slider_b_left_label": "← Product Shots",
+    "slider_b_right_label": "Model/Context Shots →",
+    "slider_b_score_1": "▼ Pack Shot Only (Product floating in white space)",
+    "slider_b_score_2": "▼ Product-First (Product with subtle context)",
+    "slider_b_score_3": "▼ Balanced (Equal product and lifestyle)",
+    "slider_b_score_4": "▼ Context-First (Lifestyle with product placed)",
+    "slider_b_score_5": "▼ No Product (Pure lifestyle, product is hidden)",
+    "territory_1_title": "The Academy",
+    "territory_1_subtitle": "FOCUS: EDUCATION",
+    "territory_1_description": "Content is designed to teach. Ingredients, routines, and science dominate. The brand positions as a professor.",
+    "territory_2_title": "The Showroom",
+    "territory_2_subtitle": "FOCUS: PRODUCT",
+    "territory_2_description": "Content is designed to showcase the product itself. Pack shots, textures, and ingredients in action.",
+    "territory_3_title": "The Magazine",
+    "territory_3_subtitle": "FOCUS: LIFESTYLE",
+    "territory_3_description": "Content is designed to inspire desire. Aspirational imagery and vibes dominate. The brand positions as a curator.",
+    "territory_4_title": "The Gallery",
+    "territory_4_subtitle": "FOCUS: AESTHETIC",
+    "territory_4_description": "Content is pure visual experience. Abstract, artistic, the product is secondary to the mood created."
+  },
+  "marker_14": {
+    "marker_name": "Functional Benefits",
+    "intro_heading": "[?] FUNCTIONAL BENEFITS (THE MECHANICAL PAYOFF)",
+    "intro_description": "Functional Benefits are what the product DOES to your skin. This is the rational purchase justification. On the digital shelf, customers ask: \"Will this Fix my problem or Prevent my future problem?\" \"Is the benefit Visible (glow) or Invisible (barrier)?\" We measure this because the Functional Benefit must match the Customer Problem. Selling 'Anti-Aging' to a teenager is malpractice.",
+    "slider_a_title": "[SLIDER] THE ACTION MODE (What It Does)",
+    "slider_a_left_label": "← Repair (Fix Existing)",
+    "slider_a_right_label": "Prevent (Stop Future) →",
+    "slider_a_score_1": "▼ Rescue (Emergency fix for acute damage)",
+    "slider_a_score_2": "▼ Repair (Reversing existing damage)",
+    "slider_a_score_3": "▼ Maintain (Daily upkeep)",
+    "slider_a_score_4": "▼ Protect (Shield from future damage)",
+    "slider_a_score_5": "▼ Fortify (Long-term defense building)",
+    "slider_b_title": "[SLIDER] THE BENEFIT VISIBILITY (How You See It)",
+    "slider_b_left_label": "← Invisible (Internal)",
+    "slider_b_right_label": "Visible (External) →",
+    "slider_b_score_1": "▼ Barrier (Invisible protection)",
+    "slider_b_score_2": "▼ Hydration (Feel but not see)",
+    "slider_b_score_3": "▼ Texture (Softness, smoothness)",
+    "slider_b_score_4": "▼ Tone (Even color, brightness)",
+    "slider_b_score_5": "▼ Glow (Visible radiance)",
+    "territory_1_title": "The Mechanic",
+    "territory_1_subtitle": "MODE: REPAIR",
+    "territory_1_description": "Product exists to fix what's broken. Active repair of existing damage or conditions.",
+    "territory_2_title": "The Bodyguard",
+    "territory_2_subtitle": "MODE: PROTECT",
+    "territory_2_description": "Product exists to prevent future damage. SPF, antioxidants, barrier defense.",
+    "territory_3_title": "The Housekeeper",
+    "territory_3_subtitle": "MODE: MAINTAIN",
+    "territory_3_description": "Product exists for daily upkeep. Hydration, cleansing, routine maintenance.",
+    "territory_4_title": "The Beautician",
+    "territory_4_subtitle": "MODE: ENHANCE",
+    "territory_4_description": "Product exists to create visible improvement. Glow, tone, immediate radiance."
+  },
+  "marker_15": {
+    "marker_name": "Emotional Benefits",
+    "intro_heading": "[?] EMOTIONAL BENEFITS (THE INTERNAL SHIFT)",
+    "intro_description": "Emotional Benefits are how the product makes you FEEL. This is the irrational purchase driver. On the digital shelf, customers don't just buy results; they buy feelings. \"Will this make me feel Safe or Excited?\" \"Will I feel it Privately (self-care) or Publicly (confidence)?\" We measure this because the Emotional Benefit often matters more than the Functional one. You're selling therapy, not lotion.",
+    "slider_a_title": "[SLIDER] THE EMOTIONAL DIRECTION (What Feeling)",
+    "slider_a_left_label": "← Comfort (Safety)",
+    "slider_a_right_label": "Excitement (Joy) →",
+    "slider_a_score_1": "▼ Relief (Anxiety reduction)",
+    "slider_a_score_2": "▼ Calm (Peaceful, soothing)",
+    "slider_a_score_3": "▼ Satisfaction (Contented, complete)",
+    "slider_a_score_4": "▼ Delight (Pleasant surprise)",
+    "slider_a_score_5": "▼ Euphoria (Intense joy)",
+    "slider_b_title": "[SLIDER] THE BENEFIT AUDIENCE (Who Sees)",
+    "slider_b_left_label": "← Private (Self)",
+    "slider_b_right_label": "Public (Others) →",
+    "slider_b_score_1": "▼ Sanctuary (Pure self-care moment)",
+    "slider_b_score_2": "▼ Ritual (Personal routine)",
+    "slider_b_score_3": "▼ Preparation (Getting ready)",
+    "slider_b_score_4": "▼ Confidence (Ready to face world)",
+    "slider_b_score_5": "▼ Spotlight (Ready to shine)",
+    "territory_1_title": "The Sanctuary",
+    "territory_1_subtitle": "FEELING: PRIVATE COMFORT",
+    "territory_1_description": "The product delivers a private moment of peace. Self-care ritual, anxiety relief, personal escape.",
+    "territory_2_title": "The Armor",
+    "territory_2_subtitle": "FEELING: PUBLIC CONFIDENCE",
+    "territory_2_description": "The product delivers confidence to face the world. Preparation for judgment, readiness for spotlight.",
+    "territory_3_title": "The Treat",
+    "territory_3_subtitle": "FEELING: PRIVATE DELIGHT",
+    "territory_3_description": "The product delivers sensory pleasure. A moment of indulgence, dopamine hit, guilty pleasure.",
+    "territory_4_title": "The Badge",
+    "territory_4_subtitle": "FEELING: PUBLIC JOY",
+    "territory_4_description": "The product delivers shareable excitement. Unboxing moment, social currency, visible delight."
+  },
+  "marker_16": {
+    "marker_name": "Self-Expression",
+    "intro_heading": "[?] SELF-EXPRESSION (THE IDENTITY BADGE)",
+    "intro_description": "Self-Expression Benefits are what buying this product SAYS about you. This is the social currency embedded in purchase. On the digital shelf, customers ask: \"Does buying this make me look Smart or Cool?\" \"Am I joining a Trend or bucking it?\" We measure this because modern consumers don't just buy products; they curate identities. Your brand is a casting vote for who they want to be.",
+    "slider_a_title": "[SLIDER] THE SIGNAL TYPE (What It Says)",
+    "slider_a_left_label": "← Rationality (Smart)",
+    "slider_a_right_label": "Relevance (Cool) →",
+    "slider_a_score_1": "▼ The Pragmatist (I'm practical and smart)",
+    "slider_a_score_2": "▼ The Researcher (I do my homework)",
+    "slider_a_score_3": "▼ The Balanced (I'm thoughtful)",
+    "slider_a_score_4": "▼ The Tastemaker (I know what's good)",
+    "slider_a_score_5": "▼ The Trendsetter (I define what's next)",
+    "slider_b_title": "[SLIDER] THE TREND POSITION (Where You Stand)",
+    "slider_b_left_label": "← Classic (Timeless)",
+    "slider_b_right_label": "Trending (Now) →",
+    "slider_b_score_1": "▼ Heritage (Time-tested, proven)",
+    "slider_b_score_2": "▼ Established (Known and trusted)",
+    "slider_b_score_3": "▼ Current (Modern and relevant)",
+    "slider_b_score_4": "▼ Rising (On the upswing)",
+    "slider_b_score_5": "▼ Viral (The moment right now)",
+    "territory_1_title": "The Pragmatist",
+    "territory_1_subtitle": "SIGNAL: SMART CHOICE",
+    "territory_1_description": "Purchase signals: \"I'm rational. I don't fall for hype. I make informed decisions.\"",
+    "territory_2_title": "The Connoisseur",
+    "territory_2_subtitle": "SIGNAL: REFINED TASTE",
+    "territory_2_description": "Purchase signals: \"I appreciate quality. I know the good stuff. I'm discerning.\"",
+    "territory_3_title": "The Trendsetter",
+    "territory_3_subtitle": "SIGNAL: CULTURAL CURRENCY",
+    "territory_3_description": "Purchase signals: \"I'm in the know. I discover things first. I define cool.\"",
+    "territory_4_title": "The Loyalist",
+    "territory_4_subtitle": "SIGNAL: TRIBAL BELONGING",
+    "territory_4_description": "Purchase signals: \"I belong to this tribe. This brand is my identity. We're in this together.\""
+  },
+  "marker_17": {
+    "marker_name": "Social Benefits",
+    "intro_heading": "[?] SOCIAL BENEFITS (THE TRIBAL CARD)",
+    "intro_description": "Social Benefits are how the product helps you navigate RELATIONSHIPS. This is the tribal membership embedded in purchase. On the digital shelf, customers ask: \"Will this help me Fit In or Stand Out?\" \"Am I joining the Majority or an Elite Club?\" We measure this because humans are tribal animals. Your brand is an invitation to a specific table.",
+    "slider_a_title": "[SLIDER] THE SOCIAL GOAL (Fit In vs Stand Out)",
+    "slider_a_left_label": "← Belonging (Fit In)",
+    "slider_a_right_label": "Distinction (Stand Out) →",
+    "slider_a_score_1": "▼ Mass Acceptance (Be like everyone)",
+    "slider_a_score_2": "▼ Group Fit (Be like my tribe)",
+    "slider_a_score_3": "▼ Balanced (Fit in while unique)",
+    "slider_a_score_4": "▼ Selective (Chosen differentiation)",
+    "slider_a_score_5": "▼ Outsider (Deliberately different)",
+    "slider_b_title": "[SLIDER] THE TRIBE SIZE (Mass vs Elite)",
+    "slider_b_left_label": "← Mass (Everyone)",
+    "slider_b_right_label": "Niche (The Few) →",
+    "slider_b_score_1": "▼ Universal (For absolutely everyone)",
+    "slider_b_score_2": "▼ Mainstream (For most people)",
+    "slider_b_score_3": "▼ Segment (For specific types)",
+    "slider_b_score_4": "▼ Niche (For those who know)",
+    "slider_b_score_5": "▼ Exclusive (For the select few)",
+    "territory_1_title": "The Mainstream",
+    "territory_1_subtitle": "TRIBE: MASS ACCEPTANCE",
+    "territory_1_description": "Purchase signals: \"I'm normal. I make safe choices. I belong to the majority.\"",
+    "territory_2_title": "The Insider",
+    "territory_2_subtitle": "TRIBE: KNOWLEDGE CLUB",
+    "territory_2_description": "Purchase signals: \"I know things others don't. I discovered this before it was big.\"",
+    "territory_3_title": "The Elite",
+    "territory_3_subtitle": "TRIBE: EXCLUSIVE ACCESS",
+    "territory_3_description": "Purchase signals: \"I have access others don't. I'm in the room where it happens.\"",
+    "territory_4_title": "The Rebel",
+    "territory_4_subtitle": "TRIBE: COUNTER-CULTURE",
+    "territory_4_description": "Purchase signals: \"I reject the mainstream. I choose differently on purpose.\""
+  },
+  "condition_healthy": {
+    "label": "Healthy Condition",
+    "alignment_range": "[90-100%]",
+    "bg_color": "rgb(232, 252, 237)",
+    "accent_color": "rgb(0, 130, 54)"
+  },
+  "condition_stable": {
+    "label": "Stable Condition",
+    "alignment_range": "[70-89%]",
+    "bg_color": "rgb(235, 243, 255)",
+    "accent_color": "rgb(20, 71, 230)"
+  },
+  "condition_guarded": {
+    "label": "Guarded Condition",
+    "alignment_range": "[50-69%]",
+    "bg_color": "rgb(254, 246, 231)",
+    "accent_color": "rgb(229, 115, 0)"
+  },
+  "condition_critical": {
+    "label": "Critical Condition",
+    "alignment_range": "[0-49%]",
+    "bg_color": "rgb(255, 229, 231)",
+    "accent_color": "rgb(231, 0, 10)"
+  },
+  "category_1": {
+    "number": "1.",
+    "title": "Foundation",
+    "subtitle": "The Strategic Core",
+    "description": "(DEFINING THE \"WHY\")",
+    "bullet_1": "Purpose",
+    "bullet_2": "Mission & Vision",
+    "bullet_3": "Values",
+    "bullet_4": "Positioning",
+    "bullet_5": "",
+    "marker_id_1": 1,
+    "marker_id_2": 2,
+    "marker_id_3": 3,
+    "marker_id_4": 4
+  },
+  "category_2": {
+    "number": "2.",
+    "title": "Identity",
+    "subtitle": "The Strategic Core",
+    "description": "(DEFINING THE \"FACE\")",
+    "bullet_1": "Personality",
+    "bullet_2": "Archetypes Mix",
+    "bullet_3": "Tone of Voice",
+    "bullet_4": "Visual Identity",
+    "bullet_5": "",
+    "marker_id_1": 5,
+    "marker_id_2": 6,
+    "marker_id_3": 7,
+    "marker_id_4": 8
+  },
+  "category_3": {
+    "number": "3.",
+    "title": "Communication",
+    "subtitle": "The Strategic Core",
+    "description": "(DEFINING THE \"HOW\")",
+    "bullet_1": "Messaging",
+    "bullet_2": "Narrative/Story",
+    "bullet_3": "Key Selling Points",
+    "bullet_4": "USP",
+    "bullet_5": "Focus",
+    "marker_id_1": 9,
+    "marker_id_2": 10,
+    "marker_id_3": 11,
+    "marker_id_4": 12,
+    "marker_id_5": 13
+  },
+  "category_4": {
+    "number": "4.",
+    "title": "Benefits",
+    "subtitle": "The Strategic Core",
+    "description": "(\"THE PAYOFF\")",
+    "bullet_1": "Functional",
+    "bullet_2": "Emotional",
+    "bullet_3": "Self-Expression",
+    "bullet_4": "Social",
+    "bullet_5": "",
+    "marker_id_1": 14,
+    "marker_id_2": 15,
+    "marker_id_3": 16,
+    "marker_id_4": 17
   }
 }
