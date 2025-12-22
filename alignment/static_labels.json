@@ -1,12 +1,13 @@
 {
-  "version": "2.1.0",
-  "last_updated": "2025-12-12",
+  "version": "2.2.0",
+  "last_updated": "2025-12-22",
   "source": "FOUNDATION/IDENTITY/COMMUNICATION/BENEFITS MARKERS EVALUATION RULES system prompt",
-  "change_log": "Fixed markers 12-17 hallucinations. Corrected slider titles, labels, scores, and territories to match system_prompt.md source of truth.",
+  "change_log": "Added saturation thresholds for category reports (saturation_saturated, saturation_mainstream, saturation_emerging, saturation_gap).",
   "binding_guide": {
     "markers": "Access via labels.marker_1.marker_name, labels.marker_1.slider_a_title, labels.marker_1.territory_1_title, etc.",
     "categories": "Access via labels.category_1.title, labels.category_1.marker_id_1, etc.",
-    "conditions": "Access via labels.condition_healthy.label, labels.condition_healthy.bg_color, etc."
+    "conditions": "Access via labels.condition_healthy.label, labels.condition_healthy.bg_color, etc.",
+    "saturations": "Access via labels.saturation_saturated.min_threshold, labels.saturation_saturated.bg_color, etc."
   },
   "marker_1": {
     "marker_name": "Brand Purpose",
@@ -225,7 +226,7 @@
     "archetype_jester_description": "The Entertainer. Driven to live in the moment.",
     "archetype_lover_core_drive": "INTIMACY & PASSION",
     "archetype_lover_description": "The Partner. Driven by desire and connection.",
-     "territory_1_title": "The Stabilizers",
+    "territory_1_title": "The Stabilizers",
     "territory_1_subtitle": "(MOTIVATION: CONTROL & ORDER)",
     "territory_1_description": "Offers certainty in a chaotic world. The PDP signals protection, absolute perfection, and structure. Safe, not sorry.",
     "territory_2_title": "The Seekers",
@@ -652,6 +653,34 @@
     "alignment_range": "[0-49%]",
     "bg_color": "rgb(255, 229, 231)",
     "accent_color": "rgb(231, 0, 10)"
+  },
+  "saturation_saturated": {
+    "label": "SATURATED CORE",
+    "range": "[90-100%]",
+    "min_threshold": 90,
+    "bg_color": "#FFE5E7",
+    "text_color": "#E7000A"
+  },
+  "saturation_mainstream": {
+    "label": "MAINSTREAM PATH",
+    "range": "[70-89%]",
+    "min_threshold": 70,
+    "bg_color": "#FEF6E7",
+    "text_color": "#E57300"
+  },
+  "saturation_emerging": {
+    "label": "EMERGING NICHE",
+    "range": "[50-69%]",
+    "min_threshold": 50,
+    "bg_color": "#EBF3FF",
+    "text_color": "#1447E6"
+  },
+  "saturation_gap": {
+    "label": "STRATEGIC GAP",
+    "range": "[0-49%]",
+    "min_threshold": 0,
+    "bg_color": "#E8FCED",
+    "text_color": "#008236"
   },
   "category_1": {
     "number": "1.",
