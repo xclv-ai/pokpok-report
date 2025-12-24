@@ -688,7 +688,28 @@
   },
   "marker_6": {
     "name": "Archetypes Mix",
-    "marker_saturation": 67,
+    "marker_saturation": 67%,
+    "primary": {
+    "archetype": "The Caregiver",
+    "group": "A (Structure)",
+    "saturation_1": "60%",
+    "saturation_2": "10%",
+    "saturation_3": "5%"
+    },
+    "secondary": {
+      "archetype": "The Sage",
+      "group": "D (Knowledge)",
+      "saturation_1": "5%",
+      "saturation_2": "40%",
+      "saturation_3": "10%"
+    },
+    "tertiary": {
+      "archetype": "The Everyman",
+      "group": "C (Connection)",
+      "saturation_1": "0%",
+      "saturation_2": "5%",
+      "saturation_3": "50%"
+    },
     "territory_saturations": {
       "1": 67,
       "2": 0,
