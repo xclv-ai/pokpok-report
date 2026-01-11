@@ -1,8 +1,8 @@
 {
-  "version": "2.3.0",
-  "last_updated": "2025-12-22",
+  "version": "1.3.0",
+  "last_updated": "2026-01-11",
   "source": "FOUNDATION/IDENTITY/COMMUNICATION/BENEFITS MARKERS EVALUATION RULES system prompt",
-  "change_log": "Optimized saturation thresholds for better marker distribution (80/55/25/0 instead of 90/70/50/0).",
+  "change_log": "Aligned with v1.3 content-driven territory methodology. Added evaluation_check field support.",
   "binding_guide": {
     "markers": "Access via labels.marker_1.marker_name, labels.marker_1.slider_a_title, labels.marker_1.territory_1_title, etc.",
     "categories": "Access via labels.category_1.title, labels.category_1.marker_id_1, etc.",
@@ -229,15 +229,15 @@
     "territory_1_title": "The Stabilizers",
     "territory_1_subtitle": "(MOTIVATION: CONTROL & ORDER)",
     "territory_1_description": "Offers certainty in a chaotic world. The PDP signals protection, absolute perfection, and structure. Safe, not sorry.",
-    "territory_2_title": "The Seekers",
-    "territory_2_subtitle": "(MOTIVATION: INDEPENDENCE & TRUTH)",
-    "territory_2_description": "Driven by the search for answers. The PDP signals purity, simplicity, and raw data. A return to the source.",
+    "territory_2_title": "The Disruptors",
+    "territory_2_subtitle": "(MOTIVATION: RISK & MASTERY)",
+    "territory_2_description": "Exists to overthrow the status quo. The PDP signals intensity, rule-breaking, and transformation. Results at any cost.",
     "territory_3_title": "The Uniters",
     "territory_3_subtitle": "(MOTIVATION: BELONGING & JOY)",
     "territory_3_description": "Prioritizes the tribe over the product. The PDP signals warmth, inclusivity, and sensory fun. It feels like a club.",
-    "territory_4_title": "The Disruptors",
-    "territory_4_subtitle": "(MOTIVATION: RISK & MASTERY)",
-    "territory_4_description": "Exists to overthrow the status quo. The PDP signals intensity, rule-breaking, and transformation. Results at any cost."
+    "territory_4_title": "The Seekers",
+    "territory_4_subtitle": "(MOTIVATION: INDEPENDENCE & TRUTH)",
+    "territory_4_description": "Driven by the search for answers. The PDP signals purity, simplicity, and raw data. A return to the source."
   },
   "marker_7": {
     "marker_name": "Tone of Voice",
