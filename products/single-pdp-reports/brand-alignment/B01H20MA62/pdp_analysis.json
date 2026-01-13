@@ -3,32 +3,32 @@
   "product_title": "Cetaphil Face & Body Moisturizer, Hydrating Moisturizing Cream for Dry to Very Dry, Sensitive Skin, NEW 16 oz 2 Pack, Fragrance Free, Non-Comedogenic, Non-Greasy",
   "url": "https://www.amazon.com/dp/B01H20MA62",
   "overall_perception_summary": {
-    "headline": "The Clinical Problem-Solver",
-    "description": "Cetaphil feels like a prescription you can buy at the supermarket. It projects an overwhelming sense of clinical safety, competence, and reliability, completely stripping away beauty marketing fluff. Its role is to be the unquestioned, drama-free solution for the functional problem of dry, sensitive skin, recommended by doctors and validated by the masses."
+    "headline": "The Gentle Guardian",
+    "description": "Cetaphil feels like a prescription you can buy at the supermarket. It radiates an unwavering sense of safety, clinical authority, and reliability, completely stripping away aesthetic aspiration to focus on its core job: fixing and protecting sensitive skin. It's the default, no-risk, doctor-approved solution in a bottle."
   },
   "category_summaries": {
     "foundation": {
-      "title": "The Democratic Healer",
-      "description": "The brand's purpose is to be The Healer, anchoring its authority purely in the Clinical Lab to fix skin barrier issues. This is governed by a strict Safety First value system that sacrifices all potency claims for guaranteed tolerance. This clinical authority is then positioned as a Medical Authority, but delivered at a Bulk Utility price, making professional-grade care accessible to all."
+      "title": "The Derm-Democratizer",
+      "description": "The brand's purpose is to be The Healer, anchoring its authority firmly in the clinical lab with a mission of Restoration. This is governed by a core value of Safety First, sacrificing all else to guarantee tolerance. This strategy culminates in its positioning as The Medical Authority, making dermatologist-backed, utilitarian skin health universally accessible."
     },
     "identity": {
-      "title": "The Reliable Expert",
-      "description": "The brand behaves like a distant but competent medical professional, adopting The Reliable Expert personality. Its identity is driven by a mix of The Caregiver (60%) and The Sage (25%), using its wisdom to provide protection. Visually, it is pure Pharma-Code, and the Tone of Voice is a Clinical Authority, creating a consistent, trustworthy, and serious identity with zero ambiguity."
+      "title": "The Clinical Guardian",
+      "description": "The psychological distance is vast; this brand is a distant, Reliable Expert, not a friend. Dominated by The Caregiver archetype (70%), its entire identity is built to project guardianship and safety. This is visually executed through a sterile Pharma-Code aesthetic and communicated with the detached, unemotional Tone of a Clinical Authority."
     },
     "communication": {
-      "title": "Derm-Validated Proof",
-      "description": "Persuasion is achieved by being a relentless Problem Solver, hooking the user with the promise of a fix and backing it with rational data. The USP is being The Specialist for dry, sensitive skin, a claim validated by its Lab Breakthrough narrative. Every pixel is dedicated to Science Education, prioritizing diagrams and clinical proof over lifestyle inspiration."
+      "title": "Evidence-Based Solutions",
+      "description": "The brand persuades as a Problem Solver, hooking the user with a rational argument for a specific result. Its unfair advantage is its USP as The Specialist for dry, sensitive skin. Trust is anchored in its Narrative as a Lab Breakthrough, and the entire page is focused on Science Education to prove its case."
     },
     "benefits": {
-      "title": "Reliable Restoration",
-      "description": "The functional promise is pure Restoration, fixing a damaged skin barrier rather than preventing future issues. This delivers an emotional benefit of Relief and Safety—the absence of worry about irritation. The purchase is a signal of being The Pragmatist, a rational actor immune to hype, and provides the social benefit of being The Safe Choice, validated by millions of users."
+      "title": "Reliable, Low-Risk Relief",
+      "description": "The functional promise is pure Restoration, fixing a compromised skin barrier to bring it back to health. This delivers an emotional benefit of Relief and Safety—the feeling of being free from worry about irritation. Buying it is an act of Self-Expression for The Pragmatist, signaling rationality over hype. Socially, it's The Safe Choice, aligning the user with the massive tribe of people who trust their dermatologist."
     }
   },
   "quick_labels": {
     "brand_voice": "Clinical Authority",
     "visual_appeal": "Sterile Pharmacy",
-    "value_prop": "Derm-Grade Utility",
-    "positioning": "Medical Staple"
+    "value_prop": "Derm-Trusted Utility",
+    "positioning": "The Default Fix"
   },
   "marker_1": {
     "marker_name": "Purpose",
@@ -39,24 +39,32 @@
     "slider_b_value": "2/5",
     "slider_b_position_name": "▼ Restoration (Repairing damage)",
     "territory_number": 1,
-    "territory": "The Healer (Clinical Correction)",
-    "reasoning": "Authority is derived entirely from medical validation—'Dermatologist backed', 'Clinically proven'—not from natural ingredients, anchoring it firmly in the lab (Source of Power: 2/5 Derm-Validated). The mission is explicitly to fix a problem—'Restore skin's moisture barrier', 'soothes skin dryness'—aiming to return damaged skin to its baseline, not elevate it aesthetically (Mission Goal: 2/5 Restoration). Clinical authority + a mission of repair = The Healer.",
-    "evidence": "Dermatologist backed ingredient blend... Clinically proven to restore skin's moisture barrier... Soothes skin dryness for 48 hours... Developed for even the most sensitive skin",
-    "evidence_src": "BASE_CONTENT.about_this_item[0, 2, 3, 4]"
+    "territory": "The Healer (CLINICAL CORRECTION)",
+    "reasoning": "The brand's authority flows directly from the white coat—'Dermatologist backed' and 'Dermatologist Recommended' are primary claims, not nature or molecules (Source: 2/5 Derm-Validated). The mission is explicitly to fix a problem, using words like 'restores skin's moisture barrier' and 'soothes skin dryness' to signal a return to baseline health, not an aesthetic upgrade (Goal: 2/5 Restoration). Clinical authority + a fixing mission = The Healer.",
+    "evidence": "DERMATOLOGIST BACKED INGREDIENT BLEND... CLINICALLY PROVEN TO RESTORE SKIN'S MOISTURE BARRIER... soothes skin dryness for 48 hours",
+    "evidence_src": "BASE_CONTENT.about_this_item[2] + BASE_CONTENT.about_this_item[3] + PRODUCT_GALLERY.visual_content_analysis[7].visual_analysis.claimsAndFeatures",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5 Derm-Validated) + Slider B (2/5 Restoration) is a perfect match for the expected pattern of Territory 1 - The Healer. The content consistently supports a clinical, restorative purpose."
+    }
   },
   "marker_2": {
     "marker_name": "Mission & Vision",
     "slider_a_label": "[SLIDER] SCOPE OF IMPACT (The Blast Radius)",
-    "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Micro-Correction (Fixing specific pathologies)",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ Optimization (General appearance/glow)",
     "slider_b_label": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
     "slider_b_value": "5/5",
     "slider_b_position_name": "▼ Democratic (Universal access for everyone)",
     "territory_number": 1,
     "territory": "The Democratizers (Accessible Skin Health)",
-    "reasoning": "The brand's battlefield is extremely focused: fixing 'dry to very dry, sensitive skin' on an individual level, not reforming the beauty industry or saving the planet (Scope: 1/5 Micro-Correction). With a price under $20 for a 2-pack and over 34,000 reviews, the access barrier is non-existent; it is a mass-market staple (Access: 5/5 Democratic). A micro-focused mission with democratic access makes it The Democratizer of clinical skincare.",
-    "evidence": "for Dry to Very Dry, Sensitive Skin... $19.48... 34,919 global ratings... #8 in Body Moisturizers",
-    "evidence_src": "BASE_CONTENT.product_title + SOCIAL_PROOF.price + SOCIAL_PROOF.reviews_count + SOCIAL_PROOF.sales_rank"
+    "reasoning": "The brand's ambition is focused entirely on individual skin health, aiming to 'restore skin's moisture barrier' and 'defend against 5 signs of skin sensitivity', not reform the industry (Scope: 2/5 Optimization). With a price around $9.74 for a large 16oz tub and a #8 Best Seller rank with 34k+ reviews, the access barrier is non-existent; it is fully democratic (Access: 5/5 Democratic). Personal scope + mass accessibility = The Democratizers.",
+    "evidence": "$19.48 for 2-pack... 34,919 global ratings... Best Sellers Rank: #8 in Body Moisturizers... defends against 5 signs of skin sensitivity",
+    "evidence_src": "SOCIAL_PROOF.price + SOCIAL_PROOF.reviews_count + SOCIAL_PROOF.sales_rank + BASE_CONTENT.about_this_item[4]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5 Optimization) + Slider B (5/5 Democratic) is the classic pattern for Territory 1 - The Democratizers. The data strongly supports a mission of making effective skin health accessible to all."
+    }
   },
   "marker_3": {
     "marker_name": "Values",
@@ -64,27 +72,35 @@
     "slider_a_value": "1/5",
     "slider_a_position_name": "▼ Hypoallergenic (Do no harm)",
     "slider_b_label": "[SLIDER] INFORMATION DENSITY (The Transparency)",
-    "slider_b_value": "2/5",
-    "slider_b_position_name": "▼ Evidence-First (Charts, diagrams, studies)",
+    "slider_b_value": "3/5",
+    "slider_b_position_name": "▼ Explained (Simplified science for layman)",
     "territory_number": 1,
     "territory": "Safety First (The Safe Harbor)",
-    "reasoning": "The brand's highest law is 'do no harm.' 'Hypoallergenic,' 'non-comedogenic,' 'fragrance free,' and the NEA seal all signal that safety and tolerance trump aggressive potency (Performance Priority: 1/5 Hypoallergenic). It reveals its source code through evidence like 'clinically proven,' ingredient callouts, and data file citations, but not full percentages, making it Evidence-First (2/5). Absolute safety + data-driven proof = Safety First.",
-    "evidence": "Hypoallergenic, non-comedogenic formula is free of parabens and fragrance... Developed for even the most sensitive skin... Clinically proven... Source: Galderma data on File",
-    "evidence_src": "BASE_CONTENT.about_this_item[4] + ABOUT_THE_BRAND.brand_story.sections[0].images[3].url.otherVisibleText"
+    "reasoning": "The brand's primary value is to do no harm. Claims like 'DEVELOPED FOR EVEN THE MOST SENSITIVE SKIN' and a list of 'free-from' attributes clearly prioritize safety and tolerance over aggressive results (Performance: 1/5 Hypoallergenic). The information they provide is simplified science—they name key ingredients like 'Niacinamide' and 'Panthenol' and explain their function, but don't overwhelm with percentages (Transparency: 3/5 Explained). Safety-first performance + explained science = Safety First.",
+    "evidence": "DEVELOPED FOR EVEN THE MOST SENSITIVE SKIN... hypoallergenic, non-comedogenic formula is free of parabens and fragrance... hydrating glycerin, panthenol (vitamin B5)... niacinamide (vitamin B3)",
+    "evidence_src": "BASE_CONTENT.about_this_item[4] + SOCIAL_PROOF.description",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5 Hypoallergenic) + Slider B (3/5 Explained) aligns well with Territory 1 - Safety First. The dominant signal is absolute safety, supported by just enough science to be credible but not intimidating."
+    }
   },
   "marker_4": {
     "marker_name": "Positioning",
     "slider_a_label": "[SLIDER] AESTHETIC VIBE (The Uniform)",
     "slider_a_value": "1/5",
     "slider_a_position_name": "▼ Clinical Sterile (Zero emotion)",
-    "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Price Signal)",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ Bulk Utility (Commodity pricing)",
+    "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Status Signal)",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "▼ Daily Essential (Reliable staple)",
     "territory_number": 1,
-    "territory": "The Medical Authority (The Doctor's Choice)",
-    "reasoning": "The visual identity is deliberately sterile—a white, blue, and green palette that mimics a pharmacy or hospital to signal safety and efficacy (Aesthetic: 1/5 Clinical Sterile). The price for a 2-pack of 16oz tubs anchors it firmly as a value-driven, bulk utility purchase, not a luxury indulgence (Value: 1/5 Bulk Utility). The combination of a sterile aesthetic and a utility price point defines it as a Medical Authority.",
-    "evidence": "$19.48 for 2 pack... Clean, professional, and approachable visual look and feel... A clean white base with contrasting green and blue elements",
-    "evidence_src": "SOCIAL_PROOF.price + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.visualDescription.visual_identity.look_and_feel"
+    "territory": "The Medical Authority (The Pharmacy)",
+    "reasoning": "The aesthetic is deliberately sterile, using a white, blue, and green palette that mimics a pharmacy or hospital environment to signal clinical efficacy (Aesthetic: 1/5 Clinical Sterile). The large, bulk 2-pack format, accessible price, and positioning as a 'Face & Body' cream firmly establish it as a utilitarian daily workhorse, not an indulgence (Value: 2/5 Daily Essential). Sterile aesthetic + utility positioning = The Medical Authority.",
+    "evidence": "Visual palette is white, blue, green... Look and feel described as 'Clinical and authoritative'... 16 oz 2 Pack... price of $19.48... for 'Face & Body'",
+    "evidence_src": "ABOUT_THE_BRAND.brand_story.images[1].url.visual_analysis.visual_identity.primary_palette + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.productDetailsFromPackaging + SOCIAL_PROOF.price",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5 Clinical Sterile) + Slider B (2/5 Daily Essential) is a direct match for Territory 1 - The Medical Authority. The brand's positioning is exceptionally clear and consistent."
+    }
   },
   "marker_5": {
     "marker_name": "Personality",
@@ -96,36 +112,44 @@
     "slider_b_position_name": "▼ The Specialist (Highly educated)",
     "territory_number": 3,
     "territory": "The Reliable Expert (Competence)",
-    "reasoning": "The brand emits very little emotional heat; its language is clinical, professional, and fact-based, creating a polite distance (Thermostat: 2/5 Distant). The power dynamic is clear: 'Dermatologist backed' and 'Clinically proven' establish the brand as a highly educated specialist providing a solution, not a peer offering a suggestion (Power Dynamic: 4/5 Specialist). Low warmth + high authority = The Reliable Expert.",
-    "evidence": "Clinically proven to restore skin's moisture barrier... Dermatologist backed ingredient blend... Binds water to the skin, preventing moisture loss",
-    "evidence_src": "BASE_CONTENT.about_this_item[2,3]"
+    "reasoning": "The brand emits zero emotional warmth; the tone is clinical, factual, and professional, maintaining a clear distance from the user (Thermostat: 2/5 Distant). It asserts its authority through expertise, constantly referencing dermatologists and clinical proof, positioning itself as the educated specialist in the room (Power Dynamic: 4/5 The Specialist). A cold, distant demeanor combined with a high-expert stance = The Reliable Expert.",
+    "evidence": "Clinically proven... Dermatologist backed... Formulated with a new blend of key ingredients... defends against 5 signs of skin sensitivity",
+    "evidence_src": "BASE_CONTENT.about_this_item[1] + BASE_CONTENT.about_this_item[3] + SOCIAL_PROOF.description",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5 Distant) + Slider B (4/5 The Specialist) is the characteristic pattern for Territory 3 - The Reliable Expert. The brand's personality is consistently competent and authoritative."
+    }
   },
   "marker_6": {
     "marker_name": "Archetypes Mix",
     "primary": {
       "archetype": "The Caregiver",
-      "group": "A (Structure)",
-      "percentage": "60%"
+      "group": "Stability and Belonging",
+      "percentage": "70%"
     },
     "secondary": {
       "archetype": "The Sage",
-      "group": "D (Knowledge)",
-      "percentage": "25%"
+      "group": "Stability and Independence",
+      "percentage": "20%"
     },
     "tertiary": {
       "archetype": "The Ruler",
-      "group": "A (Structure)",
-      "percentage": "15%"
+      "group": "Stability and Belonging",
+      "percentage": "10%"
     },
     "territory_number": 4,
-    "territory": "The Seekers (Independence & Truth)",
-    "reasoning": "The brand's core drive is to protect and nurture 'very dry, sensitive skin,' making The Caregiver (60%) its primary role. However, its method and authority are rooted in 'clinically proven' facts and 'dermatologist backed' data, invoking The Sage (25%). A tertiary role of The Ruler (15%) appears in its mission to 'restore' order to the skin barrier. The combination of Primary Caregiver and Secondary Sage triggers the override rule, placing it in The Seekers territory, as it helps users find a truthful, safe solution through expert knowledge.",
-    "evidence": "soothes skin dryness... protect skin from dryness... Clinically proven... Dermatologist backed... restore skin's moisture barrier... Defends against 5 signs of skin sensitivity",
-    "evidence_src": "BASE_CONTENT.about_this_item[0, 2, 3] + PRODUCT_GALLERY.visual_content_analysis[1].claimsAndFeatures"
+    "territory": "The Guardian (Belonging & Stability)",
+    "reasoning": "The brand's dominant drive is to protect and nurture, evident in its focus on sensitive skin and doing no harm; this is pure Caregiver (70%). This care is delivered through the lens of objective truth and science—'clinically proven' data and dermatologist recommendations, making The Sage (20%) its secondary mode. Finally, it provides a sense of control and order over skin conditions, a hallmark of The Ruler (10%). The combination of these archetypes, all rooted in stability, firmly places it in The Guardian territory.",
+    "evidence": "DEVELOPED FOR EVEN THE MOST SENSITIVE SKIN... defends against 5 signs of skin sensitivity... CLINICALLY PROVEN... Dermatologist backed",
+    "evidence_src": "BASE_CONTENT.about_this_item[4] + BASE_CONTENT.about_this_item[2] + BASE_CONTENT.about_this_item[3]",
+    "evaluation_check": {
+      "coherence_status": "not_applicable",
+      "coherence_reasoning": "Marker 6 uses percentage distribution, not sliders. The primary archetype, The Caregiver, resides in the Guardian quadrant, which aligns with the brand's overall protective and stable positioning."
+    }
   },
   "marker_7": {
     "marker_name": "Tone of Voice",
-    "slider_a_label": "[SLIDER] HUMOR (The Comedy Scale)",
+    "slider_a_label": "[SLIDER] HUMOR (The Sense of Humor)",
     "slider_a_value": "2/5",
     "slider_a_position_name": "▼ Serious (No jokes, strictly business)",
     "slider_b_label": "[SLIDER] FORMALITY (The Dress Code)",
@@ -135,13 +159,17 @@
     "slider_c_value": "2/5",
     "slider_c_position_name": "▼ Respectful (Polite, courteous, careful)",
     "slider_d_label": "[SLIDER] ENTHUSIASM (The Energy Level)",
-    "slider_d_value": "2/5",
-    "slider_d_position_name": "▼ Dry (Just the facts, concise)",
+    "slider_d_value": "1/5",
+    "slider_d_position_name": "▼ Clinical (Zero emotion, pure data)",
     "territory_number": 1,
     "territory": "The Clinical Authority (Academic & Dry)",
-    "reasoning": "The tone is uniformly clinical. There are no attempts at humor (Humor: 2/5 Serious) and the language uses proper, corporate grammar (Formality: 2/5 Traditional). The voice is polite and careful (Respect: 2/5 Respectful) and presents information with minimal emotional coloring (Enthusiasm: 2/5 Dry). Composite Scores: Warmth = (2+2)/2 = 2.0 (Low), Energy = (2+2)/2 = 2.0 (Low). Low warmth and low energy squarely define the voice as The Clinical Authority.",
-    "evidence": "Instantly replenishes, intensely nourishes... Binds water to the skin, preventing moisture loss to hydrate and protect skin... Formulated with a new blend of key ingredients...",
-    "evidence_src": "BASE_CONTENT.about_this_item[0, 2] + SOCIAL_PROOF.description"
+    "reasoning": "The voice is devoid of emotion, presenting facts in a clinical manner with no exclamation points or hype (Enthusiasm: 1/5 Clinical). There is a complete absence of humor (Humor: 2/5 Serious). The language uses proper grammar and a professional structure, avoiding any casual slang (Formality: 2/5 Traditional) and maintaining a polite but distant respect (Respect: 2/5 Respectful). The combination of low humor and low enthusiasm firmly meets the rule for The Clinical Authority.",
+    "evidence": "Instantly replenishes, intensely nourishes and soothes skin dryness for 48 hours... Binds water to the skin, preventing moisture loss...",
+    "evidence_src": "BASE_CONTENT.about_this_item[0] + BASE_CONTENT.about_this_item[2]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "The scores for Humor (<=2) and Enthusiasm (<=2) trigger the hard rule for Territory 1 - The Clinical Authority. The voice is consistently dry, formal, and fact-based."
+    }
   },
   "marker_8": {
     "marker_name": "Visual Identity",
@@ -153,21 +181,25 @@
     "slider_b_position_name": "▼ Structured (Orderly, predictable hierarchy)",
     "territory_number": 1,
     "territory": "Pharma-Code (Sterility)",
-    "reasoning": "The visual temperature is cold, dominated by a sterile white, medical blue, and reassuring green palette that signals a clinical environment (Thermostat: 1/5 Sterile). The layout is highly controlled and orderly, with clear information hierarchy and grid-based designs, avoiding any sense of chaos or playfulness (Entropy: 2/5 Structured). Cold temperature + high control = Pharma-Code, designed to look safe and effective.",
-    "evidence": "Predominantly white with blue and green accents... Clinical and authoritative look and feel... Clean and clinical presentation... Structured layouts with clear hierarchy",
-    "evidence_src": "ABOUT_THE_BRAND.brand_story.sections[0].images[0].url.visual_analysis.visual_identity.primary_palette.description + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.visualDescription.visual_identity.look_and_feel",
-    "look_and_feel": "A sterile, reassuring aesthetic that mimics a clean doctor's office. The design prioritizes clarity, trust, and scientific authority over any form of sensory pleasure or lifestyle aspiration, using a grid-based layout to present data and proof with zero ambiguity.",
-    "distinctive_asset_1": "Blue and green Cetaphil logo",
-    "distinctive_asset_2": "Iconic white tub with solid green lid",
-    "distinctive_asset_3": "Clean, bold sans-serif typography",
-    "distinctive_asset_4": "Dermatologist Recommended seal",
-    "distinctive_asset_5": "National Eczema Association (NEA) Acceptance seal",
+    "reasoning": "The visual temperature is cold, dominated by a sterile white background with cool blue and green accents to signal medical credibility (Thermostat: 1/5 Sterile). The layout is highly controlled and structured, using clear hierarchies, grids for comparison charts, and iconography to present information in an orderly fashion (Entropy: 2/5 Structured). A cold temperature plus a controlled layout is the textbook definition of Pharma-Code.",
+    "evidence": "Primary palette is white, green, and dark blue... Look and feel is 'Clinical and professionally assured'... Layouts are structured comparison charts and feature callouts.",
+    "evidence_src": "ABOUT_THE_BRAND.brand_story.images[0].url.visual_analysis.visual_identity.primary_palette.description + ABOUT_THE_BRAND.brand_story.images[3].url.visual_analysis.visual_identity.look_and_feel",
+    "look_and_feel": "A 'Soft Clinical' aesthetic that uses clean whites and a medical blue/green palette to signal safety and efficacy. The structured, data-driven layouts are softened by in-use photography, creating a trustworthy but approachable 'pharmacy shelf' vibe.",
+    "distinctive_asset_1": "Cetaphil blue and green oval logo",
+    "distinctive_asset_2": "Clean, sans-serif typography",
+    "distinctive_asset_3": "Dermatologist Recommended / NEA Acceptance seals",
+    "distinctive_asset_4": "Iconography for ingredients/benefits (e.g., B3, B5 circles)",
+    "distinctive_asset_5": "White jar with green lid silhouette",
     "palette_color_1": "#FFFFFF",
     "palette_color_2": "#005BAC",
     "palette_color_3": "#81B622",
     "palette_color_4": "#F0F0F0",
     "palette_color_5": "#000000",
-    "primary_palette": "They use a sterile 'hospital white' as the canvas to establish trust, then layer on a 'doctor's coat blue' for authority. The splash of 'nature green' on the lid is the signal that says 'safe'. It's a deliberate, calculated palette designed to look like a prescription, not a cosmetic."
+    "primary_palette": "The brand uses 'hospital white' to signal sterility and trust, which is the baseline. The key players are a specific 'medical blue' for authority and a 'calming green' for gentleness. It's a deliberate, non-emotional palette designed to look like a prescription, not a cosmetic.",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5 Sterile) + Slider B (2/5 Structured) is a direct match for the pattern of Territory 1 - Pharma-Code. The brand's visual identity is exceptionally consistent with its clinical positioning."
+    }
   },
   "marker_9": {
     "marker_name": "Messaging",
@@ -175,27 +207,35 @@
     "slider_a_value": "4/5",
     "slider_a_position_name": "▼ The Result (Effect subject)",
     "slider_b_label": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ Raw Data (Charts, percentages, clinically proven)",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "▼ Rational (Logical cause-and-effect)",
     "territory_number": 2,
     "territory": "The Problem Solver (Functional)",
-    "reasoning": "The messaging hooks you with the end result—'soothes skin dryness,' 'restore skin's moisture barrier,' 'defends against 5 signs of skin sensitivity,' focusing on the effect, not just the ingredients (Hook: 4/5 The Result). The argument is built entirely on rational proof and raw data—'Clinically proven,' 'Dermatologist backed,' '48 hours'—with zero emotional or evocative language (Persuasion: 1/5 Raw Data). Benefit-led + data-argued = The Problem Solver.",
-    "evidence": "soothes skin dryness for 48 hours... Clinically proven to restore skin's moisture barrier... Dermatologist backed... Defends against 5 signs of skin sensitivity",
-    "evidence_src": "BASE_CONTENT.about_this_item[0, 2, 3] + PRODUCT_GALLERY.visual_content_analysis[1].claimsAndFeatures"
+    "reasoning": "The hook is the end benefit, leading with what the product does for you: 'Instantly replenishes, intensely nourishes and soothes skin dryness' (Hook: 4/5 The Result). The argument is entirely rational, built on 'clinically proven' claims and a 'dermatologist backed ingredient blend' that explains cause and effect (Persuasion: 2/5 Rational). Leading with the result and backing it up with rational proof makes this a classic Problem Solver.",
+    "evidence": "Instantly replenishes, intensely nourishes and soothes skin dryness for 48 hours... CLINICALLY PROVEN TO RESTORE SKIN'S MOISTURE BARRIER... DERMATOLOGIST BACKED INGREDIENT BLEND",
+    "evidence_src": "BASE_CONTENT.about_this_item[0] + BASE_CONTENT.about_this_item[2] + BASE_CONTENT.about_this_item[3]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (4/5 The Result) + Slider B (2/5 Rational) is the defining pattern for Territory 2 - The Problem Solver. The messaging strategy is clearly focused on presenting a functional solution."
+    }
   },
   "marker_10": {
     "marker_name": "Narrative",
-    "slider_a_label": "[SLIDER] THE PROTAGONIST (The Hero)",
+    "slider_a_label": "[SLIDER] THE PROTAGONIST (Who Solved It)",
     "slider_a_value": "1/5",
     "slider_a_position_name": "▼ The Nobel (Faceless PhDs, Dermatologists)",
-    "slider_b_label": "[SLIDER] THE SETTING (The Stage)",
+    "slider_b_label": "[SLIDER] THE SETTING (Where It Happened)",
     "slider_b_value": "1/5",
     "slider_b_position_name": "▼ Sterile (Test tubes, molecules, clean rooms)",
     "territory_number": 1,
     "territory": "The Lab Breakthrough (Intellectual)",
-    "reasoning": "The hero of this story is not a person but a faceless institution of science—'Dermatologist backed,' 'Galderma' (the manufacturer), and anonymous experts (Protagonist: 1/5 The Nobel). The setting is clearly a laboratory, where a 'new blend of key ingredients' was 'formulated' and 'clinically tested' (Setting: 1/5 Sterile). A faceless scientist in a sterile lab creates a classic Lab Breakthrough narrative.",
-    "evidence": "Dermatologist backed ingredient blend... Formulated with a new blend of key ingredients... clinically tested... Manufacturer ‏ : ‎ Galderma",
-    "evidence_src": "BASE_CONTENT.about_this_item[3] + SOCIAL_PROOF.description + SOCIAL_PROOF.product_details"
+    "reasoning": "The hero of this story is a faceless institution of 'Dermatologists' and the manufacturer, 'Galderma', not a passionate founder (Protagonist: 1/5 The Nobel). The setting is unequivocally the lab, with the narrative centered on 'clinically proven' results, 'new blend of key ingredients', and data (Setting: 1/5 Sterile). An institutional hero in a lab setting creates a narrative of a Lab Breakthrough.",
+    "evidence": "Dermatologist backed ingredient blend... CLINICALLY PROVEN... Manufacturer ‏ : ‎ Galderma",
+    "evidence_src": "BASE_CONTENT.about_this_item[3] + BASE_CONTENT.about_this_item[2] + BASE_CONTENT.product_details",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5 The Nobel) + Slider B (1/5 Sterile) is a perfect match for Territory 1 - The Lab Breakthrough. The origin story is clearly rooted in institutional science."
+    }
   },
   "marker_11": {
     "marker_name": "Key Selling Points",
@@ -204,95 +244,123 @@
     "slider_a_position_name": "▼ The Board (Dermatologist developed/recommended)",
     "slider_b_label": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
     "slider_b_value": "2/5",
-    "slider_b_position_name": "▼ The Stat (95% saw reduction in acne)",
+    "slider_b_position_name": "▼ The Stat (\"95% saw reduction in acne\")",
     "territory_number": 1,
     "territory": "Derm-Validation (Expertise)",
-    "reasoning": "The primary validator is the medical establishment—'Dermatologist backed,' 'Dermatologist tested,' and seals from bodies like the 'National Eczema Association' are the main reasons to believe (Validator: 1/5 The Board). The proof is presented as hard fact and statistics—'Clinically proven,' '48 hours,' 'restoring...in one week,' and '5 signs of skin sensitivity' (Proof Type: 2/5 The Stat). Validation by doctors + proof by numbers = Derm-Validation.",
-    "evidence": "Dermatologist backed... Clinically proven... 48 hours... completely restoring the skins moisture barrier in one week... Accepted National Eczema Association",
-    "evidence_src": "BASE_CONTENT.about_this_item[3] + SOCIAL_PROOF.description + PRODUCT_GALLERY.visual_content_analysis[5].claimsAndFeatures"
+    "reasoning": "The primary validator is the medical establishment; 'Dermatologist Recommended' is a core pillar of the brand's credibility (Validator: 1/5 The Board). The proof they offer is clinical data and statistics, such as 'Hydrates for 48 hours' and 'completely restoring the skins moisture barrier in one week' (Proof: 2/5 The Stat). Validation from doctors backed by clinical stats = Derm-Validation.",
+    "evidence": "Dermatologist Recommended... Clinically proven to instantly hydrate... hydrating and soothing skins dryness for 48 hours and completely restoring the skins moisture barrier in one week... Accepted National Eczema Association",
+    "evidence_src": "ABOUT_THE_BRAND.brand_story.sections[0].text + BASE_CONTENT.about_this_item[1] + SOCIAL_PROOF.description + ABOUT_THE_BRAND.brand_story.images[5].url.icons",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5 The Board) + Slider B (2/5 The Stat) is a clear fit for Territory 1 - Derm-Validation. The brand relies exclusively on expert validation and clinical proof."
+    }
   },
   "marker_12": {
     "marker_name": "USP",
-    "slider_a_label": "[SLIDER] THE OWNERSHIP OBJECT (What You Claim to Own)",
+    "slider_a_label": "[SLIDER] THE OWNERSHIP CLAIM (What Makes You Unique)",
     "slider_a_value": "3/5",
-    "slider_a_position_name": "▼ The Complex (Trademarked mix)",
-    "slider_b_label": "[SLIDER] THE TARGET SCOPE (How Wide Is The Net?)",
+    "slider_a_position_name": "▼ The Signature Complex (Trademarked ingredient blend)",
+    "slider_b_label": "[SLIDER] THE TARGET SCOPE (Market Breadth)",
     "slider_b_value": "4/5",
-    "slider_b_position_name": "▼ The Problem (Specific concern)",
+    "slider_b_position_name": "▼ The Problem Solver (Targets specific skin concern)",
     "territory_number": 4,
     "territory": "The Specialist (Diagnosis)",
-    "reasoning": "Cetaphil's ownership claim is its 'dermatologist-backed blend of ingredients' like glycerin, B5, and B3; it's a specific, trusted complex, not one single hero ingredient (Ownership: 3/5 The Complex). The target scope is highly specific: not just dry skin, but 'dry to very dry, sensitive skin,' a distinct problem that requires a specialized solution (Scope: 4/5 The Problem). Owning the solution for a specific problem makes it The Specialist.",
-    "evidence": "new blend of key ingredients: hydrating glycerin, panthenol (vitamin B5)... and niacinamide (vitamin B3)... For Dry to Very Dry, Sensitive Skin... Accepted by the National Eczema Association",
-    "evidence_src": "SOCIAL_PROOF.description + BASE_CONTENT.product_title + PRODUCT_GALLERY.visual_content_analysis[5].claimsAndFeatures"
+    "reasoning": "The brand's ownership claim lies in its 'dermatologist-backed blend of ingredients'—a specific, trusted formulation even if not patented (Ownership: 3/5 The Signature Complex). However, its market power comes from its hyper-focus on a specific condition: 'Dry to Very Dry, Sensitive Skin.' This narrow targeting makes it the go-to solution for that problem (Scope: 4/5 The Problem Solver). The priority override rule applies: when scope is this niche, the brand functions as The Specialist.",
+    "evidence": "dermatologist-backed blend of ingredients... DEVELOPED FOR EVEN THE MOST SENSITIVE SKIN... For Dry to Very Dry Skin",
+    "evidence_src": "ABOUT_THE_BRAND.brand_story.images[1].url.claimsAndFeatures + BASE_CONTENT.about_this_item[4] + BASE_CONTENT.product_title",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider B (4/5 The Problem Solver) triggers the priority override for Territory 4 - The Specialist. The brand's identity is defined by the specific problem it solves, which is a stronger signal than its ingredient story."
+    }
   },
   "marker_13": {
     "marker_name": "Focus",
     "slider_a_label": "[SLIDER] THE DEPTH GAUGE (Content Purpose)",
     "slider_a_value": "2/5",
-    "slider_a_position_name": "▼ The Explainer (Infographics, How it Works)",
+    "slider_a_position_name": "▼ The Explainer (Infographics, \"How it Works\")",
     "slider_b_label": "[SLIDER] THE INTENT VECTOR (Content Goal)",
     "slider_b_value": "1/5",
     "slider_b_position_name": "▼ The Thesis (Clinical studies, dermatologist quotes)",
     "territory_number": 1,
     "territory": "Science Education (Mechanism)",
-    "reasoning": "The content is dedicated to explaining the 'how' and 'why'—infographics on ingredient benefits (B3, B5, Glycerin) and diagrams defending against the '5 signs of skin sensitivity' dominate over lifestyle imagery (Depth: 2/5 The Explainer). The clear intent is to build trust through proof, citing 'Dermatologist recommended,' 'Clinically proven,' and data files to establish credibility (Intent: 1/5 The Thesis). Education-focused content + trust-building intent = Science Education.",
-    "evidence": "Visuals of ingredient benefits (Glycerin hydrates, Niacinamide restores)... 'Defends against 5 signs of skin sensitivity' graphic... 'Clinically proven' text... 'Dermatologist recommended' badge",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[1, 3, 5, 8].claimsAndFeatures"
+    "reasoning": "The page spends its pixels on teaching. It uses infographics on ingredients (Glycerin, B3, B5) and the '5 signs of sensitivity' to educate the user (Depth: 2/5 The Explainer). The clear intent behind this education is to establish credibility and prove its case, citing 'Galderma data on File' and leading with 'Dermatologist Recommended' (Intent: 1/5 The Thesis). Education for the purpose of proof = Science Education.",
+    "evidence": "Infographics for Vitamin B3, B5, Glycerin... Defends against 5 signs... Clinically proven... Source: Galderma data on File...",
+    "evidence_src": "ABOUT_THE_BRAND.brand_story.images[1].url.icons + PRODUCT_GALLERY.visual_content_analysis[1].visual_analysis.icons + ABOUT_THE_BRAND.brand_story.images[3].url.otherVisibleText",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5 The Explainer) + Slider B (1/5 The Thesis) perfectly aligns with the pattern for Territory 1 - Science Education. The page's primary function is to educate in order to build trust."
+    }
   },
   "marker_14": {
     "marker_name": "Functional Benefits",
     "slider_a_label": "[SLIDER] THE ACTION VECTOR (The Mechanism)",
-    "slider_a_value": "5/5",
-    "slider_a_position_name": "▼ The Fixer (Reverses damage, cracks, acne)",
+    "slider_a_value": "4/5",
+    "slider_a_position_name": "▼ The Healer (Soothes irritation/redness)",
     "slider_b_label": "[SLIDER] THE OUTCOME TARGET (The Goal)",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ Biological (pH balance, microbiome, lipid layer)",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "▼ Sensory (Softness, relief from tightness)",
     "territory_number": 1,
     "territory": "Restoration (Recovery)",
-    "reasoning": "The product's mechanism is aggressive repair—'completely restoring the skins moisture barrier in one week' goes beyond simple maintenance to fix existing damage (Action: 5/5 The Fixer). The outcome is purely biological health, focusing on the invisible function of the 'moisture barrier' and 'preventing moisture loss,' not on aesthetic appearance (Outcome: 1/5 Biological). An aggressive repair action targeting biological health squarely defines its functional benefit as Restoration.",
-    "evidence": "Clinically proven to restore skin's moisture barrier... Binds water to the skin, preventing moisture loss... completely restoring the skins moisture barrier in one week",
-    "evidence_src": "BASE_CONTENT.about_this_item[2] + SOCIAL_PROOF.description"
+    "reasoning": "This product's mechanism is firmly in repair territory. Language like 'completely restoring the skins moisture barrier' and 'soothes skin dryness' goes beyond simple maintenance into active healing (Action: 4/5 The Healer). The target outcome is not visual perfection but biological health and sensory comfort—restoring the barrier and making skin feel 'soft, smooth and nourished' (Outcome: 2/5 Sensory). A healing action aimed at restoring health = Restoration.",
+    "evidence": "soothes skin dryness... Clinically proven to restore skin's moisture barrier... leaving your skin feeling soft, smooth and nourished... Defends against 5 signs of skin sensitivity.",
+    "evidence_src": "BASE_CONTENT.about_this_item[0] + BASE_CONTENT.about_this_item[2] + SOCIAL_PROOF.description",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (4/5 The Healer) + Slider B (2/5 Sensory) matches the pattern for Territory 1 - Restoration. The hard disambiguation rules for 'Healer' are met by the 'restore barrier' and problem-specific language."
+    }
   },
   "marker_15": {
     "marker_name": "Emotional Benefits",
     "slider_a_label": "[SLIDER] THE ANXIETY AXIS (The Emotional Direction)",
     "slider_a_value": "2/5",
-    "slider_a_position_name": "▼ Reassurance (Don't worry, this works)",
+    "slider_a_position_name": "▼ Reassurance (\"Don't worry, this works\")",
     "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS (The Audience)",
-    "slider_b_value": "2/5",
-    "slider_b_position_name": "▼ Comfort (I feel normal again)",
+    "slider_b_value": "1/5",
+    "slider_b_position_name": "▼ Sanctuary (I feel safe inside my own body)",
     "territory_number": 1,
     "territory": "Relief / Safety (Calm)",
-    "reasoning": "The emotional payoff is the removal of a negative: anxiety about skin reactions. Language like 'soothes,' 'comforts,' and 'developed for even the most sensitive skin' offers deep reassurance (Anxiety: 2/5 Reassurance). This feeling is entirely internal, aimed at restoring a baseline sense of comfort in one's own skin, not projecting status to the world (Self-Perception: 2/5 Comfort). The combination of reassurance and internal comfort delivers the emotional benefit of Relief and Safety.",
-    "evidence": "soothes skin dryness... immediately comforts... developed for even the most sensitive skin... hypoallergenic",
-    "evidence_src": "BASE_CONTENT.about_this_item[0, 4] + SOCIAL_PROOF.description"
+    "reasoning": "The emotional payoff is the removal of a negative: anxiety about irritation. The 'Dermatologist Recommended' and 'Hypoallergenic' claims provide deep reassurance that this product is safe (Anxiety: 2/5 Reassurance). This feeling is entirely internal—it's about feeling safe and comfortable in your own skin, a private sanctuary from flare-ups, not about external status (Self-Perception: 1/5 Sanctuary). Reassurance + internal safety = Relief / Safety.",
+    "evidence": "DEVELOPED FOR EVEN THE MOST SENSITIVE SKIN... Hypoallergenic... soothes skin dryness... defends against 5 signs of skin sensitivity",
+    "evidence_src": "BASE_CONTENT.about_this_item[4] + BASE_CONTENT.about_this_item[0]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5 Reassurance) + Slider B (1/5 Sanctuary) is a clear match for Territory 1 - Relief / Safety. The entire brand promise is built on providing this sense of calm and security."
+    }
   },
   "marker_16": {
     "marker_name": "Self-Expression",
     "slider_a_label": "[SLIDER] THE SIGNAL DRIVER (Purchase Motivation)",
     "slider_a_value": "2/5",
-    "slider_a_position_name": "▼ The Smart Choice (I buy it because it makes sense)",
+    "slider_a_position_name": "▼ The Smart Choice (because it makes sense)",
     "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION (Social Position)",
     "slider_b_value": "1/5",
     "slider_b_position_name": "▼ The Standard (What everyone uses; the default)",
     "territory_number": 1,
     "territory": "The Pragmatist (Rationality)",
-    "reasoning": "This is a purely logical purchase, not an identity statement. With its low price, high review count, and clinical claims, it signals that the buyer is making a rational, smart choice based on evidence and value (Signal: 2/5 Smart Choice). With its #8 bestseller rank, it represents the default, standard option for its category, not a niche or exclusive pick (Tribal: 1/5 The Standard). Logic-driven + mass-market standard = The Pragmatist.",
-    "evidence": "34,919 global ratings... #8 in Body Moisturizers... $19.48 for 2 pack... Dermatologist backed",
-    "evidence_src": "SOCIAL_PROOF.reviews_count + SOCIAL_PROOF.sales_rank + SOCIAL_PROOF.price + BASE_CONTENT.about_this_item[3]"
+    "reasoning": "There is minimal cultural heat here; the purchase is driven by logic and doctor recommendations, not trends. It's the quintessential smart, rational choice (Signal: 2/5 The Smart Choice). With its high sales rank and broad acceptance, it is the absolute standard for sensitive skincare, the default option everyone knows (Tribal: 1/5 The Standard). A logical purchase that aligns with the mass standard identifies the user as The Pragmatist.",
+    "evidence": "34,919 global ratings... Best Sellers Rank: #8... Dermatologist Recommended... non-greasy... fragrance free",
+    "evidence_src": "SOCIAL_PROOF.reviews_count + SOCIAL_PROOF.sales_rank + ABOUT_THE_BRAND.brand_story.sections[0].text",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5 Smart Choice) + Slider B (1/5 The Standard) perfectly defines Territory 1 - The Pragmatist. The cultural heat check was negative, confirming this is a utility purchase, not an identity statement."
+    }
   },
   "marker_17": {
     "marker_name": "Social Benefits",
     "slider_a_label": "[SLIDER] THE SOCIAL VECTOR (Social Goal)",
     "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Normalization (I want to look like everyone else)",
+    "slider_a_position_name": "▼ Normalization (\"I want to look like everyone else\")",
     "slider_b_label": "[SLIDER] THE GROUP DYNAMIC (Tribal Scale)",
     "slider_b_value": "1/5",
     "slider_b_position_name": "▼ The Majority (What most people use)",
     "territory_number": 1,
     "territory": "The Safe Choice (Belonging)",
-    "reasoning": "The social goal of using Cetaphil is to achieve 'normal' skin and assimilate into the crowd without the distinction of having visible dryness or irritation (Social Vector: 1/5 Normalization). The tribe is the broadest possible group—the majority of consumers, as evidenced by its bestseller status and massive review volume (Group Dynamic: 1/5 The Majority). The drive to assimilate with the majority makes this the quintessential Safe Choice.",
-    "evidence": "#8 in Body Moisturizers... 34,919 global ratings... Dermatologist Recommended... for dry to very dry skin",
-    "evidence_src": "SOCIAL_PROOF.sales_rank + SOCIAL_PROOF.reviews_count + PRODUCT_GALLERY.visual_content_analysis[0].claimsAndFeatures"
+    "reasoning": "The social goal of buying Cetaphil is to use what works and achieve a normal, healthy state, blending in rather than standing out (Vector: 1/5 Normalization). The tribe is the vast majority of consumers and dermatologists who trust this product; it is the mass-market default (Group: 1/5 The Majority). The desire to normalize by joining the majority makes this The Safe Choice.",
+    "evidence": "Best Sellers Rank: #8 in Body Moisturizers... 34,919 global ratings... Dermatologist Recommended",
+    "evidence_src": "SOCIAL_PROOF.sales_rank + SOCIAL_PROOF.reviews_count + ABOUT_THE_BRAND.brand_story.sections[0].text",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5 Normalization) + Slider B (1/5 The Majority) is the classic pattern for Territory 1 - The Safe Choice. It offers social safety through mass acceptance."
+    }
   }
 }
