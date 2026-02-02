@@ -1,0 +1,75 @@
+{
+  "entries": [
+    {
+      "date": "2026-02-02",
+      "changes": {
+        "fixed": [
+          "Button variant not changing on /my-reports page",
+          "PAID button link not working (portal session)",
+          "Slot probing failures for nested admin buttons",
+          "DataProvider JSON parsing error (static_labels.json was markdown instead of JSON)"
+        ],
+        "added": [
+          "Polar portal session integration for invoice access",
+          "Persistence listener for admin button state changes"
+        ],
+        "changed": [],
+        "documentation": [],
+        "note": "Schema migration completed. The <code>approved</code> column has been replaced with <code>status</code> for more granular state tracking."
+      }
+    },
+    {
+      "date": "2026-01-28",
+      "changes": {
+        "fixed": [
+          "Approved/Flagged button persistence to Supabase",
+          "Admin PDP viewer data loading race condition",
+          "RecentOrder component date/time formatting"
+        ],
+        "added": [],
+        "changed": [
+          "Database schema: <code>approved</code> → <code>status</code> column",
+          "Field naming: <code>pdp-link</code> → <code>pdp_link</code> (underscore)"
+        ],
+        "documentation": []
+      }
+    },
+    {
+      "date": "2026-01-27",
+      "changes": {
+        "fixed": [
+          "Auth race condition in DashboardDataProvider",
+          "Dynamic list rendering (switched to slot override pattern)",
+          "CSS variable inheritance for nested components"
+        ],
+        "added": [],
+        "changed": [],
+        "documentation": [
+          "Added comprehensive failure registry (FAILURES.md)",
+          "Documented slot override pattern for Framer components"
+        ]
+      }
+    },
+    {
+      "date": "2026-01-26",
+      "changes": {
+        "fixed": [
+          "Code component null return issue",
+          "Override signature pattern (props parameter)"
+        ],
+        "added": [
+          "LeaderboardDataProvider for category leaders tracking",
+          "Real-time leaderboard updates on homepage"
+        ],
+        "changed": [],
+        "documentation": []
+      }
+    }
+  ],
+  "todo": [
+    "Custom domain support for category reports",
+    "Bulk export functionality for admin panel",
+    "Real-time notification system for new reports",
+    "Enhanced search and filtering in admin dashboard"
+  ]
+}

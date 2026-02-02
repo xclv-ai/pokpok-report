@@ -234,76 +234,8 @@
         <h1>Product <em>Updates</em></h1>
         <div class="subtitle">What's new, what's fixed, what's coming</div>
 
-        <!-- February 2026 -->
-        <div class="changelog-entry">
-            <h2 class="date-header">2026-02-02</h2>
-
-            <div class="change-category">FIXED</div>
-            <div class="change-item done">Button variant not changing on /my-reports page</div>
-            <div class="change-item done">PAID button link not working (portal session)</div>
-            <div class="change-item done">Slot probing failures for nested admin buttons</div>
-            <div class="change-item done">DataProvider JSON parsing error (static_labels.json was markdown instead of JSON)</div>
-
-            <div class="change-category">ADDED</div>
-            <div class="change-item done">Polar portal session integration for invoice access</div>
-            <div class="change-item done">Persistence listener for admin button state changes</div>
-
-            <div class="highlight-box">
-                <strong>Developer Note:</strong> Schema migration completed. The <code>approved</code> column has been replaced with <code>status</code> for more granular state tracking.
-            </div>
-        </div>
-
-        <!-- January 28, 2026 -->
-        <div class="changelog-entry">
-            <h2 class="date-header">2026-01-28</h2>
-
-            <div class="change-category">FIXED</div>
-            <div class="change-item done">Approved/Flagged button persistence to Supabase</div>
-            <div class="change-item done">Admin PDP viewer data loading race condition</div>
-            <div class="change-item done">RecentOrder component date/time formatting</div>
-
-            <div class="change-category">CHANGED</div>
-            <div class="change-item done">Database schema: <code>approved</code> → <code>status</code> column</div>
-            <div class="change-item done">Field naming: <code>pdp-link</code> → <code>pdp_link</code> (underscore)</div>
-        </div>
-
-        <!-- January 27, 2026 -->
-        <div class="changelog-entry">
-            <h2 class="date-header">2026-01-27</h2>
-
-            <div class="change-category">FIXED</div>
-            <div class="change-item done">Auth race condition in DashboardDataProvider</div>
-            <div class="change-item done">Dynamic list rendering (switched to slot override pattern)</div>
-            <div class="change-item done">CSS variable inheritance for nested components</div>
-
-            <div class="change-category">DOCUMENTATION</div>
-            <div class="change-item done">Added comprehensive failure registry (FAILURES.md)</div>
-            <div class="change-item done">Documented slot override pattern for Framer components</div>
-        </div>
-
-        <!-- January 26, 2026 -->
-        <div class="changelog-entry">
-            <h2 class="date-header">2026-01-26</h2>
-
-            <div class="change-category">ADDED</div>
-            <div class="change-item done">LeaderboardDataProvider for category leaders tracking</div>
-            <div class="change-item done">Real-time leaderboard updates on homepage</div>
-
-            <div class="change-category">FIXED</div>
-            <div class="change-item done">Code component null return issue</div>
-            <div class="change-item done">Override signature pattern (props parameter)</div>
-        </div>
-
-        <!-- Coming Soon -->
-        <div class="changelog-entry">
-            <h2 class="date-header">Coming Soon</h2>
-
-            <div class="change-category">TO BE FIXED</div>
-            <div class="change-item todo">Custom domain support for category reports</div>
-            <div class="change-item todo">Bulk export functionality for admin panel</div>
-            <div class="change-item todo">Real-time notification system for new reports</div>
-            <div class="change-item todo">Enhanced search and filtering in admin dashboard</div>
-        </div>
+        <!-- Dynamic content rendered from changelog.json -->
+        <div id="changelog-container"></div>
 
         <a href="#" class="back-to-top">↑ Back to Top</a>
     </div>
@@ -313,6 +245,98 @@
     </footer>
 
     <script>
+        // Fetch and render changelog from JSON
+        fetch('./changelog.json')
+            .then(res => res.json())
+            .then(data => {
+                const container = document.getElementById('changelog-container')
+
+                // Render entries
+                data.entries.forEach(entry => {
+                    const entryEl = createEntry(entry)
+                    container.appendChild(entryEl)
+                })
+
+                // Render TODO section
+                const todoEl = createTodoSection(data.todo)
+                container.appendChild(todoEl)
+            })
+            .catch(err => {
+                console.error('Failed to load changelog:', err)
+                document.getElementById('changelog-container').innerHTML = '<p style="color: red;">Failed to load changelog. Please refresh.</p>'
+            })
+
+        function createEntry(entry) {
+            const div = document.createElement('div')
+            div.className = 'changelog-entry'
+
+            // Date header
+            const date = document.createElement('h2')
+            date.className = 'date-header'
+            date.textContent = entry.date
+            div.appendChild(date)
+
+            // Categories
+            const categories = ['fixed', 'added', 'changed', 'documentation']
+            categories.forEach(cat => {
+                if (entry.changes[cat] && entry.changes[cat].length > 0) {
+                    div.appendChild(createCategory(cat, entry.changes[cat]))
+                }
+            })
+
+            // Note (if exists)
+            if (entry.changes.note) {
+                const note = document.createElement('div')
+                note.className = 'highlight-box'
+                note.innerHTML = `<strong>Developer Note:</strong> ${entry.changes.note}`
+                div.appendChild(note)
+            }
+
+            return div
+        }
+
+        function createCategory(name, items) {
+            const container = document.createElement('div')
+
+            const header = document.createElement('div')
+            header.className = 'change-category'
+            header.textContent = name.toUpperCase()
+            container.appendChild(header)
+
+            items.forEach(text => {
+                const item = document.createElement('div')
+                item.className = 'change-item done'
+                item.innerHTML = text
+                container.appendChild(item)
+            })
+
+            return container
+        }
+
+        function createTodoSection(todos) {
+            const div = document.createElement('div')
+            div.className = 'changelog-entry'
+
+            const date = document.createElement('h2')
+            date.className = 'date-header'
+            date.textContent = 'Coming Soon'
+            div.appendChild(date)
+
+            const header = document.createElement('div')
+            header.className = 'change-category'
+            header.textContent = 'TO BE FIXED'
+            div.appendChild(header)
+
+            todos.forEach(text => {
+                const item = document.createElement('div')
+                item.className = 'change-item todo'
+                item.textContent = text
+                div.appendChild(item)
+            })
+
+            return div
+        }
+
         // Smooth scroll for back to top
         document.querySelector('.back-to-top').addEventListener('click', (e) => {
             e.preventDefault();
