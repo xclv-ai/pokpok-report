@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKPOK Updates</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'JetBrains Mono', monospace;
+            background-color: rgb(232, 224, 209);
+            color: rgb(10, 59, 68);
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Header */
+        header {
+            background-color: rgb(10, 59, 68);
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 24px;
+            color: rgb(232, 224, 209);
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .logo span {
+            color: #FFFF00;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        nav a {
+            color: rgb(232, 224, 209);
+            text-decoration: none;
+            font-size: 12px;
+            margin-left: 30px;
+        }
+
+        nav a:hover {
+            color: #FFFF00;
+        }
+
+        /* Yellow banner */
+        .banner {
+            background-color: #FFFF00;
+            padding: 30px;
+            margin-bottom: 60px;
+            border: 2px solid rgb(10, 59, 68);
+        }
+
+        .banner-content {
+            text-align: center;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+            color: rgb(10, 59, 68);
+            letter-spacing: 2px;
+        }
+
+        .ascii-border {
+            font-size: 10px;
+            line-height: 1.2;
+            margin: 10px 0;
+        }
+
+        /* Main heading */
+        h1 {
+            font-family: 'Instrument Serif', serif;
+            font-size: 72px;
+            font-weight: 400;
+            line-height: 1;
+            margin-bottom: 20px;
+            color: rgb(10, 59, 68);
+        }
+
+        h1 em {
+            font-style: italic;
+        }
+
+        .subtitle {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+            color: rgba(10, 59, 68, 0.6);
+            margin-bottom: 60px;
+            letter-spacing: 1px;
+        }
+
+        /* Changelog entries */
+        .changelog-entry {
+            margin-bottom: 80px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid rgba(10, 59, 68, 0.2);
+        }
+
+        .changelog-entry:last-child {
+            border-bottom: none;
+        }
+
+        .date-header {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 30px;
+            font-weight: 400;
+            margin-bottom: 30px;
+            color: rgb(10, 59, 68);
+        }
+
+        .change-category {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: rgba(10, 59, 68, 0.6);
+            margin-bottom: 15px;
+            margin-top: 30px;
+        }
+
+        .change-category:first-of-type {
+            margin-top: 0;
+        }
+
+        .change-item {
+            margin-bottom: 10px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .change-item.done:before {
+            content: "[✓] ";
+            color: rgb(10, 59, 68);
+        }
+
+        .change-item.todo:before {
+            content: "[ ] ";
+            color: rgba(10, 59, 68, 0.5);
+        }
+
+        /* Pink box callout */
+        .highlight-box {
+            background-color: rgba(255, 192, 203, 0.3);
+            border-left: 4px solid rgba(255, 192, 203, 0.8);
+            padding: 20px;
+            margin: 30px 0;
+            font-size: 13px;
+        }
+
+        /* Back to top */
+        .back-to-top {
+            display: inline-block;
+            margin-top: 60px;
+            padding: 12px 24px;
+            background-color: rgba(255, 192, 203, 0.8);
+            color: rgb(10, 59, 68);
+            text-decoration: none;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .back-to-top:hover {
+            background-color: rgba(255, 192, 203, 1);
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 100px;
+            padding: 40px 20px;
+            text-align: center;
+            font-size: 11px;
+            color: rgba(10, 59, 68, 0.5);
+            border-top: 1px solid rgba(10, 59, 68, 0.2);
+        }
+
+        footer a {
+            color: rgba(10, 59, 68, 0.7);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: rgb(10, 59, 68);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo"><span>{<>}</span> POKPOK</a>
+            <div>
+                <a href="/">Home</a>
+                <a href="/updates.html">Updates</a>
+                <a href="https://pokpok.ai">Back to pokpok.ai</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <div class="banner-content">
+            <div class="ascii-border">▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲</div>
+            <div style="margin: 20px 0;">
+                : : ※ ■ ■ ■ PRODUCT UPDATES LOG ■ ■ ■ ※ : :
+            </div>
+            <div class="ascii-border">▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Product <em>Updates</em></h1>
+        <div class="subtitle">What's new, what's fixed, what's coming</div>
+
+        <!-- February 2026 -->
+        <div class="changelog-entry">
+            <h2 class="date-header">2026-02-02</h2>
+
+            <div class="change-category">FIXED</div>
+            <div class="change-item done">Button variant not changing on /my-reports page</div>
+            <div class="change-item done">PAID button link not working (portal session)</div>
+            <div class="change-item done">Slot probing failures for nested admin buttons</div>
+
+            <div class="change-category">ADDED</div>
+            <div class="change-item done">Polar portal session integration for invoice access</div>
+            <div class="change-item done">Persistence listener for admin button state changes</div>
+
+            <div class="highlight-box">
+                <strong>Developer Note:</strong> Schema migration completed. The <code>approved</code> column has been replaced with <code>status</code> for more granular state tracking.
+            </div>
+        </div>
+
+        <!-- January 28, 2026 -->
+        <div class="changelog-entry">
+            <h2 class="date-header">2026-01-28</h2>
+
+            <div class="change-category">FIXED</div>
+            <div class="change-item done">Approved/Flagged button persistence to Supabase</div>
+            <div class="change-item done">Admin PDP viewer data loading race condition</div>
+            <div class="change-item done">RecentOrder component date/time formatting</div>
+
+            <div class="change-category">CHANGED</div>
+            <div class="change-item done">Database schema: <code>approved</code> → <code>status</code> column</div>
+            <div class="change-item done">Field naming: <code>pdp-link</code> → <code>pdp_link</code> (underscore)</div>
+        </div>
+
+        <!-- January 27, 2026 -->
+        <div class="changelog-entry">
+            <h2 class="date-header">2026-01-27</h2>
+
+            <div class="change-category">FIXED</div>
+            <div class="change-item done">Auth race condition in DashboardDataProvider</div>
+            <div class="change-item done">Dynamic list rendering (switched to slot override pattern)</div>
+            <div class="change-item done">CSS variable inheritance for nested components</div>
+
+            <div class="change-category">DOCUMENTATION</div>
+            <div class="change-item done">Added comprehensive failure registry (FAILURES.md)</div>
+            <div class="change-item done">Documented slot override pattern for Framer components</div>
+        </div>
+
+        <!-- January 26, 2026 -->
+        <div class="changelog-entry">
+            <h2 class="date-header">2026-01-26</h2>
+
+            <div class="change-category">ADDED</div>
+            <div class="change-item done">LeaderboardDataProvider for category leaders tracking</div>
+            <div class="change-item done">Real-time leaderboard updates on homepage</div>
+
+            <div class="change-category">FIXED</div>
+            <div class="change-item done">Code component null return issue</div>
+            <div class="change-item done">Override signature pattern (props parameter)</div>
+        </div>
+
+        <!-- Coming Soon -->
+        <div class="changelog-entry">
+            <h2 class="date-header">Coming Soon</h2>
+
+            <div class="change-category">TO BE FIXED</div>
+            <div class="change-item todo">Custom domain support for category reports</div>
+            <div class="change-item todo">Bulk export functionality for admin panel</div>
+            <div class="change-item todo">Real-time notification system for new reports</div>
+            <div class="change-item todo">Enhanced search and filtering in admin dashboard</div>
+        </div>
+
+        <a href="#" class="back-to-top">↑ Back to Top</a>
+    </div>
+
+    <footer>
+        <p>POKPOK.AI &copy; 2026 | <a href="https://pokpok.ai">pokpok.ai</a> | <a href="mailto:ceo@xclv.com">Contact</a></p>
+    </footer>
+
+    <script>
+        // Smooth scroll for back to top
+        document.querySelector('.back-to-top').addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
