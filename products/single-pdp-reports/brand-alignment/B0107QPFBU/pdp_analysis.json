@@ -1,48 +1,52 @@
 {
   "brand": "Aquaphor",
-  "product_title": "Aquaphor Healing Ointment Advanced Therapy Skin Protectant",
+  "product_title": "Aquaphor Healing Ointment Advanced Therapy Skin Protectant, Dry Skin Body Moisturizer, 7 Oz Tube",
   "url": "https://www.amazon.com/dp/B0107QPFBU",
   "overall_perception_summary": {
-    "headline": "The Clinical Fixer",
-    "description": "Aquaphor is the ultimate utility player in the medicine cabinet—a no-nonsense 'Healer' that exists purely to fix compromised skin. It rejects all vanity and lifestyle fluff to focus entirely on restoration and safety, validated by the highest levels of dermatological authority. It functions as a democratic medical tool, offering professional-grade repair at a commodity price point."
+    "headline": "The Clinical Workhorse",
+    "description": "Aquaphor feels like a prescription you can buy at the supermarket. It has successfully positioned itself as the default, no-nonsense solution for damaged skin, completely stripping away aesthetic desire in favor of pure, functional healing. It plays the role of the trusted family doctor in a tube—reliable, authoritative, and there to fix a problem, not to pamper."
   },
   "category_summaries": {
     "foundation": {
       "title": "The Medical Authority",
-      "description": "The brand anchors its authority in the Clinical Lab, positioning itself as a Healer for damaged skin rather than an enhancer of beauty. Its value system is Safety First, sacrificing aesthetic elegance (greasy ointment) for absolute efficacy on 'compromised' skin. It occupies the Medical Authority positioning—sterile, utilitarian, and ubiquitous."
+      "description": "The brand exists as a Healer, anchoring its authority firmly in the clinic with dermatologist recommendations, not in nature. This purpose is supported by a core value of Safety First, sacrificing any sense of luxury to guarantee tolerance for compromised skin. This strategy cements its positioning as The Medical Authority—a utilitarian, accessible staple that functions like a first-aid essential."
     },
     "identity": {
-      "title": "The Reliable Caregiver",
-      "description": "The distance between brand and user is that of a doctor to a patient—authoritative yet nurturing. Dominated by The Caregiver archetype (65%), it projects protection through a Pharma-Code visual identity (white, navy, red). The tone is a Clinical Authority—dry, serious, and focused exclusively on the facts."
+      "title": "The Reliable Expert",
+      "description": "The brand maintains a significant psychological distance, speaking as a detached professional. Driven by a Guardian archetype mix (Caregiver 65%, Sage 25%), its personality is that of The Reliable Expert—competent but cold. This is perfectly mirrored by a sterile, Pharma-Code visual identity and a Clinical Authority tone of voice that uses medical language."
     },
     "communication": {
-      "title": "Problem-Solving Education",
-      "description": "The messaging ignores 'dreams' to focus on 'The Problem' (cracked, dry, irritated), using Rational persuasion to close the deal. The USP is The Specialist, owning the 'Healing Ointment' category via a specific mechanism (oxygen flow barrier). The focus is Science Education, using diagrams and claims to prove how it works."
+      "title": "Problem-Solving Proof",
+      "description": "The brand persuades as a Problem Solver, hooking the user with the promise of a fix, backed by rational data. Its unfair advantage is its status as The Specialist for compromised skin, an identity born from a Lab Breakthrough narrative. Trust is built through Derm-Validation KSPs, with a page focus dedicated to Science Education."
     },
     "benefits": {
-      "title": "Restorative Safety",
-      "description": "Functionally, it is pure Restoration, repairing broken skin barriers and allowing oxygen flow. The emotional payoff is Relief—the cessation of pain and worry. Socially, it is The Safe Choice, a pragmatic tool used by the majority, signaling that the user prioritizes health and efficacy over trends."
+      "title": "Functional Restoration",
+      "description": "The primary functional benefit is pure Restoration, fixing damaged skin to return it to a healthy baseline. This delivers an emotional benefit of Relief and Safety, calming the anxiety associated with skin irritation. The purchase is a signal of a Pragmatist identity—a smart, logical choice. Socially, its market dominance makes it The Safe Choice, aligning the user with the rational majority."
     }
   },
   "quick_labels": {
-    "brand_voice": "Serious Doctor",
-    "visual_appeal": "Pharma Sterile",
-    "value_prop": "Clinical Utility",
-    "positioning": "Family Medic"
+    "brand_voice": "Clinical Authority",
+    "visual_appeal": "Sterile Pharmacy",
+    "value_prop": "Functional Healing",
+    "positioning": "Medical Staple"
   },
   "marker_1": {
     "marker_name": "Purpose",
     "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
-    "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Pure Clinical (Sterile, molecular, synthetic)",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ Derm-Validated (White coat authority)",
     "slider_b_label": "[SLIDER] MISSION VECTOR (The Goal)",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ Pathology Cure (Treating disease/symptoms)",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "▼ Restoration (Repairing damage)",
     "territory_number": 1,
-    "territory": "The Healer (Clinical Correction)",
-    "reasoning": "Authority is derived entirely from the lab and the clinic—'#1 dermatologist recommended', 'Clinically proven', 'Petrolatum (41%)' (Source: 1/5 Pure Clinical). The goal is not to make skin pretty, but to fix a medical state of 'compromised', 'cracked', or 'wounded' skin (Goal: 1/5 Pathology Cure). This is a prescription pad product, not a vanity product.",
-    "evidence": "#1 dermatologist recommended... Clinically proven... compromised skin... minor wound care... Petrolatum (41%)... minor cuts and burns",
-    "evidence_src": "product_details + BASE_CONTENT.about_this_item[1]"
+    "territory": "The Healer (CLINICAL CORRECTION)",
+    "reasoning": "Authority is derived entirely from the 'white coat'—it's the '#1 dermatologist recommended brand,' not a discovery from nature (Source: 2/5 Derm-Validated). The mission is explicitly to fix damage, using terms like 'restore smooth, healthy skin' for 'dry, compromised skin,' which is pure damage repair (Mission: 2/5 Restoration). Clinical authority combined with a repair mission defines The Healer.",
+    "evidence": "#1 dermatologist recommended... clinically proven... for dry, compromised skin... restore smooth, healthy skin... minor wound care",
+    "evidence_src": "BASE_CONTENT.about_this_item[1] + PRODUCT_GALLERY.visual_content_analysis[0].claimsAndFeatures + SOCIAL_PROOF.description",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5 Derm-Validated) and Slider B (2/5 Restoration) are a perfect match for the expected pattern of Territory 1 - The Healer. The content strongly supports a clinical, restorative positioning."
+    }
   },
   "marker_2": {
     "marker_name": "Mission & Vision",
@@ -53,10 +57,14 @@
     "slider_b_value": "5/5",
     "slider_b_position_name": "▼ Democratic (Universal access for everyone)",
     "territory_number": 1,
-    "territory": "The Democratizers (Accessible Skin Health)",
-    "reasoning": "The scope is hyper-focused on specific, small-scale skin failures—'cracked cuticles', 'chapped lips', 'minor cuts' (Scope: 1/5 Micro-Correction). Yet, at $10.97 for a large tube and #1 bestseller status, it is universally accessible (Access: 5/5 Democratic). It brings professional-grade wound care to the mass market.",
-    "evidence": "$10.97... cracked cuticles... minor cuts... chapped lips... #1 in Body Creams... 40,811 global ratings",
-    "evidence_src": "SOCIAL_PROOF.price + product_details + SOCIAL_PROOF.sales_rank"
+    "territory": "The Democratizers (ACCESSIBLE SKIN HEALTH)",
+    "reasoning": "The brand's ambition is squarely focused on individual skin problems like 'cracked hands' and 'chapped lips,' not reforming the beauty industry (Scope: 1/5 Micro-Correction). With a price of $10.97, over 40,000 reviews, and a #1 Best Seller rank in its category, the access barrier is non-existent; it is radically democratic (Access: 5/5 Democratic). A micro-focused mission with mass accessibility makes it The Democratizer of functional skin health.",
+    "evidence": "$10.97... 40,811 global ratings... #1 in Body Creams... use on dry, cracked skin, as a lip moisturizer, facial moisturizer... minor wound care",
+    "evidence_src": "SOCIAL_PROOF.price + BASE_CONTENT.review_count + SOCIAL_PROOF.sales_rank + BASE_CONTENT.about_this_item[0]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5 Micro-Correction) and Slider B (5/5 Democratic) perfectly align with the pattern for Territory 1 - The Democratizers. The content is overwhelmingly focused on solving common skin issues for a mass audience."
+    }
   },
   "marker_3": {
     "marker_name": "Values",
@@ -64,27 +72,35 @@
     "slider_a_value": "2/5",
     "slider_a_position_name": "▼ Gentle (Effective but comfortable)",
     "slider_b_label": "[SLIDER] INFORMATION DENSITY (The Transparency)",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ The Spec Sheet (Exact percentages, pH, sourcing)",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "▼ Evidence-First (Charts, diagrams, studies)",
     "territory_number": 1,
-    "territory": "Safety First (The Safe Harbor)",
-    "reasoning": "The brand prioritizes safety and tolerance above all else—'Preservative & Fragrance Free', 'Suitability for compromised skin', 'hypoallergenic' context (Performance: 2/5 Gentle). Transparency is absolute, listing 'Petrolatum (41%)' clearly as the active drug fact, treating the user like a patient reading a chart (Transparency: 1/5 The Spec Sheet).",
-    "evidence": "Preservative & Fragrance Free... Petrolatum (41%)... Suitability for compromised skin... Tested and approved for safety",
-    "evidence_src": "product_details + important_information.Ingredients + visual_analysis.claimsAndFeatures"
+    "territory": "Safety First",
+    "reasoning": "The brand prioritizes safety for 'compromised skin' over aggressive results, highlighted by 'Preservative & Fragrance Free' claims, making it Gentle (Performance: 2/5). It supports its claims with evidence, explaining the mechanism of the 'protective barrier' and citing the active ingredient 'Petrolatum (41%)' (Transparency: 2/5 Evidence-First). This combination of gentle efficacy backed by scientific explanation establishes a Safety First value system.",
+    "evidence": "For dry, compromised skin... Preservative & Fragrance Free... Petrolatum (41%)... creates a protective barrier that allows for the flow of oxygen",
+    "evidence_src": "BASE_CONTENT.about_this_item[1] + PRODUCT_GALLERY.visual_content_analysis[0].claimsAndFeatures + SOCIAL_PROOF.important_information[1].description",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5 Gentle) and Slider B (2/5 Evidence-First) align with the expected pattern for Territory 1 - Safety First. The content consistently emphasizes safe, proven solutions for sensitive skin."
+    }
   },
   "marker_4": {
     "marker_name": "Positioning",
     "slider_a_label": "[SLIDER] AESTHETIC VIBE (The Uniform)",
     "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Clinical Sterile (Zero emotion)",
-    "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Price Signal)",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ Bulk Utility (Commodity pricing)",
+    "slider_a_position_name": "▼ Clinical Sterile (Zero emotion. Pure white/blue; looks like a pharmacy.)",
+    "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Status Signal)",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "▼ Daily Essential (Reliable staple. \"Your everyday,\" \"trusted,\" autopilot buy language.)",
     "territory_number": 1,
-    "territory": "The Medical Authority (The Doctor's Choice)",
-    "reasoning": "The aesthetic is zero-emotion sterile: white tube, navy text, medical diagrams, 'Ointment' (Aesthetic: 1/5 Clinical Sterile). The price point of $10.97 for 7oz places it firmly in the commodity utility basket—it is a tool you buy in bulk for the family medicine cabinet (Value: 1/5 Bulk Utility).",
-    "evidence": "$10.97... 7 Oz Tube... Ointment... Medical blue and red color scheme... #1 Dermatologist Recommended",
-    "evidence_src": "SOCIAL_PROOF.price + visual_analysis.visualDescription.visual_identity"
+    "territory": "The Medical Authority",
+    "reasoning": "The aesthetic is pure pharmacy: 'Clinical, straightforward' visuals with a white, navy blue, and red palette are the definition of sterile (Aesthetic: 1/5 Clinical Sterile). Its messaging as 'one essential solution for many skin care needs' and its market dominance position it as a utilitarian, reliable Daily Essential for the medicine cabinet, not a luxury purchase (Value: 2/5). A sterile appearance combined with utilitarian value perception solidifies its role as The Medical Authority.",
+    "evidence": "Visuals: Clinical, straightforward, and trustworthy... Clean white background with navy blue text and red highlights... 'one essential solution for many skin care needs'",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.visualDescription.visual_identity.look_and_feel + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.visualDescription.visual_identity.primary_palette.description + BASE_CONTENT.about_this_item[0]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5 Clinical Sterile) and Slider B (2/5 Daily Essential) are a direct match for the pattern of Territory 1 - The Medical Authority. The visuals and functional messaging are perfectly coherent."
+    }
   },
   "marker_5": {
     "marker_name": "Personality",
@@ -92,19 +108,23 @@
     "slider_a_value": "2/5",
     "slider_a_position_name": "▼ Distant (Professional, polite)",
     "slider_b_label": "[SLIDER] THE POWER DYNAMIC (Authority Stance)",
-    "slider_b_value": "5/5",
-    "slider_b_position_name": "▼ The Deity (Unquestionable authority)",
+    "slider_b_value": "4/5",
+    "slider_b_position_name": "▼ The Specialist (Highly educated)",
     "territory_number": 3,
-    "territory": "The Reliable Expert (Competence)",
-    "reasoning": "The brand generates very little emotional heat—it speaks in facts, claims, and medical directions (Thermostat: 2/5 Distant). The power dynamic is top-down; it invokes the ultimate authority of 'The Dermatologist' and 'Clinical Proof' to end any debate (Power Dynamic: 5/5 Deity). You don't befriend Aquaphor; you obey it.",
-    "evidence": "Clinically proven... #1 Dermatologist Recommended... Ask a doctor if... One essential solution",
-    "evidence_src": "important_information.Safety_Information + product_details"
+    "territory": "The Reliable Expert (COMPETENCE)",
+    "reasoning": "The brand projects no emotional warmth; its voice is professional, factual, and Distant (Thermostat: 2/5). The power dynamic is clear and hierarchical. It speaks as The Specialist, citing 'dermatologist recommended' status and 'clinically proven' facts as unquestionable authority (Power: 4/5). This combination of cool competence and high expertise defines it as The Reliable Expert.",
+    "evidence": "Clinically proven to restore... #1 dermatologist recommended brand... formulated with Petrolatum... water-free",
+    "evidence_src": "BASE_CONTENT.about_this_item[1] + SOCIAL_PROOF.description",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5 Distant) and Slider B (4/5 Specialist) align perfectly with the pattern for Territory 3 - The Reliable Expert. The brand's personality is consistently competent and authoritative."
+    }
   },
   "marker_6": {
     "marker_name": "Archetypes Mix",
     "primary": {
       "archetype": "The Caregiver",
-      "group": "A (Structure)",
+      "group": "D (Knowledge)",
       "percentage": "65%"
     },
     "secondary": {
@@ -113,21 +133,25 @@
       "percentage": "25%"
     },
     "tertiary": {
-      "archetype": "The Everyman",
-      "group": "C (Connection)",
+      "archetype": "The Ruler",
+      "group": "D (Knowledge)",
       "percentage": "10%"
     },
-    "territory_number": 1,
-    "territory": "The Stabilizers (Control & Order)",
-    "reasoning": "The brand exists to protect and heal, embodying The Caregiver (65%) through promises of 'relief', 'healing', and 'protection' for the vulnerable. The Sage (25%) provides the 'clinically proven' backing and ingredient transparency. The Everyman (10%) appears in its universal 'family size' and 'multi-purpose' utility. The dominant Group A (Structure/Control) places it firmly as a Stabilizer.",
-    "evidence": "Protects and soothes... ideal healing environment... Clinically proven... For the whole family... One essential solution",
-    "evidence_src": "brand_story.sections[0].text + product_details"
+    "territory_number": 4,
+    "territory": "The Guardian",
+    "reasoning": "The brand is overwhelmingly driven by The Caregiver (65%), with its focus on healing, protecting, and caring for 'compromised skin.' This is supported by The Sage (25%), which provides the 'clinically proven' data and scientific explanations to build trust. A tertiary Ruler archetype (10%) emerges from its positioning as the #1, go-to solution that establishes order over skin chaos. This blend of care, wisdom, and control firmly places it in The Guardian territory.",
+    "evidence": "heals dry cracked hands, cuticles and feet... clinically proven to restore smooth, healthy skin... #1 dermatologist recommended brand",
+    "evidence_src": "BASE_CONTENT.about_this_item + SOCIAL_PROOF.description",
+    "evaluation_check": {
+      "coherence_status": "not_applicable",
+      "coherence_reasoning": "Marker 6 uses percentage distribution, not sliders. Territory is derived from the Primary Archetype's quadrant, which is Belonging × Stability, corresponding to The Guardian."
+    }
   },
   "marker_7": {
     "marker_name": "Tone of Voice",
-    "slider_a_label": "[SLIDER] HUMOR (The Comedy Scale)",
+    "slider_a_label": "[SLIDER] HUMOR (The Sense of Humor)",
     "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Grave (Solemn, warning-like)",
+    "slider_a_position_name": "▼ Grave (Solemn, warning-like tone)",
     "slider_b_label": "[SLIDER] FORMALITY (The Dress Code)",
     "slider_b_value": "2/5",
     "slider_b_position_name": "▼ Traditional (Corporate, proper grammar)",
@@ -138,10 +162,14 @@
     "slider_d_value": "1/5",
     "slider_d_position_name": "▼ Clinical (Zero emotion, pure data)",
     "territory_number": 1,
-    "territory": "The Clinical Authority (Academic & Dry)",
-    "reasoning": "Warmth Score = 1.5 (Low). Energy Score = 1.5 (Low). The tone is purely medical. There is no humor, only 'Safety Information' and 'Directions'. It uses warnings like 'Stop using if condition worsens' (Grave). The language is 'Advanced Therapy', 'Compromised skin', 'Oxygen flow'—purely informational and data-driven.",
-    "evidence": "Stop using this product and ask a doctor if... For dry, compromised skin... clinically proven... flow of oxygen and excess fluid",
-    "evidence_src": "important_information.Safety_Information + product_details"
+    "territory": "The Clinical Authority",
+    "reasoning": "The voice is completely devoid of levity or emotion. There is zero humor (Humor: 1/5 Grave) and zero energy, presenting information with a flat, Clinical affect (Enthusiasm: 1/5). The language is formal and traditional, using proper medical terms (Formality: 2/5), and maintains a professional, respectful distance (Respect: 2/5). With enthusiasm and humor scores at the absolute minimum, it meets the hard rule for The Clinical Authority.",
+    "evidence": "designed specifically for dry, compromised skin... clinically proven to restore... this ointment is water-free... formulated with Petrolatum (skin protectant)",
+    "evidence_src": "BASE_CONTENT.about_this_item + SOCIAL_PROOF.description",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "The slider scores (Humor ≤ 2, Enthusiasm ≤ 2, Formality ≥ 2) are a direct match for the hard rule defining Territory 1 - The Clinical Authority. The tone is consistently serious and informational."
+    }
   },
   "marker_8": {
     "marker_name": "Visual Identity",
@@ -152,22 +180,26 @@
     "slider_b_value": "2/5",
     "slider_b_position_name": "▼ Structured (Orderly, predictable hierarchy)",
     "territory_number": 1,
-    "territory": "Pharma-Code (Sterility)",
-    "reasoning": "The visuals are aggressively sterile—clean white backgrounds, navy blue text, and red accents for medical urgency (Thermostat: 1/5 Sterile). The layout is rigid and hierarchical, organizing information into quadrants, drug fact boxes, and bullet points with zero artistic chaos (Entropy: 2/5 Structured). It signals 'Hospital' in every pixel.",
-    "evidence": "Clean white background with navy blue text and red highlights... Minimalist tube design... Bubble illustrations... Checkmark iconography",
-    "evidence_src": "visual_analysis.visualDescription.visual_identity + visual_analysis.primary_palette",
-    "look_and_feel": "Clinical, straightforward, and trustworthy; a visual language that mirrors a prescription label.",
-    "distinctive_asset_1": "Minimalist white tube",
-    "distinctive_asset_2": "Navy Blue & Red text pairing",
-    "distinctive_asset_3": "Oxygen flow bubble illustration",
-    "distinctive_asset_4": "Red checkmarks for 'Free-From' list",
-    "distinctive_asset_5": "#1 Dermatologist Recommended Badge",
+    "territory": "Pharma-Code (CODE: STERILITY)",
+    "reasoning": "The visual temperature is cold, dominated by a 'Clean white background with navy blue text and red highlights'—a classic sterile medical palette (Thermostat: 1/5). The layouts are highly controlled and structured, with centered product shots and orderly text blocks, prioritizing clarity over expression (Entropy: 2/5). Cold colors combined with a controlled layout is the definition of Pharma-Code.",
+    "evidence": "Clean white background with navy blue text and red highlights... Minimalist tube design... layoutStructure: Top text header with hand action in the center of the image",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.visualDescription.visual_identity + PRODUCT_GALLERY.visual_content_analysis[5].visual_analysis.VisualHierarchy",
+    "look_and_feel": "A 'Sterile Utility' aesthetic that uses a clinical color palette and rigid structure to communicate safety, reliability, and medical authority. It's designed to look like a prescription, not a cosmetic.",
+    "distinctive_asset_1": "Aquaphor wordmark in bold navy blue sans-serif",
+    "distinctive_asset_2": "Red horizontal line accent under 'Healing Ointment'",
+    "distinctive_asset_3": "White and navy blue tube packaging design",
+    "distinctive_asset_4": "Circular '#1 Dermatologist Recommended' badge",
+    "distinctive_asset_5": "Clean, sans-serif typography for all claims",
     "palette_color_1": "#FFFFFF",
     "palette_color_2": "#000080",
     "palette_color_3": "#FF0000",
     "palette_color_4": "#1E2C56",
     "palette_color_5": "#000000",
-    "primary_palette": "Sterile clinical white background anchored by authoritative navy blue text and punctuated by urgent red accents for claims."
+    "primary_palette": "They use a sterile 'hospital white' to signal safety, which is the baseline. The navy blue typography acts like a doctor's signature—serious and trustworthy. Then, the red is the emergency signal, the cross on the first-aid kit, highlighting the most important claims to grab your attention when you're in pain.",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5 Sterile) and Slider B (2/5 Structured) are a direct fit for the pattern of Territory 1 - Pharma-Code. The visual evidence consistently points to a clinical, sterile aesthetic."
+    }
   },
   "marker_9": {
     "marker_name": "Messaging",
@@ -175,27 +207,35 @@
     "slider_a_value": "4/5",
     "slider_a_position_name": "▼ The Result (Effect subject)",
     "slider_b_label": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
-    "slider_b_value": "2/5",
-    "slider_b_position_name": "▼ Rational (Logical cause-and-effect)",
+    "slider_b_value": "1/5",
+    "slider_b_position_name": "▼ Raw Data (Charts, percentages, \"clinically proven\")",
     "territory_number": 2,
-    "territory": "The Problem Solver (Functional)",
-    "reasoning": "The hook is the relief of a specific problem—'For dry, cracked or irritated skin' is the headline (Hook: 4/5 Result). The persuasion is entirely rational, explaining the *mechanism* of action ('creates a protective barrier that allows for the flow of oxygen') rather than appealing to emotion (Persuasion: 2/5 Rational). It explains *how* it fixes the problem.",
-    "evidence": "For dry, cracked or irritated skin... clinically proven to restore... creates a protective barrier... allows for the flow of oxygen",
-    "evidence_src": "visual_analysis.claimsAndFeatures + product_details"
+    "territory": "The Problem Solver (STRATEGY: FUNCTIONAL)",
+    "reasoning": "The messaging hooks you with the end benefit: 'restore smooth, healthy skin' for 'dry, cracked or irritated skin'—it sells the result, not the ingredient (Hook: 4/5 The Result). The argument is built entirely on rational proof and raw data: 'clinically proven,' '#1 Dermatologist Recommended,' and formulation facts (Persuasion: 1/5 Raw Data). Selling a clear result with hard proof is the classic Problem Solver strategy.",
+    "evidence": "For dry, cracked or irritated skin... restore smooth, healthy skin... clinically proven... #1 Dermatologist Recommended",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[2].claimsAndFeatures",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (4/5 The Result) and Slider B (1/5 Raw Data) align with the expected pattern for Territory 2 - The Problem Solver. The content consistently frames a specific problem and offers a proven solution."
+    }
   },
   "marker_10": {
     "marker_name": "Narrative",
-    "slider_a_label": "[SLIDER] THE PROTAGONIST (The Hero)",
+    "slider_a_label": "[SLIDER] THE PROTAGONIST (Who Solved It)",
     "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ The Nobel (Faceless PhDs, Dermatologists)",
-    "slider_b_label": "[SLIDER] THE SETTING (The Stage)",
+    "slider_a_position_name": "▼ The Nobel (Faceless PhDs, dermatologists)",
+    "slider_b_label": "[SLIDER] THE SETTING (Where It Happened)",
     "slider_b_value": "1/5",
     "slider_b_position_name": "▼ Sterile (Test tubes, molecules, clean rooms)",
     "territory_number": 1,
-    "territory": "The Lab Breakthrough (Intellectual)",
-    "reasoning": "There is no founder story. The protagonist is the 'Manufacturer' and the 'Dermatologist' (Protagonist: 1/5 Nobel). The setting is implied to be a clinical lab where formulas are 'tested and approved' and 'uniquely formulated' (Setting: 1/5 Sterile). Trust is built on the institution, not a person.",
-    "evidence": "From the manufacturer... #1 dermatologist recommended... tested and approved... uniquely formulated",
-    "evidence_src": "brand_story.sections[0].text + product_details"
+    "territory": "The Lab Breakthrough",
+    "reasoning": "There is no personal founder story. The hero is the faceless institution of science—'Dermatologist recommended' and 'clinically proven' (Protagonist: 1/5 The Nobel). The setting is implicitly the lab where it was 'formulated' and tested, a sterile environment of science (Setting: 1/5 Sterile). An institutional hero and a clinical setting create a classic Lab Breakthrough narrative.",
+    "evidence": "Dermatologist recommended... clinically proven... Formulated with 41% Petrolatum... Preservative & Fragrance Free",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[6].claimsAndFeatures",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5 The Nobel) and Slider B (1/5 Sterile) are a direct match for the pattern of Territory 1 - The Lab Breakthrough. The brand narrative is consistently rooted in institutional science."
+    }
   },
   "marker_11": {
     "marker_name": "Key Selling Points",
@@ -203,41 +243,53 @@
     "slider_a_value": "1/5",
     "slider_a_position_name": "▼ The Board (Dermatologist developed/recommended)",
     "slider_b_label": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ The Graph (Instrumental studies, molecular charts)",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "▼ The Stat (\"95% saw reduction in acne\")",
     "territory_number": 1,
-    "territory": "Derm-Validation (Expertise)",
-    "reasoning": "While it has 40k reviews, the brand *leads* with '#1 Dermatologist Recommended' as its primary validator (Validator: 1/5 The Board). The proof is clinical ('Clinically proven') and mechanistic ('Oxygen flow', 'Protective barrier'), relying on scientific concepts rather than user testimonials or lifestyle vibes (Proof: 1/5 The Graph).",
-    "evidence": "#1 dermatologist recommended... Clinically proven... ProVoice survey... Protective barrier... Oxygen flow",
-    "evidence_src": "product_details + visual_analysis.icons"
+    "territory": "Derm-Validation (PROOF: EXPERTISE)",
+    "reasoning": "The primary validator is the ultimate authority: dermatologists. The '#1 Dermatologist Recommended' badge is the core reason to believe (Validator: 1/5 The Board). This is backed up by the proof of 'clinically proven' results, which function as a definitive statistic (Proof: 2/5 The Stat). Validation from medical experts, backed by clinical data, is the essence of Derm-Validation.",
+    "evidence": "#1 Dermatologist Recommended... Clinically proven to restore smooth, healthy skin",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].icons + BASE_CONTENT.about_this_item[1]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5 The Board) and Slider B (2/5 The Stat) are a perfect match for the expected pattern of Territory 1 - Derm-Validation. The brand consistently relies on expert endorsement and clinical proof."
+    }
   },
   "marker_12": {
     "marker_name": "USP",
-    "slider_a_label": "[SLIDER] THE OWNERSHIP OBJECT (What You Claim to Own)",
+    "slider_a_label": "[SLIDER] THE OWNERSHIP CLAIM (What Makes You Unique)",
     "slider_a_value": "3/5",
-    "slider_a_position_name": "▼ The Complex (Trademarked mix: 'Pro-Retinol Complex')",
-    "slider_b_label": "[SLIDER] THE TARGET SCOPE (How Wide Is The Net?)",
+    "slider_a_position_name": "▼ The Signature Complex (Trademarked ingredient blend)",
+    "slider_b_label": "[SLIDER] THE TARGET SCOPE (Market Breadth)",
     "slider_b_value": "4/5",
-    "slider_b_position_name": "▼ The Problem (Specific concern: 'Eczema Relief')",
+    "slider_b_position_name": "▼ The Problem Solver (Targets specific skin concern)",
     "territory_number": 4,
-    "territory": "The Specialist (Diagnosis)",
-    "reasoning": "The brand owns the 'Healing Ointment' formula—a specific mix of Petrolatum + Panthenol/Bisabolol that creates a unique semi-occlusive barrier (Ownership: 3/5 Complex). The target is not general 'dry skin' but specific medical problems: 'cracked', 'compromised', 'minor burns', 'cuts' (Scope: 4/5 The Problem). It is positioned as a specialist tool for damage.",
-    "evidence": "Petrolatum plus Provitamin B5, Bisabolol, Glycerin... compromised skin... minor wound care... cracked cuticles",
-    "evidence_src": "product_details + about_this_item"
+    "territory": "The Specialist",
+    "reasoning": "While its formulation is well-known, its true ownership comes from its reputation as a trusted, multi-ingredient solution for healing, acting as a Signature Complex (Ownership: 3/5). Its power comes from its hyper-focus on solving the specific problem of 'dry, compromised skin' in its many forms (Scope: 4/5 Problem Solver). Per protocol, a high score on Target Scope (4-5) makes the brand a Specialist, as its identity is defined by the problem it solves, not just its ingredients.",
+    "evidence": "For dry, cracked or irritated skin... minor wound care... chapped lips... cracked cuticles and dry feet... formulated with Petrolatum... plus Provitamin B5, Bisabolol, Glycerin and Lanolin Alcohol",
+    "evidence_src": "BASE_CONTENT.about_this_item + SOCIAL_PROOF.description",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider B (4/5 Problem Solver) triggers the priority override rule for Territory 4 - The Specialist. This aligns with the content, as Aquaphor is the go-to brand for a specific set of skin problems."
+    }
   },
   "marker_13": {
     "marker_name": "Focus",
     "slider_a_label": "[SLIDER] THE DEPTH GAUGE (Content Purpose)",
     "slider_a_value": "2/5",
-    "slider_a_position_name": "▼ The Explainer (Infographics, 'How it Works')",
+    "slider_a_position_name": "▼ The Explainer (Infographics, \"How it Works\")",
     "slider_b_label": "[SLIDER] THE INTENT VECTOR (Content Goal)",
     "slider_b_value": "1/5",
     "slider_b_position_name": "▼ The Thesis (Clinical studies, dermatologist quotes)",
     "territory_number": 1,
-    "territory": "Science Education (Mechanism)",
-    "reasoning": "The PDP dedicates significant space to explaining *how* it works—specifically the 'oxygen flow' mechanism and the difference between lotions and ointments (Depth: 2/5 Explainer). The goal is to build credibility and proof of efficacy, not just to pitch benefits (Intent: 1/5 Thesis).",
-    "evidence": "How Aquaphor Healing Ointment Helps Skin Heal... allows for the flow of hydration and oxygen... Different from a lotion or cream",
-    "evidence_src": "brand_story.sections[0].text + product_details"
+    "territory": "Science Education (FOCUS: MECHANISM)",
+    "reasoning": "The page spends its pixels teaching, not inspiring. It uses graphics to explain the 'Protective Barrier' and how it 'Allows oxygen to flow,' acting as an explainer (Depth: 2/5). The clear goal is to establish credibility through proof—'#1 Dermatologist Recommended,' 'Clinically proven'—presenting a thesis of efficacy (Intent: 1/5). A focus on explaining mechanisms to build trust is pure Science Education.",
+    "evidence": "Graphic: Protective Barrier... Allows oxygen to flow... #1 Dermatologist Recommended... Clinically proven",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[6].claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[0].claimsAndFeatures",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5 Explainer) and Slider B (1/5 Thesis) are a direct match for the pattern of Territory 1 - Science Education. The page's content is overwhelmingly educational and proof-oriented."
+    }
   },
   "marker_14": {
     "marker_name": "Functional Benefits",
@@ -248,51 +300,67 @@
     "slider_b_value": "1/5",
     "slider_b_position_name": "▼ Biological (pH balance, microbiome, lipid layer)",
     "territory_number": 1,
-    "territory": "Restoration (Recovery)",
-    "reasoning": "This product is The Fixer. It targets 'cracked', 'broken', and 'compromised' skin to reverse specific damage (Action: 5/5 The Fixer). The outcome is biological health—'healthy skin', 'healing environment'—rather than a cosmetic look or sensory feel (Outcome: 1/5 Biological).",
-    "evidence": "Restore smooth, healthy skin... ideal healing environment... minor cuts and burns... cracked hands and feet",
-    "evidence_src": "about_this_item + product_details"
+    "territory": "Restoration (PAYOFF: RECOVERY)",
+    "reasoning": "The product's function is aggressive repair. It's for 'dry, compromised skin,' 'minor cuts and burns,' and 'cracked hands,' positioning it as The Fixer (Action: 5/5). The goal is not aesthetic perfection but the restoration of 'healthy skin' and creating an 'ideal healing environment'—a purely biological outcome (Outcome: 1/5). An aggressive repair action aimed at restoring biological health is the definition of Restoration.",
+    "evidence": "heal dry cracked hands, cuticles and feet... minor cuts and burns... restore smooth, healthy skin... ideal healing environment",
+    "evidence_src": "BASE_CONTENT.about_this_item",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (5/5 The Fixer) and Slider B (1/5 Biological) are a perfect match for the pattern of Territory 1 - Restoration. The product's claims consistently focus on repairing damage to achieve skin health."
+    }
   },
   "marker_15": {
     "marker_name": "Emotional Benefits",
     "slider_a_label": "[SLIDER] THE ANXIETY AXIS (The Emotional Direction)",
-    "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Panic Mode (Urgent need to stop pain/itch)",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ Reassurance (\"Don't worry, this works\")",
     "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS (The Audience)",
-    "slider_b_value": "2/5",
-    "slider_b_position_name": "▼ Comfort (I feel normal again)",
+    "slider_b_value": "1/5",
+    "slider_b_position_name": "▼ Sanctuary (I feel safe inside my own body)",
     "territory_number": 1,
-    "territory": "Relief / Safety (Calm)",
-    "reasoning": "The emotional driver is the removal of pain or discomfort. It addresses 'irritated', 'chafed', and 'cracked' skin—states of crisis (Anxiety: 1/5 Panic Mode). The payoff is 'Comfort'—specifically the return to baseline normalcy ('get on with your day comfortably'), not status or joy (Self-Perception: 2/5 Comfort).",
-    "evidence": "Get on with your day comfortably... soothe skin... help heal... relieve",
-    "evidence_src": "product_details + brand_story.text"
+    "territory": "Relief / Safety (EMOTION: CALM)",
+    "reasoning": "The emotional payoff is the removal of a negative. It 'soothes' and 'protects,' offering reassurance that the problem of 'compromised skin' will be handled (Anxiety: 2/5 Reassurance). The end goal is to 'get on with your day comfortably,' a private feeling of being safe and normal in your own body, a return to sanctuary (Self-Perception: 1/5). Reassurance that leads to a feeling of private safety is the core of the Relief / Safety territory.",
+    "evidence": "soothes skin... protective barrier... for dry, compromised skin... get on with your day comfortably",
+    "evidence_src": "BASE_CONTENT.about_this_item + ABOUT_THE_BRAND.brand_story.sections[0].text",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5 Reassurance) and Slider B (1/5 Sanctuary) align with the expected pattern for Territory 1 - Relief / Safety. The emotional language consistently centers on calming anxiety and restoring comfort."
+    }
   },
   "marker_16": {
     "marker_name": "Self-Expression",
     "slider_a_label": "[SLIDER] THE SIGNAL DRIVER (Purchase Motivation)",
-    "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ The Tool (I buy it only because it functions)",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ The Smart Choice (because it makes sense)",
     "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION (Social Position)",
     "slider_b_value": "1/5",
     "slider_b_position_name": "▼ The Standard (What everyone uses; the default)",
     "territory_number": 1,
-    "territory": "The Pragmatist (Rationality)",
-    "reasoning": "You don't buy Aquaphor to express your identity; you buy it because you have a cut on your finger. It is a pure Tool (Signal: 1/5 The Tool). Socially, it is the 'Standard'—the #1 bestseller that is in everyone's drawer. Buying it signals nothing but pragmatic common sense (Tribal: 1/5 The Standard).",
-    "evidence": "One essential solution... #1 in Body Creams... Multi-purpose solution... $10.97",
-    "evidence_src": "product_details + SOCIAL_PROOF.sales_rank"
+    "territory": "The Pragmatist (SIGNAL: RATIONALITY)",
+    "reasoning": "Despite high cultural validation (#1 Best Seller, awards), the purchase of Aquaphor is not an identity statement of taste, but a signal of rationality. It is the supremely Smart Choice, backed by data and experts (Signal: 2/5). It is also the absolute market standard, the default option for its use case (Tribal: 1/5 The Standard). Choosing the most logical, standard option is the hallmark of The Pragmatist.",
+    "evidence": "#1 in Body Creams... #1 Dermatologist Recommended... 40,811 ratings... Clinically proven",
+    "evidence_src": "SOCIAL_PROOF.sales_rank + PRODUCT_GALLERY.visual_content_analysis[0].icons + BASE_CONTENT.review_count + BASE_CONTENT.about_this_item[1]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5 Smart Choice) and Slider B (1/5 The Standard) are a perfect match for the pattern of Territory 1 - The Pragmatist. The purchase signals logic and alignment with the established best practice."
+    }
   },
   "marker_17": {
     "marker_name": "Social Benefits",
     "slider_a_label": "[SLIDER] THE SOCIAL VECTOR (Social Goal)",
     "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Normalization (I want to look like everyone else)",
+    "slider_a_position_name": "▼ Normalization (\"I want to look like everyone else\")",
     "slider_b_label": "[SLIDER] THE GROUP DYNAMIC (Tribal Scale)",
     "slider_b_value": "1/5",
     "slider_b_position_name": "▼ The Majority (What most people use)",
     "territory_number": 1,
-    "territory": "The Safe Choice (Belonging)",
-    "reasoning": "The social goal is safety in numbers. With 40,000+ reviews and '#1 Recommended' status, the user is joining The Majority (Group: 1/5 Majority). They are making the choice that 'everyone' makes to ensure they aren't taking a risk on an unknown remedy (Social Vector: 1/5 Normalization).",
-    "evidence": "40,811 global ratings... #1 dermatologist recommended... #1 in Body Creams",
-    "evidence_src": "SOCIAL_PROOF.review_count + product_details"
+    "territory": "The Safe Choice (SOCIAL: BELONGING)",
+    "reasoning": "The social goal of using a healing ointment is to return to a state of normalcy, to remove a visible problem and blend back in (Vector: 1/5 Normalization). By choosing the #1 best-selling and #1 dermatologist-recommended product, the user is aligning with the overwhelming majority opinion (Group: 1/5 The Majority). Seeking normalization by joining the majority defines this as The Safe Choice.",
+    "evidence": "#1 in Body Creams... 40,811 global ratings... restore smooth, healthy skin",
+    "evidence_src": "SOCIAL_PROOF.sales_rank + BASE_CONTENT.review_count + BASE_CONTENT.about_this_item[1]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5 Normalization) and Slider B (1/5 The Majority) are a direct match for the pattern of Territory 1 - The Safe Choice. The social benefit is the security of choosing the most accepted and proven option."
+    }
   }
 }
