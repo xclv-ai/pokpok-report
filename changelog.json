@@ -15,7 +15,7 @@
         ],
         "changed": [],
         "documentation": [],
-        "note": "Schema migration completed. The <code>approved</code> column has been replaced with <code>status</code> for more granular state tracking."
+        "note": "Schema migration completed. The `approved` column has been replaced with `status` for more granular state tracking."
       }
     },
     {
@@ -28,8 +28,8 @@
         ],
         "added": [],
         "changed": [
-          "Database schema: <code>approved</code> → <code>status</code> column",
-          "Field naming: <code>pdp-link</code> → <code>pdp_link</code> (underscore)"
+          "Database schema: `approved` → `status` column",
+          "Field naming: `pdp-link` → `pdp_link` (underscore)"
         ],
         "documentation": []
       }
