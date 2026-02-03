@@ -4,6 +4,12 @@
 ### Authentication & Email
 - **fix:** Email signup now sends verification emails via Resend SMTP (100 emails/day)
 - **fix:** NavAuthButton redirects to /signin page instead of direct OAuth (v3.5.0)
+- **feature:** Password reset flow v1.4.1 - Complete end-to-end password reset
+  - Email auto-populates from Supabase session during reset
+  - Email field shows (read-only) so user sees which account
+  - Session verification before updateUser() - prevents "password not saved" bug
+  - Better error messages: "NO SESSION - RESET LINK EXPIRED", "PASSWORD TOO SHORT"
+  - Console logging for debugging password reset flow
 - **feature:** SMTP configuration documented at hey.pokpok.ai subdomain
 - **feature:** Email templates updated with POKPOK branding
 
