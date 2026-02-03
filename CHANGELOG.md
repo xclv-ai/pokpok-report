@@ -1,5 +1,14 @@
 # POKPOK Changelog
 
+## TODO - In Progress
+- [ ] Fix /my-reports button variant not changing (OrderList v1.7.0+)
+- [ ] Fix PAID button portal session fetch (DashboardDataProvider edge function needed)
+- [ ] Fix /admin/pdp-viewer-2 slot probing failures
+- [ ] Apply withPasswordResetDetector override to invisible frame on /signin
+- [ ] Test end-to-end password reset flow with v1.4.1
+
+---
+
 ## 2026-02-02
 ### Authentication & Email
 - **fix:** Email signup now sends verification emails via Resend SMTP (100 emails/day)
@@ -42,24 +51,21 @@
 - **improvement:** Database schema: `approved` → `status` column for granular tracking
 - **improvement:** Field naming: `pdp-link` → `pdp_link` (underscore convention)
 
-## 2026-01-18
-### Authentication System
-- **feature:** Sign in / Sign up tabs on /signin page
-- **feature:** Email + password authentication implemented
-- **fix:** Auth state synchronization across components
+## 2026-01-27
+### Framer Architecture
+- **fix:** Auth race condition in DashboardDataProvider (synchronous check first)
+- **fix:** Dynamic list rendering (switched to slot override pattern)
+- **fix:** CSS variable inheritance for nested components
 
-### Paywall Documentation
-- **feature:** Document all 6 products in purchase-flow.md
-- **improvement:** Polar checkout configuration documented
+### Documentation & Patterns
+- **feature:** Added comprehensive failure registry (FAILURES.md)
+- **feature:** Documented slot override pattern for Framer components
+- **feature:** F010 documented - dynamic instance rendering impossible in Framer
+- **feature:** F011 documented - never assume, always read documentation first
 
-### Edge Functions
-- **improvement:** Edge Functions documentation created
-- **improvement:** polar-checkout function deployed (code backup needed)
-
-## 2026-01-19
-### Webhook System
-- **feature:** Documented webhook fulfillment flow (Polar → n8n → Supabase)
-- **feature:** webhook-fulfillment.md created with flow diagrams
+### Admin Panel
+- **improvement:** Cross-page pattern analysis completed
+- **improvement:** Working patterns identified from /my-reports-test
 
 ## 2026-01-26
 ### Leaderboard System
@@ -95,24 +101,21 @@
 - **feature:** n8n-alt MCP configuration added to .mcp.json
 - **improvement:** Root navigation updated with leaderboard link
 
-## 2026-01-27
-### Framer Architecture
-- **fix:** Auth race condition in DashboardDataProvider (synchronous check first)
-- **fix:** Dynamic list rendering (switched to slot override pattern)
-- **fix:** CSS variable inheritance for nested components
+## 2026-01-19
+### Webhook System
+- **feature:** Documented webhook fulfillment flow (Polar → n8n → Supabase)
+- **feature:** webhook-fulfillment.md created with flow diagrams
 
-### Documentation & Patterns
-- **feature:** Added comprehensive failure registry (FAILURES.md)
-- **feature:** Documented slot override pattern for Framer components
-- **feature:** F010 documented - dynamic instance rendering impossible in Framer
-- **feature:** F011 documented - never assume, always read documentation first
+## 2026-01-18
+### Authentication System
+- **feature:** Sign in / Sign up tabs on /signin page
+- **feature:** Email + password authentication implemented
+- **fix:** Auth state synchronization across components
 
-### Admin Panel
-- **improvement:** Cross-page pattern analysis completed
-- **improvement:** Working patterns identified from /my-reports-test
+### Paywall Documentation
+- **feature:** Document all 6 products in purchase-flow.md
+- **improvement:** Polar checkout configuration documented
 
-## 2026-01-26
-- **fix:** Code component null return issue
-- **fix:** Override signature pattern (props parameter)
-- **feature:** LeaderboardDataProvider for category leaders tracking
-- **feature:** Real-time leaderboard updates on homepage
+### Edge Functions
+- **improvement:** Edge Functions documentation created
+- **improvement:** polar-checkout function deployed (code backup needed)
