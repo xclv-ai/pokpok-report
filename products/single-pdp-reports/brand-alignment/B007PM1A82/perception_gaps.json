@@ -6,8 +6,8 @@
     "stable_condition": "0/17",
     "guarded_condition": "0/17",
     "critical_condition": "17/17",
-    "score_headline": "CRITICAL DATA FAILURE",
-    "score_summary": "The analysis engine received null inputs for both WWW and PDP data sources. It is impossible to calculate alignment or identify gaps without the required brand markers."
+    "score_headline": "CRITICAL INPUT ERROR",
+    "score_summary": "The analysis cannot be performed because the provided input data for both WWW and PDP was null. A comparison requires valid perception data from both channels to detect inconsistencies."
   },
   "top_aligned": {
     "position_1": "Tone of Voice",
@@ -28,42 +28,42 @@
   "truth_1": {
     "truth_type": "gap",
     "headline": "Missing Input Data",
-    "gap_description": "No input data was provided for the analysis.",
-    "evidence": "WWW: null vs. PDP: null",
-    "why_matters": "Without data, we cannot identify inconsistencies in the brand strategy.",
-    "the_hard_choice": "The analysis engine cannot function without input data. You must choose: either provide valid JSON data for WWW and PDP (Option A) or accept that no diagnosis can be generated (Option B). Without data, there is no strategy."
+    "gap_description": "The system received null values for both WWW and PDP assessments. No comparison is possible.",
+    "evidence": "Input parameters were null.",
+    "why_matters": "Without data, the engine cannot detect schizophrenia. The brand is currently invisible.",
+    "the_hard_choice": "You are attempting to audit a brand that does not exist in the data stream. You must ensure the previous analysis steps completed successfully (Option A) or manually input the brand perception data (Option B). An empty input yields an empty strategy."
   },
   "truth_2": {
     "truth_type": "gap",
-    "headline": "Missing Input Data",
-    "gap_description": "No input data was provided for the analysis.",
-    "evidence": "WWW: null vs. PDP: null",
-    "why_matters": "Without data, we cannot identify inconsistencies in the brand strategy.",
-    "the_hard_choice": "The analysis engine cannot function without input data. You must choose: either provide valid JSON data for WWW and PDP (Option A) or accept that no diagnosis can be generated (Option B). Without data, there is no strategy."
+    "headline": "The Void Stares Back",
+    "gap_description": "A gap analysis requires two points of reference. We currently have zero.",
+    "evidence": "Comparison logic failed due to null pointers.",
+    "why_matters": "This error indicates a breakage in the workflow upstream.",
+    "the_hard_choice": "You cannot optimize a vacuum. You must either restart the data collection process (Option A) or accept that there is no brand to analyze (Option B). Data is the prerequisite of insight."
   },
   "truth_3": {
     "truth_type": "gap",
-    "headline": "Missing Input Data",
-    "gap_description": "No input data was provided for the analysis.",
-    "evidence": "WWW: null vs. PDP: null",
-    "why_matters": "Without data, we cannot identify inconsistencies in the brand strategy.",
-    "the_hard_choice": "The analysis engine cannot function without input data. You must choose: either provide valid JSON data for WWW and PDP (Option A) or accept that no diagnosis can be generated (Option B). Without data, there is no strategy."
+    "headline": "Total System Silence",
+    "gap_description": "All 17 markers are registering as 'Critical' because no territories were defined.",
+    "evidence": "Alignment Score: 0/100",
+    "why_matters": "Zero alignment usually means total contradiction, but here it means total absence.",
+    "the_hard_choice": "The silence in the data suggests a catastrophic failure in observation. You must choose: fix the input mechanism (Option A) or abandon the audit (Option B). You cannot diagnose a patient who isn't in the room."
   },
   "truth_4": {
     "truth_type": "hidden_risk",
-    "headline": "Missing Input Data",
-    "gap_description": "No input data was provided for the analysis.",
-    "evidence": "WWW: null vs. PDP: null",
-    "why_matters": "Without data, we cannot identify inconsistencies in the brand strategy.",
-    "the_hard_choice": "The analysis engine cannot function without input data. You must choose: either provide valid JSON data for WWW and PDP (Option A) or accept that no diagnosis can be generated (Option B). Without data, there is no strategy."
+    "headline": "No Foundation Detected",
+    "gap_description": "There are no safe harbors. Every single attribute is missing.",
+    "evidence": "Healthy Markers: 0/17",
+    "why_matters": "Even a chaotic brand has accidental consistency. This result implies the data itself is compromised.",
+    "the_hard_choice": "A brand without a foundation is just noise, or in this case, silence. You need to establish the baseline identity immediately (Option A) or acknowledge this is a clean slate project (Option B). You cannot build on null."
   },
   "truth_5": {
     "truth_type": "untapped_strength",
-    "headline": "Missing Input Data",
-    "gap_description": "No input data was provided for the analysis.",
-    "evidence": "WWW: null vs. PDP: null",
-    "why_matters": "Without data, we cannot identify inconsistencies in the brand strategy.",
-    "the_hard_choice": "The analysis engine cannot function without input data. You must choose: either provide valid JSON data for WWW and PDP (Option A) or accept that no diagnosis can be generated (Option B). Without data, there is no strategy."
+    "headline": "Potential Unmeasurable",
+    "gap_description": "No untapped strengths could be calculated because no performance metrics exist.",
+    "evidence": "Potential Strength: N/A",
+    "why_matters": "Growth comes from leverage. You have no lever.",
+    "the_hard_choice": "Upside requires a baseline. You must define where you are (Option A) before you can decide where to go (Option B). Maps don't work without coordinates."
   },
   "marker_1": {
     "marker_name": "Purpose",
@@ -76,7 +76,7 @@
     "pdp_territory": "Data Missing",
     "pdp_slider_a": "0/5",
     "pdp_slider_b": "0/5",
-    "so_what": "No data provided for analysis."
+    "so_what": "Input data was null; analysis impossible."
   },
   "marker_2": {
     "marker_name": "Mission & Vision",
@@ -89,7 +89,7 @@
     "pdp_territory": "Data Missing",
     "pdp_slider_a": "0/5",
     "pdp_slider_b": "0/5",
-    "so_what": "No data provided for analysis."
+    "so_what": "Input data was null; analysis impossible."
   },
   "marker_3": {
     "marker_name": "Values",
@@ -102,7 +102,7 @@
     "pdp_territory": "Data Missing",
     "pdp_slider_a": "0/5",
     "pdp_slider_b": "0/5",
-    "so_what": "No data provided for analysis."
+    "so_what": "Input data was null; analysis impossible."
   },
   "marker_4": {
     "marker_name": "Positioning",
@@ -115,7 +115,7 @@
     "pdp_territory": "Data Missing",
     "pdp_slider_a": "0/5",
     "pdp_slider_b": "0/5",
-    "so_what": "No data provided for analysis."
+    "so_what": "Input data was null; analysis impossible."
   },
   "marker_5": {
     "marker_name": "Personality",
@@ -128,7 +128,7 @@
     "pdp_territory": "Data Missing",
     "pdp_slider_a": "0/5",
     "pdp_slider_b": "0/5",
-    "so_what": "No data provided for analysis."
+    "so_what": "Input data was null; analysis impossible."
   },
   "marker_6": {
     "marker_name": "Archetypes Mix",
@@ -136,14 +136,14 @@
     "condition_label": "Critical Condition",
     "condition_desc": "Brand Schizophrenia",
     "www_territory": "Data Missing",
-    "www_primary_archetype": "None",
-    "www_secondary_archetype": "None",
-    "www_tertiary_archetype": "None",
+    "www_primary_archetype": "Data Missing",
+    "www_secondary_archetype": "Data Missing",
+    "www_tertiary_archetype": "Data Missing",
     "pdp_territory": "Data Missing",
-    "pdp_primary_archetype": "None",
-    "pdp_secondary_archetype": "None",
-    "pdp_tertiary_archetype": "None",
-    "so_what": "No data provided for analysis."
+    "pdp_primary_archetype": "Data Missing",
+    "pdp_secondary_archetype": "Data Missing",
+    "pdp_tertiary_archetype": "Data Missing",
+    "so_what": "Input data was null; analysis impossible."
   },
   "marker_7": {
     "marker_name": "Tone of Voice",
@@ -160,7 +160,7 @@
     "pdp_slider_b": "0/5",
     "pdp_slider_c": "0/5",
     "pdp_slider_d": "0/5",
-    "so_what": "No data provided for analysis."
+    "so_what": "Input data was null; analysis impossible."
   },
   "marker_8": {
     "marker_name": "Visual Identity",
@@ -173,7 +173,7 @@
     "pdp_territory": "Data Missing",
     "pdp_slider_a": "0/5",
     "pdp_slider_b": "0/5",
-    "so_what": "No data provided for analysis."
+    "so_what": "Input data was null; analysis impossible."
   },
   "marker_9": {
     "marker_name": "Messaging",
@@ -186,7 +186,7 @@
     "pdp_territory": "Data Missing",
     "pdp_slider_a": "0/5",
     "pdp_slider_b": "0/5",
-    "so_what": "No data provided for analysis."
+    "so_what": "Input data was null; analysis impossible."
   },
   "marker_10": {
     "marker_name": "Narrative",
@@ -199,7 +199,7 @@
     "pdp_territory": "Data Missing",
     "pdp_slider_a": "0/5",
     "pdp_slider_b": "0/5",
-    "so_what": "No data provided for analysis."
+    "so_what": "Input data was null; analysis impossible."
   },
   "marker_11": {
     "marker_name": "Key Selling Points",
@@ -212,7 +212,7 @@
     "pdp_territory": "Data Missing",
     "pdp_slider_a": "0/5",
     "pdp_slider_b": "0/5",
-    "so_what": "No data provided for analysis."
+    "so_what": "Input data was null; analysis impossible."
   },
   "marker_12": {
     "marker_name": "USP",
@@ -225,7 +225,7 @@
     "pdp_territory": "Data Missing",
     "pdp_slider_a": "0/5",
     "pdp_slider_b": "0/5",
-    "so_what": "No data provided for analysis."
+    "so_what": "Input data was null; analysis impossible."
   },
   "marker_13": {
     "marker_name": "Focus",
@@ -238,7 +238,7 @@
     "pdp_territory": "Data Missing",
     "pdp_slider_a": "0/5",
     "pdp_slider_b": "0/5",
-    "so_what": "No data provided for analysis."
+    "so_what": "Input data was null; analysis impossible."
   },
   "marker_14": {
     "marker_name": "Functional Benefits",
@@ -251,7 +251,7 @@
     "pdp_territory": "Data Missing",
     "pdp_slider_a": "0/5",
     "pdp_slider_b": "0/5",
-    "so_what": "No data provided for analysis."
+    "so_what": "Input data was null; analysis impossible."
   },
   "marker_15": {
     "marker_name": "Emotional Benefits",
@@ -264,7 +264,7 @@
     "pdp_territory": "Data Missing",
     "pdp_slider_a": "0/5",
     "pdp_slider_b": "0/5",
-    "so_what": "No data provided for analysis."
+    "so_what": "Input data was null; analysis impossible."
   },
   "marker_16": {
     "marker_name": "Self-Expression",
@@ -277,7 +277,7 @@
     "pdp_territory": "Data Missing",
     "pdp_slider_a": "0/5",
     "pdp_slider_b": "0/5",
-    "so_what": "No data provided for analysis."
+    "so_what": "Input data was null; analysis impossible."
   },
   "marker_17": {
     "marker_name": "Social Benefits",
@@ -290,7 +290,6 @@
     "pdp_territory": "Data Missing",
     "pdp_slider_a": "0/5",
     "pdp_slider_b": "0/5",
-    "so_what": "No data provided for analysis."
-  },
-  "error": "The resource you are requesting could not be found"
+    "so_what": "Input data was null; analysis impossible."
+  }
 }
