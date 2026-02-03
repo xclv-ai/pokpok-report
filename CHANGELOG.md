@@ -1,6 +1,7 @@
 # POKPOK Changelog
 
 ## TODO - In Progress
+- [ ] NavAuthButton user dropdown - Replace email + "SIGN OUT" with initials button + dropdown menu
 - [ ] Fix /my-reports button variant not changing (OrderList v1.7.0+)
 - [ ] Fix PAID button portal session fetch (DashboardDataProvider edge function needed)
 - [ ] Fix /admin/pdp-viewer-2 slot probing failures
