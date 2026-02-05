@@ -1,136 +1,127 @@
 {
   "brand": "CeraVe",
-  "product_title": "Facial Moisturizing Lotion",
+  "product_title": "CeraVe PM Facial Moisturizing Lotion",
   "url": "https://www.amazon.com/dp/B00365DABC",
   "overall_perception_summary": {
     "headline": "The Clinical Standard",
-    "description": "CeraVe executes a flawless Medical Authority strategy, positioning itself not as a beauty product but as a biological necessity. By anchoring entirely in 'Dermatologist Developed' credibility and the '3 Essential Ceramides' narrative, it democratizes clinical skin science (MVE Technology) for the mass market. It feels like a prescription without the co-pay—safe, effective, and stripped of all vanity."
+    "description": "CeraVe executes a strategy of radical clinical pragmatism, acting as the 'Toyota of Skincare'—ubiquitous, reliable, and mechanically superior. It strips away all aspiration and sensory fluff to focus entirely on biological restoration ('3 Essential Ceramides') and delivery mechanics ('MVE Technology'). It captures the mass market not by being cheap, but by being the 'Safe Choice' validated by the highest authority: the Dermatologist."
   },
   "category_summaries": {
     "foundation": {
-      "title": "The Barrier Guardian",
-      "description": "The brand stands firmly as The Guardian, deriving its authority from the white coat ('Developed with Dermatologists') to protect and maintain the skin barrier. It operates on a strict Safety First code, sacrificing mystery for data ('Fragrance Free', 'Non-comedogenic'). The positioning is pure Medical Authority—sterile, functional, and essential."
+      "title": "The Biological Architect",
+      "description": "The brand anchors its authority in the clinic, acting as The Healer focused on restoring the skin's physical barrier rather than just moisturizing it. It operates with a Safety First value system ('Fragrance Free', 'Non-comedogenic') and positions itself as The Medical Authority, looking more like a prescription than a cosmetic."
     },
     "identity": {
-      "title": "Reliable Clinical Expert",
-      "description": "There is no attempt to be your best friend; this is The Reliable Expert speaking. The visual identity is Pharma-Code—clean navy and white with functional typography. The tone is Clinical Authority: grave, professional, and devoid of humor. The archetype mix is dominated by The Caregiver's desire to protect, backed by The Sage's data."
+      "title": "The Sterile Expert",
+      "description": "There is zero emotional distance—not because of warmth, but because of clinical transparency. The Archetype is the Caregiver (60%) framed through a sterile lens, using a Pharma-Code visual identity (Navy/White) and a Clinical Authority tone that speaks in facts, not feelings."
     },
     "communication": {
-      "title": "The Rational Chemist",
-      "description": "Messaging focuses on the molecule, playing the role of The Chemist ('3 Essential Ceramides', 'Niacinamide') with Rational persuasion. The narrative is a Lab Breakthrough, citing mechanism diagrams ('10 surface layers deep') rather than origin stories. KSPs rely entirely on Derm-Validation, using the board certification as the ultimate proof."
+      "title": "The Engineering Thesis",
+      "description": "Messaging is led by The Chemist, hooking users with ingredients ('Ceramides', 'Niacinamide') and rational delivery systems ('MVE Technology'). The narrative is a Lab Breakthrough story centered on faceless dermatologists, while the Focus is purely educational, using infographics to prove efficacy."
     },
     "benefits": {
-      "title": "Biological Restoration",
-      "description": "Functionally, it offers Restoration, fixing the biological barrier rather than improving aesthetics. The emotional payoff is Relief / Safety—the absence of worry for sensitive skin. Socially, it is The Safe Choice, allowing the user to blend in with the Majority who prioritize health over hype."
+      "title": "Barrier Restoration",
+      "description": "Functionally, it delivers Restoration, specifically targeting the lipid barrier. Emotionally, it sells Relief / Safety—the absence of irritation and the assurance of dermatological testing. Socially, it is The Safe Choice, offering the badge of the Pragmatist who values function over status."
     }
   },
   "quick_labels": {
     "brand_voice": "Clinical Authority",
-    "visual_appeal": "Medical Sterile",
-    "value_prop": "Derm-Grade Staple",
-    "positioning": "Barrier Health"
+    "visual_appeal": "Medical Utility",
+    "value_prop": "Biological Repair",
+    "positioning": "Derm-Grade Basic"
   },
   "marker_1": {
     "marker_name": "Purpose",
-    "territory_number": 2,
-    "territory_name": "The Guardian (Scientific Protection)",
-    "reasoning": "The authority source is explicitly 'Developed with Dermatologists' (Slider A: 2/5). The mission is clearly defined as barrier defense—'helps restore the protective skin barrier'—rather than aesthetic enhancement (Slider B: 3/5). This combination creates The Guardian territory: science deployed to protect and maintain the biological baseline.",
-    "evidence": "DEVELOPED WITH DERMATOLOGISTS... helps restore the protective skin barrier... Moisturizes throughout the night... 3 essential ceramides",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.claimsAndFeatures",
+    "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "▼ Pure Clinical (Lab-created, pharmaceutical codes)",
+    "slider_b_label": "[SLIDER] MISSION VECTOR (The Goal)",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "▼ Restoration (Repairing damage)",
+    "territory_number": 1,
+    "territory_name": "The Healer (Clinical Correction)",
+    "reasoning": "The brand's authority is absolute and clinical, explicitly stating 'Developed with Dermatologists' as its primary credential (Origin: 1/5). The mission is not merely to hydrate but to 'restore the protective skin barrier,' framing dry skin as a compromised state that needs fixing rather than just maintenance (Mission: 2/5).",
+    "evidence": "DEVELOPED WITH DERMATOLOGISTS... Helps restore the protective skin barrier... With 3 essential ceramides... Targets overnight hydration",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.keySellingPoints",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Slider scores (Clinical Origin + Maintenance Mission) map perfectly to The Guardian grid. Content signals 'protection' and 'barrier' explicitly."
-    },
-    "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY",
-    "slider_a_value": "2/5",
-    "slider_a_position_name": "▼ Derm-Validated",
-    "slider_b_label": "[SLIDER] MISSION VECTOR",
-    "slider_b_value": "3/5",
-    "slider_b_position_name": "▼ Maintenance"
+      "coherence_reasoning": "Slider A (1/5 Clinical) + Slider B (2/5 Restoration) match typical pattern for Territory 1 - The Healer. Clinical origin + restorative goal aligns with barrier repair content."
+    }
   },
   "marker_2": {
     "marker_name": "Mission & Vision",
+    "slider_a_label": "[SLIDER] SCOPE OF IMPACT (The Blast Radius)",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ Optimization (General appearance/glow)",
+    "slider_b_label": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
+    "slider_b_value": "5/5",
+    "slider_b_position_name": "▼ Democratic (Universal access for everyone)",
     "territory_number": 1,
     "territory_name": "The Democratizers (Accessible Skin Health)",
-    "reasoning": "The scope is strictly personal biological optimization—'restore skin barrier' (Slider A: 2/5). The access barrier is non-existent; the '#1 Facial Moisturizer Brand' claim and simple packaging signal universal, democratic availability (Slider B: 5/5). It brings clinical science to the masses.",
-    "evidence": "#1 Facial Moisturizer Brand... 3 essential ceramides... helps restore & maintain skin’s natural barrier",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[6].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.claimsAndFeatures",
+    "reasoning": "The scope is focused on individual skin physiology—'hydrates skin up to 10 surface layers'—rather than a global crusade (Scope: 2/5). However, the access is radically democratic; claims like '#1 Facial Moisturizer Brand' and the simple, functional packaging signal a product designed for everyone, everywhere (Access: 5/5).",
+    "evidence": "#1 Facial Moisturizer Brand... Hydrates skin up to 10 surface layers deep... 3 FL OZ (89 ml)",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[6].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.textHierarchy.supporting",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Optimization scope + Democratic access aligns with The Democratizers territory."
-    },
-    "slider_a_label": "[SLIDER] SCOPE OF IMPACT",
-    "slider_a_value": "2/5",
-    "slider_a_position_name": "▼ Optimization",
-    "slider_b_label": "[SLIDER] ACCESS BARRIER",
-    "slider_b_value": "5/5",
-    "slider_b_position_name": "▼ Democratic"
+      "coherence_reasoning": "Slider A (2/5 Optimization) + Slider B (5/5 Democratic) match typical pattern for Territory 1 - The Democratizers. Physiological scope + mass access aligns with democratization content."
+    }
   },
   "marker_3": {
     "marker_name": "Values",
+    "slider_a_label": "[SLIDER] PERFORMANCE PRIORITY (The Trade-Off)",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "▼ Hypoallergenic (Do no harm)",
+    "slider_b_label": "[SLIDER] INFORMATION DENSITY (The Transparency)",
+    "slider_b_value": "1/5",
+    "slider_b_position_name": "▼ The Spec Sheet (Exact percentages, full disclosure)",
     "territory_number": 1,
-    "territory_name": "Safety First",
-    "reasoning": "The brand prioritizes tolerance above all else: 'Fragrance Free', 'Non-comedogenic', 'Oil Free', 'Hypoallergenic' (Slider A: 1/5). It combines this with moderate-to-high transparency, listing '3 essential ceramides' and 'MVE Technology' clearly (Slider B: 2/5). The code is 'Do No Harm' validated by data.",
-    "evidence": "Fragrance Free... Non-comedogenic... Oil Free... Hypoallergenic... 3 essential ceramides... MVE Technology",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[7].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.claimsAndFeatures",
+    "territory_name": "Safety First (The Safe Harbor)",
+    "reasoning": "The values hierarchy explicitly prioritizes safety and tolerance, evidenced by claims like 'Fragrance Free', 'Oil Free', and 'Non-comedogenic' (Performance: 1/5). Simultaneously, the transparency is high, featuring full ingredient lists and detailed breakdown of 'MVE Technology' and 'Skin Identical Ceramides' directly on the graphics (Transparency: 1/5).",
+    "evidence": "Fragrance Free... Non-comedogenic... Oil Free... Skin Identical Ceramides... 2021505 - INGREDIENTS: AQUA / WATER...",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[7].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[8].visual_analysis.textHierarchy.supporting + PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.otherVisibleText",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Safety/Gentle performance + Evidence-First transparency maps to Safety First."
-    },
-    "slider_a_label": "[SLIDER] PERFORMANCE PRIORITY",
-    "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Hypoallergenic",
-    "slider_b_label": "[SLIDER] INFORMATION DENSITY",
-    "slider_b_value": "2/5",
-    "slider_b_position_name": "▼ Evidence-First"
+      "coherence_reasoning": "Slider A (1/5 Hypoallergenic) + Slider B (1/5 Spec Sheet) match typical pattern for Territory 1 - Safety First. Safety priority + high data transparency aligns with clinical safe harbor content."
+    }
   },
   "marker_4": {
     "marker_name": "Positioning",
+    "slider_a_label": "[SLIDER] AESTHETIC VIBE (The Uniform)",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "▼ Clinical Sterile (Zero emotion. Pure white/blue)",
+    "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Status Signal)",
+    "slider_b_value": "1/5",
+    "slider_b_position_name": "▼ Bulk Utility (Commodity positioning)",
     "territory_number": 1,
     "territory_name": "The Medical Authority (The Pharmacy)",
-    "reasoning": "The aesthetic is aggressively sterile: white backgrounds, navy blue text, standard bottles, and 'Derm Recommended' badges (Slider A: 1/5). The value proposition is a daily utility—'nightly routine'—rather than a luxury indulgence (Slider B: 2/5). It occupies the Pharmacy mental slot.",
-    "evidence": "DEVELOPED WITH DERMATOLOGISTS... A must-have in your nightly routine... Clean, clinical, and trustworthy",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[4].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.ai_visual_analysis.visual_identity.look_and_feel",
+    "reasoning": "The aesthetic is deliberately sterile: standard white pump bottles, navy blue text, and medical green accents that mimic pharmacy signage (Aesthetic: 1/5). The value perception is purely utilitarian—focused on volume ('3 FL OZ'), function ('PM'), and routine rather than luxury or status (Value: 1/5).",
+    "evidence": "Clinical, clean, and trustworthy... Navy and white color combinations... 3 FL OZ (89 ml)... Facial Moisturizing Lotion",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.ai_visual_analysis.visual_identity.look_and_feel + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.textHierarchy.supporting",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Sterile aesthetic + Utility value positioning maps directly to Medical Authority."
-    },
-    "slider_a_label": "[SLIDER] AESTHETIC VIBE",
-    "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Clinical Sterile",
-    "slider_b_label": "[SLIDER] VALUE PERCEPTION",
-    "slider_b_value": "2/5",
-    "slider_b_position_name": "▼ Daily Essential"
+      "coherence_reasoning": "Slider A (1/5 Sterile) + Slider B (1/5 Utility) match typical pattern for Territory 1 - The Medical Authority. Clinical aesthetic + utility value aligns with pharmacy positioning."
+    }
   },
   "marker_5": {
     "marker_name": "Personality",
+    "slider_a_label": "[SLIDER] THE THERMOSTAT (Emotional Heat)",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "▼ Robotic (Zero emotion. Pure data)",
+    "slider_b_label": "[SLIDER] THE POWER DYNAMIC (Authority Stance)",
+    "slider_b_value": "4/5",
+    "slider_b_position_name": "▼ The Specialist (Highly educated)",
     "territory_number": 3,
     "territory_name": "The Reliable Expert (Competence)",
-    "reasoning": "The tone is devoid of emotional heat; it is purely informational and 'clinical' (Slider A: 1/5). The authority dynamic is high, positioning the brand as the expert teacher ('Developed with Dermatologists', '10 surface layers deep') leading the user (Slider B: 4/5).",
-    "evidence": "DEVELOPED WITH DERMATOLOGISTS... HYDRATES SKIN UP TO 10 SURFACE LAYERS DEEP... Minimalist, clinical, and factual",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[8].visual_analysis.ai_visual_analysis.visual_identity.look_and_feel",
+    "reasoning": "The brand speaks with zero emotional heat—no exclamation marks, no 'love', just 'Directions: Apply liberally' and 'Distributed by CeraVe LLC' (Warmth: 1/5). The stance is authoritative, leaning on 'Developed with Dermatologists' to establish a specialist-patient relationship (Authority: 4/5).",
+    "evidence": "Directions: Apply liberally... Developed with dermatologists... Helps restore & maintain... Questions? 1-888...",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[7].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.otherVisibleText",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Low Warmth + High Authority maps to Reliable Expert."
-    },
-    "slider_a_label": "[SLIDER] WARMTH",
-    "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Robotic",
-    "slider_b_label": "[SLIDER] COMPETENCE / AUTHORITY",
-    "slider_b_value": "4/5",
-    "slider_b_position_name": "▼ The Specialist"
+      "coherence_reasoning": "Slider A (1/5 Robotic) + Slider B (4/5 Specialist) match typical pattern for Territory 3 - The Reliable Expert. Low warmth + high authority aligns with competence-focused content."
+    }
   },
   "marker_6": {
     "marker_name": "Archetypes Mix",
-    "territory_number": 4,
-    "territory_name": "The Guardian (Belonging × Stability)",
-    "reasoning": "The brand is primarily The Caregiver (60%), focused entirely on protection, safety, and barrier restoration ('Helps restore protective skin barrier', 'Fragrance Free'). It is supported by The Sage (30%) via deep educational content ('MVE Technology', '10 layers deep'). A hint of The Ruler (10%) appears in its market dominance claims ('#1 Facial Moisturizer Brand').",
-    "evidence": "Helps restore the protective skin barrier... Safe for use... MVE Technology... #1 Facial Moisturizer Brand",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[6].visual_analysis.claimsAndFeatures",
-    "evaluation_check": {
-      "coherence_status": "not_applicable",
-      "coherence_reasoning": "Archetype mix derived from content analysis."
-    },
     "primary": {
       "archetype": "The Caregiver",
       "group": "A (Stability)",
@@ -139,229 +130,237 @@
     "secondary": {
       "archetype": "The Sage",
       "group": "B (Independence)",
-      "percentage": "30%"
+      "percentage": "25%"
     },
     "tertiary": {
       "archetype": "The Ruler",
       "group": "A (Stability)",
-      "percentage": "10%"
+      "percentage": "15%"
+    },
+    "territory_number": 4,
+    "territory_name": "The Guardian (Belonging × Stability)",
+    "reasoning": "The primary drive is protection and restoration ('restore the protective skin barrier', 'safe', 'fragrance free'), creating a dominant Caregiver (60%) presence. This is supported by The Sage (25%) which provides the intellectual backing ('MVE Technology', 'Niacinamide') and a touch of The Ruler (15%) via market dominance claims ('#1 Facial Moisturizer Brand').",
+    "evidence": "Helps restore the protective skin barrier... Developed with Dermatologists... #1 Facial Moisturizer Brand... Skin Identical Ceramides",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[6].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.otherVisibleText",
+    "evaluation_check": {
+      "coherence_status": "not_applicable",
+      "coherence_reasoning": "Marker 6 uses percentage distribution logic. Dominance of Stability archetypes (Caregiver + Ruler) maps to Territory 4 - The Guardian."
     }
   },
   "marker_7": {
     "marker_name": "Tone of Voice",
+    "slider_a_label": "[SLIDER] HUMOR (The Sense of Humor)",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "▼ Grave (Solemn, warning-like tone)",
+    "slider_b_label": "[SLIDER] FORMALITY (The Dress Code)",
+    "slider_b_value": "3/5",
+    "slider_b_position_name": "▼ Professional (Clean, standard, neutral)",
+    "slider_c_label": "[SLIDER] RESPECT (The Power Dynamic)",
+    "slider_c_value": "3/5",
+    "slider_c_position_name": "▼ Neutral (Direct, matter-of-fact)",
+    "slider_d_label": "[SLIDER] ENTHUSIASM (The Energy Level)",
+    "slider_d_value": "1/5",
+    "slider_d_position_name": "▼ Clinical (Zero emotion, pure data)",
     "territory_number": 1,
     "territory_name": "The Clinical Authority (Academic & Dry)",
-    "reasoning": "The voice is grave and serious (Humor 1/5), using academic/professional terminology like 'MVE Technology' and 'Ceramides' (Formality 3/5). Enthusiasm is kept low and clinical (2/5), focusing on facts rather than hype. This aligns perfectly with the Clinical Authority profile.",
-    "evidence": "HYDRATES SKIN UP TO 10 SURFACE LAYERS DEEP... Continuous release of moisturizing ingredients all night... INGREDIENTS: AQUA / WATER / EAU",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[8].visual_analysis.otherVisibleText",
+    "reasoning": "The voice is purely informational and functional. There is absolutely no humor or enthusiasm; the text consists of ingredient lists, directions, and clinical claims ('Continuous release', 'Non-comedogenic'). It sounds like a lab report or a prescription label.",
+    "evidence": "Continuous release of moisturizing ingredients... Non-comedogenic... Fragrance Free... Apply liberally to face and neck",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[7].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[7].visual_analysis.otherVisibleText",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Matches hard rule: Humor <= 2 AND Enthusiasm <= 2 AND Formality >= 2."
-    },
-    "slider_a_label": "[SLIDER] HUMOR",
-    "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Grave",
-    "slider_b_label": "[SLIDER] FORMALITY",
-    "slider_b_value": "3/5",
-    "slider_b_position_name": "▼ Professional",
-    "slider_c_label": "[SLIDER] RESPECT",
-    "slider_c_value": "3/5",
-    "slider_c_position_name": "▼ Neutral",
-    "slider_d_label": "[SLIDER] ENTHUSIASM",
-    "slider_d_value": "2/5",
-    "slider_d_position_name": "▼ Dry"
+      "coherence_reasoning": "Humor (1) + Enthusiasm (1) matches the hard rule for Territory 1 - The Clinical Authority. The voice is completely devoid of emotion or playfulness."
+    }
   },
   "marker_8": {
     "marker_name": "Visual Identity",
+    "slider_a_label": "[SLIDER] THE THERMOSTAT (Visual Temperature)",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "▼ Sterile (Hospital white, cool blue)",
+    "slider_b_label": "[SLIDER] THE ENTROPY SCALE (Layout Control)",
+    "slider_b_value": "1/5",
+    "slider_b_position_name": "▼ Swiss Grid (Rigid structure, negative space)",
     "territory_number": 1,
     "territory_name": "Pharma-Code (Sterility)",
-    "reasoning": "The visual temperature is 'Sterile' (Slider A: 1/5), dominated by hospital whites and navy blues. The layout is 'Structured' (Slider B: 2/5), using clear hierarchies, infographics, and grids to convey information. It is the visual language of the pharmacy aisle.",
-    "evidence": "Clinical, clean, and trustworthy... #FFFFFF... #002F6C... Dark blue diagonal branding bar... Infographic",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.ai_visual_analysis.visual_identity.look_and_feel + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.ai_visual_analysis.visual_identity.primary_palette.colors + PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.imageFunction",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "Cold temperature + Structured layout maps to Pharma-Code."
-    },
+    "reasoning": "The visuals are defined by a strict 'Pharma-Code' aesthetic: a stark white background, navy blue text, and medical green accents (Thermostat: 1/5). The layouts are rigid, centered, and diagrammatic—using arrows, ingredient lists, and charts to convey information with zero chaos (Entropy: 1/5).",
+    "evidence": "Clinical, clean, and trustworthy... Deep navy blue and white... Centered text block... Radial layout... Navy and white bottle design",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.ai_visual_analysis.visual_identity.look_and_feel + PRODUCT_GALLERY.visual_content_analysis[8].visual_analysis.ai_visual_analysis.visual_identity.primary_palette.description + PRODUCT_GALLERY.visual_content_analysis[8].visual_analysis.layoutStructure",
     "look_and_feel": "Minimalist, clinical, and trustworthy with a dermatologist-recommended vibe.",
     "distinctive_asset_1": "Dark blue diagonal branding bar",
-    "distinctive_asset_2": "CeraVe logo",
-    "distinctive_asset_3": "Green PM indicator circle",
-    "distinctive_asset_4": "Infographic diagrams",
-    "distinctive_asset_5": "Medical Pump Bottle",
+    "distinctive_asset_2": "Green 'PM' / 'AM' circle indicators",
+    "distinctive_asset_3": "Diagrammatic arrows and ingredient pointers",
+    "distinctive_asset_4": "White pump bottle silhouette",
+    "distinctive_asset_5": "MVE Technology chart",
     "palette_color_1": "#FFFFFF",
     "palette_color_2": "#002F6C",
-    "palette_color_3": "#32CD32",
-    "palette_color_4": "#87CEFA",
-    "palette_color_5": "#0057A4",
-    "primary_palette": "Clinical navy and white with medical green accents.",
-    "slider_a_label": "[SLIDER] THE THERMOSTAT",
-    "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Sterile",
-    "slider_b_label": "[SLIDER] THE ENTROPY SCALE",
-    "slider_b_value": "2/5",
-    "slider_b_position_name": "▼ Structured"
+    "palette_color_3": "#00B050",
+    "palette_color_4": "#002147",
+    "palette_color_5": "#000000",
+    "primary_palette": "Clinical white and deep navy blue, accented by medical green for specific product indicators.",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5 Sterile) + Slider B (1/5 Swiss Grid) match typical pattern for Territory 1 - Pharma-Code. Sterile temperature + rigid control aligns with clinical visual identity."
+    }
   },
   "marker_9": {
     "marker_name": "Messaging",
+    "slider_a_label": "[SLIDER] THE HOOK TARGET (The Subject)",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "▼ The Molecule (Chemical subject)",
+    "slider_b_label": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
+    "slider_b_value": "1/5",
+    "slider_b_position_name": "▼ Raw Data (Charts, percentages, clinically proven)",
     "territory_number": 1,
     "territory_name": "The Chemist (Intellectual)",
-    "reasoning": "The hook is consistently the component: '3 essential ceramides', 'Niacinamide', 'Hyaluronic Acid' (Slider A: 2/5). The persuasion is purely rational, relying on 'Developed with Dermatologists' and 'MVE Technology' to prove efficacy (Slider B: 2/5). It assumes the user is smart enough to want the chemistry.",
-    "evidence": "With 3 essential ceramides, niacinamide & hyaluronic acid... MVE Technology... Developed with dermatologists",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.claimsAndFeatures",
+    "reasoning": "The messaging leads with the molecule: 'Ceramides', 'Niacinamide', 'Hyaluronic Acid' are the heroes (Hook: 1/5). The persuasion is pure logic and data: 'Hydrates up to 10 surface layers', 'Continuous release', and detailed ingredient lists argue the case through mechanism, not emotion (Persuasion: 1/5).",
+    "evidence": "With 3 essential ceramides... Niacinamide... Hyaluronic Acid... Hydrates skin up to 10 surface layers deep... Continuous release of moisturizing ingredients",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.otherVisibleText",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Component hook + Rational persuasion maps to The Chemist."
-    },
-    "slider_a_label": "[SLIDER] THE HOOK TARGET",
-    "slider_a_value": "2/5",
-    "slider_a_position_name": "▼ The Component",
-    "slider_b_label": "[SLIDER] THE PERSUASION LOGIC",
-    "slider_b_value": "2/5",
-    "slider_b_position_name": "▼ Rational"
+      "coherence_reasoning": "Slider A (1/5 Molecule) + Slider B (1/5 Raw Data) match typical pattern for Territory 1 - The Chemist. Ingredient hook + rational persuasion aligns with chemist-style messaging."
+    }
   },
   "marker_10": {
     "marker_name": "Narrative",
+    "slider_a_label": "[SLIDER] THE PROTAGONIST (The Hero)",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "▼ The Nobel (Faceless PhDs, Dermatologists)",
+    "slider_b_label": "[SLIDER] THE SETTING (The Stage)",
+    "slider_b_value": "1/5",
+    "slider_b_position_name": "▼ Sterile (Test tubes, molecules, clean rooms)",
     "territory_number": 1,
     "territory_name": "The Lab Breakthrough (Intellectual)",
-    "reasoning": "The protagonist is not a founder, but a professional class: 'Dermatologists' (Slider A: 1/5). The setting is implied to be The Lab, evidenced by the emphasis on 'MVE Technology', 'formulation', and the sterile visual environment (Slider B: 1/5). Trust comes from the institution of science.",
-    "evidence": "DEVELOPED WITH DERMATOLOGISTS... MVE Technology... Continuous release... Clinically formulated",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.keySellingPoints[0]",
+    "reasoning": "The hero of this story is the 'Dermatologist'—a faceless, institutional authority mentioned on every panel (Protagonist: 1/5). The setting is implied to be a sterile lab, evidenced by the focus on 'formulation', 'technology', and 'developed with' language, absent of any nature or lifestyle context (Setting: 1/5).",
+    "evidence": "DEVELOPED WITH DERMATOLOGISTS... MVE Technology... Clinically formulated... 2021505 - INGREDIENTS",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.keySellingPoints + PRODUCT_GALLERY.visual_content_analysis[8].visual_analysis.otherVisibleText",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Scientist protagonist + Lab setting maps to Lab Breakthrough."
-    },
-    "slider_a_label": "[SLIDER] THE PROTAGONIST",
-    "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ The Nobel",
-    "slider_b_label": "[SLIDER] THE SETTING",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ Sterile"
+      "coherence_reasoning": "Slider A (1/5 Nobel) + Slider B (1/5 Sterile) match typical pattern for Territory 1 - The Lab Breakthrough. Institutional protagonist + lab setting aligns with intellectual narrative."
+    }
   },
   "marker_11": {
     "marker_name": "Key Selling Points",
+    "slider_a_label": "[SLIDER] THE VALIDATOR (Who Says It Works?)",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "▼ The Board (Dermatologist developed/recommended)",
+    "slider_b_label": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "▼ The Stat ('95% saw reduction' / Mechanism)",
     "territory_number": 1,
     "territory_name": "Derm-Validation (Expertise)",
-    "reasoning": "The primary validator is The Board/Expert: 'Developed with Dermatologists' is the central claim (Slider A: 1/5). The proof type leans towards The Graph/Stat: 'Hydrates up to 10 surface layers deep' and 'MVE Technology' diagrams (Slider B: 1/5). Authority validates efficacy.",
-    "evidence": "DEVELOPED WITH DERMATOLOGISTS... HYDRATES SKIN UP TO 10 SURFACE LAYERS DEEP... #1 Facial Moisturizer Brand",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[6].visual_analysis.claimsAndFeatures",
+    "reasoning": "Validation comes strictly from 'The Board'—the repeated 'Developed with Dermatologists' stamp (Validator: 1/5). The proof is structural and statistical: diagrams of skin barriers, mentions of '10 surface layers', and the mechanical explanation of 'MVE Technology' (Proof: 2/5).",
+    "evidence": "DEVELOPED WITH DERMATOLOGISTS... Hydrates skin up to 10 surface layers deep... MVE Technology... Skin Identical Ceramides",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.otherVisibleText",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Expert Validator + Clinical Proof maps to Derm-Validation."
-    },
-    "slider_a_label": "[SLIDER] THE VALIDATOR",
-    "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ The Board",
-    "slider_b_label": "[SLIDER] THE PROOF TYPE",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ The Graph"
+      "coherence_reasoning": "Slider A (1/5 Board) + Slider B (2/5 Stat) match typical pattern for Territory 1 - Derm-Validation. Expert validation + mechanical/stat proof aligns with expertise-led KSPs."
+    }
   },
   "marker_12": {
     "marker_name": "USP",
+    "slider_a_label": "[SLIDER] THE OWNERSHIP CLAIM (What Makes You Unique)",
+    "slider_a_value": "5/5",
+    "slider_a_position_name": "▼ The Proprietary System (Patented engineering platform)",
+    "slider_b_label": "[SLIDER] THE TARGET SCOPE (How Wide Is The Net?)",
+    "slider_b_value": "3/5",
+    "slider_b_position_name": "▼ The Category Player (General face cream, broad appeal)",
     "territory_number": 2,
     "territory_name": "The Tech Engineer (Performance)",
-    "reasoning": "While it is famous for ingredients (ceramides), the USP is anchored in a Proprietary System: 'MVE Technology' which enables the '10 surface layers' delivery (Slider A: 5/5). The scope is Mid-Market/Category Player—a general facial lotion for 'Normal to Dry Skin' (Slider B: 3/5). It is mass-market engineering.",
-    "evidence": "MVE Technology - Continuous release... Hydrates skin up to 10 surface layers deep... 3 essential ceramides",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.claimsAndFeatures",
+    "reasoning": "While ingredients are important, the true ownership claim is the delivery system: 'MVE Technology' (MultiVesicular Emulsion). This proprietary mechanism is what makes the ceramides work over time, differentiating it from generic lotions (Ownership: 5/5). The scope is broad—a daily 'Facial Moisturizing Lotion' for everyone, not a niche treatment (Scope: 3/5).",
+    "evidence": "MVE Technology - Continuous release of moisturizing ingredients all night... Facial Moisturizing Lotion... For Normal to Dry Skin",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.productNameOnPackage + PRODUCT_GALLERY.visual_content_analysis[5].visual_analysis.otherVisibleText",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Proprietary System ownership + Mid-Market scope maps to The Tech Engineer."
-    },
-    "slider_a_label": "[SLIDER] THE OWNERSHIP CLAIM",
-    "slider_a_value": "5/5",
-    "slider_a_position_name": "▼ The Proprietary System",
-    "slider_b_label": "[SLIDER] THE TARGET SCOPE",
-    "slider_b_value": "3/5",
-    "slider_b_position_name": "▼ The Category Player"
+      "coherence_reasoning": "Slider A (5/5 Proprietary System) + Slider B (3/5 Category Player) matches Territory 2 - The Tech Engineer. System ownership + broad scope aligns with engineering-led USP."
+    }
   },
   "marker_13": {
     "marker_name": "Focus",
+    "slider_a_label": "[SLIDER] THE DEPTH GAUGE (Content Purpose)",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ The Explainer (Infographics, 'How it Works')",
+    "slider_b_label": "[SLIDER] THE INTENT VECTOR (Content Goal)",
+    "slider_b_value": "1/5",
+    "slider_b_position_name": "▼ The Thesis (Clinical studies, dermatologist quotes)",
     "territory_number": 1,
     "territory_name": "Science Education (Mechanism)",
-    "reasoning": "The content is dedicated to Education: infographics explaining 'MVE Technology', ingredient breakdowns, and layer diagrams (Slider A: 2/5). The intent is Trust—building credibility through transparency rather than aggressive commerce (Slider B: 1/5).",
-    "evidence": "Infographic... Skin Identical Ceramides... MVE Technology... Continuous release... Detailed ingredient list",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.imageFunction + PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[8].visual_analysis.imageFunction",
+    "reasoning": "The content strategy is pure education. Images are dedicated to infographics explaining ingredients ('Niacinamide helps calm skin'), diagrams of '10 surface layers', and full text lists of ingredients. There is zero lifestyle inspiration; it is a thesis on how to moisturize skin (Depth: 2/5, Intent: 1/5).",
+    "evidence": "Infographic showing ingredient benefits... Hydrates skin up to 10 surface layers deep... Ingredient list text block... Diagram arrows",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.imageFunction + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[8].visual_analysis.imageFunction",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Education depth + Trust intent maps to Science Education."
-    },
-    "slider_a_label": "[SLIDER] THE DEPTH GAUGE",
-    "slider_a_value": "2/5",
-    "slider_a_position_name": "▼ The Explainer",
-    "slider_b_label": "[SLIDER] THE INTENT VECTOR",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ The Thesis"
+      "coherence_reasoning": "Slider A (2/5 Explainer) + Slider B (1/5 Thesis) match typical pattern for Territory 1 - Science Education. Educational depth + credibility intent aligns with mechanism-focused content."
+    }
   },
   "marker_14": {
     "marker_name": "Functional Benefits",
+    "slider_a_label": "[SLIDER] THE ACTION VECTOR (The Mechanism)",
+    "slider_a_value": "4/5",
+    "slider_a_position_name": "▼ The Healer (Soothes irritation/redness)",
+    "slider_b_label": "[SLIDER] THE OUTCOME TARGET (The Goal)",
+    "slider_b_value": "1/5",
+    "slider_b_position_name": "▼ Biological (pH balance, microbiome, lipid layer)",
     "territory_number": 1,
     "territory_name": "Restoration (Recovery)",
-    "reasoning": "The product is a 'Fixer' for the barrier. The claim 'Helps restore the protective skin barrier' is repeated constantly (Slider A: 4/5). The outcome is Biological—it's about lipid layers and ceramides, not just surface 'glow' (Slider B: 1/5). It repairs the machine.",
-    "evidence": "Helps restore the protective skin barrier... Hydrates skin up to 10 surface layers deep... With 3 essential ceramides",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.claimsAndFeatures",
+    "reasoning": "The product is not just maintaining moisture; it is actively 'restoring the protective skin barrier.' This is repair language (Action: 4/5). The outcome is entirely biological—strengthening the barrier and hydrating '10 surface layers deep', rather than promising visual perfection or glow (Outcome: 1/5).",
+    "evidence": "Helps restore the protective skin barrier... Hydrates skin up to 10 surface layers deep... Skin Identical Ceramides",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.otherVisibleText",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Repair/Restore action + Biological outcome maps to Restoration."
-    },
-    "slider_a_label": "[SLIDER] THE ACTION VECTOR",
-    "slider_a_value": "4/5",
-    "slider_a_position_name": "▼ The Healer",
-    "slider_b_label": "[SLIDER] THE OUTCOME TARGET",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ Biological"
+      "coherence_reasoning": "Slider A (4/5 Healer) + Slider B (1/5 Biological) match typical pattern for Territory 1 - Restoration. Repair action + biological goal aligns with barrier restoration content."
+    }
   },
   "marker_15": {
     "marker_name": "Emotional Benefits",
+    "slider_a_label": "[SLIDER] THE ANXIETY AXIS (The Emotional Direction)",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ Reassurance ('Don't worry, this works')",
+    "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS (The Audience)",
+    "slider_b_value": "1/5",
+    "slider_b_position_name": "▼ Sanctuary (I feel safe inside my own body)",
     "territory_number": 1,
     "territory_name": "Relief / Safety (Calm)",
-    "reasoning": "This is anxiety reduction. 'Fragrance Free', 'Non-comedogenic', 'Hypoallergenic' signal 'Reassurance'—you don't have to worry about a reaction (Slider A: 2/5). The benefit is Internal—'Wake up with hydrated skin' implies personal Sanctuary rather than public display (Slider B: 1/5).",
-    "evidence": "Fragrance Free... Non-comedogenic... Helps calm skin... A must-have in your nightly routine",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[7].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[4].visual_analysis.otherVisibleText",
+    "reasoning": "The emotional payoff is the absence of worry. Claims like 'Fragrance Free', 'Non-comedogenic', and 'Oil Free' signal that this product is safe and won't cause a reaction (Anxiety: 2/5). It's about feeling comfortable and secure in your own skin, specifically targeting 'nighttime' use which is a private, internal moment (Self-Perception: 1/5).",
+    "evidence": "Fragrance Free... Non-comedogenic... Oil Free... Helps calm skin... PM Nighttime Use",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[7].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[3].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.claimsAndFeatures",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Reassurance + Internal focus maps to Relief / Safety."
-    },
-    "slider_a_label": "[SLIDER] THE ANXIETY AXIS",
-    "slider_a_value": "2/5",
-    "slider_a_position_name": "▼ Reassurance",
-    "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ Sanctuary"
+      "coherence_reasoning": "Slider A (2/5 Reassurance) + Slider B (1/5 Sanctuary) match typical pattern for Territory 1 - Relief / Safety. Reassurance + internal focus aligns with safety-driven emotional content."
+    }
   },
   "marker_16": {
     "marker_name": "Self-Expression",
+    "slider_a_label": "[SLIDER] THE SIGNAL DRIVER (Purchase Motivation)",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "▼ The Tool (I buy it only because it functions)",
+    "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION (Social Position)",
+    "slider_b_value": "1/5",
+    "slider_b_position_name": "▼ The Standard (What everyone uses; the default)",
     "territory_number": 1,
     "territory_name": "The Pragmatist (Rationality)",
-    "reasoning": "Buying CeraVe is a 'Smart Choice' (Slider A: 2/5). It says 'I buy what works, not what looks pretty.' It is The Standard (Slider B: 1/5)—the #1 brand that everyone uses. The badge is one of sensible, rational consumption.",
-    "evidence": "#1 Facial Moisturizer Brand... Developed with dermatologists... 100% Recycled Plastic",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[6].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[1].visual_analysis.otherVisibleText",
+    "reasoning": "Buying CeraVe is a vote for pure utility. The bottle is plain white plastic; there is zero vanity signal (Signal: 1/5). By choosing the '#1 Facial Moisturizer Brand', the user is opting for the default standard—the rational, common-sense choice that values function over form (Tribal: 1/5).",
+    "evidence": "#1 Facial Moisturizer Brand... 3 FL OZ... Plain white bottle... Clinical aesthetic",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[6].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.textHierarchy.supporting + PRODUCT_GALLERY.visual_content_analysis[7].visual_analysis.visualDescription",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Smart Choice motivation + Standard tribal position maps to The Pragmatist."
-    },
-    "slider_a_label": "[SLIDER] THE SIGNAL DRIVER",
-    "slider_a_value": "2/5",
-    "slider_a_position_name": "▼ The Smart Choice",
-    "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ The Standard"
+      "coherence_reasoning": "Slider A (1/5 Tool) + Slider B (1/5 Standard) match typical pattern for Territory 1 - The Pragmatist. Utility driver + mass standard aligns with rational self-expression."
+    }
   },
   "marker_17": {
     "marker_name": "Social Benefits",
+    "slider_a_label": "[SLIDER] THE SOCIAL VECTOR (Social Goal)",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "▼ Normalization ('I want to look like everyone else')",
+    "slider_b_label": "[SLIDER] THE GROUP DYNAMIC (Tribal Scale)",
+    "slider_b_value": "1/5",
+    "slider_b_position_name": "▼ The Majority (What most people use)",
     "territory_number": 1,
     "territory_name": "The Safe Choice (Belonging)",
-    "reasoning": "The goal is 'Normalization' (Slider A: 1/5). By choosing the '#1 Facial Moisturizer Brand', the user is assimilating into 'The Majority' (Slider B: 1/5). It is the safe, default choice that offers protection from making a mistake.",
-    "evidence": "#1 Facial Moisturizer Brand... A must-have... trusted",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[6].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[4].visual_analysis.otherVisibleText",
+    "reasoning": "The brand explicitly claims leadership with '#1 Facial Moisturizer Brand', inviting the user to join the Majority (Group: 1/5). The social goal is Normalization—doing what 'Dermatologists' and 'The Majority' agree is correct. It is the risk-free option that signals you are a sensible, informed person.",
+    "evidence": "#1 Facial Moisturizer Brand... Developed with dermatologists... For Normal to Dry Skin",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[6].visual_analysis.claimsAndFeatures + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.otherVisibleText + PRODUCT_GALLERY.visual_content_analysis[5].visual_analysis.otherVisibleText",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Normalization + Majority dynamic maps to The Safe Choice."
-    },
-    "slider_a_label": "[SLIDER] THE SOCIAL VECTOR",
-    "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Normalization",
-    "slider_b_label": "[SLIDER] THE GROUP DYNAMIC",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ The Majority"
-  },
-  "error": "The resource you are requesting could not be found"
+      "coherence_reasoning": "Slider A (1/5 Normalization) + Slider B (1/5 Majority) match typical pattern for Territory 1 - The Safe Choice. Normalization + majority alignment aligns with safe-choice social benefits."
+    }
+  }
 }
