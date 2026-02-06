@@ -77,7 +77,10 @@
         "added": [
           "Polar portal session integration for invoice access",
           "Per-order invoice URLs via Polar Customer Portal API (web page URLs, not PDF downloads)",
-          "Persistence listener for admin button state changes"
+          "Persistence listener for admin button state changes",
+          "Changelog page at /admin/changelog with ChangelogLoader component v1.1.0",
+          "Email signup sends verification emails via Resend SMTP (100 emails/day)",
+          "Password reset flow v1.4.1 — complete end-to-end reset with session verification"
         ],
         "changed": [],
         "documentation": [],
@@ -125,7 +128,25 @@
         ],
         "added": [
           "LeaderboardDataProvider for category leaders tracking",
-          "Real-time leaderboard updates on homepage"
+          "Real-time leaderboard updates on homepage",
+          "Supabase pdp_leaderboard table with JSONB storage"
+        ],
+        "changed": [],
+        "documentation": []
+      }
+    },
+    {
+      "date": "2026-01-25",
+      "changes": {
+        "fixed": [
+          "Site restored after catastrophic architecture failure",
+          "Relative imports removed (Framer limitation)",
+          "Auth flow Web Lock Deadlock resolved"
+        ],
+        "added": [
+          "deploy-protocol.md — mandatory Framer deployment checklist",
+          "Leaderboard project initialized from eyeeye repo",
+          "n8n-alt MCP configuration"
         ],
         "changed": [],
         "documentation": []
