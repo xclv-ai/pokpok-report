@@ -1,136 +1,127 @@
 {
   "brand": "Dr.Althea",
-  "product_title": "Dr.Althea 345 Relief Cream | Daily Face Moisturizer for Soothing Recovery and Blemish Care with PDRN & Niacinamide",
+  "product_title": "Dr.Althea 345 Relief Cream | Daily Face Moisturizer for Soothing Recovery",
   "url": "https://www.amazon.com/dp/B0FKGJYFC8",
   "overall_perception_summary": {
-    "headline": "The Clinical Relief Architect",
-    "description": "Dr.Althea strips away the fluff to present skincare as a structural equation (3+4+5). It feels like a prescription from a modern, transparent apothecary—prioritizing barrier relief and blemish recovery over sensory indulgence. It acts as a rational guardian for sensitive, acne-prone skin, using rigorous data ('177% boost') to validate its efficacy."
+    "headline": "The Transparent Prescription",
+    "description": "Dr.Althea strips away marketing fluff to position itself as a 'Pro Lab' instrument for skin recovery. By decoding its formula into numbers ('345') and adopting a stark Pharma-Code aesthetic, it successfully democratizes clinical precision for the mass market. It plays the role of the Accessible Dermatologist—offering high-specificity post-acne care without the velvet rope of a prescription."
   },
   "category_summaries": {
     "foundation": {
-      "title": "The Safe Restoration",
-      "description": "The brand acts as The Healer, treating skin sensitivity as a condition to be fixed rather than a baseline to be pampered. Anchored in Safety First values, it prioritizes 'relief' and 'hypoallergenic' tolerance over aggressive potency. It occupies The Medical Authority slot, using stark clinical codes to frame a daily moisturizer as a recovery tool."
+      "title": "The Clinical Democratizer",
+      "description": "The brand grounds its authority in a 'Pro Lab' identity, balancing potent repair ingredients with a Safety First value system. It targets specific pathology (blemishes, post-acne) but distributes it with democratic access (Rank #7, $22). The payoff is professional-grade restoration that feels like a daily essential rather than a luxury splurge."
     },
     "identity": {
-      "title": "The Precise Professional",
-      "description": "There is zero ambiguity here; the personality is The Reliable Expert—distant, competent, and highly structured. Dominated by The Sage archetype (60%), it uses truth and transparency (the '345' ingredient count) as its primary currency. The visual code is Pharma-Code: stark black-on-white typography that signals 'Pro Lab' sterility."
+      "title": "The Analytic Sage",
+      "description": "The personality is distant and expert, operating from The Reliable Expert territory. Dominant Sage energy (60%) drives a narrative of truth and structure, reinforced by a sterile Pharma-Code visual identity. The tone is The Clinical Authority—dry, factual, and devoid of humor."
     },
     "communication": {
-      "title": "The Rational Chemist",
-      "description": "Messaging uses The Chemist territory, hooking users with specific ingredients (PDRN, Niacinamide) and validating with 'Korea Institute' data. The Narrative is a Lab Breakthrough, citing clinical tests and 'Pro Lab' origins. It focuses purely on Science Education, using infographics and ingredient breakdowns to prove efficacy."
+      "title": "Evidence-Based Education",
+      "description": "Messaging hooks the user with components ('PDRN', 'Niacinamide') and persuades via rational data ('177% boost'). The narrative is a Lab Breakthrough story, emphasizing mechanism over romance. It focuses on Science Education, using the PDP to teach the '345' formula structure rather than to inspire desire."
     },
     "benefits": {
-      "title": "Calm Recovery",
-      "description": "Functionally, it offers Restoration for compromised barriers, soothing redness and repairing blemishes. This delivers Emotional Relief, removing the anxiety of reactions for sensitive skin users. Socially, it functions as The Safe Choice—a rational, highly-rated purchase that signals prudence over status."
+      "title": "Restorative Safety",
+      "description": "Functionally, it is a Restoration engine, designed to fix barrier damage and soothe irritation. Emotionally, it provides Relief and Safety from skin anxiety. Socially, it serves as The Safe Choice—a pragmatic, highly-validated purchase that signals intelligence and immunity to hype."
     }
   },
   "quick_labels": {
     "brand_voice": "Clinical Precision",
-    "visual_appeal": "Minimalist Pharma",
-    "value_prop": "Targeted Relief",
-    "positioning": "Pro-Lab Recovery"
+    "visual_appeal": "Sterile Minimalist",
+    "value_prop": "Accessible Science",
+    "positioning": "Post-Acne Specialist"
   },
   "marker_1": {
     "marker_name": "Purpose",
-    "territory_number": 1,
-    "territory_name": "The Healer (Clinical Correction)",
-    "reasoning": "The product is explicitly named 'Relief Cream' and targets 'Blemish Care' and 'Soothing Recovery.' The origin of authority is 'Pro Lab' and 'Korea Institute of Dermatological Sciences' (Slider A: 2/5 Derm-Validated). The mission is to remove a negative—redness, blemishes, sensitivity (Slider B: 1/5 Pathology Cure). It treats the skin condition, not just the aesthetic.",
-    "evidence": "345 Relief Cream... Soothing Recovery... Blemish Care... Korea Institute of Dermatological Sciences... red blemishes",
-    "evidence_src": "BASE_CONTENT.product_title + BASE_CONTENT.about_this_item[2] + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.icons_on_image",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "Sliders (Clinical + Fixing) map directly to Territory 1. The full PDP content is laser-focused on 'relief' and 'recovery'."
-    },
     "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
     "slider_a_value": "2/5",
     "slider_a_position_name": "▼ Derm-Validated (White coat authority)",
     "slider_b_label": "[SLIDER] MISSION VECTOR (The Goal)",
     "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ Pathology Cure (Treating disease/symptoms)"
+    "slider_b_position_name": "▼ Pathology Cure (Treating disease/symptoms)",
+    "territory_number": 1,
+    "territory_name": "The Healer (Clinical Correction)",
+    "reasoning": "The brand name 'Dr.Althea' and 'Pro Lab' branding anchor authority in the clinic, supported by 'Korea Institute of Dermatological Sciences' seals (Origin: 2/5 Derm-Validated). The mission is explicitly corrective—targeting 'Blemish Care', 'Post-acne', and 'Recovery' rather than general enhancement (Mission: 1/5 Pathology Cure). It exists to fix a problem.",
+    "evidence": "3 BLEMISH RELIEF INGREDIENTS... Soothing Recovery... Post-acne skincare routine... Korea Institute of Dermatological Sciences",
+    "evidence_src": "BASE_CONTENT.product_title + BASE_CONTENT.about_this_item[0] + BASE_CONTENT.about_this_item[3] + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.visual_analysis_raw.icons_on_image[1].text",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5) + Slider B (1/5) match the grid for Territory 1 (The Healer). The content consistently emphasizes clinical validation and corrective action."
+    }
   },
   "marker_2": {
     "marker_name": "Mission & Vision",
-    "territory_number": 1,
-    "territory_name": "The Democratizers (Accessible Skin Health)",
-    "reasoning": "The brand brings 'Pro Lab' science to a mass audience (Rank #7 in Face Moisturizers). The scope is specific individual skin health ('reduce dark spots', 'restore dull skin') rather than a global crusade (Slider A: 1/5 Micro-Correction). The access is democratic ($22.95, widely available, 'Daily Face Moisturizer'), making clinical care approachable (Slider B: 5/5 Democratic).",
-    "evidence": "Daily Face Moisturizer... Best Sellers Rank: #7... 3 Blemish Relief Ingredients... 345 Relief Cream",
-    "evidence_src": "BASE_CONTENT.product_title + BASE_CONTENT.product_details + BASE_CONTENT.about_this_item[0]",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "Micro-correction scope combined with high accessibility fits The Democratizers perfectly. It brings clinical specificity to the mass market."
-    },
     "slider_a_label": "[SLIDER] SCOPE OF IMPACT (The Blast Radius)",
-    "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Micro-Correction (Fixing specific pathologies)",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ Optimization (General appearance/glow)",
     "slider_b_label": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
     "slider_b_value": "5/5",
-    "slider_b_position_name": "▼ Democratic (Universal access for everyone)"
+    "slider_b_position_name": "▼ Democratic (Universal access for everyone)",
+    "territory_number": 1,
+    "territory_name": "The Democratizers (Accessible Skin Health)",
+    "reasoning": "While the packaging looks premium/medical, the market position is radically democratic. Being the #7 Face Moisturizer with 11k+ reviews and a $22 price point indicates mass accessibility (Access: 5/5 Democratic). The scope is focused on optimizing skin health ('achieving clearer and more radiant skin') rather than a global crusade (Scope: 2/5 Optimization).",
+    "evidence": "#7 in Face Moisturizers... 11,804 global ratings... $22.95... Daily Face Moisturizer",
+    "evidence_src": "BASE_CONTENT.product_details + BASE_CONTENT.review_count + BASE_CONTENT.price + BASE_CONTENT.product_title",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5) + Slider B (5/5) match Territory 1. High accessibility combined with skin-focused scope defines The Democratizer."
+    }
   },
   "marker_3": {
     "marker_name": "Values",
-    "territory_number": 1,
-    "territory_name": "Safety First",
-    "reasoning": "While transparency is high (listing ingredient counts), the primary trade-off prioritizes safety and soothing for compromised skin. Claims like 'Hypoallergenic,' 'Skin Irritation Tested,' and 'free from artificial coloring' dominate (Slider A: 1/5 Hypoallergenic). Transparency is present via the '345' concept, but it serves to prove the safety/gentleness (Slider B: 2/5 Evidence-First).",
-    "evidence": "Care for sensitive skin... Skin Irritation Tested... free from artificial coloring, fragrance, and parabens... safe and gentle for acne-prone skin",
-    "evidence_src": "BASE_CONTENT.about_this_item[2] + BASE_CONTENT.about_this_item[4] + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.icons_on_image",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "High focus on 'safe,' 'gentle,' and 'free-from' places this in Safety First, even with the high data density."
-    },
     "slider_a_label": "[SLIDER] PERFORMANCE PRIORITY (The Trade-Off)",
-    "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Hypoallergenic",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ Gentle (Effective but comfortable)",
     "slider_b_label": "[SLIDER] INFORMATION DENSITY (The Transparency)",
     "slider_b_value": "2/5",
-    "slider_b_position_name": "▼ Evidence-First"
+    "slider_b_position_name": "▼ Evidence-First (Charts, diagrams, studies)",
+    "territory_number": 1,
+    "territory_name": "Safety First (Do No Harm)",
+    "reasoning": "Despite listing potent ingredients, the overriding priority is safety and tolerance ('Relief', 'Soothing', 'Non-comedogenic', 'Hypoallergenic'). The '345' concept structurally emphasizes 5 soothing ingredients over 3 blemish ones (Performance: 2/5 Gentle). Transparency is high, with full lists and clinical seals visible (Transparency: 2/5 Evidence-First).",
+    "evidence": "345 Relief Cream... Care for sensitive skin... Clinically tested as non-comedogenic... free from artificial coloring",
+    "evidence_src": "BASE_CONTENT.product_title + BASE_CONTENT.about_this_item[2] + BASE_CONTENT.about_this_item[3] + BASE_CONTENT.about_this_item[4]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5) + Slider B (2/5) maps to Territory 1 (Safety First). The content balances clinical data with a heavy emphasis on safety and relief."
+    }
   },
   "marker_4": {
     "marker_name": "Positioning",
-    "territory_number": 1,
-    "territory_name": "The Medical Authority (The Pharmacy)",
-    "reasoning": "The aesthetic is stark, clinical, and sterile—black text on white tubes, 'Pro Lab' branding, and grid layouts (Slider A: 1/5 Clinical Sterile). The positioning is utilitarian and essential ('Daily Face Moisturizer', 'Travel Size') rather than prestigious or luxury (Slider B: 2/5 Daily Essential). It looks and behaves like a pharmacy prescription.",
-    "evidence": "Pro Lab... Stark black-on-white typography... Daily Face Moisturizer... 345 Relief Cream... Clinical Trial Completed",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis_interpreted.visual_look_and_feel + PRODUCT_GALLERY.visual_content_analysis[6].visual_analysis.visual_analysis_raw.visible_text",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "Sterile visuals + essential utility positioning solidly map to Territory 1. The 'Pro Lab' branding is the clincher."
-    },
     "slider_a_label": "[SLIDER] AESTHETIC VIBE (The Uniform)",
     "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Clinical Sterile",
+    "slider_a_position_name": "▼ Clinical Sterile (Zero emotion. Pure white/blue)",
     "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Status Signal)",
     "slider_b_value": "2/5",
-    "slider_b_position_name": "▼ Daily Essential"
+    "slider_b_position_name": "▼ Daily Essential (Reliable staple)",
+    "territory_number": 1,
+    "territory_name": "The Medical Authority (The Pharmacy)",
+    "reasoning": "The visual code is stark white, black typography, and grid layouts, deliberately stripping away emotion to look like a prescription (Aesthetic: 1/5 Sterile). The framing as a 'Daily Face Moisturizer' at a mid-range price point positions it as a high-functioning essential rather than a luxury object (Value: 2/5 Daily Essential).",
+    "evidence": "Daily Face Moisturizer... Pro Lab... White squeeze tube... Typographic-heavy packaging",
+    "evidence_src": "BASE_CONTENT.product_title + PRODUCT_GALLERY.visual_content_analysis[7].visual_analysis.visual_analysis_raw.visible_text[0] + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.visual_look_and_feel",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5) + Slider B (2/5) matches Territory 1. The clinical aesthetic combined with utility positioning creates The Medical Authority."
+    }
   },
   "marker_5": {
     "marker_name": "Personality",
-    "territory_number": 3,
-    "territory_name": "The Reliable Expert (Competence)",
-    "reasoning": "The brand voice is distant and professional. There are no jokes, no slang, and no emotive warmth. It speaks in facts: 'This cream contains...', 'Clinically tested...' (Slider A: 2/5 Distant). It positions itself as an unquestionable authority via 'Pro Lab' and 'Korea Institute' citations (Slider B: 4/5 The Specialist).",
-    "evidence": "Why Choose Dr.Althea... Korea Institute of Dermatological Sciences... Clinically tested... 3 Blemish Relief Ingredients",
-    "evidence_src": "BASE_CONTENT.about_this_item[4] + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.icons_on_image + BASE_CONTENT.about_this_item[0]",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "Low warmth + high authority leads directly to The Reliable Expert. The tone is purely informational and credentialed."
-    },
     "slider_a_label": "[SLIDER] WARMTH (The Thermostat)",
     "slider_a_value": "2/5",
     "slider_a_position_name": "▼ Distant (Professional, polite, but emotionally flat)",
     "slider_b_label": "[SLIDER] COMPETENCE / AUTHORITY (The Power Dynamic)",
     "slider_b_value": "4/5",
-    "slider_b_position_name": "▼ The Specialist (Highly educated)"
+    "slider_b_position_name": "▼ The Specialist (Highly educated)",
+    "territory_number": 3,
+    "territory_name": "The Reliable Expert (Competence)",
+    "reasoning": "The brand speaks with the cool detachment of a clinician. There are no exclamation marks or slang. It uses structured lists ('3 Blemish...', '4 Nourishing...') and medical terms ('PDRN', 'Madecassoside') to establish high competence (Authority: 4/5). It is helpful but not 'warm' (Warmth: 2/5).",
+    "evidence": "3 BLEMISH RELIEF INGREDIENTS... 4 NOURISHING INGREDIENTS... 5 SOOTHING INGREDIENTS... Clinically tested",
+    "evidence_src": "BASE_CONTENT.about_this_item[0] + BASE_CONTENT.about_this_item[1] + BASE_CONTENT.about_this_item[2] + BASE_CONTENT.about_this_item[3]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5) + Slider B (4/5) matches Territory 3 (The Reliable Expert). High authority and low-mid warmth define this territory."
+    }
   },
   "marker_6": {
     "marker_name": "Archetypes Mix",
-    "territory_number": 3,
-    "territory_name": "The Philosopher (Independence × Stability)",
-    "reasoning": "The primary archetype is The Sage (60%) because the entire brand concept ('345') is based on categorization, explanation, and logic. It seeks to reveal the truth of the formula. The Caregiver (30%) is the secondary driver, providing the 'Relief' and 'Soothing' promise. A dash of The Creator (10%) appears in the structured, 'Pro Lab' system design. The mix lands in The Philosopher territory—driven by clarity and principles.",
-    "evidence": "3 Blemish Relief Ingredients... 4 Nourishing Ingredients... 5 Soothing Ingredients... Pro Lab... Why Choose Dr.Althea",
-    "evidence_src": "BASE_CONTENT.about_this_item[0] + PRODUCT_GALLERY.visual_content_analysis[6].visual_analysis_raw.visible_text",
-    "evaluation_check": {
-      "coherence_status": "not_applicable",
-      "coherence_reasoning": "Archetype mix analysis."
-    },
     "primary": {
       "archetype": "The Sage",
       "group": "B (Independence)",
@@ -139,228 +130,237 @@
     "secondary": {
       "archetype": "The Caregiver",
       "group": "A (Stability)",
-      "percentage": "30%"
+      "percentage": "25%"
     },
     "tertiary": {
-      "archetype": "The Creator",
-      "group": "A (Stability)",
-      "percentage": "10%"
+      "archetype": "The Hero",
+      "group": "C (Mastery)",
+      "percentage": "15%"
+    },
+    "territory_number": 3,
+    "territory_name": "The Philosopher (Independence × Stability)",
+    "reasoning": "The dominant energy is The Sage (60%), driven by the intellectual '345' framework that explains the formula's logic. This is supported by The Caregiver (25%) via the 'Relief' and 'Safety' promises. A dash of The Hero (15%) appears in the 'Recovery' and 'Blemish Care' efficacy claims. The overall mix creates The Philosopher territory: principled, clear, and disciplined.",
+    "evidence": "3 BLEMISH RELIEF... 4 NOURISHING... 5 SOOTHING... Pro Lab... Relief Cream... Soothing Recovery",
+    "evidence_src": "BASE_CONTENT.about_this_item[0] + PRODUCT_GALLERY.visual_content_analysis[7].visual_analysis.visual_analysis_raw.visible_text[0] + BASE_CONTENT.product_title",
+    "evaluation_check": {
+      "coherence_status": "not_applicable",
+      "coherence_reasoning": "Archetype mix uses percentage dominance, not grid lookup."
     }
   },
   "marker_7": {
     "marker_name": "Tone of Voice",
-    "territory_number": 1,
-    "territory_name": "The Clinical Authority (Academic & Dry)",
-    "reasoning": "The voice is grave and serious (Humor 1/5), highly professional (Formality 3/5), and matter-of-fact (Enthusiasm 2/5). It relies on structure and data points rather than emotion to persuade. It sounds like a lab report or a prescription label.",
-    "evidence": "3 Blemish Relief Ingredients... 4 Nourishing Ingredients... Clinically tested as non-comedogenic... Suitability for Acne-prone Skin",
-    "evidence_src": "BASE_CONTENT.about_this_item[0] + BASE_CONTENT.about_this_item[3] + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.icons_on_image",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "Matches hard rule for Clinical Authority: Humor <= 2, Enthusiasm <= 2, Formality >= 2."
-    },
     "slider_a_label": "[SLIDER] HUMOR (The Sense of Humor)",
     "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Grave",
+    "slider_a_position_name": "▼ Grave (Solemn, warning-like tone)",
     "slider_b_label": "[SLIDER] FORMALITY (The Dress Code)",
     "slider_b_value": "3/5",
-    "slider_b_position_name": "▼ Professional",
+    "slider_b_position_name": "▼ Professional (Clean, standard, neutral)",
     "slider_c_label": "[SLIDER] RESPECT (The Power Dynamic)",
     "slider_c_value": "3/5",
-    "slider_c_position_name": "▼ Neutral",
+    "slider_c_position_name": "▼ Neutral (Direct, matter-of-fact)",
     "slider_d_label": "[SLIDER] ENTHUSIASM (The Energy Level)",
     "slider_d_value": "2/5",
-    "slider_d_position_name": "▼ Dry"
+    "slider_d_position_name": "▼ Dry (Just the facts, concise)",
+    "territory_number": 1,
+    "territory_name": "The Clinical Authority (Academic & Dry)",
+    "reasoning": "The voice is purely informational. It communicates in lists and functional claims without any attempt at entertainment or emotion. Humor is non-existent (1/5), and enthusiasm is restrained to clinical facts (2/5). This maps perfectly to Territory 1.",
+    "evidence": "This cream contains a potent blend... Clinically tested as non-comedogenic... The multi-layered cream structure",
+    "evidence_src": "BASE_CONTENT.about_this_item[0] + BASE_CONTENT.about_this_item[3] + BASE_CONTENT.about_this_item[1]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Low Humor (1) + Low Enthusiasm (2) + Professional Formality (3) meets the hard rule for Territory 1 (Clinical Authority)."
+    }
   },
   "marker_8": {
     "marker_name": "Visual Identity",
-    "territory_number": 1,
-    "territory_name": "Pharma-Code (Sterility)",
-    "reasoning": "The visual world is defined by 'Stark black-on-white typography' and 'Pro Lab' aesthetics. The temperature is cool and sterile (Slider A: 1/5). The layout is rigid, utilizing grids and stacked information to convey control and precision (Slider B: 2/5 Structured). This is the look of the laboratory.",
-    "evidence": "Stark black-on-white typography... Pro Lab... minimalist white squeeze tube... scientific glassware imagery",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis_interpreted.visual_look_and_feel + PRODUCT_GALLERY.visual_content_analysis[6].visual_analysis_interpreted.distinctive_visual_assets",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "Sterile temperature + Structured layout maps perfectly to Pharma-Code."
-    },
     "slider_a_label": "[SLIDER] THE THERMOSTAT (Visual Temperature)",
     "slider_a_value": "1/5",
     "slider_a_position_name": "▼ Sterile (Hospital white, cool blue)",
     "slider_b_label": "[SLIDER] THE ENTROPY SCALE (Layout Control)",
     "slider_b_value": "2/5",
     "slider_b_position_name": "▼ Structured (Orderly, predictable hierarchy)",
-    "look_and_feel": "A stark, minimalist clinical aesthetic that uses grid layouts and dense typography to mimic a medical dossier.",
-    "distinctive_asset_1": "Large-scale numerical identifier '345'",
-    "distinctive_asset_2": "Pro Lab brand sub-label",
-    "distinctive_asset_3": "Vertical ingredient list on front-of-pack",
-    "distinctive_asset_4": "Clinical certification seals",
-    "distinctive_asset_5": "Monochrome black-on-white typography",
+    "territory_number": 1,
+    "territory_name": "Pharma-Code (Sterility)",
+    "reasoning": "The visual strategy is 'Pro Lab' sterility. The dominant color is white (#FFFFFF) with black text. Images are structured grids or clean packshots. There is no chaos, no sensory warmth—just data visualization and packaging that looks like a medical chart (Temp: 1/5, Entropy: 2/5).",
+    "evidence": "Stark black-on-white typography... clinical, pharmaceutical... Pro Lab... Grid layout",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis.visual_analysis_interpreted.color_mood + PRODUCT_GALLERY.visual_content_analysis[7].visual_analysis.image_composition.layout_type",
+    "look_and_feel": "A stark, information-dense aesthetic that mimics pharmaceutical packaging with high-contrast typography and sterile white space.",
+    "distinctive_asset_1": "Numerical identifier '345' in large serif font",
+    "distinctive_asset_2": "'Pro Lab' sub-brand logo",
+    "distinctive_asset_3": "Dense ingredient list on front packaging",
+    "distinctive_asset_4": "Clinical certification seals (circles with checkmarks)",
+    "distinctive_asset_5": "Sterile white tube with black typography",
     "palette_color_1": "#FFFFFF",
     "palette_color_2": "#000000",
-    "palette_color_3": "#E6E6E6",
-    "palette_color_4": "#285430",
-    "palette_color_5": "#FFF7A3",
-    "primary_palette": "High-contrast clinical white and black with accents of medical green and pale yellow."
+    "palette_color_3": "#E8EDE1",
+    "palette_color_4": "#A5B872",
+    "palette_color_5": "#DEE9C6",
+    "primary_palette": "Clinical monochrome (Black/White) with accent touches of pale medicinal green.",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5) + Slider B (2/5) maps directly to Territory 1 (Pharma-Code)."
+    }
   },
   "marker_9": {
     "marker_name": "Messaging",
-    "territory_number": 1,
-    "territory_name": "The Chemist (Intellectual)",
-    "reasoning": "The hook targets the components: '3 Blemish Relief Ingredients', 'PDRN', 'Niacinamide'. It sells the molecule (Slider A: 2/5 Component). The persuasion is rooted in raw data and testing: 'Clinically tested', '177% immediate boost' (Slider B: 1/5 Raw Data). It assumes the user wants to know the mechanics.",
-    "evidence": "PDRN & Niacinamide... 3 Blemish Relief Ingredients... 177% immediate boost... Clinically tested",
-    "evidence_src": "BASE_CONTENT.product_title + BASE_CONTENT.about_this_item[0] + PRODUCT_GALLERY.visual_content_analysis[4].visual_analysis_interpreted.key_selling_points",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "Component hook + Raw Data persuasion aligns with The Chemist territory."
-    },
     "slider_a_label": "[SLIDER] THE HOOK TARGET (The Subject)",
     "slider_a_value": "2/5",
     "slider_a_position_name": "▼ The Component (Natural/tangible subject)",
     "slider_b_label": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ Raw Data (Charts, percentages, clinically proven)"
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "▼ Rational (Logical cause-and-effect)",
+    "territory_number": 1,
+    "territory_name": "The Chemist (Intellectual)",
+    "reasoning": "The hook is the component list: '345' stands for the ingredients themselves (Niacinamide, PDRN, Tea Tree). The persuasion is rational cause-and-effect: 'This cream contains X... to help reduce Y.' It sells the noun (ingredients) via logic.",
+    "evidence": "3 BLEMISH RELIEF INGREDIENTS... PDRN & Niacinamide... 177% immediate boost in skin hydration",
+    "evidence_src": "BASE_CONTENT.about_this_item[0] + BASE_CONTENT.product_title + PRODUCT_GALLERY.visual_content_analysis[5].visual_analysis.visual_analysis_interpreted.key_selling_points[0]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5) + Slider B (2/5) matches Territory 1 (The Chemist). Ingredient focus + rational logic defines this territory."
+    }
   },
   "marker_10": {
     "marker_name": "Narrative",
-    "territory_number": 1,
-    "territory_name": "The Lab Breakthrough (Intellectual)",
-    "reasoning": "There is no founder story visible. The protagonist is the institution: 'Korea Institute of Dermatological Sciences' and the 'Pro Lab' (Slider A: 1/5 Nobel). The setting is explicitly the lab, referenced by 'Pro Lab' branding and 'Clinical Trial Completed' seals (Slider B: 1/5 Sterile). It creates trust through institutional rigor.",
-    "evidence": "Korea Institute of Dermatological Sciences... Pro Lab... Clinical Trial Completed... Clinically tested",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.icons_on_image + PRODUCT_GALLERY.visual_content_analysis[6].visual_analysis_raw.visible_text",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "Institutional protagonist + Lab setting maps to The Lab Breakthrough."
-    },
     "slider_a_label": "[SLIDER] THE PROTAGONIST (Who Solved It)",
     "slider_a_value": "1/5",
     "slider_a_position_name": "▼ The Nobel (Faceless PhDs, dermatologists)",
     "slider_b_label": "[SLIDER] THE SETTING (Where It Happened)",
     "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ Sterile (Test tubes, molecules, clean rooms)"
+    "slider_b_position_name": "▼ Sterile (Test tubes, molecules, clean rooms)",
+    "territory_number": 1,
+    "territory_name": "The Lab Breakthrough (Intellectual)",
+    "reasoning": "The protagonist is 'Dr.Althea' (a construct of authority) and the 'Korea Institute of Dermatological Sciences.' The setting is the 'Pro Lab'—illustrated by glassware graphics and molecular diagrams. It is a story of institutional science, not personal struggle or nature.",
+    "evidence": "Dr.Althea... Korea Institute of Dermatological Sciences... Pro Lab... Scientific glassware imagery",
+    "evidence_src": "BASE_CONTENT.product_title + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.visual_analysis_raw.icons_on_image[1].text + PRODUCT_GALLERY.visual_content_analysis[7].visual_analysis.visual_analysis_interpreted.distinctive_visual_assets[4] + PRODUCT_GALLERY.visual_content_analysis[7].visual_analysis.visual_analysis_interpreted.distinctive_visual_assets[2]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5) + Slider B (1/5) matches Territory 1 (The Lab Breakthrough)."
+    }
   },
   "marker_11": {
     "marker_name": "Key Selling Points",
-    "territory_number": 1,
-    "territory_name": "Derm-Validation (Expertise)",
-    "reasoning": "The primary validator is the 'Korea Institute' and the claim 'Dermatologist tested' (Slider A: 1/5 The Board). The proof is presented as data points ('177% boost') and clinical seals (Slider B: 2/5 The Stat). Even though reviews are high, the PDP prioritizes institutional certification as the primary truth.",
-    "evidence": "Korea Institute of Dermatological Sciences... Suitability for Acne-prone Skin... 177% immediate boost",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.icons_on_image + PRODUCT_GALLERY.visual_content_analysis[4].visual_analysis_interpreted.key_selling_points",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "Expert validation + Statistical proof maps to Derm-Validation."
-    },
     "slider_a_label": "[SLIDER] THE VALIDATOR (Who Says It Works?)",
     "slider_a_value": "1/5",
     "slider_a_position_name": "▼ The Board (Dermatologist developed/recommended)",
     "slider_b_label": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
     "slider_b_value": "2/5",
-    "slider_b_position_name": "▼ The Stat ('95% saw reduction in acne')"
+    "slider_b_position_name": "▼ The Stat ('95% saw reduction in acne')",
+    "territory_number": 1,
+    "territory_name": "Derm-Validation (Expertise)",
+    "reasoning": "Validation comes from 'The Board'—specifically the Korea Institute of Dermatological Sciences. Proof is presented as stats ('177% boost') and clinical test completions ('Skin Irritation Tested'). The authority is institutional and numerical.",
+    "evidence": "Korea Institute of Dermatological Sciences... 177% immediate boost... Clinical trial completed",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.visual_analysis_raw.icons_on_image[1].text + PRODUCT_GALLERY.visual_content_analysis[5].visual_analysis.visual_analysis_interpreted.key_selling_points[0] + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.visual_analysis_raw.icons_on_image[2].text",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5) + Slider B (2/5) maps to Territory 1 (Derm-Validation)."
+    }
   },
   "marker_12": {
     "marker_name": "USP",
-    "territory_number": 4,
-    "territory_name": "The Specialist (Diagnosis)",
-    "reasoning": "The '345' framework is a proprietary system/complex (Slider A: 3/5 Signature Complex). The scope is highly targeted: it is specifically for 'Acne-prone skin,' 'Red blemishes,' and 'Soothing Recovery' (Slider B: 4/5 Problem Solver). It distinguishes itself by being the specialist for compromised skin barriers.",
-    "evidence": "345 Relief Cream... Suitability for Acne-prone Skin... Blemish Care... Red blemishes",
-    "evidence_src": "BASE_CONTENT.product_title + BASE_CONTENT.about_this_item[2] + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.icons_on_image",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "Signature Complex ownership (345 system) + Specialist scope (acne/blemish) maps to Territory 4 - The Specialist."
-    },
     "slider_a_label": "[SLIDER] THE OWNERSHIP CLAIM (What Makes You Unique)",
     "slider_a_value": "3/5",
     "slider_a_position_name": "▼ The Signature Complex (Trademarked ingredient blend)",
     "slider_b_label": "[SLIDER] THE TARGET SCOPE (Market Breadth)",
     "slider_b_value": "4/5",
-    "slider_b_position_name": "▼ The Problem Solver (Targets specific skin concern)"
+    "slider_b_position_name": "▼ The Problem Solver (Targets specific skin concern)",
+    "territory_number": 4,
+    "territory_name": "The Specialist (Diagnosis)",
+    "reasoning": "The brand attempts to own the '345' framework as a signature complex concept (Ownership: 3/5). However, the market scope is highly specific: it is a 'Relief Cream' for 'Post-acne' and 'Blemish Care.' It doesn't sell itself as a general moisturizer, but as a specialist tool for a specific condition (Scope: 4/5).",
+    "evidence": "345 Relief Cream... Post-acne skincare routine... Blemish Care... Suitability for Acne-prone Skin",
+    "evidence_src": "BASE_CONTENT.product_title + BASE_CONTENT.about_this_item[3] + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.visual_analysis_raw.icons_on_image[1].text",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (3/5) + Slider B (4/5) maps to Territory 4 (The Specialist). The proprietary concept + niche problem focus defines this."
+    }
   },
   "marker_13": {
     "marker_name": "Focus",
-    "territory_number": 1,
-    "territory_name": "Science Education (Mechanism)",
-    "reasoning": "The PDP allocates significant space to 'Ingredient Focus' graphics, clinical seals, and numbered lists explaining the formula (Slider A: 2/5 The Explainer). The intent is to prove the product's safety and efficacy through 'Clinical Trial Completed' evidence rather than lifestyle vibes (Slider B: 1/5 The Thesis).",
-    "evidence": "Ingredient Focus... Clinical Trial Completed... 3 Blemish Relief Ingredients... Pro Lab",
-    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[5].visual_analysis.image_function + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.icons_on_image",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "Education depth + Trust intent maps to Science Education."
-    },
     "slider_a_label": "[SLIDER] THE DEPTH GAUGE (Content Purpose)",
     "slider_a_value": "2/5",
     "slider_a_position_name": "▼ The Explainer (Infographics, 'How it Works')",
     "slider_b_label": "[SLIDER] THE INTENT VECTOR (Content Goal)",
     "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ The Thesis (Clinical studies, dermatologist quotes)"
+    "slider_b_position_name": "▼ The Thesis (Clinical studies, dermatologist quotes)",
+    "territory_number": 1,
+    "territory_name": "Science Education (Mechanism)",
+    "reasoning": "The PDP allocates maximum space to explaining the formula structure ('345') and providing clinical validation (charts, seals, '177%'). It is an educational thesis on why this specific combination of ingredients works for acne repair.",
+    "evidence": "Infographic... Ingredient Focus... Clinical trial completed... 177% immediate boost",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[4].visual_analysis.image_function + PRODUCT_GALLERY.visual_content_analysis[6].visual_analysis.image_function + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis.visual_analysis_raw.icons_on_image[2].text",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5) + Slider B (1/5) matches Territory 1 (Science Education)."
+    }
   },
   "marker_14": {
     "marker_name": "Functional Benefits",
-    "territory_number": 1,
-    "territory_name": "Restoration (Recovery)",
-    "reasoning": "The functional goal is to 'Soothe,' 'Restore,' and provide 'Relief' to compromised skin (Slider A: 4/5 The Healer). The outcome is Biological Health—treating 'red blemishes' and 'sensitive skin' rather than cosmetic perfection (Slider B: 2/5 Sensory/Health). It is about returning the skin to a healthy baseline.",
-    "evidence": "Soothing Recovery... Restore dull skin... Red blemishes... Care for sensitive skin",
-    "evidence_src": "BASE_CONTENT.product_title + BASE_CONTENT.about_this_item[1] + BASE_CONTENT.about_this_item[2]",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "Healer action + Health/Sensory outcome maps to Restoration."
-    },
     "slider_a_label": "[SLIDER] THE ACTION VECTOR (The Mechanism)",
     "slider_a_value": "4/5",
     "slider_a_position_name": "▼ The Healer (Soothes irritation/redness)",
     "slider_b_label": "[SLIDER] THE OUTCOME TARGET (The Goal)",
     "slider_b_value": "2/5",
-    "slider_b_position_name": "▼ Sensory (Softness, relief from tightness)"
+    "slider_b_position_name": "▼ Sensory (Softness, relief from tightness)",
+    "territory_number": 1,
+    "territory_name": "Restoration (Recovery)",
+    "reasoning": "The product's core action is 'Recovery' and 'Relief'—healing the damage of acne (Action: 4/5). The outcome is balanced between health and sensory relief ('Soothing', 'Calming'), aiming to return skin to a healthy baseline rather than aesthetic perfection (Outcome: 2/5).",
+    "evidence": "Soothing Recovery... Blemish Care... Restore dull skin... Calming ingredients",
+    "evidence_src": "BASE_CONTENT.product_title + BASE_CONTENT.about_this_item[1] + BASE_CONTENT.about_this_item[2]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (4/5) + Slider B (2/5) maps to Territory 1 (Restoration)."
+    }
   },
   "marker_15": {
     "marker_name": "Emotional Benefits",
-    "territory_number": 1,
-    "territory_name": "Relief / Safety (Calm)",
-    "reasoning": "The emotional promise is the removal of pain and worry. Terms like 'Relief,' 'Soothing,' 'Calming,' and 'Safe' target a user in a state of anxiety about their skin condition (Slider A: 1/5 Panic/Relief). The perception is internal—feeling 'comfortable' and 'safe' in one's skin, not showing off (Slider B: 1/5 Sanctuary).",
-    "evidence": "Relief Cream... Calming ingredients... Safe and gentle... Soothe your skin",
-    "evidence_src": "BASE_CONTENT.product_title + BASE_CONTENT.about_this_item[2] + BASE_CONTENT.about_this_item[3]",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "Relief anxiety + Internal perception maps to Relief / Safety."
-    },
     "slider_a_label": "[SLIDER] THE ANXIETY AXIS (The Emotional Direction)",
     "slider_a_value": "1/5",
     "slider_a_position_name": "▼ Panic Mode (Urgent need to stop pain/itch)",
     "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS (The Audience)",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ Sanctuary (I feel safe inside my own body)"
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "▼ Comfort (I feel normal again)",
+    "territory_number": 1,
+    "territory_name": "Relief / Safety (Calm)",
+    "reasoning": "The product targets the anxiety of 'acne-prone' and 'sensitive' skin. The emotional promise is the cessation of worry ('Relief', 'Soothing', 'Safe'). It validates the user's need for safety and a return to normalcy (Comfort).",
+    "evidence": "Relief Cream... Care for sensitive skin... Safe and gentle... Soothe your skin effectively",
+    "evidence_src": "BASE_CONTENT.product_title + BASE_CONTENT.about_this_item[2] + BASE_CONTENT.about_this_item[3]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (1/5) + Slider B (2/5) matches Territory 1 (Relief/Safety)."
+    }
   },
   "marker_16": {
     "marker_name": "Self-Expression",
-    "territory_number": 1,
-    "territory_name": "The Pragmatist (Rationality)",
-    "reasoning": "Buying this is a vote for logic. The user chooses it because it is 'Clinically tested,' 'Vegan,' and 'Free from' harmful ingredients (Slider A: 2/5 Smart Choice). It is a high-ranking, widely adopted product (#7 Face Moisturizer), signaling a Mass/Standard orientation rather than a niche flex (Slider B: 2/5 The Trending). It's the sensible, verified choice.",
-    "evidence": "Clinically tested... Vegan-certified... 11,804 global ratings... Best Sellers Rank: #7",
-    "evidence_src": "BASE_CONTENT.about_this_item[4] + BASE_CONTENT.review_count + BASE_CONTENT.product_details",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "Rational choice + Mass/Trending orientation maps to The Pragmatist."
-    },
     "slider_a_label": "[SLIDER] THE SIGNAL DRIVER (Purchase Motivation)",
     "slider_a_value": "2/5",
     "slider_a_position_name": "▼ The Smart Choice (because it makes sense)",
     "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION (Social Position)",
     "slider_b_value": "2/5",
-    "slider_b_position_name": "▼ The Trending (What is currently hot/viral)"
+    "slider_b_position_name": "▼ The Trending (What is currently hot/viral)",
+    "territory_number": 1,
+    "territory_name": "The Pragmatist (Rationality)",
+    "reasoning": "Buying this product signals that you are a rational consumer who looks at the ingredients ('345') and the data ('Pro Lab'). While it is trending (K-Beauty), the purchase motivation is framed as 'Smart'—it works, it's safe, and it's $22. It is not a luxury totem.",
+    "evidence": "11,804 global ratings... Clinically tested... Vegan-certified... $22.95",
+    "evidence_src": "BASE_CONTENT.review_count + BASE_CONTENT.about_this_item[3] + BASE_CONTENT.about_this_item[4] + BASE_CONTENT.price",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5) + Slider B (2/5) matches Territory 1 (The Pragmatist). Logic-driven purchase of a popular item."
+    }
   },
   "marker_17": {
     "marker_name": "Social Benefits",
-    "territory_number": 1,
-    "territory_name": "The Safe Choice (Belonging)",
-    "reasoning": "With 11,000+ reviews and a top 10 ranking, this product offers the safety of the herd. The user wants to assimilate with the Majority who have found 'relief' (Slider A: 1/5 Normalization). It is not about standing out; it's about finding a reliable solution that 'everyone' trusts (Slider B: 1/5 The Majority).",
-    "evidence": "11,804 global ratings... #7 in Face Moisturizers... 4.6 out of 5 stars",
-    "evidence_src": "BASE_CONTENT.review_count + BASE_CONTENT.product_details",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "Normalization + Majority dynamic maps to The Safe Choice."
-    },
     "slider_a_label": "[SLIDER] THE SOCIAL VECTOR (Social Goal)",
-    "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ Normalization ('I want to look like everyone else')",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ Acceptance (I want to be accepted by the group)",
     "slider_b_label": "[SLIDER] THE GROUP DYNAMIC (Tribal Scale)",
     "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ The Majority (What most people use)"
+    "slider_b_position_name": "▼ The Majority (What most people use)",
+    "territory_number": 1,
+    "territory_name": "The Safe Choice (Belonging)",
+    "reasoning": "With 11,000+ reviews and a #7 rank, this is the herd's choice for post-acne care. It offers the safety of numbers. You aren't taking a risk; you are joining the majority who have already validated it.",
+    "evidence": "11,804 global ratings... Best Sellers Rank: #7 in Face Moisturizers... 4.6 out of 5 stars",
+    "evidence_src": "BASE_CONTENT.review_count + BASE_CONTENT.product_details + BASE_CONTENT.ratings_reviews",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5) + Slider B (1/5) matches Territory 1 (The Safe Choice)."
+    }
   }
 }
