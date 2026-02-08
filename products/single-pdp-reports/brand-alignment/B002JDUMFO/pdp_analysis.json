@@ -1,0 +1,349 @@
+{
+  "brand": "L'Oreal Paris",
+  "product_title": "L’Oreal Paris Collagen Daily Face Moisturizer, Anti Aging Face Cream to Reduce Wrinkles and Provide Intense Hydration, 1.7 oz",
+  "url": "https://www.amazon.com/dp/B002JDUMFO/",
+  "overall_perception_summary": {
+    "headline": "The Democratic Clinical",
+    "description": "L'Oreal Paris executes a strategy of 'Mass-Market Science,' democratizing the concept of collagen restoration for the everyday consumer. It strips away the velvet rope of anti-aging, offering clinical-coded restoration (filling lines, restoring cushion) at a pragmatic commodity price point ($9.99). It functions as The Reliable Expert—an accessible authority that replaces mystery with routine."
+  },
+  "category_summaries": {
+    "foundation": {
+      "title": "Accessible Clinical Restoration",
+      "description": "The brand positions itself as The Healer, using a 'purified' biological ingredient (Collagen) to fix the pathology of aging (wrinkles). It democratizes this science through 'The Democratizers' territory, making anti-aging utility accessible to all via a 'Daily dose' format. Values prioritize Safety First, balancing efficacy with dermatologist-tested tolerance."
+    },
+    "identity": {
+      "title": "The Cool Authority",
+      "description": "The personality is The Reliable Expert—competent, distant, and helpful. This is anchored by a 'Guardian' archetype mix (Caregiver + Sage), signaling protection and wisdom. Visually, it uses Pharma-Code aesthetics (cool blues, white, silver) to signal sterility and scientific precision rather than sensory indulgence."
+    },
+    "communication": {
+      "title": "Rational Ingredient Education",
+      "description": "Messaging follows The Chemist strategy, hooking the user with the molecule ('Collagen') and persuading with rational timelines ('In 1 week', 'In 4 weeks'). The narrative is a Lab Breakthrough story—nature extracted and purified by science. The USP is The Ingredient King, owning the 'Collagen' mental slot in the mass aisle."
+    },
+    "benefits": {
+      "title": "Pragmatic Restoration",
+      "description": "Functionally, it delivers Restoration—filling lines and restoring moisture 'cushion' to return skin to a youthful baseline. The emotional payoff is Relief/Safety ('Dermatologist tested', 'Non-greasy'), not status. Socially, it is The Safe Choice, leveraging massive social proof (#127 Rank, 52k reviews) to signal a risk-free, pragmatic purchase."
+    }
+  },
+  "quick_labels": {
+    "brand_voice": "Clinical Pragmatism",
+    "visual_appeal": "Pharmacy Clean",
+    "value_prop": "Budget Science",
+    "positioning": "Daily Essential"
+  },
+  "marker_1": {
+    "marker_name": "Purpose",
+    "territory_number": 1,
+    "territory_name": "The Healer (CLINICAL CORRECTION)",
+    "reasoning": "The brand derives authority from 'proven results' and 'dermatologist tested' science, even when using a biological ingredient like collagen (Origin: 2/5 Derm-Validated). The mission is explicitly corrective—'Reduce Wrinkles,' 'Fill in appearance of lines,' and 'restore moisture' (Mission: 2/5 Restoration). It views aging as a condition to be treated with a daily clinical dose.",
+    "evidence": "Anti Aging Face Cream to Reduce Wrinkles... fill in the appearance of lines... dermatologist tested for safety... Proven results",
+    "evidence_src": "BASE_CONTENT.product_title + BASE_CONTENT.about_this_item[0] + BASE_CONTENT.product_details[0]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5) + Slider B (2/5) aligns perfectly with The Healer territory. The language is corrective and clinically grounded."
+    }
+  },
+  "marker_2": {
+    "marker_name": "Mission & Vision",
+    "territory_number": 1,
+    "territory_name": "The Democratizers (ACCESSIBLE SKIN HEALTH)",
+    "reasoning": "The scope is focused on individual skin optimization ('daily dose,' 'restore moisture') rather than a global crusade (Scope: 2/5). However, the access is radically democratic—priced at $9.99 with massive distribution and simple 'kickstart your routine' language (Access: 5/5). It brings anti-aging science to the supermarket shelf.",
+    "evidence": "Daily Face Moisturizer... $9.99... All skin types... Kickstart your routine",
+    "evidence_src": "BASE_CONTENT.product_title + BASE_CONTENT.price + BASE_CONTENT.about_this_item[1] + BASE_CONTENT.about_this_item[4]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Slider A (2/5) + Slider B (5/5) maps directly to The Democratizers. High accessibility combined with skin-focused scope."
+    }
+  },
+  "marker_3": {
+    "marker_name": "Values",
+    "territory_number": 1,
+    "territory_name": "Safety First",
+    "reasoning": "While it claims 'Intense Hydration,' the PDP is heavily weighted toward safety and tolerance signals: 'non-greasy,' 'non-comedogenic,' 'dermatologist tested for safety,' 'suitable for sensitive skin' (Performance: 2/5 Gentle). Transparency is 'Explained' via narrative science ('As we age, collagen levels diminish...') rather than raw data sheets (Transparency: 3/5 Explained). Mid-score logic favors Safety First given the explicit safety claims.",
+    "evidence": "dermatologist tested for safety... suitable for sensitive skin... non-comedogenic... As we age, collagen and moisture levels diminish",
+    "evidence_src": "BASE_CONTENT.product_details[0] + BASE_CONTENT.about_this_item[1]",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Performance (2/5) + Transparency (3/5) routes to Safety First due to the dominance of 'dermatologist tested' and 'sensitive skin' qualifiers."
+    }
+  },
+  "marker_4": {
+    "marker_name": "Positioning",
+    "territory_number": 1,
+    "territory_name": "The Medical Authority",
+    "reasoning": "The aesthetic is cool, clinical, and functional—blue jars, white backgrounds, and clear sans-serif typography (Aesthetic: 2/5 Sterile/Professional). The value proposition is 'Daily,' 'Essential,' and priced for volume utility ($9.99), devoid of luxury signalling (Value: 2/5 Utility). It positions the product as a trusted pharmaceutical staple.",
+    "evidence": "$9.99... Daily Face Moisturizer... dermatologist tested... Clinical/Cool blue palette",
+    "evidence_src": "BASE_CONTENT.price + BASE_CONTENT.product_title + BASE_CONTENT.product_details[0] + PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis_interpreted.visual_temperature",
+    "slider_a_label": "AESTHETIC VIBE",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "Professional",
+    "slider_b_label": "VALUE PERCEPTION",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "Daily Essential",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Low Aesthetic + Low Value scores clearly map to The Medical Authority/Pharmacy positioning."
+    }
+  },
+  "marker_5": {
+    "marker_name": "Personality",
+    "territory_number": 3,
+    "territory_name": "The Reliable Expert",
+    "reasoning": "The tone is low on warmth—it doesn't try to be your friend; it acts as a provider of 'Proven results' and 'Daily doses' (Warmth: 2/5 Distant). The authority is high, using directive language ('Kickstart your routine', 'Apply... every day and night') and citing 'dermatologist tested' status (Authority: 4/5 Specialist).",
+    "evidence": "Proven results... Kickstart your routine... dermatologist tested... From the manufacturer",
+    "evidence_src": "BASE_CONTENT.about_this_item[2] + BASE_CONTENT.about_this_item[4] + BASE_CONTENT.product_details[0] + APLUS_CONTENT.brand_story.sections[0].text",
+    "slider_a_label": "WARMTH",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "Distant",
+    "slider_b_label": "AUTHORITY",
+    "slider_b_value": "4/5",
+    "slider_b_position_name": "The Specialist",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Low Warmth + High Authority aligns with The Reliable Expert territory."
+    }
+  },
+  "marker_6": {
+    "marker_name": "Archetypes Mix",
+    "territory_number": 4,
+    "territory_name": "The Guardian",
+    "reasoning": "The brand is primarily a Caregiver, focused on 'safety,' 'daily doses,' and protecting 'sensitive skin.' The Sage secondary is evident in the educational approach ('As we age, collagen diminishes...'), explaining the biology to the user. The Everyman tertiary anchors it in accessibility ($9.99, 'all skin types').",
+    "evidence": "dermatologist tested for safety... suitable for sensitive skin... As we age, collagen and moisture levels diminish... $9.99",
+    "evidence_src": "BASE_CONTENT.product_details[0] + BASE_CONTENT.about_this_item[1] + BASE_CONTENT.price",
+    "primary": {
+      "archetype": "Caregiver",
+      "group": "A",
+      "percentage": "45%"
+    },
+    "secondary": {
+      "archetype": "Sage",
+      "group": "B",
+      "percentage": "30%"
+    },
+    "tertiary": {
+      "archetype": "Everyman",
+      "group": "D",
+      "percentage": "25%"
+    },
+    "evaluation_check": {
+      "coherence_status": "not_applicable",
+      "coherence_reasoning": "Archetype mix determined by content dominance: Safety/Care + Education + Accessibility."
+    }
+  },
+  "marker_7": {
+    "marker_name": "Tone of Voice",
+    "territory_number": 1,
+    "territory_name": "The Clinical Authority",
+    "reasoning": "The voice is dry, functional, and devoid of humor. It prioritizes clarity and instruction ('Step 1: Prep', 'When to use'). Humor is non-existent (1/5), and enthusiasm is measured/dry (2/5), creating a 'diagnosis and prescription' feel.",
+    "evidence": "Step 1: Prep... Step 2: Hydrate... Proven results... dermatologist tested",
+    "evidence_src": "APLUS_CONTENT.brand_story.sections[0].text + BASE_CONTENT.about_this_item[2] + BASE_CONTENT.product_details[0]",
+    "slider_a_label": "HUMOR",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "Grave",
+    "slider_b_label": "FORMALITY",
+    "slider_b_value": "3/5",
+    "slider_b_position_name": "Professional",
+    "slider_c_label": "RESPECT",
+    "slider_c_value": "3/5",
+    "slider_c_position_name": "Neutral",
+    "slider_d_label": "ENTHUSIASM",
+    "slider_d_value": "2/5",
+    "slider_d_position_name": "Dry",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Humor <= 2 + Enthusiasm <= 2 + Formality >= 2 matches hard rule for Clinical Authority."
+    }
+  },
+  "marker_8": {
+    "marker_name": "Visual Identity",
+    "territory_number": 1,
+    "territory_name": "Pharma-Code",
+    "reasoning": "The visual language is dominated by 'Cool blue and soft lavender tones' and 'stark black' text, signaling a clinical environment (Thermostat: 2/5 Cool). The layout is structured, utilizing grids and comparison tables in the A+ content, creating a sense of order and control (Entropy: 2/5 Structured).",
+    "evidence": "Cool blue and soft lavender tones... stark black signals pharmaceutical-grade precision... grid layout in A+",
+    "evidence_src": "PRODUCT_GALLERY.visual_content_analysis[0].visual_analysis_interpreted.color_mood + APLUS_CONTENT.brand_story.sections[0].text",
+    "look_and_feel": "Clinical reliability expressed through a cool blue/lavender palette and organized, information-heavy layouts.",
+    "distinctive_asset_1": "Blue/Lavender Color Code",
+    "distinctive_asset_2": "Clinical Jar Silhouette",
+    "distinctive_asset_3": "Comparison Grid",
+    "distinctive_asset_4": "Whipped Texture Swirl",
+    "distinctive_asset_5": "Checkmark Icons",
+    "palette_color_1": "#7C86C1",
+    "palette_color_2": "#FFFFFF",
+    "palette_color_3": "#1E3589",
+    "palette_color_4": "#B59C5D",
+    "palette_color_5": "#000000",
+    "primary_palette": "Clinical white and blue/lavender with black text and touches of prestige gold.",
+    "slider_a_label": "THE THERMOSTAT",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "Cool",
+    "slider_b_label": "THE ENTROPY SCALE",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "Structured",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Cool temperature + Structured layout maps to Pharma-Code."
+    }
+  },
+  "marker_9": {
+    "marker_name": "Messaging",
+    "territory_number": 1,
+    "territory_name": "The Chemist",
+    "reasoning": "The messaging is hooked entirely on the molecule: 'Collagen' is repeated incessantly as the primary subject (Hook: 1/5 Ingredient). The persuasion logic is rational, relying on 'Proven results' timeframes ('In 1 week', 'In 4 weeks') rather than emotional vibes (Persuasion: 2/5 Rational).",
+    "evidence": "Collagen Daily Face Moisturizer... Replenish skin with Collagen... In 1 week... in 4 weeks",
+    "evidence_src": "BASE_CONTENT.product_title + BASE_CONTENT.about_this_item[3] + BASE_CONTENT.about_this_item[2]",
+    "slider_a_label": "THE HOOK TARGET",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "The Molecule",
+    "slider_b_label": "THE PERSUASION LOGIC",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "Rational",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Ingredient hook + Rational persuasion maps to The Chemist."
+    }
+  },
+  "marker_10": {
+    "marker_name": "Narrative",
+    "territory_number": 1,
+    "territory_name": "The Lab Breakthrough",
+    "reasoning": "The story is institutional. The protagonist is 'The Manufacturer' / 'L'Oreal Paris' (Scientist/Nobel: 1/5). The setting is implied to be a high-tech facility where collagen is 'extracted and purified with a process that preserves' its qualities (Setting: 2/5 Tech/Lab). There is no founder or nature-walk narrative.",
+    "evidence": "From the manufacturer... extracted and purified with a process that preserves all of its hydrating qualities",
+    "evidence_src": "APLUS_CONTENT.brand_story.sections[0].text + BASE_CONTENT.product_details[0]",
+    "slider_a_label": "THE PROTAGONIST",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "The Nobel",
+    "slider_b_label": "THE SETTING",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "Tech-Forward",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Institutional protagonist + technical processing setting maps to The Lab Breakthrough."
+    }
+  },
+  "marker_11": {
+    "marker_name": "Key Selling Points",
+    "territory_number": 1,
+    "territory_name": "Derm-Validation",
+    "reasoning": "The primary validator is the 'dermatologist tested' claim and the brand's lab authority (Validator: 1/5 Board/Lab). The proof type is grounded in statistical/timeline claims ('In 1 week', 'In 4 weeks') rather than just sensory feel (Proof: 2/5 Stat/Graph).",
+    "evidence": "dermatologist tested for safety... Proven results: Overnight... In 1 week... in 4 weeks",
+    "evidence_src": "BASE_CONTENT.product_details[0] + BASE_CONTENT.about_this_item[2]",
+    "slider_a_label": "THE VALIDATOR",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "The Board",
+    "slider_b_label": "THE PROOF TYPE",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "The Stat",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Expert validation + Statistical/Timeline proof maps to Derm-Validation."
+    }
+  },
+  "marker_12": {
+    "marker_name": "USP",
+    "territory_number": 1,
+    "territory_name": "The Ingredient King",
+    "reasoning": "The USP is the ownership of 'Collagen' as a commodity hero. The brand doesn't claim a proprietary complex name (e.g., 'Colla-Gen X'), but rather the ingredient itself (Ownership: 2/5 Hero Ingredient). The scope is broad 'Daily Face Moisturizer' for 'all skin types' (Scope: 3/5 Category Player).",
+    "evidence": "Collagen Daily Face Moisturizer... Replenish skin with Collagen... All skin types",
+    "evidence_src": "BASE_CONTENT.product_title + BASE_CONTENT.about_this_item[3] + APLUS_CONTENT.brand_story.sections[0].text",
+    "slider_a_label": "THE OWNERSHIP CLAIM",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "The Hero Ingredient",
+    "slider_b_label": "THE TARGET SCOPE",
+    "slider_b_value": "3/5",
+    "slider_b_position_name": "The Category Player",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Hero Ingredient ownership + Category scope maps to The Ingredient King."
+    }
+  },
+  "marker_13": {
+    "marker_name": "Focus",
+    "territory_number": 1,
+    "territory_name": "Science Education",
+    "reasoning": "The A+ content focuses on routine education ('Step 1, Step 2') and comparison charts, prioritizing 'Explanation' over pure inspiration (Depth: 2/5 Explainer). The intent is to build trust through routine and results logic rather than pure hard selling or lifestyle imagery (Intent: 2/5 The Evidence).",
+    "evidence": "Step 1: Prep Step 2: Hydrate... Comparison Table... Proven results",
+    "evidence_src": "APLUS_CONTENT.brand_story.sections[0].text + BASE_CONTENT.about_this_item[2]",
+    "slider_a_label": "THE DEPTH GAUGE",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "The Explainer",
+    "slider_b_label": "THE INTENT VECTOR",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "The Evidence",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Educational depth + Evidence intent maps to Science Education."
+    }
+  },
+  "marker_14": {
+    "marker_name": "Functional Benefits",
+    "territory_number": 1,
+    "territory_name": "Restoration",
+    "reasoning": "The action is 'Repair/Restoration'—specifically to 'fill in' lines and 'restore moisture' that has been lost (Action: 4/5 The Fixer). The outcome aims for a 'Healthy Look' ('smoother, plumper', 'younger-looking') rather than artificial perfection (Outcome: 3/5 Healthy Look). The grid logic for Repair + Healthy Look/Structure points to Restoration.",
+    "evidence": "fill in the appearance of lines... restores moisture... smoother, plumper skin... restore skin's cushion",
+    "evidence_src": "BASE_CONTENT.about_this_item[0] + BASE_CONTENT.product_details[0] + PRODUCT_GALLERY.visual_content_analysis[2].visual_analysis_interpreted.key_selling_points",
+    "slider_a_label": "THE ACTION VECTOR",
+    "slider_a_value": "4/5",
+    "slider_a_position_name": "The Healer",
+    "slider_b_label": "THE OUTCOME TARGET",
+    "slider_b_value": "3/5",
+    "slider_b_position_name": "Healthy Look",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "High Repair action + Healthy/Structural outcome maps to Restoration."
+    }
+  },
+  "marker_15": {
+    "marker_name": "Emotional Benefits",
+    "territory_number": 1,
+    "territory_name": "Relief / Safety",
+    "reasoning": "The emotional driver is the removal of worry—knowing the product is 'non-greasy,' 'dermatologist tested,' and safe for 'sensitive skin' (Anxiety: 2/5 Reassurance). It restores a sense of normalcy and comfort rather than providing a status boost (Self-Perception: 2/5 Comfort).",
+    "evidence": "dermatologist tested for safety... non-greasy... suitable for sensitive skin... absorbs quickly without leaving a sticky film",
+    "evidence_src": "BASE_CONTENT.product_details[0] + BASE_CONTENT.about_this_item[1]",
+    "slider_a_label": "THE ANXIETY AXIS",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "Reassurance",
+    "slider_b_label": "THE SELF-PERCEPTION AXIS",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "Comfort",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Reassurance + Comfort maps to Relief / Safety."
+    }
+  },
+  "marker_16": {
+    "marker_name": "Self-Expression",
+    "territory_number": 1,
+    "territory_name": "The Pragmatist",
+    "reasoning": "At $9.99 with no viral/hype indicators, this purchase is a 'Tool' (1/5) for hydration. It signals rationality and smart budgeting rather than tribal identity or status (Tribal: 1/5 The Standard). It's a purchase made because it works, not because it's cool.",
+    "evidence": "$9.99... Daily Face Moisturizer... 52,903 global ratings",
+    "evidence_src": "BASE_CONTENT.price + BASE_CONTENT.product_title + BASE_CONTENT.review_count",
+    "slider_a_label": "THE SIGNAL DRIVER",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "The Tool",
+    "slider_b_label": "THE TRIBAL ORIENTATION",
+    "slider_b_value": "1/5",
+    "slider_b_position_name": "The Standard",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Tool signal + Mass tribal orientation maps to The Pragmatist."
+    }
+  },
+  "marker_17": {
+    "marker_name": "Social Benefits",
+    "territory_number": 1,
+    "territory_name": "The Safe Choice",
+    "reasoning": "With 52,000+ reviews and a #2 category rank, the social signal is overwhelmingly 'Assimilation' (1/5)—joining the 'Majority' (1/5) who have validated this product. It is the definition of a safe, verified purchase.",
+    "evidence": "52,903 global ratings... Best Sellers Rank: #127... #2 in Facial Night Creams",
+    "evidence_src": "BASE_CONTENT.review_count + BASE_CONTENT.product_details[1]",
+    "slider_a_label": "THE SOCIAL VECTOR",
+    "slider_a_value": "1/5",
+    "slider_a_position_name": "Normalization",
+    "slider_b_label": "THE GROUP DYNAMIC",
+    "slider_b_value": "1/5",
+    "slider_b_position_name": "The Majority",
+    "evaluation_check": {
+      "coherence_status": "aligned",
+      "coherence_reasoning": "Assimilation + Majority dynamic maps to The Safe Choice."
+    }
+  },
+  "error": "The resource you are requesting could not be found"
+}
