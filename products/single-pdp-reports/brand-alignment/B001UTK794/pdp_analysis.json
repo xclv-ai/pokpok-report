@@ -1,367 +1,366 @@
 {
   "brand": "Jergens",
-  "product_title": "Jergens Natural Glow Self Tanner Lotion, Daily Sunless Fake Tanning, Medium to Deep Skin Tone...",
+  "product_title": "Jergens Natural Glow Self Tanner Lotion, Daily Sunless Fake Tanning, Medium to Deep Skin Tone, Daily Moisturizer, featuring Antioxidants and Vitamin E, 7.5 oz",
   "url": "https://www.amazon.com/dp/B001UTK794",
   "overall_perception_summary": {
-    "headline": "The Safe Summer Glow",
-    "description": "Jergens masterfully democratizes the self-tanning category by stripping away the fear of 'orange' and replacing it with the safety of a daily moisturizer. It functions as a Trojan Horse: the visuals scream 'Gen-Z Summer Fun' (Pools, Sunshine, Bright Yellow), but the core promise is deeply conservative clinical safety ('#1 Dermatologist Recommended'). It allows the user to buy 'Sunshine' without the risk of UV damage or aesthetic failure."
+    "headline": "Risk-Free Daily Sunshine",
+    "description": "Jergens successfully rebrands a high-anxiety category (self-tanning) into a low-risk daily ritual. By wrapping the 'sunshine' promise in the safety of a 'Dermatologist Recommended' moisturizer, it removes the fear of streaks or orange skin. It feels like a cheerful, reliable best friend who ensures you look healthy, not fake, democratizing the glow for the mass market."
   },
   "category_summaries": {
     "foundation": {
       "title": "The Safe Empowerer",
-      "description": "The brand anchors its authority in clinical validation (#1 Derm Recommended) while directing its mission toward aesthetic enhancement (The Empowerer). It adheres to a Safety First value system, prioritizing 'gradual' and 'streak-free' results over aggressive transformation. Positioned as The Gentle Giant, it frames self-tanning not as a high-stakes beauty treatment, but as an accessible, family-friendly daily staple."
+      "description": "The brand anchors its authority in the clinic (Dermatologist Recommended) to mitigate risk, but directs that power toward psychological uplift (Create Your Own Sunshine). It operates as The Democratizer, making 'flawless color' accessible to everyone via a mass-market price point and easy daily format. The core value is Safety First—prioritizing a 'gradual' build to prevent the social failure of a bad tan."
     },
     "identity": {
-      "title": "The Cheerful Guardian",
-      "description": "The personality is a strategic hybrid: visually, it is a Trendsetter using high-dopamine 'Gen-Z Pop' aesthetics (bright yellows, pinks, pools) to signal relevance. However, the archetype mix is dominated by The Caregiver (60%), ensuring that beneath the fun 'sunshine' messaging, the user feels protected by clinical authority. The tone is The Hype Beast—enthusiastic and conversational—masking the serious functional benefits in playful language."
+      "title": "The Sunny Caregiver",
+      "description": "The personality is a hybrid of The Caregiver (reassuring, safe) and The Innocent (optimistic, sunny). Visually, it leans into Gen-Z Pop with vibrant yellow and pink dopamine cues, signaling energy and fun. The voice is The Gentle Guide—enthusiastic about the result but instructional and comforting about the process."
     },
     "communication": {
-      "title": "Validated Promise Maker",
-      "description": "Messaging focuses on The Promise Maker territory, selling the dream of 'creating your own sunshine' rather than the chemistry of DHA. The USP is The Ingredient King, owning the 'Natural Glow' concept as a proprietary identity. The narrative relies on The Lab Breakthrough, using the dermatologist seal as the ultimate trust anchor to validate the 'natural' claims."
+      "title": "Problem Solving Promise",
+      "description": "The messaging hooks with the 'Dream' (Sunshine/Glow) but persuades with the 'Rational' (Derm validation). The USP is The Value Hacker—delivering a sophisticated 'natural glow' result in a utility format. It focuses heavily on Hard Product Sell tactics, using comparison charts and functional claims to close the deal."
     },
     "benefits": {
       "title": "Corrective Confidence",
-      "description": "Functionally, it operates in the Correction territory, altering skin tone while maintaining moisture. This delivers Emotional Confidence, removing the anxiety of being pale or using risky tanners. Socially, it is The Safe Choice—a pragmatic, mass-market badge that signals healthy assimilation into the 'summer glow' norm without financial or aesthetic risk."
+      "description": "Functionally, it acts as a Corrector, using hydration to deliver an aesthetic upgrade (color). The emotional payoff is Confidence—specifically the removal of the insecurity of pale or uneven skin. Socially, it is The Safe Choice, allowing users to join the 'healthy skin' tribe without the risk of standing out for the wrong reasons."
     }
   },
   "quick_labels": {
-    "brand_voice": "Enthusiastic Cheerleader",
-    "visual_appeal": "Gen-Z Sunshine",
-    "value_prop": "Risk-Free Glow",
-    "positioning": "Accessible Self-Care"
+    "brand_voice": "Sunny Reassurance",
+    "visual_appeal": "Dopamine Clinical",
+    "value_prop": "Foolproof Glow",
+    "positioning": "Safe Sunshine"
   },
   "marker_1": {
     "marker_name": "Purpose",
-    "territory_number": 4,
-    "territory_name": "The Empowerer (Psychological Uplift)",
-    "reasoning": "While the badge says 'Dermatologist Recommended' (Clinical), the core promise is 'Create your own sunshine' and 'Enhance natural skin tone.' It isn't fixing a disease; it is uplifting the user's aesthetic baseline (Slider B: 4/5). The authority is a hybrid of clinical safety and the 'Natural' concept, but the mission drives it into the Empowerer territory.",
-    "evidence": "Create a flawless tan... enhance and deepen your natural skin tone... Achieve healthy-looking skin... Create your own sunshine",
-    "evidence_src": "BASE_CONTENT.about_this_item[0] + BASE_CONTENT.about_this_item[1] + PRODUCT_DESCRIPTION.sections[0].images[0].text_content",
-    "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY",
+    "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
     "slider_a_value": "2/5",
     "slider_a_position_name": "▼ Derm-Validated (White coat authority)",
-    "slider_b_label": "[SLIDER] MISSION VECTOR",
+    "slider_b_label": "[SLIDER] MISSION VECTOR (The Goal)",
     "slider_b_value": "4/5",
     "slider_b_position_name": "▼ Enhancement (Glow, texture, feel)",
+    "territory_number": 4,
+    "territory_name": "The Empowerer (Psychological Uplift)",
+    "reasoning": "While the authority is heavily anchored in 'Derm-Validated' safety (#1 Recommended), the mission is purely psychological and aesthetic uplift—'Create your own sunshine.' It's not treating a pathology; it's delivering a feeling of health and radiance. The clinical backing exists solely to authorize the enhancement.",
+    "evidence": "Create your own sunshine... #1 US DERMATOLOGIST RECOMMENDED... ACHIEVE HEALTHY-LOOKING SKIN... feeling fresh",
+    "evidence_src": "APLUS_CONTENT[0].brand_story.sections[0].text + APLUS_CONTENT[1].product_description.sections[0].images[0].text_content + BASE_CONTENT[0].about_this_item[2]",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Clinical authority supporting an enhancement mission aligns perfectly with 'Safe Beauty' positioning."
+      "coherence_reasoning": "Slider A (2) + Slider B (4) normally maps to Empowerer (Clinical Uplift). The brand uses clinical safety to permit the aesthetic enhancement."
     }
   },
   "marker_2": {
     "marker_name": "Mission & Vision",
-    "territory_number": 1,
-    "territory_name": "The Democratizers (Accessible Skin Health)",
-    "reasoning": "The product is a 'Daily Moisturizer' priced at ~$10 with mass retail distribution. It treats tanning not as an exclusive spa ritual but as an everyday hygiene step (Access: 5/5). The scope is personal optimization ('Your natural skin tone') rather than a global crusade.",
-    "evidence": "Daily Sunless Fake Tanning... Simply use as your daily body lotion... $10.49",
-    "evidence_src": "BASE_CONTENT.product_title + BASE_CONTENT.about_this_item[4] + SOCIAL_PROOF.price",
-    "slider_a_label": "[SLIDER] SCOPE OF IMPACT",
+    "slider_a_label": "[SLIDER] SCOPE OF IMPACT (The Blast Radius)",
     "slider_a_value": "2/5",
     "slider_a_position_name": "▼ Optimization (General appearance/glow)",
-    "slider_b_label": "[SLIDER] ACCESS BARRIER",
+    "slider_b_label": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
     "slider_b_value": "5/5",
     "slider_b_position_name": "▼ Democratic (Universal access for everyone)",
+    "territory_number": 1,
+    "territory_name": "The Democratizers (Accessible Skin Health)",
+    "reasoning": "The scope is personal optimization—making skin look 'healthy' and 'flawless.' The access is radically democratic: mass retail availability, low price point ($10.49), and inclusive 'for all' language. It strips the complexity and cost out of the tanning salon experience.",
+    "evidence": "Price $10.49... Daily Body Application... Hassle-free, streak-free color... Available in Fair to Medium and Medium to Deep",
+    "evidence_src": "BASE_CONTENT[0].price + BASE_CONTENT[0].about_this_item[1] + APLUS_CONTENT[0].brand_story.sections[0].text",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Low price point and 'daily' usage frame clearly confirm the Democratizer territory."
+      "coherence_reasoning": "Slider A (2/5 Optimization) + Slider B (5/5 Democratic) aligns perfectly with Territory 1. The brand democratizes the 'glow' result."
     }
   },
   "marker_3": {
     "marker_name": "Values",
-    "territory_number": 1,
-    "territory_name": "Safety First (The Safe Harbor)",
-    "reasoning": "The explicit value proposition is 'WITHOUT YOUR DERM GETTING NERVOUS.' They sacrifice the speed of 'Instant' tanning for the safety of 'Gradual' tanning (Performance: 2/5). They back this with clear 'Dermatologist Recommended' badges, prioritizing safety and trust over aggressive results.",
-    "evidence": "WITHOUT YOUR DERM GETTING NERVOUS... #1 US DERMATOLOGIST RECOMMENDED... hassle-free, streak-free color",
-    "evidence_src": "PRODUCT_DESCRIPTION.sections[1].images[0].claimsAndFeatures[0] + BASE_CONTENT.about_this_item[1]",
-    "slider_a_label": "[SLIDER] PERFORMANCE PRIORITY",
+    "slider_a_label": "[SLIDER] PERFORMANCE PRIORITY (The Trade-Off)",
     "slider_a_value": "2/5",
     "slider_a_position_name": "▼ Gentle (Effective but comfortable)",
-    "slider_b_label": "[SLIDER] INFORMATION DENSITY",
-    "slider_b_value": "3/5",
-    "slider_b_position_name": "▼ Explained (Simplified science for layman)",
+    "slider_b_label": "[SLIDER] INFORMATION DENSITY (The Transparency)",
+    "slider_b_value": "2/5",
+    "slider_b_position_name": "▼ Evidence-First (Charts, diagrams, studies)",
+    "territory_number": 1,
+    "territory_name": "Safety First (The Safe Harbor)",
+    "reasoning": "The brand explicitly prioritizes safety and control over speed. 'Gradual' is a code word for 'you won't mess this up.' The transparency is high regarding validation—prominently displaying the '#1 Dermatologist Recommended' badge and 'Cruelty Free' icons. It sacrifices 'instant' potency for a 'natural' and safe result.",
+    "evidence": "WITHOUT YOUR DERM GETTING NERVOUS... Gradual tanning lotion... PETA Cruelty-Free... US DERMATOLOGIST RECOMMENDED",
+    "evidence_src": "APLUS_CONTENT[0].brand_story.sections[0].images[1].claimsAndFeatures + BASE_CONTENT[0].about_this_item[1] + APLUS_CONTENT[0].brand_story.sections[0].images[2].icons",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "The 'Gradual' promise is the ultimate safety mechanism in self-tanning, perfectly mapping to Territory 1."
+      "coherence_reasoning": "Slider A (2/5 Gentle) + Slider B (2/5 Evidence-First) aligns with Territory 1. The emphasis is on safe, validated results."
     }
   },
   "marker_4": {
     "marker_name": "Positioning",
-    "territory_number": 3,
-    "territory_name": "The Gentle Giant (The Family Staple)",
-    "reasoning": "Visuals are 'Polished' with sunny lifestyle cues (inflatable pools, splashes), moving it away from a sterile pharmacy look (Aesthetic: 4/5). However, the format (large tube), price, and 'daily moisturizer' claim anchor it as an accessible utility product (Value: 2/5). It is the trusted giant of the aisle.",
-    "evidence": "#1 US DERMATOLOGIST RECOMMENDED... Daily Sunless Fake Tanning... $10.49",
-    "evidence_src": "PRODUCT_DESCRIPTION.sections[1].images[0].claimsAndFeatures + SOCIAL_PROOF.price",
-    "slider_a_label": "[SLIDER] AESTHETIC VIBE",
+    "slider_a_label": "[SLIDER] AESTHETIC VIBE (The Uniform)",
     "slider_a_value": "4/5",
     "slider_a_position_name": "▼ Polished (Designed for the Shelfie)",
-    "slider_b_label": "[SLIDER] VALUE PERCEPTION",
+    "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Status Signal)",
     "slider_b_value": "2/5",
     "slider_b_position_name": "▼ Daily Essential (Reliable staple)",
+    "territory_number": 3,
+    "territory_name": "The Gentle Giant (The Family Staple)",
+    "reasoning": "Visually, the A+ content pushes a 'Polished' and energetic vibe with bright yellow backgrounds and splashes. However, the core positioning is 'Daily Moisturizer'—a reliable, utilitarian staple for the bathroom counter. It balances the aesthetic of a beauty product with the utility of a commodity lotion.",
+    "evidence": "Daily Sunless Fake Tanning... Daily Moisturizer... Simply use as your daily body lotion... Price $10.49",
+    "evidence_src": "BASE_CONTENT[0].product_title + BASE_CONTENT[0].about_this_item[4] + APLUS_CONTENT[0].brand_story.sections[0].text",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "High aesthetic polish combined with low/accessible value perception creates the quintessential 'Gentle Giant' mass-market profile."
+      "coherence_reasoning": "Slider A (4/5 Polished) + Slider B (2/5 Daily Essential) typically maps to Territory 3 (Gentle Giant) or Territory 4 (Clean Essentialist). Given the mass price and 'Daily' framing, Gentle Giant is the correct grid fit for a heritage mass brand upgrading its look."
     }
   },
   "marker_5": {
     "marker_name": "Personality",
-    "territory_number": 2,
-    "territory_name": "The Trendsetter (Excitement)",
-    "reasoning": "The brand adopts a high-warmth, enthusiastic persona ('Create your own sunshine', 'the feel good feeling') which scores high on Warmth (4/5). While it holds authority (#1 Derm), the voice speaks as an exciting peer or cheerleader (Authority: 2-3). The visuals (pop colors, pools) push this into the Trendsetter territory, aiming to be relevant and fun rather than just functional.",
-    "evidence": "CREATE YOUR OWN sunshine... the feel good feeling... LIKE A DAY IN THE sun",
-    "evidence_src": "PRODUCT_DESCRIPTION.sections[0].images[0].text_content + PRODUCT_DESCRIPTION.sections[1].images[0].otherVisibleText",
-    "slider_a_label": "[SLIDER] WARMTH",
+    "slider_a_label": "[SLIDER] WARMTH (The Thermostat)",
     "slider_a_value": "4/5",
     "slider_a_position_name": "▼ Affectionate (Soft, caring language)",
-    "slider_b_label": "[SLIDER] COMPETENCE / AUTHORITY",
+    "slider_b_label": "[SLIDER] COMPETENCE / AUTHORITY (The Power Dynamic)",
     "slider_b_value": "3/5",
     "slider_b_position_name": "▼ The Guide (Helpful but leads)",
+    "territory_number": 1,
+    "territory_name": "The Trusted Friend (Sincerity)",
+    "reasoning": "The brand exudes warmth with phrases like 'Create your own sunshine' and 'feel good feeling.' It acts as a helpful Guide, teaching you how to tan safely ('Before or after the beach'). It feels approachable and sincere, bridging the gap between a friend and an expert.",
+    "evidence": "Create your own sunshine... the feel good feeling... Simply use as your daily body lotion",
+    "evidence_src": "APLUS_CONTENT[1].product_description.sections[0].images[0].text_content + APLUS_CONTENT[0].brand_story.sections[0].images[1].otherVisibleText + BASE_CONTENT[0].about_this_item[4]",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "The divergence between the 'Derm' badge (Authority) and the 'Sunshine' voice (Trendsetter) is a deliberate strategy to make safety feel cool."
+      "coherence_reasoning": "Slider A (4/5 Warmth) + Slider B (3/5 Guide) aligns with Territory 1 (Trusted Friend) or Territory 2 (Trendsetter). Given the instructional/safe nature, Trusted Friend is the stronger fit."
     }
   },
   "marker_6": {
     "marker_name": "Archetypes Mix",
-    "territory_number": 4,
-    "territory_name": "The Guardian (Belonging × Stability)",
-    "reasoning": "Despite the playful 'Sunshine' visuals, the dominant functional promise is reassurance. The Caregiver (60%) leads by mitigating the fear of orange streaks via 'Dermatologist Recommended' and 'Gradual' claims. The Innocent (25%) supports with optimism ('Natural Glow', 'Fresh Scent'), while The Jester (15%) adds the visual layer of fun.",
-    "evidence": "WITHOUT YOUR DERM GETTING NERVOUS... #1 US DERMATOLOGIST RECOMMENDED... Create your own sunshine... Flawless... streak-free",
-    "evidence_src": "PRODUCT_DESCRIPTION.sections[1].images[0].claimsAndFeatures + BASE_CONTENT.about_this_item[1]",
     "primary": {
       "archetype": "The Caregiver",
       "group": "A (Stability)",
-      "percentage": "60%"
+      "percentage": "50%"
     },
     "secondary": {
       "archetype": "The Innocent",
       "group": "B (Independence)",
-      "percentage": "25%"
+      "percentage": "30%"
     },
     "tertiary": {
-      "archetype": "The Jester",
+      "archetype": "The Everyman",
       "group": "D (Belonging)",
-      "percentage": "15%"
+      "percentage": "20%"
     },
+    "territory_number": 4,
+    "territory_name": "The Guardian (Belonging × Stability)",
+    "reasoning": "The Caregiver dominates because the entire value prop is risk mitigation: 'Dermatologist Recommended,' 'Cruelty Free,' 'No nervous derm.' It reassures the user. The Innocent provides the emotional wrapper—'Sunshine,' 'Natural,' 'Glow.' The Everyman grounds it as a 'Daily' routine for everyone.",
+    "evidence": "US DERMATOLOGIST RECOMMENDED... Create your own sunshine... Daily Moisturizer... Gradual... Flawless",
+    "evidence_src": "APLUS_CONTENT[0].brand_story.sections[0].images[1].claimsAndFeatures + APLUS_CONTENT[1].product_description.sections[0].images[0].text_content + BASE_CONTENT[0].product_title",
     "evaluation_check": {
       "coherence_status": "not_applicable",
-      "coherence_reasoning": "Archetype mix determined by weighting."
+      "coherence_reasoning": "Archetype mix derived from content analysis. High stability/safety focus places it in The Guardian territory."
     }
   },
   "marker_7": {
     "marker_name": "Tone of Voice",
-    "territory_number": 4,
-    "territory_name": "The Hype Beast (Loud & Playful)",
-    "reasoning": "The tone is decidedly enthusiastic and conversational. Phrases like 'Create your own sunshine' and 'the feel good feeling' coupled with bold typography and graphical shouts ('LIKE A DAY IN THE SUN') push Enthusiasm and Formality to the right. It avoids being Clinical or Dry.",
-    "evidence": "CREATE YOUR OWN sunshine... LIKE A DAY IN THE SUN... the feel good feeling",
-    "evidence_src": "PRODUCT_DESCRIPTION.sections[0].images[0].text_content + PRODUCT_DESCRIPTION.sections[1].images[0].otherVisibleText",
-    "slider_a_label": "[SLIDER] HUMOR",
+    "slider_a_label": "[SLIDER] HUMOR (The Sense of Humor)",
     "slider_a_value": "3/5",
     "slider_a_position_name": "▼ Light (Pleasant, friendly)",
-    "slider_b_label": "[SLIDER] FORMALITY",
+    "slider_b_label": "[SLIDER] FORMALITY (The Dress Code)",
     "slider_b_value": "4/5",
     "slider_b_position_name": "▼ Conversational (Spoken style)",
-    "slider_c_label": "[SLIDER] RESPECT",
+    "slider_c_label": "[SLIDER] RESPECT (The Power Dynamic)",
     "slider_c_value": "4/5",
     "slider_c_position_name": "▼ Cheeky (Playful, teasing)",
-    "slider_d_label": "[SLIDER] ENTHUSIASM",
+    "slider_d_label": "[SLIDER] ENTHUSIASM (The Energy Level)",
     "slider_d_value": "4/5",
     "slider_d_position_name": "▼ Excited (Exclamation marks, strong adjectives)",
+    "territory_number": 4,
+    "territory_name": "The Hype Beast (Loud & Playful)",
+    "reasoning": "The voice is surprisingly energetic for a legacy brand. 'Create your own sunshine' and 'WITHOUT YOUR DERM GETTING NERVOUS' show a cheeky, conversational edge. High enthusiasm and cheekiness push it into Territory 4, though it retains a layer of helpful instruction.",
+    "evidence": "WITHOUT YOUR DERM GETTING NERVOUS... Create your own sunshine... the feel good feeling",
+    "evidence_src": "APLUS_CONTENT[0].brand_story.sections[0].images[1].claimsAndFeatures + APLUS_CONTENT[1].product_description.sections[0].images[0].text_content + APLUS_CONTENT[0].brand_story.sections[0].images[1].otherVisibleText",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "High Enthusiasm + Conversational/Cheeky markers align with the energetic 'Hype Beast' territory."
+      "coherence_reasoning": "Enthusiasm (4) + Cheeky Respect (4) triggers the Hype Beast rule. The brand uses energetic, playful language to modernize its image."
     }
   },
   "marker_8": {
     "marker_name": "Visual Identity",
-    "territory_number": 2,
-    "territory_name": "Gen-Z Pop (Dopamine)",
-    "reasoning": "The visual strategy abandons sterile pharmacy codes for high-dopamine aesthetics. Solid bright yellow backgrounds, vibrant magenta accents, and playful props like inflatable pools create a 'Hot' and 'Expressive' environment designed to grab attention on a mobile screen.",
-    "evidence": "Solid bright yellow background... pink inflatable pool... dynamic blue water splashes... magenta accents",
-    "evidence_src": "APLUS_CONTENT.brand_story.sections[0].images[0].visual_analysis + APLUS_CONTENT.brand_story.sections[0].images[1].visual_analysis",
-    "slider_a_label": "[SLIDER] THE THERMOSTAT",
+    "slider_a_label": "[SLIDER] THE THERMOSTAT (Visual Temperature)",
     "slider_a_value": "5/5",
     "slider_a_position_name": "▼ Hot (Saturated, sensory, tactile)",
-    "slider_b_label": "[SLIDER] THE ENTROPY SCALE",
+    "slider_b_label": "[SLIDER] THE ENTROPY SCALE (Layout Control)",
     "slider_b_value": "4/5",
     "slider_b_position_name": "▼ Playful (Asymmetry, surprise elements)",
-    "look_and_feel": "High-energy summer vibes with saturated yellows and pinks.",
-    "distinctive_asset_1": "Solid bright yellow background",
-    "distinctive_asset_2": "Pink inflatable pool prop",
-    "distinctive_asset_3": "Bronze metallic tube packaging",
-    "distinctive_asset_4": "#1 Dermatologist Recommended Badge",
-    "distinctive_asset_5": "Script 'sunshine' typography",
-    "palette_color_1": "#FFF23F",
-    "palette_color_2": "#D60293",
-    "palette_color_3": "#85613B",
-    "palette_color_4": "#00AEEF",
+    "territory_number": 2,
+    "territory_name": "Gen-Z Pop (Dopamine)",
+    "reasoning": "The visual strategy is 'Dopamine.' Saturated yellows, hot pinks, and splashes of water create a high-energy, playful aesthetic. It uses chaotic/dynamic elements like inflatable pools and water splashes to signal fun, moving far away from clinical sterility despite the medical claims.",
+    "evidence": "High-contrast vibrant yellow and pink... Inflatable pink pool graphic... Saturated yellow brand-adjacent background",
+    "evidence_src": "APLUS_CONTENT[0].brand_story.sections[0].images[0].VisualHierarchy.color_mood + APLUS_CONTENT[0].brand_story.sections[0].images[1].distinctive_visual_assets",
+    "look_and_feel": "A vibrant, sun-drenched dopamine hit that mixes high-energy pop colors with bronze product tones.",
+    "distinctive_asset_1": "Saturated Yellow Background",
+    "distinctive_asset_2": "Vibrant Pink Accents",
+    "distinctive_asset_3": "Inflatable Pool Motif",
+    "distinctive_asset_4": "Bronze/Gold Bottle Color",
+    "distinctive_asset_5": "Water Splash Graphics",
+    "palette_color_1": "#FFF212",
+    "palette_color_2": "#D6008C",
+    "palette_color_3": "#725232",
+    "palette_color_4": "#00A9E0",
     "palette_color_5": "#FFFFFF",
-    "primary_palette": "Saturated 'Sunshine Yellow' background with playful 'Magenta' and 'Cyan' accents anchoring the 'Bronze' product.",
+    "primary_palette": "Dominant sunny yellow and hot pink with grounding bronze/gold tones.",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Visuals are explicitly identified as high-energy and colorful, mapping perfectly to Gen-Z Pop."
+      "coherence_reasoning": "Slider A (5/5 Hot) + Slider B (4/5 Playful) aligns with Territory 2 - Gen-Z Pop. The visuals are designed to grab attention and signal fun."
     }
   },
   "marker_9": {
     "marker_name": "Messaging",
+    "slider_a_label": "[SLIDER] THE HOOK TARGET (The Subject)",
+    "slider_a_value": "5/5",
+    "slider_a_position_name": "▼ The Dream (Identity subject)",
+    "slider_b_label": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
+    "slider_b_value": "3/5",
+    "slider_b_position_name": "▼ Balanced (Facts with nice tone)",
     "territory_number": 3,
     "territory_name": "The Promise Maker (Aspirational)",
-    "reasoning": "The messaging hook is the Benefit ('Natural Glow', 'Healthy-looking skin') rather than the ingredients. The persuasion logic is Emotional ('Create your own sunshine', 'Feel good feeling') rather than purely rational. It sells the aspiration of a summer day, not the chemistry of the lotion.",
-    "evidence": "Create your own sunshine... Achieve healthy-looking skin... the feel good feeling... beautiful, natural-looking color",
-    "evidence_src": "PRODUCT_DESCRIPTION.sections[0].images[0].text_content + BASE_CONTENT.about_this_item[2] + BASE_CONTENT.product_details[0]",
-    "slider_a_label": "[SLIDER] THE HOOK TARGET",
-    "slider_a_value": "4/5",
-    "slider_a_position_name": "▼ The Result (Effect subject)",
-    "slider_b_label": "[SLIDER] THE PERSUASION LOGIC",
-    "slider_b_value": "4/5",
-    "slider_b_position_name": "▼ Evocative (Descriptive, sensory language)",
+    "reasoning": "The hook is pure Dream: 'Create your own sunshine.' It sells the feeling of summer and radiance. The persuasion is balanced—backing that dream with 'Dermatologist Recommended' facts and 'Antioxidants/Vitamin E' logic. But the primary hook is the promise of the glow.",
+    "evidence": "Create your own sunshine... Achieve healthy-looking skin... With antioxidants and Vitamin E",
+    "evidence_src": "APLUS_CONTENT[1].product_description.sections[0].images[0].text_content + BASE_CONTENT[0].about_this_item[2]",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Result-led hook + Evocative persuasion aligns with The Promise Maker territory."
+      "coherence_reasoning": "Slider A (5/5 Dream) + Slider B (3/5 Balanced) maps to Territory 3 - The Promise Maker. The brand leads with the aspirational result."
     }
   },
   "marker_10": {
     "marker_name": "Narrative",
-    "territory_number": 1,
-    "territory_name": "The Lab Breakthrough (Intellectual)",
-    "reasoning": "While the visuals are 'lifestyle,' the narrative origin is institutional. The content comes 'From the manufacturer' and heavily leverages the '#1 US Dermatologist Recommended' claim. There is no founder story or harvest ritual; the authority comes from the lab (Dermatologists) and the product efficacy.",
-    "evidence": "#1 US DERMATOLOGIST RECOMMENDED... From the manufacturer... Kao USA Inc.",
-    "evidence_src": "PRODUCT_DESCRIPTION.sections[1].images[0].claimsAndFeatures + APLUS_CONTENT.brand_story.main_header + BASE_CONTENT.product_details[1]",
-    "slider_a_label": "[SLIDER] THE PROTAGONIST",
+    "slider_a_label": "[SLIDER] THE PROTAGONIST (Who Solved It)",
     "slider_a_value": "1/5",
-    "slider_a_position_name": "▼ The Nobel (Faceless PhDs, dermatologists)",
-    "slider_b_label": "[SLIDER] THE SETTING",
+    "slider_a_position_name": "▼ The Nobel (Faceless PhDs, Dermatologists)",
+    "slider_b_label": "[SLIDER] THE SETTING (Where It Happened)",
     "slider_b_value": "1/5",
     "slider_b_position_name": "▼ Sterile (Test tubes, molecules, clean rooms)",
+    "territory_number": 1,
+    "territory_name": "The Lab Breakthrough (Intellectual)",
+    "reasoning": "Despite the sunny visuals, the narrative authority is purely institutional. The 'Protagonist' is the collective approval of US Dermatologists. The 'Setting' is implied to be a lab where 'Antioxidants' and 'Vitamin E' are formulated. There is no founder, no garden, no ancient ritual. It is a lab-perfected formula.",
+    "evidence": "#1 US DERMATOLOGIST RECOMMENDED... formulated with antioxidants and Vitamin E... Kao USA Inc.",
+    "evidence_src": "APLUS_CONTENT[0].brand_story.sections[0].images[1].claimsAndFeatures + BASE_CONTENT[0].about_this_item[2] + BASE_CONTENT[0].product_details[1]",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "The primary trust anchor is the medical/professional endorsement, positioning the narrative in The Lab Breakthrough."
+      "coherence_reasoning": "Slider A (1/5 Nobel) + Slider B (1/5 Sterile) aligns with Territory 1 - The Lab Breakthrough. Authority is institutional."
     }
   },
   "marker_11": {
     "marker_name": "Key Selling Points",
-    "territory_number": 1,
-    "territory_name": "Derm-Validation (Expertise)",
-    "reasoning": "The most prominent badge and repeated claim is '#1 US Dermatologist Recommended.' This places the Validator squarely in 'The Board' (1/5). The Proof Type relies on lists of claims ('Paraben Free', 'Cruelty Free') and stats ('#1'), prioritizing expertise/checklist validation over sensory feel or viral graphs.",
-    "evidence": "#1 US DERMATOLOGIST RECOMMENDED... Paraben Free... Cruelty Free... Antioxidants and Vitamin E",
-    "evidence_src": "PRODUCT_DESCRIPTION.sections[1].images[0].claimsAndFeatures + BASE_CONTENT.at_a_glance",
-    "slider_a_label": "[SLIDER] THE VALIDATOR",
+    "slider_a_label": "[SLIDER] THE VALIDATOR (Who Says It Works?)",
     "slider_a_value": "1/5",
     "slider_a_position_name": "▼ The Board (Dermatologist developed/recommended)",
-    "slider_b_label": "[SLIDER] THE PROOF TYPE",
-    "slider_b_value": "2/5",
-    "slider_b_position_name": "▼ The Stat (Numerical proof)",
+    "slider_b_label": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
+    "slider_b_value": "3/5",
+    "slider_b_position_name": "▼ The Visual (Before & After photos)",
+    "territory_number": 1,
+    "territory_name": "Derm-Validation (Expertise)",
+    "reasoning": "The massive '#1 US Dermatologist Recommended' badge is the primary KSP. It validates the product above all else. The proof type supports this with visual claims of 'Natural Glow' and 'Flawless Color,' but the authority of the 'Board' is the decisive factor.",
+    "evidence": "#1 US DERMATOLOGIST RECOMMENDED SUNLESS TANNER... Flawless, natural looking color... visual analysis of swatches",
+    "evidence_src": "APLUS_CONTENT[0].brand_story.sections[0].images[1].claimsAndFeatures + PRODUCT_GALLERY[0].visual_content_analysis[3].visual_analysis_interpreted.communication_focus",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Explicit 'Dermatologist Recommended' badge forces Territory 1."
+      "coherence_reasoning": "Slider A (1/5 Board) + Slider B (3/5 Visual) aligns with Territory 1 - Derm-Validation. The expert stamp is the primary selling point."
     }
   },
   "marker_12": {
     "marker_name": "USP",
-    "territory_number": 1,
-    "territory_name": "The Ingredient King (Raw Material)",
-    "reasoning": "In this context, 'Natural Glow' functions as the Hero Ingredient/Concept. Jergens owns this specific term and concept in the mass market (Slider A: 2/5). The scope is broad ('Daily Body Lotion' for 'Medium to Deep' skin), targeting the mid-market generalist consumer (Slider B: 3/5).",
-    "evidence": "Jergens Natural Glow... Daily Moisturizer... Medium to Deep Skin Tone",
-    "evidence_src": "BASE_CONTENT.product_title",
-    "slider_a_label": "[SLIDER] THE OWNERSHIP CLAIM",
-    "slider_a_value": "2/5",
-    "slider_a_position_name": "▼ The Hero Ingredient (Owned mental link)",
-    "slider_b_label": "[SLIDER] THE TARGET SCOPE",
+    "slider_a_label": "[SLIDER] THE OWNERSHIP CLAIM (What Makes You Unique)",
+    "slider_a_value": "3/5",
+    "slider_a_position_name": "▼ The Signature Complex (Trademarked ingredient blend)",
+    "slider_b_label": "[SLIDER] THE TARGET SCOPE (Market Breadth)",
     "slider_b_value": "3/5",
     "slider_b_position_name": "▼ The Category Player (General face cream)",
+    "territory_number": 3,
+    "territory_name": "The Value Hacker (Efficiency)",
+    "reasoning": "Jergens owns the 'Natural Glow' concept—it's effectively a Signature Complex of gradual tanning + moisturizing. It's a broad Category Player, targeting everyone. The USP is the efficiency of combining a moisturizer with a tanner at a mass price point, effectively hacking the value equation of tanning.",
+    "evidence": "Natural Glow... Daily Moisturizer... Price $10.49... comparison table of products",
+    "evidence_src": "BASE_CONTENT[0].product_title + APLUS_CONTENT[0].brand_story.sections[0].text",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Jergens is synonymous with the 'Glow' category, acting as the category king."
+      "coherence_reasoning": "Signature Complex ownership (Natural Glow) combined with broad scope and low price point aligns with The Value Hacker. It democratizes a complex benefit."
     }
   },
   "marker_13": {
     "marker_name": "Focus",
-    "territory_number": 3,
-    "territory_name": "Lifestyle Aesthetic (Desire)",
-    "reasoning": "The A+ content is dominated by high-gloss, stylized graphics (pools, splashes, gradients) aimed at creating visual desire (Inspiration: 4/5). While there is a comparison table (Commerce: 4/5), the overall visual weight prioritizes setting a mood over deep education or clinical diagrams.",
-    "evidence": "Solid bright yellow background... pink inflatable pool... CREATE YOUR OWN sunshine... Comparison Table",
-    "evidence_src": "APLUS_CONTENT.brand_story.sections[0].images + APLUS_CONTENT.brand_story.sections[0].text",
-    "slider_a_label": "[SLIDER] THE DEPTH GAUGE",
-    "slider_a_value": "4/5",
-    "slider_a_position_name": "▼ The Editorial (Styled shots, models, textures)",
-    "slider_b_label": "[SLIDER] THE INTENT VECTOR",
-    "slider_b_value": "4/5",
-    "slider_b_position_name": "▼ The Pitch (Benefits, value props)",
+    "slider_a_label": "[SLIDER] THE DEPTH GAUGE (Content Purpose)",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ The Explainer (Infographics, How it Works)",
+    "slider_b_label": "[SLIDER] THE INTENT VECTOR (Content Goal)",
+    "slider_b_value": "5/5",
+    "slider_b_position_name": "▼ The Hard Sell (Bundles, discounts, Buy Now)",
+    "territory_number": 4,
+    "territory_name": "Hard Product Sell (Transaction)",
+    "reasoning": "The A+ content features a large comparison table with 'Add to Cart' buttons and prices prominently displayed. It includes instructional graphics (swatches, absorption time). The focus is on closing the sale through clear product differentiation and transactional cues.",
+    "evidence": "Add to Cart... Price $10.49... Comparison Table... Absorbs in 60 seconds",
+    "evidence_src": "APLUS_CONTENT[0].brand_story.sections[0].text + APLUS_CONTENT[0].brand_story.sections[0].images[2].claimsAndFeatures",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "High visual inspiration coupled with commerce intent maps to Lifestyle Aesthetic."
+      "coherence_reasoning": "Slider A (2/5 Explainer) + Slider B (5/5 Hard Sell) aligns with Territory 4 - Hard Product Sell. The page is structured to convert."
     }
   },
   "marker_14": {
     "marker_name": "Functional Benefits",
-    "territory_number": 4,
-    "territory_name": "Correction (Perfection)",
-    "reasoning": "The product's primary job is to change the appearance of the skin ('Create a flawless tan', 'Deepen natural skin tone'). It goes beyond maintenance to actively correct/enhance the visual state (Outcome: 4/5). The action is 'Enhancing' via daily application.",
-    "evidence": "Create a flawless tan... enhance and deepen your natural skin tone... natural-looking color",
-    "evidence_src": "BASE_CONTENT.about_this_item[0] + BASE_CONTENT.about_this_item[1]",
-    "slider_a_label": "[SLIDER] THE ACTION VECTOR",
+    "slider_a_label": "[SLIDER] THE ACTION VECTOR (The Mechanism)",
     "slider_a_value": "3/5",
     "slider_a_position_name": "▼ Maintenance (Daily hydration/support)",
-    "slider_b_label": "[SLIDER] THE OUTCOME TARGET",
+    "slider_b_label": "[SLIDER] THE OUTCOME TARGET (The Goal)",
     "slider_b_value": "4/5",
     "slider_b_position_name": "▼ Aesthetic (Brightening, smoothing texture)",
+    "territory_number": 4,
+    "territory_name": "Correction (Perfection)",
+    "reasoning": "Functionally, it maintains skin (moisturizer) but the primary goal is Aesthetic Correction—'Flawless color,' 'Healthy-looking skin,' 'Glow.' It corrects the appearance of pale or uneven skin tone.",
+    "evidence": "Create a flawless tan... enhance and deepen your natural skin tone... healthier-looking skin",
+    "evidence_src": "BASE_CONTENT[0].about_this_item[0] + BASE_CONTENT[0].about_this_item[2]",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Maintenance action with an Aesthetic outcome maps to Correction/Enhancement."
+      "coherence_reasoning": "Slider A (3/5 Maintenance) + Slider B (4/5 Aesthetic) aligns with Territory 4 - Correction. The maintenance vehicle delivers a corrective result."
     }
   },
   "marker_15": {
     "marker_name": "Emotional Benefits",
+    "slider_a_label": "[SLIDER] THE ANXIETY AXIS (The Emotional Direction)",
+    "slider_a_value": "2/5",
+    "slider_a_position_name": "▼ Reassurance (Don't worry, this works)",
+    "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS (The Audience)",
+    "slider_b_value": "4/5",
+    "slider_b_position_name": "▼ Savvy (I feel smart/validated for choosing this)",
     "territory_number": 2,
     "territory_name": "Confidence (Capability)",
-    "reasoning": "The brand removes the negative anxiety of self-tanning ('Without your derm getting nervous', 'Flawless', 'Streak-free') offering Relief (2/5). This enables the user to feel ready for the world ('Like a day in the sun'), providing a sense of Readiness/Confidence (3/5) to be seen.",
-    "evidence": "WITHOUT YOUR DERM GETTING NERVOUS... Flawless... streak-free... LIKE A DAY IN THE SUN",
-    "evidence_src": "PRODUCT_DESCRIPTION.sections[1].images[0].claimsAndFeatures + BASE_CONTENT.about_this_item[1]",
-    "slider_a_label": "[SLIDER] THE ANXIETY AXIS",
-    "slider_a_value": "2/5",
-    "slider_a_position_name": "▼ Reassurance ('Don't worry, this works')",
-    "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS",
-    "slider_b_value": "3/5",
-    "slider_b_position_name": "▼ Readiness (I am ready to face the day)",
+    "reasoning": "The emotional core is Reassurance—'Without your derm getting nervous,' 'Streak-free,' 'Hassle-free.' This reassurance builds Confidence. The user feels savvy for choosing the #1 recommended brand that gives a glow without the risk. It's about feeling capable of being seen.",
+    "evidence": "WITHOUT YOUR DERM GETTING NERVOUS... hassle-free, streak-free... flawless",
+    "evidence_src": "APLUS_CONTENT[0].brand_story.sections[0].images[1].claimsAndFeatures + BASE_CONTENT[0].about_this_item[1]",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Reassurance mechanism leading to social readiness defines the Confidence territory."
+      "coherence_reasoning": "Slider A (2/5 Reassurance) + Slider B (4/5 Savvy) aligns with Territory 2 - Confidence. The removal of anxiety creates confidence."
     }
   },
   "marker_16": {
     "marker_name": "Self-Expression",
-    "territory_number": 1,
-    "territory_name": "The Pragmatist (Rationality)",
-    "reasoning": "Buying Jergens isn't a status flex; it's a rational choice for effective, safe results at a good price. The signal is 'Smart Choice' (2/5) based on utility and safety. The tribal orientation is 'The Standard' (1/5) given its ubiquity and ranking.",
-    "evidence": "Best Sellers Rank: #2,758... #68 in Body Lotions... 10,075 global ratings",
-    "evidence_src": "BASE_CONTENT.review_count + SOCIAL_PROOF.sales_rank",
-    "slider_a_label": "[SLIDER] THE SIGNAL DRIVER",
+    "slider_a_label": "[SLIDER] THE SIGNAL DRIVER (Purchase Motivation)",
     "slider_a_value": "2/5",
     "slider_a_position_name": "▼ The Smart Choice (because it makes sense)",
-    "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION",
+    "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION (Social Position)",
     "slider_b_value": "1/5",
-    "slider_b_position_name": "▼ The Standard (What everyone uses)",
+    "slider_b_position_name": "▼ The Standard (What everyone uses; the default)",
+    "territory_number": 1,
+    "territory_name": "The Pragmatist (Rationality)",
+    "reasoning": "Buying Jergens Natural Glow isn't a status flex; it's a Pragmatic choice. It's the standard, mass-market option that 'works' and is 'smart' ($10, derm approved). It signals that you are practical and value reliability over hype.",
+    "evidence": "#1 US DERMATOLOGIST RECOMMENDED... Price $10.49... 10,075 ratings",
+    "evidence_src": "APLUS_CONTENT[0].brand_story.sections[0].images[1].claimsAndFeatures + BASE_CONTENT[0].price + BASE_CONTENT[0].review_count",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Mass market ranking and pragmatic value proposition align with The Pragmatist."
+      "coherence_reasoning": "Slider A (2/5 Smart Choice) + Slider B (1/5 Standard) aligns with Territory 1 - The Pragmatist. It's the rational, default choice."
     }
   },
   "marker_17": {
     "marker_name": "Social Benefits",
-    "territory_number": 1,
-    "territory_name": "The Safe Choice (Belonging)",
-    "reasoning": "With 10,000+ reviews and a 'Best Seller' pedigree, Jergens offers 'Safety in Numbers.' The user buys it to achieve the 'Normal/Healthy' look of the majority (Assimilation: 2/5) and joins the massive crowd of satisfied users (Crowd: 1/5). It is the default choice for the category.",
-    "evidence": "10,075 global ratings... Best Sellers Rank... #1 US DERMATOLOGIST RECOMMENDED",
-    "evidence_src": "BASE_CONTENT.review_count + PRODUCT_DESCRIPTION.sections[1].images[0].claimsAndFeatures",
-    "slider_a_label": "[SLIDER] THE SOCIAL VECTOR",
+    "slider_a_label": "[SLIDER] THE SOCIAL VECTOR (Social Goal)",
     "slider_a_value": "2/5",
     "slider_a_position_name": "▼ Acceptance (I want to be accepted by the group)",
-    "slider_b_label": "[SLIDER] THE GROUP DYNAMIC",
+    "slider_b_label": "[SLIDER] THE GROUP DYNAMIC (Tribal Scale)",
     "slider_b_value": "1/5",
     "slider_b_position_name": "▼ The Majority (What most people use)",
+    "territory_number": 1,
+    "territory_name": "The Safe Choice (Belonging)",
+    "reasoning": "This is the 'Honda Civic' of tanning. It's The Safe Choice. With 10,000+ reviews and a #1 rank, you are joining The Majority. The goal is Acceptance—to look healthy and fit in, without the risk of being the person with the bad fake tan.",
+    "evidence": "10,075 global ratings... Best Sellers Rank: #68 in Body Lotions... #1 US DERMATOLOGIST RECOMMENDED",
+    "evidence_src": "BASE_CONTENT[0].review_count + BASE_CONTENT[0].product_details[1] + APLUS_CONTENT[0].brand_story.sections[0].images[1].claimsAndFeatures",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "High review count + acceptance goal aligns with The Safe Choice."
+      "coherence_reasoning": "Slider A (2/5 Acceptance) + Slider B (1/5 Majority) aligns with Territory 1 - The Safe Choice. High social proof and mass adoption drive this."
     }
-  },
-  "error": "The resource you are requesting could not be found"
+  }
 }
