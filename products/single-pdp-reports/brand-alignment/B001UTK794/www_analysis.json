@@ -53,8 +53,8 @@
     "territory_number": 1,
     "territory_name": "The Democratizers (Accessible Skin Health)",
     "reasoning": "Jergens is the definition of democratic beauty. The price point ($5.49) and the 'Oh-so-soft' language signal that this is for everyone, everywhere. The scope is Optimization (better skin/color) rather than a global crusade, but the access barrier is non-existent.",
-    "evidence": "\"ADD TO CART - $5.49\" ... \"OH-SO-soft and smooth SKIN\" ... \"Our nourishing, hydrating, and smoothing formulas— loved by generations\" ... \"FIND YOUR feel-good FEELING\"",
-    "evidence_src": "PRODUCT_PAGE.visible_text[cta_button] + HOME_PAGE.visible_text[headline] + HOME_PAGE.visible_text[subheadline]",
+    "evidence": "\"ADD TO CART - $5.49\" ... \"Available at retailers nationwide\" ... \"Making Life Beautiful... products that care for the needs of our consumers\" ... \"Trusted Brand... since 1901\"",
+    "evidence_src": "PRODUCT_PAGE.visible_text[cta_button] + MISSION_PAGE + ABOUT_PAGE",
     "evaluation_check": {
       "coherence_status": "aligned",
       "coherence_reasoning": "Slider A (2/5 Optimization) + Slider B (5/5 Democratic) maps perfectly to Territory 1. The brand mission is about accessible, everyday improvement."
@@ -70,12 +70,12 @@
     "marker_name": "Values",
     "territory_number": 1,
     "territory_name": "Safety First (The Safe Harbor)",
-    "reasoning": "Despite the 'Glow' promise, the value hierarchy prioritizes Safety. 'Dermatologist tested', 'Paraben-free', 'Cruelty-free', and prominent certification icons all signal that the brand will not harm you. The transparency is 'Explained'—ingredients are highlighted (Coconut Oil, Vitamin E) but not chemically detailed with percentages.",
-    "evidence": "\"Dermatologist tested\" ... \"Cruelty-free skincare\" ... \"Paraben-free lotion\" ... \"#1 U.S. DERMATOLOGIST RECOMMENDED SUNLESS TANNER BRAND\"",
-    "evidence_src": "PRODUCT_PAGE.visible_text[body_copy] + PRODUCT_PAGE.icons[\"DERMATOLOGIST TESTED\", \"PARABEN FREE\", \"Cruelty FREE\"]",
+    "reasoning": "Despite the 'Glow' promise, the value hierarchy prioritizes Safety. 'Dermatologist Tested', 'Paraben-free', 'Cruelty-free', and the 'Kindness Commitment' all signal that the brand will not harm you. The transparency is 'Explained'—ingredients are highlighted (Coconut Oil, Vitamin E) but not chemically detailed with percentages.",
+    "evidence": "\"Dermatologist tested\" ... \"Cruelty-free skincare\" ... \"Paraben-free lotion\" ... \"Kindness Commitment: Kind to People. Kind to Planet.\"",
+    "evidence_src": "PRODUCT_PAGE.visible_text[body_copy] + PRODUCT_PAGE.icons[\"DERMATOLOGIST TESTED\", \"PARABEN FREE\", \"Cruelty FREE\"] + VALUES_PAGE",
     "evaluation_check": {
       "coherence_status": "aligned",
-      "coherence_reasoning": "Slider A (2/5 Gentle) + Slider B (3/5 Explained) maps to Territory 1. The emphasis on safety certifications and 'Dermatologist tested' overrides the potency claims."
+      "coherence_reasoning": "Slider A (2/5 Gentle) + Slider B (3/5 Explained) maps to Territory 1. The emphasis on 'Kindness' and 'Dermatologist Tested' overrides the potency claims."
     },
     "slider_a_label": "[SLIDER] PERFORMANCE PRIORITY (The Trade-Off)",
     "slider_a_value": "2/5",
@@ -88,9 +88,9 @@
     "marker_name": "Positioning",
     "territory_number": 3,
     "territory_name": "The Gentle Giant (The Supermarket)",
-    "reasoning": "Jergens occupies the 'Supermarket' slot in the brain—reliable, accessible, and family-safe. The aesthetic has been updated ('WITH A FRESH NEW LOOK!', 'Create your own sunshine') to feel more lifestyle-oriented, but the underlying value proposition is Daily Essential ($5.49). It is the 'Gentle Giant' of the aisle.",
-    "evidence": "\"ADD TO CART - $5.49\" ... \"Our nourishing, hydrating, and smoothing formulas— loved by generations\" ... \"daily moisturizer\" ... \"WITH A FRESH NEW LOOK!\"",
-    "evidence_src": "PRODUCT_PAGE.visible_text[cta_button] + HOME_PAGE.visible_text[subheadline] + PRODUCT_PAGE.visible_text[body_copy]",
+    "reasoning": "Jergens occupies the 'Supermarket' slot in the brain—reliable, accessible, and family-safe. The aesthetic has been updated ('Fresh new look', 'Create your own sunshine') to feel more lifestyle-oriented, but the underlying value proposition is Daily Essential ($5.49). It is the 'Gentle Giant' of the aisle.",
+    "evidence": "\"ADD TO CART - $5.49\" ... \"Trusted Brand for comforting moisture since 1901\" ... \"daily moisturizer\" ... \"Fresh new look\"",
+    "evidence_src": "PRODUCT_PAGE.visible_text[cta_button] + ABOUT_PAGE + PRODUCT_PAGE.visible_text[body_copy]",
     "evaluation_check": {
       "coherence_status": "aligned",
       "coherence_reasoning": "Slider A (3/5 Balanced) + Slider B (2/5 Daily Essential). A score of 3 on Aesthetic with Utility value typically leans Territory 3 (Gentle Giant), which fits the mass-market family positioning."
@@ -106,9 +106,9 @@
     "marker_name": "Personality",
     "territory_number": 1,
     "territory_name": "The Trusted Friend (Sincerity)",
-    "reasoning": "The brand voice is warm, optimistic, and sincere. Phrases like 'Oh-so-soft', 'Now that's love', and 'Create your own sunshine' create a high-warmth environment. The authority is present ('Dermatologist recommended') but it feels like a friend passing on a tip rather than a doctor issuing a prescription.",
-    "evidence": "\"There's something sunnier about life with Jergens\" ... \"It just feels good to glow\" ... \"OH-SO-soft and smooth SKIN\" ... \"transform dryness into softness and ugh into happiness. Now that's love.\"",
-    "evidence_src": "PRODUCT_PAGE.visible_text[body_copy] + HOME_PAGE.visible_text[headline] + HOME_PAGE.visible_text[subheadline]",
+    "reasoning": "The brand voice is warm, optimistic, and sincere. Phrases like 'Oh-so-soft', 'Love', and 'Create your own sunshine' create a high-warmth environment. The authority is present ('Dermatologist recommended') but it feels like a friend passing on a tip rather than a doctor issuing a prescription.",
+    "evidence": "\"There's something sunnier about life with Jergens\" ... \"It just feels good to glow\" ... \"Oh-so-soft and smooth\" ... \"From Cincinnati, with love\"",
+    "evidence_src": "PRODUCT_PAGE.visible_text[body_copy] + HOME_PAGE.visible_text[headline] + ABOUT_PAGE",
     "evaluation_check": {
       "coherence_status": "aligned",
       "coherence_reasoning": "Slider A (4/5 Affectionate) + Slider B (2/5 Insider/Relatable). High warmth + low-mid authority maps to Territory 1 (Trusted Friend)."
@@ -124,9 +124,9 @@
     "marker_name": "Archetypes Mix",
     "territory_number": 4,
     "territory_name": "The Guardian (Belonging x Stability)",
-    "reasoning": "The dominant energy is The Caregiver (60%)—rooted in 'nourishing, hydrating, and smoothing formulas loved by generations' and safety certifications. This is supported by The Innocent (25%) which brings the 'Sunshine', 'Glow', and 'feel-good FEELING' optimism. The Everyman (15%) grounds it in accessibility ($5.49). While the 'Glow' implies transformation, the heavy safety coding ('Dermatologist tested', 'Cruelty-free') keeps it in The Guardian territory.",
-    "evidence": "\"Our nourishing, hydrating, and smoothing formulas— loved by generations\" (Caregiver) ... \"CREATE YOUR OWN sunshine\" (Innocent) ... \"ADD TO CART - $5.49\" (Everyman) ... \"Dermatologist tested\" + \"Cruelty-free skincare\" (Caregiver)",
-    "evidence_src": "HOME_PAGE.visible_text[subheadline] + HOME_PAGE.visible_text[headline] + PRODUCT_PAGE.visible_text[cta_button] + PRODUCT_PAGE.visible_text[body_copy]",
+    "reasoning": "The dominant energy is The Caregiver (60%)—rooted in 120+ years of 'comforting moisture' and 'kindness'. This is supported by The Innocent (25%) which brings the 'Sunshine', 'Glow', and 'Pure' optimism. The Everyman (15%) grounds it in accessibility ($5.49). While the 'Glow' implies transformation, the heavy safety coding ('Dermatologist tested', 'Kindness') keeps it in The Guardian territory.",
+    "evidence": "\"Trusted Brand for comforting moisture since 1901\" (Caregiver) ... \"Create your own sunshine\" (Innocent) ... \"ADD TO CART - $5.49\" (Everyman) ... \"Kindness Commitment\" (Caregiver)",
+    "evidence_src": "ABOUT_PAGE + VALUES_PAGE + HOME_PAGE.visible_text[headline] + PRODUCT_PAGE.visible_text[cta_button]",
     "evaluation_check": {
       "coherence_status": "not_applicable",
       "coherence_reasoning": "Archetype mix derived from content analysis. Dominance of Caregiver (Safety/Heritage) places it in Territory 4."
@@ -223,9 +223,9 @@
     "marker_name": "Narrative",
     "territory_number": 3,
     "territory_name": "The Green Lab (Optimized Nature)",
-    "reasoning": "The narrative blends a heritage brand foundation with an emphasis on 'Natural' ingredients (Coconut Oil, Vitamin E) and nourishing formulas 'loved by generations'. It's not a raw harvest story (Territory 4), but rather a story of a trusted company using science to deliver a 'Natural Glow'. The 'Green Lab' territory captures this 'Nature optimized by Experts' approach.",
-    "evidence": "\"Our nourishing, hydrating, and smoothing formulas— loved by generations\" ... \"NATURAL GLOW\" ... \"revitalizing formula with Vitamin E, antioxidants\" ... \"ANTIOXIDANTS & COCONUT OIL\"",
-    "evidence_src": "HOME_PAGE.visible_text[subheadline] + PRODUCT_PAGE.visible_text[body_copy] + SHOPIFY_GALLERY[0].visible_text[claim]",
+    "reasoning": "The narrative blends a heritage brand foundation ('since 1901') with an emphasis on 'Natural' ingredients (Coconut Oil, Vitamin E) and nourishing formulas 'loved by generations'. It's not a raw harvest story (Territory 4), but rather a story of a trusted company using science to deliver a 'Natural Glow'. The 'Green Lab' territory captures this 'Nature optimized by Experts' approach.",
+    "evidence": "\"Trusted Brand for comforting moisture since 1901\" ... \"Our nourishing, hydrating, and smoothing formulas— loved by generations\" ... \"revitalizing formula with Vitamin E, antioxidants\" ... \"ANTIOXIDANTS & COCONUT OIL\"",
+    "evidence_src": "ABOUT_PAGE + HOME_PAGE.visible_text[subheadline] + PRODUCT_PAGE.visible_text[body_copy] + SHOPIFY_GALLERY[0].visible_text[claim]",
     "evaluation_check": {
       "coherence_status": "aligned",
       "coherence_reasoning": "Slider A (2/5 Professional) + Slider B (4/5 Source/Nature-Coded) maps to Territory 3. The brand acts as the expert mediator bringing natural benefits to the user."
