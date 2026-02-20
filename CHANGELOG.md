@@ -1,15 +1,61 @@
 # POKPOK Changelog
 
 ## TODO - In Progress
+- [ ] Deploy www_system_prompt_v4.6 to n8n + test B0BPXT3GBN (Marker 8 fix)
+- [ ] Fix scoring non-determinism — move alignment formula from Gemini to Code node
+- [ ] Fix system prompt v3.5/v3.6 — broken UI data format (territory_number string, archetype prefix)
 - [ ] WWW v2 — test 1+ more brands (2/3 complete), validate downstream consumption
 - [ ] Update `pdp_intro_2.0.md` evidence paths for v2 visual analysis schema
 - [ ] Update `www_intro_2.0.md` evidence paths for www v2 schema (Marker 8 references)
 - [ ] Test PDP v2 output across 3+ ASINs for composition enum validation
-- [ ] Brand perception engine — Gemini 3 Pro HTTP Request with grounding tools
 - [ ] Deploy BestSellerCard click-to-run-analysis (v1.0.13 ready)
 - [ ] Monthly aggregation workflow (top 15 products)
 - [ ] Verify n8n webhook flow execution end-to-end
 - [ ] Dynamic /order page (product context from source pages)
+
+---
+
+## 2026-02-20
+
+### Brand Perception System Prompt
+- **feature:** WWW system prompt v4.6 — Marker 8 Warm Palette Self-Check rule. If palette description contains warm descriptors ("warm," "pink," "rose," "beige," "gold," etc.), thermostat cannot be ≤2/5. Self-contradiction detector stops and re-scores from gallery only.
+- **feature:** WWW system prompt v4.6 — Marker 8 PDP Visual Reference Rule. When `pdp_marker_8` field provided in input and WWW gallery visually similar to PDP gallery, use PDP territory as reference to prevent territory flipping on identical images.
+- **improvement:** B0BPXT3GBN (Medicube) anomaly investigation complete — score 26→31 after visual pipeline fix. M8 self-contradiction identified (warm pink palette + Sterile thermostat). Score ceiling ~37/100 without brand alignment decisions.
+- **improvement:** Execution 26984 visual analysis validated — confirmed URL fix, Clinical Pop (not Pharma-Code) is correct page-level territory, warm pink gallery imagery captured correctly.
+
+> **Note:** B0BPXT3GBN score is legitimately low (31/100). 12 of 17 markers reflect genuine brand splits between medicube.us ($30) and Amazon PDP ($16). The ~2x price gap drives different brand stories on each channel. The v4.6 fix addresses the one remaining pipeline anomaly (Marker 8 self-contradiction, +4.7 pts).
+
+---
+
+## 2026-02-18
+
+### n8n Audit
+- **improvement:** Full execution audit of B002BADJVE (MISSHA BB Cream) — score varies 51→56→61 across consecutive runs. Root cause: alignment formula computed by Gemini 2.5 Pro at temperature 1, not by code.
+- **improvement:** F018 failure documented — system prompt refactoring (v3.5/v3.6) broke JSON output types. `territory_number` became string instead of integer, archetype names lost "The " prefix. UI shows blank data for affected ASINs.
+- **improvement:** 90-point per-marker swings confirmed (KSP: 10%→100% between runs). No seed parameter on any Gemini node.
+
+> **Note:** Three critical fixes needed: (1) Move scoring to Code node (deterministic), (2) Lower temperatures on all Gemini nodes (1.0→0.2/0.3), (3) Add seed parameter to all generationConfig blocks.
+
+---
+
+## 2026-02-08
+
+### Admin Panel — Recurring Orders
+- **feature:** RecurringOrderItemsList v1.1.0 — 1 component instance per category group (not 15), binds title/alignment/category/orderCount per group, asin1-15 badge binding
+- **fix:** AdminPDPProvider v1.5.15 — removed wrong `if (row.report_id) return false` filter that excluded all category rows from on-demand section
+- **feature:** RecurringOrderItemsList v1.2.0 + AdminPDPProvider v1.5.16 — group title from `pdp.leaderboard` column instead of report_id
+- **feature:** RecurringOrderItemsList v1.2.1 — per-ASIN badge variants (Yellow=analyzed, Green=approved, Muted=pending)
+- **feature:** RecurringOrderItemsList v1.2.4 — DOM workaround for badge text colors (Framer variants only control BG)
+- **feature:** RecurringOrderItemsList v1.2.5 — MutationObserver for badge text color persistence across re-renders
+
+### Admin Panel — Processed Orders
+- **fix:** OrderItemsList v1.2.5 — Rerun button stays disabled until status updates
+- **fix:** OrderItemsList v1.2.7 — Flagged ASINs show Critical/BG pink badges
+- **fix:** OrderItemsList v1.2.8 — Hide category badge when report_id is NULL (opacity 0 workaround)
+
+### Documentation
+- **improvement:** Recurring orders failure analysis documented (F010 violation, architecture misunderstanding)
+- **improvement:** F017 failure documented — universal rule: camelCase for data props, prop IDs only for variants
 
 ---
 
