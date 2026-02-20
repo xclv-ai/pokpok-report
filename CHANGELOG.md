@@ -38,6 +38,49 @@
 
 ---
 
+## 2026-02-19
+
+### Brand Perception System Prompts — Major Rewrite (v4.0–v4.5)
+- **feature:** PDP system prompt v4.0–v4.5 — complete rewrite of brand perception PDP prompt. Fixed territory_number type (integer, not string), restored archetype "The " prefix, concrete JSON examples instead of skeleton placeholders.
+- **feature:** WWW system prompt v4.0–v4.5 — parallel rewrite of WWW prompt. Same type fixes + restored full JSON output examples for LLM type inference.
+- **feature:** Gaps Evaluation v2.0 — began extracting deterministic scoring formula from LLM prompt to Code node. Pre-calculated alignment data passed as input, Gemini only generates narrative (5 Truths).
+- **feature:** Gaps Evaluation v2.1 — refined code node interface for pre-calculated gaps data.
+
+### Parsing Quality Audits
+- **improvement:** PDP parsing audit for B002BADJVE (MISSHA) — live Chrome DevTools verification of Amazon page. Found n8n pipeline drops `visible_text` values from `PRODUCT_GALLERY` (18 brand claims lost). Supabase has correct data. Confirmed A+ content is image-only by design. 11 Excellent / 4 Partial / 0 Critical.
+- **improvement:** WWW parsing audit for MISSHA (misshaus.com) — verified 4 pages live. Documented two-stage pipeline architecture (Stage 1: screenshots → visual parse, Stage 2: Gemini with URL retrieval). Identified about/brand page coverage gaps as Stage 2 responsibility, not Stage 1 failure.
+- **improvement:** B0BPXT3GBN full anomaly audit aggregated — 6 anomalies across scraping pipeline and alignment scoring. Confirmed product URL 404 as root cause of original 26/100 score.
+
+### n8n Pipeline
+- **fix:** Identified n8n aggregation bug — FULL_PDP.json for Dr. Althea (B0FKGJYFC8) contains only `PRODUCT_GALLERY`, missing `BASE_CONTENT`, `ABOUT_THE_BRAND`, `SOCIAL_PROOF`. Brand perception evaluator ran with ~25% input data.
+- **improvement:** Multiple input format iterations (V2–V6) for both PDP and WWW to validate parsing completeness.
+
+> **Note:** v4.0–v4.5 are the "fixed" versions of the v3.5/v3.6 prompts that broke UI data binding (F018). All 5 iterations produced on same day as rapid testing cycle against B002BADJVE output. Type compatibility with DataOverrides.tsx verified.
+
+---
+
+## 2026-02-17
+
+### Brand Perception System Prompts — WWW Mode Adaptation
+- **feature:** System prompt v3.5 — WWW website browsing adaptation from v3.4 PDP prompt (+157 lines). Role section rewritten from "parse JSON blob" to "decode brand perception using url_context tool". 6-point TASK list added (analyze product page, parse all URLs, build brand dossier for M1-4, product page as execution proof for M5-17).
+- **feature:** System prompt v3.6 — PDP prompt refactoring alongside WWW adaptation. Input format restructured with multiple JSON iteration versions.
+- **feature:** Gaps Evaluation code node — extracted scoring formula structure for future deterministic computation. Separated narrative generation from score calculation.
+- **improvement:** Prompt flaw audit initiated — cataloging every prompt-level flaw contributing to scoring unreliability and territory assignment inconsistency across v3.6/v3.7.
+
+> **Note:** v3.5/v3.6 refactoring inadvertently broke JSON output format (discovered Feb 18 as F018). territory_number became string, archetype names lost "The " prefix. This was the trigger for the v4.0–v4.5 emergency rewrite on Feb 19.
+
+---
+
+## 2026-02-09
+
+### Admin Panel — Final Deployments
+- **fix:** OrderItemsList v1.2.8 — final production deployment. Category badge hidden when report_id is NULL (opacity 0 workaround). DOM workaround finds "unselected" text and hides parent badge.
+- **fix:** RecurringOrderItemsList v1.2.3 — final backup before production stabilization. Badge text color persistence verified across Framer re-renders.
+
+> **Note:** Marks the completion of the Feb 8 admin panel sprint. All three code components (RecurringOrderItemsList, OrderItemsList, AdminPDPProvider) confirmed stable in production.
+
+---
+
 ## 2026-02-08
 
 ### Admin Panel — Recurring Orders
