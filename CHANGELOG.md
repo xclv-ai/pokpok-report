@@ -17,6 +17,12 @@
 
 ## 2026-03-07
 
+### pokpok-ui SKILL.md — Round 2 Fixes
+- **fix:** Duplicate SKILL.md in `marketing/.claude/skills/pokpok-ui/` — identical copy of main skill, guaranteed drift bug. Deleted duplicate; monorepo skills in `.claude/skills/` are accessible to all subprojects.
+- **fix:** 8 verified errors corrected via live DevTools evaluation: LOG IN button (missing font-size/uppercase), status labels (missing uppercase), incomplete italic words list, H2 dual-font usage undocumented, danger badge display-p3 color, footer tagline/subscribe button/brand therapy label undocumented
+- **improvement:** 7 undocumented components added from screenshot analysis: truth source cards, question/answer cards, accordion sections, tone sliders, archetype territory grid, saturation summary blocks, category distribution bars
+- **improvement:** Added screenshot reference to SKILL.md for visual verification
+
 ### Email Template Audit
 - **improvement:** F019 failure documented — email template audit used local files instead of Supabase dashboard
 - **improvement:** Discovered Supabase has TWO email template sections: Auth emails + Security notifications (5 templates need POKPOK styling)
