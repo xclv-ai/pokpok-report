@@ -1,5 +1,18 @@
 # POKPOK Changelog
 
+## TODO - In Progress
+- [ ] Deploy www_system_prompt_v4.6 to n8n + test B0BPXT3GBN (Marker 8 fix)
+- [ ] Fix scoring non-determinism — move alignment formula from Gemini to Code node
+- [ ] Fix system prompt v3.5/v3.6 — broken UI data format (territory_number string, archetype prefix)
+- [ ] WWW v2 — test 1+ more brands (2/3 complete), validate downstream consumption
+- [ ] Update `pdp_intro_2.0.md` evidence paths for v2 visual analysis schema
+- [ ] Update `www_intro_2.0.md` evidence paths for www v2 schema (Marker 8 references)
+- [ ] Test PDP v2 output across 3+ ASINs for composition enum validation
+- [ ] Deploy BestSellerCard click-to-run-analysis (v1.0.13 ready)
+- [ ] Monthly aggregation workflow (top 15 products)
+- [ ] Verify n8n webhook flow execution end-to-end
+- [ ] Dynamic /order page (product context from source pages)
+
 ---
 
 ## 2026-03-07
