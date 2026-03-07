@@ -1,26 +1,108 @@
 # POKPOK Changelog
 
-## TODO - In Progress
-- [ ] Deploy www_system_prompt_v4.6 to n8n + test B0BPXT3GBN (Marker 8 fix)
-- [ ] Fix scoring non-determinism — move alignment formula from Gemini to Code node
-- [ ] Fix system prompt v3.5/v3.6 — broken UI data format (territory_number string, archetype prefix)
-- [ ] WWW v2 — test 1+ more brands (2/3 complete), validate downstream consumption
-- [ ] Update `pdp_intro_2.0.md` evidence paths for v2 visual analysis schema
-- [ ] Update `www_intro_2.0.md` evidence paths for www v2 schema (Marker 8 references)
-- [ ] Test PDP v2 output across 3+ ASINs for composition enum validation
-- [ ] Deploy BestSellerCard click-to-run-analysis (v1.0.13 ready)
-- [ ] Monthly aggregation workflow (top 15 products)
-- [ ] Verify n8n webhook flow execution end-to-end
-- [ ] Dynamic /order page (product context from source pages)
+---
+
+## 2026-03-07
+
+### Email Template Audit
+- **improvement:** F019 failure documented — email template audit used local files instead of Supabase dashboard
+- **improvement:** Discovered Supabase has TWO email template sections: Auth emails + Security notifications (5 templates need POKPOK styling)
+
+### Monorepo
+- **feature:** Initial monorepo git commit with consolidated structure
+
+### Tracking Consolidation
+- **improvement:** Universal changelog — migrated all bugs from xray/BUGS.md, TODOs from changelog/TODO.md into single changelog.md
+- **feature:** Changelog update protocol rule created (.claude/rules/global/changelog-update-protocol.md)
+
+---
+
+## 2026-03-04
+
+### X-RAY LED Bar Iterations
+- **fix:** XrayOverrides v1.6.31 through v1.6.34 — no lower section, passthrough lower, smooth transition, robust lower section
+- **improvement:** LED bar colors now correct via CSS filter approach, but semi-transparent opacity issue remains
+
+> **Note:** 40+ local iterations on LED bar display. All versions local only — Framer MCP `updateCodeFile` fails on files >200 lines. Manual copy-paste deployment required.
+
+---
+
+## 2026-03-03
+
+### X-RAY LED Bar Iterations
+- **fix:** XrayOverrides v1.6.28 through v1.6.30 — row fixes, smooth lower section, restore group hiding
+
+---
+
+## 2026-03-02
+
+### X-RAY LED Bar Iterations
+- **fix:** XrayOverrides v1.6.24 through v1.6.27 — score vertical display, row fix iterations
+
+---
+
+## 2026-03-01
+
+### X-RAY DevTools Audit
+- **improvement:** Live testing audit: 10 failure points confirmed, 23 working features verified
+- **improvement:** v1.0.8 Provider / v1.1.0 Overrides / v1.3 Content status — DEPLOYED with failures
+
+### X-RAY Local Fixes (NOT DEPLOYED)
+- **fix:** XrayProvider v1.2.0 — keyboard navigation fixed (Space for section switching)
+- **fix:** XrayOverrides v1.5.0 — Dial OFF click fix, data guards removed for pre-scan educational mode
+- **fix:** XrayOverrides v1.6.4 — LED bar color fixes using CSS filter DOM manipulation
+
+---
+
+## 2026-02-28
+
+### Monorepo Consolidation
+- **feature:** All pokpok-* repos consolidated into single monorepo `pokpok-ai/`
+- **improvement:** Subprojects moved to root: xray/, www/, paywall/, leaderboard/, n8n/, marketing/, changelog/, extension/, ops/
+- **improvement:** All .claude/ rules, skills, and agents consolidated under pokpok-ai/.claude/
+
+### X-RAY Full Audit
+- **improvement:** Comprehensive X-RAY audit discovered 26 bugs across keyboard navigation, LED displays, auth gating, and click handlers
+- **improvement:** Bug registry created (BUG-1 through BUG-21 + 5 additional)
+
+---
+
+## 2026-02-25
+
+### X-RAY Benchmarking
+- **feature:** ShipOrDie benchmark teardown — performance analysis of competitor X-RAY tools
+- **feature:** ShipOrDie prompt options — Gemini configuration testing for scan quality
+
+---
+
+## 2026-02-24
+
+### X-RAY Design
+- **improvement:** Display screens finalization complete
+
+---
+
+## 2026-02-23
+
+### X-RAY Design
+- **feature:** Display screens specification finalized — all 13 UI states documented (idle, scanning, results, error, etc.)
+
+---
+
+## 2026-02-21
+
+### n8n System Prompts
+- **feature:** WWW system prompt v4.7 — M14 + M16 cross-marker coherence self-checks. Medicube score 31->36/100.
+- **feature:** WWW system prompt v4.8 — M15 Slider A Self-Check: if M14 territory = Correction/Protection, M15 Anxiety cannot be <=2/5. Expected Medicube 36->40.6/100.
 
 ---
 
 ## 2026-02-20
 
 ### Brand Perception System Prompt
-- **feature:** WWW system prompt v4.6 — Marker 8 Warm Palette Self-Check rule. If palette description contains warm descriptors ("warm," "pink," "rose," "beige," "gold," etc.), thermostat cannot be ≤2/5. Self-contradiction detector stops and re-scores from gallery only.
+- **feature:** WWW system prompt v4.6 — Marker 8 Warm Palette Self-Check rule. If palette description contains warm descriptors ("warm," "pink," "rose," "beige," "gold," etc.), thermostat cannot be <=2/5. Self-contradiction detector stops and re-scores from gallery only.
 - **feature:** WWW system prompt v4.6 — Marker 8 PDP Visual Reference Rule. When `pdp_marker_8` field provided in input and WWW gallery visually similar to PDP gallery, use PDP territory as reference to prevent territory flipping on identical images.
-- **improvement:** B0BPXT3GBN (Medicube) anomaly investigation complete — score 26→31 after visual pipeline fix. M8 self-contradiction identified (warm pink palette + Sterile thermostat). Score ceiling ~37/100 without brand alignment decisions.
+- **improvement:** B0BPXT3GBN (Medicube) anomaly investigation complete — score 26->31 after visual pipeline fix. M8 self-contradiction identified (warm pink palette + Sterile thermostat). Score ceiling ~37/100 without brand alignment decisions.
 - **improvement:** Execution 26984 visual analysis validated — confirmed URL fix, Clinical Pop (not Pharma-Code) is correct page-level territory, warm pink gallery imagery captured correctly.
 
 > **Note:** B0BPXT3GBN score is legitimately low (31/100). 12 of 17 markers reflect genuine brand splits between medicube.us ($30) and Amazon PDP ($16). The ~2x price gap drives different brand stories on each channel. The v4.6 fix addresses the one remaining pipeline anomaly (Marker 8 self-contradiction, +4.7 pts).
@@ -30,54 +112,11 @@
 ## 2026-02-18
 
 ### n8n Audit
-- **improvement:** Full execution audit of B002BADJVE (MISSHA BB Cream) — score varies 51→56→61 across consecutive runs. Root cause: alignment formula computed by Gemini 2.5 Pro at temperature 1, not by code.
+- **improvement:** Full execution audit of B002BADJVE (MISSHA BB Cream) — score varies 51->56->61 across consecutive runs. Root cause: alignment formula computed by Gemini 2.5 Pro at temperature 1, not by code.
 - **improvement:** F018 failure documented — system prompt refactoring (v3.5/v3.6) broke JSON output types. `territory_number` became string instead of integer, archetype names lost "The " prefix. UI shows blank data for affected ASINs.
-- **improvement:** 90-point per-marker swings confirmed (KSP: 10%→100% between runs). No seed parameter on any Gemini node.
+- **improvement:** 90-point per-marker swings confirmed (KSP: 10%->100% between runs). No seed parameter on any Gemini node.
 
-> **Note:** Three critical fixes needed: (1) Move scoring to Code node (deterministic), (2) Lower temperatures on all Gemini nodes (1.0→0.2/0.3), (3) Add seed parameter to all generationConfig blocks.
-
----
-
-## 2026-02-19
-
-### Brand Perception System Prompts — Major Rewrite (v4.0–v4.5)
-- **feature:** PDP system prompt v4.0–v4.5 — complete rewrite of brand perception PDP prompt. Fixed territory_number type (integer, not string), restored archetype "The " prefix, concrete JSON examples instead of skeleton placeholders.
-- **feature:** WWW system prompt v4.0–v4.5 — parallel rewrite of WWW prompt. Same type fixes + restored full JSON output examples for LLM type inference.
-- **feature:** Gaps Evaluation v2.0 — began extracting deterministic scoring formula from LLM prompt to Code node. Pre-calculated alignment data passed as input, Gemini only generates narrative (5 Truths).
-- **feature:** Gaps Evaluation v2.1 — refined code node interface for pre-calculated gaps data.
-
-### Parsing Quality Audits
-- **improvement:** PDP parsing audit for B002BADJVE (MISSHA) — live Chrome DevTools verification of Amazon page. Found n8n pipeline drops `visible_text` values from `PRODUCT_GALLERY` (18 brand claims lost). Supabase has correct data. Confirmed A+ content is image-only by design. 11 Excellent / 4 Partial / 0 Critical.
-- **improvement:** WWW parsing audit for MISSHA (misshaus.com) — verified 4 pages live. Documented two-stage pipeline architecture (Stage 1: screenshots → visual parse, Stage 2: Gemini with URL retrieval). Identified about/brand page coverage gaps as Stage 2 responsibility, not Stage 1 failure.
-- **improvement:** B0BPXT3GBN full anomaly audit aggregated — 6 anomalies across scraping pipeline and alignment scoring. Confirmed product URL 404 as root cause of original 26/100 score.
-
-### n8n Pipeline
-- **fix:** Identified n8n aggregation bug — FULL_PDP.json for Dr. Althea (B0FKGJYFC8) contains only `PRODUCT_GALLERY`, missing `BASE_CONTENT`, `ABOUT_THE_BRAND`, `SOCIAL_PROOF`. Brand perception evaluator ran with ~25% input data.
-- **improvement:** Multiple input format iterations (V2–V6) for both PDP and WWW to validate parsing completeness.
-
-> **Note:** v4.0–v4.5 are the "fixed" versions of the v3.5/v3.6 prompts that broke UI data binding (F018). All 5 iterations produced on same day as rapid testing cycle against B002BADJVE output. Type compatibility with DataOverrides.tsx verified.
-
----
-
-## 2026-02-17
-
-### Brand Perception System Prompts — WWW Mode Adaptation
-- **feature:** System prompt v3.5 — WWW website browsing adaptation from v3.4 PDP prompt (+157 lines). Role section rewritten from "parse JSON blob" to "decode brand perception using url_context tool". 6-point TASK list added (analyze product page, parse all URLs, build brand dossier for M1-4, product page as execution proof for M5-17).
-- **feature:** System prompt v3.6 — PDP prompt refactoring alongside WWW adaptation. Input format restructured with multiple JSON iteration versions.
-- **feature:** Gaps Evaluation code node — extracted scoring formula structure for future deterministic computation. Separated narrative generation from score calculation.
-- **improvement:** Prompt flaw audit initiated — cataloging every prompt-level flaw contributing to scoring unreliability and territory assignment inconsistency across v3.6/v3.7.
-
-> **Note:** v3.5/v3.6 refactoring inadvertently broke JSON output format (discovered Feb 18 as F018). territory_number became string, archetype names lost "The " prefix. This was the trigger for the v4.0–v4.5 emergency rewrite on Feb 19.
-
----
-
-## 2026-02-09
-
-### Admin Panel — Final Deployments
-- **fix:** OrderItemsList v1.2.8 — final production deployment. Category badge hidden when report_id is NULL (opacity 0 workaround). DOM workaround finds "unselected" text and hides parent badge.
-- **fix:** RecurringOrderItemsList v1.2.3 — final backup before production stabilization. Badge text color persistence verified across Framer re-renders.
-
-> **Note:** Marks the completion of the Feb 8 admin panel sprint. All three code components (RecurringOrderItemsList, OrderItemsList, AdminPDPProvider) confirmed stable in production.
+> **Note:** Three critical fixes needed: (1) Move scoring to Code node (deterministic), (2) Lower temperatures on all Gemini nodes (1.0->0.2/0.3), (3) Add seed parameter to all generationConfig blocks.
 
 ---
 
@@ -106,7 +145,7 @@
 
 ### n8n Visual Analysis
 - **feature:** WWW Visual Analysis System Prompt & Schema v2 — dual-layer Container/Content analysis for brand website screenshots. Separates website UI shell (Container) from brand visual content (Content). 6 visual territory types: Pharma-Code, Clinical Pop, Gen-Z Pop, Heritage Warm, Luxury Minimal, Warm Shell.
-- **feature:** WWW v2 pipeline: Edit Image → Extract from File (binary→base64) → Gemini 3 Flash HTTP Request → Final Combining Code Node. Switched from OpenAI ChatGPT-4o to Gemini 3 Flash.
+- **feature:** WWW v2 pipeline: Edit Image -> Extract from File (binary->base64) -> Gemini 3 Flash HTTP Request -> Final Combining Code Node. Switched from OpenAI ChatGPT-4o to Gemini 3 Flash.
 - **feature:** 9 website-specific `visible_text` types: brand_name, headline, subheadline, navigation, cta_button, body_copy, testimonial, tagline, other
 - **feature:** 5 website-specific `image_composition` enums: page_content_type (9 values), imagery_style (8 values), layout_type, text_density, background_type
 - **feature:** PDP Visual Analysis v2 — 3-section schema: `visual_analysis_raw` (OCR), `image_composition` (enums), `visual_analysis_interpreted` (AI analysis). Tagged `visible_text` array replaces 6 separate fields.
@@ -131,7 +170,7 @@
 ### Leaderboard
 - **fix:** BestSellerCard double execution bug (mutex fix in LeaderboardOverrides v1.0.13)
 - **feature:** Click-to-run-analysis webhook trigger on BestSellerCard (LeaderboardOverrides v1.0.13)
-- **feature:** Separate navigation override for Amazon URL (right-click → open in new tab preserved)
+- **feature:** Separate navigation override for Amazon URL (right-click -> open in new tab preserved)
 
 ### Documentation
 - **improvement:** Event delegation success pattern for Framer Suspense components
@@ -206,8 +245,8 @@
 - **fix:** RecentOrder component date/time formatting
 
 ### Database Schema
-- **improvement:** Database schema: `approved` → `status` column for granular tracking
-- **improvement:** Field naming: `pdp-link` → `pdp_link` (underscore convention)
+- **improvement:** Database schema: `approved` -> `status` column for granular tracking
+- **improvement:** Field naming: `pdp-link` -> `pdp_link` (underscore convention)
 
 ---
 
@@ -252,4 +291,3 @@
 - **feature:** safety.md updated with Framer-specific rules
 - **feature:** Leaderboard project initialized from eyeeye repo
 - **feature:** n8n-alt MCP configuration added to .mcp.json
-
