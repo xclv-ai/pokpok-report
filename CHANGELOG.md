@@ -12,10 +12,46 @@
 - [ ] Monthly aggregation workflow (top 15 products)
 - [ ] Verify n8n webhook flow execution end-to-end
 - [ ] Dynamic /order page (product context from source pages)
+- [ ] Deploy security notification email templates to Supabase (email-changed, mfa-added, mfa-removed, password-changed)
+
+---
+
+## 2026-03-08
+
+### Architecture: Rules → Skills Migration
+- **improvement:** Consolidated all duplicate rules from subproject `.claude/rules/` directories into centralized `.claude/skills/` with reference files
+- **improvement:** Removed 7 copies of global FAILURES.md, safety.md, version-numbers.md from subproject directories (www, ops, paywall, leaderboard, n8n, marketing, changelog, xray)
+- **improvement:** Moved framer docs/plans/test-protocols to `www/docs/`, paywall docs to `paywall/docs/`, leaderboard docs to `leaderboard/docs/`, n8n docs to `n8n/docs/`
+- **improvement:** Created new skills: pokpok-ui (813 lines), supabase (139 lines), ui-audit (267 lines) with evaluation criteria and failure references
+- **improvement:** Added failure reference files to framer, n8n-workflows, pokpok-ui, supabase skills
+- **improvement:** Archived `xray/BUGS.md` → `xray/BUGS.archived.md` (bugs migrated to changelog.md)
+
+### Security Notification Email Templates
+- **feature:** 4 security notification email templates with POKPOK branding: email-changed, mfa-added, mfa-removed, password-changed
+- **feature:** Both display HTML and Supabase-compatible versions for each template
+- **improvement:** F019 failure documented in dedicated file (`marketing/docs/failures/F019-email-template-audit.md`)
+
+### /subscription Page Design Iterations
+- **improvement:** 8 iterations of metrics infographic HTML prototypes exploring different visual layouts
+- **improvement:** ChangelogLoader v2.0.0 through v2.3.0 — iterative component improvements
+- **improvement:** Raw methodology data files added (Monthly + Weekly formats)
+
+### Documentation
+- **feature:** PokPok Score visual allegories document for NotebookLM infographic generation
+- **feature:** Changelog TODO protocol — new sessions/tasks auto-add `- [ ]` entry to changelog
+- **improvement:** changelog-update-protocol.md rule created with session-start rule
 
 ---
 
 ## 2026-03-07
+
+### /subscription Page Redesign
+- **feature:** Full HTML/CSS prototype for /subscription page redesign — 8 color-blocked sections following pokpok-ui design system
+- **feature:** Page sections: Pink Hero, Beige "What You Get" (stat blocks + 5 section cards), Report Preview (top 5 movers), Pink Pathology Preview (5 truths accordion), Teal Methodology (4 filter cards + yellow quote banner), Yellow CTA + Pricing
+- **feature:** MonthlyReportPreview.tsx v1.0.0 — Framer code component for top 5 movers with rank badges, PokPok Scores, rank jumps (local, not deployed)
+- **feature:** PathologyPreview.tsx v1.0.0 — Framer code component for 5 truth rows in collapsed accordion style (local, not deployed)
+- **improvement:** Sample data files saved: monthly-report-sample.json, methodology.md
+- **improvement:** Full page spec document with all copy, typography, colors, and layout details
 
 ### pokpok-ui SKILL.md — Round 2 Fixes
 - **fix:** Duplicate SKILL.md in `marketing/.claude/skills/pokpok-ui/` — identical copy of main skill, guaranteed drift bug. Deleted duplicate; monorepo skills in `.claude/skills/` are accessible to all subprojects.
