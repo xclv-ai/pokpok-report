@@ -1,6 +1,7 @@
 # POKPOK Changelog
 
 ## TODO - In Progress
+- [ ] [WIP - awaiting user verification] SubscriptionCheckoutButton v1.1.0 — fix signin redirect delay (1800ms) so "YEAH!" button variant is visible before navigation
 - [x] Clean marketing table — delete codex QA records + deduplicate emails
 - [ ] Deploy www_system_prompt_v4.6 to n8n + test B0BPXT3GBN (Marker 8 fix)
 - [ ] Fix scoring non-determinism — move alignment formula from Gemini to Code node
@@ -18,6 +19,9 @@
 ---
 
 ## 2026-03-09
+
+### Subscription Checkout Button
+- **fix:** SubscriptionCheckoutButton v1.1.0 — added 1800ms delay before `/signin` redirect in `goSignin()` so Framer button interaction ("YEAH!" variant) is visible before page navigates. Backups: `www/framer-website/code/backups/2026-03-09_SubscriptionCheckoutButton_v1.0.0.tsx` (original) and `_v1.1.0.tsx` (fix). [WIP - awaiting user verification on live site]
 
 ### Database Maintenance
 - **improvement:** Deleted 217 Codex QA test records (`codex.qa+*@example.com`) from `marketing` table in Supabase (pokpok project)
