@@ -1,6 +1,8 @@
 # POKPOK Changelog
 
 ## TODO - In Progress
+- [ ] Consolidate audit docs — OPEN-ISSUES.md created, architecture-flaws-report.md updated, obsolete docs deleted, all statuses set to WIP
+- [x] Save all Framer live code files to local backup folder (2026-03-09-framer-live)
 - [ ] [WIP - awaiting user verification] SubscriptionCheckoutButton v1.1.0 — fix signin redirect delay (1800ms) so "YEAH!" button variant is visible before navigation
 - [x] Clean marketing table — delete codex QA records + deduplicate emails
 - [ ] Deploy www_system_prompt_v4.6 to n8n + test B0BPXT3GBN (Marker 8 fix)
