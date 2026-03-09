@@ -1,6 +1,7 @@
 # POKPOK Changelog
 
 ## TODO - In Progress
+- [x] Clean marketing table — delete codex QA records + deduplicate emails
 - [ ] Deploy www_system_prompt_v4.6 to n8n + test B0BPXT3GBN (Marker 8 fix)
 - [ ] Fix scoring non-determinism — move alignment formula from Gemini to Code node
 - [ ] Fix system prompt v3.5/v3.6 — broken UI data format (territory_number string, archetype prefix)
@@ -13,6 +14,14 @@
 - [ ] Verify n8n webhook flow execution end-to-end
 - [ ] Dynamic /order page (product context from source pages)
 - [ ] Deploy security notification email templates to Supabase (email-changed, mfa-added, mfa-removed, password-changed)
+
+---
+
+## 2026-03-09
+
+### Database Maintenance
+- **improvement:** Deleted 217 Codex QA test records (`codex.qa+*@example.com`) from `marketing` table in Supabase (pokpok project)
+- **improvement:** Deduplicated `marketing` table — merged 5 duplicate email groups (davolt666@ukr.net ×6, test@pokpok.ai ×5, george.dzhyn@gmail.com ×4, ceo@xclv.com ×2, georgio-jiovanni@ukr.net ×2), keeping latest record per email with its subscription status preserved
 
 ---
 
