@@ -2,6 +2,16 @@
 
 ## TODO - In Progress
 - [ ] Consolidate audit docs — OPEN-ISSUES.md created, architecture-flaws-report.md updated, obsolete docs deleted, all statuses set to WIP
+- [ ] Full code audit complete — 6 CRITICAL, 25 HIGH, 45+ MEDIUM. Report: www/docs/plans/CODE-AUDIT-2026-03-09.md
+- [ ] [CRITICAL] C1: OrderFormProvider WEBHOOK_URL undefined — "Send to Analysis" broken at runtime
+- [ ] [CRITICAL] C3: PaywallModal references dead Kinde auth — login button hangs
+- [ ] [CRITICAL] C4: RealtimeTickerOverride wrong Supabase key + hardcoded debug execution_id
+- [ ] [CRITICAL] C5: Payment system in sandbox mode (USE_PRODUCTION=false, sandbox Polar URLs)
+- [ ] [HIGH] Open redirect chain — unvalidated `return` param in AuthOverrides, AuthOrderOverride, NavAuthButton
+- [ ] [HIGH] Plaintext password stored on window.__POKPOK_SIGNIN_STATE__
+- [ ] [HIGH] Unauthenticated n8n webhook URL exposed in 6 client-side files
+- [ ] [HIGH] `return null` from 9 Framer Code Components — violates F002, breaks layout
+- [ ] [HIGH] Supabase realtime channel leaks in DashboardDataProvider + AdminPDPViewerOverrides
 - [x] Save all Framer live code files to local backup folder (2026-03-09-framer-live)
 - [ ] [WIP - awaiting user verification] SubscriptionCheckoutButton v1.1.0 — fix signin redirect delay (1800ms) so "YEAH!" button variant is visible before navigation
 - [x] Clean marketing table — delete codex QA records + deduplicate emails
