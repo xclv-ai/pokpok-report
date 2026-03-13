@@ -1,6 +1,10 @@
 # POKPOK Changelog
 
 ## TODO - In Progress
+- [x] X-RAY credit system — full deployment (SQL migration, edge functions, Provider v1.5.0, Overrides v1.9.0)
+- [x] X-RAY credits display fix — refreshCredits() 401 fixed (raw fetch → Supabase client), event name mismatch fixed (Provider v1.5.2, Overrides v1.9.6)
+- [ ] X-RAY credits idempotency — migrateDoneRef guard to prevent duplicate +1 on repeated auth events (Provider v1.5.3 ready, awaiting deploy)
+- [ ] X-RAY: [SIGN IN +1] CTA still visible for authenticated users — should hide after sign-in
 - [ ] Consolidate audit docs — OPEN-ISSUES.md created, architecture-flaws-report.md updated, obsolete docs deleted, all statuses set to WIP
 - [ ] Full code audit complete — 6 CRITICAL, 25 HIGH, 45+ MEDIUM. Report: www/docs/plans/CODE-AUDIT-2026-03-09.md
 - [ ] [CRITICAL] C1: OrderFormProvider WEBHOOK_URL undefined — "Send to Analysis" broken at runtime
@@ -26,7 +30,31 @@
 - [ ] Monthly aggregation workflow (top 15 products)
 - [ ] Verify n8n webhook flow execution end-to-end
 - [ ] Dynamic /order page (product context from source pages)
+- [ ] Refactor: Move archetype SVGs from GitHub Pages to Supabase storage — all 12 uploaded to `https://iyyuxilkacylpbweulsa.supabase.co/storage/v1/object/public/assets/archetypes/`. Update `ARCHETYPE_SVG_BASE` in CategoryDataOverrides.tsx (codeFileId: OTlqFfg) and DataOverrides.tsx (codeFileId: PUwIdwd)
 - [ ] Deploy security notification email templates to Supabase (email-changed, mfa-added, mfa-removed, password-changed)
+
+---
+
+## 2026-03-13
+
+### X-RAY Credit System — Full Deployment
+- **feature:** SQL migration `002_credit_system_v2.sql` — `anon_credits` table, `signin_bonus`/`share_bonus` columns on `credits`, 4 atomic RPCs (`decrement_credit`, `decrement_anon_credit`, `claim_share_bonus`, `migrate_anon_to_user`), RLS + grants
+- **feature:** `claim-share-bonus` edge function v1 — awards +3 credits (capped at 7) on share, requires JWT, validates share_id exists
+- **feature:** `scan-url` edge function v4 — handles both anonymous (fingerprint) and authenticated credit tracking, always returns `credits_remaining` as integer
+- **feature:** XrayProvider v1.5.0 — removed `balance: -1` unlimited sentinel, added `refreshCredits()` via PostgREST, `migrate_anon_to_user` RPC on auth change, share action handler calling `claim-share-bonus` edge fn
+- **feature:** XrayOverrides v1.9.0 — removed UNLIMITED branch from `withCreditsCounter`, auth-aware `withShareCta` (hidden for anon, `[SHARED ✓]` after claiming)
+- **improvement:** Credit flow: 3 anonymous → +1 Google sign-in → +3 share = 7 max. Each scan -1. Hard wall at 0.
+
+> **Note:** [SIGN IN +1] CTA still visible for authenticated users — UI bug to fix in Overrides.
+
+### X-RAY Credits Display Fix
+- **fix:** XrayProvider v1.5.1 — event name mismatch `pokpok-auth-change` → `pokpok-auth-ready` (AuthProvider dispatched `ready`, Provider listened for `change`)
+- **fix:** XrayProvider v1.5.2 — `refreshCredits()` replaced raw `fetch()` to Supabase REST API with `supabase.from("credits").select()`. Raw fetch returned 401 "No API key found" — apikey header not reaching server. Supabase client handles headers automatically.
+- **fix:** XrayOverrides v1.9.5 → v1.9.6 — Login link triggers Google OAuth directly, withSignInCta reactivity on auth change, event name fix
+- **improvement:** Failure patterns F025 (always check console errors FIRST) and F026 (use Supabase client, not raw fetch) documented
+
+### X-RAY Credits Idempotency (v1.5.3 — awaiting deploy)
+- **fix:** XrayProvider v1.5.3 — `migrateDoneRef` guard prevents `migrate_anon_to_user` RPC from being called multiple times per session (sign-out → sign-in, duplicate auth events, page already authenticated on load). DB RPC was already idempotent via `signin_bonus` flag, but client now skips the network call entirely.
 
 ---
 
