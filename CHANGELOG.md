@@ -1,6 +1,13 @@
 # POKPOK Changelog
 
+## ACTIVE BUGS
+- [x] BUG: LinkedIn share 502 — MOOT: replaced custom LinkedIn API posting with native share dialog (Phase 3.2)
+- [ ] BUG: Roast button not active — deployed Provider missing `toggleRoast`. Fix: paste Provider v1.7.4 (or v1.8.0) into Framer
+- [x] BUG: Screenshot captures footer — fixed in Overrides v1.10.11 (`main` tag instead of `#main`). Awaiting Framer paste.
+
 ## TODO - In Progress
+- [ ] X-RAY Phase 3.2: Native LinkedIn Share + Dynamic OG Cards — implement share-og edge fn, screenshot upload, native LinkedIn dialog, remove LinkedIn OAuth
+- [ ] X-RAY OG image quality fix — fix og:image:width/height mismatch (1200x630 declared vs 3122x1502 actual), deploy claim-share-bonus v4 with GitHub Pages push, set GITHUB_TOKEN
 - [x] X-RAY credit system — full deployment (SQL migration, edge functions, Provider v1.5.0, Overrides v1.9.0)
 - [x] X-RAY credits display fix — refreshCredits() 401 fixed (raw fetch → Supabase client), event name mismatch fixed (Provider v1.5.2, Overrides v1.9.6)
 - [ ] X-RAY credits idempotency — migrateDoneRef guard to prevent duplicate +1 on repeated auth events (Provider v1.5.3 ready, awaiting deploy)
@@ -10,6 +17,13 @@
 - [ ] [CRITICAL] C1: OrderFormProvider WEBHOOK_URL undefined — "Send to Analysis" broken at runtime
 - [ ] [CRITICAL] C3: PaywallModal references dead Kinde auth — login button hangs
 - [ ] [CRITICAL] C4: RealtimeTickerOverride wrong Supabase key + hardcoded debug execution_id
+- [x] [X-RAY] B25: YOUR SCORE clickable — Framer container disabled via mergedRef (v1.11.9)
+- [x] [X-RAY] B26: Dial no-toggle — removed re-click toggle, OFF is dedicated zone (v1.11.9)
+- [x] [X-RAY] Share clipboard copy — moved before async ops to keep user gesture context (v1.11.9)
+- [x] [X-RAY] Share domain "unknown" — reads scanUrl from nav global (v1.11.9)
+- [x] [X-RAY] SHARE_OG_BASE → xray.pokpok.ai custom domain (v1.11.9)
+- [x] [X-RAY] xray.pokpok.ai redirect to pokpok.ai/products/xray (GitHub Pages)
+- [ ] [X-RAY] B27: Roast shows "not available" for landor.com despite data existing in Supabase
 - [ ] [CRITICAL] C5: Payment system in sandbox mode (USE_PRODUCTION=false, sandbox Polar URLs)
 - [ ] [HIGH] Open redirect chain — unvalidated `return` param in AuthOverrides, AuthOrderOverride, NavAuthButton
 - [ ] [HIGH] Plaintext password stored on window.__POKPOK_SIGNIN_STATE__
@@ -32,6 +46,32 @@
 - [ ] Dynamic /order page (product context from source pages)
 - [ ] Refactor: Move archetype SVGs from GitHub Pages to Supabase storage — all 12 uploaded to `https://iyyuxilkacylpbweulsa.supabase.co/storage/v1/object/public/assets/archetypes/`. Update `ARCHETYPE_SVG_BASE` in CategoryDataOverrides.tsx (codeFileId: OTlqFfg) and DataOverrides.tsx (codeFileId: PUwIdwd)
 - [ ] Deploy security notification email templates to Supabase (email-changed, mfa-added, mfa-removed, password-changed)
+
+---
+
+## 2026-03-17
+
+### X-RAY Bug Fixes (B25, B26) + Share Improvements
+- **fix:** B25 — YOUR SCORE button not clickable with mouse. Root cause: Space Invaders Framer container (position:absolute, z-index:1) blocked all clicks in display area. Fix: useEffect + mergedRef reaches up to Framer container and sets pointer-events:none + visibility:hidden when not scanning. (Overrides v1.11.9)
+- **fix:** B26 — Dial label re-click toggled OFF unexpectedly. Removed toggle behavior — each zone now navigates to its state and stays. OFF is a dedicated zone (top-right). No double-click needed. (Overrides v1.11.9)
+- **fix:** Share clipboard copy failed silently — navigator.clipboard.writeText() called after async captureScreenshot(), losing user gesture context. Moved to before any awaits. (Overrides v1.11.9)
+- **fix:** Share text showed "unknown" domain — xrayData.url undefined. Now reads from window.__POKPOK_XRAY_NAV__.scanUrl. (Overrides v1.11.9)
+- **improvement:** SHARE_OG_BASE updated to xray.pokpok.ai custom domain (was xclv-ai.github.io/pokpok-report)
+- **feature:** xray.pokpok.ai → pokpok.ai/products/xray redirect (GitHub Pages custom domain)
+
+### X-RAY Phase 3.2 — Native LinkedIn Share + Dynamic OG Cards
+- **feature:** `share-og` edge function v1 — serves dynamic OG HTML with per-scan title, description, and image. LinkedIn crawler gets proper og:tags; browsers get meta-refresh redirect to Framer page. Deployed with `no-verify-jwt`.
+- **feature:** `generate-scorecard` edge function v2 — added GET handler so the function URL works as `og:image` src (was POST-only). Fixed CTA URL from `pokpok.ai/scan` to `pokpok.ai/products/xray`.
+- **feature:** `claim-share-bonus` edge function v2 — `SHARE_BASE_URL` changed from Framer URL to `share-og` edge function URL. Share links now point to the OG proxy, not directly to Framer.
+- **feature:** SQL migration `004_screenshot_url.sql` — added `screenshot_url` text column to `free_scans`, RLS policy for user updates.
+- **feature:** Supabase Storage bucket `xray-screenshots` (public) — stores html-to-image captures for og:image cards.
+- **feature:** XrayOverrides v1.11.0 (local, awaiting Framer paste) — screenshot uploads to Supabase Storage after html-to-image capture. Native LinkedIn share dialog (`linkedin.com/sharing/share-offsite`) replaces custom preview overlay. Removed: showPreview state, preview overlay, handleConfirmPost, _buildPreview, _ledColor helper.
+- **feature:** XrayProvider v1.8.0 (local, awaiting Framer paste) — removed LinkedIn OAuth flow (LINKEDIN_CLIENT_ID, LINKEDIN_REDIRECT_URI, openLinkedInAuthPopup), removed `linkedin_post` action handler, removed `__POKPOK_LINKEDIN__` global. Share action unchanged.
+- **improvement:** B7 (LinkedIn share 502) and B16 (LinkedIn re-auth) now moot — no more custom LinkedIn API posting or OAuth needed.
+
+- **fix:** `share-og` edge function v2 — LinkedIn "Cannot display preview" (B19). Root cause: `meta http-equiv="refresh"` made LinkedIn's crawler follow redirect before reading OG tags. Fix: replaced with `<script>window.location.replace(url)</script>` — crawlers don't execute JS (F030).
+
+> **Note:** Backend fully deployed. Frontend files (XrayOverrides v1.11.0 + XrayProvider v1.8.0) awaiting user paste into Framer editor.
 
 ---
 
