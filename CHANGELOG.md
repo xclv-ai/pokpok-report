@@ -23,6 +23,7 @@
 - [x] [X-RAY] Share domain "unknown" — reads scanUrl from nav global (v1.11.9)
 - [x] [X-RAY] SHARE_OG_BASE → xray.pokpok.ai custom domain (v1.11.9)
 - [x] [X-RAY] xray.pokpok.ai redirect to pokpok.ai/products/xray (GitHub Pages)
+- [x] [X-RAY] Migrate share pipeline from xclv-ai/pokpok-report → pokpok-ai/xray + xray.pokpok.ai custom domain
 - [ ] [X-RAY] B27: Roast shows "not available" for landor.com despite data existing in Supabase
 - [ ] [CRITICAL] C5: Payment system in sandbox mode (USE_PRODUCTION=false, sandbox Polar URLs)
 - [ ] [HIGH] Open redirect chain — unvalidated `return` param in AuthOverrides, AuthOrderOverride, NavAuthButton
@@ -41,11 +42,44 @@
 - [ ] Update `www_intro_2.0.md` evidence paths for www v2 schema (Marker 8 references)
 - [ ] Test PDP v2 output across 3+ ASINs for composition enum validation
 - [ ] Deploy BestSellerCard click-to-run-analysis (v1.0.13 ready)
+- [x] POKPOK Index March 2026 podcast — NotebookLM audio overview (Feynman style, 17m49s)
 - [ ] Monthly aggregation workflow (top 15 products)
 - [ ] Verify n8n webhook flow execution end-to-end
 - [ ] Dynamic /order page (product context from source pages)
 - [ ] Refactor: Move archetype SVGs from GitHub Pages to Supabase storage — all 12 uploaded to `https://iyyuxilkacylpbweulsa.supabase.co/storage/v1/object/public/assets/archetypes/`. Update `ARCHETYPE_SVG_BASE` in CategoryDataOverrides.tsx (codeFileId: OTlqFfg) and DataOverrides.tsx (codeFileId: PUwIdwd)
 - [ ] Deploy security notification email templates to Supabase (email-changed, mfa-added, mfa-removed, password-changed)
+- [ ] Fix n8n "Download Image" EPROTO error — Cloudflare Worker proxy deployed (`amazon-image-proxy.pokpok.workers.dev`), need to update n8n workflow URL
+- [x] Admin page architecture fix — IndexImportProvider v1.1.1 (remove purchased_reports from auto-import), DB cleanup done
+- [x] RecurringOrderItemsList v1.3.8 — RUNNING badge hover shows ASIN number
+- [x] AdminPDPProvider v1.5.19 — auto-flag PDPs with alignment < 40
+
+---
+
+## 2026-03-20
+
+### Admin Page — Architecture Fix
+- **fix:** IndexImportProvider v1.1.1 — removed purchased_reports inserts from auto-import. purchased_reports tracks customer payments (Polar.sh), NOT admin import. Auto-import now only upserts pdp rows.
+- **fix:** DB cleanup — deleted 15 fake purchased_reports rows for mar-2026 created by v1.1.0 auto-import.
+- **improvement:** Updated PLAN-2026-03-19.md and framer-admin SKILL.md to reflect correct architecture.
+
+### Admin Page — UX Improvements
+- **feature:** RecurringOrderItemsList v1.3.8 — RUNNING badges now show ASIN number on hover, mouseleave reverts to "RUNNING". Admin can identify which ASIN is being analyzed.
+- **feature:** AdminPDPProvider v1.5.19 — auto-flags analyzed PDPs with alignment score < 40. Parses "X/100" format, writes `flagged=true` to DB on page load. Prevents bad analysis results from reaching customers.
+
+### Cloudflare Worker — Amazon Image Proxy
+- **feature:** Deployed `amazon-image-proxy.pokpok.workers.dev` — proxies Amazon CDN image requests through Cloudflare to bypass TLS fingerprinting that blocks Node.js (EPROTO error in n8n).
+- **infra:** Registered `pokpok.workers.dev` subdomain on Cloudflare. Worker restricts to Amazon image domains only (m.media-amazon.com, images-na/eu/fe.ssl-images-amazon.com).
+- **deploy:** Source at `workers/amazon-image-proxy/`. Usage: `https://amazon-image-proxy.pokpok.workers.dev/?url=<encoded-amazon-url>`
+
+---
+
+## 2026-03-19
+
+### POKPOK Index — Monthly Podcast
+- **feature:** Generated first POKPOK Index podcast via NotebookLM — two-person deep dive discussing March 2026 monthly results (top 15 movers, 5 uncomfortable truths). Feynman style: provocative, straightforward, no jargon. 17m49s, 128kbps MP3.
+- **data:** Source: Supabase Storage `index/monthly/latest.json` (349 products scanned, 28-day period Feb 17 – Mar 18)
+- **deploy:** MP3 pushed to GitHub Pages: `https://xclv-ai.github.io/pokpok-report/products/index/pokpok-index-march-2026.mp3`
+- **local:** Backup at `pokpok-ai/index/podcast/pokpok-index-march-2026.mp3`
 
 ---
 
