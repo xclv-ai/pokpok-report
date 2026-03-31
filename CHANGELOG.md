@@ -6,6 +6,12 @@
 - [x] BUG: Screenshot captures footer — fixed in Overrides v1.10.11 (`main` tag instead of `#main`). Awaiting Framer paste.
 
 ## TODO - In Progress
+- [x] X-RAY share not including screenshot and direct link to report session — 3 bugs (B28+B29+B30) fixed in XrayOverrides v1.12.1, deployed + verified 2026-03-31
+- [x] Brand LinkedIn Finder — found 25 decision-makers across 9/12 index brands via Tavily, saved to marketing/brand-contacts.md + Supabase brand_contacts table. Remaining: e.l.f., COLOR WOW, Secret
+- [x] Supabase brand_contacts table — migration applied, 25 contacts inserted with dedup on linkedin_url
+- [x] brand-linkedin-finder agent + skill created — reusable for monthly index updates
+- [x] Fixed non-Shopify gallery scraper — added generic fallback with extract_rules + stealthProxy for brands like Dove/Unilever (sub-workflow n8lYVrcIB4DqCngo)
+- [ ] Error tracking system — deploy scan-url-v2 v7 edge function, paste RecurringOrderItemsList v1.3.9 + AdminPDPProvider v1.5.20 to Framer, configure n8n Error Workflow, schedule timeout cron
 - [ ] X-RAY Phase 3.2: Native LinkedIn Share + Dynamic OG Cards — implement share-og edge fn, screenshot upload, native LinkedIn dialog, remove LinkedIn OAuth
 - [ ] X-RAY OG image quality fix — fix og:image:width/height mismatch (1200x630 declared vs 3122x1502 actual), deploy claim-share-bonus v4 with GitHub Pages push, set GITHUB_TOKEN
 - [x] X-RAY credit system — full deployment (SQL migration, edge functions, Provider v1.5.0, Overrides v1.9.0)
@@ -43,6 +49,7 @@
 - [ ] Test PDP v2 output across 3+ ASINs for composition enum validation
 - [ ] Deploy BestSellerCard click-to-run-analysis (v1.0.13 ready)
 - [x] POKPOK Index March 2026 podcast — NotebookLM audio overview (Feynman style, 17m49s)
+- [x] Brand URL Discovery V5 (k5QSjquwAgeoNbfg) — full architecture redesign: AI-first URL classification, Firecrawl Agent for product gallery images, 4 pages scraped instead of 25
 - [ ] Monthly aggregation workflow (top 15 products)
 - [ ] Verify n8n webhook flow execution end-to-end
 - [ ] Dynamic /order page (product context from source pages)
@@ -52,6 +59,62 @@
 - [x] Admin page architecture fix — IndexImportProvider v1.1.1 (remove purchased_reports from auto-import), DB cleanup done
 - [x] RecurringOrderItemsList v1.3.8 — RUNNING badge hover shows ASIN number
 - [x] AdminPDPProvider v1.5.19 — auto-flag PDPs with alignment < 40
+
+---
+
+## 2026-03-31
+
+### X-RAY Share Pipeline
+- **fix:** Screenshot pre-capture timing — was capturing scanning animation ("finalizing results...") instead of final scores. Increased delay from 1.5s to 3s (B28)
+- **fix:** Clipboard share text now includes direct link to scan results (`xray.pokpok.ai/shares/{id}.html`) instead of generic `pokpok.ai/products/xray/` (B29)
+- **fix:** Race condition — LinkedIn dialog opened before OG files pushed to GitHub Pages. Now awaits `claim-share-bonus` edge function before opening share dialog (B30)
+
+> **Note:** XrayOverrides v1.12.1 deployed to Framer
+
+---
+
+## 2026-03-30
+
+### Brand URL Discovery V5 — Architecture Redesign
+- **feature:** Complete V5 rewrite of Brand URL Discovery workflow (k5QSjquwAgeoNbfg) — moved from regex URL filtering to AI-first classification
+- **feature:** Gemini 2.5 Flash classifies URLs from URL paths BEFORE scraping — no need to scrape 25 pages just to classify them
+- **feature:** Firecrawl Agent extracts product gallery images from product page — 6 real CDN images with alt text (replaces broken Firecrawl Extract + markdown regex)
+- **improvement:** Only 1-6 selected pages scraped (down from 25) — faster, cheaper, more accurate
+- **improvement:** Removed 4 nodes (Filter Candidate URLs regex, Extract Snippets, Firecrawl Extract Visuals, post-scrape Classify), added 3 (Classify URLs, Prepare Scrape List, Extract Product Images Agent)
+- **fix:** Gemini no longer duplicates URLs across mission/values/positioning — classification from URL paths is more decisive than from scraped content
+
+> **Test result:** Execution 31353 — Aveeno B00ESJG2HE: 4 pages scraped, 6 product gallery images extracted, all URL fields correct, no duplicates, empty fields where appropriate.
+
+---
+
+## 2026-03-22
+
+### n8n Gallery Scraper — Generic Fallback for Non-Shopify Sites
+- **fix:** Gallery image sub-workflow (n8lYVrcIB4DqCngo) failed silently on non-Shopify brands (e.g. Dove/Unilever) — all 3 Shopify scraping strategies returned 0 items, causing WWW evaluation to skip and alignment score to be garbage 0/100
+- **feature:** Added generic fallback path: ScrapingBee `extract_rules` (CSS selectors) + `stealthProxy` → new parser node → deduplication + alt-text extraction → feeds into existing Visual Analysis chain
+- **fix:** Download Image node dynamic Referer fix — CDN access controls (assets.unileversolutions.com) rejected requests without matching Referer header
+- **improvement:** 6 new failure patterns documented (F045-F051): `__sbResult` incompatibility, `extract_rules` vs `ai_extract_rules`, stealthProxy requirements, CDN Referer headers, n8n expression gotchas
+- **improvement:** Backups saved: `n8n/n8n-backups/www-gallery-v4-generic-fallback.json`, `parsing-generic-gallery.js`, `brand-perception-v3.2-www-guard.json`
+
+> **Test result:** Execution 30266 — Dove B09DDD6YGJ: 8 product images extracted from Unilever CDN, Visual Analysis completed successfully.
+
+---
+
+## 2026-03-21
+
+### Error Tracking System — Full Audit + Implementation
+- **feature:** SQL migration 005_error_tracking — added error_message, last_execution_id, last_run_at, flag_reason to `pdp`; asin, error_message, timeout_at, retry_count to `executions`; status, error_message, n8n_execution_id, scan_duration_ms, roast_status to `free_scans`; CHECK constraint on `purchased_reports.status`
+- **feature:** `admin_error_dashboard` VIEW — aggregates errors from pdp, executions, purchased_reports, free_scans into single queryable view
+- **feature:** `timeout_stuck_executions()` FUNCTION — auto-marks executions stuck >30min as 'timeout', propagates to pdp.status='error'
+- **feature:** RecurringOrderItemsList v1.3.9 — ERROR badge (red bg, "ERROR" text), hover→"RETRY", click→clear error + rerun webhook. RUN ALL also includes error ASINs.
+- **feature:** AdminPDPProvider v1.5.20 — errorCount in RecurringGroup, console.warn for error PDPs, debug line shows error count
+- **feature:** scan-url-v2 v7 — inserts free_scans with status='scanning' before n8n call, updates to 'completed'/'error' after. Logs refund failures (was silent catch).
+- **fix:** Cleaned 22 stuck executions (oldest Feb 6) — marked as 'timeout' with legacy error message
+- **fix:** Cleaned 8 stuck purchased_reports — marked as 'needs_rerun'
+- **fix:** Backfilled 7 free_scans with status='completed', roast_status='completed'
+- **improvement:** Full system architecture doc saved to Obsidian vault (Architecture/system-architecture.md)
+- **improvement:** MEMORY.md updated — fixed 6 wrong/outdated claims (root rules, X-RAY bug files, Obsidian counts, git autopush repos, failure references)
+- **improvement:** File cleanup — archived Jan/Feb framer-overrides, copied shared components from admin-page/ to shared/, fresh Framer backup (2026-03-21-live)
 
 ---
 
