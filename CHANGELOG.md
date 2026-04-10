@@ -6,10 +6,21 @@
 - [x] BUG: Screenshot captures footer — fixed in Overrides v1.10.11 (`main` tag instead of `#main`). Awaiting Framer paste.
 
 ## TODO - In Progress
+- [ ] Pixel sprite transition Framer component — dgrees.studio style 32x32 grid with staggered wipe animation
+- [x] Awtrix 3 integration — POKPOK Index top 2 movers with full metrics on Ulanzi pixel clock + web emulator component
+- [ ] Awtrix daily launchd timer — auto-push latest.json to device on schedule
+- [ ] Deploy AwtrixEmulator to Framer pokpok-index page
+- [ ] Homepage HTML redesign — evaluate and rebuild pokpok-ai.html to match pokpok-ui design system
 - [x] X-RAY share not including screenshot and direct link to report session — 3 bugs (B28+B29+B30) fixed in XrayOverrides v1.12.1, deployed + verified 2026-03-31
 - [x] Brand LinkedIn Finder — found 25 decision-makers across 9/12 index brands via Tavily, saved to marketing/brand-contacts.md + Supabase brand_contacts table. Remaining: e.l.f., COLOR WOW, Secret
 - [x] Supabase brand_contacts table — migration applied, 25 contacts inserted with dedup on linkedin_url
 - [x] brand-linkedin-finder agent + skill created — reusable for monthly index updates
+- [x] Outreach restructure — moved linkedin-outreach-sequence.md, lead-list.md, brand-contacts.md/.json to marketing/outreach/. Updated 9 files with new paths.
+- [x] brand-linkedin-finder v2 — rewrote agent+skill as "Lead Generation & Corporate Research Specialist". New per-brand JSON output: brand_identity + contacts_and_leads + additional_corporate_info. Saves to marketing/outreach/brands/{slug}.json
+- [x] Brand research run v1 (2026-04-09) — 59 contacts across all 12 index brands via WebSearch. 57/59 LinkedIn URLs verified correct via Chrome DevTools. Per-brand JSON in marketing/outreach/brands/
+- [x] Brand research run v2 (2026-04-09) — 61 contacts across all 12 index brands via ScrapingBee Google SERP. All URLs from Google's index (verified by source). 24% fewer tokens, correctly filtered departed employees. Per-brand JSON in marketing/outreach/brands/v2/
+- [x] brand-linkedin-finder switched to ScrapingBee-first — Google SERP for LinkedIn URLs (10 credits, real indexed URLs), scrape About pages (1 credit). WebSearch as fallback for names only. Agent+skill updated.
+- [x] V2 contacts inserted into Supabase brand_leads table — 61 rows from SB run. Total 86 rows (incl. 25 pre-existing). Service role key saved to ~/dev/.env
 - [x] Fixed non-Shopify gallery scraper — added generic fallback with extract_rules + stealthProxy for brands like Dove/Unilever (sub-workflow n8lYVrcIB4DqCngo)
 - [ ] Error tracking system — deploy scan-url-v2 v7 edge function, paste RecurringOrderItemsList v1.3.9 + AdminPDPProvider v1.5.20 to Framer, configure n8n Error Workflow, schedule timeout cron
 - [ ] X-RAY Phase 3.2: Native LinkedIn Share + Dynamic OG Cards — implement share-og edge fn, screenshot upload, native LinkedIn dialog, remove LinkedIn OAuth
