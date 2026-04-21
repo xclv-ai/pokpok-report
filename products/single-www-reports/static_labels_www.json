@@ -1,8 +1,17 @@
 {
-  "version": "1.0.0-www",
+  "version": "1.0.1-www",
   "last_updated": "2026-04-21",
   "source": "single-www-reports: universal labels (rewritten from single-website-reports/brand-alignment static_labels.json v1.4.1; category/the category-specific vocabulary replaced with universal business language)",
   "change_log": [
+    {
+      "version": "1.0.1-www",
+      "date": "2026-04-21",
+      "changes": [
+        "Align marker_11 territory_2 back to 'Formula Purity' (www data uses this name)",
+        "Align marker_12 territory_1 back to 'The Ingredient King' (www data uses this name)",
+        "Revert over-aggressive 'ingredient' -> 'component' rewrite in KSP + USP markers"
+      ]
+    },
     {
       "version": "1.0.0-www",
       "date": "2026-04-21",
@@ -439,9 +448,9 @@
     "territory_1_title": "Expert Validation",
     "territory_1_subtitle": "PROOF: EXPERTISE",
     "territory_1_description": "Relies on the white coat. Evidence is rigorous studies and expert recommendations. Trust the authority.",
-    "territory_2_title": "Component Purity",
+    "territory_2_title": "Formula Purity",
     "territory_2_subtitle": "PROOF: SAFETY",
-    "territory_2_description": "Relies on the checklist. Evidence is 'Free-From' claims and safety certifications. Trust the components.",
+    "territory_2_description": "Relies on the checklist. Evidence is 'Free-From' claims and safety certifications. Trust the formula.",
     "territory_3_title": "Viral Results",
     "territory_3_subtitle": "PROOF: OUTCOMES",
     "territory_3_description": "Relies on the crowd. Evidence is Before/After photos and user statistics. Trust the hype.",
@@ -454,10 +463,10 @@
     "intro_heading": "[?] USP (THE UNFAIR ADVANTAGE)",
     "intro_description": "The USP is the sharpest knife in the drawer. It is not a list of features; it is the one thing you own that no one else can steal. On the website, the customer's brain tries to pigeonhole you instantly. We measure the flavor of your ownership claim (Component story vs. Technology story) and the scope of your target (Mass vs. Niche). The combination defines whether you win by depth or by reach.",
     "slider_a_title": "[SLIDER] THE OWNERSHIP CLAIM (What Makes You Unique)",
-    "slider_a_left_label": "← Components Story",
+    "slider_a_left_label": "← Ingredient Story",
     "slider_a_right_label": "Technology Story →",
     "slider_a_score_1": "▼ Commodity (Generic: 'Water,' 'Base')",
-    "slider_a_score_2": "▼ Hero Feature (Owned mental link: 'We are the [category leader]')",
+    "slider_a_score_2": "▼ Hero Ingredient (Owned mental link: 'We are the [category leader]')",
     "slider_a_score_3": "▼ Signature Complex (Trademarked mix)",
     "slider_a_score_4": "▼ Delivery Innovation (How it works)",
     "slider_a_score_5": "▼ Proprietary System (Patented engineering)",
@@ -469,9 +478,9 @@
     "slider_b_score_3": "▼ Mid-Market (Broad appeal)",
     "slider_b_score_4": "▼ Problem-Focused (Specific need)",
     "slider_b_score_5": "▼ Hyper-Niche (Ultra-specific use case)",
-    "territory_1_title": "The Components King",
-    "territory_1_subtitle": "HERO FEATURE × MID-MARKET",
-    "territory_1_description": "Owns the mental link to one feature across broad positioning. Trust is built on source story and consistent hero. Wide enough to scale, specific enough to own.",
+    "territory_1_title": "The Ingredient King",
+    "territory_1_subtitle": "HERO INGREDIENT × MID-MARKET",
+    "territory_1_description": "Owns the mental link to one ingredient across broad positioning. Trust is built on source story and consistent ingredient hero. Wide enough to scale, specific enough to own.",
     "territory_2_title": "The Tech Engineer",
     "territory_2_subtitle": "DELIVERY SYSTEM × MID-TO-NICHE",
     "territory_2_description": "It's not what's in it, but how it is delivered. Proprietary delivery systems and patented technology. Trust is built on patents, proof, and engineered performance.",
