@@ -6,7 +6,16 @@
 - [x] BUG: Screenshot captures footer — fixed in Overrides v1.10.11 (`main` tag instead of `#main`). Awaiting Framer paste.
 
 ## TODO - In Progress
-- [ ] Pixel sprite transition Framer component — dgrees.studio style 32x32 grid with staggered wipe animation
+- [ ] Admin /todo page + TodoLoader code component — full CRUD on new Supabase `admin_todos` table (admin-allowlist RLS). Replace markdown TODO block inside /admin/changelog (ChangelogLoader v2.6.0, Supabase-backed) so both pages share a single source of truth. New table at `xray/supabase/migrations/006_admin_todos.sql`. [2026-04-21]
+- [ ] UniversalDataProvider (Framer) — new code component with property-controls UI panel to pick data source (GitHub Pages JSON OR Supabase table row), path/table/column configurable, for /products/single-pdp-reports/brand-perception/brand-perception-truth. Writes to window.__POKPOK_DATA__.www, reuses existing DataOverrides.Data HOC so 17 Evidence Item instances bind via variant→marker_N mapping. [2026-04-21]
+- [ ] Handwritten font — write status/todo/plan (Phase A: manual relabel; Phase B: PACK→K shape fix; Phase C: font assembly v1) [2026-04-12]
+- [x] Handwritten font extraction v11 — reading-order labels + word-gap alignment + y_tol stray filter + rasterize+potrace varstroke + interactive relabel UI. User validated "accuracy is much higher now" (2026-04-12)
+- [ ] Handwritten font — Phase A manual relabel pass (219 glyphs, ~70-80% label accuracy ceiling, need ≥95% for font v1)
+- [ ] Handwritten font — Phase B fix PACK→K corrupt shape (horizontal bar vs two diagonals) + re-verify OF→O
+- [ ] Handwritten font — Phase C font assembly v1 (baseline alignment, advance widths, aalt/salt/liga features)
+- [x] Handwritten font pipeline — cc.png-based extraction working end-to-end (219 glyphs/33 chars), filled+stroke SVGs, interactive tester with hide-photo toggle (2026-04-12)
+- [ ] Handwritten font — perspective correction automation (manual for now, 32 attempts failed)
+- [ ] Pixel sprite transition Framer component — dgrees.studio style grid with staggered wipe animation. v1.5.2: fill/crop sampling, IO+RAF scroll, speed prop, auto-sizing
 - [x] Awtrix 3 integration — POKPOK Index top 2 movers with full metrics on Ulanzi pixel clock + web emulator component
 - [ ] Awtrix daily launchd timer — auto-push latest.json to device on schedule
 - [ ] Deploy AwtrixEmulator to Framer pokpok-index page
@@ -70,6 +79,22 @@
 - [x] Admin page architecture fix — IndexImportProvider v1.1.1 (remove purchased_reports from auto-import), DB cleanup done
 - [x] RecurringOrderItemsList v1.3.8 — RUNNING badge hover shows ASIN number
 - [x] AdminPDPProvider v1.5.19 — auto-flag PDPs with alignment < 40
+
+---
+
+## 2026-04-12
+
+### Handwritten Font Pipeline
+- **feature:** End-to-end extraction on `cc.png` (user-normalized) produces 219 glyphs across 33 chars with both filled and stroke SVGs per glyph
+- **feature:** Interactive tester (`output/font-tester.html`) — type preview, glyph gallery, overlay accuracy check with hide-photo toggle revealing pure red vector strokes on white
+- **feature:** **ViktorHand.ttf** — actual TTF font file (34 KB, 175 glyphs, 30 chars with up to 8 alternates each). OpenType `aalt` + `salt` features. Works in browser via `@font-face`. Preview: `output/ViktorHand-preview.html`
+- **fix:** Potrace bounding-box filter rejected 73% of legitimate glyphs — now requires contour to touch ALL FOUR edges, mask padded 2px (FF011)
+- **fix:** Overlay stacking produced muddy strokes — separated into `strokes_only_cc.png` (transparent red strokes) + `cc.png` base layer with toggleable photo opacity (FF012)
+- **fix:** Staircase/pixelated vector curves — was upscaling binary mask (cubic-interp on 0/255 only produces ringing); now dilates mask 3 px to capture gray halo, upscales **grayscale** 8x, thresholds upscaled gray. Potrace sees sub-pixel-smooth edges from the photo's natural anti-aliasing (FF013)
+- **fix:** Comparison render showed solid black boxes — PIL `.convert("RGB")` on RGBA fills transparent with black; now composite onto white using alpha channel as mask (FF014)
+- **improvement:** `scripts/extract_cc.py` + `scripts/rebuild_cc_tester.py` + `scripts/build_font_cc.py` — single-command pipeline from photo to working font
+
+> **Note:** Font v0.1 is functional. Polish pending: baseline normalization, per-glyph spacing tuning, OCR accuracy (tesseract → PaddleOCR), `calt` contextual alternates.
 
 ---
 
