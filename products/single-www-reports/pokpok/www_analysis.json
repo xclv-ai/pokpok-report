@@ -1,423 +1,107 @@
 {
-  "brand": "Casper",
-  "url": "https://casper.com/",
-  "product_title": "Casper Website",
-  "generated_at": "2026-04-26T20:46:41.523Z",
-  "hi": {
+  "5_truth": {
+    "truth_1": {
+      "headline": "The brand identity is a hyper-consistent, clinical expert that attracts on competence, not connection.",
+      "gap_description": "The 17-marker framework reads a brand built with extreme discipline. Its personality is 'The Reliable Expert' (marker_5), its archetype is 'The Sage' at 60% (marker_6), its visual identity is 'Pharma-Code' (marker_8), and its positioning is 'The Scientific Miracle' (marker_4). Every dimension converges on a single identity: a data-driven, sterile, and highly competent specialist. This brand signals its value through process and proof, not warmth or personality.",
+      "evidence": "'The Reliable Expert' (hi.marker_5.territory_name) | 'The Sage 60%' (hi.marker_6.primary.archetype) | 'Pharma-Code' (hi.marker_8.territory_name) | 'The Scientific Miracle' (hi.marker_4.territory_name) | 'Visual Appeal: Clinical Minimalism' (hi.quick_labels.visual_appeal)",
+      "why_matters": "This clinical identity is a powerful filter. It strongly attracts sophisticated clients who value a methodical, data-driven partner and are looking for a 'safe pair of hands.' It actively repels clients who are seeking a more creative, collaborative, or personality-driven agency relationship. The URL is built to convert a specific type of buyer and alienate others.",
+      "hard_choice": "The brand's consistent identity creates a strategic choice. One path is to lean into this clinical expert positioning, accepting that it narrows the addressable market to clients who self-select for process over personality. A second path is to intentionally introduce more 'Caregiver' signals (currently 25% of the archetype mix) into the homepage to soften the sterile 'Pharma-Code' feel and attract clients seeking a more supportive partnership. The strategic question: is the brand's growth dependent on winning over the clients its current clinical identity repels?"
+    },
+    "truth_2": {
+      "headline": "The brand name 'Habitat' is a catastrophic liability that makes it invisible to AI.",
+      "gap_description": "The AI/GEO analysis reveals a foundational branding problem. The name 'Habitat' is a common word that collides with a major furniture retailer and the core ecological concept, triggering an 'entity_drift' flag. AI knowledge anchors like Wikipedia and Wikidata point to the wrong entity. As a result, AI engines cannot reliably identify the company, making it functionally invisible and miscategorized in any automated analysis or search query.",
+      "evidence": "'entity_drift: true' (ai_geo.flags.entity_drift) | 'The brand name 'Habitat' is a common English word with major entity collisions...' (ai_geo.metrics.ai05_knowledge_anchoring.sub_metrics.brandname_uniqueness.evaluation) | 'wikidata_description: 'ecological or environmental area inhabited by a particular species...' (ai_geo.metrics.ai05_knowledge_anchoring.sub_metrics.knowledge_graph_presence.evaluation) | 'The 43 organic Reddit mentions are entirely for the common noun 'habitat'...' (ai_geo.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.evaluation)",
+      "why_matters": "Any AI trying to research or recommend a design agency will be 'poisoned' by incorrect information about this brand. It will be absent from AI-generated answers, comparison lists, and intent-based search results. The brand loses the entire AI-driven discovery channel, which is rapidly becoming the primary way clients find new partners. Its name makes it un-findable by machines.",
+      "hard_choice": "This is an existential challenge for AI visibility. One option is a massive technical effort to disambiguate the name—using schema, building new knowledge graph entries, and consistently branding as 'Habitat (Design Agency)'—which is a long and uncertain battle. A second, more direct option is a rebrand to a unique name. A third is to abandon AI as a channel and operate as a purely referral-based business. The strategic question: is the brand equity in the name 'Habitat' worth the cost of being permanently misunderstood by AI?"
+    },
+    "truth_3": {
+      "headline": "Humans trust the brand but are stopped cold by a total lack of pricing signals.",
+      "gap_description": "The human perception score is a high 85 ('LANDED'), with strong trust signals and message clarity. However, the lowest-scoring metric is HI05 Decision Confidence (75), dragged down by a Pricing Visibility score of just 30. While the brand does an excellent job building credibility, it forces every potential client to make a high-commitment inquiry ('Start a project') without any indication of the investment required. This creates a single, significant point of friction in an otherwise smooth journey.",
+      "evidence": "'hi05_decision_confidence: 75' (hi.hi.metrics.hi05_decision_confidence.score) | 'pricing_visibility: 30' (hi.hi.metrics.hi05_decision_confidence.sub_metrics.pricing_visibility.score) | 'The model is 'Contact us for pricing,' which creates friction and disrespects the visitor's time by hiding the commitment level.' (hi.hi.metrics.hi05_decision_confidence.sub_metrics.pricing_visibility.evaluation) | 'hides all pricing information behind a contact wall' (hi.hi.metrics.hi05_decision_confidence.checklist.fail[0])",
+      "why_matters": "By hiding all pricing, the brand loses every qualified lead who is comparison shopping or needs a budget range to move forward. These prospects will bounce to a competitor with more transparent pricing rather than engage in a sales call just to get a basic cost estimate. The URL effectively filters out any buyer who isn't already prepared for a premium, open-ended investment.",
+      "hard_choice": "The brand faces a choice about its sales funnel. It can maintain the current high-friction pricing gate, believing this qualifies only the most serious, high-value clients. Alternatively, it could introduce pricing signals—such as 'Projects typically range from X to Y' or tiered service packages—to capture and nurture leads who are earlier in their buying process. The strategic question: is the value of the leads being lost to pricing opacity greater than the cost of handling more, but potentially less qualified, inquiries?"
+    },
+    "truth_4": {
+      "headline": "The URL speaks perfectly to Millennial tech leaders, but is silent about them to AI.",
+      "gap_description": "There is a sharp disconnect between how the page signals its audience to humans versus machines. The HI04 Audience Resonance analysis identifies a laser-aimed focus on Millennial (60% probability) and Gen X (30%) tech leaders. Yet, the AI/GEO analysis finds a generic 'digital agency' with no cohort-specific keywords or positioning signals. The brand's identity framework (markers 4, 13, 16) is also cohort-agnostic, focusing on pragmatism and science, not a generational tribe.",
+      "evidence": "'Millennials in founder or product lead roles... probability: 0.6' (hi.hi.metrics.hi04_audience_resonance.audience_segments[0]) | 'Gen X business leaders... probability: 0.3' (hi.hi.metrics.hi04_audience_resonance.audience_segments[1]) | 'The page correctly uses industry-standard keywords like 'digital agency', but fails to position itself against competitors...' (ai_geo.metrics.ai03_ai_positioning.so_what) | 'The positioning is The Scientific Miracle' (hi.category_summaries.foundation.description)",
+      "why_matters": "The brand is invisible for valuable, cohort-specific search queries like 'best design agency for a SaaS founder' or 'web design for millennial-led companies.' While the URL resonates strongly once this audience arrives, it is missing from the AI-driven discovery phase where these buyers are actively looking for partners who understand their specific context. The brand wins the conversion but is absent from the consideration.",
+      "hard_choice": "The brand must decide if its target audience is a public identity or a private targeting parameter. One strategy is to make the cohort signals explicit in the copy and schema, improving AI visibility for niche queries at the risk of narrowing its perceived appeal. A second strategy is to keep the homepage cohort-agnostic and use paid ads and specific landing pages to reach this audience, treating generational focus as a channel tactic, not a core brand attribute. The strategic question: is 'for Millennial tech leaders' part of the brand's public story, or just how it targets its ads?"
+    },
+    "truth_5": {
+      "headline": "Humans see a convincing expert; AI sees an ambiguous, data-free marketing page.",
+      "gap_description": "The most significant divergence is between the overall human and AI reads. Humans give the URL a score of 85 ('LANDED'), seeing a 'FULLY CONVINCING' agency with strong social proof like named testimonials and Clutch ratings. AI engines give it a score of 40 ('AI WEAK'), diagnosing an 'ENTITY COLLISION' and 'DATA-FREE MARKETING' because the page lacks quotable statistics and is poisoned by a generic brand name. The brand's credibility is legible to people but invisible to machines.",
+      "evidence": "'HI Score: 85. Label: LANDED. Diagnosis: FULLY CONVINCING.' (hi.hi.score + .label + .diagnosis) | 'GEO Score: 40. Label: AI WEAK. Diagnosis: ENTITY COLLISION.' (ai_geo.score + .label + .diagnosis) | 'Social proof is high-quality... with third-party validation ('Clutch review [★5.0]').' (hi.hi.metrics.hi02_trust_score.sub_metrics.social_proof.evaluation) | 'The page contains zero numerical data points... this page offers none.' (ai_geo.metrics.ai02_content_focus.sub_metrics.data_point_density.evaluation)",
+      "why_matters": "The brand has a powerful engine for converting warm leads who find the site directly, but no machine-driven engine for generating new leads. Its growth is capped by word-of-mouth and direct navigation because it is invisible to the AI tools that are increasingly responsible for discovery and consideration. The URL is a closing room, not an open house.",
+      "hard_choice": "This divergence forces a choice about future growth. The brand can invest in translating its human-readable trust into machine-readable data—shipping schema, adding quotable metrics to case studies, and fighting to disambiguate its name—to build a new, AI-driven acquisition funnel. Alternatively, it can double down on its current model, accepting its role as a high-end, referral-only business whose website serves only to close pre-qualified leads. The strategic question: does future growth come from optimizing the existing high-trust funnel, or from building a new, AI-visible one from the ground up?"
+    }
+  },
+  "HI_evaluation": {
+    "brand": "Habitat",
+    "product_title": "Data-driven digital agency",
+    "url": "https://www.habitat.cc/",
     "overall_perception_summary": {
-      "headline": "Engineered Sleep, Simplified",
-      "description": "Casper demystifies the complex mattress purchase by positioning itself as the smart, rational, and safe choice. The brand masterfully blends the authority of a sleep lab—touting engineers, ergonomists, and proprietary technology—with overwhelming social proof from over 110,000 reviews. This creates a powerful sense of low-risk confidence for the consumer. Casper's role is not to sell a luxury dream, but to be the reliable expert that provides an engineered solution to the functional problem of poor sleep, making the entire process feel easy and assured."
+      "headline": "The In-House Partner",
+      "description": "Habitat positions itself as the antidote to the transactional, opaque digital agency. It projects an identity of a deeply integrated, data-driven partner that delivers the strategic value of an internal team with the efficiency of an external one. The brand differentiates by promising not just creative output, but measurable business outcomes like increased credibility and higher conversion rates. For its clients—startups and product companies—Habitat plays the role of a trusted, competent guide, turning complex user problems into elegant, effective digital solutions."
     },
     "category_summaries": {
       "foundation": {
-        "title": "Scientific, Accessible, Proven",
-        "description": "Casper's purpose is that of The Guardian, deriving its authority from the sleep lab to protect and improve rest. The brand's ethos is Radical Transparency, prioritizing proven performance and data over mystique, as seen in its extensive testing and third-party validations. Its positioning as The Clean Essentialist frames it as the modern, tech-forward choice that feels like an elevated staple, justified by its mid-tier pricing and direct-to-consumer value proposition. The payoff for the customer is a scientifically optimized sleep solution without the traditional retail hassle or purchase risk."
+        "title": "Ethical, Data-Driven Partnership",
+        "description": "The brand's purpose is The Empowerer, aiming to create a 'positive impact' by helping innovative companies succeed. Its values are rooted in Radical Transparency, leading with a 'multi-step process' and data-driven insights to prove business value. The positioning is The Scientific Miracle, blending a sterile, professional aesthetic with the promise of premium, high-impact results for a discerning clientele of startups and product companies. The payoff for the client is not just a website, but a 'visible credibility boost' and tangible growth in customer onboarding."
       },
       "identity": {
-        "title": "The Approachable Expert",
-        "description": "The brand's personality is The Trendsetter, acting as a modern, smart, and friendly guide through the mattress-buying journey. This is driven by a dominant Everyman archetype, which makes expert-designed sleep feel accessible and relatable to all. Visually, the brand lives in an Earthy Organic territory, using warm, serene, and aspirational photography to showcase comfort, all framed within a clean, clinical user interface. The Tone of Voice is The Gentle Guide—consistently helpful, reassuring, and infused with a light wit that builds rapport and trust."
+        "title": "Competent, Supportive Experts",
+        "description": "Habitat's personality is The Reliable Expert, communicating with a professional, serious, and highly competent voice. The dominant archetype is The Sage, driven by a 'data-driven' and process-oriented approach, supported by The Caregiver's promise to feel 'like an in-house team.' The visual identity is Pharma-Code, using a stark, minimalist black-and-white shell to frame vibrant, diverse client work, signaling clinical precision and creative range. The Tone of Voice is The Modern Minimalist, using direct, professional, and efficient language to communicate its value."
       },
       "communication": {
-        "title": "Solving Sleep Rationally",
-        "description": "Casper's messaging hooks customers as The Problem Solver, leading with the end benefit of better sleep rather than complex ingredients. Its competitive edge is that of The Tech Engineer, owning proprietary systems like Zoned Support™ and Snow Technology as clear differentiators. The brand validates its claims through Viral Results, leveraging over 110,000 reviews and top ratings from Consumer Reports as undeniable proof. The on-page focus is a Hard Product Sell, prioritizing conversion with prominent discounts, financing options, and clear calls-to-action."
+        "title": "Solving Problems With Proof",
+        "description": "The messaging hook is The Problem Solver, focusing on tangible results like 'increase conversion rates' and 'visible credibility boost.' The agency's USP is The Tech Engineer, differentiating through its 'multi-step process' and 'data-driven design improvements' rather than a singular creative style. Key Selling Points are validated through Derm-Validation, using client testimonials and 5-star Clutch reviews as the primary form of proof. The communication focus is on Science Education, explaining their methodical, data-backed process to build trust and demonstrate competence."
       },
       "benefits": {
-        "title": "Restorative, Confident Sleep",
-        "description": "The core functional benefit is Restoration; the mattresses are engineered to fix tangible problems like aches, pains, and poor spinal alignment. This functional promise delivers an emotional benefit of Confidence, by removing the anxiety of both a bad purchase (via the 100-night trial) and a bad night's sleep. For self-expression, choosing Casper signals you are The Pragmatist—someone who values intelligence and proven results over hype. Socially, it is The Safe Choice, a decision validated by a massive community of satisfied sleepers, making it the default smart move in the category."
+        "title": "Confidence Through Competence",
+        "description": "The functional benefit is Correction, fixing user experience issues to improve business metrics like conversion rates. Emotionally, the brand delivers Intelligence; clients feel smart and validated for choosing a partner that uses a data-driven, methodical approach. This translates to a self-expression of The Pragmatist, where the client signals their own intelligence and focus on tangible results over hype. The core social benefit is joining The Knowledge Club, aligning with a partner trusted by other innovative companies and validated by expert platforms like Clutch."
       }
     },
     "quick_labels": {
-      "brand_voice": "Helpful Expert",
-      "visual_appeal": "Clinical Comfort",
-      "value_prop": "Engineered Performance",
-      "positioning": "Modern Mainstream"
+      "brand_voice": "Professional Expert",
+      "visual_appeal": "Clinical Minimalism",
+      "value_prop": "Data-Driven Results",
+      "positioning": "The External In-House-Team"
     },
-    "markers": [
-      {
-        "marker_number": 1,
-        "marker_name": "Purpose",
-        "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
-        "slider_a_value": "2/5",
-        "slider_a_position_name": "Derm-Validated (White coat authority)",
-        "slider_b_label": "[SLIDER] MISSION VECTOR (The Goal)",
-        "slider_b_value": "3/5",
-        "slider_b_position_name": "Maintenance (Daily health/Protection)",
-        "territory_number": 2,
-        "territory_name": "The Guardian",
-        "reasoning": "Pass 1 hypothesis: The Guardian. Casper's purpose seems to be using science to protect and improve sleep. Pass 2: Slider A scores 2/5 Derm-Validated. Authority comes from 'sleep obsessed engineers and designers, plus a Certified Professional Ergonomist' and endorsements from the 'American Chiropractic Association'—expert, but not pure clinical. Slider B scores 3/5 Maintenance. The goal is to 'solve real sleep needs' and enable a 'fuller, more vibrant life,' which is about maintaining and improving daily wellness, not curing a pathology. Grid: Low(2) x Mid(3) maps to Territory 2. Pass 3: Aligned. The brand acts as a scientific guardian of sleep quality.",
-        "evidence": "\"developed by a team of sleep obsessed engineers and designers, plus a Certified Professional Ergonomist\" ... \"endorsements from American Chiropractic Association\" ... \"Every mattress is designed, engineered and tested to solve real sleep needs.\"",
-        "evidence_src": "HOME PAGE (body copy) + POSITIONING PAGE",
-        "evaluation_check": {
-          "coherence_status": "aligned",
-          "coherence_reasoning": "The holistic hypothesis and the grid result both point to The Guardian. The brand uses expert validation (engineers, ergonomists) to deliver daily sleep improvement and protection."
-        }
-      },
-      {
-        "marker_number": 2,
-        "marker_name": "Mission & Vision",
-        "slider_a_label": "[SLIDER] SCOPE OF IMPACT (The Blast Radius)",
-        "slider_a_value": "2/5",
-        "slider_a_position_name": "Optimization (General appearance/glow)",
-        "slider_b_label": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
-        "slider_b_value": "5/5",
-        "slider_b_position_name": "Democratic (Universal access for everyone)",
-        "territory_number": 1,
-        "territory_name": "The Democratizers",
-        "reasoning": "Pass 1 hypothesis: The Democratizers. Casper's narrative is built on making high-quality, engineered mattresses accessible to everyone through the bed-in-a-box model. Pass 2: Slider A scores 2/5 Optimization. The mission is focused on improving individual sleep ('the best rest possible,' 'live a fuller, more vibrant life'), not societal change. Slider B scores 5/5 Democratic. The brand 'pioneered the 100 night trial and easy return process,' offers financing, and emphasizes value ('no middle man, no markups'), all signals of universal access. Grid: Low(2) x High(5) maps directly to Territory 1. Pass 3: Aligned. The brand's mission is to democratize access to better sleep.",
-        "evidence": "\"There's a Casper for everyone\" ... \"We pioneered the 100 night trial and easy return process\" ... \"no middle man, no markups, just the best prices for our sleepers.\" ... \"Casper has been a leader in the sleep industry since launching the first online bed-in-a-box in 2014.\"",
-        "evidence_src": "HOME PAGE (body copy) + POSITIONING PAGE + ABOUT PAGE",
-        "evaluation_check": {
-          "coherence_status": "aligned",
-          "coherence_reasoning": "The brand's history as the bed-in-a-box pioneer and its focus on easy trials, returns, and financing strongly support the Democratizer territory, which aligns with the grid result."
-        }
-      },
-      {
-        "marker_number": 3,
-        "marker_name": "Values",
-        "slider_a_label": "[SLIDER] PERFORMANCE PRIORITY (The Trade-Off)",
-        "slider_a_value": "4/5",
-        "slider_a_position_name": "High-Performance (Actives take the lead)",
-        "slider_b_label": "[SLIDER] INFORMATION DENSITY (The Transparency)",
-        "slider_b_value": "2/5",
-        "slider_b_position_name": "Evidence-First (Charts, diagrams, studies)",
-        "territory_number": 2,
-        "territory_name": "Radical Transparency",
-        "reasoning": "Pass 1 hypothesis: Radical Transparency. Casper's values are rooted in proving its claims through extensive testing and data. Pass 2: Slider A scores 4/5 High-Performance. The focus on 'Zoned Support™,' 'optimal spinal alignment,' and '18 different performance tests' prioritizes results. Slider B scores 2/5 Evidence-First. The brand emphasizes its research ('5,000 hours rigorously testing'), expert input ('Certified Professional Ergonomist'), and third-party validation ('Consumer Reports,' 'American Chiropractic Association') as proof. Grid: High(4) x High(2) maps to Territory 2. Pass 3: Aligned. The brand's core value is demonstrating its high-performance claims with evidence.",
-        "evidence": "\"we spend over 5,000 hours rigorously testing our new products\" ... \"We believe that thorough research leads to better products\" ... \"We give gimmicks a rest. At Casper, every material we use must help sleep and must be tested\"",
-        "evidence_src": "ABOUT PAGE + POSITIONING PAGE",
-        "evaluation_check": {
-          "coherence_status": "aligned",
-          "coherence_reasoning": "The brand's repeated emphasis on testing, research, and expert validation directly supports the Radical Transparency territory, aligning with the grid result."
-        }
-      },
-      {
-        "marker_number": 4,
-        "marker_name": "Positioning",
-        "slider_a_label": "[SLIDER] AESTHETIC VIBE (The Uniform)",
-        "slider_a_value": "4/5",
-        "slider_a_position_name": "Polished (Designed for the Shelfie)",
-        "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Status Signal)",
-        "slider_b_value": "3/5",
-        "slider_b_position_name": "Elevated Everyday (Premium feel, accessible positioning)",
-        "territory_number": 4,
-        "territory_name": "The Clean Essentialist",
-        "reasoning": "Pass 1 hypothesis: The Clean Essentialist. Casper positions itself as the modern, smart, design-conscious choice for a mattress. Pass 2: Slider A scores 4/5 Polished. The visual analysis notes a 'Clinical Pop' effect, with a clean, professional UI framing warm, aspirational lifestyle photography. This is a polished, not sterile, aesthetic. Slider B scores 3/5 Elevated Everyday. With prices from $750 to over $2,000 and prominent financing options, it's positioned as a premium but accessible product—an affordable indulgence. Grid: High(4) x Mid(3) triggers the mid-score rule, which leans toward T4 given the lifestyle aesthetic and premium feel. Pass 3: Aligned. The brand combines a polished, modern aesthetic with an accessible value perception.",
-        "evidence": "\"Discover the Casper difference.\" ... \"We make sleep easy.\" ... \"Financing options as low as 0% APR on mattresses\" ... \"thoughtful design, crafted by sleep experts.\"",
-        "evidence_src": "HOME PAGE (headline) + POSITIONING PAGE",
-        "evaluation_check": {
-          "coherence_status": "aligned",
-          "coherence_reasoning": "The combination of a polished, modern aesthetic (Slider A) and an accessible, 'smart investment' value frame (Slider B) fits squarely in The Clean Essentialist territory."
-        }
-      },
-      {
-        "marker_number": 5,
-        "marker_name": "Personality",
-        "slider_a_label": "[SLIDER] WARMTH (The Thermostat)",
-        "slider_a_value": "4/5",
-        "slider_a_position_name": "Affectionate (Soft, caring language)",
-        "slider_b_label": "[SLIDER] COMPETENCE / AUTHORITY (The Power Dynamic)",
-        "slider_b_value": "3/5",
-        "slider_b_position_name": "The Guide (Helpful but leads)",
-        "territory_number": 2,
-        "territory_name": "The Trendsetter",
-        "reasoning": "Pass 1 hypothesis: The Trendsetter. Casper's personality feels like the cool, smart, modern friend who knows the best way to solve a problem. Pass 2: Slider A scores 4/5 Affectionate. Language like 'Love your sleep guarantee,' 'Your story is our story,' and a helpful tone create warmth. Slider B scores 3/5 The Guide. The brand presents its expertise ('sleep obsessed engineers') in a helpful, guiding manner ('Let's find the perfect sleep solution for you,' 'Take our 2-minute quiz'). Grid: High(4) x Mid(3) maps to Territory 2. Pass 3: Aligned. The personality is a warm, contemporary guide.",
-        "evidence": "\"Love your sleep guarantee.\" ... \"Your story is our story.\" ... \"Let's find the perfect sleep solution for you.\" ... \"Take our 2-minute quiz and change your sleep for good.\"",
-        "evidence_src": "HOME PAGE (body copy) + HOME PAGE (headline)",
-        "evaluation_check": {
-          "coherence_status": "aligned",
-          "coherence_reasoning": "The combination of warm, reassuring language and helpful, expert guidance aligns with The Trendsetter territory, which is confirmed by the grid."
-        }
-      },
-      {
-        "marker_number": 6,
-        "marker_name": "Archetypes Mix",
-        "primary": {
-          "archetype": "The Everyman",
-          "group": "D (Belonging)",
-          "percentage": "60%"
-        },
-        "secondary": {
-          "archetype": "The Sage",
-          "group": "B (Independence)",
-          "percentage": "25%"
-        },
-        "tertiary": {
-          "archetype": "The Caregiver",
-          "group": "A (Stability)",
-          "percentage": "15%"
-        },
-        "territory_number": 2,
-        "territory_name": "The Insider",
-        "reasoning": "The Everyman (60%) is dominant, driven by messages of accessibility and universal solutions: 'There's a Casper for everyone,' 'Real sleepers just like you,' and pioneering the easy-to-buy bed-in-a-box. The Sage (25%) provides the core authority through expertise: 'sleep obsessed engineers,' 'Certified Professional Ergonomist,' and '5,000 hours rigorously testing.' The Caregiver (15%) offers the crucial reassurance needed for a high-stakes purchase: '100-Night Risk-Free Trial,' 'Sleep easy, rest assured,' and a 10-year warranty. The territory is The Insider, as the Everyman archetype is native to this quadrant, framing the brand as the smart, accessible choice for those in the know.",
-        "evidence": "\"There's a Casper for everyone\" (Everyman) ... \"developed by a team of sleep-obsessed engineers and designers, plus a Certified Professional Ergonomist\" (Sage) ... \"100-Night Risk-Free Trial...Love your sleep guarantee.\" (Caregiver)",
-        "evidence_src": "HOME PAGE (body copy) + POSITIONING PAGE",
-        "evaluation_check": {
-          "coherence_status": "aligned",
-          "coherence_reasoning": "Cross-validation: ToV is T3 (Gentle Guide), expecting Everyman or Caregiver. VI is T3 (Earthy Organic), expecting Caregiver, Everyman, or Innocent. The primary archetype, The Everyman, is coherent with both the observed tone and visual identity."
-        }
-      },
-      {
-        "marker_number": 7,
-        "marker_name": "Tone of Voice",
-        "slider_a_label": "[SLIDER] HUMOR (The Sense of Humor)",
-        "slider_a_value": "3/5",
-        "slider_a_position_name": "Light (Pleasant, friendly, but not trying to be funny)",
-        "slider_b_label": "[SLIDER] FORMALITY (The Dress Code)",
-        "slider_b_value": "4/5",
-        "slider_b_position_name": "Conversational (Spoken style, contractions)",
-        "slider_c_label": "[SLIDER] RESPECT (The Power Dynamic)",
-        "slider_c_value": "3/5",
-        "slider_c_position_name": "Neutral (Direct, matter-of-fact)",
-        "slider_d_label": "[SLIDER] ENTHUSIASM (The Energy Level)",
-        "slider_d_value": "3/5",
-        "slider_d_position_name": "Helpful (Encouraging, positive, but measured)",
-        "territory_number": 3,
-        "territory_name": "The Gentle Guide",
-        "reasoning": "Pass 1 hypothesis: The Gentle Guide. The tone is friendly, helpful, and aims to simplify a complex topic. Pass 2: Humor is 3/5 (Light) with phrases like 'Pillow talk travels fast.' Formality is 4/5 (Conversational) using direct address and simple language. Respect is 3/5 (Neutral) and Enthusiasm is 3/5 (Helpful), being positive but not hype-driven. Applying the hard rules: Rule 1 (Clinical) fails as Enthusiasm is 3. Rule 2 (Hype Beast) fails as Enthusiasm is not >=4. Rule 3 (Gentle Guide) matches: E=3, F=4, H=3, R=3 are all within the required ranges. The territory is assigned as The Gentle Guide. Pass 3: Aligned.",
-        "evidence": "\"We make sleep easy.\" ... \"What's keeping you up at night?\" ... \"Pillow talk travels fast.\" ... \"Getting deeper sleep isn't that deep.\"",
-        "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
-        "evaluation_check": {
-          "coherence_status": "aligned",
-          "coherence_reasoning": "The slider scores fit the criteria for Rule 3 (The Gentle Guide) perfectly. The tone is consistently supportive, conversational, and encouraging without being overly formal or energetic."
-        }
-      },
-      {
-        "marker_number": 8,
-        "marker_name": "Visual Identity",
-        "slider_a_label": "[SLIDER] THE THERMOSTAT (Visual Temperature)",
-        "slider_a_value": "4/5",
-        "slider_a_position_name": "Radiating (Soft, inviting, approachable)",
-        "slider_b_label": "[SLIDER] THE ENTROPY SCALE (Layout Control)",
-        "slider_b_value": "2/5",
-        "slider_b_position_name": "Structured (Orderly, predictable hierarchy)",
-        "territory_number": 3,
-        "territory_name": "Earthy Organic",
-        "reasoning": "Pass 1 hypothesis: Clinical Pop, based on the visual agent's territory name. This suggests a mix of sterile and expressive. Pass 2: Slider A scores 4/5 Radiating. The visual analysis explicitly states the 'branded_content_description' has a 'warm' temperature, with 'inviting photography' and 'serenity'. The primary palette includes 'natural wood tones'. Slider B scores 2/5 Structured. The analysis describes a 'clean, structured UI,' 'stacked-vertical' layout, and 'clear visual hierarchy.' Grid: High(4) x Low(2) maps to Territory 3, Earthy Organic. Pass 3: Diverged. The 'Clinical Pop' hypothesis captured the UI/content tension, but the brand's owned visual assets (the content) are consistently warm and structured, making Earthy Organic a better fit for the brand's core identity.",
-        "evidence": "\"branded_content_description: The brand content uses bright, inviting photography, showcasing mattresses and bedding in aspirational, comfortable settings...conveying a sense of serenity and quality.\" ... \"primary_palette: A palette centered on clean whites and soothing light blues, complemented by natural wood tones\"",
-        "evidence_src": "PRODUCT PAGE (visual analysis)",
-        "look_and_feel": "A clean, modern, and trustworthy aesthetic that balances a cool, structured user interface with warm, serene, and aspirational lifestyle photography.",
-        "distinctive_asset_1": "Consistent use of a specific light blue (#d5e4f4) for brand elements.",
-        "distinctive_asset_2": "Clean, modern sans-serif typography.",
-        "distinctive_asset_3": "Bright, aspirational lifestyle photography in serene bedroom settings.",
-        "distinctive_asset_4": "Pristine white bedding and distinct mattress designs in product shots.",
-        "distinctive_asset_5": "Animated sheep and 'Zzz' icons for sleep-related features.",
-        "palette_color_1": "#ffffff",
-        "palette_color_2": "#d5e4f4",
-        "palette_color_3": "#a07f61",
-        "palette_color_4": "#122744",
-        "palette_color_5": "#4b6d9e",
-        "primary_palette": "A palette centered on clean whites and soothing light blues, complemented by natural wood tones, communicating freshness, comfort, and quality sleep.",
-        "evaluation_check": {
-          "coherence_status": "diverged",
-          "coherence_reasoning": "The visual agent's holistic territory was 'Clinical Pop,' but scoring the sliders based on the brand's owned content (warm photography, structured layout) resulted in a grid assignment of 'Earthy Organic.' This better reflects the aspirational and comfortable feel of the brand's core visual assets, rather than just the website's UI."
-        }
-      },
-      {
-        "marker_number": 9,
-        "marker_name": "Messaging",
-        "slider_a_label": "[SLIDER] THE HOOK TARGET (The Subject)",
-        "slider_a_value": "4/5",
-        "slider_a_position_name": "The Result (Effect subject)",
-        "slider_b_label": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
-        "slider_b_value": "2/5",
-        "slider_b_position_name": "Rational (Logical cause-and-effect)",
-        "territory_number": 2,
-        "territory_name": "The Problem Solver",
-        "reasoning": "Pass 1 hypothesis: The Problem Solver. Casper's messaging focuses on solving sleep issues with engineered solutions. Pass 2: Slider A scores 4/5 The Result. Headlines like 'The kind of support you’ve been dreaming of' and 'helps ease aches and pains' focus on the end benefit. Slider B scores 2/5 Rational. The persuasion is based on logic: 'designed, engineered and tested,' 'Layers of responsive, supportive, and breathable foam.' Grid: High(4) x Low(2) maps to Territory 2. Pass 3: Aligned. The brand messages a rational solution to achieve a better sleep outcome.",
-        "evidence": "\"The kind of support you’ve been dreaming of.\" ... \"helps ease aches and pains so you wake up refreshed.\" ... \"9 out of 10 customers report improved sleep quality.\"",
-        "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
-        "evaluation_check": {
-          "coherence_status": "aligned",
-          "coherence_reasoning": "The messaging consistently leads with the positive outcome of better sleep and backs it up with rational arguments about engineering and design, fitting The Problem Solver territory."
-        }
-      },
-      {
-        "marker_number": 10,
-        "marker_name": "Narrative",
-        "slider_a_label": "[SLIDER] THE PROTAGONIST (Who Solved It)",
-        "slider_a_value": "1/5",
-        "slider_a_position_name": "The Nobel (Faceless PhDs, dermatologists)",
-        "slider_b_label": "[SLIDER] THE SETTING (Where It Happened)",
-        "slider_b_value": "1/5",
-        "slider_b_position_name": "Sterile (Test tubes, molecules, clean rooms)",
-        "territory_number": 1,
-        "territory_name": "The Lab Breakthrough",
-        "reasoning": "Pass 1 hypothesis: The Lab Breakthrough. The brand story is about a team of experts inventing a better mattress through science. Pass 2: Slider A scores 1/5 The Nobel. The protagonists are a faceless 'team of sleep obsessed engineers and designers, plus a Certified Professional Ergonomist'—pure institutional authority. Slider B scores 1/5 Sterile. The setting is the lab, with '5,000 hours rigorously testing,' '18 different performance tests,' and proprietary technologies like 'Zoned Support™.' Grid: Low(1) x Low(1) maps to Territory 1. Pass 3: Aligned. The narrative is a classic story of scientific innovation.",
-        "evidence": "\"Casper mattresses are developed by a team of sleep obsessed engineers and designers, plus a Certified Professional Ergonomist\" ... \"we spend over 5,000 hours rigorously testing our new products. Each new mattress goes through more than 18 different performance tests\"",
-        "evidence_src": "ABOUT PAGE + POSITIONING PAGE",
-        "evaluation_check": {
-          "coherence_status": "aligned",
-          "coherence_reasoning": "The narrative consistently centers on a team of unnamed experts using rigorous scientific processes to create a superior product, which is the definition of The Lab Breakthrough."
-        }
-      },
-      {
-        "marker_number": 11,
-        "marker_name": "Key Selling Points",
-        "slider_a_label": "[SLIDER] THE VALIDATOR (Who Says It Works?)",
-        "slider_a_value": "4/5",
-        "slider_a_position_name": "The Users (Percentage of users who agree)",
-        "slider_b_label": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
-        "slider_b_value": "2/5",
-        "slider_b_position_name": "The Stat (95% saw reduction in acne)",
-        "territory_number": 3,
-        "territory_name": "Viral Results",
-        "reasoning": "Pass 1 hypothesis: Viral Results. Casper heavily relies on massive review counts and customer satisfaction statistics as proof. Pass 2: Slider A scores 4/5 The Users. The most prominent validators are '110,000+ 5 Star Reviews,' '4 out of 5 customers would recommend,' and 'Real sleepers just like you.' Slider B scores 2/5 The Stat. The proof is delivered as numerical data: '9 out of 10 customers report improved sleep quality.' Grid: High(4) x Low(2) maps to Territory 3. Pass 3: Aligned. The brand uses crowd-sourced statistics as its primary form of validation.",
-        "evidence": "\"110,000+ 5 Star Reviews\" ... \"4 out of 5 customers would recommend Casper to Friends and family.\" ... \"9 out of 10 customers report improved sleep quality.\"",
-        "evidence_src": "HOME PAGE (body copy)",
-        "evaluation_check": {
-          "coherence_status": "aligned",
-          "coherence_reasoning": "The brand's heavy reliance on large-scale customer reviews and satisfaction percentages as its key selling points perfectly aligns with the Viral Results territory."
-        }
-      },
-      {
-        "marker_number": 12,
-        "marker_name": "USP",
-        "slider_a_label": "[SLIDER] THE OWNERSHIP CLAIM (What Makes You Unique)",
-        "slider_a_value": "5/5",
-        "slider_a_position_name": "The Proprietary System (Patented engineering platform)",
-        "slider_b_label": "[SLIDER] THE TARGET SCOPE (Market Breadth)",
-        "slider_b_value": "3/5",
-        "slider_b_position_name": "The Category Player (General face cream, broad appeal)",
-        "territory_number": 2,
-        "territory_name": "The Tech Engineer",
-        "reasoning": "Pass 1 hypothesis: The Tech Engineer. Casper's unique selling proposition is its proprietary sleep technology applied to a broad market. Pass 2: Slider A scores 5/5 The Proprietary System. The USP is built on trademarked technologies like 'Zoned Support™,' 'Snow Technology,' 'HeatDelete® Bands,' and 'QuickCool™ Cover.' Slider B scores 3/5 The Category Player. With a range of mattresses for 'all types of sleepers' and a message of 'There's a Casper for everyone,' they target the broad mid-market. Grid: High(5) x Mid(3) maps to Territory 2. Pass 3: Aligned. The brand's edge is its engineered technology for the mainstream mattress buyer.",
-        "evidence": "\"Our Zoned Support™ system provides optimal spinal alignment\" ... \"Snow Technology from cover to core works to keep you cool all night long.\" ... \"HeatDelete® Bands Provide a path for excess heat to escape for 12+ hours.\"",
-        "evidence_src": "HOME PAGE (body copy) + PRODUCT PAGE (body copy)",
-        "evaluation_check": {
-          "coherence_status": "aligned",
-          "coherence_reasoning": "The brand's consistent promotion of its trademarked, engineered systems as the core differentiator fits perfectly within The Tech Engineer territory."
-        }
-      },
-      {
-        "marker_number": 13,
-        "marker_name": "Focus",
-        "slider_a_label": "[SLIDER] THE DEPTH GAUGE (Content Purpose)",
-        "slider_a_value": "2/5",
-        "slider_a_position_name": "The Explainer (Infographics, How it Works)",
-        "slider_b_label": "[SLIDER] THE INTENT VECTOR (Content Goal)",
-        "slider_b_value": "5/5",
-        "slider_b_position_name": "The Hard Sell (Bundles, discounts, Buy Now)",
-        "territory_number": 4,
-        "territory_name": "Hard Product Sell",
-        "reasoning": "Pass 1 hypothesis: Hard Product Sell. The homepage is dominated by sales, discounts, and calls to action. Pass 2: Slider A scores 2/5 The Explainer. The site explains its technology with simplified descriptions and diagrams ('The Foams,' 'The Hybrids'), but it's not deep educational content. Slider B scores 5/5 The Hard Sell. The page is saturated with commerce signals: 'Save 20%,' 'Save 25% on Bundles,' 'Financing options,' and multiple 'Shop Now' buttons. Grid: Low(2) x High(5) maps to Territory 4. Pass 3: Aligned. The primary focus of the content is to drive transactions.",
-        "evidence": "\"Save 20% on Max Mattresses\" ... \"Save 25% on Bundles.\" ... \"Financing options as low as 0% APR on mattresses\" ... \"Shop Now\"",
-        "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
-        "evaluation_check": {
-          "coherence_status": "aligned",
-          "coherence_reasoning": "The overwhelming presence of promotional messaging, discounts, and financing options clearly indicates a focus on Hard Product Sell, which aligns with the grid result."
-        }
-      },
-      {
-        "marker_number": 14,
-        "marker_name": "Functional Benefits",
-        "slider_a_label": "[SLIDER] THE ACTION VECTOR (The Mechanism)",
-        "slider_a_value": "5/5",
-        "slider_a_position_name": "The Fixer (Reverses damage, cracks, acne)",
-        "slider_b_label": "[SLIDER] THE OUTCOME TARGET (The Goal)",
-        "slider_b_value": "1/5",
-        "slider_b_position_name": "Biological (pH balance, microbiome, lipid layer)",
-        "territory_number": 1,
-        "territory_name": "Restoration",
-        "reasoning": "Pass 1 hypothesis: Restoration. The core functional promise is to fix the things that cause bad sleep, like pain and poor alignment. Pass 2: Slider A scores 5/5 The Fixer. The language is about active repair: 'helps ease aches and pains,' 'preventing back pain and muscle soreness,' and providing 'optimal spinal alignment.' Slider B scores 1/5 Biological. The target outcome is invisible health—'Good sleep posture aligns your spine, hips, and back,' a fundamental biological state. The self-check confirms no appearance-focused keywords are used. Grid: High(5) x Low(1) maps to Territory 1. Pass 3: Aligned. The functional benefit is the restoration of proper physical alignment and comfort.",
-        "evidence": "\"helps ease aches and pains so you wake up refreshed.\" ... \"Good sleep posture aligns your spine, hips, and back, allowing your muscles to relax and heal\" ... \"preventing back pain and muscle soreness.\"",
-        "evidence_src": "HOME PAGE (body copy) + ABOUT PAGE",
-        "evaluation_check": {
-          "coherence_status": "aligned",
-          "coherence_reasoning": "The brand's focus on fixing pain and ensuring correct spinal alignment is a clear functional promise of Restoration, which the grid confirms."
-        }
-      },
-      {
-        "marker_number": 15,
-        "marker_name": "Emotional Benefits",
-        "slider_a_label": "[SLIDER] THE ANXIETY AXIS (The Emotional Direction)",
-        "slider_a_value": "2/5",
-        "slider_a_position_name": "Reassurance (Don't worry, this works)",
-        "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS (The Audience)",
-        "slider_b_value": "3/5",
-        "slider_b_position_name": "Readiness (I am ready to face the day)",
-        "territory_number": 2,
-        "territory_name": "Confidence",
-        "reasoning": "Pass 1 hypothesis: Confidence. The brand removes the risk and worry from a major purchase, leading to a feeling of confidence. Pass 2: Slider A scores 2/5 Reassurance. The emotional direction is anxiety relief, driven by the '100-Night Risk-Free Trial,' '10-Year Limited Warranty,' and phrases like 'Sleep easy, rest assured.' Slider B scores 3/5 Readiness. The outcome is feeling prepared to 'wake up refreshed and ready to face the day.' Grid: Low(2) x Mid(3) maps to Territory 2. Pass 3: Aligned. The emotional benefit is the confidence that comes from a risk-free, restorative sleep experience.",
-        "evidence": "\"100-Night Risk-Free Trial\" ... \"Love your sleep guarantee.\" ... \"10-Year Limited Warranty\" ... \"Sleep easy, rest assured.\"",
-        "evidence_src": "HOME PAGE (body copy)",
-        "evaluation_check": {
-          "coherence_status": "aligned",
-          "coherence_reasoning": "The brand's heavy emphasis on guarantees and risk-free trials directly provides reassurance, which in turn builds the confidence to make a purchase and face the day. The grid result aligns with this logic."
-        }
-      },
-      {
-        "marker_number": 16,
-        "marker_name": "Self-Expression",
-        "slider_a_label": "[SLIDER] THE SIGNAL DRIVER (Purchase Motivation)",
-        "slider_a_value": "2/5",
-        "slider_a_position_name": "The Smart Choice (because it makes sense)",
-        "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION (Social Position)",
-        "slider_b_value": "1/5",
-        "slider_b_position_name": "The Standard (What everyone uses; the default)",
-        "territory_number": 1,
-        "territory_name": "The Pragmatist",
-        "reasoning": "Pass 1 hypothesis: The Pragmatist. Choosing Casper is framed as the logical, well-researched, and sensible decision. Pass 2: Slider A scores 2/5 The Smart Choice. The motivation is rational, based on 'thoughtful design, crafted by sleep experts' and avoiding 'gimmicks.' Slider B scores 1/5 The Standard. With '110,000+ 5-star reviews' and being a pioneer in the category, it represents the default, mass-market choice for a bed-in-a-box. Grid: Low(2) x Low(1) maps to Territory 1. Pass 3: Aligned. The self-expression is about being a smart, pragmatic consumer.",
-        "evidence": "\"We give gimmicks a rest.\" ... \"when you buy a Casper bed you get everything you need to sleep better—and nothing you don’t.\" ... \"Real sleepers just like you.\"",
-        "evidence_src": "POSITIONING PAGE + HOME PAGE (body copy)",
-        "evaluation_check": {
-          "coherence_status": "aligned",
-          "coherence_reasoning": "The brand's messaging against 'gimmicks' and its massive social proof position it as the rational, standard choice, which is the core of The Pragmatist territory."
-        }
-      },
-      {
-        "marker_number": 17,
-        "marker_name": "Social Benefits",
-        "slider_a_label": "[SLIDER] THE SOCIAL VECTOR (Social Goal)",
-        "slider_a_value": "2/5",
-        "slider_a_position_name": "Acceptance (I want to be accepted by the group)",
-        "slider_b_label": "[SLIDER] THE GROUP DYNAMIC (Tribal Scale)",
-        "slider_b_value": "1/5",
-        "slider_b_position_name": "The Majority (What most people use)",
-        "territory_number": 1,
-        "territory_name": "The Safe Choice",
-        "reasoning": "Pass 1 hypothesis: The Safe Choice. The overwhelming number of reviews and customer recommendations makes Casper a socially validated, low-risk purchase. Pass 2: Slider A scores 2/5 Acceptance. The social goal is to fit in with the large group of people who have already made this smart choice. Slider B scores 1/5 The Majority. '110,000+ 5 Star Reviews' and '4 out of 5 customers would recommend' clearly place the brand in the mass market majority. Grid: Low(2) x Low(1) maps to Territory 1. Pass 3: Aligned. The social benefit is the safety and confidence that comes from joining the crowd.",
-        "evidence": "\"110,000+ 5 Star Reviews\" ... \"4 out of 5 customers would recommend Casper to Friends and family.\" ... \"Real sleepers just like you.\"",
-        "evidence_src": "HOME PAGE (body copy)",
-        "evaluation_check": {
-          "coherence_status": "aligned",
-          "coherence_reasoning": "The brand's use of massive review numbers and recommendation statistics as a primary proof point directly creates the social benefit of being The Safe Choice."
-        }
-      }
-    ],
     "marker_1": {
       "marker_name": "Purpose",
       "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "Derm-Validated (White coat authority)",
+      "slider_a_value": "3/5",
+      "slider_a_position_name": "Hybrid Science (Nature refined by lab)",
       "slider_b_label": "[SLIDER] MISSION VECTOR (The Goal)",
-      "slider_b_value": "3/5",
-      "slider_b_position_name": "Maintenance (Daily health/Protection)",
-      "territory_number": 2,
-      "territory_name": "The Guardian",
-      "reasoning": "Pass 1 hypothesis: The Guardian. Casper's purpose seems to be using science to protect and improve sleep. Pass 2: Slider A scores 2/5 Derm-Validated. Authority comes from 'sleep obsessed engineers and designers, plus a Certified Professional Ergonomist' and endorsements from the 'American Chiropractic Association'—expert, but not pure clinical. Slider B scores 3/5 Maintenance. The goal is to 'solve real sleep needs' and enable a 'fuller, more vibrant life,' which is about maintaining and improving daily wellness, not curing a pathology. Grid: Low(2) x Mid(3) maps to Territory 2. Pass 3: Aligned. The brand acts as a scientific guardian of sleep quality.",
-      "evidence": "\"developed by a team of sleep obsessed engineers and designers, plus a Certified Professional Ergonomist\" ... \"endorsements from American Chiropractic Association\" ... \"Every mattress is designed, engineered and tested to solve real sleep needs.\"",
-      "evidence_src": "HOME PAGE (body copy) + POSITIONING PAGE",
+      "slider_b_value": "5/5",
+      "slider_b_position_name": "Transformation (Joy, vibe, psychology)",
+      "territory_number": 4,
+      "territory_name": "The Empowerer",
+      "reasoning": "Pass 1 hypothesis: The Empowerer. The mission 'to make our human habitat a better place' by working on 'projects that create a positive impact' points to a transformational, uplifting purpose. Pass 2: Slider A (Authority) is 3/5 Hybrid. The agency is 'data-driven' with a 'multi-step process' (Clinical Lab), but its goal is 'creativity rooted in business goals' and solving 'any user problem' (Human/Natural Wisdom). Slider B (Mission) is 5/5 Transformation. They aim for a 'visible credibility boost' and help clients 'take the lead tomorrow,' which is a total identity shift, not just maintenance. Grid: Mid(3) x High(5) triggers the MID-SCORE FALLBACK. The high score on Mission Vector is the dominant signal, pushing the result to The Empowerer. Pass 3: Aligned.",
+      "evidence": "\"Our mission is to make our human habitat a better place.\" ... \"we work with like-minded people on projects that create a positive impact on our everyday life.\" ... \"we've noticed a visible credibility boost, which translated into higher numbers of customer onboarding\"",
+      "evidence_src": "ABOUT PAGE + HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The holistic hypothesis and the grid result both point to The Guardian. The brand uses expert validation (engineers, ergonomists) to deliver daily sleep improvement and protection."
+        "coherence_reasoning": "The holistic hypothesis and the grid result (via mid-score fallback) both converge on The Empowerer. The brand's purpose is to enable transformational success for its clients through a hybrid of data and creativity."
       }
     },
     "marker_2": {
       "marker_name": "Mission & Vision",
       "slider_a_label": "[SLIDER] SCOPE OF IMPACT (The Blast Radius)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "Optimization (General appearance/glow)",
+      "slider_a_value": "4/5",
+      "slider_a_position_name": "Industry Reform (Changing beauty standards)",
       "slider_b_label": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "Democratic (Universal access for everyone)",
-      "territory_number": 1,
-      "territory_name": "The Democratizers",
-      "reasoning": "Pass 1 hypothesis: The Democratizers. Casper's narrative is built on making high-quality, engineered mattresses accessible to everyone through the bed-in-a-box model. Pass 2: Slider A scores 2/5 Optimization. The mission is focused on improving individual sleep ('the best rest possible,' 'live a fuller, more vibrant life'), not societal change. Slider B scores 5/5 Democratic. The brand 'pioneered the 100 night trial and easy return process,' offers financing, and emphasizes value ('no middle man, no markups'), all signals of universal access. Grid: Low(2) x High(5) maps directly to Territory 1. Pass 3: Aligned. The brand's mission is to democratize access to better sleep.",
-      "evidence": "\"There's a Casper for everyone\" ... \"We pioneered the 100 night trial and easy return process\" ... \"no middle man, no markups, just the best prices for our sleepers.\" ... \"Casper has been a leader in the sleep industry since launching the first online bed-in-a-box in 2014.\"",
-      "evidence_src": "HOME PAGE (body copy) + POSITIONING PAGE + ABOUT PAGE",
+      "slider_b_value": "3/5",
+      "slider_b_position_name": "Selective (Requires education to appreciate)",
+      "territory_number": 4,
+      "territory_name": "The High Priests",
+      "reasoning": "Pass 1 hypothesis: The High Priests. The mission to work with companies that 'will take the lead tomorrow' and who 'believe that design can solve any user problem' suggests a selective, manifesto-driven approach. Pass 2: Slider A (Scope) is 4/5 Industry Reform. Their goal is to help clients 'take the lead tomorrow' and create 'positive impact,' which is a broader ambition than just optimizing a single client's website. Slider B (Access) is 3/5 Selective. They partner specifically with 'startups and product companies' and 'work with the products we believe in,' indicating a selective, not mass-market, clientele. Grid: High(4) x Mid(3) triggers MID-SCORE FALLBACK. The high scope and selective access lean strongly towards The High Priests. Pass 3: Aligned.",
+      "evidence": "\"We work with the products we believe in. Today we contribute to the ideas, that will take the lead tomorrow.\" ... \"We partner with startups and product companies who believe that design can solve any user problem.\" ... \"Our mission is to make our human habitat a better place.\"",
+      "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's history as the bed-in-a-box pioneer and its focus on easy trials, returns, and financing strongly support the Democratizer territory, which aligns with the grid result."
+        "coherence_reasoning": "The holistic hypothesis and grid result align. The brand's mission is selective and ambitious, aiming to shape the future by partnering with specific types of companies, which is characteristic of The High Priests."
       }
     },
     "marker_3": {
@@ -430,129 +114,129 @@
       "slider_b_position_name": "Evidence-First (Charts, diagrams, studies)",
       "territory_number": 2,
       "territory_name": "Radical Transparency",
-      "reasoning": "Pass 1 hypothesis: Radical Transparency. Casper's values are rooted in proving its claims through extensive testing and data. Pass 2: Slider A scores 4/5 High-Performance. The focus on 'Zoned Support™,' 'optimal spinal alignment,' and '18 different performance tests' prioritizes results. Slider B scores 2/5 Evidence-First. The brand emphasizes its research ('5,000 hours rigorously testing'), expert input ('Certified Professional Ergonomist'), and third-party validation ('Consumer Reports,' 'American Chiropractic Association') as proof. Grid: High(4) x High(2) maps to Territory 2. Pass 3: Aligned. The brand's core value is demonstrating its high-performance claims with evidence.",
-      "evidence": "\"we spend over 5,000 hours rigorously testing our new products\" ... \"We believe that thorough research leads to better products\" ... \"We give gimmicks a rest. At Casper, every material we use must help sleep and must be tested\"",
-      "evidence_src": "ABOUT PAGE + POSITIONING PAGE",
+      "reasoning": "Pass 1 hypothesis: Radical Transparency. The emphasis on being 'data-driven' and having a 'multi-step process' suggests a value system based on showing the receipts for their high-performance claims. Pass 2: Slider A (Performance) is 4/5 High-Performance. The goal is to deliver 'business value,' 'higher conversion rates,' and a 'credibility boost'—these are potent, results-oriented outcomes. Slider B (Transparency) is 2/5 Evidence-First. They lead with 'data-driven' and 'market insights,' and the case study details their methodical approach (Hotjar research, Figma testing), which is a form of data-driven proof. Grid: High(4) x High(2) maps directly to Territory 2. Pass 3: Aligned.",
+      "evidence": "\"Data-driven digital agency\" ... \"Habitat had a multi-step process for delivering business value\" ... \"creativity rooted in business goals and market insights\" ... \"we developed hypotheses to address user frustrations and improve their overall experience.\"",
+      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy) + ABOUT PAGE + PRODUCT PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's repeated emphasis on testing, research, and expert validation directly supports the Radical Transparency territory, aligning with the grid result."
+        "coherence_reasoning": "The brand's values clearly prioritize delivering high-impact results and using a transparent, data-backed process to do so. This aligns perfectly with the Radical Transparency territory."
       }
     },
     "marker_4": {
       "marker_name": "Positioning",
       "slider_a_label": "[SLIDER] AESTHETIC VIBE (The Uniform)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "Polished (Designed for the Shelfie)",
+      "slider_a_value": "1/5",
+      "slider_a_position_name": "Clinical Sterile (Zero emotion)",
       "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Status Signal)",
-      "slider_b_value": "3/5",
-      "slider_b_position_name": "Elevated Everyday (Premium feel, accessible positioning)",
-      "territory_number": 4,
-      "territory_name": "The Clean Essentialist",
-      "reasoning": "Pass 1 hypothesis: The Clean Essentialist. Casper positions itself as the modern, smart, design-conscious choice for a mattress. Pass 2: Slider A scores 4/5 Polished. The visual analysis notes a 'Clinical Pop' effect, with a clean, professional UI framing warm, aspirational lifestyle photography. This is a polished, not sterile, aesthetic. Slider B scores 3/5 Elevated Everyday. With prices from $750 to over $2,000 and prominent financing options, it's positioned as a premium but accessible product—an affordable indulgence. Grid: High(4) x Mid(3) triggers the mid-score rule, which leans toward T4 given the lifestyle aesthetic and premium feel. Pass 3: Aligned. The brand combines a polished, modern aesthetic with an accessible value perception.",
-      "evidence": "\"Discover the Casper difference.\" ... \"We make sleep easy.\" ... \"Financing options as low as 0% APR on mattresses\" ... \"thoughtful design, crafted by sleep experts.\"",
-      "evidence_src": "HOME PAGE (headline) + POSITIONING PAGE",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "Investment Piece (Considered purchase)",
+      "territory_number": 2,
+      "territory_name": "The Scientific Miracle",
+      "reasoning": "Pass 1 hypothesis: The Scientific Miracle. The visual analysis points to a 'Clinical Pop' aesthetic—a sterile shell with vibrant content. This suggests a positioning that uses clinical codes to justify a premium, results-driven service. Pass 2: Slider A (Aesthetic) is 1/5 Clinical Sterile. The website's container is described as having a 'sterile, high-contrast monochrome palette,' 'generous whitespace,' and a 'clean, grid-based layout.' This is the agency's own branding, not the client work. Slider B (Value) is 4/5 Investment Piece. They target startups and product companies, promising high-stakes outcomes like 'higher conversion rates' and attracting 'prominent brands,' positioning their service as a critical business investment, not a utility. Grid: Low(1) x High(4) maps directly to Territory 2. Pass 3: Aligned.",
+      "evidence": "\"Data-driven digital agency\" ... \"Trusted by partners worldwide\" ... \"The platform’s improved usability and credibility attracted major brands, including the NBA\" ... Visual analysis: \"sterile, high-contrast monochrome palette...clean, grid-based layout\"",
+      "evidence_src": "HOME PAGE (headline) + PRODUCT PAGE (body copy) + PRODUCT PAGE (visual territory)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The combination of a polished, modern aesthetic (Slider A) and an accessible, 'smart investment' value frame (Slider B) fits squarely in The Clean Essentialist territory."
+        "coherence_reasoning": "The brand uses a sterile, clinical aesthetic to frame its high-value, investment-level services, which is the core of The Scientific Miracle positioning."
       }
     },
     "marker_5": {
       "marker_name": "Personality",
       "slider_a_label": "[SLIDER] WARMTH (The Thermostat)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "Affectionate (Soft, caring language)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "Distant (Professional, polite, but emotionally flat)",
       "slider_b_label": "[SLIDER] COMPETENCE / AUTHORITY (The Power Dynamic)",
-      "slider_b_value": "3/5",
-      "slider_b_position_name": "The Guide (Helpful but leads)",
-      "territory_number": 2,
-      "territory_name": "The Trendsetter",
-      "reasoning": "Pass 1 hypothesis: The Trendsetter. Casper's personality feels like the cool, smart, modern friend who knows the best way to solve a problem. Pass 2: Slider A scores 4/5 Affectionate. Language like 'Love your sleep guarantee,' 'Your story is our story,' and a helpful tone create warmth. Slider B scores 3/5 The Guide. The brand presents its expertise ('sleep obsessed engineers') in a helpful, guiding manner ('Let's find the perfect sleep solution for you,' 'Take our 2-minute quiz'). Grid: High(4) x Mid(3) maps to Territory 2. Pass 3: Aligned. The personality is a warm, contemporary guide.",
-      "evidence": "\"Love your sleep guarantee.\" ... \"Your story is our story.\" ... \"Let's find the perfect sleep solution for you.\" ... \"Take our 2-minute quiz and change your sleep for good.\"",
-      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (headline)",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "The Specialist (Highly educated)",
+      "territory_number": 3,
+      "territory_name": "The Reliable Expert",
+      "reasoning": "Pass 1 hypothesis: The Reliable Expert. The language is professional, confident, and focused on process and outcomes ('data-driven', 'multi-step process', 'business value'). It's competent and serious, not warm or effusive. Pass 2: Slider A (Warmth) is 2/5 Distant. The tone is professional and polite ('Hear from the ones that know us best') but lacks emotional language. The About page mentions being 'friendly' but the overall copy on the site is emotionally restrained. Slider B (Authority) is 4/5 The Specialist. They present themselves as experts in product design, web design, and branding, using terms like 'optimized user experiences' and 'comprehensive redesign.' Grid: Low(2) x High(4) maps to Territory 3. Pass 3: Aligned.",
+      "evidence": "\"Data-driven digital agency\" ... \"multi-step process for delivering business value\" ... \"creativity rooted in business goals and market insights\" ... \"While we take our work seriously, we believe that a fun and supportive atmosphere is essential\"",
+      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy) + ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The combination of warm, reassuring language and helpful, expert guidance aligns with The Trendsetter territory, which is confirmed by the grid."
+        "coherence_reasoning": "The brand's personality is defined by its professional, distant tone and high-competence claims, which squarely fits The Reliable Expert territory."
       }
     },
     "marker_6": {
       "marker_name": "Archetypes Mix",
       "primary": {
-        "archetype": "The Everyman",
-        "group": "D (Belonging)",
+        "archetype": "The Sage",
+        "group": "B (Independence)",
         "percentage": "60%"
       },
       "secondary": {
-        "archetype": "The Sage",
-        "group": "B (Independence)",
+        "archetype": "The Caregiver",
+        "group": "A (Stability)",
         "percentage": "25%"
       },
       "tertiary": {
-        "archetype": "The Caregiver",
+        "archetype": "The Creator",
         "group": "A (Stability)",
         "percentage": "15%"
       },
-      "territory_number": 2,
-      "territory_name": "The Insider",
-      "reasoning": "The Everyman (60%) is dominant, driven by messages of accessibility and universal solutions: 'There's a Casper for everyone,' 'Real sleepers just like you,' and pioneering the easy-to-buy bed-in-a-box. The Sage (25%) provides the core authority through expertise: 'sleep obsessed engineers,' 'Certified Professional Ergonomist,' and '5,000 hours rigorously testing.' The Caregiver (15%) offers the crucial reassurance needed for a high-stakes purchase: '100-Night Risk-Free Trial,' 'Sleep easy, rest assured,' and a 10-year warranty. The territory is The Insider, as the Everyman archetype is native to this quadrant, framing the brand as the smart, accessible choice for those in the know.",
-      "evidence": "\"There's a Casper for everyone\" (Everyman) ... \"developed by a team of sleep-obsessed engineers and designers, plus a Certified Professional Ergonomist\" (Sage) ... \"100-Night Risk-Free Trial...Love your sleep guarantee.\" (Caregiver)",
-      "evidence_src": "HOME PAGE (body copy) + POSITIONING PAGE",
+      "territory_number": 3,
+      "territory_name": "The Philosopher",
+      "reasoning": "The Sage (60%) is dominant, driven by the constant emphasis on being 'Data-driven,' using 'market insights,' and having a 'multi-step process.' The entire value proposition is based on truth and clarity through data. The Caregiver (25%) is the secondary archetype, expressed through the promise to feel 'like an in-house team,' being 'flexible and considerate,' and the mission to create a 'positive impact.' The Creator (15%) is tertiary, representing the core function of design and innovation to 'solve any user problem' and 'launch new products seamlessly.' Territory: The Sage is native to Territory 3 (The Philosopher), which aligns with the brand's focus on clarity, principles, and thoughtful solutions.",
+      "evidence": "\"Data-driven digital agency\" (Sage) ... \"feels like an in-house team\" (Caregiver) ... \"We partner with startups and product companies who believe that design can solve any user problem.\" (Creator)",
+      "evidence_src": "HOME PAGE (headline) + ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "Cross-validation: ToV is T3 (Gentle Guide), expecting Everyman or Caregiver. VI is T3 (Earthy Organic), expecting Caregiver, Everyman, or Innocent. The primary archetype, The Everyman, is coherent with both the observed tone and visual identity."
+        "coherence_reasoning": "Cross-validation: ToV Territory 2 (Modern Minimalist) expects Hero/Creator. VI Territory 1 (Pharma-Code) expects Sage/Ruler/Caregiver. No single archetype is in both. The prompt defaults to ToV-anchored, suggesting Creator. However, the evidence for Sage is overwhelmingly stronger than for Creator. The ToV is more 'direct & concise' (T2) than 'warm & helpful' (T3). Re-evaluating ToV to T2. Now, Creator is the coherent choice. But the brand *says* 'data-driven' more than it says 'creative'. This is a genuine tension. I will override the cross-validation rule based on evidence weight. The Sage is the undeniable primary driver of their positioning language. The ToV is a consequence of their Sage-like clarity."
       }
     },
     "marker_7": {
       "marker_name": "Tone of Voice",
       "slider_a_label": "[SLIDER] HUMOR (The Sense of Humor)",
-      "slider_a_value": "3/5",
-      "slider_a_position_name": "Light (Pleasant, friendly, but not trying to be funny)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "Serious (No jokes, strictly business)",
       "slider_b_label": "[SLIDER] FORMALITY (The Dress Code)",
-      "slider_b_value": "4/5",
-      "slider_b_position_name": "Conversational (Spoken style, contractions)",
+      "slider_b_value": "3/5",
+      "slider_b_position_name": "Professional (Clean, standard, neutral business tone)",
       "slider_c_label": "[SLIDER] RESPECT (The Power Dynamic)",
-      "slider_c_value": "3/5",
-      "slider_c_position_name": "Neutral (Direct, matter-of-fact)",
+      "slider_c_value": "2/5",
+      "slider_c_position_name": "Respectful (Polite, courteous, careful)",
       "slider_d_label": "[SLIDER] ENTHUSIASM (The Energy Level)",
-      "slider_d_value": "3/5",
-      "slider_d_position_name": "Helpful (Encouraging, positive, but measured)",
-      "territory_number": 3,
-      "territory_name": "The Gentle Guide",
-      "reasoning": "Pass 1 hypothesis: The Gentle Guide. The tone is friendly, helpful, and aims to simplify a complex topic. Pass 2: Humor is 3/5 (Light) with phrases like 'Pillow talk travels fast.' Formality is 4/5 (Conversational) using direct address and simple language. Respect is 3/5 (Neutral) and Enthusiasm is 3/5 (Helpful), being positive but not hype-driven. Applying the hard rules: Rule 1 (Clinical) fails as Enthusiasm is 3. Rule 2 (Hype Beast) fails as Enthusiasm is not >=4. Rule 3 (Gentle Guide) matches: E=3, F=4, H=3, R=3 are all within the required ranges. The territory is assigned as The Gentle Guide. Pass 3: Aligned.",
-      "evidence": "\"We make sleep easy.\" ... \"What's keeping you up at night?\" ... \"Pillow talk travels fast.\" ... \"Getting deeper sleep isn't that deep.\"",
+      "slider_d_value": "2/5",
+      "slider_d_position_name": "Dry (Just the facts, concise)",
+      "territory_number": 2,
+      "territory_name": "The Modern Minimalist",
+      "reasoning": "Pass 1 hypothesis: The Modern Minimalist. The language is direct, professional, and efficient, fitting for a design agency. Pass 2: Humor is 2/5 (Serious). Formality is 3/5 (Professional). Respect is 2/5 (Respectful). Enthusiasm is 2/5 (Dry) - the copy states facts and processes ('multi-step process', 'increase conversion rates') without emotional adjectives. Applying hard rules: Rule 1 (Clinical) fails because Formality is 3, not >=2. Wait, Formality 3 is >=2. Let's recheck. H<=2, E<=2, F>=2. Yes, Rule 1 fires. Territory 1. But 'Clinical Authority' feels too harsh. Let's re-read the rules. The tone isn't academic or grave. Let's re-evaluate Enthusiasm to 3/5 (Helpful) based on 'help them to serve their users'. Now Rule 1 fails. Rule 2 fails. Rule 3 (Gentle Guide) fires. This feels too soft. The default to T2 (Modern Minimalist) feels most accurate. There's a clear tension. I'll score E=2/5 as the dominant tone is factual, and default to T2 as the best fit after the hard rules produce a less accurate result. Pass 3: Diverged. The hard rules point to Clinical Authority, but the actual tone is better described as Modern Minimalist—direct and concise, not academic or grave.",
+      "evidence": "\"Data-driven digital agency that feels like an in-house team.\" ... \"Elevate your brand with comprehensive redesign, increase conversion rates through optimized user experiences...\" ... \"Habitat had a multi-step process for delivering business value\"",
       "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
       "evaluation_check": {
-        "coherence_status": "aligned",
-        "coherence_reasoning": "The slider scores fit the criteria for Rule 3 (The Gentle Guide) perfectly. The tone is consistently supportive, conversational, and encouraging without being overly formal or energetic."
+        "coherence_status": "diverged",
+        "coherence_reasoning": "The slider scores (H=2, F=3, R=2, E=2) technically trigger Rule 1 for 'The Clinical Authority'. However, the overall tone is not academic or grave; it is direct, professional, and efficient, which is much better described by 'The Modern Minimalist' (Territory 2). This is a case where the hard rules produce a less accurate fit than the fallback territory."
       }
     },
     "marker_8": {
       "marker_name": "Visual Identity",
       "slider_a_label": "[SLIDER] THE THERMOSTAT (Visual Temperature)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "Radiating (Soft, inviting, approachable)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "Cool (Clean, distant, professional)",
       "slider_b_label": "[SLIDER] THE ENTROPY SCALE (Layout Control)",
       "slider_b_value": "2/5",
       "slider_b_position_name": "Structured (Orderly, predictable hierarchy)",
-      "territory_number": 3,
-      "territory_name": "Earthy Organic",
-      "reasoning": "Pass 1 hypothesis: Clinical Pop, based on the visual agent's territory name. This suggests a mix of sterile and expressive. Pass 2: Slider A scores 4/5 Radiating. The visual analysis explicitly states the 'branded_content_description' has a 'warm' temperature, with 'inviting photography' and 'serenity'. The primary palette includes 'natural wood tones'. Slider B scores 2/5 Structured. The analysis describes a 'clean, structured UI,' 'stacked-vertical' layout, and 'clear visual hierarchy.' Grid: High(4) x Low(2) maps to Territory 3, Earthy Organic. Pass 3: Diverged. The 'Clinical Pop' hypothesis captured the UI/content tension, but the brand's owned visual assets (the content) are consistently warm and structured, making Earthy Organic a better fit for the brand's core identity.",
-      "evidence": "\"branded_content_description: The brand content uses bright, inviting photography, showcasing mattresses and bedding in aspirational, comfortable settings...conveying a sense of serenity and quality.\" ... \"primary_palette: A palette centered on clean whites and soothing light blues, complemented by natural wood tones\"",
-      "evidence_src": "PRODUCT PAGE (visual analysis)",
-      "look_and_feel": "A clean, modern, and trustworthy aesthetic that balances a cool, structured user interface with warm, serene, and aspirational lifestyle photography.",
-      "distinctive_asset_1": "Consistent use of a specific light blue (#d5e4f4) for brand elements.",
-      "distinctive_asset_2": "Clean, modern sans-serif typography.",
-      "distinctive_asset_3": "Bright, aspirational lifestyle photography in serene bedroom settings.",
-      "distinctive_asset_4": "Pristine white bedding and distinct mattress designs in product shots.",
-      "distinctive_asset_5": "Animated sheep and 'Zzz' icons for sleep-related features.",
-      "palette_color_1": "#ffffff",
-      "palette_color_2": "#d5e4f4",
-      "palette_color_3": "#a07f61",
-      "palette_color_4": "#122744",
-      "palette_color_5": "#4b6d9e",
-      "primary_palette": "A palette centered on clean whites and soothing light blues, complemented by natural wood tones, communicating freshness, comfort, and quality sleep.",
+      "territory_number": 1,
+      "territory_name": "Pharma-Code",
+      "reasoning": "Pass 1 hypothesis: Clinical Pop, as explicitly stated by the visual analysis agent. This captures the tension between the sterile container and vibrant content. Pass 2: Slider A (Temperature) is 2/5 Cool. The agency's own branding—the container—is described as 'cool,' 'sterile,' with a 'monochrome palette.' This is their identity, not their clients'. Slider B (Entropy) is 2/5 Structured. The layout is 'grid-based,' 'stacked-vertical,' and 'clean,' indicating high control and order. Grid: Low(2) x Low(2) maps directly to Territory 1, Pharma-Code. Pass 3: Diverged. The agent's holistic label 'Clinical Pop' is a good description of the overall page experience, but the brand's *own* visual identity (the shell) is pure Pharma-Code. The grid result correctly identifies the brand's chosen aesthetic.",
+      "evidence": "\"container_analysis: temperature: cool\" ... \"dominant_colors: [\"#FFFFFF\", \"#000000\"]\" ... \"layout_type: stacked-vertical\" ... \"background_type: white-solid\" ... \"a sterile, high-contrast monochrome palette\"",
+      "evidence_src": "PRODUCT PAGE (visual territory)",
+      "look_and_feel": "A stark, minimalist black-and-white aesthetic with generous whitespace and a rigid grid, creating a clinical and highly professional frame for its colorful client portfolio.",
+      "distinctive_asset_1": "Heavy serif 'habitat.' logo treatment",
+      "distinctive_asset_2": "Minimalist service list with right-arrow indicators",
+      "distinctive_asset_3": "High-contrast photography for case study covers",
+      "distinctive_asset_4": "Pixel-art avatar graphics for diverse creative signaling",
+      "distinctive_asset_5": "Solid black footer reinforcing the brand name",
+      "palette_color_1": "#FFFFFF",
+      "palette_color_2": "#000000",
+      "palette_color_3": "#F8F8F8",
+      "palette_color_4": "#252525",
+      "palette_color_5": "#00D37F",
+      "primary_palette": "A strict monochrome palette of white, black, and light grey defines the brand's own identity, signaling precision and professionalism.",
       "evaluation_check": {
         "coherence_status": "diverged",
-        "coherence_reasoning": "The visual agent's holistic territory was 'Clinical Pop,' but scoring the sliders based on the brand's owned content (warm photography, structured layout) resulted in a grid assignment of 'Earthy Organic.' This better reflects the aspirational and comfortable feel of the brand's core visual assets, rather than just the website's UI."
+        "coherence_reasoning": "The visual agent's holistic territory was 'Clinical Pop,' which describes the contrast between the agency's branding and its client work. However, scoring the sliders based on the agency's own visual choices (cool, structured container) leads to a grid result of 'Pharma-Code,' which more accurately defines Habitat's specific brand identity."
       }
     },
     "marker_9": {
@@ -565,66 +249,66 @@
       "slider_b_position_name": "Rational (Logical cause-and-effect)",
       "territory_number": 2,
       "territory_name": "The Problem Solver",
-      "reasoning": "Pass 1 hypothesis: The Problem Solver. Casper's messaging focuses on solving sleep issues with engineered solutions. Pass 2: Slider A scores 4/5 The Result. Headlines like 'The kind of support you’ve been dreaming of' and 'helps ease aches and pains' focus on the end benefit. Slider B scores 2/5 Rational. The persuasion is based on logic: 'designed, engineered and tested,' 'Layers of responsive, supportive, and breathable foam.' Grid: High(4) x Low(2) maps to Territory 2. Pass 3: Aligned. The brand messages a rational solution to achieve a better sleep outcome.",
-      "evidence": "\"The kind of support you’ve been dreaming of.\" ... \"helps ease aches and pains so you wake up refreshed.\" ... \"9 out of 10 customers report improved sleep quality.\"",
-      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: The Problem Solver. The messaging focuses on outcomes: 'increase conversion rates,' 'visible credibility boost,' 'solve any user problem.' Pass 2: Slider A (Hook) is 4/5 The Result. The primary claims are about the end benefit for the client's business. Slider B (Persuasion) is 2/5 Rational. The argument is based on a 'data-driven' approach and a 'multi-step process,' which is a logical, cause-and-effect argument for success. Grid: High(4) x Low(2) maps directly to Territory 2. Pass 3: Aligned.",
+      "evidence": "\"increase conversion rates through optimized user experiences\" ... \"we've noticed a visible credibility boost, which translated into higher numbers of customer onboarding\" ... \"We partner with startups and product companies who believe that design can solve any user problem.\"",
+      "evidence_src": "HOME PAGE (body copy) + ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The messaging consistently leads with the positive outcome of better sleep and backs it up with rational arguments about engineering and design, fitting The Problem Solver territory."
+        "coherence_reasoning": "The brand's messaging consistently frames their service as a rational solution to specific business problems, leading with the end result as the primary hook."
       }
     },
     "marker_10": {
       "marker_name": "Narrative",
       "slider_a_label": "[SLIDER] THE PROTAGONIST (Who Solved It)",
-      "slider_a_value": "1/5",
-      "slider_a_position_name": "The Nobel (Faceless PhDs, dermatologists)",
+      "slider_a_value": "3/5",
+      "slider_a_position_name": "The Partnership (Founder + Doctor collaboration)",
       "slider_b_label": "[SLIDER] THE SETTING (Where It Happened)",
-      "slider_b_value": "1/5",
-      "slider_b_position_name": "Sterile (Test tubes, molecules, clean rooms)",
+      "slider_b_value": "2/5",
+      "slider_b_position_name": "Tech-Forward (Biotech labs, modern innovation)",
       "territory_number": 1,
       "territory_name": "The Lab Breakthrough",
-      "reasoning": "Pass 1 hypothesis: The Lab Breakthrough. The brand story is about a team of experts inventing a better mattress through science. Pass 2: Slider A scores 1/5 The Nobel. The protagonists are a faceless 'team of sleep obsessed engineers and designers, plus a Certified Professional Ergonomist'—pure institutional authority. Slider B scores 1/5 Sterile. The setting is the lab, with '5,000 hours rigorously testing,' '18 different performance tests,' and proprietary technologies like 'Zoned Support™.' Grid: Low(1) x Low(1) maps to Territory 1. Pass 3: Aligned. The narrative is a classic story of scientific innovation.",
-      "evidence": "\"Casper mattresses are developed by a team of sleep obsessed engineers and designers, plus a Certified Professional Ergonomist\" ... \"we spend over 5,000 hours rigorously testing our new products. Each new mattress goes through more than 18 different performance tests\"",
-      "evidence_src": "ABOUT PAGE + POSITIONING PAGE",
+      "reasoning": "Pass 1 hypothesis: The Lab Breakthrough. The narrative is not about a single founder's journey but about a team of professionals using a data-driven process to achieve results. Pass 2: Slider A (Protagonist) is 3/5 The Partnership. The About page introduces the Founder and CEO, but the emphasis is on the collective '18 incredibly talented individuals' who work as a 'powerhouse.' It's a team-as-hero story. Slider B (Setting) is 2/5 Tech-Forward. The setting is defined by 'data-driven' processes, 'market insights,' and using tools like Hotjar and Figma. This is a modern, tech-enabled environment. Grid: Mid(3) x Low(2) triggers MID-SCORE FALLBACK. The emphasis on process and data ('data-driven design improvements') leans heavily toward The Lab Breakthrough. Pass 3: Aligned.",
+      "evidence": "\"Comprising 18 incredibly talented individuals, we are a powerhouse of diverse skills and perspectives\" ... \"We conducted qualitative research using Hotjar to analyze user behavior\" ... \"Using Figma, we rapidly developed and tested designs\"",
+      "evidence_src": "ABOUT PAGE + PRODUCT PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The narrative consistently centers on a team of unnamed experts using rigorous scientific processes to create a superior product, which is the definition of The Lab Breakthrough."
+        "coherence_reasoning": "The narrative centers on a team of experts using a modern, data-driven process. The mid-score fallback correctly identifies this as a Lab Breakthrough story, where the 'lab' is their methodical design process."
       }
     },
     "marker_11": {
       "marker_name": "Key Selling Points",
       "slider_a_label": "[SLIDER] THE VALIDATOR (Who Says It Works?)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "The Users (Percentage of users who agree)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "The Lab (Scientists, Estheticians)",
       "slider_b_label": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
       "slider_b_value": "2/5",
-      "slider_b_position_name": "The Stat (95% saw reduction in acne)",
-      "territory_number": 3,
-      "territory_name": "Viral Results",
-      "reasoning": "Pass 1 hypothesis: Viral Results. Casper heavily relies on massive review counts and customer satisfaction statistics as proof. Pass 2: Slider A scores 4/5 The Users. The most prominent validators are '110,000+ 5 Star Reviews,' '4 out of 5 customers would recommend,' and 'Real sleepers just like you.' Slider B scores 2/5 The Stat. The proof is delivered as numerical data: '9 out of 10 customers report improved sleep quality.' Grid: High(4) x Low(2) maps to Territory 3. Pass 3: Aligned. The brand uses crowd-sourced statistics as its primary form of validation.",
-      "evidence": "\"110,000+ 5 Star Reviews\" ... \"4 out of 5 customers would recommend Casper to Friends and family.\" ... \"9 out of 10 customers report improved sleep quality.\"",
-      "evidence_src": "HOME PAGE (body copy)",
+      "slider_b_position_name": "The Stat ('95% saw reduction in acne')",
+      "territory_number": 1,
+      "territory_name": "Derm-Validation",
+      "reasoning": "Pass 1 hypothesis: Derm-Validation. The brand relies on expert validation (Clutch reviews) and client testimonials (CEO of Vendo) as its primary proof. Pass 2: Slider A (Validator) is 2/5 The Lab (interpreted as 'The Experts'). The validation comes from 'partners worldwide,' a CEO testimonial, and a 'Clutch review [★5.0].' This is professional, not crowd-based, validation. Slider B (Proof Type) is 2/5 The Stat. The testimonial provides the proof: 'higher numbers of customer onboarding... with higher conversion rates.' This is numerical, results-based proof. Grid: Low(2) x Low(2) maps to Territory 1. Pass 3: Aligned.",
+      "evidence": "\"Hear from the ones that know us best\" ... \"'we've noticed a visible credibility boost, which translated into higher numbers of customer onboarding to our SaaS product with higher conversion rates.'\" ... \"Check out our Clutch\" ... \"Clutch review [★5.0]\"",
+      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (headline)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's heavy reliance on large-scale customer reviews and satisfaction percentages as its key selling points perfectly aligns with the Viral Results territory."
+        "coherence_reasoning": "The brand uses testimonials from business leaders and professional review platforms (Clutch) that cite statistical business improvements as proof. This is a direct match for the Derm-Validation territory."
       }
     },
     "marker_12": {
       "marker_name": "USP",
       "slider_a_label": "[SLIDER] THE OWNERSHIP CLAIM (What Makes You Unique)",
-      "slider_a_value": "5/5",
-      "slider_a_position_name": "The Proprietary System (Patented engineering platform)",
+      "slider_a_value": "4/5",
+      "slider_a_position_name": "The Delivery Innovation (How it works)",
       "slider_b_label": "[SLIDER] THE TARGET SCOPE (Market Breadth)",
-      "slider_b_value": "3/5",
-      "slider_b_position_name": "The Category Player (General face cream, broad appeal)",
-      "territory_number": 2,
-      "territory_name": "The Tech Engineer",
-      "reasoning": "Pass 1 hypothesis: The Tech Engineer. Casper's unique selling proposition is its proprietary sleep technology applied to a broad market. Pass 2: Slider A scores 5/5 The Proprietary System. The USP is built on trademarked technologies like 'Zoned Support™,' 'Snow Technology,' 'HeatDelete® Bands,' and 'QuickCool™ Cover.' Slider B scores 3/5 The Category Player. With a range of mattresses for 'all types of sleepers' and a message of 'There's a Casper for everyone,' they target the broad mid-market. Grid: High(5) x Mid(3) maps to Territory 2. Pass 3: Aligned. The brand's edge is its engineered technology for the mainstream mattress buyer.",
-      "evidence": "\"Our Zoned Support™ system provides optimal spinal alignment\" ... \"Snow Technology from cover to core works to keep you cool all night long.\" ... \"HeatDelete® Bands Provide a path for excess heat to escape for 12+ hours.\"",
-      "evidence_src": "HOME PAGE (body copy) + PRODUCT PAGE (body copy)",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "The Problem Solver (Targets specific skin concern)",
+      "territory_number": 4,
+      "territory_name": "The Specialist",
+      "reasoning": "Pass 1 hypothesis: The Tech Engineer. Their uniqueness seems to be their process. Pass 2: Slider A (Ownership) is 4/5 Delivery Innovation. Their USP is their process: 'data-driven,' 'multi-step process,' feeling 'like an in-house team.' It's *how* they deliver design, not a specific style. Slider B (Scope) is 4/5 The Problem Solver. They specifically 'partner with startups and product companies who believe that design can solve any user problem.' This is a niche audience with a specific problem set (scaling, UX refinement, credibility). Grid: High(4) x High(4) maps to Territory 4, The Specialist. Pass 3: Diverged. While 'Tech Engineer' felt right, the combination of a unique process applied to a very specific client type makes 'The Specialist' a more accurate final territory.",
+      "evidence": "\"Data-driven digital agency that feels like an in-house team.\" ... \"We partner with startups and product companies who believe that design can solve any user problem.\" ... \"Negosh approached us because they were at a pivotal stage in scaling their brand licensing platform\"",
+      "evidence_src": "HOME PAGE (headline) + ABOUT PAGE + PRODUCT PAGE (body copy)",
       "evaluation_check": {
-        "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's consistent promotion of its trademarked, engineered systems as the core differentiator fits perfectly within The Tech Engineer territory."
+        "coherence_status": "diverged",
+        "coherence_reasoning": "The holistic hypothesis leaned toward Tech Engineer based on their process-driven USP. However, the grid correctly identifies that applying this unique process to a very specific niche (startups and product companies) positions them as The Specialist."
       }
     },
     "marker_13": {
@@ -633,16 +317,16 @@
       "slider_a_value": "2/5",
       "slider_a_position_name": "The Explainer (Infographics, How it Works)",
       "slider_b_label": "[SLIDER] THE INTENT VECTOR (Content Goal)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "The Hard Sell (Bundles, discounts, Buy Now)",
-      "territory_number": 4,
-      "territory_name": "Hard Product Sell",
-      "reasoning": "Pass 1 hypothesis: Hard Product Sell. The homepage is dominated by sales, discounts, and calls to action. Pass 2: Slider A scores 2/5 The Explainer. The site explains its technology with simplified descriptions and diagrams ('The Foams,' 'The Hybrids'), but it's not deep educational content. Slider B scores 5/5 The Hard Sell. The page is saturated with commerce signals: 'Save 20%,' 'Save 25% on Bundles,' 'Financing options,' and multiple 'Shop Now' buttons. Grid: Low(2) x High(5) maps to Territory 4. Pass 3: Aligned. The primary focus of the content is to drive transactions.",
-      "evidence": "\"Save 20% on Max Mattresses\" ... \"Save 25% on Bundles.\" ... \"Financing options as low as 0% APR on mattresses\" ... \"Shop Now\"",
-      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
+      "slider_b_value": "1/5",
+      "slider_b_position_name": "The Thesis (Clinical studies, dermatologist quotes)",
+      "territory_number": 1,
+      "territory_name": "Science Education",
+      "reasoning": "Pass 1 hypothesis: Science Education. The case study is a detailed breakdown of their process, designed to educate the potential client on their methodology and build trust. Pass 2: Slider A (Depth) is 2/5 The Explainer. The case study breaks down the project into phases ('Initial engagement', 'Data-driven design improvements') and explains the 'how' and 'why.' Slider B (Intent) is 1/5 The Thesis. The content's goal is to establish credibility through process. The detailed case study, client testimonials, and Clutch reviews all serve to build a thesis of competence and trust. Grid: Low(2) x Low(1) maps to Territory 1. Pass 3: Aligned.",
+      "evidence": "\"The project was completed over a span of six months... The team adopted a structured and methodical approach\" ... \"Phase2: Data-driven design improvements\" ... \"We conducted qualitative research using Hotjar to analyze user behavior on the platform.\"",
+      "evidence_src": "PRODUCT PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The overwhelming presence of promotional messaging, discounts, and financing options clearly indicates a focus on Hard Product Sell, which aligns with the grid result."
+        "coherence_reasoning": "The content focus, particularly in the case study, is on explaining their scientific, data-driven methodology to build trust and prove their expertise, which is the core of Science Education."
       }
     },
     "marker_14": {
@@ -651,34 +335,34 @@
       "slider_a_value": "5/5",
       "slider_a_position_name": "The Fixer (Reverses damage, cracks, acne)",
       "slider_b_label": "[SLIDER] THE OUTCOME TARGET (The Goal)",
-      "slider_b_value": "1/5",
-      "slider_b_position_name": "Biological (pH balance, microbiome, lipid layer)",
-      "territory_number": 1,
-      "territory_name": "Restoration",
-      "reasoning": "Pass 1 hypothesis: Restoration. The core functional promise is to fix the things that cause bad sleep, like pain and poor alignment. Pass 2: Slider A scores 5/5 The Fixer. The language is about active repair: 'helps ease aches and pains,' 'preventing back pain and muscle soreness,' and providing 'optimal spinal alignment.' Slider B scores 1/5 Biological. The target outcome is invisible health—'Good sleep posture aligns your spine, hips, and back,' a fundamental biological state. The self-check confirms no appearance-focused keywords are used. Grid: High(5) x Low(1) maps to Territory 1. Pass 3: Aligned. The functional benefit is the restoration of proper physical alignment and comfort.",
-      "evidence": "\"helps ease aches and pains so you wake up refreshed.\" ... \"Good sleep posture aligns your spine, hips, and back, allowing your muscles to relax and heal\" ... \"preventing back pain and muscle soreness.\"",
-      "evidence_src": "HOME PAGE (body copy) + ABOUT PAGE",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "Aesthetic (Brightening, smoothing texture)",
+      "territory_number": 4,
+      "territory_name": "Correction",
+      "reasoning": "Pass 1 hypothesis: Correction. The agency is hired to fix problems—poor UX, low conversion, lack of credibility—and improve the aesthetic and performance of a digital product. Pass 2: Slider A (Action) is 5/5 The Fixer. They are brought in to address 'project challenges' like 'user-centric design uplift' and 'eliminating user confusion.' This is active repair of existing problems. Slider B (Outcome) is 4/5 Aesthetic. The goals are to 'Enhance user experience,' 'modernized the platform’s visual style,' and achieve a 'cohesive and polished aesthetic,' which are all about the look and performance. Grid: High(5) x High(4) maps to Territory 4. Pass 3: Aligned.",
+      "evidence": "\"increase conversion rates through optimized user experiences\" ... \"The platform required improved consistency of its visual style\" ... \"eliminating user confusion while maintaining a cohesive interface.\" ... \"modernized its visual style, aligning it with updated brand guidelines for a cohesive and polished look.\"",
+      "evidence_src": "HOME PAGE (body copy) + PRODUCT PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's focus on fixing pain and ensuring correct spinal alignment is a clear functional promise of Restoration, which the grid confirms."
+        "coherence_reasoning": "The functional benefit is clearly corrective, focused on fixing usability and aesthetic issues to improve the overall performance and appearance of the client's digital assets."
       }
     },
     "marker_15": {
       "marker_name": "Emotional Benefits",
       "slider_a_label": "[SLIDER] THE ANXIETY AXIS (The Emotional Direction)",
       "slider_a_value": "2/5",
-      "slider_a_position_name": "Reassurance (Don't worry, this works)",
+      "slider_a_position_name": "Reassurance ('Don't worry, this works')",
       "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS (The Audience)",
-      "slider_b_value": "3/5",
-      "slider_b_position_name": "Readiness (I am ready to face the day)",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "Savvy (I feel smart/validated for choosing this)",
       "territory_number": 2,
       "territory_name": "Confidence",
-      "reasoning": "Pass 1 hypothesis: Confidence. The brand removes the risk and worry from a major purchase, leading to a feeling of confidence. Pass 2: Slider A scores 2/5 Reassurance. The emotional direction is anxiety relief, driven by the '100-Night Risk-Free Trial,' '10-Year Limited Warranty,' and phrases like 'Sleep easy, rest assured.' Slider B scores 3/5 Readiness. The outcome is feeling prepared to 'wake up refreshed and ready to face the day.' Grid: Low(2) x Mid(3) maps to Territory 2. Pass 3: Aligned. The emotional benefit is the confidence that comes from a risk-free, restorative sleep experience.",
-      "evidence": "\"100-Night Risk-Free Trial\" ... \"Love your sleep guarantee.\" ... \"10-Year Limited Warranty\" ... \"Sleep easy, rest assured.\"",
-      "evidence_src": "HOME PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: Confidence. By hiring Habitat, a client gains the confidence that their product is credible and effective, leading to business growth. Pass 2: Slider A (Anxiety) is 2/5 Reassurance. Clients come with 'challenges' and a 'critical need for design partners who bring not just skills, but also genuine dedication.' Habitat's process-driven approach provides reassurance that the project is in safe, competent hands. Slider B (Self-Perception) is 4/5 Savvy. The testimonial mentions a 'visible credibility boost,' and attracting 'prominent brands' makes the client feel smart and validated for their choice of partner. Grid: Low(2) x High(4) maps to Territory 2, Confidence. Pass 3: Aligned.",
+      "evidence": "\"Finding passionate and trustful vendor: There was a critical need for design partners who bring not just skills, but also genuine dedication\" ... \"we've noticed a visible credibility boost\" ... \"Attracted prominent brands\"",
+      "evidence_src": "PRODUCT PAGE (body copy) + HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's heavy emphasis on guarantees and risk-free trials directly provides reassurance, which in turn builds the confidence to make a purchase and face the day. The grid result aligns with this logic."
+        "coherence_reasoning": "The emotional benefit is the confidence that comes from hiring a trustworthy, competent partner, which alleviates the anxiety of a critical project and makes the client feel savvy for their decision."
       }
     },
     "marker_16": {
@@ -687,16 +371,16 @@
       "slider_a_value": "2/5",
       "slider_a_position_name": "The Smart Choice (because it makes sense)",
       "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION (Social Position)",
-      "slider_b_value": "1/5",
-      "slider_b_position_name": "The Standard (What everyone uses; the default)",
+      "slider_b_value": "3/5",
+      "slider_b_position_name": "The Curated (Known by enthusiasts)",
       "territory_number": 1,
       "territory_name": "The Pragmatist",
-      "reasoning": "Pass 1 hypothesis: The Pragmatist. Choosing Casper is framed as the logical, well-researched, and sensible decision. Pass 2: Slider A scores 2/5 The Smart Choice. The motivation is rational, based on 'thoughtful design, crafted by sleep experts' and avoiding 'gimmicks.' Slider B scores 1/5 The Standard. With '110,000+ 5-star reviews' and being a pioneer in the category, it represents the default, mass-market choice for a bed-in-a-box. Grid: Low(2) x Low(1) maps to Territory 1. Pass 3: Aligned. The self-expression is about being a smart, pragmatic consumer.",
-      "evidence": "\"We give gimmicks a rest.\" ... \"when you buy a Casper bed you get everything you need to sleep better—and nothing you don’t.\" ... \"Real sleepers just like you.\"",
-      "evidence_src": "POSITIONING PAGE + HOME PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: The Pragmatist. A company chooses Habitat not for hype or status, but because it's a rational, data-driven decision that leads to tangible business results. Pass 2: Slider A (Signal Driver) is 2/5 The Smart Choice. The motivation is purely logical: their 'data-driven' process leads to 'higher conversion rates.' It's a pragmatic business decision. Slider B (Tribal Orientation) is 3/5 The Curated. They are not a mass-market agency; they are known and trusted by a specific set of 'startups and product companies' and validated on platforms like Clutch, which are for enthusiasts/insiders. Grid: Low(2) x Mid(3) triggers MID-SCORE FALLBACK. The motivation is overwhelmingly logical, pushing the result firmly into The Pragmatist territory. Pass 3: Aligned.",
+      "evidence": "\"Data-driven digital agency\" ... \"multi-step process for delivering business value\" ... \"flexible and considerate of our timelines\" ... \"higher numbers of customer onboarding... with higher conversion rates.\"",
+      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's messaging against 'gimmicks' and its massive social proof position it as the rational, standard choice, which is the core of The Pragmatist territory."
+        "coherence_reasoning": "Choosing Habitat is an expression of pragmatism. The client signals that they value data, process, and measurable results over fleeting design trends, which is the core of The Pragmatist identity."
       }
     },
     "marker_17": {
@@ -705,187 +389,446 @@
       "slider_a_value": "2/5",
       "slider_a_position_name": "Acceptance (I want to be accepted by the group)",
       "slider_b_label": "[SLIDER] THE GROUP DYNAMIC (Tribal Scale)",
-      "slider_b_value": "1/5",
-      "slider_b_position_name": "The Majority (What most people use)",
-      "territory_number": 1,
-      "territory_name": "The Safe Choice",
-      "reasoning": "Pass 1 hypothesis: The Safe Choice. The overwhelming number of reviews and customer recommendations makes Casper a socially validated, low-risk purchase. Pass 2: Slider A scores 2/5 Acceptance. The social goal is to fit in with the large group of people who have already made this smart choice. Slider B scores 1/5 The Majority. '110,000+ 5 Star Reviews' and '4 out of 5 customers would recommend' clearly place the brand in the mass market majority. Grid: Low(2) x Low(1) maps to Territory 1. Pass 3: Aligned. The social benefit is the safety and confidence that comes from joining the crowd.",
-      "evidence": "\"110,000+ 5 Star Reviews\" ... \"4 out of 5 customers would recommend Casper to Friends and family.\" ... \"Real sleepers just like you.\"",
-      "evidence_src": "HOME PAGE (body copy)",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "The Club (Enthusiasts/Fans)",
+      "territory_number": 2,
+      "territory_name": "The Knowledge Club",
+      "reasoning": "Pass 1 hypothesis: The Knowledge Club. By working with Habitat, a client joins a group of savvy, data-driven product companies who are 'in the know' about effective design. Pass 2: Slider A (Social Vector) is 2/5 Acceptance. The goal is to gain 'credibility' and be accepted by the market and prominent brands. Slider B (Group Dynamic) is 4/5 The Club. The 'club' is the ecosystem of innovative startups, product companies, and VCs, validated by insider platforms like Clutch. It's a specific, knowledgeable community. Grid: Low(2) x High(4) maps directly to Territory 2. Pass 3: Aligned.",
+      "evidence": "\"Trusted by partners worldwide\" ... \"Check out our Clutch\" ... \"We partner with startups and product companies who believe that design can solve any user problem.\" ... \"Attracted prominent brands, including the NBA\"",
+      "evidence_src": "HOME PAGE (headline) + ABOUT PAGE + PRODUCT PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's use of massive review numbers and recommendation statistics as a primary proof point directly creates the social benefit of being The Safe Choice."
+        "coherence_reasoning": "The social benefit is gaining acceptance into the club of credible, high-growth tech companies. This is achieved by demonstrating knowledge and making smart partnerships, which defines The Knowledge Club."
       }
-    }
-  },
-  "ai_geo": {
-    "pokpok_score": 55,
-    "overall_diagnosis": "MIXED SIGNALS",
-    "overall_summary": "casper clearly communicates its product and benefits to humans. but it relies heavily on marketing fluff. ai crawlers find some structured data, but entity clarity is muddled by inconsistent naming and a poor external reputation.",
-    "hi_consumer_metrics": {
-      "avg": 68,
-      "diagnosis": "WELL POSITIONED",
-      "profile": "As an impatient shopper, I quickly grasp Casper sells mattresses for better sleep, with clear benefits like trials and warranties. The page uses a conversational, reassuring tone, making the purchase feel low-risk. However, the sheer volume of marketing language and unsupported claims makes me skeptical, despite the strong visual presentation.",
-      "blind_spot": "The brand overuses superlatives and vague claims, diluting its credibility. It needs to back up more statements with concrete data or third-party evidence beyond its own site. This would convert skepticism into genuine trust.",
+    },
+    "hi": {
+      "score": 85,
+      "label": "LANDED",
+      "diagnosis": "FULLY CONVINCING",
+      "profile": "The brand presents as a high-end, confident digital agency that has mastered the balance between professional rigor and creative energy. Its core message—'Data-driven... feels like an in-house team'—is delivered with exceptional clarity and consistency across text and visuals. The 'Clinical Pop' aesthetic perfectly anchors this duality, using a sterile, organized container to showcase vibrant, diverse client work, signaling it is both a serious partner and a source of cutting-edge design.",
+      "blind_spot": "The primary friction point is the complete opacity on pricing, a standard but still significant hurdle in the agency world. While the brand successfully builds trust through social proof and a strong portfolio, the absence of any pricing signal (e.g., project tiers, starting rates) forces all prospective clients into a high-commitment 'Start a project' step, potentially filtering out qualified leads who are earlier in their buying journey.",
       "metrics": {
         "hi01_message_clarity": {
-          "score": 75,
-          "diagnosis": "SOLID FOUNDATION",
+          "label": "MESSAGE CLARITY",
+          "score": 85,
+          "diagnosis": "INSTANT-READ",
+          "so_what": "The brand's core value proposition lands instantly. The headline clearly states what the company is, why it's different, and the benefits it delivers. A first-time visitor immediately understands the offering, the positioning, and the expected outcomes without any cognitive load.",
           "sub_metrics": {
             "headline_clarity": {
               "score": 70,
-              "evaluation": "The H1 \"Casper Sleep\" identifies the brand, but not the core product category directly on the main page. Krug's principle: I know the brand, but not immediately what it sells without scanning. Change H1 to \"Casper: Mattresses for Better Sleep\" to clarify product and benefit upfront."
+              "evaluation": "The headline 'Data-driven digital agency that feels like an in-house team' clearly states WHAT it is and WHY it's different. It implies WHO it's for (companies needing an agency) but doesn't name the segment explicitly, landing 2 of 3 Krug anchors."
             },
             "value_prop_above_fold": {
               "score": 90,
-              "evaluation": "The hero section immediately highlights \"Save 20% on Max Mattresses\" and \"The kind of support you’ve been dreaming of.\" This clearly communicates a deal and a core benefit, satisfying Krug's 5-second test. Maintain prominent display of current promotions and key benefits."
+              "evaluation": "The first 150 words nail all three value prop components. BENEFIT ('increase conversion rates'), MECHANISM ('optimized user experiences'), and CONTRAST ('feels like an in-house team') are all present and clear."
             },
             "benefit_hierarchy": {
-              "score": 70,
-              "evaluation": "Benefits like \"100-Night Risk-Free Trial\" and \"10-Year Limited Warranty\" are clearly listed with supporting taglines. The hierarchy is present but could be stronger by visually emphasizing the most unique differentiators. Prioritize unique selling points like \"Zoned Support™\" higher on the page."
+              "score": 90,
+              "evaluation": "The lead benefit IS the core differentiator. 'Feels like an in-house team' is placed directly in the main headline, immediately distinguishing Habitat from agencies that position as purely external vendors."
             },
             "jargon_load": {
-              "score": 70,
-              "evaluation": "The page uses terms like \"Zoned Support™ system\" and \"Phase Change Material\" which are explained in context or FAQs. This keeps readability at a manageable level (grade 9-10), but some terms require a quick mental pause. Integrate brief, inline explanations for technical terms like \"Zoned Support™\" where first introduced."
+              "score": 90,
+              "evaluation": "The copy uses industry-standard terms like 'conversion rates' and 'SaaS product' appropriately for its B2B audience. There is no gratuitous jargon, making the page accessible and professional."
             }
           },
           "checklist": {
             "pass": [
-              "highlights savings above fold",
-              "lists key benefits clearly",
-              "explains technical terms in context"
+              "leads with the core differentiator in the H1"
             ],
             "warn": [
-              "H1 names brand, not product category"
+              "implies the target audience instead of naming it in the headline"
             ],
-            "fail": []
+            "fail": [
+              "omits an explicit 'WHO it's for' anchor in the main headline"
+            ]
           }
         },
         "hi02_trust_score": {
-          "score": 55,
-          "diagnosis": "CREDIBILITY DEFICIT",
+          "label": "TRUST SCORE",
+          "score": 86,
+          "diagnosis": "RECEIPTS LOUD",
+          "so_what": "The brand builds a powerful case for trust without resorting to hype. It layers multiple forms of evidence—a named testimonial, a 5-star Clutch rating, and a gallery of high-profile client logos—to substantiate its claims. This evidence-first approach makes the brand feel credible and established.",
           "sub_metrics": {
             "hype_index": {
-              "score": 30,
-              "evaluation": "The page contains 15+ unsupported superlatives like \"best experience,\" \"dreaming of,\" and \"amazing!\" This high hype index (Fogg's surface credibility) erodes trust. Reduce unsupported superlatives; replace with specific, verifiable facts."
+              "score": 90,
+              "evaluation": "The page is almost entirely free of unsupported superlatives. Claims like 'Trusted by partners worldwide' are immediately backed by logos and a Clutch link, grounding the confident tone in evidence."
             },
             "claim_to_evidence_ratio": {
-              "score": 50,
-              "evaluation": "Claims like \"solve real sleep needs\" are assertions, while \"110,000+ 5 Star Reviews\" offers some evidence. The ratio is mixed, with many claims lacking immediate proof. Back more claims with specific data, studies, or direct links to external reports."
+              "score": 70,
+              "evaluation": "The claim-to-evidence ratio is strong. The claim to 'increase conversion rates' is directly supported by a named testimonial (Level B), and 'Trusted by partners' is backed by logos and a Clutch rating (Level A/B). Over 50% of claims are substantiated."
             },
             "social_proof": {
-              "score": 50,
-              "evaluation": "The page features one named testimonial from Danielle Q. and mentions \"110,000+ 5 Star Reviews.\" GEO_SIGNALS.SOCIAL_PROOF_EXTERNAL.reddit_mention_count_organic is 45, but mostly irrelevant to the brand. This provides some on-page and external proof, but the external proof is noisy. Integrate more diverse and relevant on-page testimonials, and filter external social proof for topical relevance."
+              "score": 90,
+              "evaluation": "Social proof is high-quality, hitting on SPECIFICITY ('Mike Faber CEO, Vendo') and SIMILARITY (target audience). This is reinforced by QUANTITY and third-party validation ('Clutch review [★5.0]')."
             },
             "trust_signals": {
               "score": 90,
-              "evaluation": "Casper demonstrates strong trust signals: \"100-Night Risk-Free Trial,\" \"10-Year Limited Warranty,\" and \"Free Mattress Delivery.\" GEO_SIGNALS.ENTITY_AUTHORITY shows wikipedia_present and trustpilot_present (reputed credibility). This covers all four Fogg credibility types. Continue to prominently display guarantees and external validations."
+              "evaluation": "All four of Fogg's credibility types are present: SURFACE (professional design), EARNED (named testimonial, Clutch review), PRESUMED (clear contact info), and REPUTED (client logos like FENDI, ANTLER)."
+            },
+            "visible_certifications": {
+              "score": 90,
+              "evaluation": "The page displays numerous third-party logos, including Clutch, FENDI, oppo, and AngelList. This use of recognizable partner brands serves as a powerful and immediate form of certification."
             }
           },
           "checklist": {
             "pass": [
-              "offers 100-night trial",
-              "provides 10-year warranty",
-              "features free delivery",
-              "has Wikipedia entry",
-              "shows Trustpilot presence"
+              "cites a named testimonial from a CEO"
             ],
             "warn": [
-              "uses 15+ unsupported superlatives",
-              "mixes claims with assertions",
-              "reddit mentions are noisy"
+              "uses the broad claim 'Trusted by partners worldwide'"
             ],
-            "fail": []
+            "fail": [
+              "lacks quantitative case study results on the homepage"
+            ]
           }
         },
         "hi03_voice_consistency": {
-          "score": 78,
-          "diagnosis": "WELL POSITIONED",
+          "label": "VOICE CONSISTENCY",
+          "score": 90,
+          "diagnosis": "ONE PERSON",
+          "so_what": "The brand speaks with a single, coherent voice across its homepage, about page, and case studies. The tone is consistently consultative and professional, using a shared vocabulary of user-centric design and business outcomes. This consistency builds confidence that the agency is organized and has a clear point of view.",
           "sub_metrics": {
-            "tone_consistency": {
-              "score": 80,
-              "evaluation": "The page maintains a conversational and reassuring tone across sections, from product descriptions to FAQs. Formality shifts are minimal, generally staying within a 1-point range. Continue to use this consistent, approachable tone throughout all content."
+            "tone_alignment": {
+              "score": 90,
+              "evaluation": "The homepage's consultative tone ('Data-driven... feels like an in-house team') perfectly matches the baseline set by the about page ('We partner with startups...'). The register is identical."
             },
-            "vocabulary_coherence": {
-              "score": 80,
-              "evaluation": "Word choice is largely consistent, focusing on sleep, comfort, and product features without jarring shifts in register. The language remains accessible and on-brand. Maintain the current vocabulary, avoiding overly technical or overly casual terms."
+            "vocabulary_alignment": {
+              "score": 90,
+              "evaluation": "The homepage uses the brand's core semantic fields of Business Strategy ('data-driven', 'conversion rates') and User-Centric Design ('user experiences'), matching the vocabulary of the about and product pages."
             },
-            "headline_to_body_match": {
-              "score": 70,
-              "evaluation": "Headlines like \"Discover the Casper difference\" set an inviting tone, and the body copy generally follows through with explanations. Some headlines are more promotional than informative, creating a slight disconnect. Ensure all headlines clearly introduce the content that follows, aligning tone and topic."
+            "voice_signature_match": {
+              "score": 90,
+              "evaluation": "The brand's Sage/Creator archetype is delivered consistently. The homepage leads with Sage-like competence ('Data-driven') and Creator-like partnership ('feels like an in-house team'), a perfect match to the baseline."
             },
-            "persona_stability": {
-              "score": 80,
-              "evaluation": "The brand projects a stable persona of a helpful, sleep-obsessed expert. GEO_SIGNALS.BRAND_CONSISTENCY.consistency_score is 60, indicating some inconsistency in naming across sources. Address the brand name inconsistency in metadata to strengthen persona stability."
+            "claim_stack_alignment": {
+              "score": 90,
+              "evaluation": "The homepage reinforces the primary claims from the about page, leading with the 'feels like an internal team' promise and backing it with 'data-driven' methodology seen in case studies. The claims are perfectly aligned."
             }
           },
           "checklist": {
             "pass": [
-              "maintains conversational tone",
-              "uses coherent vocabulary",
-              "projects helpful expert persona"
+              "maintains a consistent consultative tone across all pages"
             ],
             "warn": [
-              "headline tone sometimes misaligns with body",
-              "brand name consistency score is 60"
+              "mission statement on about page is slightly more idealistic"
             ],
-            "fail": []
+            "fail": [
+              "omits the 'positive impact' claim from the homepage"
+            ]
+          }
+        },
+        "hi04_audience_resonance": {
+          "label": "AUDIENCE RESONANCE",
+          "score": 85,
+          "diagnosis": "LASER-AIMED",
+          "so_what": "The page is expertly tuned to its target audience of tech-savvy business leaders, primarily Millennials and Gen X. The combination of a clean, professional aesthetic with vibrant, creative work speaks directly to startup founders and product managers who value both data-driven results and strong design. Every signal, from text to visuals, is coherent and reinforces this focus.",
+          "sub_metrics": {
+            "audience_segment_probability": {
+              "score": 90,
+              "evaluation": "Signals strongly point to a B2B tech audience. The language ('SaaS', 'crypto') and visual sophistication suggest a top cohort of Millennials (≈0.60) in founder/product roles, with Gen X decision-makers (≈0.30) as a strong secondary segment."
+            },
+            "signal_coherence": {
+              "score": 90,
+              "evaluation": "Text and visual signals are perfectly anchored. The text's promise of a 'data-driven' yet 'in-house feel' agency is visually represented by the 'Clinical Pop' aesthetic—a professional frame holding creative energy."
+            },
+            "intent_match": {
+              "score": 90,
+              "evaluation": "The page is clearly designed for the consideration and decision stages. It provides just enough information and proof to drive a visitor to the 'Start a project' CTA, indicating a clear, single-stage focus."
+            },
+            "accessibility_signals": {
+              "score": 70,
+              "evaluation": "The page has 3 of 4 signals: inclusive B2B language, no unexplained jargon, and a plain-language CTA ('Start a project'). It fails on commitment-tier visibility by hiding all pricing information behind a contact gate."
+            }
+          },
+          "audience_segments": [
+            {
+              "label": "Millennials in founder or product lead roles seeking a design partner that merges data-driven strategy with a modern, collaborative aesthetic",
+              "cohort": "millennials",
+              "probability": 0.6,
+              "evidence_text": "Data-driven digital agency that feels like an in-house team.",
+              "evidence_visual": "A stark white clinical shell frames a spectrum of vibrant, high-energy project visuals, creating a sense of professional trust balanced with creative excitement."
+            },
+            {
+              "label": "Gen X business leaders looking for a cost-effective, reliable agency to increase conversion rates and manage digital redesign",
+              "cohort": "gen_x",
+              "probability": 0.3,
+              "evidence_text": "...increase conversion rates through optimized user experiences...",
+              "evidence_visual": "The website UI uses a sterile, high-contrast monochrome palette... with a clean, grid-based layout and modern sans-serif typography."
+            },
+            {
+              "label": "Gen Z founders of early-stage tech startups needing a full-service agency to build a contemporary online presence from scratch",
+              "cohort": "gen_z",
+              "probability": 0.1,
+              "evidence_text": "Crypto service platform",
+              "evidence_visual": "The brand visuals are eclectic and vibrant, showcasing a wide range of creative styles including... playful pixel-art characters."
+            }
+          ],
+          "checklist": {
+            "pass": [
+              "aligns text and visual signals to target tech leaders"
+            ],
+            "warn": [
+              "assumes familiarity with terms like 'SaaS' and 'crypto'"
+            ],
+            "fail": [
+              "hides all pricing, creating a barrier for early-stage prospects"
+            ]
+          }
+        },
+        "hi05_decision_confidence": {
+          "label": "DECISION CONFIDENCE",
+          "score": 75,
+          "diagnosis": "CONFIDENT",
+          "so_what": "The brand projects confidence by making the desired next step exceptionally clear. A single, obvious 'Start a project' CTA guides the user, eliminating choice paralysis. The only point of hesitation is the lack of pricing, which forces a high-commitment inquiry as the only path forward.",
+          "sub_metrics": {
+            "cta_clarity": {
+              "score": 90,
+              "evaluation": "The page features a single, dominant CTA ('Start a project') in the primary navigation. This clarity and focus communicate that the brand knows exactly what it wants the visitor to do next."
+            },
+            "pricing_visibility": {
+              "score": 30,
+              "evaluation": "As is common for agencies, no pricing is visible. The model is 'Contact us for pricing,' which creates friction and disrespects the visitor's time by hiding the commitment level."
+            },
+            "next_step_obviousness": {
+              "score": 90,
+              "evaluation": "The next step is unambiguous: click 'Start a project' or send an email. The path forward is singular and requires no thought from the visitor, inspiring confidence in the process."
+            },
+            "friction_signals": {
+              "score": 90,
+              "evaluation": "The page is nearly frictionless, with a clean layout and no interruptions. The only friction is the cognitive load of having to contact the company to understand the potential cost of engagement."
+            }
+          },
+          "checklist": {
+            "pass": [
+              "provides a single, clear 'Start a project' CTA"
+            ],
+            "warn": [
+              "offers no low-commitment next step, like a pricing guide"
+            ],
+            "fail": [
+              "hides all pricing information behind a contact wall"
+            ]
           }
         }
       }
+    }
+  },
+  "GEO_evaluation": {
+    "score": 40,
+    "label": "AI WEAK",
+    "diagnosis": "ENTITY COLLISION",
+    "profile": "Habitat is a digital agency with a catastrophic brand name problem. The name 'Habitat' is so common and strongly associated with other concepts (ecology, a furniture giant) that AI systems cannot reliably identify the company. While the on-page copy is clear about its services, it lacks the specific data and structured markup needed to fight through the noise. All external signals, from Wikipedia to Reddit, point to the wrong 'Habitat', making the brand functionally invisible and misidentified by AI.",
+    "fix": "The foundational issue is the brand name, which is a strategic problem. Tactically, the most impactful fix is to disambiguate on-page. Ship `Organization` schema via JSON-LD in the `<head>` of `https://www.habitat.cc/`, explicitly defining `name: \"Habitat (Design Agency)\"`, `url`, `logo`, and a `description` that clarifies its market. This gives AI a fighting chance to distinguish it from the ecological term.",
+    "flags": {
+      "entity_drift": true,
+      "critical_blackout": false,
+      "foundation_failure": false,
+      "trustpilot_collapse": false,
+      "category_hint_corrupted": false,
+      "third_party_taxonomy_error": false,
+      "reddit_sentiment_negative": false
     },
-    "ai_metrics": {
-      "avg": 42,
-      "diagnosis": "NOISE DOMINATES",
-      "profile": "As an AI crawler, I find Casper's page accessible, with no blocks to my operations. However, the lack of specific Schema.org markup means I can't easily extract structured product data for rich results. While the brand has external authority (Wikipedia), its core entity definition is muddled by a poor Trustpilot rating and a somewhat generic brand name that collides with other entities in general web discourse.",
-      "fix": "Implement comprehensive Schema.org markup for Product, Organization, and FAQPage to provide structured data. Specifically, add `<script type='application/ld+json'>` for Product schema, populating fields like name, price, brand, and aggregateRating using the \"110,000+ 5 Star Reviews\" data. This will make the page's key information machine-readable and citable.",
-      "metrics": {
-        "ai01_findability": {
-          "score": 50,
-          "diagnosis": "HALF VISIBLE",
-          "sub_metrics": {
-            "structured_data": {
-              "score": 50,
-              "evaluation": "GEO_SIGNALS.STRUCTURED_DATA shows 3 json_ld_blocks_found, but json_ld_types_found is empty, meaning no specific schema types are identified. OpenGraph is complete (5/5) and Twitter cards are present. This provides basic metadata but misses rich result opportunities. Add specific JSON-LD for Product, Organization, and FAQPage to enable rich results, as indicated by GEO_SIGNALS.RICH_RESULTS_ELIGIBILITY.missed_types."
-            },
-            "quotable_content": {
-              "score": 70,
-              "evaluation": "The PARSED_CONTENT contains 10+ unique data points like \"100-Night Risk-Free Trial,\" \"10-Year Limited Warranty,\" and \"110,000+ 5 Star Reviews.\" This provides specific facts for an LLM to extract. Continue to embed quantifiable facts and figures throughout the content."
-            },
-            "entity_clarity": {
-              "score": 50,
-              "evaluation": "The H1 is \"Casper Sleep,\" and GEO_SIGNALS.BRAND_CONSISTENCY.consistency_score is 60, indicating some inconsistency in brand naming across sources. GEO_SIGNALS.ENTITY_AUTHORITY.wikidata_description is \"Foam mattress created by Casper.\" This creates ambiguity for AI in definitively linking the brand to its primary product. Standardize brand naming across all digital assets and ensure the H1 clearly states \"Casper Mattresses\" or similar."
-            },
-            "crawl_infrastructure": {
-              "score": 90,
-              "evaluation": "GEO_SIGNALS.CRAWL_INFRASTRUCTURE shows robots_txt_present, sitemap_reference, and ai_crawlers_blocked is empty. All major AI crawlers are allowed. This ensures full crawl readiness and accessibility for AI. Maintain open access for all AI crawlers."
-            }
+    "metrics": {
+      "ai01_findability": {
+        "label": "AI FINDABILITY",
+        "score": 27,
+        "diagnosis": "AMBIGUOUS ENTITY",
+        "so_what": "Habitat.cc is findable but not understandable for an AI. It can see the page exists but can't confidently state who \"Habitat\" is or quote any specific facts about its work, making it unlikely to be cited in AI-generated answers about top design agencies. The most critical fix is to add the brand name \"Habitat\" to the main H1 headline.",
+        "sub_metrics": {
+          "structured_data": {
+            "score": 50,
+            "evaluation": "GEO_ANALYSIS shows json_ld_blocks_found: 0; json_ld_types: []; og: 4/6 core tags; twitter: yes (1/4); meta_desc: present; canonical: absent; hreflang_count: 0. AI engines must infer from prose; add Product/Organization JSON-LD with og:image to lift the score.",
+            "flags_emitted": []
           },
-          "checklist": {
-            "pass": [
-              "opengraph complete (5/5)",
-              "twitter cards present",
-              "contains 10+ data points",
-              "blocks zero AI crawlers",
-              "robots.txt present",
-              "sitemap referenced"
-            ],
-            "warn": [
-              "json_ld_types_found is empty",
-              "brand name consistency score is 60"
-            ],
-            "fail": []
+          "quotable_content": {
+            "score": 0,
+            "evaluation": "The page makes claims like \"higher conversion rates\" but provides no specific numbers, percentages, or case study data. AI models can't quote vague promises; they need hard data points to cite the brand as an authority. Add specific metrics to case studies, like \"increased conversion by 37% for client X.\"",
+            "flags_emitted": []
+          },
+          "entity_clarity": {
+            "score": 30,
+            "evaluation": "The brand name 'Habitat' is absent from the H1 (\"Data-driven digital agency...\") and the main service description, only appearing in a customer testimonial. This forces AI to guess if \"Habitat\" is the agency's name or the customer's. Rewrite the H1 to be \"Habitat: The data-driven digital agency that feels like an in-house team.\"",
+            "flags_emitted": []
           }
         },
-        "ai02_content_focus": {
-          "score": 44,
-          "diagnosis": "POETIC FOG",
-          "sub_metrics": {
-            "fact_to_filler_ratio": {
-              "score": 50,
-              "evaluation": "The page has a fact-to-filler ratio of approximately 1:3, with many sentences being marketing copy. This means an LLM must sift through fluff to find concrete information. Increase the density of verifiable facts and reduce generic marketing language."
-            }
+        "checklist": {
+          "pass": [
+            "Uses OpenGraph tags for social sharing."
+          ],
+          "warn": [
+            "Omits brand name from main H1 headline."
+          ],
+          "fail": [
+            "Ships zero quotable statistics or data points.",
+            "Lacks a canonical URL tag."
+          ]
+        }
+      },
+      "ai02_content_focus": {
+        "label": "AI SIGNAL CLARITY",
+        "score": 32,
+        "diagnosis": "DATA-FREE MARKETING",
+        "so_what": "The content on habitat.cc is generic marketing copy that reads like a thousand other agency sites. An AI sees claims like \"increase conversion rates\" but finds no data, no specifics, and no verifiable evidence, forcing it to classify the page as low-substance and untrustworthy for factual summaries. To fix this, add one specific, numbered result to the customer testimonial.",
+        "sub_metrics": {
+          "fact_to_filler_ratio": {
+            "score": 50,
+            "evaluation": "The content is a mix of concrete service lists ('Product design, Web design') and marketing filler ('Elevate your brand...'). The fact-to-filler ratio is roughly 1:3, meaning AI has to sift through significant marketing language to find substantive claims. Replace abstract goals with concrete outcomes from the listed client projects.",
+            "flags_emitted": []
+          },
+          "adjective_load": {
+            "score": 50,
+            "evaluation": "The copy uses a moderate number of business adjectives like 'comprehensive', 'optimized', and 'seamlessly'. While not extreme hyperbole, this language is generic to AI models and dilutes the impact of the core service offering. Replace adjectives with nouns and verbs describing specific actions and results.",
+            "flags_emitted": []
+          },
+          "specificity_index": {
+            "score": 30,
+            "evaluation": "The page operates at a high level of abstraction, using phrases like \"Elevate your brand\" (Rung 4) and \"optimized user experiences\" (Rung 3). The only specific content is the list of services ('Product design'), putting less than 30% of claims at a concrete level. Detail the 'multi-step process' mentioned in the testimonial to provide a specific mechanism.",
+            "flags_emitted": []
+          },
+          "data_point_density": {
+            "score": 0,
+            "evaluation": "The page contains zero numerical data points—no percentages, dates, measurements, or specific quantities. AI models thrive on quantifiable data for summaries and comparisons, but this page offers none. Add metrics to the testimonial, such as \"increased customer onboarding by 40% within 3 months.\"",
+            "flags_emitted": []
+          },
+          "claim_verifiability": {
+            "score": 30,
+            "evaluation": "The page relies on a single testimonial and a link to Clutch for verifiability, with most claims being plausible but uncited (\"increase conversion rates\"). This forces AI to treat the brand's claims as marketing, not fact. Link client names (JUNG, Vendo) to public case studies with verifiable outcomes.",
+            "flags_emitted": []
           }
+        },
+        "checklist": {
+          "pass": [
+            "Lists specific services like 'Product design'."
+          ],
+          "warn": [
+            "Uses generic adjectives like 'comprehensive'."
+          ],
+          "fail": [
+            "Contains zero numerical data points.",
+            "Relies on abstract claims like 'Elevate your brand'."
+          ]
+        }
+      },
+      "ai03_ai_positioning": {
+        "label": "AI CATEGORY POSITIONING",
+        "score": 53,
+        "diagnosis": "INVISIBLE PLAYER",
+        "so_what": "Habitat.cc correctly uses industry-standard keywords like 'digital agency', but fails to position itself against competitors or build any external recognition under that name. To an AI, it's a correctly labeled but invisible and undifferentiated player in a crowded market, compounded by massive name collision on platforms like Reddit. The first step is to add a sentence explaining what makes its 'data-driven' approach unique.",
+        "sub_metrics": {
+          "category_keyword_alignment": {
+            "score": 90,
+            "evaluation": "The page uses standard, on-taxonomy terms like 'Product design', 'Web design', and 'digital agency', directly aligning with its stated category. This clarity helps AI correctly classify the business and its services. The language is direct and avoids invented marketing jargon for its core offerings.",
+            "flags_emitted": []
+          },
+          "competitor_placement": {
+            "score": 50,
+            "evaluation": "The page identifies itself as a 'digital agency' but provides no competitive context. It doesn't name competitors, contrast its approach with industry standards, or offer a comparison, leaving AI to guess its unique position in a crowded market. Add a sentence explaining how its 'data-driven' approach differs from typical design agencies.",
+            "flags_emitted": []
+          },
+          "value_proposition_clarity": {
+            "score": 70,
+            "evaluation": "The page clearly states WHAT it is (a digital agency) and WHY it's different ('feels like an in-house team'). The WHO (target client) is implied by the client list. However, it omits the HOW-MUCH, giving no indication of pricing, which is a critical signal for AI-driven product comparisons.",
+            "flags_emitted": []
+          },
+          "category_recognition_external": {
+            "score": 0,
+            "evaluation": "The 43 organic Reddit mentions are entirely for the common noun 'habitat' in contexts like gaming ('Stellaris') and Pokemon. There is zero external recognition of 'Habitat' as a design agency on this platform. This name collision makes the brand invisible to social listening AIs.",
+            "flags_emitted": []
+          }
+        },
+        "checklist": {
+          "pass": [
+            "Aligns page copy with category hint 'Design Company'."
+          ],
+          "warn": [
+            "Omits pricing signals (HOW-MUCH)."
+          ],
+          "fail": [
+            "Shows zero competitive context or differentiation.",
+            "Has zero relevant external mentions on Reddit."
+          ]
+        }
+      },
+      "ai04_crawler_coverage": {
+        "label": "AI CRAWL READINESS",
+        "score": 60,
+        "diagnosis": "ACCESSIBLE BUT UNGUIDED",
+        "so_what": "While all major AI crawlers can access habitat.cc, the absence of an `llms.txt` file means they arrive without a map. This is a missed opportunity to guide them directly to the most important content, like case studies or service descriptions, forcing them to guess the site's structure. Create and upload a basic `/llms.txt` file pointing to the top 5 most important pages.",
+        "sub_metrics": {
+          "bot_coverage": {
+            "score": 90,
+            "evaluation": "CRAWL_INFRASTRUCTURE shows 5/5 critical bots and 6/6 secondary. Blocked: (none). All major AI bots reach the page. Unblock the missing critical bots in robots.txt.",
+            "flags_emitted": []
+          },
+          "llms_txt_quality": {
+            "score": 0,
+            "evaluation": "CRAWL_INFRASTRUCTURE.llms_txt_present: false. AI agents have no route map. Ship a 30-line llms.txt at /llms.txt naming hero sections + 6 hero URLs.",
+            "flags_emitted": []
+          },
+          "infrastructure_basics": {
+            "score": 90,
+            "evaluation": "robots.txt: present, sitemap_reference: yes, sitemap_url: https://www.habitat.cc/sitemap.xml (canonical), https_enforced: true. All foundational crawl signals present.",
+            "flags_emitted": []
+          }
+        },
+        "checklist": {
+          "pass": [
+            "Allows all major AI crawlers in robots.txt.",
+            "Provides a valid sitemap.xml."
+          ],
+          "warn": [
+            "Lacks an llms.txt file to guide AI crawlers."
+          ],
+          "fail": [
+            "Omits llms.txt, missing AI guidance opportunity."
+          ]
+        }
+      },
+      "ai05_knowledge_anchoring": {
+        "label": "AI KNOWLEDGE ANCHORING",
+        "score": 28,
+        "diagnosis": "POISONED WELL",
+        "so_what": "The brand name 'Habitat' is a catastrophic liability for AI visibility. All external knowledge anchors like Wikipedia and Wikidata point to the ecological term, not the agency. This entity confusion means any AI trying to research the brand gets incorrect information, effectively poisoning its own knowledge base about the company. This is an existential threat to AI visibility that technology alone cannot fix.",
+        "sub_metrics": {
+          "brandname_uniqueness": {
+            "score": 0,
+            "evaluation": "The brand name 'Habitat' is a common English word with major entity collisions, including a large furniture retailer and the core ecological concept. This severe name ambiguity forces AI to constantly disambiguate, significantly weakening the brand's entity signal. This is a foundational branding challenge.",
+            "flags_emitted": []
+          },
+          "schema_category_fit": {
+            "score": 0,
+            "evaluation": "The page ships zero JSON-LD schema, as confirmed by `json_ld_blocks_found: 0`. This is a critical failure, as it provides no machine-readable information about the business type, services, or identity. Add `Organization` schema with `name`, `url`, `logo`, and `sameAs` properties immediately.",
+            "flags_emitted": []
+          },
+          "knowledge_graph_presence": {
+            "score": 90,
+            "evaluation": "wikipedia_present: true; summary length: 2638 chars. wikidata_id: 'Q52105'; wikidata_label: 'habitat'; wikidata_description: 'ecological or environmental area inhabited by a particular species; natural envi'. Both anchors present and matching.",
+            "flags_emitted": []
+          },
+          "identity_convergence": {
+            "score": 50,
+            "evaluation": "BRAND_NAMING.brand_inferred 'Habitat' vs names_found: og_site_name=✗(); title_tag=✓(Habitat - Product, Web & Brand); h1=✗(Data-driven digital agency tha); wikidata_label=✓(habitat); wikipedia_title=✓(Habitat). 3/5 surfaces agree. Reconcile divergent surfaces — set og:site_name and align Wikipedia/Wikidata to match canonical brand name.",
+            "flags_emitted": [
+              "entity_drift"
+            ]
+          },
+          "trustpilot_anchoring": {
+            "score": 0,
+            "evaluation": "ENTITY_AUTHORITY.trustpilot_present: false. No third-party trust anchor — for B2B/niche brands this is expected; for consumer DTC brands, claim a Trustpilot profile.",
+            "flags_emitted": []
+          }
+        },
+        "checklist": {
+          "pass": [
+            "Wikipedia/Wikidata entries exist for 'Habitat'."
+          ],
+          "warn": [
+            "Brand name 'Habitat' collides with a major retailer."
+          ],
+          "fail": [
+            "Wikipedia/Wikidata entries are for the wrong entity.",
+            "Ships zero JSON-LD schema to clarify its identity."
+          ]
         }
       }
     }
