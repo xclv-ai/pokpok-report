@@ -1,51 +1,51 @@
 {
-  "url": "https://www.razor-group.com",
-  "brand": "Razor Group",
+  "url": "https://www.entlify.com",
+  "brand": "Entlify",
   "5_truth": {
     "truth_1": {
-      "headline": "The brand identity is a cold, elite Ruler built to filter, not welcome.",
-      "gap_description": "The 17-marker framework consistently reads a brand built on intimidating competence. The personality is 'The Reliable Expert' (warmth 2/5, competence 5/5), the archetype is 'The Ruler' (65%), the visual identity is 'Pharma-Code' (cool, structured), and the tone is 'The Clinical Authority' (grave, formal). The social benefit is entry into 'The Insider Clique.' Every signal points to a distant, powerful, and exclusive entity designed to attract only the most successful entrepreneurs and repel everyone else.",
-      "evidence": "'The Reliable Expert' (HI.marker_5.territory_name) | 'The Ruler 65%' (HI.marker_6.primary.archetype) | 'Pharma-Code' (HI.marker_8.territory_name) | 'The Clinical Authority' (HI.marker_7.territory_name) | 'The Insider Clique' (HI.marker_17.territory_name)",
-      "why_matters": "This hyper-elite positioning means the brand's funnel is intentionally narrow. It efficiently converts founders who already see themselves as peers to BlackRock but alienates a larger market of successful-but-not-yet-dominant entrepreneurs who may be intimidated by the sheer institutional force projected by the URL. The brand is selecting for confidence, not just revenue.",
-      "hard_choice": "The brand must decide if this extreme filtering is a feature or a bug. One strategy is to double down on the Ruler archetype, accepting that it leaves a huge segment of the market to competitors in exchange for attracting only the highest-value targets. A second approach would be to introduce secondary Sage or Creator elements into the homepage narrative, softening the cold authority with signals of partnership or innovation to widen the top of the funnel. The strategic question: is the ideal customer one who is impressed by this authority, or one who is looking for a partner to build with?"
+      "headline": "The brand identity is a hyper-rational, competent expert with no discernible warmth.",
+      "gap_description": "The 17-marker framework consistently reads Entlify as a distant authority. Its personality is 'The Reliable Expert' (warmth 2/5, competence 4/5), its archetype is 70% 'The Sage,' its tone is 'The Clinical Authority,' and its visual identity is 'Pharma-Code.' Every dimension of the brand's identity converges on intellectual rigor and professional distance. This creates a powerful but cold projection, built to be respected for its knowledge, not liked for its personality.",
+      "evidence": "'The Reliable Expert' (HI.marker_5.territory_name) | 'The Sage 70%' (HI.marker_6.primary.archetype) | 'The Clinical Authority' (HI.marker_7.territory_name) | 'Pharma-Code' (HI.marker_8.territory_name) | 'Personality... Warmth: 2/5 Distant' (HI.marker_5.slider_a_value)",
+      "why_matters": "This hyper-rational identity effectively pre-qualifies clients who value data-driven, hands-off execution. However, it actively repels prospects who are looking for a collaborative, high-touch partner. The brand's identity is a filter; it wins a specific type of client by making it clear it is not for everyone else, which may limit its total addressable market.",
+      "hard_choice": "The brand must decide if this cold, expert positioning is a strategic moat or a growth ceiling. One path is to double down on the Sage archetype, accepting that it filters out clients who need more hand-holding, thus improving operational efficiency. A second path is to intentionally introduce warmth by elevating the 10% Caregiver archetype, perhaps through human-centric case stories or team bios, to attract a broader client base. The strategic question: is the ideal client one who values pure competence, or has the market shifted to demand competence delivered with partnership?"
     },
     "truth_2": {
-      "headline": "AI engines see a ghost; the brand does not exist as a distinct entity.",
-      "gap_description": "The AI/GEO read is a catastrophic failure of identity. The overall score is 34, diagnosed as a 'GHOST ENTITY.' Critical flags for 'entity_drift,' 'critical_blackout,' and 'foundation_failure' are all true. The core problem is AI05 Knowledge Anchoring, which scores a 2/100 due to a generic name ('Razor') colliding with other major brands and a complete absence of foundational signals like Wikidata or Schema.org. For machines, this company is invisible and indistinguishable from a scooter manufacturer.",
-      "evidence": "'Diagnosis: GHOST ENTITY' (GEO.diagnosis) | 'flags.entity_drift: true' (GEO.flags.entity_drift) | 'flags.critical_blackout: true' (GEO.flags.critical_blackout) | 'AI KNOWLEDGE ANCHORING: 2' (GEO.metrics.ai05_knowledge_anchoring.score) | 'wikipedia_present: false; ... wikidata_id: 'absent'' (GEO.metrics.ai05_knowledge_anchoring.sub_metrics.knowledge_graph_presence.evaluation)",
-      "why_matters": "Because the brand is a ghost entity, it is un-citable in any AI-generated summary, search result, or competitive analysis. All of its significant, real-world achievements and backing are invisible to automated systems. This means it loses every single query for its category and cannot be programmatically verified or recommended, effectively cutting it off from the future of search and discovery.",
-      "hard_choice": "The brand faces a fundamental choice about its digital existence. It can remain an AI ghost, relying solely on direct traffic and word-of-mouth from people who already know it exists, accepting total invisibility in all automated channels. Or, it can begin the foundational work of becoming an entity: creating a Wikidata entry, deploying Organization schema, and building citations to disambiguate its name. The strategic question: is being known by humans enough, or does the brand need to be legible to the machines that now mediate discovery?"
+      "headline": "To AI engines, the brand is an unanchored ghost with a technically sound website.",
+      "gap_description": "The AI/GEO analysis returns a score of 42, diagnosing the brand as an 'INVISIBLE ENTITY.' While the site is technically crawlable (AI04=60), it has zero substance for an AI. Knowledge Anchoring (AI05) is at 20 because the brand has no Wikipedia or Wikidata presence. Content Focus (AI02) is at 16 because the copy is seen as 'MARKETING SLOGANS' with a near-zero fact-to-filler ratio. AI can see the domain exists, but finds no verifiable, authoritative information about the business itself.",
+      "evidence": "'Diagnosis: INVISIBLE ENTITY' (GEO.diagnosis) | 'AI KNOWLEDGE ANCHORING... Diagnosis: UNANCHORED GHOST' (GEO.metrics.ai05_knowledge_anchoring.diagnosis) | 'AI SIGNAL CLARITY... Diagnosis: MARKETING SLOGANS' (GEO.metrics.ai02_content_focus.diagnosis) | 'knowledge_graph_presence: wikipedia_present: false; ... wikidata_id: 'absent'' (GEO.metrics.ai05_knowledge_anchoring.sub_metrics.knowledge_graph_presence.evaluation)",
+      "why_matters": "Without an external knowledge anchor, AI systems cannot trust or recommend Entlify for any query that isn't a direct search for its name. It will be absent from AI Overviews, chatbot recommendations, and any search for 'best SaaS marketing agency.' The brand is invisible at the exact moment of AI-assisted discovery, ceding that ground entirely to competitors with a verifiable digital footprint.",
+      "hard_choice": "The brand faces a choice between remaining a 'dark web' entity known only through direct sales, or building a public, machine-readable identity. One strategy is to ignore AI visibility and focus purely on human-to-human outreach, accepting the limitations. Another is to undertake the foundational work of entity-building: creating a Wikidata entry, shipping Organization schema, and seeding third-party directories. This requires effort but makes the brand legible to the new gatekeepers of information. The strategic question: is growth driven by who you know, or by what AI knows about you?"
     },
     "truth_3": {
-      "headline": "The headline confuses the target audience for a critical three seconds.",
-      "gap_description": "The most significant issue in the human-visitor read is the initial message confusion. HI01 Message Clarity is the lowest-scoring HI metric at 65, dragged down by a headline clarity score of 50. The brand's own blind spot analysis confirms this: the headline 'developing THE NEXT GENERATION OF CONSUMER pRODUCTS' makes the company sound like a direct-to-consumer brand, not a B2B acquirer. This forces their actual target—e-commerce founders—to re-read and re-orient themselves.",
-      "evidence": "'The primary headline... misrepresents the business model. It reads like a direct-to-consumer brand...' (HI.hi.blind_spot) | 'hi01_message_clarity: score 65' (HI.hi.metrics.hi01_message_clarity.score) | 'headline_clarity: score 50' (HI.hi.metrics.hi01_message_clarity.sub_metrics.headline_clarity.score) | 'It misleads the visitor into thinking Razor is a D2C brand.' (HI.hi.metrics.hi01_message_clarity.sub_metrics.headline_clarity.evaluation)",
-      "why_matters": "A confused visitor is a lost visitor. For a busy founder, those first few seconds determine whether they stay or bounce. By misrepresenting the business model at the most prominent spot on the page, the brand introduces unnecessary friction and risks losing highly qualified prospects who believe they've landed on the wrong website, undermining all the powerful trust signals that follow.",
-      "hard_choice": "The brand must decide on the purpose of its headline. One path is to maintain the current visionary, product-focused language, accepting the initial confusion as a price for a grander mission statement. A second path is to replace it with a direct, functional headline that explicitly names the audience and the offer (e.g., 'We Acquire and Scale E-commerce Brands'), prioritizing clarity and conversion over a poetic vision. The strategic question: should the headline state the grand 'why' or the immediate 'what'?"
+      "headline": "The brand claims radical transparency but creates friction by hiding its price.",
+      "gap_description": "There is a direct conflict between the brand's stated values and its user experience. The 17-marker framework identifies the brand's core value as 'Radical Transparency' (Marker 3). However, the human-visitor analysis (HI) flags 'complete opacity on pricing' as the primary 'blind_spot.' This is quantified by a `pricing_visibility` score of just 30 in the Decision Confidence metric (HI05), making it the single lowest-scoring sub-metric across the entire HI evaluation. The brand promises straightforwardness but erects a significant barrier at the point of purchase consideration.",
+      "evidence": "'Values... Territory Name: Radical Transparency' (HI.marker_3.territory_name) | 'blind_spot: The brand's primary friction point is its complete opacity on pricing.' (HI.hi.blind_spot) | 'pricing_visibility: score: 30' (HI.hi.metrics.hi05_decision_confidence.sub_metrics.pricing_visibility.score) | 'evaluation: Pricing is completely hidden behind a contact gate.' (HI.hi.metrics.hi05_decision_confidence.sub_metrics.pricing_visibility.evaluation)",
+      "why_matters": "Hiding the price disqualifies potential clients—especially its target audience of time-poor executives—who need to know the investment level before committing to a sales call. This friction undermines the promise of being an efficient, 'hands-off' partner and can create a perception of being expensive or inflexible, regardless of the actual cost. It forces a high-effort action for a low-information reward.",
+      "hard_choice": "The brand is at a crossroads between sales process and brand promise. It can maintain pricing opacity, using the 'Request a Call' gate as a tool to qualify leads and control the sales narrative, accepting that this will cause some prospects to drop off. Alternatively, it could align with its 'Radical Transparency' value by providing pricing tiers, ranges, or a self-serve quote calculator. This would reduce friction but might commoditize the service or attract lower-quality leads. The strategic question: does the value of qualifying a lead outweigh the cost of frustrating a prospect?"
     },
     "truth_4": {
-      "headline": "The URL is perfectly positioned for humans but invisible to AI in its category.",
-      "gap_description": "There is a sharp disconnect between how the brand positions itself for human visitors and for AI engines. For humans, the audience resonance is 'LASER-AIMED' (HI04 score 80), speaking directly to Millennial and Gen X e-commerce founders. For AI, the positioning is 'CATEGORY-INVISIBLE' (AI03 score 38) because the site never uses the standard industry term 'e-commerce aggregator' and external signals are 100% off-topic. The brand speaks its audience's language fluently but is silent in the language of its own industry category.",
-      "evidence": "'AUDIENCE RESONANCE... Diagnosis: LASER-AIMED' (HI.hi.metrics.hi04_audience_resonance.diagnosis) | 'AI CATEGORY POSITIONING... Diagnosis: CATEGORY-INVISIBLE' (GEO.metrics.ai03_ai_positioning.diagnosis) | '...avoids the standard industry term “e-commerce aggregator.”' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_keyword_alignment.evaluation) | 'The 36 organic Reddit mentions are entirely off-category...' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.evaluation)",
-      "why_matters": "This divergence means the brand can only convert visitors who arrive directly; it cannot be discovered. When a founder—the exact person the site is built for—searches for 'top e-commerce aggregators,' Razor Group will not appear in AI-driven results. Its perfect human-centric positioning is wasted because it fails to signal its category to the systems that bring those humans to the door.",
-      "hard_choice": "The brand is at a crossroads between unique language and category discoverability. It can continue to use its proprietary, non-standard language to describe its business, maintaining a unique voice at the cost of being invisible in all standard category searches. Alternatively, it could incorporate the industry-standard term 'e-commerce aggregator' into its copy and metadata, gaining AI visibility but potentially sounding more like its competitors. The strategic question: is it more important to sound different from everyone else, or to be found alongside them?"
+      "headline": "The URL speaks clearly to its niche human audience, but is generic to AI.",
+      "gap_description": "A clear divergence exists between how the brand's positioning is perceived by humans and by AI. The human-visitor lens (HI04) confirms the page resonates strongly with its target 'Gen X seeking a reliable, hands-off agency.' The brand framework identifies its unique position as 'The Specialist' (Marker 12) for SaaS companies. Yet, the AI/GEO analysis (AI03) diagnoses its positioning as 'GENERIC AND ALONE,' with zero external signals to validate its niche expertise. The specialization is visible in the page's copy but invisible to the machines that categorize the web.",
+      "evidence": "'Gen X seeking a reliable, hands-off agency to manage technical marketing' (HI.hi.metrics.hi04_audience_resonance.audience_segments[0].label) | 'USP... Territory Name: The Specialist' (HI.marker_12.territory_name) | 'AI CATEGORY POSITIONING... Diagnosis: GENERIC AND ALONE' (GEO.metrics.ai03_ai_positioning.diagnosis) | 'category_recognition_external: score: 0' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.score)",
+      "why_matters": "Because its specialist positioning isn't machine-readable, the brand loses every AI-driven search for its niche. When a SaaS CMO asks an AI for 'agencies that specialize in cybersecurity marketing,' Entlify will not be on the list. The brand has successfully defined its niche but has failed to broadcast that definition on the channels where its audience is now looking.",
+      "hard_choice": "The brand must decide where its positioning strategy should live. One option is to keep it as a messaging layer on the website, relying on direct traffic and human interpretation, effectively treating the site as a digital brochure. A second option is to translate the positioning into machine-readable signals—like `Service` schema defining its SaaS focus, blog content targeting niche keywords, and profiles on B2B review sites like Clutch or G2. This would make the positioning an active asset for discovery. The strategic question: is being a specialist a story you tell visitors, or an identity you declare to the internet?"
     },
     "truth_5": {
-      "headline": "Humans see a fortress of trust; AI engines see an unverified ghost.",
-      "gap_description": "The most dramatic divergence is between human-perceived trust and machine-readable identity. For humans, the HI02 Trust Score is an exceptional 82 ('RECEIPTS LOUD'), built on the logos of world-class investors like BlackRock. For machines, the AI05 Knowledge Anchoring score is a near-zero 2 ('ENTITY BLACKOUT'). The brand's most powerful assets—its institutional backers—are legible to people but completely invisible and unverifiable to AI, which sees a ghost with a confusing name.",
-      "evidence": "'HI02_trust_score: 82. Diagnosis: RECEIPTS LOUD.' (HI.hi.metrics.hi02_trust_score.score + .diagnosis) | 'AI05_knowledge_anchoring: 2. Diagnosis: ENTITY BLACKOUT.' (GEO.metrics.ai05_knowledge_anchoring.score + .diagnosis) | '...logos of globally recognized investment firms (BlackRock, 468 Capital...)' (HI.hi.metrics.hi02_trust_score.sub_metrics.visible_certifications.evaluation) | 'flags.entity_drift: true' (GEO.flags.entity_drift)",
-      "why_matters": "This gap means the brand's credibility is trapped on the page, accessible only to human eyes. An AI asked 'Is Razor Group a legitimate company?' cannot programmatically confirm its backing from BlackRock and may return a confused or low-confidence answer. The brand's strongest proof point does not exist in the machine-readable world, leaving its reputation vulnerable to AI misinterpretation.",
-      "hard_choice": "The brand must decide if its trust signals need to be bilingual—fluent for both humans and machines. One posture is to assume that high-value human prospects will see the logos on the site, and that is sufficient. A second posture is to translate this human trust into machine-readable formats by building a knowledge graph presence (Wikidata, schema) that programmatically connects the Razor Group entity to its famous investors. The strategic question: in an AI-mediated world, is a trust signal real if only a human can see it?"
+      "headline": "Humans understand the message, but AI dismisses the content as marketing filler.",
+      "gap_description": "The largest cross-lens divergence is in how the URL's content is interpreted. For humans, Message Clarity (HI01) scores a solid 70 ('UNDERSTANDABLE'). A person can read between the lines of marketing copy to grasp the value proposition. For AI, Content Focus (AI02) scores a catastrophic 16 ('MARKETING SLOGANS'). The AI sees a page with a fact-to-filler ratio of '1:8 or worse' and almost no verifiable data, classifying it as low-signal noise. The brand is speaking a language humans can parse but that machines are trained to ignore.",
+      "evidence": "'hi01_message_clarity: score: 70, diagnosis: UNDERSTANDABLE' (HI.hi.metrics.hi01_message_clarity) | 'ai02_content_focus: score: 16, diagnosis: MARKETING SLOGANS' (GEO.metrics.ai02_content_focus) | 'The ratio of factual claims to marketing filler is estimated at 1:8 or worse' (GEO.metrics.ai02_content_focus.sub_metrics.fact_to_filler_ratio.evaluation) | 'The body copy contains almost no hard data points' (GEO.metrics.ai02_content_focus.sub_metrics.data_point_density.evaluation)",
+      "why_matters": "This divergence means the website only works for visitors who have already arrived; it does nothing to attract new ones through AI-driven discovery. Content that AI deems 'filler' is not used to answer queries, populate knowledge panels, or establish authority. The brand has created a persuasive sales pitch for humans but has failed to create a substantive, evidence-based asset for machines, effectively cutting itself off from modern search and discovery.",
+      "hard_choice": "The brand faces a fundamental choice about the purpose of its web content. It can continue to write persuasive, benefit-led copy optimized for human conversion, accepting that this makes it invisible to AI. Or, it can shift to a data-first content model, replacing slogans with specific metrics, case data, and process descriptions. This might make the copy feel drier to a human reader but would provide the verifiable substance AI needs to see the brand as an authority. The strategic question: is the website's primary job to convert the visitor who is already there, or to convince the AI to bring the next one?"
     },
     "_usage": {
-      "prompt_tokens": 22363,
-      "completion_tokens": 2445,
-      "total_tokens": 27248,
+      "prompt_tokens": 21895,
+      "completion_tokens": 2546,
+      "total_tokens": 26630,
       "prompt_tokens_details": {
-        "cached_tokens": 20394
+        "cached_tokens": 4078
       },
       "completion_tokens_details": {
-        "reasoning_tokens": 2440
+        "reasoning_tokens": 2189
       }
     },
     "_model": "gemini-2.5-pro",
@@ -53,71 +53,71 @@
     "_parse_status": "ok"
   },
   "HI_evaluation": {
-    "brand": "Razor Group",
-    "product_title": "B2B E-commerce Acquisition & Scaling Service",
-    "url": "https://www.razor-group.com",
+    "brand": "Entlify",
+    "product_title": "Entlify - Digital Marketing & Web Dev",
+    "url": "https://www.entlify.com",
     "overall_perception_summary": {
-      "headline": "Elite Tech-Finance Engine",
-      "description": "Razor Group presents itself as a high-performance technology and finance powerhouse, not just an e-commerce aggregator. The brand feels like a sophisticated investment bank that speaks the language of data-driven scale, targeting successful entrepreneurs with a promise of a fast, fair, and lucrative exit. It leverages its top-tier investor backing (The Ruler) and proprietary technology (The Sage) to create an aura of inevitable success, positioning an acquisition by Razor as the ultimate validation of an entrepreneur's work."
+      "headline": "Pragmatic Growth Partner",
+      "description": "Entlify presents itself as the rational, results-driven solution to the chaos of digital marketing for B2B tech companies. The brand's perception is built on a foundation of pragmatic expertise, promising to be a seamless 'extension of your team' that translates complex processes into predictable revenue. This is visually captured by a 'Clinical Pop' aesthetic — a serious, professional interface energized by vibrant, data-driven visuals — positioning Entlify as both a reliable expert and a catalyst for growth."
     },
     "category_summaries": {
       "foundation": {
-        "title": "Authoritative Tech-Driven Value",
-        "description": "The brand's stance is The Empowerer, using its clinical, data-driven authority to elevate the brands it acquires. Its ethos is Radical Transparency, showcasing its process, funding, and performance metrics as undeniable proof of competence. The market slot is The Scientific Miracle, where a sterile, tech-forward aesthetic justifies a premium, high-stakes value proposition for visionary entrepreneurs. The payoff for the seller is not just a financial reward, but the validation of being chosen by an elite, forward-thinking entity."
+        "title": "Expert Problem Solvers",
+        "description": "Entlify's purpose is that of The Healer, fixing the 'expensive, time-consuming, and unpredictable' problems of digital marketing. The brand's ethos is Radical Transparency, prioritizing 'outstanding results' and 'data-informed decisions' backed by client testimonials. Its positioning as a Medical Authority for business means it targets a specific niche (SaaS companies) with a promise of predictable, cost-conscious solutions. The payoff for the client is the elimination of guesswork and a clear, straightforward path to revenue."
       },
       "identity": {
-        "title": "Confident Corporate Power",
-        "description": "The brand's personality is The Reliable Expert — distant, professional, and supremely competent, communicating with the unquestionable authority of a market leader. The dominant archetype is The Ruler (65%), driven by its massive funding and mission to build a global powerhouse, supported by The Sage's data-driven wisdom. Visually, the Pharma-Code identity uses electric blue and a stark black-and-white palette to signal a modern, tech-first financial institution. The tone is The Clinical Authority, using a serious, formal, and data-centric voice to build trust and convey expertise."
+        "title": "The Reliable Expert",
+        "description": "The brand's personality is The Reliable Expert, communicating with a distant but competent authority. This is driven by a dominant Sage archetype, which demystifies complex topics like SEO and CRO, positioning the agency as a source of truth and clarity. The Visual Identity is Pharma-Code, using a cool, structured, and professional layout that signals technical precision and trustworthiness. The Tone of Voice is a Clinical Authority, using serious, dry, and professional language focused on outcomes, not emotion."
       },
       "communication": {
-        "title": "Data-Backed Solution Selling",
-        "description": "The hook is The Problem Solver, directly addressing the challenge of scaling or exiting an e-commerce business. The brand's edge is as The Specialist, focusing exclusively on acquiring and hyper-scaling promising e-commerce businesses with its proprietary platform. Proof comes from the B2B equivalent of Derm-Validation: backing from top-tier investors like BlackRock and hard data on its massive scale ($1BN+ funding). The communication focus is on Science Education, explaining its process to build trust and demonstrate a superior, data-driven methodology."
+        "title": "ROI-Focused Expertise",
+        "description": "The messaging hook is that of The Problem Solver, leading with clear outcomes like 'Rank higher, convert better.' The brand's edge is its USP as The Specialist, hyper-focused on the needs of SaaS and tech companies. Key Selling Points rely on Derm-Validation, using testimonials from high-level clients (CMOs, Managing Partners) as the primary form of proof. The communication focus is on Science Education, explaining their processes to build trust and demonstrate competence before asking for the sale."
       },
       "benefits": {
-        "title": "Status, Confidence, and Correction",
-        "description": "Functionally, Razor Group provides Correction, taking a successful brand and optimizing it for global scale. The emotional benefit for the selling entrepreneur is Confidence, reassuring them that their creation is in safe hands and that they've made a smart, validated business decision. Self-expression for the seller is that of The Status Seeker; being acquired by Razor is a powerful signal of success and quality within the entrepreneurial community. The social benefit is entry into The Insider Clique, joining an elite group of founders who have achieved a top-tier exit."
+        "title": "Confidence Through Competence",
+        "description": "The functional benefit is Correction, fixing underperforming websites and marketing funnels to 'improve your bottom line.' The emotional payoff is Confidence, reassuring clients that their investment is safe and their goals are achievable. Self-expression for a client choosing Entlify is that of The Pragmatist — they are making a smart, rational choice, not an emotional or trend-based one. The social benefit is entry into The Knowledge Club, signaling that the client is 'in the know' by choosing an agency that specializes in their specific industry."
       }
     },
     "quick_labels": {
-      "brand_voice": "Authoritative Expert",
-      "visual_appeal": "Clinical Tech",
-      "value_prop": "Data-Driven Scale",
-      "positioning": "Elite Acquirer"
+      "brand_voice": "Expert Pragmatist",
+      "visual_appeal": "Clinical Pop",
+      "value_prop": "Predictable ROI",
+      "positioning": "SaaS Growth Agency"
     },
     "marker_1": {
       "marker_name": "Purpose",
       "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
-      "slider_a_value": "1/5",
-      "slider_a_position_name": "Pure Clinical (Sterile, molecular, synthetic)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "Derm-Validated (White coat authority)",
       "slider_b_label": "[SLIDER] MISSION VECTOR (The Goal)",
-      "slider_b_value": "4/5",
-      "slider_b_position_name": "Enhancement (Glow, texture, feel)",
-      "territory_number": 4,
-      "territory_name": "The Empowerer",
-      "reasoning": "Pass 1 hypothesis: The Guardian, as they acquire and grow existing brands. Pass 2: Slider A is 1/5 Pure Clinical, grounded in 'proprietary technology and data infrastructure' and a 'data-driven approach.' Slider B is 4/5 Enhancement, with a mission to 'ELEVATE THE BRANDS of tomorrow' and 'unlock their brands’ full potential,' which goes beyond maintenance. Grid: Low(1) x High(4) maps to Territory 4, The Empowerer. Pass 3: The grid result is a better fit. The brand's purpose isn't just to protect a legacy but to actively transform it through technology, which is the core of The Empowerer.",
-      "evidence": "\"We take a data-driven approach... then use proprietary technology and data infrastructure to run them at scale.\" ... \"We help today’s visionaries ELEVATE THE BRANDS of tomorrow\" ... \"unlock their brands’ full potential\"",
-      "evidence_src": "HOME PAGE (body copy)",
+      "slider_b_value": "2/5",
+      "slider_b_position_name": "Restoration (Repairing damage)",
+      "territory_number": 1,
+      "territory_name": "The Healer",
+      "reasoning": "Pass 1 hypothesis: The Healer. The brand explicitly frames its work as solving a 'problem' and a 'headache' for clients. Pass 2: Slider A scores 2/5 Derm-Validated; authority comes from professional expertise and process ('advanced tools', 'AI-ready'), not raw nature. Slider B scores 2/5 Restoration; the mission is to fix inefficient marketing and 'eliminate errors,' restoring a business's growth trajectory. Grid: Low(2) x Low(2) maps directly to Territory 1. Pass 3: Aligned. The brand's purpose is to cure the common ailments of digital marketing for tech companies.",
+      "evidence": "\"A new approach to an old problem.\" ... \"Web development and digital marketing are expensive, time-consuming, and have unpredictable results.\" ... \"lifts the burden of testing multiple ways to acquire users online.\"",
+      "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
-        "coherence_status": "diverged",
-        "coherence_reasoning": "The initial hypothesis of 'The Guardian' was based on the idea of stewarding brands. However, the slider scores revealed a mission of aggressive technological enhancement, not just protection. The grid's result, 'The Empowerer,' more accurately captures this transformative, tech-driven purpose."
+        "coherence_status": "aligned",
+        "coherence_reasoning": "The holistic hypothesis and grid result both converge on The Healer. The brand's entire narrative is built around solving a painful, pre-existing business problem."
       }
     },
     "marker_2": {
       "marker_name": "Mission & Vision",
       "slider_a_label": "[SLIDER] SCOPE OF IMPACT (The Blast Radius)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "Industry Reform (Changing beauty standards)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "Optimization (General appearance/glow)",
       "slider_b_label": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "Aspirational (High status, expensive investment)",
-      "territory_number": 4,
-      "territory_name": "The High Priests",
-      "reasoning": "Pass 1 hypothesis: The Scientific Vanguard, due to the elite, tech-focused approach. Pass 2: Slider A is 4/5 Industry Reform, based on the grand vision of 'Shaping tomorrow's E-commerce' and 'building a global e-commerce on powerhouse.' Slider B is 2/5 Aspirational; selling a business to Razor is a high-status, selective event for successful entrepreneurs, not a mass-market service. Grid: High(4) x Low(2) maps to Territory 4, The High Priests. Pass 3: Aligned. 'The High Priests' better captures the manifesto-driven, selective nature of their mission than the more product-focused 'Vanguard'.",
-      "evidence": "\"Shaping tomorRow's E-commerce\" ... \"pursuing a larger vision of building a global e-commerce on powerhouse.\" ... \"We help today’s visionaries ELEVATE THE BRANDS of tomorrow\"",
-      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "Approachable (Easy to find, easy to buy)",
+      "territory_number": 1,
+      "territory_name": "The Democratizers",
+      "reasoning": "Pass 1 hypothesis: The Scientific Vanguard, due to the niche focus on SaaS and tech. Pass 2: Slider A is 2/5 Optimization, as the mission is focused on improving individual client bottom lines, not reforming the industry. Slider B scores 4/5 Approachable; despite the niche, the language emphasizes being 'cost-conscious,' 'flexible,' and 'easily approachable,' removing barriers rather than creating them. Grid: Low(2) x High(4) maps to Territory 1, The Democratizers. Pass 3: Diverged. The niche targeting suggested exclusivity, but the mission language of affordability and approachability better fits The Democratizers, who make high-level services accessible to their target group.",
+      "evidence": "\"Our goal is to simplify all aspects of website development and digital marketing activities\" ... \"pricing is flexible and mindful of your budget\" ... \"proactive and easily approachable.\"",
+      "evidence_src": "ABOUT PAGE + HOME PAGE (body copy)",
       "evaluation_check": {
-        "coherence_status": "aligned",
-        "coherence_reasoning": "The holistic hypothesis and grid result both point to an elite, mission-driven organization. The brand's vision is to reshape an entire industry, and its target audience is a select group of high-performing entrepreneurs, fitting the 'High Priests' territory perfectly."
+        "coherence_status": "diverged",
+        "coherence_reasoning": "The initial hypothesis focused on the niche B2B target, suggesting exclusivity. However, the explicit mission language around simplification, cost-consciousness, and approachability strongly supports the grid result of The Democratizers, who make complex services accessible to their defined market."
       }
     },
     "marker_3": {
@@ -130,12 +130,12 @@
       "slider_b_position_name": "Evidence-First (Charts, diagrams, studies)",
       "territory_number": 2,
       "territory_name": "Radical Transparency",
-      "reasoning": "Pass 1 hypothesis: Radical Transparency, given the emphasis on a clear process and data. Pass 2: Slider A is 4/5 High-Performance, evidenced by language like 'relentless passion for growth' and 'Fast, fair & ForWARD THINKING.' Slider B is 2/5 Evidence-First, with the 'RAZOR IN NUMBERS' section, 'data-driven approach,' and detailed 3-step process serving as proof. Grid: High(4) x High(2) maps directly to Territory 2. Pass 3: Aligned. The brand values high-speed, high-stakes performance and uses data and process transparency to prove its credibility.",
-      "evidence": "\"Fast, fair & ‍FOrWARD THINKING\" ... \"RAZOR IN NUMBERS... $1BN+... 40000+... 1 MILLION+\" ... \"We take a data-driven approach\" ... \"Analysis & deep dive\"",
-      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: Radical Transparency. The brand emphasizes being 'Predictable,' 'Straightforward,' and showing 'Our work in action' through testimonials. Pass 2: Slider A is 4/5 High-Performance, driven by claims like 'outstanding results' and 'improve your bottom line from day one.' Slider B is 2/5 Evidence-First; they use client testimonials and case study language ('doubled the number of organic impressions') as proof, not just mystique. Grid: High(4) x High(2) maps to Territory 2. Pass 3: Aligned. The brand values demonstrable results and clear, evidence-based communication.",
+      "evidence": "\"We prioritize the activities that can improve your bottom line from day one.\" ... \"We simplify ambiguous processes, abbreviations, and numbers for your team\" ... \"Read the feedback from our incredible clients.\"",
+      "evidence_src": "HOME PAGE (body copy) + ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's emphasis on speed, growth, and data-backed processes strongly supports the 'Radical Transparency' territory. Both the holistic read and the slider scores converge on this conclusion."
+        "coherence_reasoning": "The brand's stated values of being 'Predictable' and 'Straightforward,' combined with a focus on results and client proof, align perfectly with the Radical Transparency territory."
       }
     },
     "marker_4": {
@@ -144,16 +144,16 @@
       "slider_a_value": "2/5",
       "slider_a_position_name": "Professional (Clean and serious)",
       "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Status Signal)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "Status Symbol (Exclusivity cues)",
-      "territory_number": 2,
-      "territory_name": "The Scientific Miracle",
-      "reasoning": "Pass 1 hypothesis: The Scientific Miracle, combining a clinical/tech aesthetic with a prestige value proposition. Pass 2: Slider A is 2/5 Professional. The visual analysis notes a 'tech-forward corporate aesthetic' with a 'sterile white background' and 'electric blue,' which is clean, serious, and professional. Slider B is 5/5 Status Symbol, signaled by 'fueled by top-tier investors' like BlackRock and L Catterton, and the '$1BN+ in funding.' Grid: Low(2) x High(5) maps to Territory 2. Pass 3: Aligned. The serious, tech-driven visual identity serves to justify the high-status, institutionally-backed value proposition.",
-      "evidence": "\"visual_look_and_feel: a high-impact, 'tech-forward' corporate aesthetic\" ... \"dominant_colors: #0033FF, #FFFFFF, #000000\" ... \"fueled by top-tier investors\" ... \"Backed by world's leading investors from day one\"",
-      "evidence_src": "PRODUCT PAGE (visual territory) + HOME PAGE (body copy)",
+      "slider_b_value": "3/5",
+      "slider_b_position_name": "Elevated Everyday (Premium feel, accessible positioning)",
+      "territory_number": 1,
+      "territory_name": "The Medical Authority",
+      "reasoning": "Pass 1 hypothesis: The Scientific Miracle, given the tech focus and premium feel. Pass 2: Slider A is 2/5 Professional; the visual analysis points to a clean, serious, structured layout, not sterile but not lifestyle-oriented. Slider B is 3/5 Elevated Everyday; it's a considered B2B purchase, but framed as 'cost-conscious' and 'competitive,' not a pure status symbol. Grid: Low(2) x Mid(3) triggers the mid-score fallback. The aesthetic is cool and clinical, pushing it towards T1/T2. The value is pragmatic, not prestige, which aligns it with T1. Pass 3: Diverged. The final territory is The Medical Authority, positioning them as the 'doctor' for a business's website health, which is a better fit than the prestige-focused Scientific Miracle.",
+      "evidence": "\"Fast-growing tech companies trust us\" ... \"SaaS teams operating in cloud management, programming, cybersecurity, and more.\" ... \"Excellent service at a competitive price\"",
+      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (testimonial)",
       "evaluation_check": {
-        "coherence_status": "aligned",
-        "coherence_reasoning": "The visual analysis and on-page copy perfectly align with the 'Scientific Miracle' territory. The clinical, tech-focused visuals provide the rationale for the prestige positioning derived from its elite investors."
+        "coherence_status": "diverged",
+        "coherence_reasoning": "The initial hypothesis of Scientific Miracle was based on the tech-client focus. However, the brand's emphasis on pragmatic value ('competitive price') and its clinical aesthetic aligns better with The Medical Authority, which acts as a trusted, expert problem-solver rather than a luxury status symbol."
       }
     },
     "marker_5": {
@@ -162,53 +162,53 @@
       "slider_a_value": "2/5",
       "slider_a_position_name": "Distant (Professional, polite, but emotionally flat)",
       "slider_b_label": "[SLIDER] COMPETENCE / AUTHORITY (The Power Dynamic)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "The Deity (Unquestionable authority)",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "The Specialist (Highly educated)",
       "territory_number": 3,
       "territory_name": "The Reliable Expert",
-      "reasoning": "Pass 1 hypothesis: The Reliable Expert, based on the authoritative, data-driven, and professional tone. Pass 2: Slider A is 2/5 Distant. The language is corporate and transactional ('financial information', 'formalise the transaction'), with a professional but emotionally flat tone. Slider B is 5/5 The Deity, established by the CEO's quotes, the backing of 'world's leading investors,' and the sheer scale of their numbers ('$1BN+'). Grid: Low(2) x High(5) maps to Territory 3. Pass 3: Aligned. The personality is one of supreme, unquestionable competence, delivered with professional distance.",
-      "evidence": "\"deep dive into your financial information and operational setup\" ... \"sign the documents and formalise the transaction\" ... \"Tushar Ahluwalia, co-founder & CEO\" ... \"fueled by top-tier investors\"",
-      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (headline)",
+      "reasoning": "Pass 1 hypothesis: The Reliable Expert. The entire website communicates competence, expertise, and a serious, results-oriented approach. Pass 2: Slider A scores 2/5 Distant; while they claim to be 'approachable,' the written language is formal, professional, and emotionally flat. Slider B scores 4/5 The Specialist; they explicitly target a highly technical niche (SaaS, cybersecurity) and discuss specialized services. Grid: Low(2) x High(4) maps directly to Territory 3. Pass 3: Aligned. The brand's personality is defined by its deep expertise, not its warmth.",
+      "evidence": "\"Entlify is a digital marketing and web development agency that works with SaaS teams operating in cloud management, programming, cybersecurity, and more.\" ... \"proactive, knowledgeable, and diligent.\"",
+      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (testimonial)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The combination of emotionally distant, professional language and overwhelming signals of authority (CEO, top investors, massive funding) makes 'The Reliable Expert' a perfect fit."
+        "coherence_reasoning": "Both the holistic read and the slider scores converge on The Reliable Expert. The brand's power comes from what it knows, not how it makes you feel."
       }
     },
     "marker_6": {
       "marker_name": "Archetypes Mix",
       "primary": {
-        "archetype": "The Ruler",
-        "group": "A (Stability)",
-        "percentage": "65%"
-      },
-      "secondary": {
         "archetype": "The Sage",
         "group": "B (Independence)",
-        "percentage": "25%"
+        "percentage": "70%"
+      },
+      "secondary": {
+        "archetype": "The Ruler",
+        "group": "A (Stability)",
+        "percentage": "20%"
       },
       "tertiary": {
-        "archetype": "The Creator",
+        "archetype": "The Caregiver",
         "group": "A (Stability)",
         "percentage": "10%"
       },
-      "territory_number": 4,
-      "territory_name": "The Guardian",
-      "reasoning": "The primary archetype is The Ruler (65%), driven by the ambition to build a 'global e-commerce powerhouse,' the command of '$1BN+ in funding,' and backing from 'world's leading investors.' The secondary is The Sage (25%), which explains how they rule: through a 'data-driven approach' and 'proprietary technology.' The tertiary is The Creator (10%), reflecting their mission of 'developing THE NEXT GENERATION OF CONSUMER pRODUCTS.' Cross-validation with ToV (T1 Clinical Authority) and VI (T1 Pharma-Code) confirms Ruler and Sage as the expected dominant archetypes. The weighted territory is The Guardian (Ruler + Creator), which fits their role as stewards of capital and the brands they acquire.",
-      "evidence": "\"...building a global e-commerce on powerhouse.\" (Ruler) ... \"We take a data-driven approach... use proprietary technology\" (Sage) ... \"developing THE NEXT GENERATION OF CONSUMER pRODUCTS\" (Creator)",
-      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (headline)",
+      "territory_number": 3,
+      "territory_name": "The Philosopher",
+      "reasoning": "The primary archetype is The Sage (70%), evident in the focus on knowledge, data, and simplifying complexity ('simplify ambiguous processes,' 'data-informed decisions,' 'AI-ready'). The secondary is The Ruler (20%), as the goal of this wisdom is to help clients dominate ('Rank higher,' 'Outperform the competition'). The tertiary is The Caregiver (10%), reflecting the supportive client relationship ('extension of your team,' 'lifts the burden'). Cross-validation: ToV (T1 Clinical Authority) expects Sage/Ruler; VI (T1 Pharma-Code) expects Sage/Ruler/Caregiver. The Sage primary is coherent. Territory: The Sage is native to T3, making The Philosopher the dominant territory.",
+      "evidence": "\"Leverage analytics to make data-informed decisions\" (Sage) ... \"Outperform the competition by identifying gaps and ranking opportunities.\" (Ruler) ... \"We operate as an extension of your team, proactive and easily approachable.\" (Caregiver)",
+      "evidence_src": "HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The archetype mix was determined after cross-validating with Marker 7 (ToV) and Marker 8 (VI), which both pointed towards Ruler and Sage as the most likely primary archetypes. The final mix strongly aligns with these constraints and is well-supported by evidence."
+        "coherence_reasoning": "The primary archetype, The Sage, is strongly supported by the ToV (T1 Clinical Authority) and VI (T1 Pharma-Code) territories, which both point to an expert-led brand. The archetype mix is coherent with the observed tone and visuals."
       }
     },
     "marker_7": {
       "marker_name": "Tone of Voice",
       "slider_a_label": "[SLIDER] HUMOR (The Sense of Humor)",
-      "slider_a_value": "1/5",
-      "slider_a_position_name": "Grave (Solemn, warning-like tone)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "Serious (No jokes, strictly business)",
       "slider_b_label": "[SLIDER] FORMALITY (The Dress Code)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "Traditional (Corporate, proper grammar)",
+      "slider_b_value": "3/5",
+      "slider_b_position_name": "Professional (Clean, standard, neutral business tone)",
       "slider_c_label": "[SLIDER] RESPECT (The Power Dynamic)",
       "slider_c_value": "3/5",
       "slider_c_position_name": "Neutral (Direct, matter-of-fact)",
@@ -217,12 +217,12 @@
       "slider_d_position_name": "Dry (Just the facts, concise)",
       "territory_number": 1,
       "territory_name": "The Clinical Authority",
-      "reasoning": "Pass 1 hypothesis: The Clinical Authority, due to the corporate, data-focused language. Pass 2: Sliders are Humor=1/5 (zero jokes), Formality=2/5 (proper corporate speak), Respect=3/5 (direct B2B tone), and Enthusiasm=2/5 (confident but dry). Applying the hard rules, Rule 1 fires immediately: Humor <= 2 (1), Enthusiasm <= 2 (2), and Formality >= 2 (2). This assigns Territory 1. Pass 3: Aligned. The tone is that of a serious financial institution.",
-      "evidence": "\"We will deep dive into your financial information and operational setup.\" ... \"we will sign the documents and formalise the transaction.\" ... \"proprietary technology and data infrastructure\"",
-      "evidence_src": "HOME PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: The Clinical Authority. The language is direct, professional, and focused on outcomes. Pass 2: Humor is 2/5 (Serious), Formality is 3/5 (Professional), Respect is 3/5 (Neutral), and Enthusiasm is 2/5 (Dry). Applying the hard rules, Rule 1 for Clinical Authority is met: Humor <= 2, Enthusiasm <= 2, and Formality >= 2. This is a direct match. Pass 3: Aligned. The tone is that of a competent, serious expert.",
+      "evidence": "\"Rank higher, convert better.\" ... \"We prioritize the activities that can improve your bottom line from day one.\" ... \"Reduce customer acquisition costs by maximizing the value of your current website traffic.\"",
+      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The slider scores met the criteria for Rule 1 in the assignment logic, immediately placing the tone in 'The Clinical Authority' territory. This aligns perfectly with the overall brand perception of a serious, data-driven entity."
+        "coherence_reasoning": "The slider scores for low humor and low enthusiasm, combined with professional formality, trigger the first hard rule, assigning the brand to The Clinical Authority territory, which matches the holistic assessment."
       }
     },
     "marker_8": {
@@ -235,60 +235,60 @@
       "slider_b_position_name": "Structured (Orderly, predictable hierarchy)",
       "territory_number": 1,
       "territory_name": "Pharma-Code",
-      "reasoning": "Pass 1 hypothesis: Pharma-Code, based on the visual analysis describing a 'sterile white background,' 'electric blue,' and structured layout. Pass 2: Slider A is 2/5 Cool. The visual analysis explicitly states the temperature is 'cold' and 'cool.' Slider B is 2/5 Structured, based on the 'stacked-vertical' layout and 'clean sans-serif typography.' Grid: Low(2) x Low(2) maps directly to Territory 1. Pass 3: Aligned. The visual identity is a perfect match for the Pharma-Code territory, signaling rigor, technology, and professionalism.",
-      "evidence": "\"container_analysis: temperature: cold\" ... \"layout_type: stacked-vertical\" ... \"dominant_colors: #0033FF, #FFFFFF, #000000\" ... \"visual_look_and_feel: a high-impact, 'tech-forward' corporate aesthetic\"",
+      "reasoning": "Pass 1 hypothesis: Pharma-Code. The visual analysis highlights a structured, professional, dark/grey UI that feels clinical and precise. Pass 2: Slider A scores 2/5 Cool, based on the visual analysis of the container layer ('cool temperature,' 'dark-mode UI,' 'light-grey background'). Slider B scores 2/5 Structured, reflecting the 'stacked-vertical' layout and 'Bento-box style feature grids.' Grid: Low(2) x Low(2) maps directly to Territory 1. Pass 3: Aligned. The brand's visual system uses the codes of clinical precision and order.",
+      "evidence": "\"container_analysis: temperature: cool\" ... \"layout_type: stacked-vertical\" ... \"dominant_colors: [\\\"#000000\\\", \\\"#FFFFFF\\\", \\\"#F0F0F0\\\"]\" ... \"highly structured vertical layout with a clear typographic hierarchy\"",
       "evidence_src": "PRODUCT PAGE (visual territory)",
-      "look_and_feel": "A high-impact, 'tech-forward' corporate aesthetic with a sterile, organized container and loud, confident content, creating a 'Clinical Pop' effect that signals both financial seriousness and technology disruption.",
-      "distinctive_asset_1": "Oversized bold sans-serif headlines",
-      "distinctive_asset_2": "Electric blue #0033FF brand color usage",
-      "distinctive_asset_3": "Outlined 'hollow' typography motifs",
-      "distinctive_asset_4": "Diagonal/slanted graphic elements",
-      "distinctive_asset_5": "High-contrast color-blocked sections",
-      "palette_color_1": "#0033FF",
-      "palette_color_2": "#000000",
-      "palette_color_3": "#FFFFFF",
-      "palette_color_4": "#C0C0C0",
-      "palette_color_5": "#EBEBEB",
-      "primary_palette": "Electric blue represents digital technology and speed; black and white provide a high-contrast, professional foundation for a global financial brand.",
+      "look_and_feel": "A high-end, specialized agency aesthetic signaling modernity, performance, and technical mastery through a polished, dark-themed design system.",
+      "distinctive_asset_1": "Vibrant orange solar gradients",
+      "distinctive_asset_2": "Circular performance gauges",
+      "distinctive_asset_3": "Greyscale client logo strip",
+      "distinctive_asset_4": "Connector-line workflow diagrams",
+      "distinctive_asset_5": "Bento-box style feature grids",
+      "palette_color_1": "#FF5C00",
+      "palette_color_2": "#00C853",
+      "palette_color_3": "#1E88E5",
+      "palette_color_4": "#000000",
+      "palette_color_5": "#FFFFFF",
+      "primary_palette": "A high-contrast palette where orange drives action and conversion, green signals positive growth metrics, and blue denotes technical reliability, all set against a professional black/grey foundation.",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The provided visual analysis directly supports the slider scores and the resulting 'Pharma-Code' territory. The combination of cool colors and a highly structured layout is unambiguous."
+        "coherence_reasoning": "The visual analysis report's description of a cool, structured container layer provides direct evidence for the slider scores, which in turn map cleanly to the Pharma-Code territory."
       }
     },
     "marker_9": {
       "marker_name": "Messaging",
       "slider_a_label": "[SLIDER] THE HOOK TARGET (The Subject)",
-      "slider_a_value": "5/5",
-      "slider_a_position_name": "The Dream (Identity subject)",
+      "slider_a_value": "4/5",
+      "slider_a_position_name": "The Result (Effect subject)",
       "slider_b_label": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
-      "slider_b_value": "1/5",
-      "slider_b_position_name": "Raw Data (Charts, percentages, clinically proven)",
+      "slider_b_value": "2/5",
+      "slider_b_position_name": "Rational (Logical cause-and-effect)",
       "territory_number": 2,
       "territory_name": "The Problem Solver",
-      "reasoning": "Pass 1 hypothesis: The Problem Solver, as they offer a clear solution to the complex problem of scaling or exiting an e-commerce business. Pass 2: Slider A is 5/5 The Dream. The hook is the ultimate benefit: 'unlock their brands’ full potential' and 'see it reach extraordinary heights.' Slider B is 1/5 Raw Data, with persuasion based on 'RAZOR IN NUMBERS' ($1BN+ funding, 40k+ products) and investor logos. Grid: High(5) x Low(1) maps to Territory 2. Pass 3: Aligned. The messaging sells a dream outcome, but proves it with hard, rational data.",
-      "evidence": "\"unlock their brands’ full potential - so that the best products can be available on everyone’s doorstep.\" ... \"Get your consumer’s true worth and see it reach extraordinary heights.\" ... \"RAZOR IN NUMBERS... $1BN+ IN FUNDING\"",
-      "evidence_src": "HOME PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: The Problem Solver. The messaging is relentlessly focused on outcomes and fixing business issues. Pass 2: Slider A is 4/5 The Result; headlines like 'Rank higher, convert better' and 'Find the shortest path to revenue' are pure end-benefit hooks. Slider B is 2/5 Rational; the persuasion is based on logical arguments like 'Increase conversions by aligning content with... search intent.' Grid: High(4) x Low(2) maps to Territory 2. Pass 3: Aligned. The brand sells a rational solution to a tangible business problem.",
+      "evidence": "\"Rank higher, convert better.\" ... \"Turn your search positions into revenue by prioritizing product-relevant keywords.\" ... \"Reduce customer acquisition costs by maximizing the value of your current website traffic.\"",
+      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand messages an aspirational outcome (The Dream) but uses hard data and numbers as its persuasion logic, which is a classic 'Problem Solver' strategy in a B2B context."
+        "coherence_reasoning": "The messaging consistently leads with the end result (Slider A) and uses logical, cause-and-effect arguments (Slider B), making The Problem Solver a perfect fit."
       }
     },
     "marker_10": {
       "marker_name": "Narrative",
       "slider_a_label": "[SLIDER] THE PROTAGONIST (Who Solved It)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "The Professional (Named specialists, industry insiders)",
+      "slider_a_value": "1/5",
+      "slider_a_position_name": "The Nobel (Faceless PhDs, dermatologists)",
       "slider_b_label": "[SLIDER] THE SETTING (Where It Happened)",
-      "slider_b_value": "1/5",
-      "slider_b_position_name": "Sterile (Test tubes, molecules, clean rooms)",
+      "slider_b_value": "2/5",
+      "slider_b_position_name": "Tech-Forward (Biotech labs, modern innovation)",
       "territory_number": 1,
       "territory_name": "The Lab Breakthrough",
-      "reasoning": "Pass 1 hypothesis: The Lab Breakthrough. The narrative is about a technology platform, not a personal journey. Pass 2: Slider A is 2/5 The Professional. The story is told from the perspective of the company ('At Razor, we combine...') and its CEO, representing institutional expertise, not a founder's personal struggle. Slider B is 1/5 Sterile, as the setting is one of 'cutting-edge technology' and 'proprietary data infrastructure.' Grid: Low(2) x Low(1) maps to Territory 1. Pass 3: Aligned. The origin story is one of professional expertise creating a technological solution.",
-      "evidence": "\"At Razor, we combine our diverse backgrounds and extensive expertise...\" ... \"Tushar Ahluwalia, co-founder & CEO\" ... \"cutting-edge technology\" ... \"proprietary technology and data infrastructure\"",
-      "evidence_src": "ABOUT PAGE + HOME PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: The Lab Breakthrough. The story is about a new, better process and technology, not a person. Pass 2: Slider A is 1/5 The Nobel; the protagonist is the faceless, institutional 'team' or 'agency,' not a founder. Slider B is 2/5 Tech-Forward; the setting is defined by 'advanced tools,' 'AI algorithms,' and modern digital processes. Grid: Low(1) x Low(2) maps to Territory 1. Pass 3: Aligned. The narrative is one of institutional, technological innovation.",
+      "evidence": "\"Our goal is to simplify all aspects of website development and digital marketing activities for your team, making sure that you achieve the results you projected with the most advanced tools available.\" ... \"We ensure your website is optimized to meet the demands of new technologies\"",
+      "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The narrative is clearly centered on institutional expertise and technology, lacking any personal or 'source-based' elements. 'The Lab Breakthrough' is a direct fit."
+        "coherence_reasoning": "With no founder story, the narrative defaults to the institutional 'we' (the agency) using advanced technology to solve problems, which is the core of The Lab Breakthrough territory."
       }
     },
     "marker_11": {
@@ -297,34 +297,34 @@
       "slider_a_value": "2/5",
       "slider_a_position_name": "The Lab (Scientists, Estheticians)",
       "slider_b_label": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "The Stat (95% saw reduction in acne)",
+      "slider_b_value": "3/5",
+      "slider_b_position_name": "The Visual (Before & After photos)",
       "territory_number": 1,
       "territory_name": "Derm-Validation",
-      "reasoning": "Pass 1 hypothesis: Derm-Validation (B2B equivalent), where proof comes from experts and data. Pass 2: Slider A is 2/5 The Lab. The validators are 'top-tier investors' like BlackRock, the ultimate form of professional, institutional validation. Slider B is 2/5 The Stat, with 'RAZOR IN NUMBERS' ($1BN+ funding, 40k+ products, 1M+ customers) being the primary proof type. Grid: Low(2) x Low-Mid(2) maps to Territory 1. Pass 3: Aligned. The key selling points are validated by financial authorities and backed by hard performance statistics.",
-      "evidence": "\"Fueled by top-tier investors\" ... \"Backed by world's leading investors from day one\" ... \"RAZOR IN NUMBERS: 40000+ PRODUCTS... 1 MILLION+ CUSTOMERS... $1BN+ IN FUNDING\"",
-      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: Derm-Validation. The brand relies heavily on testimonials from credible industry leaders (CMOs) as proof. Pass 2: Slider A is 2/5 The Lab, where 'Lab' represents professional experts like a 'Vice President of Marketing' or 'CMO.' Slider B is 3/5 The Visual; the proof is in the results described in testimonials, like 'doubled the number of organic impressions,' which functions as a before-and-after. Grid: Low(2) x Mid(3) maps to Territory 1. Pass 3: Aligned. The KSPs are validated by expert testimony, the business equivalent of a dermatologist's recommendation.",
+      "evidence": "\"Read the feedback from our incredible clients.\" ... \"'Entlify WAY exceeded our expectations...' Julie O’Brien, CMO\" ... \"'doubled the number of organic impressions.'\"",
+      "evidence_src": "HOME PAGE (testimonial)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand uses its elite investors as the authority (the 'doctors') and its impressive operational numbers as the proof (the 'clinical study'), which is the B2B equivalent of 'Derm-Validation'."
+        "coherence_reasoning": "The use of testimonials from high-ranking professionals (CMOs) as the primary validator is a direct match for the expert-led proof of the Derm-Validation territory."
       }
     },
     "marker_12": {
       "marker_name": "USP",
       "slider_a_label": "[SLIDER] THE OWNERSHIP CLAIM (What Makes You Unique)",
-      "slider_a_value": "5/5",
-      "slider_a_position_name": "The Proprietary System (Patented engineering platform)",
+      "slider_a_value": "4/5",
+      "slider_a_position_name": "The Delivery Innovation (How it works, not what's in it)",
       "slider_b_label": "[SLIDER] THE TARGET SCOPE (Market Breadth)",
-      "slider_b_value": "4/5",
-      "slider_b_position_name": "The Problem Solver (Targets specific skin concern)",
+      "slider_b_value": "5/5",
+      "slider_b_position_name": "The Specialist (Hyper-niche condition)",
       "territory_number": 4,
       "territory_name": "The Specialist",
-      "reasoning": "Pass 1 hypothesis: The Tech Engineer, focusing on their proprietary platform. Pass 2: Slider A is 5/5 The Proprietary System, based on claims of 'cutting-edge technology' and 'proprietary technology and data infrastructure.' Slider B is 4/5 The Problem Solver, as they target a very specific niche: successful e-commerce entrepreneurs looking to scale or exit. Grid: Any(5) x Niche(4) maps to Territory 4, The Specialist. Pass 3: Diverged. While 'Tech Engineer' describes their tool, 'The Specialist' better describes their market position and USP. They are specialists *because* of their tech.",
-      "evidence": "\"proprietary technology and data infrastructure\" ... \"cutting-edge technology\" ... \"By acquiring and integrating promising e-commerce businesses into Razor’s ecosystem...\"",
-      "evidence_src": "HOME PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: The Specialist. The brand repeatedly and explicitly states its narrow focus on SaaS and tech companies. Pass 2: Slider A is 4/5 Delivery Innovation; their uniqueness lies in their process and service model ('A new approach to an old problem,' 'seamless onboarding'). Slider B is 5/5 The Specialist, due to the clear targeting of 'SaaS teams operating in cloud management, programming, cybersecurity, and more.' Grid: Any(4) x High(5) maps directly to Territory 4. Pass 3: Aligned. The brand's primary differentiator is its niche focus.",
+      "evidence": "\"Entlify is a digital marketing and web development agency that works with SaaS teams operating in cloud management, programming, cybersecurity, and more.\" ... \"Your product is our North Star.\"",
+      "evidence_src": "HOME PAGE (body copy) + ABOUT PAGE",
       "evaluation_check": {
-        "coherence_status": "diverged",
-        "coherence_reasoning": "The initial hypothesis focused on the 'what' (technology), but the grid result correctly identified the 'who' (niche audience). The brand's true USP is its specialization in a specific business problem, enabled by its technology. 'The Specialist' is the more accurate strategic territory."
+        "coherence_status": "aligned",
+        "coherence_reasoning": "The explicit and repeated definition of their target audience as SaaS and tech companies makes The Specialist the only possible territory."
       }
     },
     "marker_13": {
@@ -333,16 +333,16 @@
       "slider_a_value": "2/5",
       "slider_a_position_name": "The Explainer (Infographics, How it Works)",
       "slider_b_label": "[SLIDER] THE INTENT VECTOR (Content Goal)",
-      "slider_b_value": "1/5",
-      "slider_b_position_name": "The Thesis (Clinical studies, dermatologist quotes)",
+      "slider_b_value": "2/5",
+      "slider_b_position_name": "The Evidence (Before & Afters, user stats)",
       "territory_number": 1,
       "territory_name": "Science Education",
-      "reasoning": "Pass 1 hypothesis: Science Education, as the site is designed to explain their process and build credibility. Pass 2: Slider A is 2/5 The Explainer, with the 'THIS IS HOW WE DO IT' section breaking down their 3-step process. Slider B is 1/5 The Thesis, as the entire site's intent is to prove credibility through investor logos, success stories, and data. Grid: Low(2) x Low(1) maps to Territory 1. Pass 3: Aligned. The content focus is on educating the potential seller about their trustworthy, data-driven process.",
-      "evidence": "\"THIS IS HOW WE DO IT\" ... \"01 Fair evaluation... 02 Analysis & deep dive... 03 Closing & integration\" ... \"Fueled by top-tier investors\"",
+      "reasoning": "Pass 1 hypothesis: Science Education. The site's content is designed to explain their value and prove their competence. Pass 2: Slider A is 2/5 The Explainer; the content breaks down their services (SEO, CRO) and uses data visualizations. Slider B is 2/5 The Evidence; the primary goal is to build trust through client testimonials and case studies ('Our work in action'). Grid: Low(2) x Low(2) maps to Territory 1. Pass 3: Aligned. The focus is on educating the potential client on why Entlify is the competent, trustworthy choice.",
+      "evidence": "\"Ensure your SEO works beyond algorithms.\" ... \"Leverage analytics to make data-informed decisions\" ... \"Our work in action. Read the feedback from our incredible clients.\"",
       "evidence_src": "HOME PAGE (body copy) + HOME PAGE (headline)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The website content is structured to explain a complex process and build trust through evidence, which is the core of the 'Science Education' territory."
+        "coherence_reasoning": "The content focus on explaining their process (Slider A) and providing proof via testimonials (Slider B) aligns perfectly with the Science Education territory."
       }
     },
     "marker_14": {
@@ -355,12 +355,12 @@
       "slider_b_position_name": "Aesthetic (Brightening, smoothing texture)",
       "territory_number": 4,
       "territory_name": "Correction",
-      "reasoning": "Pass 1 hypothesis: Correction. Razor Group takes an existing business and 'corrects' its trajectory for massive growth. Pass 2: Slider A is 5/5 The Fixer. The action is aggressive restoration and growth: 'unlock their brands’ full potential' and helping them 'reach extraordinary heights.' Slider B is 4/5 Aesthetic. The outcome is a better-looking business in terms of revenue, scale, and market presence. Grid: High(5) x High(4) maps to Territory 4. Pass 3: Aligned. The functional benefit is the correction and perfection of a business's growth model.",
-      "evidence": "\"unlock their brands’ full potential\" ... \"see it reach extraordinary heights\" ... \"run them at scale\"",
-      "evidence_src": "HOME PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: Correction. The service is designed to fix underperforming business metrics. Pass 2: Slider A is 5/5 The Fixer; the service aims to 'eliminate errors,' 'identify gaps,' and solve the problem of unpredictable results. Slider B is 4/5 Aesthetic; the outcomes are about appearance-level business metrics like 'Rank higher' and 'convert better,' which are visible improvements. Grid: High(5) x High(4) maps to Territory 4. Pass 3: Aligned. The core function is to correct a company's digital performance.",
+      "evidence": "\"Rank higher, convert better.\" ... \"eliminating any obstacles visitors may encounter.\" ... \"Grow conversions by eliminating errors and making the website easily accessible\"",
+      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "Adapting the sliders to a B2B context, the brand's function is to aggressively fix scaling issues to achieve a perfected business outcome, which fits the 'Correction' territory."
+        "coherence_reasoning": "The functional benefit is clearly about fixing (Slider A) visible business metrics (Slider B), making Correction the correct territory."
       }
     },
     "marker_15": {
@@ -373,142 +373,142 @@
       "slider_b_position_name": "Savvy (I feel smart/validated for choosing this)",
       "territory_number": 2,
       "territory_name": "Confidence",
-      "reasoning": "Pass 1 hypothesis: Confidence. They provide entrepreneurs the confidence to sell their business. Pass 2: Slider A is 2/5 Reassurance. The copy directly addresses the seller's anxiety ('the sleepless nights, the investment') and offers a solution: 'placing your consumer’s mission in safe hands.' Slider B is 4/5 Savvy. Selling to a top-tier aggregator provides external validation, making the entrepreneur feel smart and successful. Grid: Low(2) x High(4) maps to Territory 2. Pass 3: Aligned. The emotional benefit is the confidence that comes from anxiety relief and the feeling of making a savvy, validated choice.",
-      "evidence": "\"We know firsthand what it takes to grow and scale an e-commerce business: the sleepless nights, the investment, the pure passion.\" ... \"selling to us means placing your consumer’s mission in safe hands\"",
-      "evidence_src": "HOME PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: Confidence. The service sells peace of mind to marketing leaders. Pass 2: Slider A is 2/5 Reassurance; it addresses the 'headache' of marketing and 'lifts the burden,' calming anxiety about unpredictable results. Slider B is 4/5 Savvy; the client feels smart for making a 'data-informed decision' and eliminating 'guesswork.' Grid: Low(2) x High(4) maps to Territory 2. Pass 3: Aligned. The emotional benefit is the confidence that comes from making a smart, reassured decision.",
+      "evidence": "\"managing website migration or selecting a digital marking strategy for your product can be a headache\" ... \"eliminate guesswork, and optimize your website for exceptional performance.\" ... \"It's mostly hands off. The Entlify team makes it easy for me\"",
+      "evidence_src": "ABOUT PAGE + HOME PAGE (body copy) + HOME PAGE (testimonial)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's messaging directly addresses the anxieties of selling a business and offers reassurance, while the prestige of the firm provides the seller with a sense of validation and confidence in their decision."
+        "coherence_reasoning": "The service calms the anxiety of unpredictable marketing (Reassurance) and makes the client feel intelligent for their choice (Savvy), which combine to create Confidence."
       }
     },
     "marker_16": {
       "marker_name": "Self-Expression",
       "slider_a_label": "[SLIDER] THE SIGNAL DRIVER (Purchase Motivation)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "The Statement (I buy it to show my taste)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "The Smart Choice (because it makes sense)",
       "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION (Social Position)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "The Exclusive (Gatekept by price or access)",
-      "territory_number": 4,
-      "territory_name": "The Status Seeker",
-      "reasoning": "Pass 1 hypothesis: The Purist, for entrepreneurs who value data and tech. Pass 2: Slider A is 4/5 The Statement. Choosing to sell to a firm backed by BlackRock is a significant identity signal about the quality of the business you built. Slider B is 5/5 The Exclusive. This is not an option for most businesses; it's gatekept for high-revenue, successful brands. Grid: High(4) x High(5) maps to Territory 4, The Status Seeker. Pass 3: Diverged. 'Status Seeker' is more accurate than 'Purist.' The primary signal is one of financial success and elite validation, not just intellectual purity.",
-      "evidence": "\"Fueled by top-tier investors\" ... \"Total Amazon Revenue (last 12 months) ... $50m+\" ... \"You are in good company\"",
-      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
+      "slider_b_value": "3/5",
+      "slider_b_position_name": "The Curated (Known by enthusiasts)",
+      "territory_number": 1,
+      "territory_name": "The Pragmatist",
+      "reasoning": "Pass 1 hypothesis: The Pragmatist. Choosing Entlify is a rational business decision based on their niche expertise and focus on ROI. Pass 2: Slider A is 2/5 The Smart Choice; the motivation is purely logical. Slider B is 3/5 The Curated; they are a known entity within the specific niche of SaaS marketing professionals. Grid: Low(2) x Mid(3) triggers the mid-score fallback, which resolves to Territory 1, The Pragmatist, as the logical motivation is the dominant signal. Pass 3: Aligned. The brand appeals to rational actors, not those seeking identity expression.",
+      "evidence": "\"We prioritize the activities that can improve your bottom line from day one.\" ... \"Make every dollar count.\" ... \"Excellent service at a competitive price\"",
+      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (testimonial)",
       "evaluation_check": {
-        "coherence_status": "diverged",
-        "coherence_reasoning": "The initial 'Purist' hypothesis was too focused on the 'how' (data). The sliders and grid correctly identified that the primary self-expression benefit is the status and exclusivity that comes from being acquired by such a powerful, well-funded entity."
+        "coherence_status": "aligned",
+        "coherence_reasoning": "The overwhelming evidence points to a logical, ROI-based decision process (The Smart Choice) within a professional niche (The Curated), making The Pragmatist the clear territory."
       }
     },
     "marker_17": {
       "marker_name": "Social Benefits",
       "slider_a_label": "[SLIDER] THE SOCIAL VECTOR (Social Goal)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "Distinction (I want to be noticed)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "Acceptance (I want to be accepted by the group)",
       "slider_b_label": "[SLIDER] THE GROUP DYNAMIC (Tribal Scale)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "The Elite (Gatekeepers/VIPs)",
-      "territory_number": 4,
-      "territory_name": "The Insider Clique",
-      "reasoning": "Pass 1 hypothesis: The Knowledge Club, joining a group of smart founders. Pass 2: Slider A is 4/5 Distinction. Selling to Razor differentiates an entrepreneur from those who took different, perhaps less prestigious, exit paths. Slider B is 5/5 The Elite. The group of founders who have sold to Razor is an exclusive, elite club, validated by the world's top investors. Grid: High(4) x High(5) maps to Territory 4, The Insider Clique. Pass 3: Diverged. 'Insider Clique' better captures the exclusivity and status than 'Knowledge Club.' It's about being in an elite circle, not just a smart one.",
-      "evidence": "\"YOU ARE IN GOOD COMPANY\" ... \"consumerS WE'RE PROud to back\" ... \"Fueled by top-tier investors\"",
-      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (headline)",
+      "slider_b_value": "3/5",
+      "slider_b_position_name": "The Niche (Specific interest group)",
+      "territory_number": 2,
+      "territory_name": "The Knowledge Club",
+      "reasoning": "Pass 1 hypothesis: The Knowledge Club. Choosing Entlify signals that you are a savvy SaaS marketer who knows the right specialist for the job. Pass 2: Slider A is 2/5 Acceptance; the goal is to join the group of other 'Fast-growing tech companies' that made the same smart choice. Slider B is 3/5 The Niche; the relevant social group is specifically SaaS and tech marketing professionals. Grid: Low(2) x Mid(3) triggers the mid-score fallback. The context of a specific professional niche making an informed choice strongly supports Territory 2. Pass 3: Aligned. The social currency is being 'in the know.'",
+      "evidence": "\"Fast-growing tech companies trust us with website development and traffic acquisition.\" ... \"Why teams rely on Entlify\" ... \"works with SaaS teams operating in cloud management, programming, cybersecurity, and more.\"",
+      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
       "evaluation_check": {
-        "coherence_status": "diverged",
-        "coherence_reasoning": "The holistic hypothesis was too focused on the intellectual aspect. The grid result, 'The Insider Clique,' more accurately reflects the social benefit of joining an exclusive, high-status group defined by financial success and elite backing."
+        "coherence_status": "aligned",
+        "coherence_reasoning": "The social benefit comes from joining a specific, knowledgeable peer group (SaaS marketers), which is the definition of The Knowledge Club."
       }
     },
     "_usage": {
-      "prompt_tokens": 13492,
-      "completion_tokens": 2929,
-      "total_tokens": 20412,
+      "prompt_tokens": 14586,
+      "completion_tokens": 3174,
+      "total_tokens": 21113,
       "prompt_tokens_details": {
-        "cached_tokens": 12202
+        "cached_tokens": 12209
       },
       "completion_tokens_details": {
-        "reasoning_tokens": 3991
+        "reasoning_tokens": 3353
       }
     },
     "_model": "gemini-2.5-pro",
     "_finish_reason": "STOP",
     "_parse_status": "ok",
     "hi": {
-      "score": 78,
+      "score": 73,
       "label": "READABLE",
       "diagnosis": "CLEAR READ",
-      "profile": "The brand presents itself as a high-stakes financial and technology partner for e-commerce entrepreneurs seeking an exit. The page is a direct sales funnel, using institutional credibility (top-tier investor logos) and massive scale metrics ('$1BN+ in funding') to build a case for acquisition. The 'Clinical Pop' visual territory combines a sterile, professional container with high-energy blue accents to signal both financial seriousness and tech-forward momentum.",
-      "blind_spot": "The primary headline, 'developing THE NEXT GENERATION OF CONSUMER pRODUCTS,' misrepresents the business model. It reads like a direct-to-consumer brand, creating a critical 3-second confusion for the actual target audience: e-commerce founders looking to sell their business. Leading with the 'We help today’s visionaries' message would immediately clarify the page's purpose and audience.",
+      "profile": "The brand presents as a sophisticated, high-end B2B agency targeting tech and SaaS companies. The message is direct and benefit-driven ('Rank higher, convert better'), supported by strong, specific social proof from relevant industry leaders. The visual identity uses a dark-mode, tech-forward aesthetic to signal modernity and expertise, creating a perception of a competent, results-oriented partner.",
+      "blind_spot": "The brand's primary friction point is its complete opacity on pricing. While common in the agency world, forcing a visitor to 'Request a Call' for even a hint of the commitment level creates a significant hurdle. This signals that the service is expensive and potentially disrespects the visitor's time, contrasting with the 'straightforward' and 'time-oriented' values claimed on other pages.",
       "metrics": {
         "hi01_message_clarity": {
           "label": "MESSAGE CLARITY",
-          "score": 65,
+          "score": 70,
           "diagnosis": "UNDERSTANDABLE",
-          "so_what": "While the page eventually clarifies its purpose, the initial headline creates confusion about who the site is for. The value proposition is stated as a list of Razor's capabilities rather than a direct benefit to the seller. A visitor has to read halfway down the page to understand the core offer.",
+          "so_what": "The page clearly communicates its core services and target audience within seconds. The headline is a direct benefit statement, and the sub-headline names the audience. While effective, the lead benefit is a category-generic promise rather than the brand's unique differentiator of being a proactive, integrated team.",
           "sub_metrics": {
             "headline_clarity": {
-              "score": 50,
-              "evaluation": "The main headline 'developing THE NEXT GENERATION OF CONSUMER pRODUCTS' only answers WHAT the company does broadly, but fails to identify WHO it's for (sellers) or WHY they should care. It misleads the visitor into thinking Razor is a D2C brand."
+              "score": 70,
+              "evaluation": "The headline 'Rank higher, convert better.' clearly states WHAT the visitor gets. The sub-headline 'Fast-growing tech companies trust us...' clarifies WHO it's for. The WHY (differentiator) is absent from the hero, making it a 2-out-of-3 read."
             },
             "value_prop_above_fold": {
-              "score": 50,
-              "evaluation": "The first 150 words state the MECHANISM ('we pair our... experience with cutting-edge technology') but lack a clear BENEFIT for the seller or CONTRAST against alternatives. It describes the company's inputs, not the visitor's outcome."
+              "score": 70,
+              "evaluation": "The hero section provides the BENEFIT ('Rank higher, convert better') and the MECHANISM ('website development and traffic acquisition'). It lacks an explicit CONTRAST against competitors or the status quo, relying on the visitor to infer the difference."
             },
             "benefit_hierarchy": {
-              "score": 70,
-              "evaluation": "The lead benefit, 'ELEVATE THE BRANDS of tomorrow,' is powerful but differentiator-adjacent. The core differentiator is the tech-driven, data-backed acquisition model, which is explained but not framed as the primary benefit itself."
+              "score": 50,
+              "evaluation": "The lead benefit, 'Rank higher, convert better,' is the default promise of any SEO/CRO agency. The true differentiator—'We operate as an extension of your team'—is buried further down the page, weakening the initial hook."
             },
             "jargon_load": {
               "score": 90,
-              "evaluation": "The copy uses B2B-appropriate terms like 'proprietary technology' and 'data infrastructure.' This language is table-stakes for the target audience of e-commerce founders and is not used gratuitously."
+              "evaluation": "The copy uses industry-standard terms like 'SEO' and 'Core Web Vitals' which are table-stakes for its B2B tech audience. There is no gratuitous jargon, making the content feel professional and direct."
             }
           },
           "checklist": {
             "pass": [
-              "uses industry-appropriate language for its B2B audience"
+              "states target audience clearly: 'Fast-growing tech companies'"
             ],
             "warn": [
-              "value proposition focuses on company features, not seller outcomes"
+              "lacks an explicit contrast against alternatives above the fold"
             ],
             "fail": [
-              "main headline misidentifies the core business model (acquisition vs. D2C)"
+              "leads with a generic category benefit, not the core differentiator"
             ]
           }
         },
         "hi02_trust_score": {
           "label": "TRUST SCORE",
-          "score": 82,
-          "diagnosis": "RECEIPTS LOUD",
-          "so_what": "The brand builds immense trust through verifiable, high-impact evidence. It prominently displays logos of world-class investors like BlackRock and backs its scale claims with hard numbers ('$1BN+ in funding'). This is reinforced by a specific, relatable seller success story, making the high-value proposition feel credible.",
+          "score": 70,
+          "diagnosis": "CREDIBLE",
+          "so_what": "The brand builds strong credibility through high-quality, specific social proof. Testimonials from named CMOs and partners in the target industry are powerful validators. The primary weakness is a lack of reputed, third-party signals like press mentions or awards, relying instead on client voice and professional design.",
           "sub_metrics": {
             "hype_index": {
               "score": 70,
-              "evaluation": "The page uses several unsupported superlatives like 'best products' and 'extraordinary heights.' However, claims like 'top-tier investors' are immediately substantiated by logos, keeping the hype index in the 3-5 unsupported claims range."
+              "evaluation": "The copy contains a few unsupported superlatives like 'outstanding results,' 'flawless websites,' and 'exceptional performance.' These are mild and fit within the 3-5 claim band, but they are still brand-self-praise without immediate substantiation."
             },
             "claim_to_evidence_ratio": {
-              "score": 70,
-              "evaluation": "A strong majority of claims are Level A (verifiable), including investor logos, funding amount, product counts, and a named case study. These hard numbers anchor the more subjective claims, creating a ratio of verifiable evidence around 60-70%."
+              "score": 50,
+              "evaluation": "Claims are primarily supported by Level B evidence (named testimonials, client logos). While strong, there is a lack of Level A evidence (e.g., links to case studies with hard data, third-party audits). This puts the verifiable claim ratio in the 30-49% range."
             },
             "social_proof": {
               "score": 90,
-              "evaluation": "Social proof is excellent, hitting both SPECIFICITY and SIMILARITY. The case study of 'David Hach from Nördlingen, Germany' is detailed and perfectly matches the target audience of Amazon-focused entrepreneurs."
+              "evaluation": "Social proof is excellent, hitting both SPECIFICITY (named individuals, titles, companies) and SIMILARITY (CMOs and partners at tech firms). Testimonials like 'Julie O’Brien, CMO | Dazz' are perfectly targeted and highly credible."
             },
             "trust_signals": {
-              "score": 90,
-              "evaluation": "All four of Fogg's credibility types are present: SURFACE (professional design), EARNED (detailed case study), PRESUMED (clear contact/privacy info), and REPUTED (logos of top-tier investors like BlackRock and L Catterton)."
+              "score": 70,
+              "evaluation": "The page demonstrates 3 of 4 Fogg credibility types: SURFACE (professional design), EARNED (strong testimonials), and PRESUMED (privacy policy, contact info). It lacks REPUTED credibility from third-party press, awards, or associations."
             },
             "visible_certifications": {
-              "score": 90,
-              "evaluation": "The page displays 4+ logos of globally recognized investment firms (BlackRock, 468 Capital, Victory Park, L Catterton). In this B2B context, these function as powerful third-party certifications of financial strength and legitimacy."
+              "score": 70,
+              "evaluation": "The site displays client logos ('Dazz, Cayosoft') and technology partner logos ('Webflow, WordPress'). These act as de facto certifications of trust and capability, with 2-3 distinct types of logos visible."
             }
           },
           "checklist": {
             "pass": [
-              "cites top-tier investor logos like BlackRock as reputational proof"
+              "cites specific, high-quality testimonials with names and titles"
             ],
             "warn": [
-              "uses unsupported superlatives like 'best products'"
+              "uses unsupported claims like 'exceptional performance'"
             ],
             "fail": [
-              "relies on a single seller story; more would add depth"
+              "omits reputed trust signals like press mentions or awards"
             ]
           }
         },
@@ -516,127 +516,127 @@
           "label": "VOICE CONSISTENCY",
           "score": 90,
           "diagnosis": "ONE PERSON",
-          "so_what": "The brand voice is exceptionally consistent between the homepage and the 'About Us' page. It projects a single, unified persona of an elite, ambitious, and data-driven powerhouse. This Ruler/Hero archetype is delivered without any drift in tone, vocabulary, or claims.",
+          "so_what": "The brand voice is exceptionally consistent between the homepage and the 'Why Entlify' page. It maintains a consultative, expert, and collaborative tone throughout, reinforcing the archetype of a Sage/Caregiver partner. The message discipline is tight, making the brand feel focused and reliable.",
           "sub_metrics": {
             "tone_alignment": {
               "score": 90,
-              "evaluation": "The consultative, formal tone on the homepage ('We help today’s visionaries...') perfectly matches the aspirational tone of the About Us page ('Be the Best, Work with the Best!'). The register is identical."
+              "evaluation": "The baseline tone from the 'Why Entlify' page is consultative and problem-solving. The homepage perfectly mirrors this with headlines like 'Why teams rely on Entlify' and a helpful, expert register. The match is exact."
             },
             "vocabulary_alignment": {
               "score": 90,
-              "evaluation": "The homepage's semantic fields of scale ('powerhouse', '$1BN+') and ambition ('visionaries') directly align with the About Us page's fields of excellence ('sharpest minds', 'Be the Best'). The vocabulary is perfectly matched."
+              "evaluation": "The semantic fields from the 'about' page (problem/solution, partnership, efficiency) are all dominantly used on the homepage. Phrases like 'extension of your team' and 'improve your bottom line' appear in both, creating strong alignment."
             },
             "voice_signature_match": {
               "score": 90,
-              "evaluation": "The brand's Ruler/Hero archetype is delivered consistently. The homepage's display of financial dominance (investors, funding) and the About Us page's call for elite talent ('Work with the Best!') both stem from the same confident core."
+              "evaluation": "The brand's Sage (expert) and Caregiver (partner) archetype is delivered consistently. The homepage offers expert solutions ('Ensure your SEO works beyond algorithms') within a collaborative frame ('Take client-agency collaboration further')."
             },
             "claim_stack_alignment": {
               "score": 90,
-              "evaluation": "The homepage reinforces the core claims from the About Us page. The claim to work with 'the Best' is substantiated on the homepage with logos of 'top-tier investors' and stories of successful founders."
+              "evaluation": "The homepage reinforces the core claims from the 'about' page (being predictable, cost-conscious, product-focused). The testimonials on the homepage directly support claims of speed, quality, and collaboration made elsewhere."
             }
           },
           "checklist": {
             "pass": [
-              "maintains a consistent Ruler/Hero archetype across pages"
+              "maintains a consistent consultative tone across all pages"
             ],
             "warn": [
-              "the elite tone could potentially alienate smaller entrepreneurs"
+              "the 'Careers' page is purely functional, missing brand voice"
             ],
             "fail": [
-              "omits any language of partnership, focusing solely on acquisition"
+              "omits any narrative about team culture to back 'extension' claim"
             ]
           }
         },
         "hi04_audience_resonance": {
           "label": "AUDIENCE RESONANCE",
-          "score": 80,
-          "diagnosis": "LASER-AIMED",
-          "so_what": "The page demonstrates a deep understanding of its target audience: successful e-commerce founders. The combination of a 'tech-forward' aesthetic with hard financial proof points speaks directly to entrepreneurs who value data, speed, and a lucrative exit. Every signal is coherent and aimed at this specific professional segment.",
+          "score": 75,
+          "diagnosis": "KNOWS AUDIENCE",
+          "so_what": "The page is laser-focused on its target audience of decision-makers at B2B tech companies. Both the explicit text ('SaaS teams') and the implicit visual cues (dark UI, data visualizations) align perfectly to resonate with this segment. The only major disconnect is hiding the commitment tier (pricing), which can frustrate a time-poor executive audience.",
           "sub_metrics": {
             "audience_segment_probability": {
               "score": 70,
-              "evaluation": "The page targets a professional psychographic (e-commerce founders) which maps most closely to Millennials (approx. 0.5) and Gen X (approx. 0.4). The visual style and business model have a clear center of gravity with these cohorts who built the Amazon seller ecosystem."
+              "evaluation": "The content clearly targets senior marketing and leadership roles in tech, pointing to Gen X (≈0.50) and older Millennials (≈0.40). Evidence like 'Vice President of Marketing' in a testimonial confirms this focus on experienced professionals."
             },
             "signal_coherence": {
               "score": 90,
-              "evaluation": "Text and visual signals are perfectly aligned. The 'Clinical Pop' visual design, described as 'tech-forward' and 'professional,' directly anchors the copy's focus on 'cutting-edge technology' and 'top-tier investors.'"
+              "evaluation": "Text and visual signals are perfectly aligned. The copy speaks to 'SaaS teams' and 'cybersecurity,' while the 'sleek obsidian' UI and 'data-centric' visuals reinforce a message of technical mastery for a B2B tech audience."
             },
             "intent_match": {
               "score": 90,
-              "evaluation": "The page is unambiguously designed for the decision stage of the funnel. It presents a clear process ('THIS IS HOW WE DO IT') and drives towards a single action: submitting a business for evaluation."
+              "evaluation": "The page is unambiguously designed for the consideration-to-decision stage of the funnel. It presents capabilities, offers proof, and drives towards a single action: 'Request a Call'. The intent is singular and clear."
             },
             "accessibility_signals": {
-              "score": 70,
-              "evaluation": "The page shows 3 of 4 signals: it uses language appropriate for its audience, has plain-language CTAs ('Ready to sell?'), and uses the revenue form as a clear commitment gate. It doesn't need layperson translations for its expert audience."
+              "score": 50,
+              "evaluation": "The page provides 2 of 4 signals. It uses plain-language CTAs ('Request a Call') and inclusive language for its target audience. It fails by hiding the commitment tier (pricing) and assuming technical jargon without explanation."
             }
           },
           "audience_segments": [
             {
-              "label": "Millennials seeking a lucrative exit for their e-commerce brand with a tech-focused, data-driven partner",
-              "cohort": "millennials",
-              "probability": 0.5,
-              "evidence_text": "We help today’s visionaries ELEVATE THE BRANDS of tomorrow",
-              "evidence_visual": "The viewport presents a high-impact, 'tech-forward' corporate aesthetic."
-            },
-            {
-              "label": "Gen X seeking to de-risk and realize value from their established online business through a fast, fair acquisition",
+              "label": "Gen X seeking a reliable, hands-off agency to manage technical marketing and drive revenue",
               "cohort": "gen_x",
-              "probability": 0.4,
-              "evidence_text": "Fast, fair & ‍ FORWARD THINKING",
-              "evidence_visual": "balancing tech excitement with professional trust."
+              "probability": 0.5,
+              "evidence_text": "“It's mostly hands off. The Entlify team makes it easy for me, doing most of the work and simply communicating the highlights.”",
+              "evidence_visual": "The 'clinical light-grey structured layout' and 'data visualization graphics' signal a focus on professional, measurable results."
             },
             {
-              "label": "Gen Z seeking a rapid scaling partner or first exit to fund their next entrepreneurial venture",
-              "cohort": "gen_z",
+              "label": "Millennials seeking a modern, proactive partner to accelerate growth for their fast-moving SaaS company",
+              "cohort": "millennials",
+              "probability": 0.4,
+              "evidence_text": "Fast-growing tech companies trust us with website development and traffic acquisition.",
+              "evidence_visual": "The 'sophisticated dark-mode UI' and 'high-intensity 'solar' orange accents' communicate a modern, energetic, and tech-forward approach."
+            },
+            {
+              "label": "Boomers seeking an experienced and diligent team for long-term, stable marketing partnership",
+              "cohort": "boomers",
               "probability": 0.1,
-              "evidence_text": "move on to your next entrepreneurial masterpiece!",
-              "evidence_visual": "The electric blue creates a high-energy, digital-first atmosphere that pops against the stark white clinical shell"
+              "evidence_text": "“I have been working with the Entlify team for over five years. They are proactive, knowledgeable, and diligent.\"",
+              "evidence_visual": "The clean typographic hierarchy and professional readability appeal to a desire for straightforward, no-nonsense service."
             }
           ],
           "checklist": {
             "pass": [
-              "aligns 'tech-forward' visuals with data-driven copy perfectly"
+              "aligns text ('SaaS teams') and visuals ('dark-mode UI') tightly"
             ],
             "warn": [
-              "assumes a high level of financial literacy from its audience"
+              "assumes audience understands technical terms like 'Core Web Vitals'"
             ],
             "fail": [
-              "initial headline risks attracting consumers instead of founders"
+              "hides pricing, creating friction for its time-sensitive audience"
             ]
           }
         },
         "hi05_decision_confidence": {
           "label": "DECISION CONFIDENCE",
-          "score": 85,
-          "diagnosis": "DECISIVE",
-          "so_what": "The brand projects extreme confidence in the visitor's next step. The entire page is a funnel leading to a single, clear call-to-action: 'Ready to sell?'. By outlining the evaluation process, it makes a high-friction action (sharing financial data) feel like a logical and secure step.",
+          "score": 65,
+          "diagnosis": "CONFIDENT",
+          "so_what": "The brand projects confidence by guiding the visitor toward a single, clear next step: making contact. The CTAs are direct and the path is obvious. However, this confidence is undermined by hiding the price, which introduces uncertainty and friction right at the point of decision.",
           "sub_metrics": {
             "cta_clarity": {
               "score": 90,
-              "evaluation": "The page has a single, dominant CTA ('Ready to sell?' / 'Tell us about your business'). This clarity eliminates choice paralysis and makes the desired action unmistakable."
+              "evaluation": "The page has a clear primary CTA ('Request a Call' / 'Let’s Talk') that is consistently messaged. There is no ambiguity about what the brand wants the visitor to do next, creating a strong sense of direction."
             },
             "pricing_visibility": {
-              "score": 70,
-              "evaluation": "For a business acquisition service, 'pricing' is the valuation. The page makes the process for getting this valuation ('Fair evaluation', 'Analysis & deep dive') highly visible and clear. This is the appropriate form of transparency for this model."
+              "score": 30,
+              "evaluation": "Pricing is completely hidden behind a contact gate. The text 'Reach out to our team for a quote' creates significant friction and signals a lack of transparency, forcing the visitor to invest time before knowing the cost."
             },
             "next_step_obviousness": {
               "score": 90,
-              "evaluation": "The next step is unequivocally to fill out the lead form at the bottom of the page. The entire narrative structure of the page guides the visitor directly to this action."
+              "evaluation": "The next step is unequivocally to contact the agency. The entire page structure, from the navigation to the final section, funnels the user towards this single action, leaving no room for confusion."
             },
             "friction_signals": {
-              "score": 90,
-              "evaluation": "The only friction is the lead-gen form itself, which is a necessary and expected step for this type of high-value B2B transaction. The page design is clean and loads quickly, presenting minimal cognitive or technical friction."
+              "score": 50,
+              "evaluation": "There are two major friction sources. The first is the hidden pricing. The second is the 'heavy' text density and long scroll, which demands significant work from the visitor to get the full story."
             }
           },
           "checklist": {
             "pass": [
-              "uses a single, clear CTA to guide the visitor"
+              "uses a clear, unambiguous primary CTA: 'Request a Call'"
             ],
             "warn": [
-              "the three-step process, while clear, is a high-commitment path"
+              "page length and text density create a high cognitive load"
             ],
             "fail": [
-              "asks for revenue data upfront, which may deter early-stage browsers"
+              "hides all pricing information behind a contact form"
             ]
           }
         }
@@ -644,143 +644,145 @@
     }
   },
   "GEO_evaluation": {
-    "score": 34,
-    "label": "AI MUTED",
-    "diagnosis": "GHOST ENTITY",
-    "profile": "Razor Group is a ghost. While the homepage contains specific data points like \"$1BN+\" in assets and a \"450+\" person team, it's trapped in a digital witness protection program. A generic, highly confusable brand name (\"Razor\") combined with a total lack of structured data (no Schema.org, no Wikidata) means AI systems cannot distinguish it from the scooter company. The content is vague marketing-speak that fails to clearly define its category, making the company invisible in its own market.",
-    "fix": "The single most critical fix is to establish a canonical entity anchor. Create a Wikidata entry for \"Razor Group (company)\" with citations from two reputable business press articles. Then, on https://www.razor-group.com, deploy `Organization` schema that includes the `sameAs` property pointing to the new Wikidata URL. This is the non-negotiable first step to telling AIs \"we exist, and this is who we are.\"",
+    "score": 42,
+    "label": "AI WEAK",
+    "diagnosis": "INVISIBLE ENTITY",
+    "profile": "Entlify has a unique name and a technically sound website that's open to crawlers. However, its on-page content is a fog of marketing jargon with no data, and it lacks any external anchors—no structured data, no knowledge graph presence, no third-party reviews. To an AI, Entlify is a ghost: it can see the domain name, but has no verifiable information about the business itself.",
+    "fix": "The highest-impact fix is to establish an entity baseline. Ship `Organization` and `WebSite` schema in the `<head>` of `entlify.com` to give AI a machine-readable business card. Then, create a Wikidata entry for \"Entlify\" citing two independent sources (e.g., press, directory listings) to anchor the brand in the public knowledge graph.",
     "flags": {
-      "entity_drift": true,
-      "critical_blackout": true,
-      "foundation_failure": true,
+      "entity_drift": false,
+      "critical_blackout": false,
+      "foundation_failure": false,
       "trustpilot_collapse": false,
       "category_hint_corrupted": false,
-      "third_party_taxonomy_error": true,
+      "third_party_taxonomy_error": false,
       "reddit_sentiment_negative": false
     },
     "metrics": {
       "ai01_findability": {
         "label": "AI FINDABILITY",
         "score": 63,
-        "diagnosis": "FACT-RICH, ENTITY-VAGUE",
-        "so_what": "Razor Group provides AI with concrete numbers like \"$1BN+\" for summaries but fails to define what it *is*. This forces models to guess the company's category, risking misclassification as a generic \"investment firm\" instead of a specialized \"e-commerce aggregator.\" The most critical fix is to add a single, clear sentence defining the business in the first paragraph.",
+        "diagnosis": "CLEAR BUT UNSUPPORTED",
+        "so_what": "Entlify clearly states it's a \"digital marketing and web development agency,\" but without structured data, AI must guess its services and structure. This forces AI to treat the site like a blog post, not a business, limiting its use in direct answers for \"best agency for SaaS\" queries. The single most important fix is adding Organization and Service schema to entlify.com to give AI a machine-readable business card.",
         "sub_metrics": {
           "structured_data": {
             "score": 50,
-            "evaluation": "GEO_ANALYSIS shows json_ld_blocks_found: 0; json_ld_types: []; og: 3/6 core tags; twitter: yes (1/4); meta_desc: present; canonical: absent; hreflang_count: 0. AI engines must infer from prose; add Product/Organization JSON-LD with og:image to lift the score.",
+            "evaluation": "GEO_ANALYSIS shows json_ld_blocks_found: 0; json_ld_types: []; og: 4/6 core tags; twitter: yes (1/4); meta_desc: present; canonical: present; hreflang_count: 0. AI engines must infer from prose; add Product/Organization JSON-LD with og:image to lift the score.",
             "flags_emitted": []
           },
           "quotable_content": {
-            "score": 90,
-            "evaluation": "The page provides a \"RAZOR IN NUMBERS\" section with over 10 specific data points like \"$1BN+\" and \"450+\" employees, plus a case study with a \"five-weeks\" timeline. This gives AI models concrete, citable facts to build summaries from. To improve, add a clear, one-sentence definition of what Razor Group does in the first paragraph.",
+            "score": 50,
+            "evaluation": "The page contains a few quotable statements, including a clear definition (\"Entlify is a digital marketing and web development agency\") and specifics from testimonials (\"doubled the number of organic impressions\"). However, with only 4-6 such statements, AI has limited material to cite as fact. Add at least five more specific data points or definitions to the main service descriptions.",
             "flags_emitted": []
           },
           "entity_clarity": {
-            "score": 50,
-            "evaluation": "The brand name \"Razor Group\" is present, but its category (\"e-commerce aggregator\") is only inferrable from phrases like \"global e-commerce on powerhouse.\" The brand and category never explicitly co-occur in a single definitional sentence, forcing AI to guess what the entity *is*. Add a sentence like \"Razor Group is an e-commerce aggregator that acquires and scales promising online brands.\" to the first paragraph.",
+            "score": 90,
+            "evaluation": "The page explicitly defines the brand in the first 200 words: \"Entlify is a digital marketing and web development agency.\" This direct statement provides perfect clarity for an AI trying to understand the entity's core purpose. No fix is needed here; this is a model execution.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Lists specific data points in 'RAZOR IN NUMBERS' section."
+            "Defines itself clearly: 'digital marketing and web development'."
           ],
           "warn": [
-            "Omits a clear, one-sentence definition of the business."
+            "Lacks specific, quotable data points beyond testimonials."
           ],
           "fail": [
-            "H1 'developing THE NEXT GENERATION...' lacks brand name."
+            "Ships zero JSON-LD structured data blocks."
           ]
         }
       },
       "ai02_content_focus": {
         "label": "AI SIGNAL CLARITY",
-        "score": 38,
-        "diagnosis": "VAGUE MARKETING COPY",
-        "so_what": "The page's content is a credibility desert for an AI. With a high ratio of marketing filler like \"ELEVATE THE BRANDS of tomorrow\" to verifiable facts, models will treat the site as a low-trust source and prefer to quote third-party analysis if available. To fix this, every abstract claim must be replaced with a specific, quantifiable result from their portfolio.",
+        "score": 16,
+        "diagnosis": "MARKETING SLOGANS",
+        "so_what": "The content on entlify.com is a wall of marketing slogans like \"Rank higher, convert better\" that AI models are trained to ignore as low-signal filler. With a fact-to-filler ratio near 1:8 and almost no verifiable data, AI will struggle to extract any substantive claims, making the site invisible for queries requiring proof. Replace vague promises with case study data, such as \"increased organic impressions by 200% for Client X.\"",
         "sub_metrics": {
           "fact_to_filler_ratio": {
-            "score": 30,
-            "evaluation": "The page is dominated by marketing slogans like \"Shaping tomorRow's E-commerce\" and \"ELEVATE THE BRANDS of tomorrow.\" While a \"RAZOR IN NUMBERS\" section provides facts, it's an island in a sea of filler, leading to a fact-to-filler ratio of roughly 1:6. This forces AI to summarize marketing copy instead of substance. Replace vague headlines with fact-based statements about the acquisition process or portfolio growth.",
+            "score": 0,
+            "evaluation": "The page is dominated by filler sentences like \"Make your goals a reality, much faster\" and \"Gain more with less.\" The ratio of factual claims to marketing filler is estimated at 1:8 or worse, starving AI of substance. Rewrite every headline and sub-headline to state a specific outcome or feature.",
             "flags_emitted": []
           },
           "adjective_load": {
-            "score": 30,
-            "evaluation": "The copy relies on over 11 booster adjectives like \"best products,\" \"strong offer,\" and \"extraordinary heights.\" This high adjective load signals low-information marketing copy to an AI, which will down-rank it in favor of more objective sources. Replace subjective claims with specific outcomes from the case studies.",
+            "score": 50,
+            "evaluation": "The copy uses approximately 9 empty booster adjectives like 'seamless,' 'outstanding,' 'flawless,' and 'exceptional.' This level of marketing language dilutes the credibility of the factual claims for an AI. Replace subjective adjectives with objective descriptions of service features or outcomes.",
             "flags_emitted": []
           },
           "specificity_index": {
             "score": 30,
-            "evaluation": "Most claims are abstract (Rung 4), like \"Shaping tomorRow's E-commerce.\" While a \"RAZOR IN NUMBERS\" section provides concrete Rung 1 data, it accounts for less than 40% of the page's claims, making the overall content feel vague. AI models favor concrete data; convert abstract mission statements into specific process descriptions or portfolio results.",
+            "evaluation": "Most claims are abstract (Rung 4: \"Gain more with less\") or category-vague (Rung 3: \"Optimize\"). Less than 40% of the content provides specific mechanisms or data, forcing AI to guess at the actual process. Convert vague promises into descriptions of the specific actions taken, like \"We audit Core Web Vitals using Lighthouse.\"",
             "flags_emitted": []
           },
           "data_point_density": {
-            "score": 70,
-            "evaluation": "The page contains roughly 13 data points per 500 words, primarily concentrated in the \"RAZOR IN NUMBERS\" section and the David Hach case study (e.g., \"$1BN+\", \"450+ employees\", \"five-weeks\"). This density provides AI with enough material for a fact-based summary. To improve, distribute data points more evenly, adding specifics to the \"how we do it\" section.",
+            "score": 0,
+            "evaluation": "The body copy contains almost no hard data points, with only 1-2 per 500 words, primarily from testimonials. The charts shown lack units or context, rendering them meaningless to a machine. Embed specific numbers, percentages, and timelines into the service descriptions to provide concrete evidence.",
             "flags_emitted": []
           },
           "claim_verifiability": {
-            "score": 30,
-            "evaluation": "The page makes major claims like \"$1BN+\" and \"450+ employees\" without citation (Level C). While a \"case study\" is mentioned (Level B), less than 20% of claims are verifiable, forcing AI to treat the content as unsubstantiated marketing. Add links to press releases or investor announcements to anchor key financial and operational claims.",
+            "score": 0,
+            "evaluation": "Nearly all claims are subjective hyperbole (\"Best in class web development\") or plausible but uncited statements. With less than 10% of claims referencing a source or evidence type, AI must treat the content as unsubstantiated opinion. Link key claims to case studies or add footnotes citing the source of the data.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Provides high data density (10+ points) in number blocks."
+            "Uses testimonials with some specific claims ('doubled...')."
           ],
           "warn": [
-            "Uses 11+ booster adjectives like 'best' and 'extraordinary'."
+            "Uses 9+ empty booster adjectives like 'seamless', 'flawless'."
           ],
           "fail": [
-            "Makes major financial claims ('$1BN+') without citation."
+            "Offers almost zero verifiable data points (0-2 per 500w).",
+            "Fact-to-filler ratio is extremely low (est. 1:8)."
           ]
         }
       },
       "ai03_ai_positioning": {
         "label": "AI CATEGORY POSITIONING",
-        "score": 38,
-        "diagnosis": "CATEGORY-INVISIBLE",
-        "so_what": "Razor Group is invisible to AI as an \"e-commerce aggregator\" because it never uses the term and external signals are polluted by name collisions. An AI trying to answer \"who are the top e-commerce aggregators?\" will not find this site. The top priority is to explicitly use standard industry terms and build external citations that disambiguate the brand.",
+        "score": 48,
+        "diagnosis": "GENERIC AND ALONE",
+        "so_what": "Entlify nails its category language (\"SEO\", \"CRO\"), which helps AI classify it correctly. However, it completely fails to position itself against competitors or define its unique value, and has zero external validation on platforms like Reddit. This makes it a generic entry in a crowded field; AI can see *what* it is, but has no reason to believe it's *better* than anyone else. Add a \"Who We're For\" section that contrasts its approach with typical agencies.",
         "sub_metrics": {
           "category_keyword_alignment": {
-            "score": 50,
-            "evaluation": "The page describes its business as \"acquiring and integrating promising e-commerce businesses\" but avoids the standard industry term \"e-commerce aggregator.\" This creates a 50/50 split between on-taxonomy and off-taxonomy language, potentially confusing an AI trying to classify the company against competitors like Thrasio. Add the term \"e-commerce aggregator\" to the H1 or the first paragraph to align with the industry's standard vocabulary.",
+            "score": 90,
+            "evaluation": "The page uses standard, on-taxonomy terms like \"Search Engine Optimization,\" \"Conversion Rate Optimization,\" and \"Paid Search Advertising,\" aligning perfectly with the 'Digital Marketing & Web Dev' category hint. This clarity helps AI correctly classify the business. This is well-executed.",
             "flags_emitted": []
           },
           "competitor_placement": {
             "score": 50,
-            "evaluation": "The site identifies its category by describing its acquisition process but provides no competitive context. It neither names competitors nor frames itself against \"traditional\" solutions, leaving AI with no information on how Razor Group differs from other e-commerce aggregators. Add a section explaining how the \"data-driven approach\" mentioned by the CEO differs from the industry standard.",
+            "evaluation": "The content clearly identifies its service category but provides no competitive context. It doesn't name competitors, contrast its approach with \"traditional agencies,\" or offer unique differentiators beyond generic claims like being \"proactive.\" Add a section explaining how the Entlify process differs from the industry standard.",
             "flags_emitted": []
           },
           "value_proposition_clarity": {
             "score": 50,
-            "evaluation": "The first 200 words establish WHAT Razor Group does (builds an \"e-commerce powerhouse\") and a hint of WHY (\"cutting-edge technology\"), but fails to identify WHO the target customer is (e-commerce entrepreneurs). This partial value proposition forces an AI to guess the target audience. State clearly in the first paragraph: \"Razor Group acquires e-commerce brands from entrepreneurs, offering a fast, fair exit.\"",
+            "evaluation": "The first 200 words clearly state WHAT Entlify does (\"digital marketing and web development\") and for WHOM (\"SaaS teams\"). However, it fails to explain WHY-THIS-ONE with a unique differentiator or HOW-MUCH it costs, leaving two critical questions unanswered for AI. Add a concise differentiator and a link to pricing or a quote process in the intro.",
             "flags_emitted": []
           },
           "category_recognition_external": {
             "score": 0,
-            "evaluation": "The 36 organic Reddit mentions are entirely off-category, appearing in subreddits like \"nba\" and \"philly.\" This indicates a severe name collision problem where AI models see the name \"Razor\" but associate it with unrelated topics, completely failing to recognize the brand in its actual \"e-commerce aggregator\" category. This requires a significant knowledge anchoring effort, starting with a Wikidata entry.",
+            "evaluation": "SOCIAL_PROOF_EXTERNAL shows zero organic Reddit mentions. This total absence of third-party discussion means AI has no external signal to validate that Entlify is a recognized player in its category. For a B2B agency, this could be supplemented by mentions in trade publications or directories like Clutch or G2.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Describes its acquisition process in three clear steps."
+            "Aligns services with standard terms like 'SEO', 'CRO'."
           ],
           "warn": [
-            "Never uses the standard industry term 'e-commerce aggregator'."
+            "Value proposition omits pricing and a clear differentiator."
           ],
           "fail": [
-            "External mentions (Reddit) are 100% off-category."
+            "Shows zero external category recognition (0 Reddit mentions).",
+            "Omits any mention of competitors or industry context."
           ]
         }
       },
       "ai04_crawler_coverage": {
         "label": "AI CRAWL READINESS",
-        "score": 40,
-        "diagnosis": "TECHNICALLY DEFICIENT",
-        "so_what": "While AI crawlers are permitted to access the site, the lack of a robots.txt, sitemap, or llms.txt file is like leaving the lights on in an empty house with no address. Crawlers can get in but have no guidance on what's important, leading to inefficient indexing and missed updates. Shipping a basic robots.txt and sitemap is a foundational step for being taken seriously by any automated system.",
+        "score": 60,
+        "diagnosis": "OPEN BUT UNGUIDED",
+        "so_what": "Entlify's technical foundation is solid: all major AI crawlers are permitted and can find the sitemap. But the absence of an llms.txt file is a missed opportunity to guide these bots to high-value content, like case studies or service pages. It's like inviting guests to a mansion but not giving them a map; they'll wander aimlessly. Create a /llms.txt file to explicitly point AI to the most important content on entlify.com.",
         "sub_metrics": {
           "bot_coverage": {
             "score": 90,
@@ -793,37 +795,38 @@
             "flags_emitted": []
           },
           "infrastructure_basics": {
-            "score": 30,
-            "evaluation": "robots.txt: absent, sitemap_reference: no, sitemap_url: (empty) (non-canonical/missing), https_enforced: true. Add the missing signals (3 gaps) — robots/sitemap/HTTPS form the trust floor for AI crawlers.",
+            "score": 90,
+            "evaluation": "robots.txt: present, sitemap_reference: yes, sitemap_url: https://www.entlify.com/sitemap.xml (canonical), https_enforced: true. All foundational crawl signals present.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Allows all major AI crawlers (GEO_ANALYSIS)."
+            "Allows all major AI crawlers in robots.txt.",
+            "Provides a valid sitemap reference in robots.txt."
           ],
           "warn": [
-            "Lacks a sitemap reference to guide crawlers."
+            "Could add more specific crawler directives."
           ],
           "fail": [
-            "Missing a robots.txt file, a basic web standard."
+            "Omits an llms.txt file to guide AI crawlers."
           ]
         }
       },
       "ai05_knowledge_anchoring": {
         "label": "AI KNOWLEDGE ANCHORING",
-        "score": 2,
-        "diagnosis": "ENTITY BLACKOUT",
-        "so_what": "Due to a common name and zero knowledge graph presence (no Wikipedia, Wikidata, or Schema.org), Razor Group does not exist as a distinct entity for AI. It's a ghost. Any query about the company will be contaminated by results for Razor scooters, making it impossible for AI to provide a clean, accurate summary. The first step to becoming a real entity is creating a Wikidata entry and shipping `Organization` schema on the site.",
+        "score": 20,
+        "diagnosis": "UNANCHORED GHOST",
+        "so_what": "The brand name \"Entlify\" is unique, a major asset. But with no Wikipedia/Wikidata presence, no third-party reviews, and no structured data, the brand is a ghost online. AI has no external, trusted sources to verify Entlify's existence or claims, making it a high-risk, low-authority entity. The top priority is to create a Wikidata entry and ship `Organization` schema on entlify.com to establish a foundational knowledge graph footprint.",
         "sub_metrics": {
           "brandname_uniqueness": {
-            "score": 0,
-            "evaluation": "The brand name \"Razor\" has extremely low uniqueness, colliding with the globally recognized scooter brand and the gaming peripheral company \"Razer.\" This is confirmed by irrelevant Reddit mentions in subs like \"nba,\" causing massive entity confusion for AI models. A clarifying modifier (e.g., \"Razor Commerce Group\") or a significant investment in knowledge graph disambiguation is needed.",
+            "score": 90,
+            "evaluation": "The name 'Entlify' is a coined term with no obvious collisions with other major entities in my training data. This high level of uniqueness is a significant asset, making it easy for AI to associate signals with this specific brand. No fix needed.",
             "flags_emitted": []
           },
           "schema_category_fit": {
             "score": 0,
-            "evaluation": "The site ships zero JSON-LD schema, completely failing to declare its identity to machines. For a B2B entity, `Organization` schema is the absolute minimum requirement to establish a knowledge graph presence. The absence of this foundational signal makes the company invisible to structured data crawlers. Ship `Organization` schema with the `legalName`, `logo`, and `sameAs` properties immediately.",
+            "evaluation": "The site is eligible for `Organization` and `Service` schema but ships none, as shown in RICH_RESULTS_ELIGIBILITY. This is a critical failure, as it provides no machine-readable summary of the business. Implement `Organization` schema immediately to create a foundational entity for AI to reference.",
             "flags_emitted": []
           },
           "knowledge_graph_presence": {
@@ -833,7 +836,7 @@
           },
           "identity_convergence": {
             "score": 10,
-            "evaluation": "BRAND_NAMING.brand_inferred 'Razor Group' vs names_found: og_site_name=✗(); title_tag=✓(Razor Group); h1=✗(developing THE NEXT GENERATION); wikidata_label=✗(); wikipedia_title=✗(). 1/5 surfaces agree. Reconcile divergent surfaces — set og:site_name and align Wikipedia/Wikidata to match canonical brand name.",
+            "evaluation": "BRAND_NAMING.brand_inferred 'Entlify' vs names_found: og_site_name=✗(); title_tag=✓(Entlify - Digital Marketing & ); h1=✗(Rank higher, convert better.); wikidata_label=✗(); wikipedia_title=✗(). 1/5 surfaces agree. Reconcile divergent surfaces — set og:site_name and align Wikipedia/Wikidata to match canonical brand name.",
             "flags_emitted": []
           },
           "trustpilot_anchoring": {
@@ -844,13 +847,14 @@
         },
         "checklist": {
           "pass": [
-            "Uses brand name 'Razor Group' consistently in title tag."
+            "Uses a unique, coined brand name ('Entlify')."
           ],
           "warn": [
-            "H1 text does not match brand name, causing confusion."
+            "Brand name is missing from the H1 tag."
           ],
           "fail": [
-            "Ships zero JSON-LD, making it invisible to structured bots."
+            "Has no presence in any knowledge graph (Wikipedia/Wikidata).",
+            "Lacks any third-party review signals (e.g. Trustpilot)."
           ]
         }
       }
