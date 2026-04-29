@@ -1,366 +1,877 @@
 {
-  "brand": "PokPok.ai",
-  "product_title": "PokPok.ai Brand Positioning Analysis",
-  "url": "https://pokpok.ai",
-  "overall_perception_summary": {
-    "headline": "Provocative Diagnostic Engine",
-    "description": "PokPok.ai feels like the brutally honest 'House M.D.' for e-commerce, diagnosing brand fractures with 'terminal honesty.' It differentiates by weaponizing radical transparency and a disruptive price point (€50 vs €50k), replacing agency fluff with a proprietary, data-driven 'X-ray.' The brand's role is to be the founder's secret weapon, providing the strategic certainty needed to compete against incumbents without the enterprise budget."
-  },
-  "category_summaries": {
-    "foundation": {
-      "title": "Disruptive Diagnostic Purpose",
-      "description": "The brand's stance is The Healer, diagnosing and treating 'positioning fractures' with clinical precision. Its ethos is Radical Transparency, valuing verifiable receipts and 'uncomfortable truths' over agency opinions. The market slot is a disruptive utility, using a highly stylized, 'hacker-chic' aesthetic to deliver a diagnostic tool at a price that makes enterprise-grade intelligence accessible to indie founders. The payoff for the user is the elimination of guesswork, providing a clear, data-backed path to winning in overcrowded markets."
+  "url": "https://banda.agency",
+  "brand": "banda",
+  "5_truth": {
+    "truth_1": {
+      "headline": "The brand is an exclusive club for insiders, built on elite craft and brave ideas.",
+      "gap_description": "The 17-marker framework reads a brand built for a very specific buyer. It projects as 'The Aspirational Authority' (marker_5) with a Creator/Hero archetype mix (marker_6), communicating through an 'Edgy Avant-Garde' visual identity (marker_8). Its values are 'Technical Efficacy' (marker_3), and it offers entry into 'The Insider Clique' (marker_17). Every signal points to a premium, high-stakes creative partner that does not sell comfort, but rather award-winning, culturally resonant work. This is not an agency for everyone, and the brand framework makes that clear.",
+      "evidence": "'The Aspirational Authority' (HI.data.marker_5.territory_name) | 'The Creator 65% / The Hero 25%' (HI.data.marker_6.primary.archetype + .secondary.archetype) | 'We don’t sell comfort because creativity and innovation are never safe.' (HI.data.marker_3.evidence) | 'The Insider Clique' (HI.data.marker_17.territory_name) | 'Positioning: Premium Global Agency' (HI.data.quick_labels.positioning)",
+      "why_matters": "This highly disciplined brand identity attracts clients who already understand and value elite creative work, likely leading to high-quality, well-matched inbound leads. However, it actively filters out emerging brands, budget-conscious clients, or those seeking a more collaborative, less intimidating partner. The brand's strength with its target is also the wall that keeps a broader market out.",
+      "hard_choice": "The brand's identity is a powerful filter. One strategic path is to double down on this exclusivity, leaning into the 'Insider Clique' positioning to further increase its premium status and attract only the most ambitious clients. A second path involves creating a more accessible entry point—perhaps through content or a specific offering—to capture a wider audience without diluting the core brand's elite feel. A third is to maintain the current posture, accepting that the framework is perfectly tuned for its current business goals and that broader appeal is not a priority. The strategic question is: does future growth come from deepening its hold on the elite niche, or by selectively opening the door to a wider market?"
     },
-    "identity": {
-      "title": "Expert Outlaw Persona",
-      "description": "The brand's relationship with its user is that of The Reliable Expert — a distant but hyper-competent specialist. This persona is driven by a Magician archetype, framing its diagnostic process as a transformative 'X-ray' that reveals hidden truths, all delivered with an Outlaw's anti-corporate attitude. The look is a 'hacker-chic' Gen-Z Pop, clashing neon terminal aesthetics with refined typography. The voice is an unapologetic Hype Beast, using provocative, high-energy language to challenge industry norms."
+    "truth_2": {
+      "headline": "AI engines cannot distinguish the agency from a Mexican music genre or a baseball player.",
+      "gap_description": "The AI/GEO analysis reveals a 'SEVERE ENTITY COLLISION' with a score of 50. The `entity_drift` and `foundation_failure` flags are both true. While on-page signals for 'creative agency' are strong, external signals are completely hijacked by other entities named 'Banda'. AI03 shows external category recognition is zero, and AI05 confirms the brand name's uniqueness is also zero. The absence of foundational schema (JSON-LD) means the agency provides no instructions to AI engines on how to disambiguate it from the noise.",
+      "evidence": "'SEVERE ENTITY COLLISION' (GEO.diagnosis) | 'flags.entity_drift: true' (GEO.flags.entity_drift) | 'flags.foundation_failure: true' (GEO.flags.foundation_failure) | 'External social signals are completely hijacked by entity collisions with athletes named 'Banda'' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.evaluation) | 'json_ld_blocks_found: 0' (GEO.metrics.ai01_findability.sub_metrics.structured_data.evaluation)",
+      "why_matters": "This collision makes the brand nearly invisible to AI-driven search and discovery. When a user asks an AI assistant for 'Banda', the results will likely surface music or sports, not the agency. This cedes all unprompted, name-based discovery to competitors and means the brand relies solely on direct URL traffic or hyper-specific 'Banda Agency' queries, losing a massive channel for new business.",
+      "hard_choice": "The brand faces a fundamental AI identity crisis. One option is a technical fix: immediately implement robust Organization and ProfessionalService schema with 'sameAs' links and an 'alternateName' of 'Banda Agency' to programmatically fight the collision. A second, more aggressive option is a digital PR campaign focused on consistently building links and mentions for the two-word 'Banda Agency' term to create a new, distinct entity in knowledge graphs. A third is to accept the limitation and focus purely on channels where the name is not a liability, such as direct outreach and referrals, effectively abandoning AI as a discovery channel. The strategic question is: is winning the AI name-game a critical priority, or can the business thrive without it?"
     },
-    "communication": {
-      "title": "Data-Driven Diagnosis",
-      "description": "The brand hooks users with a Problem Solver message, promising to find 'white space' and fix broken brand stories. Its edge is being a Value Hacker, offering a proprietary diagnostic system at a fraction of agency costs. The proof comes from Derm-Validation (in this case, expert validation), citing 25 years of founder experience and a rigorous, no-sampling methodology. The delivery is pure Science Education, focusing on explaining the 'how' and 'why' of its diagnostic process to build trust through competence."
+    "truth_3": {
+      "headline": "Humans are given world-class proof but no practical way to decide if they can afford it.",
+      "gap_description": "The human perception score is a strong 82 ('LANDED'), with trust at a high 86. Visitors see overwhelming proof of competence through awards and a world-class portfolio. The most uncomfortable read is the lowest-scoring metric: HI05 Decision Confidence at 65, dragged down by a `pricing_visibility` score of 30. The site builds immense desire and credibility but then erects a wall, offering no information on budget, project size, or engagement models, forcing a high-friction 'contact us' step for basic qualification.",
+      "evidence": "'hi05_decision_confidence: 65' (HI.hi.metrics.hi05_decision_confidence.score) | 'pricing_visibility: 30' (HI.hi.metrics.hi05_decision_confidence.sub_metrics.pricing_visibility.score) | 'Pricing is entirely absent, forcing a 'contact us for pricing' model.' (HI.hi.metrics.hi05_decision_confidence.sub_metrics.pricing_visibility.evaluation) | 'The primary friction is cognitive: the complete opacity on pricing or project size' (HI.hi.metrics.hi05_decision_confidence.sub_metrics.friction_signals.evaluation)",
+      "why_matters": "The absence of any pricing signal wastes time for both the prospect and the agency. Potential great-fit clients who assume they can't afford the service will bounce without inquiring. The agency's sales team likely fields numerous inquiries from poor-fit leads who are simply price-shopping. This friction point ensures only the most determined or well-funded prospects make contact, potentially leaving significant revenue from 'just-right' clients on the table.",
+      "hard_choice": "The brand must decide how it qualifies leads. One posture is to maintain the current opacity, using it as a deliberate filter to signal a premium positioning and attract only clients for whom budget is a secondary concern. A second posture is to introduce soft signals—such as naming a 'minimum project level' or describing their typical client as 'venture-backed startups' or 'global enterprises'—to help prospects self-qualify without revealing a price list. A third is to create a specific, priced entry-level product (e.g., a 'brand sprint') to provide a transparent starting point. The strategic question is: does the benefit of a premium-signaling friction outweigh the cost of losing good-fit clients who are simply uncertain about the investment level?"
     },
-    "benefits": {
-      "title": "Clarity and Confidence",
-      "description": "Functionally, PokPok.ai delivers Restoration, repairing a broken or misaligned brand strategy. The emotional benefit is Confidence, stemming from the feeling of making a savvy, intelligent choice that provides certainty in a chaotic market. Using this service is a self-expression signal of being a Pragmatist who values data over hype. The social benefit is joining The Insider Clique — a 'Truth Seekers Club' of founders who reject marketing fluff and value terminal honesty."
-    }
-  },
-  "quick_labels": {
-    "brand_voice": "Provocative Expert",
-    "visual_appeal": "Hacker Chic",
-    "value_prop": "Radical Transparency",
-    "positioning": "Disruptive Intelligence"
-  },
-  "marker_1": {
-    "marker_name": "Purpose",
-    "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
-    "slider_a_value": "2/5",
-    "slider_a_position_name": "Derm-Validated (White coat authority)",
-    "slider_b_label": "[SLIDER] MISSION VECTOR (The Goal)",
-    "slider_b_value": "2/5",
-    "slider_b_position_name": "Restoration (Repairing damage)",
-    "territory_number": 1,
-    "territory_name": "The Healer",
-    "reasoning": "Pass 1 hypothesis: The Healer. The brand's core metaphor is medical diagnosis ('House M.D.', 'X-ray', 'diagnosing fractures'). Pass 2: Slider A scores 2/5 Derm-Validated. The authority isn't a sterile lab but the credited expertise of its founders ('25 years architecting global brands'). Slider B scores 2/5 Restoration. The mission is to fix what's broken ('diagnosing positioning fractures... we tell you exactly what to rebuild'). Grid: Low(2) x Low(2) maps directly to Territory 1. Pass 3: Aligned. The brand's purpose is to act as a clinical specialist that repairs broken brand strategies.",
-    "evidence": "\"The House M.D. for Digital Commerce Brands\" ... \"We X-ray your brand across every channel you sell on. By diagnosing positioning fractures... we tell you exactly what to rebuild and how.\" ... \"25 years of strategic branding expertise\"",
-    "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy) + MANIFESTO PAGE",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "The medical and diagnostic language ('House M.D.', 'X-ray', 'diagnose') strongly supports The Healer territory, which is confirmed by the grid result."
-    }
-  },
-  "marker_2": {
-    "marker_name": "Mission & Vision",
-    "slider_a_label": "[SLIDER] SCOPE OF IMPACT (The Blast Radius)",
-    "slider_a_value": "4/5",
-    "slider_a_position_name": "Industry Reform (Changing beauty standards)",
-    "slider_b_label": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
-    "slider_b_value": "5/5",
-    "slider_b_position_name": "Democratic (Universal access for everyone)",
-    "territory_number": 3,
-    "territory_name": "The Earth Saviors",
-    "reasoning": "Pass 1 hypothesis: The Earth Saviors (re-contextualized as 'Industry Saviors'). The manifesto is a crusade against expensive, inefficient agencies. Pass 2: Slider A is 4/5 Industry Reform. The mission is to change the industry ('The Truth is expensive. Fight back.', 'Merit over budget'). Slider B is 5/5 Democratic. The price point (€50 vs €5k) and mission ('distribute it at indie-founder prices') are explicitly about universal access. Grid: High(4) x High(5) maps to Territory 3. Pass 3: Aligned. The brand's mission is a crusade to democratize strategic intelligence for all founders, fitting the 'Saviors' territory structure.",
-    "evidence": "\"The Truth is expensive. Fight back\" ... \"We exist because truth has been too expensive. We distribute it at indie-founder prices.\" ... \"Enterprise-grade intelligence at indie-brand pricing. Not because we're cheap. Because information asymmetry shouldn't be a business model.\"",
-    "evidence_src": "MANIFESTO PAGE",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "The brand's manifesto explicitly frames its mission as a fight against the expensive, inaccessible status quo of brand intelligence, which perfectly aligns with the high-impact, high-access nature of this territory."
-    }
-  },
-  "marker_3": {
-    "marker_name": "Values",
-    "slider_a_label": "[SLIDER] PERFORMANCE PRIORITY (The Trade-Off)",
-    "slider_a_value": "5/5",
-    "slider_a_position_name": "Aggressive (Clinical strength)",
-    "slider_b_label": "[SLIDER] INFORMATION DENSITY (The Transparency)",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "The Spec Sheet (Exact percentages, pH, sourcing)",
-    "territory_number": 2,
-    "territory_name": "Radical Transparency",
-    "reasoning": "Pass 1 hypothesis: Radical Transparency. The brand's values are explicitly about 'Terminal Honesty' and showing proof. Pass 2: Slider A scores 5/5 Aggressive. The brand prioritizes uncomfortable truths and results over comfort ('We tell you what's broken. Not what you want to hear.'). Slider B scores 1/5 The Spec Sheet. The promise is total disclosure ('RECEIPTS, NOT OPINIONS', 'Every finding links back to source data'). Grid: High(5) x High(1) maps to Territory 2. Pass 3: Aligned. The brand's core value is delivering aggressive, data-backed truth.",
-    "evidence": "\"Terminal Honesty\" ... \"NO FLUFF. NO EGO. NO BIAS.\" ... \"RECEIPTS, NOT OPINIONS. Every finding links back to source data. Customer quotes, content screenshots, comparison evidence. You can verify every claim we make.\"",
-    "evidence_src": "HOME PAGE (headline) + MANIFESTO PAGE",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "The brand's manifesto is a textbook definition of Radical Transparency, prioritizing verifiable data and uncomfortable truths above all else. The grid result confirms this."
-    }
-  },
-  "marker_4": {
-    "marker_name": "Positioning",
-    "slider_a_label": "[SLIDER] AESTHETIC VIBE (The Uniform)",
-    "slider_a_value": "5/5",
-    "slider_a_position_name": "High Fashion (Artistic, abstract)",
-    "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Status Signal)",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "Bulk Utility (Commodity positioning)",
-    "territory_number": 3,
-    "territory_name": "The Gentle Giant",
-    "reasoning": "Pass 1 hypothesis: A disruptive, high-tech tool. The visual identity is edgy and abstract, while the value is pure utility. Pass 2: Slider A scores 5/5 High Fashion. The visual analysis identifies a 'hacker-chic', 'Gen-Z Pop' aesthetic with ASCII art and neon colors, which is highly stylized and artistic, not sterile. Slider B scores 1/5 Bulk Utility. The value is framed as a commodity ('€50 /report') and a tool, explicitly stripping out the 'Human Inefficiency Tax' of agencies. Grid: High(5) x Low(1) maps to Territory 3. Pass 3: Diverged. The grid assigns 'The Gentle Giant,' which is tonally incorrect. The brand is provocative and sharp, not gentle. The territory model struggles with a brand that combines a high-fashion/artistic aesthetic with a utility value proposition.",
-    "evidence": "\"€50 /report\" ... \"We stripped the 'Human Inefficiency Tax' to zero.\" ... Visuals: ASCII-art scanning animation, vibrant neon yellow, pixelated logo.",
-    "evidence_src": "HOME PAGE (body copy) + HOME PAGE (visual analysis)",
-    "evaluation_check": {
-      "coherence_status": "diverged",
-      "coherence_reasoning": "The grid result 'The Gentle Giant' is a mismatch. While the sliders (High Aesthetic, Low Utility) map there, the 'gentle' descriptor is the opposite of the brand's 'Terminal Honesty' and provocative tone. The brand is more of a 'Disruptive Utility,' a territory not captured by the grid."
-    }
-  },
-  "marker_5": {
-    "marker_name": "Personality",
-    "slider_a_label": "[SLIDER] WARMTH (The Thermostat)",
-    "slider_a_value": "2/5",
-    "slider_a_position_name": "Distant (Professional, polite, but emotionally flat)",
-    "slider_b_label": "[SLIDER] COMPETENCE / AUTHORITY (The Power Dynamic)",
-    "slider_b_value": "5/5",
-    "slider_b_position_name": "The Deity (Unquestionable authority)",
-    "territory_number": 3,
-    "territory_name": "The Reliable Expert",
-    "reasoning": "Pass 1 hypothesis: The Reliable Expert. The brand speaks from a position of deep, unquestionable expertise but without any emotional warmth. Pass 2: Slider A scores 2/5 Distant. The tone is not nurturing; it's diagnostic and direct ('Uncomfortable Truths', 'No Fluff Answers'). Slider B scores 5/5 The Deity. The brand claims ultimate authority based on '25 years of strategic branding expertise' and a proprietary methodology that delivers 'The Truth.' Grid: Low(2) x High(5) maps to Territory 3. Pass 3: Aligned. The personality is that of a brilliant, emotionally detached specialist.",
-    "evidence": "\"Built by people who got sick of marketing fluff\" ... \"25 years architecting global brands.\" ... \"We don't guess. We run diagnostics first, then prescribe.\"",
-    "evidence_src": "HOME PAGE (body copy) + MANIFESTO PAGE",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "The brand's personality is consistently framed as a hyper-competent, data-driven authority that eschews emotional language for direct, diagnostic statements. This aligns perfectly with The Reliable Expert."
-    }
-  },
-  "marker_6": {
-    "marker_name": "Archetypes Mix",
-    "primary": {
-      "archetype": "The Sage",
-      "group": "B (Independence)",
-      "percentage": "60%"
+    "truth_4": {
+      "headline": "The URL is perfectly tuned for Millennial marketing leaders, but invisible to their AI assistants.",
+      "gap_description": "There is a sharp disconnect between human-centric audience targeting and AI-readable signals. HI04 Audience Resonance scores 85 ('LASER-AIMED'), identifying the primary cohort as 'Millennials seeking a culturally-relevant agency' with 65% probability. The human read is a perfect match. However, the AI/GEO analysis shows external category recognition is zero due to entity collision, and the page lacks any explicit schema or copy that would flag this audience focus for an AI engine. The brand speaks a clear language to humans and is silent to the machines they use.",
+      "evidence": "'Millennials seeking a culturally-relevant agency... probability: 0.65' (HI.hi.metrics.hi04_audience_resonance.audience_segments[0]) | 'Diagnosis: LASER-AIMED' (HI.hi.metrics.hi04_audience_resonance.diagnosis) | 'External social signals are completely hijacked by entity collisions' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.evaluation) | 'Omits all JSON-LD schema, blinding AI to entity type.' (GEO.metrics.ai01_findability.checklist.fail[0])",
+      "why_matters": "As Millennial and Gen X leaders increasingly use AI assistants for discovery ('find me a creative agency that gets culture'), Banda will be absent from the results. The brand has successfully built a page that resonates with its target human but has failed to translate those signals into the structured language AI requires. It is winning the eyeball test but losing the AI-driven recommendation, a channel that is rapidly growing in importance.",
+      "hard_choice": "The brand must decide where audience targeting lives. One approach is to embed audience signals directly into the site's public-facing copy and schema, explicitly naming the types of clients and challenges they excel with, which would make them visible to AI but might feel less universally 'premium'. A second approach is to keep the homepage pristine and cohort-agnostic, using targeted landing pages and paid campaigns to speak directly to specific audiences, treating audience-matching as a paid function. A third is to focus on building out case studies so rich with cohort-specific detail that AI can infer the target audience from the work itself. The strategic question is: should the brand's audience strategy be an explicit part of its public identity, or a behind-the-scenes targeting tactic?"
     },
-    "secondary": {
-      "archetype": "The Outlaw",
-      "group": "C (Mastery)",
-      "percentage": "25%"
+    "truth_5": {
+      "headline": "For humans, the brand is a confident leader; for AI, it's an identity crisis.",
+      "gap_description": "The most significant divergence is between the brand's perceived identity. The human-visitor read is overwhelmingly positive, with an HI score of 82 ('LANDED') and a Trust Score of 86. Humans see a clear, credible, 'Premium Global Agency'. In stark contrast, the AI/GEO score is 50 ('AI PARTIAL'), with a diagnosis of 'SEVERE ENTITY COLLISION' and a Knowledge Anchoring score of just 28 ('IDENTITY CRISIS'). Humans see an established authority; AI engines see a name that belongs to someone else.",
+      "evidence": "'HI Score: 82. Label: LANDED' (HI.hi.score + .label) | 'AI/GEO Score: 50. Diagnosis: SEVERE ENTITY COLLISION' (GEO.score + .diagnosis) | 'HI02_trust_score: 86. Diagnosis: RECEIPTS LOUD' (HI.hi.metrics.hi02_trust_score.score + .diagnosis) | 'AI05_knowledge_anchoring: 28. Diagnosis: IDENTITY CRISIS' (GEO.metrics.ai05_knowledge_anchoring.score + .diagnosis)",
+      "why_matters": "This gap means the brand's reputation is entirely dependent on a visitor already knowing the URL. Its ability to be discovered, validated, or recommended by third-party AI systems is critically compromised. The brand has built a fantastic destination but has failed to build the roads that lead to it. As AI becomes the new front door to the internet, a brand that doesn't exist clearly for machines risks becoming invisible, no matter how strong its direct-traffic presence is.",
+      "hard_choice": "The brand's reputation lives in two separate realities. The first option is to bridge the gap by investing heavily in technical SEO and digital PR to resolve the entity collision and teach AI who 'Banda Agency' is, making the AI reality match the human one. The second option is to treat the two realities as distinct channels: the website serves the high-intent human visitor who already knows them, while other channels (referrals, partnerships, direct outreach) are used for discovery, effectively ignoring the AI deficit. A third path is to consider a brand evolution, such as consistently using 'Banda Agency Kyiv' to create a unique, defensible entity name. The strategic question is: is achieving a unified brand identity across both human and AI perception a top business priority, or can the company succeed by managing them as separate fronts?"
     },
-    "tertiary": {
-      "archetype": "The Magician",
-      "group": "C (Mastery)",
-      "percentage": "15%"
+    "_usage": {
+      "prompt_tokens": 20799,
+      "completion_tokens": 2782,
+      "total_tokens": 24683,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1102
+      }
     },
-    "territory_number": 3,
-    "territory_name": "The Philosopher",
-    "reasoning": "The Sage (60%) is dominant, driven by the brand's core promise of delivering 'Truth,' 'Category Intelligence,' and data-driven diagnosis. The Outlaw (25%) provides the brand's attitude: 'NO FUCKING CORPO APPROACH,' 'Fight back,' and a general rebellion against the agency establishment. The Magician (15%) is present in the 'X-ray' and 'scanning' language, which frames the complex diagnostic process as a moment of transformative revelation. Territory: The Sage is native to Territory 3 (The Philosopher), which aligns with the focus on clarity, principles, and truth. Cross-validation against ToV (T4 Hype Beast) and VI (T2 Gen-Z Pop) shows a clear divergence. The brand uses a disruptive voice and aesthetic to deliver a Sage/Outlaw product. The archetype mix reflects the product's soul, while the ToV/VI reflect its provocative delivery.",
-    "evidence": "\"[We deliver] Terminal Honesty\" (Sage) ... \"NO FUCKING CORPO APPROACH.\" (Outlaw) ... \"We X-ray your brand across every channel\" (Magician)",
-    "evidence_src": "HOME PAGE (headline) + MANIFESTO PAGE",
-    "evaluation_check": {
-      "coherence_status": "diverged",
-      "coherence_reasoning": "Cross-Validation Gate failed. ToV (T4 Hype Beast) and VI (T2 Gen-Z Pop) expect archetypes like Jester, Magician, or Lover. However, the brand's core message is overwhelmingly Sage (truth, diagnosis) and Outlaw (rebellion). This is a deliberate strategic tension: using a disruptive identity to sell a product based on clarity and truth. The assigned archetypes reflect the brand's substance over its style."
-    }
+    "_model": "gemini-2.5-pro",
+    "_finish_reason": "STOP",
+    "_parse_status": "ok"
   },
-  "marker_7": {
-    "marker_name": "Tone of Voice",
-    "slider_a_label": "[SLIDER] HUMOR (The Sense of Humor)",
-    "slider_a_value": "4/5",
-    "slider_a_position_name": "Witty (Clever wordplay, light puns)",
-    "slider_b_label": "[SLIDER] FORMALITY (The Dress Code)",
-    "slider_b_value": "5/5",
-    "slider_b_position_name": "Slang (Internet-native, abbreviations)",
-    "slider_c_label": "[SLIDER] RESPECT (The Power Dynamic)",
-    "slider_c_value": "5/5",
-    "slider_c_position_name": "Provocative (Shocking, edgy, bold)",
-    "slider_d_label": "[SLIDER] ENTHUSIASM (The Energy Level)",
-    "slider_d_value": "5/5",
-    "slider_d_position_name": "Hype (Manic energy, caps, stacked adjectives)",
-    "territory_number": 4,
-    "territory_name": "The Hype Beast",
-    "reasoning": "Pass 1 hypothesis: Hype Beast. The language is energetic, provocative, and informal. Pass 2: Humor is 4/5 Witty ('The House M.D. for brands'). Formality is 5/5 Slang ('WTF Pokpok?', 'NO FUCKING CORPO APPROACH'). Respect is 5/5 Provocative, directly challenging the industry. Enthusiasm is 5/5 Hype ('WE WON...!!!'). Applying hard rules: Rule 2 (Hype Beast) fires immediately because Enthusiasm is >=4 AND Formality, Respect, and Humor are all >=4. Territory 4 is assigned. Pass 3: Aligned. The tone is a perfect example of a Hype Beast.",
-    "evidence": "\"WTF Pokpok?\" ... \"NO FUCKING CORPO APPROACH.\" ... \"WE WON B150 Vibeathon (Marketing Category)!!!\" ... \"Stop guessing. Start _knowing._\"",
-    "evidence_src": "HOME PAGE (navigation) + MANIFESTO PAGE + HOME PAGE (headline)",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "The combination of high enthusiasm, slang, and provocative language meets the hard criteria for the Hype Beast territory without ambiguity."
-    }
+  "HI_evaluation": {
+    "parse_status": "ok",
+    "data": {
+      "brand": "banda",
+      "product_title": "Global Independent Creative Brand Agency",
+      "url": "https://banda.agency",
+      "overall_perception_summary": {
+        "headline": "Brave Effective Creativity",
+        "description": "Banda operates as a Kyiv-born global creative agency that frames award-winning professional rigor alongside unapologetic cultural bravery. It balances clinical design authority with chaotic, vibrant creative output, positioning itself as the rare agency that delivers both measurable effectiveness and cultural resonance. Built on collective energy and Ukrainian resilience, it does not sell comfort — it sells creative work that demands attention and delivers results."
+      },
+      "category_summaries": {
+        "foundation": {
+          "title": "Brave Effect First",
+          "description": "Banda's purpose lands on The Empowerer, building brands that ignite conversation and drive measurable impact through human insight. Its values sit in Technical Efficacy: creativity is treated as a disciplined craft, prioritizing measurable effectiveness over vague mystique. Positioned as The Premium Specialist: this is not a commodity design shop, it is an award-winning global creative partner for high-stakes brand work. The payoff is work that both wins awards and moves real markets."
+        },
+        "identity": {
+          "title": "Clinical Creative Edge",
+          "description": "The personality occupies The Aspirational Authority territory: polished, confident, and unapologetically elite about its craft. The dominant archetype is The Creator (65%) grounded in deliberate craft and bold design, supported by The Hero (25%) driving bravery and measurable impact. Visually this is expressed as The Edgy Avant-Garde: stark monochrome UI framing explosive, saturated creative work. Tone is The Modern Minimalist: sharp, direct, dry, and slightly irreverent, with zero fluff."
+        },
+        "communication": {
+          "title": "Proof Led Confidence",
+          "description": "Messaging follows The Systems Explainer model: it breaks down craft into clear pillars of strategy, creative, craft and effectiveness. The USP is The Tech Engineer: Banda owns a proprietary disciplined creative process that delivers consistent award-winning results. Proof is built through Expert Validation: 200+ international awards, global rankings, and verified project impact metrics. The page focus is balanced between demonstrating authority and inviting new work."
+        },
+        "benefits": {
+          "title": "Cultural Capability Upgrade",
+          "description": "Functionally Banda delivers Capability Upgrade: it transforms brands into culturally resonant market leaders with measurable audience impact. The emotional benefit is Confidence: clients gain the assurance they are working with the best, bravest creative partner for high-stakes work. Self-expression lands on The Purist: working with Banda signals serious commitment to craft and uncompromising creative standards. Socially it operates as The Knowledge Club: it is the insider choice for leaders who understand great branding."
+        }
+      },
+      "quick_labels": {
+        "brand_voice": "Sharp Irreverent",
+        "visual_appeal": "Clinical Pop",
+        "value_prop": "Awarded Brave Creativity",
+        "positioning": "Premium Global Agency"
+      },
+      "marker_1": {
+        "marker_name": "Purpose",
+        "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
+        "slider_a_value": "4/5",
+        "slider_a_position_name": "Human-Active (human/cultural insight with proven effect)",
+        "slider_b_label": "[SLIDER] MISSION VECTOR (The Goal)",
+        "slider_b_value": "5/5",
+        "slider_b_position_name": "Transformation (confidence, capability, identity)",
+        "territory_number": 4,
+        "territory_name": "The Empowerer",
+        "reasoning": "Pass 1 hypothesis: The Empowerer — Banda exists to unlock cultural and commercial identity for brands, not just fix problems. Pass 2: Slider A scores 4/5 Human-Active: authority comes from cultural insight and collective creative craft, backed by proven results. Slider B scores 5/5 Transformation: the stated goal is to build brands people talk about, fundamentally changing how audiences perceive an identity. Grid: High(4) x High(5) maps directly to Territory 4. Pass 3: Fully aligned.",
+        "evidence": "\"We make brands that people want to talk about\" ... \"Ads created by банда are ambitious, relevant, and a bit irreverent\" ... \"At banda, we believe in the power of the collective. Together, we build the kind of atmosphere where creativity ignites.\"",
+        "evidence_src": "TARGET PAGE (body copy) + ABOUT PAGE",
+        "evaluation_check": {
+          "coherence_status": "aligned",
+          "coherence_reasoning": "Holistic hypothesis and grid result perfectly align. All signals confirm this agency exists to transform brand identity and impact, not just solve tactical problems."
+        }
+      },
+      "marker_2": {
+        "marker_name": "Mission & Vision",
+        "slider_a_label": "[SLIDER] SCOPE OF IMPACT (The Blast Radius)",
+        "slider_a_value": "4/5",
+        "slider_a_position_name": "Industry Reform (changing category standards)",
+        "slider_b_label": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
+        "slider_b_value": "2/5",
+        "slider_b_position_name": "Aspirational (High status, expensive investment)",
+        "territory_number": 2,
+        "territory_name": "The Expert Vanguard",
+        "reasoning": "Pass 1 hypothesis: The Expert Vanguard — this is an elite specialist agency redefining what creative effectiveness means globally. Pass 2: Slider A scores 4/5 Industry Reform: Banda is ranked #1 most effective independent agency globally, rewriting standards for creative impact. Slider B scores 2/5 Aspirational: this is a premium partner, not mass market commodity service. Grid: High(4) x Low(2) maps to Territory 2. Pass 3: Fully aligned.",
+        "evidence": "\"Meet the most effective independent agency in the world (Effie Index 2020) & Europe (2024)\" ... \"Recognized by 200+ international awards\" ... \"The most creative agency in Central & Eastern Europe\"",
+        "evidence_src": "TARGET PAGE (headline) + TARGET PAGE (claims)",
+        "evaluation_check": {
+          "coherence_status": "aligned",
+          "coherence_reasoning": "Slider and grid result match perfectly. Banda explicitly positions itself as an elite global specialist setting industry standards."
+        }
+      },
+      "marker_3": {
+        "marker_name": "Values",
+        "slider_a_label": "[SLIDER] PERFORMANCE PRIORITY (The Trade-Off)",
+        "slider_a_value": "4/5",
+        "slider_a_position_name": "High-Performance (Active force takes the lead)",
+        "slider_b_label": "[SLIDER] INFORMATION DENSITY (The Transparency)",
+        "slider_b_value": "5/5",
+        "slider_b_position_name": "The Black Box (Trust our secret complex)",
+        "territory_number": 4,
+        "territory_name": "Technical Efficacy",
+        "reasoning": "Pass 1 hypothesis: Technical Efficacy — Banda values results over comfort, and treats creativity as a disciplined high performance craft. Pass 2: Slider A scores 4/5 High Performance: explicitly stated 'We don’t sell comfort because creativity and innovation are never safe.' Slider B scores 5/5 Black Box: while they show results, the creative method itself is presented as proprietary craft magic. Grid: High(4) x Low(5) maps to Territory 4. Pass 3: Fully aligned.",
+        "evidence": "\"We don’t sell comfort because creativity and innovation are never safe.\" ... \"We prioritize the effectiveness of our communications so that creativity serves a specific goal\" ... \"Creativity and craft are fundamental to all we do.\"",
+        "evidence_src": "APPROACH PAGE + TARGET PAGE (body copy)",
+        "evaluation_check": {
+          "coherence_status": "aligned",
+          "coherence_reasoning": "The explicit rejection of comfort paired with focus on proven effectiveness aligns perfectly with Technical Efficacy territory."
+        }
+      },
+      "marker_4": {
+        "marker_name": "Positioning",
+        "slider_a_label": "[SLIDER] VISUAL CODE (The Uniform)",
+        "slider_a_value": "2/5",
+        "slider_a_position_name": "Professional (Clear and serious)",
+        "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Status Signal)",
+        "slider_b_value": "4/5",
+        "slider_b_position_name": "Investment Piece (Considered choice)",
+        "territory_number": 2,
+        "territory_name": "The Premium Specialist",
+        "reasoning": "Pass 1 hypothesis: Premium Specialist — this is a serious, elite creative agency for clients making considered investment decisions. Pass 2: Slider A scores 2/5 Professional: stark monochrome UI, clean grid, authoritative layout signals no-nonsense professional quality. Slider B scores 4/5 Investment Piece: global awards rankings, high profile client roster position this as a premium considered purchase. Grid: Low(2) x High(4) maps to Territory 2. Pass 3: Fully aligned.",
+        "evidence": "\"Agency of the year\" ... \"The most effective agency in the world (X2)\" ... \"Cannes Lions winner\" ... \"Founded in Kyiv, Ukraine, since 2011\"",
+        "evidence_src": "TARGET PAGE (claims) + TARGET PAGE (visual analysis)",
+        "evaluation_check": {
+          "coherence_status": "aligned",
+          "coherence_reasoning": "Professional visual code paired with premium status signals confirm this operates as an elite specialist creative partner."
+        }
+      },
+      "marker_5": {
+        "marker_name": "Personality",
+        "slider_a_label": "[SLIDER] WARMTH (The Thermostat)",
+        "slider_a_value": "3/5",
+        "slider_a_position_name": "Pleasant (Standard corporate friendliness)",
+        "slider_b_label": "[SLIDER] COMPETENCE / AUTHORITY (The Power Dynamic)",
+        "slider_b_value": "5/5",
+        "slider_b_position_name": "The Deity (Unquestionable authority)",
+        "territory_number": 4,
+        "territory_name": "The Aspirational Authority",
+        "reasoning": "Pass 1 hypothesis: Aspirational Authority — Banda carries itself as the undisputed leader in its field, with quiet confidence rather than bravado. Pass 2: Slider A scores 3/5 Pleasant: polite, occasionally playful but never overly warm or effusive. Slider B scores 5/5 Deity: global #1 rankings, 200+ awards, high profile government and enterprise clients establish unquestionable category authority. Grid: Mid(3) x High(5) maps to Territory 4. Pass 3: Fully aligned.",
+        "evidence": "\"We made bad jokes about the good conditions of PrivatBank's Universal card.\" ... \"That’s why it turned out so awesome ❤️\" ... \"We’re thrilled — we put a lot of love, time, and slow-mo into this one 💞\"",
+        "evidence_src": "TARGET PAGE (body copy)",
+        "evaluation_check": {
+          "coherence_status": "aligned",
+          "coherence_reasoning": "Controlled warmth combined with unchallenged category authority defines this aspirational, elite personality."
+        }
+      },
+      "marker_7": {
+        "marker_name": "Tone of Voice",
+        "slider_a_label": "[SLIDER] HUMOR (The Sense of Humor)",
+        "slider_a_value": "4/5",
+        "slider_a_position_name": "Witty (Clever wordplay, light puns, intentional humor)",
+        "slider_b_label": "[SLIDER] FORMALITY (The Dress Code)",
+        "slider_b_value": "4/5",
+        "slider_b_position_name": "Conversational (Spoken style, contractions)",
+        "slider_c_label": "[SLIDER] RESPECT (The Power Dynamic)",
+        "slider_c_value": "4/5",
+        "slider_c_position_name": "Cheeky (Playful, teasing, confident)",
+        "slider_d_label": "[SLIDER] ENTHUSIASM (The Energy Level)",
+        "slider_d_value": "3/5",
+        "slider_d_position_name": "Helpful (Encouraging, positive, but measured)",
+        "territory_number": 2,
+        "territory_name": "The Modern Minimalist",
+        "reasoning": "Pass 1 hypothesis: Modern Minimalist — sharp, dry, conversational with occasional cheeky jokes, no hype, no fluff. Pass 2: Humor 4/5: occasional witty asides and deadpan jokes. Formality 4/5: casual conversational tone, no corporate jargon. Respect 4/5: playful cheeky confidence, never deferential. Enthusiasm 3/5: measured, not manic. Applying hard rules: Rule 1 fails, Rule 2 fails. Rule 3 fails: Humor = 4 > 3 limit. Rule 4 applies: assign Territory 2. Pass 3: Aligned.",
+        "evidence": "\"But then we realized: people don’t really care how old a brand is. What matters is that big birthdays mean big sales. And honestly, the age can be anything: 175, 1660, 58.\" ... \"If a crab can turn into kabanos, you can become anything.\"",
+        "evidence_src": "TARGET PAGE (body copy)",
+        "evaluation_check": {
+          "coherence_status": "aligned",
+          "coherence_reasoning": "Hard rule evaluation correctly routes to Modern Minimalist. The tone is sharp, dry, confident, with well placed wit exactly matching this territory."
+        }
+      },
+      "marker_8": {
+        "marker_name": "Visual Identity",
+        "slider_a_label": "[SLIDER] THE THERMOSTAT (Visual Temperature)",
+        "slider_a_value": "2/5",
+        "slider_a_position_name": "Cool (Clear, distant, professional)",
+        "slider_b_label": "[SLIDER] THE ENTROPY SCALE (Layout Control)",
+        "slider_b_value": "4/5",
+        "slider_b_position_name": "Playful (Asymmetry, surprise elements)",
+        "territory_number": 4,
+        "territory_name": "The Edgy Avant-Garde",
+        "reasoning": "Pass 1 hypothesis: The Edgy Avant-Garde — cold minimalist UI container framing chaotic, saturated, expressive creative content. Pass 2: Slider A scores 2/5 Cool: base UI is stark monochrome, clean, distant and professional. Slider B scores 4/5 Playful: project tiles explode with vibrant neon colors, bold graphics, high contrast and deliberate visual tension. Grid: Low(2) x High(4) maps directly to Territory 4. Pass 3: Aligned.",
+        "evidence": "\"Stark monochrome UI frames a vibrant explosion of project colors\" ... \"clinical black-and-white grid and the saturated, expressive project imagery creates a 'Clinical Pop' feel\"",
+        "evidence_src": "TARGET PAGE (visual analysis)",
+        "look_and_feel": "Clinical Pop aesthetic: stark monochrome minimalist site frame containing explosive, saturated bold creative project tiles, creating deliberate tension between professional rigor and creative chaos.",
+        "distinctive_asset_1": "Bold ultra-large sans-serif typography",
+        "distinctive_asset_2": "Stark black / white base UI grid",
+        "distinctive_asset_3": "Neon acid green and yellow accent colors",
+        "distinctive_asset_4": "Full bleed grid portfolio layout",
+        "distinctive_asset_5": "Stylized infinity loop brand mark",
+        "palette_color_1": "#000000",
+        "palette_color_2": "#FFFFFF",
+        "palette_color_3": "#97FF00",
+        "palette_color_4": "#FFE600",
+        "palette_color_5": "#8A2BE2",
+        "primary_palette": "Authoritative pure black and white base palette punctuated with high voltage neon green, bright yellow and saturated accent colors pulled directly from creative project work.",
+        "evaluation_check": {
+          "coherence_status": "aligned",
+          "coherence_reasoning": "Cool structured container paired with high expression content perfectly matches The Edgy Avant-Garde territory."
+        }
+      },
+      "marker_6": {
+        "marker_name": "Archetypes Mix",
+        "primary": {
+          "archetype": "The Creator",
+          "group": "A (Stability)",
+          "percentage": "65%"
+        },
+        "secondary": {
+          "archetype": "The Hero",
+          "group": "C (Mastery)",
+          "percentage": "25%"
+        },
+        "tertiary": {
+          "archetype": "The Outlaw",
+          "group": "C (Mastery)",
+          "percentage": "10%"
+        },
+        "territory_number": 1,
+        "territory_name": "The Performer",
+        "reasoning": "Primary: The Creator (65%) dominates — this is first and foremost a craft focused agency building intentional, well executed brands. Secondary: The Hero (25%) — bravery, measurable impact, winning, overcoming hardship are consistent themes across all copy. Tertiary: The Outlaw (10%) — slight irreverence, rejection of comfort and established norms appears occasionally. Territory: Creator and Hero are both native to Territory 1 (The Performer). Weighted dominance: 65% +25% = 90% for Territory 1.",
+        "evidence": "\"Creativity and craft are fundamental to all we do\" (Creator) ... \"We are made of bravery.\" (Hero) ... \"We don’t sell comfort because creativity and innovation are never safe\" (Outlaw)",
+        "evidence_src": "TARGET PAGE (body copy) + APPROACH PAGE",
+        "evaluation_check": {
+          "coherence_status": "aligned",
+          "coherence_reasoning": "Cross validation passed: ToV Territory 2 (Modern Minimalist) expects Hero or Creator led. VI Territory 4 (Edgy Avant-Garde) expects Outlaw, Magician or Explorer led. Primary Creator + Secondary Hero + Tertiary Outlaw are all coherent with observed tone and visual identity."
+        }
+      },
+      "marker_9": {
+        "marker_name": "Messaging",
+        "slider_a_label": "[SLIDER] THE HOOK TARGET (The Subject)",
+        "slider_a_value": "2/5",
+        "slider_a_position_name": "The Component (tangible offer element)",
+        "slider_b_label": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
+        "slider_b_value": "2/5",
+        "slider_b_position_name": "Rational (Logical cause-and-effect)",
+        "territory_number": 1,
+        "territory_name": "The Systems Explainer",
+        "reasoning": "Pass 1 hypothesis: The Systems Explainer — Banda breaks its value proposition down into clear, structured pillars: Strategy, Creative, Craft, Effectiveness. Pass 2: Slider A scores 2/5 Component: messaging leads with the components of their process and service offering. Slider B scores 2/5 Rational: persuasion is built on award rankings, proven impact metrics, and client track record. Grid: Low(2) x Low(2) maps to Territory 1. Pass 3: Aligned.",
+        "evidence": "\"Strategy → Creative → Craft → Effectiveness\" ... \"Founded in Kyiv, Ukraine, since 2011 we specialize in brand launch and transformation strategies, standout aesthetic design systems, and user experience insights.\"",
+        "evidence_src": "APPROACH PAGE + TARGET PAGE (body copy)",
+        "evaluation_check": {
+          "coherence_status": "aligned",
+          "coherence_reasoning": "Component focus paired with rational proof based persuasion perfectly matches Systems Explainer territory."
+        }
+      },
+      "marker_10": {
+        "marker_name": "Narrative",
+        "slider_a_label": "[SLIDER] THE PROTAGONIST (Who Solved It)",
+        "slider_a_value": "3/5",
+        "slider_a_position_name": "The Coalition (Founder, expert, community collaboration)",
+        "slider_b_label": "[SLIDER] THE SETTING (Where It Happened)",
+        "slider_b_value": "5/5",
+        "slider_b_position_name": "Mythic / Cultural Source",
+        "territory_number": 4,
+        "territory_name": "The Cultural Origin",
+        "reasoning": "Pass 1 hypothesis: The Cultural Origin — Banda's narrative is rooted in Ukrainian collective resilience and bravery, built by a community of creators. Pass 2: Slider A scores 3/5 Coalition: explicitly 'power of the collective' narrative, not individual founder or lone institution. Slider B scores 5/5 Cultural Source: origin story is tied directly to Ukrainian culture, resilience, and global context of bravery. Grid: Mid(3) x High(5) resolves to Territory 4. Pass 3: Aligned.",
+        "evidence": "\"Founded in Kyiv, Ukraine, since 2011\" ... \"At banda, we believe in the power of the collective.\" ... \"We are made of bravery.\"",
+        "evidence_src": "TARGET PAGE (body copy)",
+        "evaluation_check": {
+          "coherence_status": "aligned",
+          "coherence_reasoning": "Collective protagonist paired with cultural origin story confirms Cultural Origin territory."
+        }
+      },
+      "marker_11": {
+        "marker_name": "Key Selling Points",
+        "slider_a_label": "[SLIDER] THE VALIDATOR (Who Says It Works?)",
+        "slider_a_value": "2/5",
+        "slider_a_position_name": "The Specialists (researchers, operators, practitioners)",
+        "slider_b_label": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
+        "slider_b_value": "2/5",
+        "slider_b_position_name": "The Stat (percentages, adoption metrics, outcome numbers)",
+        "territory_number": 1,
+        "territory_name": "Expert-Validation",
+        "reasoning": "Pass 1 hypothesis: Expert Validation — all proof comes from independent industry awards and global ranking bodies. Pass 2: Slider A scores 2/5 Specialists: validation comes from international award juries and industry ranking bodies. Slider B scores 2/5 Stat: proof is delivered as counts: 200+ awards, #1 global ranking, +294% attendance metrics. Grid: Low(2) x Low(2) maps to Territory 1. Pass 3: Aligned.",
+        "evidence": "\"Recognized by 200+ international awards\" ... \"most effective independent agency in the world (Effie Index 2020)\" ... \"+294% attendance in a year, 20 million organic impressions\"",
+        "evidence_src": "TARGET PAGE (claims) + TARGET PAGE (visual analysis)",
+        "evaluation_check": {
+          "coherence_status": "aligned",
+          "coherence_reasoning": "Specialist validator paired with statistical proof perfectly matches Expert Validation territory."
+        }
+      },
+      "marker_12": {
+        "marker_name": "USP",
+        "slider_a_label": "[SLIDER] THE OWNERSHIP CLAIM (What Makes You Unique)",
+        "slider_a_value": "5/5",
+        "slider_a_position_name": "The Proprietary System (Patented engineering platform)",
+        "slider_b_label": "[SLIDER] THE TARGET SCOPE (Market Breadth)",
+        "slider_b_value": "3/5",
+        "slider_b_position_name": "The Category Player (General user/team/customer offer)",
+        "territory_number": 2,
+        "territory_name": "The Tech Engineer",
+        "reasoning": "Pass 1 hypothesis: The Tech Engineer — Banda owns a disciplined creative process that consistently delivers award winning effective results at global scale. Pass 2: Slider A scores 5/5 Proprietary System: the agency has a refined, proven creative methodology that is its core differentiator. Slider B scores 3/5 Category Player: they operate across all brand categories globally. Grid: High(5) x Mid(3) maps to Territory 2. Pass 3: Aligned.",
+        "evidence": "\"Bringing method to beautiful chaos.\" ... \"The results of worldwide effectiveness assessments illustrate the viability of our strategy.\"",
+        "evidence_src": "APPROACH PAGE",
+        "evaluation_check": {
+          "coherence_status": "aligned",
+          "coherence_reasoning": "Proprietary proven creative system paired with broad category operation confirms Tech Engineer territory."
+        }
+      },
+      "marker_13": {
+        "marker_name": "Focus",
+        "slider_a_label": "[SLIDER] THE DEPTH GAUGE (Content Purpose)",
+        "slider_a_value": "2/5",
+        "slider_a_position_name": "The Explainer (infographics, how it works)",
+        "slider_b_label": "[SLIDER] THE INTENT VECTOR (Content Goal)",
+        "slider_b_value": "3/5",
+        "slider_b_position_name": "The Offer Display (standard page information)",
+        "territory_number": 1,
+        "territory_name": "Evidence Education",
+        "reasoning": "Pass 1 hypothesis: Evidence Education — the homepage exists first to prove capability through portfolio and awards, not hard sell. Pass 2: Slider A scores 2/5 Explainer: content explains process, shows work, demonstrates track record. Slider B scores 3/5 Neutral Offer Display: no aggressive CTAs, just presentation of credentials. Grid: Low(2) x Mid(3) resolves to Territory 1. Pass 3: Aligned.",
+        "evidence": "\"Load more projects\" ... portfolio grid layout + award listings ... \"Share a bit about your business and the challenge you want to solve — just drop us an email here.\"",
+        "evidence_src": "TARGET PAGE (body copy) + APPROACH PAGE",
+        "evaluation_check": {
+          "coherence_status": "aligned",
+          "coherence_reasoning": "Explainer depth with neutral intent correctly maps to Evidence Education territory. This page demonstrates authority first, converts second."
+        }
+      },
+      "marker_14": {
+        "marker_name": "Functional Benefits",
+        "slider_a_label": "[SLIDER] THE ACTION VECTOR (The Mechanism)",
+        "slider_a_value": "5/5",
+        "slider_a_position_name": "The Enabler (unlocks new ability)",
+        "slider_b_label": "[SLIDER] THE OUTCOME TARGET (The Goal)",
+        "slider_b_value": "5/5",
+        "slider_b_position_name": "Strategic Advantage (leverage, competitiveness)",
+        "territory_number": 4,
+        "territory_name": "Capability Upgrade",
+        "reasoning": "Pass 1 hypothesis: Capability Upgrade — Banda transforms brands from invisible into culturally relevant market leaders. Pass 2: Slider A scores 5/5 Enabler: the agency unlocks new cultural and commercial capability for brands. Slider B scores 5/5 Strategic Advantage: deliverables provide competitive market advantage and cultural resonance. Grid: High(5) x High(5) maps to Territory 4. Pass 3: Aligned.",
+        "evidence": "\"We make brands that people want to talk about\" ... \"improve the brand's connection with people over time\" ... \"Building and reshaping widely recognized brands, which frequently become market leaders.\"",
+        "evidence_src": "TARGET PAGE (body copy) + APPROACH PAGE",
+        "evaluation_check": {
+          "coherence_status": "aligned",
+          "coherence_reasoning": "Enabler mechanism paired with strategic advantage outcome perfectly matches Capability Upgrade territory."
+        }
+      },
+      "marker_15": {
+        "marker_name": "Emotional Benefits",
+        "slider_a_label": "[SLIDER] THE ANXIETY AXIS (The Emotional Direction)",
+        "slider_a_value": "3/5",
+        "slider_a_position_name": "Contentment (The feeling of a job well done)",
+        "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS (The Audience)",
+        "slider_b_value": "3/5",
+        "slider_b_position_name": "Readiness (I am ready to face the day, task, market, or moment)",
+        "territory_number": 4,
+        "territory_name": "Intelligence",
+        "reasoning": "Pass 1 hypothesis: Intelligence — working with Banda makes you feel sharp, competent, and like you made the correct brave choice. Pass 2: Slider A scores 3/5 Contentment: the emotional payoff is satisfaction from great work done well. Slider B scores 3/5 Readiness: clients gain confidence to face their market. Marker specific grid maps Contentment x Readiness to Territory 4. Pass 3: Aligned.",
+        "evidence": "\"We find surprisingly effective concepts to improve the brand's connection with people over time.\" ... \"We prioritize the effectiveness of our communications so that creativity serves a specific goal.\"",
+        "evidence_src": "APPROACH PAGE",
+        "evaluation_check": {
+          "coherence_status": "aligned",
+          "coherence_reasoning": "Contentment + Readiness combination resolves correctly to Intelligence territory per marker specific rules."
+        }
+      },
+      "marker_16": {
+        "marker_name": "Self-Expression",
+        "slider_a_label": "[SLIDER] THE SIGNAL DRIVER (Choice Motivation)",
+        "slider_a_value": "2/5",
+        "slider_a_position_name": "The Smart Choice (because it makes sense)",
+        "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION (Social Position)",
+        "slider_b_value": "4/5",
+        "slider_b_position_name": "The Insider (Hard to find; \"if you know, you know\")",
+        "territory_number": 3,
+        "territory_name": "The Purist",
+        "reasoning": "Pass 1 hypothesis: The Purist — clients choose Banda because they care deeply about craft and effectiveness, not trend. Pass 2: Slider A scores 2/5 Smart Choice: selection is rational, based on proven track record. Slider B scores 4/5 Insider: this is the agency for clients who understand great creative work. Grid: Low(2) x High(4) maps to Territory 3. Pass 3: Aligned.",
+        "evidence": "\"The most effective independent agency in the world\" ... \"We don’t sell comfort because creativity and innovation are never safe.\"",
+        "evidence_src": "TARGET PAGE (headline) + APPROACH PAGE",
+        "evaluation_check": {
+          "coherence_status": "aligned",
+          "coherence_reasoning": "Rational selection paired with niche insider status correctly maps to The Purist territory."
+        }
+      },
+      "marker_17": {
+        "marker_name": "Social Benefits",
+        "slider_a_label": "[SLIDER] THE SOCIAL VECTOR (Social Goal)",
+        "slider_a_value": "4/5",
+        "slider_a_position_name": "Distinction (I want to be noticed)",
+        "slider_b_label": "[SLIDER] THE GROUP DYNAMIC (Tribal Scale)",
+        "slider_b_value": "4/5",
+        "slider_b_position_name": "The Club (Enthusiasts/Fans)",
+        "territory_number": 4,
+        "territory_name": "The Insider Clique",
+        "reasoning": "Pass 1 hypothesis: The Insider Clique — working with Banda signals you are part of the small group of leaders who understand great effective creative. Pass 2: Slider A scores 4/5 Distinction: choosing Banda sets you apart from commodity brand work. Slider B scores 4/5 Club: it is an exclusive community of clients, creators and industry leaders. Grid: High(4) x High(4) maps to Territory 4. Pass 3: Aligned.",
+        "evidence": "\"The most effective independent agency in the world\" ... \"The most creative agency in Central & Eastern Europe\"",
+        "evidence_src": "TARGET PAGE (claims)",
+        "evaluation_check": {
+          "coherence_status": "aligned",
+          "coherence_reasoning": "Distinction vector paired with dedicated club community correctly maps to The Insider Clique territory."
+        }
+      }
+    },
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 7810,
+      "prompt_tokens": 47206,
+      "total_tokens": 55016,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 257
+      }
+    },
+    "model": "seed-2-0-pro-260328",
+    "hi": {
+      "score": 82,
+      "label": "LANDED",
+      "diagnosis": "FULLY CONVINCING",
+      "profile": "The website operates as a high-end creative gallery, using its portfolio and a dense stack of prestigious awards as the complete argument. It assumes a visitor is already in the market for a top-tier agency and wastes no time on persuasion beyond showing the work. The 'Clinical Pop' visual system—a stark, professional container filled with vibrant, culturally-charged content—perfectly communicates the brand's promise of disciplined execution of fearless ideas.",
+      "blind_spot": "The brand's confidence is its primary asset but also its main filter. By omitting any signal of engagement size, process, or ideal client profile, it forces prospects to make a high-friction inquiry. Adding a single sentence on the 'Approach' page about the type of challenges they seek (e.g., 'We partner with ambitious leaders on brand launches and transformations') would help visitors self-qualify faster.",
+      "metrics": {
+        "hi01_message_clarity": {
+          "label": "MESSAGE CLARITY",
+          "score": 80,
+          "diagnosis": "INSTANT-READ",
+          "so_what": "The page instantly communicates its core function: an award-winning creative agency. The headline 'We make brands that people want to talk about' is a clear, differentiated benefit. A visitor immediately understands what Banda does and the high-impact quality of the work they produce.",
+          "sub_metrics": {
+            "headline_clarity": {
+              "score": 70,
+              "evaluation": "The headline 'We make brands that people want to talk about' clearly states WHAT (make brands) and WHY (talkability). It implies WHO (clients needing buzz) but doesn't name them, landing 2 of 3 Krug anchors effectively."
+            },
+            "value_prop_above_fold": {
+              "score": 70,
+              "evaluation": "The value prop delivers a strong BENEFIT ('brands that people want to talk about') and implies MECHANISM through the portfolio. It lacks an explicit CONTRAST against alternatives, relying on the quality of the work to make the case."
+            },
+            "benefit_hierarchy": {
+              "score": 90,
+              "evaluation": "The lead benefit—creating 'talkable' brands—is the core differentiator for a creative agency versus a more conservative, sales-focused one. It's the sharpest version of their value and is stated upfront."
+            },
+            "jargon_load": {
+              "score": 90,
+              "evaluation": "The copy uses industry-standard terms like 'brand launch' and 'design systems' which are expected by its B2B audience. There is zero gratuitous jargon, making the site feel direct and confident."
+            }
+          },
+          "checklist": {
+            "pass": [
+              "leads with a clear, differentiator benefit: 'talkable brands'"
+            ],
+            "warn": [
+              "headline implies but does not name the target audience"
+            ],
+            "fail": [
+              "value proposition omits an explicit contrast to competitors"
+            ]
+          }
+        },
+        "hi02_trust_score": {
+          "label": "TRUST SCORE",
+          "score": 86,
+          "diagnosis": "RECEIPTS LOUD",
+          "so_what": "Trust is established immediately and overwhelmingly through a barrage of evidence. The brand makes audacious claims like 'most effective agency in the world' and immediately substantiates them with named, prestigious awards like Effie and Cannes Lions. This isn't hype; it's a documented track record.",
+          "sub_metrics": {
+            "hype_index": {
+              "score": 90,
+              "evaluation": "Superlatives like 'The most effective agency in the world' are used, but they are immediately substantiated with sources like 'Effie Index 2020'. This converts potential hype into a verifiable claim, leaving almost no unsupported self-praise."
+            },
+            "claim_to_evidence_ratio": {
+              "score": 90,
+              "evaluation": "Nearly every major claim is Level A or B. 'Most effective' is cited to Effie, 'Cannes Lions winner' is a verifiable fact, and the portfolio of work for brands like Uber and Google serves as direct evidence. Over 70% of claims are substantiated."
+            },
+            "social_proof": {
+              "score": 90,
+              "evaluation": "Social proof is high-quality, using SPECIFICITY through named client logos (Uber, Google) and prestigious awards (Cannes, Red Dot). For a B2B agency, this is more powerful than anonymous testimonials."
+            },
+            "trust_signals": {
+              "score": 90,
+              "evaluation": "All four Fogg credibility types are present: SURFACE (professional design), EARNED (named client work), PRESUMED (clear contact info), and REPUTED (numerous named international awards). This creates a comprehensive trust profile."
+            },
+            "visible_certifications": {
+              "score": 70,
+              "evaluation": "The page explicitly names three major industry awards that function as certifications of excellence: 'Cannes Lions', 'Red Dot', and 'Effie Index'. These are powerful, recognizable signals of quality."
+            }
+          },
+          "checklist": {
+            "pass": [
+              "substantiates 'most effective' claim with 'Effie Index 2020'"
+            ],
+            "warn": [
+              "relies on awards and logos over client testimonials/quotes"
+            ],
+            "fail": [
+              "lacks a client-count or years-in-business stat for quick scale"
+            ]
+          }
+        },
+        "hi03_voice_consistency": {
+          "label": "VOICE CONSISTENCY",
+          "score": 90,
+          "diagnosis": "ONE PERSON",
+          "so_what": "The brand speaks with a single, unwavering voice across its homepage and its 'Approach' page. The confident, slightly irreverent, and effectiveness-focused tone is perfectly consistent, projecting an image of a focused agency that knows exactly who it is. The homepage is the proof of the philosophy described on the approach page.",
+          "sub_metrics": {
+            "tone_alignment": {
+              "score": 90,
+              "evaluation": "The consultative-yet-bold tone from the 'Approach' page ('We don’t sell comfort') is identical to the homepage's presentation of brave, impactful work. The register is perfectly matched."
+            },
+            "vocabulary_alignment": {
+              "score": 90,
+              "evaluation": "The brand's core semantic fields from the 'Approach' page—effectiveness, creativity, and connection—are all dominant on the homepage, showcased through awards, visual work, and the 'talk about' headline."
+            },
+            "voice_signature_match": {
+              "score": 90,
+              "evaluation": "The brand's Creator/Rebel archetype is delivered flawlessly. The homepage is a gallery of rule-breaking, attention-grabbing work that perfectly embodies the 'creativity and innovation are never safe' ethos."
+            },
+            "claim_stack_alignment": {
+              "score": 90,
+              "evaluation": "The homepage is a direct reinforcement of the claims made on the 'Approach' page. It promises effectiveness, creativity, and craft, and then shows the awards, the work, and the client list to prove it."
+            }
+          },
+          "checklist": {
+            "pass": [
+              "delivers a consistent Creator/Rebel archetype"
+            ],
+            "warn": [
+              "irreverent tone may not resonate with more conservative brands"
+            ],
+            "fail": [
+              "lacks a clear manifesto beyond creative effectiveness"
+            ]
+          }
+        },
+        "hi04_audience_resonance": {
+          "label": "AUDIENCE RESONANCE",
+          "score": 85,
+          "diagnosis": "LASER-AIMED",
+          "so_what": "The page is precisely calibrated for its target audience of brand and marketing leaders, primarily Millennials and Gen X. The combination of top-tier creative work and hard proof of effectiveness (Effie awards) speaks directly to a decision-maker who needs to justify a premium agency choice with both creative flair and business results.",
+          "sub_metrics": {
+            "audience_segment_probability": {
+              "score": 90,
+              "evaluation": "The focus on high-impact, culturally relevant work and prestigious awards strongly targets Millennial marketing leaders (≈0.65) and Gen X CMOs (≈0.30). The evidence in both text and visuals for this top cohort is overwhelming."
+            },
+            "signal_coherence": {
+              "score": 90,
+              "evaluation": "Textual claims of being the 'most effective' and 'most creative' are perfectly anchored by visuals that are both professionally structured (the grid) and creatively explosive (the project art). Text and visuals tell the same story."
+            },
+            "intent_match": {
+              "score": 90,
+              "evaluation": "The page is unambiguously designed for the 'consideration' and 'decision' stages of hiring an agency. It presents a portfolio and credentials, which is exactly what a prospect in this phase needs to see."
+            },
+            "accessibility_signals": {
+              "score": 70,
+              "evaluation": "The page has 3 of 4 signals: inclusive language for its audience, appropriate jargon, and a clear 'Contact' CTA. It fails on commitment-tier visibility, as pricing is completely absent, which is standard but still a friction."
+            }
+          },
+          "audience_segments": [
+            {
+              "label": "Millennials seeking a culturally-relevant agency to build a brand that generates buzz and wins awards",
+              "cohort": "millennials",
+              "probability": 0.65,
+              "evidence_text": "We make brands that people want to talk about. Recognized by 200+ international awards",
+              "evidence_visual": "Vibrant neon color accents in project previews and a focus on high-impact, culturally resonant work like 'BRAVERY'."
+            },
+            {
+              "label": "Gen X seeking a proven, high-performance partner to deliver measurable business results through brand transformation",
+              "cohort": "gen_x",
+              "probability": 0.3,
+              "evidence_text": "Meet the most effective independent agency in the world (Effie Index 2020) & Europe (2024)",
+              "evidence_visual": "Minimalist black-and-white site navigation and grid-based portfolio layout project authority and design rigor."
+            },
+            {
+              "label": "Gen Z seeking a challenger agency to create viral moments and build an authentic social presence",
+              "cohort": "gen_z",
+              "probability": 0.05,
+              "evidence_text": "Ads created by банда are ambitious, relevant, and a bit irreverent.",
+              "evidence_visual": "The 'Clinical Pop' visual territory combines professional structure with energetic, social-media-ready creative."
+            }
+          ],
+          "checklist": {
+            "pass": [
+              "aligns text (effectiveness) and visuals (creativity) perfectly"
+            ],
+            "warn": [
+              "assumes high level of industry knowledge from visitors"
+            ],
+            "fail": [
+              "hides commitment tier by providing no pricing or budget signals"
+            ]
+          }
+        },
+        "hi05_decision_confidence": {
+          "label": "DECISION CONFIDENCE",
+          "score": 65,
+          "diagnosis": "CONFIDENT",
+          "so_what": "The brand projects extreme confidence in its desired next steps: view our work, then contact us. The path is clear and uncluttered. The only point of hesitation is the complete lack of pricing information, which is an industry norm but still requires a leap of faith from the visitor, lowering decision confidence for those who are budget-sensitive.",
+          "sub_metrics": {
+            "cta_clarity": {
+              "score": 90,
+              "evaluation": "The hierarchy is clear. The primary action is to browse the work ('Load more projects'), and the secondary action is to 'Contact'. This is a logical, low-friction flow for an agency website with no competing calls to action."
+            },
+            "pricing_visibility": {
+              "score": 30,
+              "evaluation": "Pricing is entirely absent, forcing a 'contact us for pricing' model. While standard for high-end agencies, this creates significant friction and disrespects the visitor's time if they are not a budget fit."
+            },
+            "next_step_obviousness": {
+              "score": 90,
+              "evaluation": "Within 10 seconds, a visitor knows exactly what to do: scroll to see the work. The 'Contact' link is always visible in the main navigation. The path forward is unambiguous."
+            },
+            "friction_signals": {
+              "score": 50,
+              "evaluation": "The user interface is frictionless. The primary friction is cognitive: the complete opacity on pricing or project size, which forces a high-commitment 'contact us' step to get basic business information. This is a single, major friction point."
+            }
+          },
+          "checklist": {
+            "pass": [
+              "provides a clear primary ('view work') and secondary ('contact') CTA"
+            ],
+            "warn": [
+              "portfolio grid can present a paradox of choice for new visitors"
+            ],
+            "fail": [
+              "omits any pricing or budget range, creating a major friction point"
+            ]
+          }
+        }
+      }
+    },
+    "_usage": {
+      "prompt_tokens": 13976,
+      "completion_tokens": 3141,
+      "total_tokens": 20754,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 3637
+      }
+    },
+    "_model": "gemini-2.5-pro",
+    "_finish_reason": "STOP",
+    "_parse_status": "ok"
   },
-  "marker_8": {
-    "marker_name": "Visual Identity",
-    "slider_a_label": "[SLIDER] THE THERMOSTAT (Visual Temperature)",
-    "slider_a_value": "4/5",
-    "slider_a_position_name": "Radiating (Soft, inviting, approachable)",
-    "slider_b_label": "[SLIDER] THE ENTROPY SCALE (Layout Control)",
-    "slider_b_value": "4/5",
-    "slider_b_position_name": "Playful (Asymmetry, surprise elements)",
-    "territory_number": 2,
-    "territory_name": "Gen-Z Pop",
-    "reasoning": "Pass 1 hypothesis: Gen-Z Pop, as explicitly stated by the visual analysis report. Pass 2: Slider A scores 4/5 Radiating. The visual agent notes 'hot' content (neon yellow, pink) and high-vibrancy colors, creating an energetic, warm feel despite the dark teal background. Slider B scores 4/5 Playful. The use of ASCII art, pixelated graphics, and the 'hacker aesthetic' creates a sense of controlled chaos and expression, not rigid minimalism. Grid: High(4) x High(4) maps to Territory 2. Pass 3: Aligned. The visual evidence strongly supports the Gen-Z Pop territory.",
-    "evidence": "\"visual_territory: Gen-Z Pop\" ... \"color_mood: The clash of high-saturation neon yellow and pink against a sterile beige and deep teal creates a 'hacker-chic' tension\" ... \"imagery_style: abstract-graphic\"",
-    "evidence_src": "HOME PAGE (visual analysis)",
-    "look_and_feel": "A stylized 'digital terminal' aesthetic with a 'hacker-chic' tension, combining raw ASCII-art and neon colors with refined typography to signal disruptive, tech-forward intelligence.",
-    "distinctive_asset_1": "Pixelated logo typeface",
-    "distinctive_asset_2": "ASCII-art scanning animation elements",
-    "distinctive_asset_3": "Vibrant neon yellow color block",
-    "distinctive_asset_4": "Contrast between mono-spaced 'code' fonts and classic serif 'editorial' fonts",
-    "distinctive_asset_5": "Horizontal color-banded sectioning",
-    "palette_color_1": "#FFFF00",
-    "palette_color_2": "#FF79C6",
-    "palette_color_3": "#000000",
-    "palette_color_4": "#002B36",
-    "palette_color_5": "#F2E9DE",
-    "primary_palette": "A high-vibrancy digital palette of neon yellow and pink against black and deep teal that communicates urgency, modern technical fluency, and a disruptive brand personality.",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "The visual analysis report explicitly identifies the territory as 'Gen-Z Pop,' and the slider scores derived from its detailed description (hot content, playful graphics) confirm this mapping."
-    }
-  },
-  "marker_9": {
-    "marker_name": "Messaging",
-    "slider_a_label": "[SLIDER] THE HOOK TARGET (The Subject)",
-    "slider_a_value": "4/5",
-    "slider_a_position_name": "The Result (Effect subject)",
-    "slider_b_label": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
-    "slider_b_value": "2/5",
-    "slider_b_position_name": "Rational (Logical cause-and-effect)",
-    "territory_number": 2,
-    "territory_name": "The Problem Solver",
-    "reasoning": "Pass 1 hypothesis: The Problem Solver. The messaging is entirely focused on diagnosing and fixing brand problems. Pass 2: Slider A scores 4/5 The Result. The hooks are outcome-oriented: 'See who owns what. Find the white space,' 'See where your story breaks.' Slider B scores 2/5 Rational. The persuasion is based on a logical process: 'We decode 15 category leaders,' 'We analyze 1,700+ category leader reviews.' Grid: High(4) x Low(2) maps to Territory 2. Pass 3: Aligned. The brand sells a rational solution to a clear business problem.",
-    "evidence": "\"See who owns what. Find the white space.\" ... \"See where your story breaks. Claim by claim.\" ... \"We decode 15 category leaders across 17 brand strategy markers — you see exact saturation %.\"",
-    "evidence_src": "HOME PAGE (body copy)",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "The messaging consistently frames the service as a logical process that delivers a tangible result (clarity, a roadmap), which is the core of The Problem Solver territory."
-    }
-  },
-  "marker_10": {
-    "marker_name": "Narrative",
-    "slider_a_label": "[SLIDER] THE PROTAGONIST (Who Solved It)",
-    "slider_a_value": "2/5",
-    "slider_a_position_name": "The Professional (Named specialists, industry insiders)",
-    "slider_b_label": "[SLIDER] THE SETTING (Where It Happened)",
-    "slider_b_value": "2/5",
-    "slider_b_position_name": "Tech-Forward (Biotech labs, modern innovation)",
-    "territory_number": 1,
-    "territory_name": "The Lab Breakthrough",
-    "reasoning": "Pass 1 hypothesis: The Lab Breakthrough. The story is about experts building a proprietary tech solution. Pass 2: Slider A scores 2/5 The Professional. The protagonists are the founders, Viktor and George, presented with their years of specific expertise ('25 years in strategic branding', '10 years in product & tech'). Slider B scores 2/5 Tech-Forward. The setting is one of modern innovation ('Built a proprietary LLM before the ChatGPT hype', 'automated infrastructure'). Grid: Low(2) x Low(2) maps to Territory 1. Pass 3: Aligned. The narrative is a classic tech origin story.",
-    "evidence": "\"Viktor: 25 years architecting global brands.\" ... \"George: 8 years scaling Big Data and Fintech products. Built a proprietary LLM before the ChatGPT hype.\" ... \"At PokPok.ai, he turns complex strategy into automated infrastructure\"",
-    "evidence_src": "HOME PAGE (body copy)",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "The brand's origin story is explicitly about seasoned professionals leveraging advanced technology to create a new solution, which is the definition of The Lab Breakthrough narrative."
-    }
-  },
-  "marker_11": {
-    "marker_name": "Key Selling Points",
-    "slider_a_label": "[SLIDER] THE VALIDATOR (Who Says It Works?)",
-    "slider_a_value": "2/5",
-    "slider_a_position_name": "The Lab (Scientists, Estheticians)",
-    "slider_b_label": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
-    "slider_b_value": "2/5",
-    "slider_b_position_name": "The Stat (95% saw reduction in acne)",
-    "territory_number": 1,
-    "territory_name": "Derm-Validation",
-    "reasoning": "Pass 1 hypothesis: Derm-Validation (or Expert Validation). The proof is the methodology and the expertise behind it. Pass 2: Slider A scores 2/5 The Lab. The validators are the expert founders and the jury of the B150 Vibeathon (Perplexity, Vercel, etc.), which represents professional validation. Slider B scores 2/5 The Stat. The proof is numerical and data-driven: '17 brand strategy markers,' '15 top category pages,' '1,700+ category leader reviews.' Grid: Low(2) x Low(2) maps to Territory 1. Pass 3: Aligned. The brand uses expert authority and data as its primary proof points.",
-    "evidence": "\"We decode 15 category leaders across 17 brand strategy markers\" ... \"We analyze 1,700+ category leader reviews\" ... \"Jury: Perplexity, N8N, ElevenLabs, Vercel...\"",
-    "evidence_src": "HOME PAGE (body copy) + HOME PAGE (headline)",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "The brand consistently uses its rigorous, data-intensive methodology and the credentials of its founders as the primary reasons to believe, fitting the expert-led validation territory."
-    }
-  },
-  "marker_12": {
-    "marker_name": "USP",
-    "slider_a_label": "[SLIDER] THE OWNERSHIP CLAIM (What Makes You Unique)",
-    "slider_a_value": "5/5",
-    "slider_a_position_name": "The Proprietary System (Patented engineering platform)",
-    "slider_b_label": "[SLIDER] THE TARGET SCOPE (Market Breadth)",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "The Price Leader (Radical affordability)",
-    "territory_number": 3,
-    "territory_name": "The Value Hacker",
-    "reasoning": "Pass 1 hypothesis: The Value Hacker. The entire business model is based on delivering enterprise-level tech at an indie price. Pass 2: Slider A scores 5/5 The Proprietary System. The USP is the unique methodology and tech stack ('proprietary framework', 'proprietary LLM'). Slider B scores 1/5 The Price Leader. The USP is radical affordability ('€50' vs. '€50K+'). Grid: High(5) x Low(1) maps to Territory 3. Pass 3: Aligned. This is a textbook example of The Value Hacker.",
-    "evidence": "\"Our engine scrapes real shelf data... then runs them through a proprietary framework.\" ... \"€50 /report\" vs \"THE ENTERPRISE WAY €50K+\" ... \"We automated the Human Inefficiency Tax\"",
-    "evidence_src": "HOME PAGE (body copy) + MANIFESTO PAGE",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "The brand's unique selling proposition is the combination of its proprietary, high-end technology and its radically low price point, which is the exact definition of The Value Hacker."
-    }
-  },
-  "marker_13": {
-    "marker_name": "Focus",
-    "slider_a_label": "[SLIDER] THE DEPTH GAUGE (Content Purpose)",
-    "slider_a_value": "1/5",
-    "slider_a_position_name": "The Textbook (Diagrams, molecules, cross-sections)",
-    "slider_b_label": "[SLIDER] THE INTENT VECTOR (Content Goal)",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "The Thesis (Clinical studies, dermatologist quotes)",
-    "territory_number": 1,
-    "territory_name": "Science Education",
-    "reasoning": "Pass 1 hypothesis: Science Education. The entire homepage is a deep dive into the methodology and the problems it solves. Pass 2: Slider A scores 1/5 The Textbook. The content is dense, structured, and deeply explanatory, breaking down the 'Three Steps' and 'Six Reports.' Slider B scores 1/5 The Thesis. The goal is to build trust by proving the depth and validity of the methodology ('Proof of Depth. Not Claims.'). Grid: Low(1) x Low(1) maps to Territory 1. Pass 3: Aligned. The brand focuses on educating the user about its superior process to build credibility.",
-    "evidence": "\"Three Steps. Three Layers. The Full X-Ray.\" ... \"Six Reports. Two Angles. Proof of Depth. Not Claims.\" ... \"Frameworks are useful. Real data is better.\"",
-    "evidence_src": "HOME PAGE (body copy) + MANIFESTO PAGE",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "The website's primary focus is to educate potential customers on its complex methodology to establish credibility and trust, which is the core of the Science Education territory."
-    }
-  },
-  "marker_14": {
-    "marker_name": "Functional Benefits",
-    "slider_a_label": "[SLIDER] THE ACTION VECTOR (The Mechanism)",
-    "slider_a_value": "5/5",
-    "slider_a_position_name": "The Fixer (Reverses damage, cracks, acne)",
-    "slider_b_label": "[SLIDER] THE OUTCOME TARGET (The Goal)",
-    "slider_b_value": "1/5",
-    "slider_b_position_name": "Biological (pH balance, microbiome, lipid layer)",
-    "territory_number": 1,
-    "territory_name": "Restoration",
-    "reasoning": "Pass 1 hypothesis: Restoration. The service is designed to fix broken brand strategies. Pass 2: Slider A scores 5/5 The Fixer. The benefit is explicitly about repairing damage ('diagnosing positioning fractures', 'rebuild content from diagnosis'). Slider B scores 1/5 Biological. The outcome is improved brand 'health'—better alignment, higher conversion—which is an invisible, systemic improvement. Grid: High(5) x Low(1) maps to Territory 1. Pass 3: Aligned. The functional benefit is the restoration of a brand's strategic health.",
-    "evidence": "\"diagnosing positioning fractures in your category, reviews, and pages, we tell you exactly what to rebuild and how.\" ... \"See where your story breaks. Claim by claim.\" ... \"Rebuild content from diagnosis. Not guesses.\"",
-    "evidence_src": "HOME PAGE (body copy)",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "Adapting the marker for a service, the core function is to repair ('restore') a broken brand strategy by identifying and fixing specific fractures, which aligns perfectly with the Restoration territory."
-    }
-  },
-  "marker_15": {
-    "marker_name": "Emotional Benefits",
-    "slider_a_label": "[SLIDER] THE ANXIETY AXIS (The Emotional Direction)",
-    "slider_a_value": "2/5",
-    "slider_a_position_name": "Reassurance (Don't worry, this works)",
-    "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS (The Audience)",
-    "slider_b_value": "4/5",
-    "slider_b_position_name": "Savvy (I feel smart/validated for choosing this)",
-    "territory_number": 2,
-    "territory_name": "Confidence",
-    "reasoning": "Pass 1 hypothesis: Confidence. The service replaces guessing with knowing, giving founders the confidence to act. Pass 2: Slider A scores 2/5 Reassurance. The service addresses the anxiety of uncertainty ('I have no idea who I'm walking into', 'Stop guessing'). Slider B scores 4/5 Savvy. The emotional payoff is feeling smart for choosing a data-driven, cost-effective tool over an overpriced agency ('Overthink. Not overspend.'). Grid: Low(2) x High(4) maps to Territory 2 Confidence. Pass 3: Aligned. The benefit is the confidence that comes from making a smart, informed decision.",
-    "evidence": "\"Stop guessing. Start _knowing._\" ... \"Don't know who owns the category language, where the white space is, or which positioning is already taken.\" ... \"OVERTHINK. NOT OVERSPEND.\"",
-    "evidence_src": "HOME PAGE (body copy) + MANIFESTO PAGE",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "The service directly addresses founder anxiety ('guessing') and provides an emotional payoff of feeling intelligent and capable ('knowing'), which combines to build Confidence."
-    }
-  },
-  "marker_16": {
-    "marker_name": "Self-Expression",
-    "slider_a_label": "[SLIDER] THE SIGNAL DRIVER (Purchase Motivation)",
-    "slider_a_value": "2/5",
-    "slider_a_position_name": "The Smart Choice (because it makes sense)",
-    "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION (Social Position)",
-    "slider_b_value": "4/5",
-    "slider_b_position_name": "The Insider (Hard to find; if you know, you know)",
-    "territory_number": 3,
-    "territory_name": "The Purist",
-    "reasoning": "Pass 1 hypothesis: The Purist. Choosing PokPok is a statement about valuing truth and data over traditional, fluffy marketing. Pass 2: Slider A scores 2/5 The Smart Choice. The purchase is framed as a rational, logical decision for a business. Slider B scores 4/5 The Insider. The brand is positioned for a specific tribe ('indie-founder', 'Truth Seekers Club') that rejects the mainstream 'corpo approach'. Grid: Low(2) x High(4) maps to Territory 3. Pass 3: Aligned. The user expresses their identity as a discerning founder who is part of a niche group that prioritizes substance.",
-    "evidence": "\"Built by people who got sick of marketing fluff and fake-it-till-you-make-it culture.\" ... \"NO FUCKING CORPO APPROACH.\" ... \"Join our newsletter for brand owners — get free access to ecom-specific news feeds\"",
-    "evidence_src": "HOME PAGE (body copy) + MANIFESTO PAGE",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "The purchase signals adherence to a specific set of values (truth, data, anti-corporate) shared by a niche community, which is the essence of The Purist."
-    }
-  },
-  "marker_17": {
-    "marker_name": "Social Benefits",
-    "slider_a_label": "[SLIDER] THE SOCIAL VECTOR (Social Goal)",
-    "slider_a_value": "4/5",
-    "slider_a_position_name": "Distinction (I want to be noticed)",
-    "slider_b_label": "[SLIDER] THE GROUP DYNAMIC (Tribal Scale)",
-    "slider_b_value": "4/5",
-    "slider_b_position_name": "The Club (Enthusiasts/Fans)",
-    "territory_number": 4,
-    "territory_name": "The Insider Clique",
-    "reasoning": "Pass 1 hypothesis: The Insider Clique. The brand is building a community of 'Truth Seekers' who are distinct from the mainstream. Pass 2: Slider A scores 4/5 Distinction. Using PokPok is a way to stand apart from those who rely on outdated, expensive agencies. Slider B scores 4/5 The Club. The 'Truth Seekers Club' is explicitly framed as a community for brand owners with shared values. Grid: High(4) x High(4) maps to Territory 4. Pass 3: Aligned. The social benefit is membership in an exclusive club of savvy, truth-oriented founders.",
-    "evidence": "\"What is the Truth Seekers Club? Join our newsletter for brand owners...\" ... \"Built by people who got sick of marketing fluff\" ... \"Agencies love 'battle-tested' strategy. The battle ended two trends ago.\"",
-    "evidence_src": "HOME PAGE (body copy) + MANIFESTO PAGE",
-    "evaluation_check": {
-      "coherence_status": "aligned",
-      "coherence_reasoning": "The brand explicitly cultivates a sense of community ('Truth Seekers Club') for a select group that defines itself in opposition to the mainstream, which is the core of The Insider Clique."
+  "GEO_evaluation": {
+    "score": 50,
+    "label": "AI PARTIAL",
+    "diagnosis": "SEVERE ENTITY COLLISION",
+    "profile": "Banda Agency has a strong on-page portfolio with highly verifiable claims and excellent taxonomy alignment. However, its AI visibility is critically compromised by its brand name. 'Banda' collides with Mexican music genres, historical islands, and prominent athletes, which currently dominate the brand's Reddit and Wikipedia signals. Because the site lacks JSON-LD schema to explicitly define itself as a creative agency, AI models will likely misattribute queries for 'Banda' to these higher-authority entities.",
+    "fix": "Ship Organization and ProfessionalService JSON-LD schema immediately. Include 'sameAs' links to the agency's specific social profiles and use 'alternateName: Banda Agency' to force AI models to disambiguate the agency from the surname.",
+    "flags": {
+      "entity_drift": true,
+      "critical_blackout": false,
+      "foundation_failure": true,
+      "trustpilot_collapse": false,
+      "category_hint_corrupted": false,
+      "third_party_taxonomy_error": false,
+      "reddit_sentiment_negative": false
+    },
+    "metrics": {
+      "ai01_findability": {
+        "label": "AI FINDABILITY",
+        "score": 57,
+        "diagnosis": "SCHEMA BLINDSPOT",
+        "so_what": "AI models can easily extract Banda's impressive award history and founding details, but lack the structured data needed to confidently categorize the entity. Without JSON-LD, the agency relies entirely on text parsing, which is highly risky given the brand name's ambiguity. The lack of a canonical URL further weakens the signal.",
+        "sub_metrics": {
+          "structured_data": {
+            "score": 50,
+            "evaluation": "GEO_ANALYSIS shows json_ld_blocks_found: 0; json_ld_types: []; og: 5/6 core tags; twitter: yes (3/4); meta_desc: present; canonical: absent; hreflang_count: 0. AI engines must infer from prose; add Product/Organization JSON-LD with og:image to lift the score.",
+            "flags_emitted": []
+          },
+          "quotable_content": {
+            "score": 50,
+            "evaluation": "Banda provides solid quotable facts like 'Recognized by 200+ international awards' and 'Founded in Kyiv, Ukraine, since 2011'. However, the page lacks specific statistical outcomes for its client case studies. Add concrete performance metrics (e.g., 'increased sales by X%') to project descriptions to feed AI retrieval.",
+            "flags_emitted": []
+          },
+          "entity_clarity": {
+            "score": 70,
+            "evaluation": "The brand clearly identifies itself as a 'creative agency' and 'independent agency' alongside the name 'banda' or 'Banda Agency'. To reach 90, place a strict definitional sentence ('Banda is a creative agency that...') in the first 100 words rather than relying on scattered headers.",
+            "flags_emitted": []
+          }
+        },
+        "checklist": {
+          "pass": [
+            "Claims verifiable awards like Effie Index and Cannes Lions."
+          ],
+          "warn": [
+            "Scatters brand definitions instead of leading with them."
+          ],
+          "fail": [
+            "Omits all JSON-LD schema, blinding AI to entity type."
+          ]
+        }
+      },
+      "ai02_content_focus": {
+        "label": "AI SIGNAL CLARITY",
+        "score": 66,
+        "diagnosis": "PORTFOLIO HEAVY",
+        "so_what": "The portfolio-heavy content provides excellent, concrete data points (named clients, specific awards) that AI models favor over marketing fluff. However, the introductory copy leans on subjective boosters that LLMs typically filter out during summarization. The high verifiability of the awards is a major asset.",
+        "sub_metrics": {
+          "fact_to_filler_ratio": {
+            "score": 70,
+            "evaluation": "The copy balances marketing flair with concrete named entities like 'PrivatBank', 'Silpo', and 'Red Dot Awards'. The ratio sits around 1:2 fact-to-filler. Replace subjective claims like 'standout aesthetic design systems' with specific methodologies to improve density.",
+            "flags_emitted": []
+          },
+          "adjective_load": {
+            "score": 50,
+            "evaluation": "The text relies on several booster adjectives like 'awesome', 'iconic', 'standout', and 'crazy-fast'. AI models strip these out during semantic processing. Swap these subjective intensifiers for concrete descriptors of the work delivered.",
+            "flags_emitted": []
+          },
+          "specificity_index": {
+            "score": 70,
+            "evaluation": "The portfolio section anchors the page in highly specific, Rung 1 and 2 claims, detailing exact projects like 'Kvass made from yesterday’s baguette for @silpoua'. The introductory positioning remains slightly abstract. Ground the intro in the same concrete reality as the case studies.",
+            "flags_emitted": []
+          },
+          "data_point_density": {
+            "score": 50,
+            "evaluation": "The page includes about 7-8 solid data points, including award years ('2024', '2020'), founding year ('2011'), and award counts ('200+'). Injecting specific campaign performance numbers (ROI, reach, conversion lifts) would push this density higher for AI ingestion.",
+            "flags_emitted": []
+          },
+          "claim_verifiability": {
+            "score": 90,
+            "evaluation": "Banda excels at claim verifiability by explicitly naming the awarding bodies for its accolades, such as 'Effie Index 2020', 'Red Dot in Packaging Design', and 'Cannes Lions'. AI models can easily cross-reference these claims against external knowledge graphs.",
+            "flags_emitted": []
+          }
+        },
+        "checklist": {
+          "pass": [
+            "Names specific clients like Silpo, Comfy, and PrivatBank."
+          ],
+          "warn": [
+            "Relies on subjective boosters like awesome and iconic."
+          ],
+          "fail": [
+            "Hides concrete campaign performance metrics and ROI data."
+          ]
+        }
+      },
+      "ai03_ai_positioning": {
+        "label": "AI CATEGORY POSITIONING",
+        "score": 48,
+        "diagnosis": "EXTERNAL HIJACK",
+        "so_what": "Banda perfectly aligns with creative agency taxonomy on-page, but its external signals are a disaster. Reddit and Wikipedia signals are entirely hijacked by athletes named Banda, meaning AI models will not associate the standalone word 'Banda' with an agency without explicit context. The brand must aggressively use 'Banda Agency' in all external PR.",
+        "sub_metrics": {
+          "category_keyword_alignment": {
+            "score": 90,
+            "evaluation": "The page is densely packed with standard creative agency taxonomy, including 'brand launch', 'transformation strategies', 'rebranding', and 'packaging design'. This perfect alignment ensures AI categorizes the agency accurately when parsing the page directly.",
+            "flags_emitted": []
+          },
+          "competitor_placement": {
+            "score": 50,
+            "evaluation": "Banda clearly identifies its category but lacks explicit competitive positioning or 'unlike traditional agencies' framing. AI models struggle to rank brands that don't define what they are replacing. Add a section contrasting Banda's approach with legacy agency models.",
+            "flags_emitted": []
+          },
+          "value_proposition_clarity": {
+            "score": 50,
+            "evaluation": "The first 200 words clearly establish WHAT the agency does (brand launch, design systems) and WHY to choose them (200+ awards). It omits explicit target audience (WHO) and pricing/engagement models (HOW-MUCH). Explicitly name the ideal client profile to improve AI matching.",
+            "flags_emitted": []
+          },
+          "category_recognition_external": {
+            "score": 0,
+            "evaluation": "External social signals are completely hijacked by entity collisions with athletes named 'Banda' (e.g., Anthony Banda in baseball, Barbra Banda in NWSL). AI models will associate the brand name with sports rather than creative agencies. The agency must aggressively build digital PR linking 'Banda Agency' to marketing contexts to override this noise.",
+            "flags_emitted": [
+              "entity_drift"
+            ]
+          }
+        },
+        "checklist": {
+          "pass": [
+            "Uses accurate taxonomy like brand launch and design systems."
+          ],
+          "warn": [
+            "Omits explicit target audience in the value proposition."
+          ],
+          "fail": [
+            "Loses external signals to athletes with the surname Banda."
+          ]
+        }
+      },
+      "ai04_crawler_coverage": {
+        "label": "AI CRAWL READINESS",
+        "score": 60,
+        "diagnosis": "BOTS ALLOWED",
+        "so_what": "The site's technical foundation is solid for traditional search crawlers, with all major AI bots allowed and basic infrastructure in place. However, the absence of an llms.txt file means AI agents lack a prioritized map of the agency's best case studies.",
+        "sub_metrics": {
+          "bot_coverage": {
+            "score": 90,
+            "evaluation": "CRAWL_INFRASTRUCTURE shows 5/5 critical bots and 6/6 secondary. Blocked: (none). All major AI bots reach the page. Unblock the missing critical bots in robots.txt.",
+            "flags_emitted": []
+          },
+          "llms_txt_quality": {
+            "score": 0,
+            "evaluation": "CRAWL_INFRASTRUCTURE.llms_txt_present: false. AI agents have no route map. Ship a 30-line llms.txt at /llms.txt naming hero sections + 6 hero URLs.",
+            "flags_emitted": []
+          },
+          "infrastructure_basics": {
+            "score": 90,
+            "evaluation": "robots.txt: present, sitemap_reference: yes, sitemap_url: https://banda.agency/sitemap.xml (canonical), https_enforced: true. All foundational crawl signals present.",
+            "flags_emitted": []
+          }
+        },
+        "checklist": {
+          "pass": [
+            "Allows all major AI crawlers including GPTBot and Claude."
+          ],
+          "warn": [
+            "Lacks an llms.txt file to guide agents to case studies."
+          ],
+          "fail": [
+            "Omits canonical URL tags in the site header."
+          ]
+        }
+      },
+      "ai05_knowledge_anchoring": {
+        "label": "AI KNOWLEDGE ANCHORING",
+        "score": 28,
+        "diagnosis": "IDENTITY CRISIS",
+        "so_what": "Banda's knowledge anchoring is critically weak due to a massive entity collision. Wikipedia and Wikidata entries for 'Banda' point to a surname, not the agency. Without Organization schema to disambiguate, AI models will consistently confuse the agency with other entities.",
+        "sub_metrics": {
+          "brandname_uniqueness": {
+            "score": 0,
+            "evaluation": "'Banda' suffers from severe entity collision, sharing its name with a Mexican music genre, historical islands, and numerous athletes. AI models will default to these higher-authority entities unless the brand is strictly queried as 'Banda Agency'. Always use the full 'Banda Agency' in digital PR and schema to force disambiguation.",
+            "flags_emitted": []
+          },
+          "schema_category_fit": {
+            "score": 0,
+            "evaluation": "The site ships zero JSON-LD structured data, leaving AI crawlers to guess its entity type from raw text. This is a critical failure for a brand fighting severe name collisions. Implement Organization and ProfessionalService schema immediately, explicitly defining the 'sameAs' properties to link your social profiles.",
+            "flags_emitted": []
+          },
+          "knowledge_graph_presence": {
+            "score": 70,
+            "evaluation": "wikipedia_present: true; summary length: 60 chars. wikidata_id: 'Q16479793'; wikidata_label: 'Banda'; wikidata_description: 'family name'. Both anchors present and matching.",
+            "flags_emitted": []
+          },
+          "identity_convergence": {
+            "score": 70,
+            "evaluation": "BRAND_NAMING.brand_inferred 'banda' vs names_found: og_site_name=✓(banda); title_tag=✓(banda.agency); h1=✗(); wikidata_label=✓(Banda); wikipedia_title=✓(Banda (surname)). 4/5 surfaces agree. Names converge — strong identity.",
+            "flags_emitted": []
+          },
+          "trustpilot_anchoring": {
+            "score": 0,
+            "evaluation": "ENTITY_AUTHORITY.trustpilot_present: false. No third-party trust anchor — for B2B/niche brands this is expected; for consumer DTC brands, claim a Trustpilot profile.",
+            "flags_emitted": []
+          }
+        },
+        "checklist": {
+          "pass": [
+            "Maintains consistent brand naming across meta tags."
+          ],
+          "warn": [
+            "Lacks third-party B2B review anchors like Clutch."
+          ],
+          "fail": [
+            "Collides heavily with a common surname and music genre."
+          ]
+        }
+      }
     }
   }
 }
