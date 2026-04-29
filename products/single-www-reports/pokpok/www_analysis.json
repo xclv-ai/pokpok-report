@@ -1,51 +1,51 @@
 {
-  "url": "https://tatcha.com/",
-  "brand": "Tatcha",
+  "url": "https://www.entlify.com",
+  "brand": "Entlify",
   "5_truth": {
     "truth_1": {
-      "headline": "The brand identity is built on story and feeling, not on clinical proof.",
-      "gap_description": "The 17-marker framework reads Tatcha as a 'Nurturing Sage Persona' with a dominant 'Caregiver' archetype (60%). Its values are 'Heritage & Craft,' prioritizing story over data, and its messaging is 'The Promise Maker,' selling aspirational dreams. The entire brand identity is a masterclass in soft power, persuading through a founder's narrative, sensory indulgence, and the promise of a mindful ritual. It's a brand built to be felt, not just used, attracting buyers who value story as much as the formula.",
-      "evidence": "'The Caregiver 60% / The Sage 25% / The Lover 15%' (HI.marker_6) | 'Values: Heritage & Craft' (HI.marker_3.territory_name) | 'Messaging: The Promise Maker' (HI.marker_9.territory_name) | 'persuading with aspirational dreams of 'glassy shine' and 'luminous hydration' rather than just functional claims.' (HI.category_summaries.communication.description) | 'The payoff for the user is not just better skin, but participation in a rich, mindful tradition' (HI.category_summaries.foundation.description)",
-      "why_matters": "A brand built on story and ritual creates a powerful emotional moat and justifies a premium price. However, it actively filters out customers who make decisions based on clinical data, ingredient percentages, or side-by-side comparisons. The brand's identity is its strength with one cohort and its primary barrier to entry with another.",
-      "hard_choice": "The brand's identity creates a strategic choice. One path is to double down on the narrative, accepting that the brand will never win the data-driven, clinical-first customer and focusing entirely on the audience that buys into the philosophy. A second path is to begin weaving more tangible proof points into the story—not to replace it, but to substantiate it—to broaden its appeal without losing its soul. The strategic question is: Does the brand's authority come solely from its story, or does the story now need the support of visible, clinical-style evidence to grow?"
+      "headline": "The brand identity is a clinical, competent Sage that has no room for warmth.",
+      "gap_description": "The 17-marker framework consistently projects an identity of a 'Reliable Expert' (Personality) with a 'Sage' archetype (70%) that speaks with 'The Clinical Authority' (Tone of Voice) and presents a 'Pharma-Code' visual identity. Every dimension converges on high competence and low warmth. The brand is built to be respected for its data-driven precision, not liked for its personality. It is an efficient, emotionally distant machine for delivering results.",
+      "evidence": "'The Reliable Expert' (HI.marker_5.territory_name) | 'Distant (Professional, polite, but emotionally flat)' (HI.marker_5.slider_a_position_name) | 'The Sage 70%' (HI.marker_6.primary.archetype) | 'The Clinical Authority' (HI.marker_7.territory_name) | 'Pharma-Code' (HI.marker_8.territory_name)",
+      "why_matters": "This hyper-rational identity perfectly attracts clients who view marketing as a science and prioritize predictable ROI. It actively repels clients who seek a creative partner for brand building, storytelling, or community engagement. The URL is a highly effective filter; it wins the spreadsheet-driven buyer and loses the vision-driven one by design.",
+      "hard_choice": "The brand's disciplined identity creates a strategic choice. One path is to double down on being the 'marketing machine,' owning the niche of pure performance and accepting that this excludes clients seeking creative or brand-led growth. A second path is to intentionally introduce a human or creative element into the Sage identity, potentially broadening its appeal to clients who want both results and a story, but risking a dilution of its current sharp positioning. The strategic question is: does future growth come from being the absolute best at clinical execution, or from expanding the definition of what the brand can do for a client?"
     },
     "truth_2": {
-      "headline": "AI engines are confused about what Tatcha is and see its content as marketing noise.",
-      "gap_description": "The AI/GEO read is a 53 ('VAGUE & UNANCHORED'), with multiple catastrophic flags firing. AI05 Knowledge Anchoring is broken because the brand's Wikidata entry identifies it as a person, not a company. AI02 Content Focus scores a 10 ('MARKETING OVERLOAD') because the page is saturated with adjectives and has a fact-to-filler ratio worse than 1:8. AI engines see a page with a confused identity that offers almost no verifiable information.",
-      "evidence": "'wikidata_label: 'Tatchawan Kanitpong'' (GEO.metrics.ai05_knowledge_anchoring.sub_metrics.knowledge_graph_presence.evaluation) | 'flags.entity_drift: true' (GEO.flags.entity_drift) | 'flags.trustpilot_collapse: true' (GEO.flags.trustpilot_collapse) | 'AI SIGNAL CLARITY, score: 10, diagnosis: MARKETING OVERLOAD' (GEO.metrics.ai02_content_focus) | 'The fact-to-filler ratio is worse than 1:8' (GEO.metrics.ai02_content_focus.sub_metrics.fact_to_filler_ratio.evaluation)",
-      "why_matters": "This isn't just poor performance; it's an active identity crisis that damages the brand's credibility with AI. When an AI has to guess what a brand is, it defaults to not recommending it. Tatcha is invisible in AI-generated answers for high-intent queries and cedes the entire category to competitors whose websites provide clear, factual, and correctly anchored information.",
-      "hard_choice": "The brand faces a foundational decision. It can ignore its AI posture, treating it as irrelevant to a brand built on human connection and accepting the loss of AI-driven discovery as a cost of doing business. Or, it can undertake a critical cleanup: correcting its Wikidata entity, addressing its collapsed Trustpilot score, and injecting factual data into its product copy. This would require a shift in content strategy from purely evocative to a hybrid of story and data. The strategic question: Is AI-driven search a primary channel for new customer acquisition, or is it a distraction from the brand's core human-to-human marketing?"
+      "headline": "AI engines see a ghost: a website with a name but no verifiable substance.",
+      "gap_description": "The AI/GEO score is a critically low 39, diagnosed as 'GHOST IN THE MACHINE'. The core failure is in content focus (AI02 score: 6), where the URL's copy is seen as abstract, unverifiable marketing filler. With a fact-to-filler ratio of zero, no structured data, and no knowledge graph presence, AI engines can identify the brand's name but cannot extract any credible information from the URL to treat it as a legitimate, authoritative entity.",
+      "evidence": "'The content on entlify.com is a sea of marketing jargon... with almost no verifiable data points.' (GEO.profile) | 'fact_to_filler_ratio: 0' (GEO.metrics.ai02_content_focus.sub_metrics.fact_to_filler_ratio.score) | 'structured_data: json_ld_blocks_found: 0' (GEO.metrics.ai01_findability.sub_metrics.structured_data.evaluation) | 'knowledge_graph_presence: wikipedia_present: false; ... wikidata_id: 'absent'' (GEO.metrics.ai05_knowledge_anchoring.sub_metrics.knowledge_graph_presence.evaluation)",
+      "why_matters": "Because AI engines classify the URL as low-substance, Entlify will be invisible in AI-generated answers for any query seeking evidence-based recommendations, such as 'Which agency has proven ROI for SaaS?'. Competitors who provide concrete data and structured schema will be cited as sources, while Entlify remains a ghost, discoverable only by prospects who already know its name.",
+      "hard_choice": "The brand faces a choice between two content philosophies. It can maintain its current high-level, benefit-driven copy, which serves human persuasion but fails AI fact-extraction, relying on sales calls to provide hard data. The alternative is to rewrite the website to be data-first, injecting specific numbers and structured data into the public pages. This would make the site a valuable source for AI but could change the tone from a confident pitch to a technical whitepaper. The strategic question is: is the website a sales brochure for humans or a factual dossier for AI?"
     },
     "truth_3": {
-      "headline": "Humans see a polished page but find no third-party proof to trust its claims.",
-      "gap_description": "The human perception score for trust (HI02) is 52, 'MIXED EVIDENCE.' While the page has strong social proof from customer testimonials, it completely lacks any form of external validation. The score for 'visible_certifications' is zero, and the 'claim_to_evidence_ratio' is a low 30. A first-time visitor is asked to trust the word of other customers and the brand itself, but is given no reason to believe the broader industry or any standards body cosigns Tatcha's claims.",
-      "evidence": "'HI02_trust_score: 52, diagnosis: MIXED EVIDENCE' (HI.hi.metrics.hi02_trust_score) | 'visible_certifications: score: 0' (HI.hi.metrics.hi02_trust_score.sub_metrics.visible_certifications) | 'claim_to_evidence_ratio: score: 30' (HI.hi.metrics.hi02_trust_score.sub_metrics.claim_to_evidence_ratio) | 'It lacks REPUTED credibility, with no visible press logos, awards, or endorsements.' (HI.hi.metrics.hi02_trust_score.sub_metrics.trust_signals.evaluation)",
-      "why_matters": "For a cold visitor, the absence of third-party validation is a red flag that can halt the buying journey. It forces the brand's premium price to be justified solely by its own marketing and user reviews. Competitors who display certifications, press mentions, or awards on their homepage create a faster path to trust for new customers, winning conversions Tatcha leaves on the table.",
-      "hard_choice": "The brand must decide where trust is built. One posture is that the homepage is for customers who are already warm, and that trust-building with cold audiences happens on other surfaces like social media, in the press, or at retail counters. Another posture is that the homepage must do the work of converting cold traffic, which requires adding external trust signals—like certifications or media logos—even if it clutters the minimalist aesthetic. The strategic question: Is the homepage a closing room for the convinced, or is it an opening argument for the skeptical?"
+      "headline": "Humans understand the pitch but hit a wall when trying to qualify the price.",
+      "gap_description": "Human perception is strong overall (HI Score: 74), with high marks for clarity, voice, and audience targeting. The single point of failure is decision confidence, dragged down by a `pricing_visibility` score of 30. The brand's 'blind_spot' is the complete absence of pricing signals, forcing every interested visitor—regardless of budget—behind a 'Request a Call' gate. This creates significant friction at the exact moment a qualified prospect is trying to decide if the service is a potential fit.",
+      "evidence": "'The primary friction is the complete absence of pricing signals.' (HI.hi.blind_spot) | 'pricing_visibility: 30' (HI.hi.metrics.hi05_decision_confidence.sub_metrics.pricing_visibility.score) | 'Pricing is completely hidden. The copy explicitly states, 'Reach out to our team for a quote,'' (HI.hi.metrics.hi05_decision_confidence.sub_metrics.pricing_visibility.evaluation) | 'hides all pricing information behind a contact gate' (HI.hi.metrics.hi05_decision_confidence.checklist.fail[0])",
+      "why_matters": "Hiding all pricing information wastes the sales team's time on calls with unqualified leads and causes high-intent prospects who are comparison shopping to bounce. Competitors who provide pricing tiers or even ballpark figures capture the prospects who need to self-qualify on budget before committing time to a conversation.",
+      "hard_choice": "The brand is at a crossroads on its sales qualification strategy. One path is to maintain the high-friction gate, believing that the effort of a sales call filters for the most serious clients and allows for high-value custom quotes. The alternative is to introduce pricing transparency—packages, 'starting at' figures, or a calculator—to let prospects self-qualify. This would likely improve lead quality but might anchor price expectations lower. The strategic question is: should the brand qualify prospects *before* the sales call or *during* it?"
     },
     "truth_4": {
-      "headline": "The URL successfully signals its audience to humans but fails to declare it to AI.",
-      "gap_description": "There is a sharp disconnect between how the page communicates its audience. The human-read (HI04) is 'LASER-AIMED,' correctly identifying a primary Millennial and secondary Gen X cohort with 85% accuracy. However, the AI-read (AI03) finds value proposition clarity is only 30% because the page fails to explicitly state WHO the customer is. The page uses sophisticated visual and tonal cues that humans understand, but omits the simple, declarative sentences that AI engines need.",
-      "evidence": "'hi04_audience_resonance: score: 85, diagnosis: LASER-AIMED' (HI.hi.metrics.hi04_audience_resonance) | 'Millennials seeking premium, ritualistic skincare' (HI.hi.metrics.hi04_audience_resonance.audience_segments[0].label) | 'value_proposition_clarity: score: 30' (GEO.metrics.ai03_ai_positioning.sub_metrics.value_proposition_clarity) | 'It fails to identify WHO the customer is, WHY they should choose this brand, or HOW MUCH it costs.' (GEO.metrics.ai03_ai_positioning.sub_metrics.value_proposition_clarity.evaluation)",
-      "why_matters": "By relying on implicit signaling, Tatcha is invisible to its target audience at the exact moment they use AI to search for products. A Millennial asking an AI for 'premium skincare that's also ethical' will be shown brands that explicitly use those words. Tatcha has the right product and brand values but loses the discovery moment because its homepage doesn't state them in a way a machine can parse.",
-      "hard_choice": "The brand can continue with its implicit, aesthetic-driven targeting, accepting that it will reach its audience through channels other than AI-driven search. This preserves the universal, elegant feel of the copy. Alternatively, it can inject explicit, declarative statements about its target audience and values into the copy, making it more legible to AI but potentially less artful for humans. The strategic question: Is audience targeting a subtle art of visual signaling, or is it a direct science of explicit copywriting for machines?"
+      "headline": "The brand is perfectly positioned for a 'Knowledge Club' that doesn't know it exists.",
+      "gap_description": "The URL is laser-focused on its target audience: 'SaaS teams' and 'fast-growing tech companies,' which HI04 identifies as Millennial and Gen X decision-makers. The brand framework correctly identifies the social benefit as joining 'The Knowledge Club.' However, the AI/GEO analysis reveals zero external validation or discussion within this community. With an external category recognition score of 0 and no organic Reddit mentions, the brand's positioning as the insider's choice for SaaS leaders is a claim that lives only on its own website.",
+      "evidence": "'Millennials leading marketing at SaaS companies...' (probability: 0.65) (HI.hi.metrics.hi04_audience_resonance.audience_segments[0]) | 'The Knowledge Club' (HI.marker_17.territory_name) | 'category_recognition_external: 0' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.score) | 'GEO_ANALYSIS shows a `reddit_mention_count_organic` of 0.' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.evaluation)",
+      "why_matters": "Without third-party discussion, Entlify is invisible where its target audience asks for peer recommendations. When a SaaS CMO asks for agency suggestions in a private community or on a public forum, competitors with an actual community footprint get the referral. The brand has built a clubhouse but has not yet been invited to the neighborhood block party.",
+      "hard_choice": "The brand must decide how to earn its position. One approach is to rely purely on direct sales, targeting companies one-by-one and using testimonials as the sole proof, accepting that organic discovery will be minimal. A second approach is to actively invest in building community presence—participating in relevant forums or publishing thought leadership that gets discussed. This builds the external validation AI and humans seek but requires investment in non-direct-response activities. The strategic question is: is being the 'SaaS Growth Partner' a claim you make on your homepage, or a reputation you earn in the community?"
     },
     "truth_5": {
-      "headline": "Humans read an understandable story; AI reads incomprehensible marketing noise.",
-      "gap_description": "The most significant divergence is in content interpretation. For humans, HI01 Message Clarity is 70 ('UNDERSTANDABLE') and HI04 Audience Resonance is 85 ('LASER-AIMED'). For AI engines, AI02 Content Focus is a catastrophic 10 ('MARKETING OVERLOAD'). The same copy that humans find appealing and clear is seen by machines as low-quality filler because it is high in subjective adjectives and low in verifiable facts. The brand speaks one language to people and another, unintentionally, to machines.",
-      "evidence": "'hi01_message_clarity: score: 70, diagnosis: UNDERSTANDABLE' (HI.hi.metrics.hi01_message_clarity) | 'ai02_content_focus: score: 10, diagnosis: MARKETING OVERLOAD' (GEO.metrics.ai02_content_focus) | 'The page is overloaded with more than 15 subjective, booster adjectives like \"lush,\" \"irresistibly,\" \"Luminous,\"' (GEO.metrics.ai02_content_focus.sub_metrics.adjective_load.evaluation) | 'The fact-to-filler ratio is worse than 1:8, training AI that this domain is for emotional appeal, not information.' (GEO.metrics.ai02_content_focus.sub_metrics.fact_to_filler_ratio.evaluation)",
-      "why_matters": "This divergence means the brand is optimized for on-page conversion at the direct expense of off-page discovery. The evocative language that engages a human visitor is the very thing that causes an AI to de-rank the page as an unreliable source. The brand is winning the heart of the person who lands on the page but losing the race to get in front of them in the first place via AI-powered search.",
-      "hard_choice": "This forces a choice on the brand's primary communication philosophy. It can maintain its human-centric, evocative copy, accepting poor AI visibility as a trade-off for a strong on-page emotional connection. Or, it can re-engineer its language to be 'bilingual,' blending its current storytelling with the factual, verifiable data points that AI requires. This might mean sacrificing some poetic license for machine readability. The strategic question: Is the brand's voice for romancing the visitor who has already arrived, or for convincing the machine to send them there in the first place?"
+      "headline": "Humans read a credible expert; AI reads unsubstantiated filler. The page is built for two different realities.",
+      "gap_description": "The sharpest divergence is in perceived credibility. Humans give the URL a HI Trust Score of 66 ('CREDIBLE'), finding the professional design and testimonials persuasive enough for a 'CLEAR READ' (HI Score: 74). In stark contrast, AI engines score the content a 6 for focus, diagnosing it as 'ABSTRACT AND UNVERIFIABLE' and the overall site as an 'AI WEAK' ghost. The website is perfectly tuned to persuade a human visitor but is composed of language that AI fact-extractors dismiss as worthless.",
+      "evidence": "'HI score: 74. Label: READABLE. Diagnosis: CLEAR READ.' (HI.hi.score + .label + .diagnosis) | 'GEO score: 39. Label: AI WEAK. Diagnosis: GHOST IN THE MACHINE.' (GEO.score + .label + .diagnosis) | 'HI02_trust_score: 66. Diagnosis: CREDIBLE.' (HI.hi.metrics.hi02_trust_score.score + .diagnosis) | 'ai02_content_focus: 6. Diagnosis: ABSTRACT AND UNVERIFIABLE.' (GEO.metrics.ai02_content_focus.score + .diagnosis)",
+      "why_matters": "This divergence means the brand wins the conversion if a human finds the URL but loses the discovery battle because AI gatekeepers will not surface content they deem unsubstantiated. The brand has built an effective closing room but no roads leading to it in the new AI-driven search landscape. It is persuasive to those who arrive but invisible to those who are looking.",
+      "hard_choice": "This forces a choice about the website's primary audience. The brand can continue writing for human psychology, using benefit-oriented language that converts well but performs poorly with AI, thus prioritizing on-page persuasion over AI-driven discovery. Alternatively, it can pivot to a data-first content model with verifiable facts and numbers. This would make the site a trusted source for AI engines, boosting discovery, but could make the copy feel more like a technical document to a human reader. The strategic question is: do you write for the human buyer, or for the AI that brings the buyer to you?"
     },
     "_usage": {
-      "prompt_tokens": 22348,
-      "completion_tokens": 2623,
-      "total_tokens": 28041,
+      "prompt_tokens": 22363,
+      "completion_tokens": 2451,
+      "total_tokens": 28619,
       "prompt_tokens_details": {
         "cached_tokens": 20394
       },
       "completion_tokens_details": {
-        "reasoning_tokens": 3070
+        "reasoning_tokens": 3805
       }
     },
     "_model": "gemini-2.5-pro",
@@ -53,152 +53,152 @@
     "_parse_status": "ok"
   },
   "HI_evaluation": {
-    "brand": "Tatcha",
-    "product_title": "The Dewy Skin Cream",
-    "url": "https://tatcha.com/",
+    "brand": "Entlify",
+    "product_title": "Digital Marketing & Web Dev Services",
+    "url": "https://www.entlify.com",
     "overall_perception_summary": {
-      "headline": "Mindful Japanese Luxury",
-      "description": "Tatcha positions itself as a portal to a more mindful and luxurious way of life, using Japanese ritual as its core narrative. The brand masterfully blends a founder's personal healing journey with a strong social mission and premium, sensory-rich products. It differentiates by selling not just skincare, but a philosophy of 'kindness' and holistic self-care. In the customer's life, Tatcha plays the role of an accessible spiritual guide, transforming a daily routine into a cherished, soul-soothing ritual."
+      "headline": "Pragmatic Growth Partner",
+      "description": "Entlify presents itself as a high-competence, results-obsessed extension of a tech company's marketing team. The brand rejects traditional agency ambiguity, instead promising a direct, data-driven path to revenue through integrated SEO, development, and paid advertising. Its identity is built on pragmatic expertise, using a clinical, data-forward aesthetic to signal that every action is measured and optimized. Entlify's role is not to inspire, but to execute with predictable, cost-conscious efficiency."
     },
     "category_summaries": {
       "foundation": {
-        "title": "Philosophical Heritage Brand",
-        "description": "The brand's stance is The Empowerer, deriving authority from a founder's journey to psychological and physical well-being. Its ethos is rooted in Heritage & Craft, prioritizing timeless Japanese wisdom, gentle ingredients, and narrative over clinical data. The positioning is The Clean Essentialist, using a high-end price point ($80+) and polished, lifestyle-oriented visuals to frame its value as a premium investment in self-care. The payoff for the user is not just better skin, but participation in a rich, mindful tradition that feels both authentic and luxurious."
+        "title": "Efficient Problem Solvers",
+        "description": "Entlify's purpose is that of The Healer, fixing the 'old problem' of inefficient and opaque agency relationships with a new, streamlined approach. The brand's values are rooted in Radical Transparency, leading with 'predictable' KPIs, 'cost-conscious' pricing, and straightforward communication. Its positioning as a Scientific Miracle targets fast-growing tech companies, using a clinical, data-heavy aesthetic to justify its role as a premium performance partner. The payoff for the client is the elimination of guesswork and a direct, measurable line from marketing spend to bottom-line results."
       },
       "identity": {
-        "title": "Nurturing Sage Persona",
-        "description": "The brand's relationship with the customer is that of a Trusted Friend, communicating with warmth and sincerity. Its dominant archetype is The Caregiver, driven by a philosophy of kindness and gentle nurturing, supported by The Sage's deep wisdom. Visually, it embodies an Earthy Organic identity, combining warm, jewel-toned packaging and sensory textures with a clean, structured layout. The brand's voice is The Gentle Guide, speaking in a supportive, respectful, and encouraging tone that educates without intimidating."
+        "title": "The Competent Expert",
+        "description": "The brand's personality is a Reliable Expert: stoic, professional, and emotionally distant, communicating competence through precision, not warmth. The dominant archetype is The Sage (70%), focused on demystifying complex marketing challenges, supported by The Hero's (20%) promise to deliver 'outstanding results.' Visually, the Pharma-Code identity uses a cold, dark-mode UI with high-contrast orange accents to create a 'Clinical Pop' feel. The tone is The Clinical Authority, using formal, serious, and data-driven language to establish its expertise."
       },
       "communication": {
-        "title": "Aspirational Ritual Storytelling",
-        "description": "The hook is The Promise Maker, persuading with aspirational dreams of 'glassy shine' and 'luminous hydration' rather than just functional claims. Its edge is being The Ingredient King, owning the proprietary Hadasei-3™ complex as its unique, story-rich core. The proof comes from the Sensory Experience, relying on testimonials about how the products feel ('heaven on my face') and macro texture photography. The delivery is a Lifestyle Aesthetic, focusing on visual inspiration and the desire for a more beautiful, mindful daily ritual."
+        "title": "Data-Driven Problem Solving",
+        "description": "The messaging hook is The Problem Solver, leading with the end benefit of 'Rank higher, convert better.' The brand's USP is The Tech Engineer, differentiating through a systemic, integrated approach rather than a single tool or ingredient. Key Selling Points are validated through Derm-Validation signals like client testimonials from tech CMOs and case study data visualizations. The communication focus is on Science Education, using detailed guides and charts to prove its mechanism and build trust through expertise."
       },
       "benefits": {
-        "title": "Indulgent Virtue Signal",
-        "description": "Functionally, the brand delivers Correction, with products named for visible, aesthetic improvements like 'line-plumping' and 'wrinkle-smoothing.' The core feeling is Indulgence, offering a moment of private, sensory pleasure that transforms skincare from a chore into a joy. For self-expression, it's a Status Seeker's choice, signaling taste, discernment, and the financial ability to invest in premium products. The primary social badge is that of The Ethical Warrior, allowing customers to signal their virtue and social consciousness with every purchase that supports education equality."
+        "title": "Predictable, Confident Growth",
+        "description": "Functionally, Entlify delivers Restoration, repairing inefficient marketing systems and delivering predictable results. The core emotional benefit is Intelligence; clients feel savvy and in control, having chosen a partner that eliminates waste and focuses on ROI. This translates to a self-expression of The Pragmatist, where the purchase signals rationality and an immunity to marketing hype. The primary social benefit is joining The Knowledge Club, aligning with other high-growth tech leaders who prioritize data-driven decision-making."
       }
     },
     "quick_labels": {
-      "brand_voice": "Gentle Guide",
-      "visual_appeal": "Sensory Luxury",
-      "value_prop": "Ritual as Self-Care",
-      "positioning": "Premium Heritage"
+      "brand_voice": "Clinical Expert",
+      "visual_appeal": "Technical Dark-Mode",
+      "value_prop": "Revenue-Focused Execution",
+      "positioning": "SaaS Growth Partner"
     },
     "marker_1": {
       "marker_name": "Purpose",
       "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
-      "slider_a_value": "3/5",
-      "slider_a_position_name": "Hybrid Science (Nature refined by lab)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "Derm-Validated (White coat authority)",
       "slider_b_label": "[SLIDER] MISSION VECTOR (The Goal)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "Transformation (Joy, vibe, psychology)",
-      "territory_number": 4,
-      "territory_name": "The Empowerer",
-      "reasoning": "Pass 1 hypothesis: The Harmonizer, based on the brand's focus on balancing skin with natural ingredients. Pass 2: Slider A is 3/5 Hybrid Science, as the brand marries 'timeless Japanese botanicals' with the 'Tatcha Institute' in Tokyo. Slider B is 5/5 Transformation; the founder's story is about choosing 'happiness,' and the brand aims to 'uplift the spirit' and 'spark transformation,' a clear psychological unlock. The grid maps any high 'Elevating' mission to The Empowerer. Pass 3: Diverged. The grid result is more accurate; the brand's ultimate purpose is not just balance but a profound psychological shift through ritual.",
-      "evidence": "\"One morning in 2009, Vicky Tsai woke up and said, “I choose happiness.”\" ... \"a philosophy of mindful care that changed the way she saw herself and her skin\" ... \"marry timeless Japanese wisdom with emerging scientific research to create sensorial rituals that engage the senses and uplift the spirit.\"",
-      "evidence_src": "ABOUT PAGE + MISSION PAGE",
+      "slider_b_value": "2/5",
+      "slider_b_position_name": "Restoration (Repairing damage)",
+      "territory_number": 1,
+      "territory_name": "The Healer",
+      "reasoning": "Pass 1 hypothesis: The Healer. Entlify frames its purpose as solving an 'old problem' in the agency world—inefficiency and poor communication. This is a corrective, healing mission. Pass 2: Slider A scores 2/5 Derm-Validated. Authority comes from expertise and process ('advanced tools,' 'AI-ready'), not raw nature. It's a professional, validated approach. Slider B scores 2/5 Restoration. The goal is to fix broken or underperforming marketing efforts ('eliminate guesswork,' 'reduce customer acquisition costs'), restoring them to a state of high performance. Grid: Low(2) x Low(2) maps directly to Territory 1. Pass 3: Aligned. The brand's purpose is to cure the common ailments of digital marketing for its clients.",
+      "evidence": "\"A new approach to an old problem.\" ... \"Web development and digital marketing are expensive, time-consuming, and have unpredictable results.\" ... \"lifts the burden of testing multiple ways to acquire users online.\"",
+      "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
-        "coherence_status": "diverged",
-        "coherence_reasoning": "The holistic hypothesis of The Harmonizer focused on the balance aspect, but the explicit language about transformation, happiness, and uplifting the spirit strongly supports the grid's result of The Empowerer. The brand's purpose is more psychological than purely physical."
+        "coherence_status": "aligned",
+        "coherence_reasoning": "The holistic hypothesis and grid result both point to The Healer. The brand explicitly defines its purpose as solving a pre-existing 'problem' with a more effective, predictable solution."
       }
     },
     "marker_2": {
       "marker_name": "Mission & Vision",
       "slider_a_label": "[SLIDER] SCOPE OF IMPACT (The Blast Radius)",
-      "slider_a_value": "5/5",
-      "slider_a_position_name": "The Crusade (Saving the Earth/Society)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "Optimization (General appearance/glow)",
       "slider_b_label": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "Aspirational (High status, expensive investment)",
-      "territory_number": 4,
-      "territory_name": "The High Priests",
-      "reasoning": "Pass 1 hypothesis: The High Priests, due to the combination of a global social mission and a premium price point. Pass 2: Slider A is 5/5 The Crusade, as the mission is explicitly to 'create a world free of illiteracy and gender inequality' through the 'Beautiful Faces, Beautiful Futures' fund. Slider B is 2/5 Aspirational, with products priced at $80+ and positioned as a luxury investment. Pass 3: Aligned. The grid lookup of High(5) x Low(2) maps directly to The High Priests, confirming the initial hypothesis.",
-      "evidence": "\"Every Tatcha purchase helps fund education equality for children worldwide.\" ... \"create a world free of illiteracy and gender inequality\" ... \"The Dewy Skin Cream Rich Line-Plumping Moisturizer $ 82\"",
-      "evidence_src": "MISSION PAGE + HOME PAGE (body copy)",
+      "slider_b_value": "3/5",
+      "slider_b_position_name": "Selective (Requires education to appreciate)",
+      "territory_number": 2,
+      "territory_name": "The Scientific Vanguard",
+      "reasoning": "Pass 1 hypothesis: The Scientific Vanguard. The mission targets a specific niche ('SaaS teams operating in cloud management, programming, cybersecurity') with a specialized, technical service, implying a selective, expert-driven approach. Pass 2: Slider A scores 2/5 Optimization. The impact is focused on client-level business metrics ('improve your bottom line,' 'increase conversions'), not industry-wide reform. Slider B scores 3/5 Selective. The service is for a specific type of client (tech companies) who understand and value technical marketing. Grid: Low(2) x Mid(3) triggers MID-SCORE FALLBACK. The strong niche focus on tech and SaaS clients pushes the 'selective' score towards exclusive, aligning with The Scientific Vanguard. Pass 3: Aligned. The mission is to provide elite, specialized marketing science to a select group of tech-savvy clients.",
+      "evidence": "\"works with SaaS teams operating in cloud management, programming, cybersecurity, and more.\" ... \"We prioritize the activities that can improve your bottom line from day one.\" ... \"Fast-growing tech companies trust us\"",
+      "evidence_src": "HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's explicit, planet-scale mission combined with its luxury price point is a perfect fit for The High Priests territory."
+        "coherence_reasoning": "The mid-score fallback resolves to The Scientific Vanguard, which aligns with the holistic hypothesis. The brand's mission is clearly focused on optimizing outcomes for a select, technically-astute client base."
       }
     },
     "marker_3": {
       "marker_name": "Values",
       "slider_a_label": "[SLIDER] PERFORMANCE PRIORITY (The Trade-Off)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "Gentle (Effective but comfortable)",
+      "slider_a_value": "4/5",
+      "slider_a_position_name": "High-Performance (Actives take the lead)",
       "slider_b_label": "[SLIDER] INFORMATION DENSITY (The Transparency)",
-      "slider_b_value": "4/5",
-      "slider_b_position_name": "Story-First (Focus on legend or vibe)",
-      "territory_number": 3,
-      "territory_name": "Heritage & Craft",
-      "reasoning": "Pass 1 hypothesis: Heritage & Craft. The brand's values are clearly rooted in story, tradition, and gentleness. Pass 2: Slider A is 2/5 Gentle, based on the 'skincare philosophy of kindness' and the use of 'kind-to-skin ingredients' that work 'gently and effectively.' Slider B is 4/5 Story-First; the brand explains its proprietary complex Hadasei-3™ through its connection to the Japanese diet, not through percentages or clinical charts. The narrative of geishas, ikebana, and zen monks dominates. Pass 3: Aligned. The grid lookup of Low(2) x Low(4) maps directly to Heritage & Craft.",
-      "evidence": "\"our skincare philosophy of kindness reminds us to treat our skin with love and attention.\" ... \"we cherish our skin with gentle yet effective ingredients\" ... \"TATCHA was born from combining the first three letters of each of these deep-rooted phrases [tatehana, chabana].\"",
-      "evidence_src": "MANIFESTO PAGE + POSITIONING PAGE",
+      "slider_b_value": "2/5",
+      "slider_b_position_name": "Evidence-First (Charts, diagrams, studies)",
+      "territory_number": 2,
+      "territory_name": "Radical Transparency",
+      "reasoning": "Pass 1 hypothesis: Radical Transparency. The 'Why Entlify' page lists values like 'Predictable,' 'Cost-conscious,' and 'Straightforward,' all of which point to a transparent, evidence-based approach. Pass 2: Slider A scores 4/5 High-Performance. The focus is on results: 'improve your bottom line from day one,' 'doubled the number of organic impressions.' Slider B scores 2/5 Evidence-First. The site uses charts, gauges ('Health score'), and data points to demonstrate value, and client testimonials serve as evidence. The value 'Predictable' is defined by 'tailored KPIs' and 'quarter-by-quarter action plans.' Grid: High(4) x High(2) maps to Territory 2. Pass 3: Aligned. The brand values high performance and proves it with data and clear, predictable processes.",
+      "evidence": "\"Predictable: Each project is subject to tailored KPIs, quarter-by-quarter action plans...\" ... \"Cost-conscious: our pricing is flexible and mindful of your budget...\" ... \"Straightforward: We simplify ambiguous processes, abbreviations, and numbers...\"",
+      "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand explicitly values gentleness and prioritizes its rich cultural narrative over technical specifications, making it a clear example of the Heritage & Craft territory."
+        "coherence_reasoning": "The brand's explicitly stated values on the 'Why Entlify' page ('Predictable,' 'Straightforward') and its use of data visualizations directly support the Radical Transparency territory."
       }
     },
     "marker_4": {
       "marker_name": "Positioning",
       "slider_a_label": "[SLIDER] AESTHETIC VIBE (The Uniform)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "Polished (Designed for the Shelfie)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "Professional (Clean and serious)",
       "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Status Signal)",
       "slider_b_value": "4/5",
       "slider_b_position_name": "Investment Piece (Considered purchase)",
-      "territory_number": 4,
-      "territory_name": "The Clean Essentialist",
-      "reasoning": "Pass 1 hypothesis: The Clean Essentialist, reflecting its premium, lifestyle-oriented, and visually driven market position. Pass 2: Slider A is 4/5 Polished. The visual analysis confirms a sophisticated aesthetic with jewel-toned packaging, gold detailing, and refined typography designed for a luxury experience. Slider B is 4/5 Investment Piece, supported by high price points (e.g., $82 for a moisturizer) and language like 'exclusive offerings' and 'luxury Japanese skincare.' Pass 3: Aligned. The grid lookup of High(4) x High(4) maps directly to The Clean Essentialist.",
-      "evidence": "\"The Dewy Skin Cream Rich Line-Plumping Moisturizer $ 82\" ... \"Discover exclusive offerings to elevate your loved ones' skincare rituals\" ... \"Gift a Silk Furoshiki Bag... exclusive, limited-edition gift\"",
-      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (promotions)",
+      "territory_number": 2,
+      "territory_name": "The Scientific Miracle",
+      "reasoning": "Pass 1 hypothesis: The Scientific Miracle. The brand uses a professional, almost clinical aesthetic (dark mode, data charts) to position its service as a high-value, technical solution for a sophisticated audience (SaaS companies). Pass 2: Slider A scores 2/5 Professional. The visual identity is clean, serious, and technical, with a dark-mode UI and sans-serif fonts. It avoids sterile white but is far from a lifestyle aesthetic. Slider B scores 4/5 Investment Piece. The service is framed as a strategic partnership that delivers significant ROI ('improve your bottom line,' 'shortest path to revenue'), making it a considered investment, not a utility. Grid: Low(2) x High(4) maps to Territory 2. Pass 3: Aligned. The professional aesthetic justifies the high-value positioning.",
+      "evidence": "\"Fast-growing tech companies trust us...\" ... \"Find the shortest path to revenue with Entlify\" ... \"Our work in action\" (showcasing results) ... Visuals: Dark mode UI, data gauges, client logo cloud.",
+      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy) + PRODUCT GALLERY (visual analysis)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The combination of a highly polished, Instagram-ready aesthetic and a premium price point firmly places Tatcha in The Clean Essentialist territory, targeting the modern luxury consumer."
+        "coherence_reasoning": "The professional, data-driven visual style combined with messaging focused on revenue and ROI for tech companies squarely fits The Scientific Miracle positioning."
       }
     },
     "marker_5": {
       "marker_name": "Personality",
       "slider_a_label": "[SLIDER] WARMTH (The Thermostat)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "Affectionate (Soft, caring language)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "Distant (Professional, polite, but emotionally flat)",
       "slider_b_label": "[SLIDER] COMPETENCE / AUTHORITY (The Power Dynamic)",
-      "slider_b_value": "1/5",
-      "slider_b_position_name": "The BFF (Slang, equality)",
-      "territory_number": 1,
-      "territory_name": "The Trusted Friend",
-      "reasoning": "Pass 1 hypothesis: The Trusted Friend. The brand's voice, rooted in the founder's personal story and a philosophy of kindness, feels sincere and caring. Pass 2: Slider A is 4/5 Affectionate, using language like 'love and attention,' 'calm, joy, and soothing to your soul.' Slider B is 1/5 The BFF; the founder's story ('I choose happiness,' healing her own dermatitis) creates a peer-to-peer dynamic of shared vulnerability and discovery, rather than expert-down authority. Pass 3: Aligned. The grid lookup of High(4) x Low(1) maps directly to The Trusted Friend.",
-      "evidence": "\"Inspired by teinei, which means ‘with care’ in Japanese, our skincare philosophy of kindness reminds us to treat our skin with love and attention.\" ... \"A decade of toiling in corporations had left her disillusioned and suffering from acute dermatitis\"",
-      "evidence_src": "MANIFESTO PAGE + ABOUT PAGE",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "The Specialist (Highly educated)",
+      "territory_number": 3,
+      "territory_name": "The Reliable Expert",
+      "reasoning": "Pass 1 hypothesis: The Reliable Expert. The language is confident, direct, and focused on competence ('Rank higher, convert better'). It avoids emotional language in favor of professional authority. Pass 2: Slider A scores 2/5 Distant. The tone is professional and polite ('Thank you! We'll reach out shortly!') but lacks any real warmth or affection. It's all business. Slider B scores 4/5 The Specialist. The brand speaks with the authority of an expert in a technical field, targeting specific verticals like SaaS and cybersecurity and using specialized language (Core Web Vitals, A/B testing). Grid: Low(2) x High(4) maps to Territory 3. Pass 3: Aligned. The personality is that of a competent, no-nonsense specialist.",
+      "evidence": "\"Ensure your SEO works beyond algorithms.\" ... \"We prioritize the activities that can improve your bottom line from day one.\" ... \"We operate as an extension of your team, proactive and easily approachable.\"",
+      "evidence_src": "HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's personality is defined by high warmth and a relatable, empathetic origin story, making it a classic Trusted Friend."
+        "coherence_reasoning": "The combination of emotionally distant language and high-competence claims is a perfect match for The Reliable Expert personality."
       }
     },
     "marker_6": {
       "marker_name": "Archetypes Mix",
       "primary": {
-        "archetype": "The Caregiver",
-        "group": "A (Stability)",
-        "percentage": "60%"
-      },
-      "secondary": {
         "archetype": "The Sage",
         "group": "B (Independence)",
-        "percentage": "25%"
+        "percentage": "70%"
+      },
+      "secondary": {
+        "archetype": "The Hero",
+        "group": "C (Mastery)",
+        "percentage": "20%"
       },
       "tertiary": {
-        "archetype": "The Lover",
-        "group": "D (Belonging)",
-        "percentage": "15%"
+        "archetype": "The Ruler",
+        "group": "A (Stability)",
+        "percentage": "10%"
       },
-      "territory_number": 4,
-      "territory_name": "The Guardian",
-      "reasoning": "The primary archetype is The Caregiver (60%), driven by the core 'philosophy of kindness,' 'gentle' ingredients, and a mission to nurture. The secondary is The Sage (25%), representing the deep wisdom from Japanese rituals, geishas, and the scientific validation from the Tatcha Institute. The tertiary is The Lover (15%), capturing the 'sensorial rituals,' 'pleasure,' and indulgent textures ('lush new balm'). The territory is The Guardian, as the Caregiver archetype is dominant. Cross-validation: ToV is Territory 3 (Gentle Guide), which expects Caregiver. VI is Territory 3 (Earthy Organic), which expects Caregiver. The primary archetype is coherent.",
-      "evidence": "\"our skincare philosophy of kindness\" (Caregiver) ... \"studied the natural Japanese ingredients and timeless rituals that healed her inside and out\" (Sage) ... \"Our lush new balm melts to an oil that... leaves an irresistibly glassy finish.\" (Lover)",
-      "evidence_src": "MANIFESTO PAGE + ABOUT PAGE + HOME PAGE (body copy)",
+      "territory_number": 3,
+      "territory_name": "The Philosopher",
+      "reasoning": "The Sage (70%) is the dominant archetype, evident in the educational approach ('Digital Marketing for Lawyers' guide), the focus on demystifying complexity ('simplify ambiguous processes'), and the promise of data-informed decisions. The Hero (20%) appears in the results-oriented language ('Rank higher, convert better,' 'Outperform the competition,' 'outstanding results'), framing the engagement as a challenge to be won. The Ruler (10%) is a tertiary influence, seen in the authoritative tone and positioning as a leader for 'fast-growing tech companies.' The territory is The Philosopher, driven by the Sage's focus on clarity, principles, and providing the 'shortest path to revenue' through knowledge, not just force.",
+      "evidence": "\"Find the shortest path to revenue\" (Sage) ... \"Ensure your SEO works beyond algorithms.\" (Sage) ... \"Outperform the competition by identifying gaps and ranking opportunities.\" (Hero) ... \"Fast-growing tech companies trust us\" (Ruler)",
+      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The primary archetype, The Caregiver, is strongly supported by the brand's core philosophy and passes the cross-validation gate against the ToV (Gentle Guide) and VI (Earthy Organic) territories."
+        "coherence_reasoning": "Cross-validation: ToV is Territory 1 (Clinical Authority), which expects Sage or Ruler. VI is Territory 1 (Pharma-Code), which expects Sage, Ruler, or Caregiver. The primary archetype, The Sage, is strongly supported by both the ToV and VI territories. The mix is coherent."
       }
     },
     "marker_7": {
@@ -210,433 +210,433 @@
       "slider_b_value": "2/5",
       "slider_b_position_name": "Traditional (Corporate, proper grammar)",
       "slider_c_label": "[SLIDER] RESPECT (The Power Dynamic)",
-      "slider_c_value": "2/5",
-      "slider_c_position_name": "Respectful (Polite, courteous, careful)",
+      "slider_c_value": "3/5",
+      "slider_c_position_name": "Neutral (Direct, matter-of-fact)",
       "slider_d_label": "[SLIDER] ENTHUSIASM (The Energy Level)",
-      "slider_d_value": "3/5",
-      "slider_d_position_name": "Helpful (Encouraging, positive, but measured)",
-      "territory_number": 3,
-      "territory_name": "The Gentle Guide",
-      "reasoning": "Pass 1 hypothesis: The Gentle Guide, based on the warm, supportive, and educational tone. Pass 2: Sliders are Serious (2/5), Traditional (2/5), Respectful (2/5), and Helpful (3/5). The tone is mindful and caring, not funny, casual, or hype-driven. Applying the hard rules, the first match is Rule 3: E=3 (in 3-4 range), F=2 (in 2-4 range), H=2 (<=3), R=2 (<=3). This assigns Territory 3. Pass 3: Aligned. The rule-based assignment confirms the holistic read.",
-      "evidence": "\"Because our skin is a reflection of our physical and emotional well-being, we believe that skincare is holistic self-care.\" ... \"Giving yourself time to take care of your skin is not a luxury, but a necessity\"",
-      "evidence_src": "ABOUT PAGE + MANIFESTO PAGE",
+      "slider_d_value": "2/5",
+      "slider_d_position_name": "Dry (Just the facts, concise)",
+      "territory_number": 1,
+      "territory_name": "The Clinical Authority",
+      "reasoning": "Pass 1 hypothesis: The Clinical Authority. The language is direct, professional, and devoid of emotion, focusing on technical capabilities and outcomes. Pass 2: Humor is 2/5 (Serious), there are no jokes. Formality is 2/5 (Traditional), using proper corporate language. Respect is 3/5 (Neutral), it's direct and not deferential. Enthusiasm is 2/5 (Dry), with fact-based statements like 'Make every dollar count.' Applying the hard rules: Rule 1 (Clinical Authority) requires Humor <= 2 (met), Enthusiasm <= 2 (met), and Formality >= 2 (met). The conditions are satisfied. STOP. Territory 1. Pass 3: Aligned. The tone is that of a serious, competent expert.",
+      "evidence": "\"Rank higher, convert better.\" ... \"We prioritize the activities that can improve your bottom line from day one.\" ... \"Make every dollar count.\" ... \"Ensure your SEO works beyond algorithms.\"",
+      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The slider scores perfectly fit the criteria for The Gentle Guide in the rule-based assignment system, matching the overall impression of a warm, supportive, and respectful brand voice."
+        "coherence_reasoning": "The slider scores (H=2, F=2, R=3, E=2) meet the criteria for Rule 1, assigning The Clinical Authority territory. This matches the overall impression of a serious, data-driven agency."
       }
     },
     "marker_8": {
       "marker_name": "Visual Identity",
       "slider_a_label": "[SLIDER] THE THERMOSTAT (Visual Temperature)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "Radiating (Soft, inviting, approachable)",
+      "slider_a_value": "1/5",
+      "slider_a_position_name": "Sterile (Hospital white, cool blue)",
       "slider_b_label": "[SLIDER] THE ENTROPY SCALE (Layout Control)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "Structured (Orderly, predictable hierarchy)",
-      "territory_number": 3,
-      "territory_name": "Earthy Organic",
-      "reasoning": "Pass 1 hypothesis: Earthy Organic, focusing on the brand's own assets which are warm, sensory, and natural, presented in a clean, controlled way. Pass 2: Slider A is 4/5 Radiating, as the visual analysis explicitly notes the 'warm' temperature of the branded content, jewel-toned packaging, and soft-focus photography. Slider B is 2/5 Structured, reflecting the 'minimalist' UI, 'stacked-vertical' layout, and overall 'balanced and airy' composition. Pass 3: Aligned. The grid lookup of High(4) x Low(2) maps directly to Earthy Organic.",
-      "evidence": "\"content_analysis: temperature: warm\" ... \"layout_type: stacked-vertical\" ... \"vibrant, jewel-toned product packaging and close-up photography of cream textures\" ... \"minimalist, cool UI Container\"",
-      "evidence_src": "PRODUCT PAGE (visual analysis)",
-      "look_and_feel": "A sophisticated 'Clinical Pop' aesthetic where a minimalist, cool white UI frames warm, vibrant, and sensory branded content, creating a feeling of luxurious, science-backed ritual.",
-      "distinctive_asset_1": "Signature Tatcha Purple color",
-      "distinctive_asset_2": "Refined serif headline typography",
-      "distinctive_asset_3": "Furoshiki (Japanese wrapping cloth) visual motif",
-      "distinctive_asset_4": "Macro cream texture photography",
-      "distinctive_asset_5": "Gold detailing on product packaging",
-      "palette_color_1": "#504294",
-      "palette_color_2": "#e87b64",
-      "palette_color_3": "#7ebca8",
-      "palette_color_4": "#00a0b0",
-      "palette_color_5": "#d9c5b2",
-      "primary_palette": "A vibrant, jewel-toned palette that feels both energetic and deeply premium, derived directly from the distinctive product packaging.",
+      "slider_b_value": "1/5",
+      "slider_b_position_name": "Swiss Grid (Rigid structure, negative space)",
+      "territory_number": 1,
+      "territory_name": "Pharma-Code",
+      "reasoning": "Pass 1 hypothesis: Pharma-Code. The visual analysis describes a 'cold' container with a 'disciplined dark mode layout with clinical precision.' This points directly to a sterile, controlled aesthetic. Pass 2: Slider A scores 1/5 Sterile. The visual agent's container analysis explicitly states the temperature is 'cold,' using a black and gray base. The vibrant orange accents are 'hot' content but they exist within a sterile, clinical frame. Slider B scores 1/5 Swiss Grid. The layout is described as having 'clinical precision in its grid,' 'stacked-vertical,' and orderly, which aligns with maximum control. Grid: Low(1) x Low(1) maps to Territory 1. Pass 3: Aligned. The visual identity is built on a foundation of clinical precision and control.",
+      "evidence": "\"container_analysis: temperature: cold\" ... \"dominant_colors: #000000, #121212\" ... \"disciplined 'dark mode' layout with clinical precision in its grid and typography\" ... \"layout_type: stacked-vertical\"",
+      "evidence_src": "PRODUCT GALLERY (visual analysis)",
+      "look_and_feel": "A sophisticated and technical dark-mode aesthetic, using a high-contrast black and gray foundation punctuated by vibrant orange CTAs and data visualizations to signal performance and precision.",
+      "distinctive_asset_1": "Vibrant brand orange (#FF4D00) call-to-action buttons",
+      "distinctive_asset_2": "Customized technical data visualizations and gauges",
+      "distinctive_asset_3": "Angled arrow motifs in UI navigation elements",
+      "distinctive_asset_4": "Alternating high-contrast black and light-gray background sections",
+      "distinctive_asset_5": "Tech-heavy logo cloud for social proof",
+      "palette_color_1": "#FF4D00",
+      "palette_color_2": "#000000",
+      "palette_color_3": "#FFFFFF",
+      "palette_color_4": "#E0E0E0",
+      "palette_color_5": "#2962FF",
+      "primary_palette": "A performance-driven palette where a professional black and white base is energized by growth-focused orange and analytical blue, designed to appeal to tech-sector stakeholders.",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The visual analysis data strongly supports a warm and controlled visual system for the brand's own content, which is the definition of the Earthy Organic territory."
+        "coherence_reasoning": "The visual analysis report's description of a cold, precise, grid-based layout directly maps to the Pharma-Code territory. The 'Clinical Pop' label from the agent describes the tension, but the underlying structure is Pharma-Code."
       }
     },
     "marker_9": {
       "marker_name": "Messaging",
       "slider_a_label": "[SLIDER] THE HOOK TARGET (The Subject)",
-      "slider_a_value": "5/5",
-      "slider_a_position_name": "The Dream (Identity subject)",
+      "slider_a_value": "4/5",
+      "slider_a_position_name": "The Result (Effect subject)",
       "slider_b_label": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
-      "slider_b_value": "4/5",
-      "slider_b_position_name": "Evocative (Descriptive, sensory language)",
-      "territory_number": 3,
-      "territory_name": "The Promise Maker",
-      "reasoning": "Pass 1 hypothesis: The Promise Maker, as the messaging focuses on aspirational outcomes and sensory experiences. Pass 2: Slider A is 5/5 The Dream. Hooks like 'Glassy Shine,' 'Luminous Deep Hydration,' and 'Ritual of Love' sell an identity and a feeling, not just a function. Slider B is 4/5 Evocative, with language like 'lush new balm melts to an oil' and testimonials saying 'like heaven on my face,' focusing on sensory pleasure. Pass 3: Aligned. The grid lookup of High(5) x High(4) maps directly to The Promise Maker.",
-      "evidence": "\"THE MELTING LIP BALM Glassy Shine, Volumizing Care\" ... \"Our lush new balm melts to an oil that volumizes lips and leaves an irresistibly glassy finish.\" ... \"Give Mom a Ritual of Love\"",
+      "slider_b_value": "2/5",
+      "slider_b_position_name": "Rational (Logical cause-and-effect)",
+      "territory_number": 2,
+      "territory_name": "The Problem Solver",
+      "reasoning": "Pass 1 hypothesis: The Problem Solver. The headline 'Rank higher, convert better' is a classic problem-solution hook, focusing on the end result. Pass 2: Slider A scores 4/5 The Result. The messaging consistently leads with the outcome: 'Rank higher, convert better,' 'Find the shortest path to revenue,' 'Make your goals a reality, much faster.' Slider B scores 2/5 Rational. The persuasion is based on a logical argument: we use data and a proven process to improve your bottom line. It's not emotional. Grid: High(4) x Low(2) maps to Territory 2. Pass 3: Aligned. The messaging is squarely focused on solving business problems with rational, results-oriented claims.",
+      "evidence": "\"Rank higher, convert better.\" ... \"Find the shortest path to revenue with Entlify\" ... \"Reduce customer acquisition costs by maximizing the value of your current website traffic.\"",
       "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand consistently leads with evocative, dream-like language that sells an aspirational state of being, which is the core of The Promise Maker territory."
+        "coherence_reasoning": "The messaging is consistently benefit-driven and uses rational arguments, which is a direct fit for The Problem Solver territory."
       }
     },
     "marker_10": {
       "marker_name": "Narrative",
       "slider_a_label": "[SLIDER] THE PROTAGONIST (Who Solved It)",
-      "slider_a_value": "5/5",
-      "slider_a_position_name": "The Survivor (Founder who cured own condition)",
+      "slider_a_value": "1/5",
+      "slider_a_position_name": "The Nobel (Faceless PhDs, dermatologists)",
       "slider_b_label": "[SLIDER] THE SETTING (Where It Happened)",
-      "slider_b_value": "4/5",
-      "slider_b_position_name": "Harvest (Farms, gardens, botanical sourcing)",
-      "territory_number": 4,
-      "territory_name": "The Ritual",
-      "reasoning": "Pass 1 hypothesis: The Ritual, based on the founder's journey to Kyoto to find a cure in ancient traditions. Pass 2: Slider A is 5/5 The Survivor. The 'Our Story' page is centered on founder Vicky Tsai's personal struggle with 'acute dermatitis' and how she 'healed her inside and out.' Slider B is 4/5 Harvest, as the story is set in 'Kyoto' and inspired by 'natural Japanese ingredients' and 'timeless rituals' from geishas. Pass 3: Aligned. The grid lookup of High(5) x High(4) maps directly to The Ritual.",
-      "evidence": "\"A decade of toiling in corporations had left her disillusioned and suffering from acute dermatitis... She soon found herself in Kyoto, where she encountered a philosophy of mindful care that changed the way she saw herself and her skin.\"",
+      "slider_b_value": "2/5",
+      "slider_b_position_name": "Tech-Forward (Biotech labs, modern innovation)",
+      "territory_number": 1,
+      "territory_name": "The Lab Breakthrough",
+      "reasoning": "Pass 1 hypothesis: The Lab Breakthrough. The narrative is about a superior process and technology ('AI-ready,' 'advanced tools'), not a founder's personal journey or a natural source. Pass 2: Slider A scores 1/5 The Nobel. The protagonist is the faceless agency, 'Entlify,' a collective entity of experts. There is no mention of a founder or specific individuals. Slider B scores 2/5 Tech-Forward. The setting is the modern digital world, emphasizing 'AI algorithms,' 'advanced tools,' and 'new technologies.' Grid: Low(1) x Low(2) maps to Territory 1. Pass 3: Aligned. The story is about an institution using advanced technology to achieve a breakthrough for clients.",
+      "evidence": "\"Our goal is to simplify all aspects of website development and digital marketing activities... with the most advanced tools available.\" ... \"We ensure your website is optimized to meet the demands of new technologies and remain top of mind...\" ... \"AI is here to stay and will impact how users find and use your product.\"",
       "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The narrative is a classic example of The Ritual: a personal healing journey that rediscovers ancient wisdom from a specific, revered place."
+        "coherence_reasoning": "The narrative focuses on the collective agency and its use of modern technology, which perfectly aligns with The Lab Breakthrough territory."
       }
     },
     "marker_11": {
       "marker_name": "Key Selling Points",
       "slider_a_label": "[SLIDER] THE VALIDATOR (Who Says It Works?)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "The Users (Percentage of users who agree)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "The Lab (Scientists, Estheticians)",
       "slider_b_label": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "The Feel (Focus on texture, scent, absorption)",
-      "territory_number": 4,
-      "territory_name": "Sensory Experience",
-      "reasoning": "Pass 1 hypothesis: Sensory Experience. The brand's proof points often revolve around the luxurious feel and ritualistic pleasure of using the products. Pass 2: Slider A is 4/5 The Users, as the homepage prominently features a 5-star testimonial as a key proof point. Slider B is 5/5 The Feel. The copy emphasizes texture ('melts to an oil'), and testimonials highlight the feeling ('like heaven on my face,' 'amazingly soft'). The visual focus on cream textures reinforces this. Pass 3: Aligned. The grid lookup of High(4) x High(5) maps directly to Sensory Experience.",
-      "evidence": "\"★★★★★ Kim T. “I have been using this face cream for years and absolutely nothing compares!! ... This cream is like heaven on my face!!”\" ... \"Our lush new balm melts to an oil\"",
-      "evidence_src": "HOME PAGE (testimonial) + HOME PAGE (body copy)",
+      "slider_b_value": "1/5",
+      "slider_b_position_name": "The Graph (Instrumental studies, molecular charts)",
+      "territory_number": 1,
+      "territory_name": "Derm-Validation",
+      "reasoning": "Pass 1 hypothesis: Derm-Validation. The brand uses client testimonials from high-level execs (CMO, VP of Marketing) and data visualizations (charts, gauges) as its primary forms of proof. Pass 2: Slider A scores 2/5 The Lab. The validators are industry professionals ('Vice President of Marketing,' 'CMO') and the agency's own expertise, not a faceless board or a mass of users. Slider B scores 1/5 The Graph. The proof is presented as data: 'Health score' gauges, traffic charts, and metrics like 'doubled the number of organic impressions.' Grid: Low(2) x Low(1) maps to Territory 1. Pass 3: Aligned. The KSPs are validated by experts and backed by data.",
+      "evidence": "\"Best in class web development... Entlify WAY exceeded our expectations...\" - Vice President of Marketing ... \"doubled the number of organic impressions.\" ... Visuals: Performance charts showing 'Health score' and 'Organic Traffic'.",
+      "evidence_src": "HOME PAGE (body copy) + PRODUCT GALLERY (visual analysis)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand validates its claims through user testimonials that focus on the sensory pleasure and feel of the products, making Sensory Experience a perfect fit."
+        "coherence_reasoning": "The use of expert testimonials (the equivalent of a doctor's recommendation in B2B) and data charts as proof aligns perfectly with the Derm-Validation territory."
       }
     },
     "marker_12": {
       "marker_name": "USP",
       "slider_a_label": "[SLIDER] THE OWNERSHIP CLAIM (What Makes You Unique)",
-      "slider_a_value": "3/5",
-      "slider_a_position_name": "The Signature Complex (Trademarked blend)",
+      "slider_a_value": "5/5",
+      "slider_a_position_name": "The Proprietary System (Patented engineering platform)",
       "slider_b_label": "[SLIDER] THE TARGET SCOPE (Market Breadth)",
-      "slider_b_value": "3/5",
-      "slider_b_position_name": "The Category Player (General face cream, broad appeal)",
-      "territory_number": 1,
-      "territory_name": "The Ingredient King",
-      "reasoning": "Pass 1 hypothesis: The Ingredient King, because the proprietary Hadasei-3™ complex is the unique, story-driven heart of every product. Pass 2: Slider A is 3/5 The Signature Complex, for the trademarked 'Hadasei-3™'. Slider B is 3/5 The Category Player; Tatcha competes in broad categories like moisturizers and cleansers, but within the luxury segment. The grid's mid-score rule directs to lean toward Territory 1 if ingredient-focused, which Tatcha is. The story is about the rice, green tea, and algae. Pass 3: Aligned with the override logic. The brand's identity is tied to its unique ingredient story.",
-      "evidence": "\"Our proprietary complex, Hadasei-3™\" ... \"Inside every Tatcha formula lives a complex of twice-fermented rice, green tea, and algae is rooted in the nutrient-dense Japanese diet.\"",
-      "evidence_src": "ABOUT PAGE",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "The Problem Solver (Targets specific skin concern)",
+      "territory_number": 4,
+      "territory_name": "The Specialist",
+      "reasoning": "Pass 1 hypothesis: The Specialist. Entlify's USP is its deep focus on a specific client type ('SaaS teams,' 'fast-growing tech companies') and its integrated, systemic approach to solving their specific growth problems. Pass 2: Slider A scores 5/5 The Proprietary System. The USP isn't one tool, but the integrated system where all channels 'work together as a system.' This holistic, process-driven approach is their unique IP. Slider B scores 4/5 The Problem Solver. The agency is hyper-focused on a specific market niche: 'SaaS teams operating in cloud management, programming, cybersecurity, and more.' Grid: Any(5) x Niche(4) maps directly to Territory 4. Pass 3: Aligned. The brand's unique value is its specialized, systemic solution for a niche market.",
+      "evidence": "\"How These Channels Work Together as a System\" ... \"Digital marketing services for law firms only produce ROI when every channel feeds into a single intake pipeline...\" ... \"Entlify is a digital marketing and web development agency that works with SaaS teams...\"",
+      "evidence_src": "PRODUCT PAGE (body copy) + HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "Despite being a mid-score on both sliders, the brand's heavy emphasis on the story and origin of its proprietary ingredient complex makes The Ingredient King the most accurate territory."
+        "coherence_reasoning": "The brand's explicit focus on a niche market (SaaS/tech) and its emphasis on an integrated 'system' as its core differentiator are the defining characteristics of The Specialist."
       }
     },
     "marker_13": {
       "marker_name": "Focus",
       "slider_a_label": "[SLIDER] THE DEPTH GAUGE (Content Purpose)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "The Editorial (Styled shots, models, textures)",
+      "slider_a_value": "1/5",
+      "slider_a_position_name": "The Textbook (Diagrams, molecules, cross-sections)",
       "slider_b_label": "[SLIDER] THE INTENT VECTOR (Content Goal)",
-      "slider_b_value": "4/5",
-      "slider_b_position_name": "The Pitch (Benefits, value props)",
-      "territory_number": 3,
-      "territory_name": "Lifestyle Aesthetic",
-      "reasoning": "Pass 1 hypothesis: Lifestyle Aesthetic. The website functions as a beautiful, shoppable magazine editorial for a mindful lifestyle. Pass 2: Slider A is 4/5 The Editorial, supported by the visual analysis noting 'rich and sensory' content, 'vibrant jewel-toned product packaging,' and 'soft-focus lifestyle shots.' Slider B is 4/5 The Pitch; the beautiful visuals are directly linked to 'Shop Now' and 'Add to Bag' buttons, clearly driving commerce. Pass 3: Aligned. The grid lookup of High(4) x High(4) maps directly to Lifestyle Aesthetic.",
-      "evidence": "\"Give Mom a Ritual of Love\" ... \"Curate Her Set\" ... \"Visual Analysis: imagery_style: mixed-media, branded_content_description: Atmospheric, soft-focus lifestyle shots and natural-themed backgrounds\"",
-      "evidence_src": "HOME PAGE (headline) + HOME PAGE (cta_button) + PRODUCT PAGE (visual analysis)",
+      "slider_b_value": "1/5",
+      "slider_b_position_name": "The Thesis (Clinical studies, dermatologist quotes)",
+      "territory_number": 1,
+      "territory_name": "Science Education",
+      "reasoning": "Pass 1 hypothesis: Science Education. The website's content, particularly the 'Digital Marketing for Lawyers' guide, is structured like a textbook or a whitepaper, designed to educate and build trust through deep expertise. Pass 2: Slider A scores 1/5 The Textbook. The content is dense, structured with chapters, tables, and detailed explanations of technical concepts (SEO, GEO, CRO). Slider B scores 1/5 The Thesis. The goal is to establish credibility and trust through comprehensive, authoritative information, much like a thesis or clinical study. The client testimonials function as peer-reviewed validation. Grid: Low(1) x Low(1) maps to Territory 1. Pass 3: Aligned. The content focus is deeply educational to prove expertise.",
+      "evidence": "\"This guide covers six areas of digital marketing...\" ... \"How Each Digital Marketing Channel Connects [Table]\" ... \"Entlify Services Mapped to Law Firm Challenges [Table]\" ... \"Leverage analytics to make data-informed decisions...\"",
+      "evidence_src": "PRODUCT PAGE (body copy) + HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The content is overwhelmingly focused on creating a desirable, inspirational lifestyle that is immediately transactable, which is the definition of the Lifestyle Aesthetic territory."
+        "coherence_reasoning": "The extensive, highly-structured educational guide and the use of data visualizations on the homepage clearly indicate a focus on Science Education to build trust."
       }
     },
     "marker_14": {
       "marker_name": "Functional Benefits",
       "slider_a_label": "[SLIDER] THE ACTION VECTOR (The Mechanism)",
-      "slider_a_value": "3/5",
-      "slider_a_position_name": "Maintenance (Daily hydration/support)",
+      "slider_a_value": "5/5",
+      "slider_a_position_name": "The Fixer (Reverses damage, cracks, acne)",
       "slider_b_label": "[SLIDER] THE OUTCOME TARGET (The Goal)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "Vanity (Glass skin, poreless, filter-like)",
-      "territory_number": 4,
-      "territory_name": "Correction",
-      "reasoning": "Pass 1 hypothesis: Correction. The product names and descriptions focus on achieving a visually perfect appearance. Pass 2: Slider A is 3/5 Maintenance. While some products repair, the core line is about daily support, strength, and resilience. Slider B is 5/5 Vanity. The benefits are explicitly aesthetic and aspirational: 'Glassy Shine,' 'Line-Plumping,' 'Wrinkle-Smoothing,' 'Brightening & Dark Circle Reduction.' Pass 3: Aligned. The grid lookup of Mid(3) x High(5) maps directly to Correction.",
-      "evidence": "\"The Dewy Skin Cream Rich Line-Plumping Moisturizer\" ... \"The Silk Serum Wrinkle-Smoothing Retinol Alternative\" ... \"The Brightening Eye Cream Brightening & Dark Circle Reduction\"",
+      "slider_b_value": "1/5",
+      "slider_b_position_name": "Biological (pH balance, microbiome, lipid layer)",
+      "territory_number": 1,
+      "territory_name": "Restoration",
+      "reasoning": "Pass 1 hypothesis: Restoration. The core functional benefit is fixing what's broken: 'unpredictable results,' 'expensive, time-consuming' processes, and turning them into a predictable, revenue-generating system. Pass 2: Slider A scores 5/5 The Fixer. The language is about aggressive restoration of business health: 'improve your bottom line from day one,' 'doubled the number of organic impressions,' and fixing 'gaps and ranking opportunities.' Slider B scores 1/5 Biological. The outcome is systemic business health: improving the 'bottom line,' 'revenue,' and 'customer acquisition costs.' These are the core, often invisible, metrics of a business's health, not just its surface appearance. Grid: High(5) x Low(1) maps to Territory 1. Pass 3: Aligned. The functional benefit is the restoration of a company's financial and operational marketing health.",
+      "evidence": "\"improve your bottom line from day one.\" ... \"Reduce customer acquisition costs...\" ... \"Turn your search positions into revenue...\" ... \"doubled the number of organic impressions.\"",
       "evidence_src": "HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "While the mechanism is daily maintenance, the promised outcome is consistently focused on achieving a perfected, vanity-driven appearance, placing it firmly in the Correction territory."
+        "coherence_reasoning": "The brand's focus on fixing underlying business problems (high CAC, low revenue from search) and restoring financial health is a clear fit for the Restoration territory."
       }
     },
     "marker_15": {
       "marker_name": "Emotional Benefits",
       "slider_a_label": "[SLIDER] THE ANXIETY AXIS (The Emotional Direction)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "Delight (A pleasant surprise/smell)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "Reassurance ('Don't worry, this works')",
       "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS (The Audience)",
-      "slider_b_value": "1/5",
-      "slider_b_position_name": "Sanctuary (I feel safe inside my own body)",
-      "territory_number": 3,
-      "territory_name": "Indulgence",
-      "reasoning": "Pass 1 hypothesis: Indulgence. The brand sells the emotional benefit of a luxurious, private ritual. Pass 2: Slider A is 4/5 Delight, based on language like 'calm, joy, and soothing to your soul' and 'astounding source of pleasure.' Slider B is 1/5 Sanctuary. The ritual is framed as a private 'check-in with your skin and mind,' a moment for yourself. Pass 3: Aligned. The grid lookup of High(4) x Low(1) maps directly to Indulgence.",
-      "evidence": "\"our rituals are crafted to bring calm, joy, and soothing to your soul.\" ... \"it can be a check-in with your skin and mind alike—and how interconnected they actually are.\" ... \"Think of the happiness that comes with a caress of your cheek or a needed embrace.\"",
-      "evidence_src": "ABOUT PAGE + MANIFESTO PAGE",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "Savvy (I feel smart/validated for choosing this)",
+      "territory_number": 2,
+      "territory_name": "Confidence",
+      "reasoning": "Pass 1 hypothesis: Confidence. By offering a 'predictable,' 'straightforward' service that 'eliminates guesswork,' Entlify provides clients with the confidence to invest in marketing without fear of waste. Pass 2: Slider A scores 2/5 Reassurance. The brand addresses the anxiety of 'expensive, time-consuming, and unpredictable results' and offers reassurance through 'tailored KPIs' and 'quarter-by-quarter action plans.' Slider B scores 4/5 Savvy. The client feels smart and validated for choosing a data-driven, ROI-focused partner over a less transparent agency. It's an intelligent choice. Grid: Low(2) x High(4) maps to Territory 2 Confidence. Pass 3: Aligned. The emotional payoff is the confidence that comes from making a smart, reassured decision.",
+      "evidence": "\"eliminate guesswork, and optimize your website for exceptional performance.\" ... \"Predictable: We take our agreements seriously.\" ... \"It's mostly hands off. The Entlify team makes it easy for me...\"",
+      "evidence_src": "HOME PAGE (body copy) + ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The emotional promise is a joyful, pleasurable experience that is deeply personal and internal, which is the essence of the Indulgence territory."
+        "coherence_reasoning": "The brand's messaging directly counters common client anxieties (wasted budget, unpredictable results) and positions itself as the smart, validated choice, which generates confidence."
       }
     },
     "marker_16": {
       "marker_name": "Self-Expression",
       "slider_a_label": "[SLIDER] THE SIGNAL DRIVER (Purchase Motivation)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "The Statement (I buy it to show my taste)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "The Smart Choice (because it makes sense)",
       "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION (Social Position)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "The Exclusive (Gatekept by price or access)",
-      "territory_number": 4,
-      "territory_name": "The Status Seeker",
-      "reasoning": "Pass 1 hypothesis: The Status Seeker. Purchasing Tatcha is a signal of taste, wealth, and an appreciation for luxury and craft. Pass 2: Slider A is 4/5 The Statement. The purchase is driven by the brand's identity—its story, aesthetic, and values—as much as its function. Slider B is 5/5 The Exclusive, gatekept by its high price point and 'exclusive, limited-edition' offerings available only on its website. Pass 3: Aligned. The grid lookup of High(4) x High(5) maps directly to The Status Seeker.",
-      "evidence": "\"The Longevity Serum Skin Strength & Resilience Treatment $ 80\" ... \"Make her day with this exclusive, limited-edition gift, only available on Tatcha.com\" ... \"luxury Japanese skincare\"",
-      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (promotions) + GEO ANALYSIS",
+      "slider_b_value": "1/5",
+      "slider_b_position_name": "The Standard (What everyone uses; the default)",
+      "territory_number": 1,
+      "territory_name": "The Pragmatist",
+      "reasoning": "Pass 1 hypothesis: The Pragmatist. Choosing Entlify is framed as a rational, logical decision based on ROI and efficiency, not on trendiness or status. Pass 2: Slider A scores 2/5 The Smart Choice. The motivation is purely logical: 'Find the shortest path to revenue,' 'Make every dollar count.' It's about making a sensible business decision. Slider B scores 1/5 The Standard. While they target a niche, their approach is presented as the new standard of best practice, not an exclusive club. The goal is to be the default, rational choice for any serious tech company. Grid: Low(2) x Low(1) maps to Territory 1. Pass 3: Aligned. The brand appeals to a pragmatic self-identity, where the user sees themselves as intelligent and immune to hype.",
+      "evidence": "\"Find the shortest path to revenue with Entlify\" ... \"Make every dollar count.\" ... \"Save time on the implementation of a digital marketing strategy, eliminate guesswork...\"",
+      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's high price point and emphasis on exclusivity make it a clear choice for consumers looking to express status and discerning taste."
+        "coherence_reasoning": "The entire brand proposition is built on logic, efficiency, and measurable results, appealing directly to a pragmatic mindset."
       }
     },
     "marker_17": {
       "marker_name": "Social Benefits",
       "slider_a_label": "[SLIDER] THE SOCIAL VECTOR (Social Goal)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "Distinction (I want to be noticed)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "Acceptance (I want to be accepted by the group)",
       "slider_b_label": "[SLIDER] THE GROUP DYNAMIC (Tribal Scale)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "The Mainstream (Popular culture)",
-      "territory_number": 3,
-      "territory_name": "The Ethical Warrior",
-      "reasoning": "Pass 1 hypothesis: The Ethical Warrior. The brand's social mission is a core, public-facing part of its identity, allowing consumers to signal their virtue. Pass 2: Slider A is 4/5 Distinction. Choosing a brand that funds education sets one apart as a conscious consumer. Slider B is 2/5 Mainstream; the social mission is a broad appeal to popular sentiment, not a niche or exclusive club secret. Pass 3: Diverged initially, but corrected. The grid maps High(4) x Low(2) to The Ethical Warrior. This fits better than an 'insider' territory, as the social benefit is about public virtue, not secret knowledge.",
-      "evidence": "\"Every Tatcha purchase supports education equality worldwide.\" ... \"we created the Beautiful Faces, Beautiful Futures fund in partnership with Room to Read to help create a world free of illiteracy and gender inequality.\"",
-      "evidence_src": "HOME PAGE (body copy) + ABOUT PAGE",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "The Club (Enthusiasts/Fans)",
+      "territory_number": 2,
+      "territory_name": "The Knowledge Club",
+      "reasoning": "Pass 1 hypothesis: The Knowledge Club. The social benefit is joining a group of 'fast-growing tech companies' who are smart enough to choose a data-driven, specialist agency. It's about being 'in the know.' Pass 2: Slider A scores 2/5 Acceptance. By choosing Entlify, a company signals it belongs to the group of sophisticated, high-growth tech firms. It's about gaining acceptance into that peer group. Slider B scores 4/5 The Club. The target audience is a specific tribe: 'SaaS teams operating in cloud management, programming, cybersecurity.' The client testimonials from CMOs and VPs reinforce this as a club for tech marketing leaders. Grid: Low(2) x High(4) maps to Territory 2. Pass 3: Aligned. The social currency is intellectual, demonstrating one's place within a knowledgeable and successful professional tribe.",
+      "evidence": "\"Fast-growing tech companies trust us...\" ... \"Why teams rely on Entlify\" ... \"Read the feedback from our incredible clients.\" (Testimonials from CMOs, VPs of Marketing).",
+      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
       "evaluation_check": {
-        "coherence_status": "diverged",
-        "coherence_reasoning": "Initial scoring of Slider B was too high (niche), leading to an incorrect territory. Re-evaluating the broad, public nature of the social mission lowered the score, correctly mapping to The Ethical Warrior, which aligns with the holistic evidence."
+        "coherence_status": "aligned",
+        "coherence_reasoning": "The brand's use of social proof from a specific, high-knowledge professional group (tech executives) creates the social benefit of joining an exclusive 'Knowledge Club'."
       }
     },
     "_usage": {
-      "prompt_tokens": 18137,
-      "completion_tokens": 3256,
-      "total_tokens": 25141,
+      "prompt_tokens": 18380,
+      "completion_tokens": 3035,
+      "total_tokens": 25347,
       "prompt_tokens_details": {
-        "cached_tokens": 16299
+        "cached_tokens": 16300
       },
       "completion_tokens_details": {
-        "reasoning_tokens": 3748
+        "reasoning_tokens": 3932
       }
     },
     "_model": "gemini-2.5-pro",
     "_finish_reason": "STOP",
     "_parse_status": "ok",
     "hi": {
-      "score": 66,
+      "score": 74,
       "label": "READABLE",
       "diagnosis": "CLEAR READ",
-      "profile": "Tatcha's homepage operates as a sophisticated, premium digital storefront. It uses a 'Clinical Pop' visual language—clean, minimalist UI framing vibrant, sensory product imagery—to communicate luxury and efficacy. The page successfully targets a visitor already in a consideration mindset, presenting new products, best-sellers, and promotions with clear pricing and strong social proof.",
-      "blind_spot": "The page sells products but under-sells the brand's profound story. The rich narrative of Japanese heritage, scientific innovation via the Tatcha Institute, and the founder's personal journey is absent, leaving a first-time visitor with the 'what' but not the 'why'. This forces the brand's premium price point to stand on product claims alone, without the foundational story that justifies it.",
+      "profile": "The brand presents as a specialist agency for a technical B2B audience, using industry-standard language and data-centric visuals to build credibility. The voice is exceptionally consistent, projecting a confident, expert (Sage) archetype that explains complex services like SEO and CRO in terms of business outcomes like revenue and conversions. The page is built to persuade a visitor who already understands the problem and is evaluating potential expert partners.",
+      "blind_spot": "The primary friction is the complete absence of pricing signals. While common for agencies, hiding the commitment tier behind a 'Request a Call' gate forces the visitor to invest time in a sales conversation to get basic qualification information. This signals a high-touch sales process but creates a significant hurdle for visitors who are comparison shopping or on a tight timeline.",
       "metrics": {
         "hi01_message_clarity": {
           "label": "MESSAGE CLARITY",
           "score": 70,
           "diagnosis": "UNDERSTANDABLE",
-          "so_what": "The page clearly communicates what its featured products do, but not why the Tatcha brand is the definitive choice. A visitor understands the benefits of a specific lip balm or cream, but the overarching brand value proposition—the unique blend of ritual, science, and heritage—is lost. The page functions as a product catalog, not a brand manifesto.",
+          "so_what": "The page clearly communicates its core benefit ('Rank higher, convert better') and target audience ('Fast-growing tech companies'). However, it leads with generic category benefits rather than a sharp differentiator, making it clear what the agency does but not why it's uniquely better than competitors in the first 10 seconds.",
           "sub_metrics": {
             "headline_clarity": {
               "score": 70,
-              "evaluation": "The headline 'THE MELTING LIP BALM Glassy Shine, Volumizing Care' clearly states WHAT this is and WHY to choose it (the benefits). It fails to identify WHO it's for, relying on visual context to target the audience. This lands 2 of the 3 Krug anchors."
+              "evaluation": "The headline 'Rank higher, convert better.' clearly states WHAT the visitor gets. The sub-headline 'Fast-growing tech companies trust us...' clarifies WHO it's for. It fails to answer WHY this agency over others, landing 2 of 3 Krug anchors."
             },
             "value_prop_above_fold": {
               "score": 70,
-              "evaluation": "The first 150 words explain the BENEFIT ('volumizes lips,' 'glassy finish') and MECHANISM ('melts to an oil'). It omits CONTRAST against alternatives, assuming the visitor is already comparing within the Tatcha ecosystem. 2 of 3 elements are present."
+              "evaluation": "The first 150 words state the BENEFIT ('outstanding results') and MECHANISM ('digital marketing and web development agency'). It lacks an explicit CONTRAST against the status quo or competitors, relying on the visitor to infer the difference."
             },
             "benefit_hierarchy": {
               "score": 50,
-              "evaluation": "The lead benefit is product-specific, a default for the beauty category. The brand's true differentiator—the synthesis of Japanese ritual and modern science—is buried in 'Our Story' pages, not used as the primary argument on the homepage."
+              "evaluation": "The lead benefit, 'Rank higher, convert better,' is the default for the entire digital marketing category. Deeper differentiators like being an 'extension of your team' are buried further down the page, weakening the initial pitch."
             },
             "jargon_load": {
               "score": 90,
-              "evaluation": "The copy is exceptionally clean and accessible. Product descriptions like 'Foaming Enzyme Exfoliant Powder' are descriptive and clear, avoiding insider or technical jargon and making the science feel approachable. Zero unexplained terms are present."
+              "evaluation": "Technical terms like 'SEO' and 'CRO' are used as table-stakes vocabulary for the target SaaS audience. The copy is clean and avoids gratuitous, unexplained jargon, making it accessible to its intended reader."
             }
           },
           "checklist": {
             "pass": [
-              "uses clean, accessible language with no unexplained jargon"
+              "uses a clear benefit-driven headline: 'Rank higher, convert better.'"
             ],
             "warn": [
-              "leads with product-level benefits, not the core brand differentiator"
+              "value prop lacks explicit contrast against competitors"
             ],
             "fail": [
-              "omits the 'WHO it's for' anchor in the main headline"
+              "leads with category benefits, not unique agency differentiators"
             ]
           }
         },
         "hi02_trust_score": {
           "label": "TRUST SCORE",
-          "score": 52,
-          "diagnosis": "MIXED EVIDENCE",
-          "so_what": "Trust is built on strong social proof and professional design, but undermined by a lack of third-party validation. While customer testimonials are specific and compelling, the absence of any certification logos or media mentions makes the brand's claims feel self-contained. The page asks the visitor to trust Tatcha's customers, but not necessarily the broader industry.",
+          "score": 66,
+          "diagnosis": "CREDIBLE",
+          "so_what": "The brand builds a credible case through a mix of specific testimonials, client logos, and a professional design. It successfully deploys all four types of Fogg credibility signals. The score is held back by minor weaknesses, like using superlatives in testimonials and not fully attributing them on the homepage, which slightly softens the evidence.",
           "sub_metrics": {
             "hype_index": {
               "score": 70,
-              "evaluation": "The copy is mostly restrained, but testimonials introduce superlatives like 'absolutely nothing compares!!' and 'like heaven on my face!!'. The brand's own copy uses evocative words like 'irresistibly', placing it in the 3-5 unsupported claims band."
+              "evaluation": "The brand's own copy is restrained, but testimonials feature superlatives like 'Best in class' and 'Excellent service'. While this is better than self-praise, it still contributes to a low level of hype, fitting the 3-5 unsupported claims band."
             },
             "claim_to_evidence_ratio": {
-              "score": 30,
-              "evaluation": "Most product claims like 'volumizing care' are plausible but uncited (Level C). The social mission claim is backed by a named partner (Level A), but these are outnumbered by subjective benefit statements. Verifiable claims are well under 30% of the total."
+              "score": 50,
+              "evaluation": "The page mixes plausible but uncited claims (Level C: 'Make your goals a reality, much faster') with partially verifiable evidence (Level B: testimonials, client logos). The ratio of verifiable claims is in the 30-49% range."
             },
             "social_proof": {
-              "score": 90,
-              "evaluation": "Social proof is high-quality, featuring named individuals, age, and skin type ('I am 55 years old and have very dry skin'). This demonstrates strong SPECIFICITY and SIMILARITY to the target audience, going beyond mere star ratings."
+              "score": 70,
+              "evaluation": "Social proof is present via testimonials and a client logo cloud. SIMILARITY is strong (targeting tech), but SPECIFICITY is weakened by generic attributions like 'Vice President of Marketing' without a company name on the homepage."
             },
             "trust_signals": {
-              "score": 70,
-              "evaluation": "The page shows strong SURFACE (professional design), EARNED (detailed testimonials), and PRESUMED (free shipping/returns) credibility. It lacks REPUTED credibility, with no visible press logos, awards, or endorsements. 3 of 4 Fogg types are present."
+              "score": 90,
+              "evaluation": "All four Fogg credibility types are present: SURFACE (professional design), EARNED (testimonials), PRESUMED (contact info, privacy policy), and REPUTED (a 'W Professional Partner' badge is visible). This creates a strong foundation of trust."
             },
             "visible_certifications": {
-              "score": 0,
-              "evaluation": "There are no visible third-party certification logos on the homepage, such as Leaping Bunny, B Corp, or ISO standards. This is a missed opportunity to quickly signal ethical and quality commitments."
+              "score": 50,
+              "evaluation": "The visual analysis identifies one named certification: a 'W Professional Partner' badge for Webflow. This is a clear trust signal, but it's the only one of its kind visible on the page."
             }
           },
           "checklist": {
             "pass": [
-              "cites specific, named testimonials with user context"
+              "deploys all four Fogg credibility types effectively"
             ],
             "warn": [
-              "lacks reputed trust signals like press logos or awards"
+              "uses superlatives like 'Best in class' in client testimonials"
             ],
             "fail": [
-              "omits all third-party certification logos"
+              "omits company names from testimonial attributions on homepage"
             ]
           }
         },
         "hi03_voice_consistency": {
           "label": "VOICE CONSISTENCY",
-          "score": 65,
-          "diagnosis": "MOSTLY COHERENT",
-          "so_what": "The homepage voice is a commercially-focused version of the deeper brand voice. While it maintains the vocabulary of efficacy and heritage, it drops the philosophical and ritualistic language that defines the brand's soul in its story pages. This creates a slight disconnect; the page sells a product, while the brand story sells a transformation.",
+          "score": 90,
+          "diagnosis": "ONE PERSON",
+          "so_what": "The brand's voice is exceptionally disciplined and consistent across its homepage and supporting pages. It maintains a consultative, expert tone (Sage archetype) that speaks directly to its B2B audience's needs for performance and efficiency. This consistency projects authority and reliability.",
           "sub_metrics": {
             "tone_alignment": {
-              "score": 70,
-              "evaluation": "The brand's baseline tone from its story pages is consultative and thoughtful. The homepage shifts to a more direct, casual-commercial tone ('Give Mom a Ritual of Love', 'Add to Bag'). This is a one-step difference, appropriate for e-commerce but a noticeable shift."
+              "score": 90,
+              "evaluation": "The homepage's direct, consultative tone matches the problem-solution register established in the 'Why Entlify' and 'Digital Marketing for Lawyers' pages. The voice is perfectly aligned."
             },
             "vocabulary_alignment": {
-              "score": 70,
-              "evaluation": "The homepage uses the brand's 'Science/Efficacy' and 'Heritage/Purity' semantic fields. It largely omits the 'Ritual/Philosophy' field (words like 'mindfulness', 'kindness', 'journey'), which is central to the brand's positioning. It uses 2 of 3 core fields."
+              "score": 90,
+              "evaluation": "The homepage heavily uses the brand's core semantic fields of 'performance/revenue' and 'strategy/optimization,' which are dominant on the relevant pages. The vocabulary is a perfect match."
             },
             "voice_signature_match": {
-              "score": 50,
-              "evaluation": "The brand's core archetype is a Sage/Caregiver blend, offering wisdom and nurturing. The homepage's direct-to-consumer pitch drifts toward an Everyman/Lover archetype, focusing on relatable benefits and sensory pleasure. This is a drift to a related archetype."
+              "score": 90,
+              "evaluation": "The brand's baseline archetype is the Sage (expert guide). The homepage delivers this flawlessly, positioning Entlify as the knowledgeable partner to 'Find the shortest path to revenue.' The delivery is textbook."
             },
             "claim_stack_alignment": {
-              "score": 70,
-              "evaluation": "The homepage reinforces the claims of 'Japanese ingredients' and the 'social mission'. It ignores the core claim of the 'Tatcha Institute' and its scientific process. This is a partial alignment, reinforcing 2 of 3 key brand pillars."
+              "score": 90,
+              "evaluation": "The homepage reinforces the core claims of being results-driven ('convert better') and efficient ('much faster') from the 'Why Entlify' page. The claim stack is fully aligned and consistently presented."
             }
           },
           "checklist": {
             "pass": [
-              "reinforces the brand's social mission claim on the homepage"
+              "maintains a consistent consultative tone across all pages"
             ],
             "warn": [
-              "shifts tone from consultative (brand story) to commercial (homepage)"
+              "uses 'family' language on careers page, a slight drift from B2B tone"
             ],
             "fail": [
-              "omits the core 'Ritual & Philosophy' vocabulary from the homepage"
+              "lacks any significant voice inconsistency to critique"
             ]
           }
         },
         "hi04_audience_resonance": {
           "label": "AUDIENCE RESONANCE",
-          "score": 85,
+          "score": 80,
           "diagnosis": "LASER-AIMED",
-          "so_what": "The page demonstrates a masterful understanding of its target audience. The combination of clean visuals, scientific-sounding product names, visible pricing, and ritualistic undertones perfectly resonates with a premium beauty consumer, primarily Millennials and Gen X, seeking effective, aesthetically pleasing, and transparently-priced skincare.",
+          "so_what": "The page demonstrates a powerful, coherent understanding of its target audience in the B2B tech sector. The alignment between the technical, data-driven language and the sophisticated, 'dark mode' visual aesthetic is perfect. It speaks directly to SaaS leaders, signaling it understands their world and their metrics for success.",
           "sub_metrics": {
             "audience_segment_probability": {
-              "score": 70,
-              "evaluation": "Visuals and text point to a core Millennial audience (≈0.55) seeking ritual and values, and a strong secondary Gen X audience (≈0.35) focused on 'Healthy Aging'. The top cohort is clear but not exclusively targeted, showing broad appeal."
+              "score": 90,
+              "evaluation": "The page is laser-focused on 'Fast-growing tech companies' and 'SaaS teams'. This points directly to Millennial and Gen X decision-makers, with a top cohort probability over 0.65, strongly supported by both text and visuals."
             },
             "signal_coherence": {
               "score": 90,
-              "evaluation": "Text and visual signals are perfectly aligned. The 'Clinical Pop' aesthetic—a clean, trustworthy UI framing sensory product shots—directly anchors the copy's promise of gentle yet effective formulas rooted in Japanese tradition."
+              "evaluation": "Text signals ('SaaS teams', 'cybersecurity') and visual signals ('sophisticated technical aesthetic', 'data visualizations') are perfectly anchored. Both modes communicate expertise to a tech-savvy B2B audience."
             },
             "intent_match": {
-              "score": 90,
-              "evaluation": "The page's intent is unambiguously focused on the consideration and decision stages of the buying funnel. Clear product showcases, 'Add to Bag' CTAs, and promotional offers signal that this is a place to browse and purchase."
+              "score": 70,
+              "evaluation": "The page serves both the consideration stage (explaining services) and the decision stage (CTA to 'Request a Call'). While mostly clear, this dual purpose slightly dilutes the focus of a single-intent landing page."
             },
             "accessibility_signals": {
-              "score": 90,
-              "evaluation": "All 4 signals are present: commitment tier is visible via clear pricing, language is inclusive, technical concepts are explained via descriptive names, and CTAs use plain language ('Add to Bag'). This creates a low-friction, high-clarity experience."
+              "score": 70,
+              "evaluation": "The page has 3 of 4 signals: inclusive language for its target audience, appropriate jargon use, and a plain-language CTA ('Request a Call'). It fails on commitment-tier visibility by hiding all pricing information."
             }
           },
           "audience_segments": [
             {
-              "label": "Millennials seeking premium, ritualistic skincare that aligns with social and clean-ingredient values",
+              "label": "Millennials leading marketing at SaaS companies seeking a performance-driven agency to handle growth",
               "cohort": "millennials",
-              "probability": 0.55,
-              "evidence_text": "Every Tatcha purchase supports education equality worldwide.",
-              "evidence_visual": "Atmospheric, soft-focus lifestyle shots and natural-themed backgrounds evoke a sense of ritual, calm, and high-quality natural ingredients derived from Japanese tradition."
+              "probability": 0.65,
+              "evidence_text": "Fast-growing tech companies trust us with website development and traffic acquisition.",
+              "evidence_visual": "The viewport presents a sophisticated technical aesthetic tailored for the SaaS industry."
             },
             {
-              "label": "Gen X seeking effective, science-backed healthy-aging solutions from a trusted luxury brand",
+              "label": "Gen X executives in established tech firms looking for a reliable partner to offload web development and SEO",
               "cohort": "gen_x",
-              "probability": 0.35,
-              "evidence_text": "“I am 55 years old and have very dry skin. This cream is like heaven on my face!! Highly recommended!!”",
-              "evidence_visual": "The website's clean white shell and refined serif typography establish a position of authority and luxury."
+              "probability": 0.3,
+              "evidence_text": "We operate as an extension of your team, proactive and easily approachable.",
+              "evidence_visual": "A professional black and gray base provides a 'serious' shell... creating a mood of energetic technical authority."
             },
             {
-              "label": "Gen Z seeking aesthetically pleasing, high-quality 'treat' products for specific concerns",
+              "label": "Gen Z marketers at tech startups looking for an agency that understands modern data analytics",
               "cohort": "gen_z",
-              "probability": 0.1,
-              "evidence_text": "The Melting Lip Balm. Glassy Shine, Volumizing Care.",
-              "evidence_visual": "Vibrant jewel-toned product packaging and close-up photography of cream textures."
+              "probability": 0.05,
+              "evidence_text": "Leverage analytics to make data-informed decisions and improve strategic planning.",
+              "evidence_visual": "Data visualizations use high-energy neon greens and blues to create a technical 'dashboard' aesthetic."
             }
           ],
           "checklist": {
             "pass": [
-              "shows explicit pricing for all featured products"
+              "aligns technical text with data-driven visuals perfectly"
             ],
             "warn": [
-              "seasonal promotions like 'Give Mom a Ritual' can narrow audience focus"
+              "serves both consideration and decision stages on one page"
             ],
             "fail": [
-              "relies on testimonials for age-related proof, lacking clinical data"
+              "hides commitment tier by omitting any pricing signals"
             ]
           }
         },
         "hi05_decision_confidence": {
           "label": "DECISION CONFIDENCE",
-          "score": 60,
-          "diagnosis": "HEDGED",
-          "so_what": "The brand inspires confidence in its products but not in the visitor's next step. While transparent pricing is a major confidence booster, the sheer number of competing offers and CTAs creates choice paralysis. The page feels like a busy department store aisle rather than a guided consultation, hedging its bets on what a new visitor might want.",
+          "score": 70,
+          "diagnosis": "CONFIDENT",
+          "so_what": "The brand projects confidence by guiding the visitor to a single, obvious next step: 'Request a Call'. There is no choice paralysis. However, this confidence is undermined by a total lack of pricing visibility, which forces the visitor into a sales call to get information they need to make a decision, creating significant friction.",
           "sub_metrics": {
             "cta_clarity": {
-              "score": 50,
-              "evaluation": "The page presents numerous competing CTAs of equal weight: 'Shop Now', 'Add to Bag', 'Curate Her Set', 'Try Your Luck'. This violates Hick's Law, creating cognitive load and failing to guide the visitor to a single primary action."
+              "score": 90,
+              "evaluation": "The page features a single, dominant CTA ('Request a Call') with a clear action verb. This avoids choice paralysis and signals that the brand knows exactly what it wants the visitor to do next."
             },
             "pricing_visibility": {
-              "score": 90,
-              "evaluation": "Pricing is excellent. Explicit prices like '$ 82' are listed directly with the products on the homepage. This transparency respects the visitor's time and builds significant decision confidence."
+              "score": 30,
+              "evaluation": "Pricing is completely hidden. The copy explicitly states, 'Reach out to our team for a quote,' which is a 'Contact us for pricing' gate. This creates uncertainty and friction for the visitor."
             },
             "next_step_obviousness": {
-              "score": 50,
-              "evaluation": "For a first-time visitor, there is no single obvious next step. The page presents at least four different paths (new product, best-sellers, gift set, giveaway) without a clear hierarchy, forcing the user to deduce their own journey."
+              "score": 90,
+              "evaluation": "The next step is unambiguously to contact the agency for a consultation. The entire page funnels towards this single action, making the path forward exceptionally clear for a prospective client."
             },
             "friction_signals": {
-              "score": 50,
-              "evaluation": "The primary friction is cognitive, not technical. The clean UI is low-friction, but the overwhelming number of choices and paths presented simultaneously acts as a major source of decision friction for a new user."
+              "score": 70,
+              "evaluation": "The primary friction is cognitive: the lack of pricing information requires the visitor to work to qualify the service. This, combined with a long scroll to the contact form, constitutes two minor friction sources."
             }
           },
           "checklist": {
             "pass": [
-              "displays clear, explicit pricing for products on the homepage"
+              "provides a single, clear CTA: 'Request a Call'"
             ],
             "warn": [
-              "presents multiple competing CTAs without a clear visual hierarchy"
+              "forces a long scroll to reach the main contact form"
             ],
             "fail": [
-              "lacks a single, obvious next step for a first-time visitor"
+              "hides all pricing information behind a contact gate"
             ]
           }
         }
@@ -644,148 +644,143 @@
     }
   },
   "GEO_evaluation": {
-    "score": 53,
-    "label": "AI PARTIAL",
-    "diagnosis": "VAGUE & UNANCHORED",
-    "profile": "Tatcha presents as a luxury skincare brand but its digital body language is generic and lacks substance. The site relies on marketing adjectives (\"lush,\" \"irresistibly glassy\") instead of verifiable facts, making it hard for AI to grasp what makes the products different. While its name is unique and it's well-discussed on Reddit, critical trust signals like a coherent Wikidata entry and positive Trustpilot score are broken, leaving AIs to guess at its authority.",
-    "fix": "Fix the brand's identity crisis by correcting the Wikidata entry (ID Q102984279) from \"Tatchawan Kanitpong\" to \"Tatcha,\" with a description of \"American luxury skincare company.\" Then, ship `Product` schema on all product pages, including `aggregateRating`, `brand`, and `description`, to give AI concrete, structured data about what Tatcha actually sells.",
+    "score": 39,
+    "label": "AI WEAK",
+    "diagnosis": "GHOST IN THE MACHINE",
+    "profile": "Entlify has a unique name and a technically accessible website, but it's an informational ghost to AI. The content is a fog of marketing clichés like \"outstanding results\" and \"flawless websites\" with no hard data, making it useless as a source. The brand exists as a name on a webpage but lacks any external validation (no Wikipedia, no reviews) or machine-readable structure (no schema), preventing AI from understanding it as a real-world business entity.",
+    "fix": "The single most impactful fix is to establish the brand as a concrete entity. Ship `Organization` and `Service` schema in JSON-LD format in the `<head>` of https://www.entlify.com. This provides a structured, machine-readable business card that tells AI exactly who Entlify is, what it sells, and where it's located, moving it from a text string to a verifiable business.",
     "flags": {
-      "entity_drift": true,
+      "entity_drift": false,
       "critical_blackout": false,
       "foundation_failure": false,
-      "trustpilot_collapse": true,
-      "category_hint_corrupted": true,
-      "third_party_taxonomy_error": true,
+      "trustpilot_collapse": false,
+      "category_hint_corrupted": false,
+      "third_party_taxonomy_error": false,
       "reddit_sentiment_negative": false
     },
     "metrics": {
       "ai01_findability": {
         "label": "AI FINDABILITY",
-        "score": 53,
-        "diagnosis": "FINDABLE, NOT QUOTABLE",
-        "so_what": "Tatcha's homepage is findable but not quotable, scoring a 53. AI can see the brand exists but finds few specific, citable facts (\"SPF 50,\" \"4 x 20 ml\") to use in summaries, forcing it to rely on vague marketing copy. To be featured in AI-generated answers for \"best Japanese skincare,\" Tatcha must add a definitional sentence like \"Tatcha is a luxury skincare brand...\" to the first paragraph.",
+        "score": 57,
+        "diagnosis": "DEFINED BUT INVISIBLE",
+        "so_what": "Entlify clearly states it's a \"digital marketing and web development agency,\" which helps AI categorize it. But with zero structured data and only three quotable facts, AI has no machine-readable context or soundbites to use in generative answers, limiting visibility to basic directory-style listings. The single most important fix is shipping `Organization` and `Service` schema to give AI a structured understanding of the business.",
         "sub_metrics": {
           "structured_data": {
-            "score": 70,
-            "evaluation": "GEO_ANALYSIS shows json_ld_blocks_found: 2; json_ld_types: [\"BreadcrumbList\",\"WebSite\",\"Organization\"]; og: 5/6 core tags; twitter: yes (3/4); meta_desc: present; canonical: present; hreflang_count: 0. AI engines have rich citation hooks; sustain by adding FAQPage schema for direct AI Overviews citations.",
+            "score": 50,
+            "evaluation": "GEO_ANALYSIS shows json_ld_blocks_found: 0; json_ld_types: []; og: 4/6 core tags; twitter: yes (1/4); meta_desc: present; canonical: present; hreflang_count: 0. AI engines must infer from prose; add Product/Organization JSON-LD with og:image to lift the score.",
             "flags_emitted": []
           },
           "quotable_content": {
-            "score": 50,
-            "evaluation": "The page offers a handful of quotable data points like \"SPF 50\" and \"4 x 20 ml / 0.68 fl. oz. masks,\" but they are sparse. This prevents AI from citing Tatcha as an authority, as there's little concrete information to extract. Add a dedicated 'Our Philosophy' section with specific ingredient sourcing facts or formulation statistics.",
+            "score": 30,
+            "evaluation": "The page offers three quotable statements: one definitional sentence (\"Entlify is a digital marketing and web development agency...\") and two data points from testimonials (\"over five years,\" \"doubled the number of organic impressions\"). This low count starves AI of specific facts to cite in generated answers. Add at least three more specific, numbered results from client work to the main body copy.",
             "flags_emitted": []
           },
           "entity_clarity": {
-            "score": 40,
-            "evaluation": "The brand name 'Tatcha' is present, but the page lacks a clear, one-sentence definition like \"Tatcha is a luxury Japanese skincare brand.\" While the category is in the title tag, its absence in the body copy forces an AI to infer the brand's core identity, increasing the risk of mischaracterization. Add an explicit definitional sentence to the opening paragraph.",
+            "score": 90,
+            "evaluation": "The page provides an explicit definition in the first 200 words: \"Entlify is a digital marketing and web development agency...\". This strong, early statement clearly establishes the brand's identity and category for any AI agent. No fix is needed here.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Ships Organization and WebSite schema."
+            "Defines itself clearly: \"Entlify is a digital marketing...\""
           ],
           "warn": [
-            "Lacks a clear \"Tatcha is a...\" definitional sentence."
+            "Lacks quotable facts, relying on testimonials for data."
           ],
           "fail": [
-            "Offers only 5 citable facts on the entire homepage."
+            "Ships zero JSON-LD structured data blocks."
           ]
         }
       },
       "ai02_content_focus": {
         "label": "AI SIGNAL CLARITY",
-        "score": 10,
-        "diagnosis": "MARKETING OVERLOAD",
-        "so_what": "With a score of 10, Tatcha's content is a firehose of marketing filler that drowns out facts, making it invisible to fact-seeking AI models. The page is saturated with over 15 empty adjectives like \"lush\" and \"irresistibly glassy,\" while verifiable claims are near zero. AI will skip this page for sources that provide data, not just \"heaven on my face\" testimonials.",
+        "score": 6,
+        "diagnosis": "ABSTRACT AND UNVERIFIABLE",
+        "so_what": "The content on entlify.com is a sea of marketing jargon like \"Seamless onboarding, outstanding results\" with almost no verifiable data points. This signals to AI that the page is low-information, making it unlikely to be cited as a source for factual queries about marketing performance or web development. To fix this, replace abstract claims with specific, numbered results from client work (e.g., \"reduced acquisition cost by 27%\").",
         "sub_metrics": {
           "fact_to_filler_ratio": {
             "score": 0,
-            "evaluation": "The content is almost entirely filler, with marketing phrases like \"Glassy Shine, Volumizing Care\" vastly outnumbering factual statements. The fact-to-filler ratio is worse than 1:8, training AI that this domain is for emotional appeal, not information. Rewrite product descriptions to lead with ingredients and mechanisms, not just outcomes.",
+            "evaluation": "The page is dominated by filler sentences like \"Rank higher, convert better\" and \"Make your goals a reality, much faster.\" The ratio of factual claims to marketing filler is well below 1:8, signaling to AI that the content is low-substance. Rewrite service descriptions to lead with data, not slogans.",
             "flags_emitted": []
           },
           "adjective_load": {
-            "score": 0,
-            "evaluation": "The page is overloaded with more than 15 subjective, booster adjectives like \"lush,\" \"irresistibly,\" \"Luminous,\" and \"heavenly.\" This high adjective load signals low-quality, unverifiable marketing copy to an AI, reducing the page's credibility as a source. Replace subjective adjectives with factual descriptors.",
+            "score": 30,
+            "evaluation": "The copy contains over 12 booster adjectives like \"Seamless,\" \"outstanding,\" \"flawless,\" and \"incredible.\" This high load of subjective language reduces the text's credibility for AI fact-extraction. Replace these adjectives with concrete descriptions of process or outcomes.",
             "flags_emitted": []
           },
           "specificity_index": {
             "score": 0,
-            "evaluation": "Less than 20% of claims are concrete (Rung 1-2), with most being abstract benefits like \"Youth-Restoring Moisturizer.\" This lack of specificity makes the content unhelpful for AI-powered comparison or recommendation engines. Ground abstract claims with specific data, such as \"% of users saw restored youthfulness in X weeks.\"",
+            "evaluation": "Nearly all claims are high on Hayakawa's Ladder of Abstraction (e.g., \"Gain more with less\"). With less than 20% of statements offering concrete numbers or specific mechanisms, the content is too abstract for an AI to use as a factual source. Ground every service claim in a specific, measurable outcome.",
             "flags_emitted": []
           },
           "data_point_density": {
-            "score": 50,
-            "evaluation": "The page contains about 7 data points (e.g., \"SPF 50\", \"15% off\", \"4 x 20 ml\"), a density of 6-9 per 500 words. This is a minimal foundation but insufficient for a data-rich product category. To improve, add ingredient percentages, clinical trial data, or specific formulation details to product descriptions.",
+            "score": 0,
+            "evaluation": "The page contains only two data points (\"over five years,\" \"doubled...impressions\") in over 500 words, both buried in testimonials. This near-zero density makes the page appear anecdotal rather than authoritative to an AI. Inject at least 10 data points into the main service descriptions.",
             "flags_emitted": []
           },
           "claim_verifiability": {
             "score": 0,
-            "evaluation": "The page makes zero claims that cite a source or reference a type of evidence (Level A/B). All claims are either plausible but uncited or pure hyperbole, making them useless for fact-checking AIs. Introduce footnotes or links to studies for performance claims like \"Wrinkle-Smoothing.\"",
+            "evaluation": "The content consists almost entirely of subjective or plausible-but-uncited claims, with less than 10% referencing a source or evidence type (like testimonials). This fails the FTC's substantiation standard, making the content untrustworthy for AI citation. Link key performance claims to specific case studies or anonymized client data.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Includes some data points like \"SPF 50\"."
+            "Uses testimonials to add some external voice."
           ],
           "warn": [
-            "Uses testimonials instead of verifiable brand claims."
+            "Uses over 12 booster adjectives like \"flawless\"."
           ],
           "fail": [
-            "Overwhelms with 15+ empty marketing adjectives.",
-            "Fact-to-filler ratio is worse than 1:8.",
-            "Lacks any Level A/B verifiable claims."
+            "Provides almost zero verifiable data points (0 per 500 words)."
           ]
         }
       },
       "ai03_ai_positioning": {
         "label": "AI CATEGORY POSITIONING",
-        "score": 70,
-        "diagnosis": "EXTERNALLY KNOWN, INTERNALLY VAGUE",
-        "so_what": "Tatcha scores a 65 in positioning because while it's recognized in its category on Reddit, the homepage itself fails to state its value proposition. An AI visiting tatcha.com won't know who the product is for, why it's different, or how much it costs from the initial content. To fix this, the first 200 words must explicitly state the WHO (target customer) and WHY-THIS-ONE (differentiator).",
+        "score": 48,
+        "diagnosis": "INTERNALLY CLEAR, EXTERNALLY UNKNOWN",
+        "so_what": "Entlify uses industry-standard terms like \"Search Engine Optimization\" and \"Conversion Rate Optimization,\" making its services clear to an AI. However, it provides no competitive context and has zero external discussion on platforms like Reddit, rendering it invisible in comparative or recommendation-seeking queries. The first step is to add a section explaining how Entlify's approach differs from typical agencies.",
         "sub_metrics": {
           "category_keyword_alignment": {
             "score": 90,
-            "evaluation": "The page correctly uses core taxonomy terms for its category (\"skincare,\" \"sunscreen,\" \"moisturizer,\" \"serum\"). This strong alignment ensures AI models can easily classify the site's offerings. The primary_category_hint from GEO was corrupted ('Tatcha'), but the on-page content is clear.",
-            "flags_emitted": [
-              "category_hint_corrupted"
-            ]
+            "evaluation": "The page correctly uses standard industry terms like \"Search Engine Optimization,\" \"Conversion Rate Optimization,\" and \"Paid Search Advertising,\" aligning perfectly with the category hint \"Digital Marketing & Web Dev.\" This strong alignment helps AI accurately classify the business's offerings. No fix needed.",
+            "flags_emitted": []
           },
           "competitor_placement": {
-            "score": 70,
-            "evaluation": "The site effectively uses category differentiators like \"Japanese skincare rituals\" and \"nutrient-dense ingredients\" to position itself. However, it avoids direct comparisons to competitors or the \"industry standard,\" which limits an AI's ability to place it in a competitive landscape. Adding a comparison table could sharpen this positioning.",
+            "score": 50,
+            "evaluation": "The content describes its services in a vacuum, with no mention of competitors or differentiation from \"industry standard\" approaches. This lack of context makes it difficult for an AI to position Entlify against other agencies in comparative queries. Add a section that contrasts the Entlify method with traditional agency models.",
             "flags_emitted": []
           },
           "value_proposition_clarity": {
-            "score": 30,
-            "evaluation": "The first 200 words only establish WHAT Tatcha sells (skincare). It fails to identify WHO the customer is, WHY they should choose this brand, or HOW MUCH it costs. This forces an AI to guess the value proposition, leading to generic summaries. The above-the-fold content needs to answer these three missing questions.",
+            "score": 50,
+            "evaluation": "The first 200 words clearly state WHAT Entlify does (\"digital marketing...agency\") and WHO it's for (\"SaaS teams\"). However, it fails to explain WHY a client should choose them or HOW MUCH it costs, leaving two of the four core value proposition anchors unanswered for a quick AI summary.",
             "flags_emitted": []
           },
           "category_recognition_external": {
-            "score": 90,
-            "evaluation": "With 49 organic mentions across relevant subreddits like r/Sephora and r/SkincareAddictionLux, Tatcha has strong external category recognition. The high engagement (avg 82 upvotes) confirms to AI that the brand is a legitimate and discussed player in the luxury skincare space. This is a significant asset.",
+            "score": 0,
+            "evaluation": "GEO_ANALYSIS shows a `reddit_mention_count_organic` of 0. The brand has no footprint in public conversations on relevant subreddits, making it invisible to AI models looking for community validation or discussion. This signals the brand is either brand new or has no organic traction.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Aligns with \"skincare\" taxonomy terms.",
-            "Earns 49 organic mentions on Reddit."
+            "Aligns services with standard terms like \"SEO\" and \"CRO\"."
           ],
           "warn": [
-            "Differentiates via \"Japanese rituals\" but not competitors."
+            "Omits competitive context or differentiators."
           ],
           "fail": [
-            "Omits WHO, WHY, and HOW-MUCH from the first 200 words."
+            "Has zero organic mentions on Reddit."
           ]
         }
       },
       "ai04_crawler_coverage": {
         "label": "AI CRAWL READINESS",
         "score": 60,
-        "diagnosis": "OPEN DOOR, NO MAP",
-        "so_what": "Tatcha has near-perfect technical readiness for crawlers, scoring a 60, but the absence of an `llms.txt` file is a critical failure. While all AI bots are permitted to crawl via `robots.txt`, they have no \"map\" to the most important content, forcing them to guess. Shipping a simple `/llms.txt` file pointing to the top 5 product categories would immediately improve AI's ability to summarize the brand's offerings.",
+        "diagnosis": "TECHNICALLY OPEN, SEMANTICALLY CLOSED",
+        "so_what": "The site is technically sound, with a sitemap and open access for all major AI crawlers. But the absence of an `llms.txt` file means AI agents have no curated map of what content is most important, forcing them to guess. Publishing a simple `/llms.txt` file that points to the core service sections would immediately improve how AI understands the site's structure and priorities.",
         "sub_metrics": {
           "bot_coverage": {
             "score": 90,
@@ -799,72 +794,65 @@
           },
           "infrastructure_basics": {
             "score": 90,
-            "evaluation": "robots.txt: present, sitemap_reference: yes, sitemap_url: https://tatcha.com/sitemap.xml (canonical), https_enforced: true. All foundational crawl signals present.",
+            "evaluation": "robots.txt: present, sitemap_reference: yes, sitemap_url: https://www.entlify.com/sitemap.xml (canonical), https_enforced: true. All foundational crawl signals present.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
             "Allows all major AI crawlers in robots.txt.",
-            "Provides a valid sitemap.xml."
+            "Provides a valid sitemap at /sitemap.xml."
           ],
           "warn": [
-            "Sitemap is referenced 3 times in robots.txt."
+            "H1 tag \"Rank higher, convert better\" is a slogan."
           ],
           "fail": [
-            "Omits an llms.txt file, leaving AI crawlers without a guide."
+            "Omits an llms.txt file to guide AI crawlers."
           ]
         }
       },
       "ai05_knowledge_anchoring": {
         "label": "AI KNOWLEDGE ANCHORING",
-        "score": 58,
-        "diagnosis": "IDENTITY CRISIS",
-        "so_what": "Tatcha's knowledge anchors are dangerously broken, scoring a 54, creating an identity crisis for AI. The brand's Wikidata entry (ID Q102984279) incorrectly identifies it as a person, and its Trustpilot score has collapsed to 2.5, signaling risk. This confusion forces AI to question the brand's legitimacy, which can suppress its visibility in search results until the Wikidata entity is corrected and the Trustpilot profile is addressed.",
+        "score": 20,
+        "diagnosis": "UNIQUE NAME, UNANCHORED ENTITY",
+        "so_what": "The brand name \"Entlify\" is unique, which is a major asset. However, the entity is completely unanchored, with no Wikipedia/Wikidata presence, no third-party reviews, and no `Organization` schema on its own site. This forces AI to treat Entlify as a string of text, not a verifiable business entity, killing its chances of appearing in trusted results. The top priority is to ship `Organization` schema on entlify.com.",
         "sub_metrics": {
           "brandname_uniqueness": {
             "score": 90,
-            "evaluation": "The brand name 'Tatcha' is a unique, coined word with no major competing entities. This high level of uniqueness is a major asset, making it easy for AI models to identify and attribute information to the correct brand without confusion. This strong signal helps anchor the brand's identity.",
+            "evaluation": "\"Entlify\" is a coined, unique brand name with no prominent collisions in other industries. This is a significant advantage, as it makes it easy for AI to associate facts with this specific entity without confusion. No fix is needed.",
             "flags_emitted": []
           },
           "schema_category_fit": {
-            "score": 50,
-            "evaluation": "The site uses `Organization` and `BreadcrumbList` schema but is missing the category-defining `Product` schema. For an e-commerce brand, this is a critical gap that prevents AI from understanding what is for sale in a structured way. Shipping `Product` schema on all product detail pages is the highest-priority fix.",
-            "flags_emitted": [
-              "category_hint_corrupted"
-            ]
+            "score": 0,
+            "evaluation": "The site has zero JSON-LD blocks, as confirmed by `json_ld_blocks_found: 0`. It misses the most critical schema for a service business: `Organization`. Without this, AI cannot verify it as a legitimate business entity. Ship `Organization` schema immediately.",
+            "flags_emitted": []
           },
           "knowledge_graph_presence": {
-            "score": 50,
-            "evaluation": "wikipedia_present: false; summary length: 0 chars. wikidata_id: 'Q102984279'; wikidata_label: 'Tatchawan Kanitpong'; wikidata_description: 'Ph.D. University of Wisconsin-Milwaukee 2001'. Reconcile divergent anchor before optimizing other surfaces.",
+            "score": 0,
+            "evaluation": "wikipedia_present: false; summary length: 0 chars. wikidata_id: 'absent'; wikidata_label: 'absent'; wikidata_description: 'absent'. Submit a Wikidata Q-id with 2 notable press citations to anchor the brand entity.",
             "flags_emitted": []
           },
           "identity_convergence": {
-            "score": 70,
-            "evaluation": "BRAND_NAMING.brand_inferred 'Tatcha' vs names_found: og_site_name=✓(Tatcha); title_tag=✓(Luxury Japanese Skincare Produ); h1=✓(Tatcha); wikidata_label=✓(Tatchawan Kanitpong); wikipedia_title=✗(). 4/5 surfaces agree. Names converge — strong identity.",
-            "flags_emitted": [
-              "entity_drift"
-            ]
+            "score": 10,
+            "evaluation": "BRAND_NAMING.brand_inferred 'Entlify' vs names_found: og_site_name=✗(); title_tag=✓(Entlify - Digital Marketing & ); h1=✗(Rank higher, convert better.); wikidata_label=✗(); wikipedia_title=✗(). 1/5 surfaces agree. Reconcile divergent surfaces — set og:site_name and align Wikipedia/Wikidata to match canonical brand name.",
+            "flags_emitted": []
           },
           "trustpilot_anchoring": {
-            "score": 30,
-            "evaluation": "trustpilot_rating: 2.5/5 across 92 reviews. Categories: [\"skin care clinic\",\"pharmacy\"]. Replies: 0. Negative reviews: 7. Improve reply_rate or claim/repair Trustpilot — abandoned rating is worse than absence.",
-            "flags_emitted": [
-              "trustpilot_collapse",
-              "third_party_taxonomy_error"
-            ]
+            "score": 0,
+            "evaluation": "ENTITY_AUTHORITY.trustpilot_present: false. No third-party trust anchor — for B2B/niche brands this is expected; for consumer DTC brands, claim a Trustpilot profile.",
+            "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Uses a unique, coined brand name \"Tatcha\"."
+            "Uses a unique, coined brand name \"Entlify\"."
           ],
           "warn": [
-            "Misses critical 'Product' schema on an e-commerce site."
+            "Brand name is missing from the H1 tag."
           ],
           "fail": [
-            "Wikidata entry Q102984279 points to a person, not a company.",
-            "Trustpilot score is a low 2.5 with 92 reviews."
+            "Has no Wikipedia or Wikidata presence.",
+            "Lacks any third-party review signals like Trustpilot."
           ]
         }
       }
