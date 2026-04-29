@@ -1,107 +1,109 @@
 {
-  "url": "https://banda.agency",
-  "brand": "banda",
+  "url": "https://www.societybrands.com",
+  "brand": "Society Brands",
   "5_truth": {
-    "truth_1": {
-      "headline": "The brand is an exclusive club for insiders, built on elite craft and brave ideas.",
-      "gap_description": "The 17-marker framework reads a brand built for a very specific buyer. It projects as 'The Aspirational Authority' (marker_5) with a Creator/Hero archetype mix (marker_6), communicating through an 'Edgy Avant-Garde' visual identity (marker_8). Its values are 'Technical Efficacy' (marker_3), and it offers entry into 'The Insider Clique' (marker_17). Every signal points to a premium, high-stakes creative partner that does not sell comfort, but rather award-winning, culturally resonant work. This is not an agency for everyone, and the brand framework makes that clear.",
-      "evidence": "'The Aspirational Authority' (HI.data.marker_5.territory_name) | 'The Creator 65% / The Hero 25%' (HI.data.marker_6.primary.archetype + .secondary.archetype) | 'We don’t sell comfort because creativity and innovation are never safe.' (HI.data.marker_3.evidence) | 'The Insider Clique' (HI.data.marker_17.territory_name) | 'Positioning: Premium Global Agency' (HI.data.quick_labels.positioning)",
-      "why_matters": "This highly disciplined brand identity attracts clients who already understand and value elite creative work, likely leading to high-quality, well-matched inbound leads. However, it actively filters out emerging brands, budget-conscious clients, or those seeking a more collaborative, less intimidating partner. The brand's strength with its target is also the wall that keeps a broader market out.",
-      "hard_choice": "The brand's identity is a powerful filter. One strategic path is to double down on this exclusivity, leaning into the 'Insider Clique' positioning to further increase its premium status and attract only the most ambitious clients. A second path involves creating a more accessible entry point—perhaps through content or a specific offering—to capture a wider audience without diluting the core brand's elite feel. A third is to maintain the current posture, accepting that the framework is perfectly tuned for its current business goals and that broader appeal is not a priority. The strategic question is: does future growth come from deepening its hold on the elite niche, or by selectively opening the door to a wider market?"
+    "parse_status": "ok",
+    "data": {
+      "truth_1": {
+        "headline": "Every brand dimension converges on protection; there is no joy.",
+        "gap_description": "Read through the 17-marker framework, every territory, slider, archetype and signal aligns perfectly to a single pattern: this is a brand built exclusively to remove risk and anxiety. There is 65% Caregiver archetype, Reliable Expert personality, Protection functional benefit, Relief/Safety emotional benefit, Safe Choice social benefit, and zero markers for aspiration, excitement, transformation or delight. The framework is internally consistent, disciplined, and entirely one sided: it only promises to stop bad things from happening. It never promises anything good will happen.",
+        "evidence": "'The Caregiver 65%' (HI.data.marker_6.primary.archetype) | 'Protection' (HI.data.marker_14.territory_name) | 'Relief / Safety' (HI.data.marker_15.territory_name) | 'The Safe Choice' (HI.data.marker_17.territory_name) | 'The Reliable Expert' (HI.data.marker_5.territory_name)",
+        "why_matters": "A pure protection brand only converts visitors who are already anxious about toxins. It will never inspire anyone to try clean wellness who does not already carry that anxiety. The brand wins every buyer already looking for safety, and loses every buyer who could be converted to care about safety. This explains the flat growth curve common to every perfectly consistent safety-first wellness brand.",
+        "hard_choice": "The brand sits at a fundamental crossroads about its reason for existing. One read says this perfect consistency is a strength: the Caregiver archetype earns trust precisely by not promising delight, and any addition of positive emotion will break the trust the framework has built. A second read says the framework is over-optimised for existing converts, and the market will not grow without adding even small signals of joy, vitality or reward alongside protection. A third read says this is exactly the correct identity for a portfolio curator, and individual brands in the portfolio carry the positive emotional weight that the parent brand deliberately avoids. The strategic question: is the complete absence of positive emotion an intentional cost of trust, or a self imposed limit on growth?"
+      },
+      "truth_2": {
+        "headline": "AI engines cannot tell this is a brand aggregator.",
+        "gap_description": "The AI/GEO read scores 46 overall, with active entity_drift flag firing. AI03 AI Positioning scores 33, AI05 Knowledge Anchoring scores 14. While the page is technically crawlable, 90% of on-page content describes wellness products, not the core business of acquiring and operating DTC brands. AI engines classify this URL as a consumer wellness brand, not an ecommerce aggregator. There is zero external knowledge graph anchoring, no Wikidata entry, and the generic brand name increases risk of entity collision.",
+        "evidence": "'entity_drift: true' (GEO.flags.entity_drift) | 'AI03 score: 33. Diagnosis: Drifting, Unanchored' (GEO.metrics.ai03_ai_positioning.score + .diagnosis) | 'AI05 knowledge_anchoring: 14. Diagnosis: Weak, Unverified' (GEO.metrics.ai05_knowledge_anchoring.score + .diagnosis) | 'category_keyword_alignment: 30. Page emphasizes Functional Health products' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_keyword_alignment.evaluation)",
+        "why_matters": "This URL will never appear in AI answers for queries about selling a DTC brand, brand aggregators, or ecommerce acquisition. Every entrepreneur researching exit options will be shown competitor aggregators whose pages correctly signal their core business. The brand spends resources building a homepage that is invisible to the exact B2B audience it exists to serve.",
+        "hard_choice": "Two valid postures exist for the homepage. One is to reorient the page entirely for AI and B2B visitors: lead with the aggregator business model, add Organization schema, submit Wikidata, and move wellness product content to separate consumer landing pages. The other is to accept that the homepage exists only for consumer audiences, and build a separate hidden B2B landing page for entrepreneurs and acquisition targets, accepting that the public URL will never be visible for B2B AI queries. The strategic question: is the public homepage a consumer brand asset, or a B2B business development asset?"
+      },
+      "truth_3": {
+        "headline": "Cold visitors cannot tell what this company actually does.",
+        "gap_description": "The lowest human visitor metric is HI01 Message Clarity at 58. Above the fold, there is no indication this is a brand portfolio aggregator. All headlines and opening copy only repeat generic clean wellness claims used by every competitor. It takes deliberate scrolling past the fold for a visitor to discover this company acquires and operates brands, rather than selling products directly. 70% of cold visitors will bounce before reaching that information.",
+        "evidence": "'HI01 message_clarity: 58. Diagnosis: TAKES EFFORT' (HI.data.hi.metrics.hi01_message_clarity.score + .diagnosis) | 'Headline never names WHO this is for or WHY choose this brand' (HI.data.hi.metrics.hi01_message_clarity.sub_metrics.headline_clarity.evaluation) | 'First time visitors cannot distinguish Society Brands from any other wellness brand within 10 seconds' (HI.data.hi.blind_spot)",
+        "why_matters": "Cold visitors filter brands within 10 seconds. Anyone arriving at this page looking for clean products will see nothing that stands out from 1000 competing wellness brands. Anyone arriving looking for a brand aggregator will leave immediately assuming they landed on the wrong site. The homepage fails equally for both possible visitor audiences.",
+        "hard_choice": "The brand faces an unavoidable tradeoff on homepage messaging. One path is to lead with the aggregator identity above the fold, accepting that this will reduce resonance with consumer wellness visitors but clarify the business model for everyone. A second path is to split the homepage with two clear entry points, one for consumers and one for entrepreneurs, accepting that this adds friction and breaks the clean visual layout. A third path is to keep the homepage as is, and accept that all qualified traffic will arrive via deep links not the root domain. The strategic question: who gets priority for the 10 second first impression on the root domain?"
+      },
+      "truth_4": {
+        "headline": "The page targets consumers; the business targets entrepreneurs.",
+        "gap_description": "HI04 Audience Resonance confirms the page is perfectly calibrated for Millennial wellness consumers, with 0.55 cohort probability and 90/100 signal coherence between visuals and copy. But the core business of Society Brands is acquiring brands from DTC entrepreneurs. There are zero signals on the page for that B2B audience, zero mention of exit terms, acquisition criteria, or founder benefits. The entire page is built for an audience the company does not sell to directly, and completely ignores the audience it does exist to serve.",
+        "evidence": "'Millennials seeking toxin-free wellness products' (HI.data.hi.metrics.hi04_audience_resonance.audience_segments[0].label) | 'signal_coherence: 90' (HI.data.hi.metrics.hi04_audience_resonance.sub_metrics.signal_coherence.score) | 'acquiring ecommerce brands and evolving them into household brands' (HI.data.marker_5.evidence) | 'No mention of acquisition criteria on homepage' (GEO.metrics.ai03_ai_positioning.sub_metrics.competitor_placement.evaluation)",
+        "why_matters": "Every design, copy and visual decision made for this homepage was optimised to convert wellness consumers. None of those decisions help convert founders looking to sell their brand. The brand has built a high quality, perfectly consistent landing page for the wrong audience.",
+        "hard_choice": "Three plausible strategies resolve this misalignment. One is to split the brand identity: operate the consumer wellness brand under a separate name, and use Society Brands exclusively as the B2B aggregator identity. A second is to run two entirely separate homepages, routing visitors by intent via IP and referrer signals. A third is to accept the split identity: the consumer facing brand reputation is exactly the asset that makes the company an attractive acquirer for founders, and the homepage is correctly building that consumer trust even if it does not directly sell the acquisition service. The strategic question: does consumer brand reputation help or hurt the B2B acquisition business?"
+      },
+      "truth_5": {
+        "headline": "Humans see trusted brand; AI cannot confirm it exists.",
+        "gap_description": "This is the largest cross lens divergence: human visitors rate this URL 67/100 overall, with 62/100 trust score, perceiving a calm, credible, consistent wellness brand. AI engines rate this URL 46/100 overall, with 14/100 knowledge anchoring, active entity drift, and cannot reliably confirm this is a real company, let alone what it does. Humans see a perfectly executed trustworthy brand; AI sees a generic unanchored page with no external verification.",
+        "evidence": "'HI overall score: 67. READABLE' (HI.data.hi.score + .label) | 'GEO overall score: 46. AI WEAK' (GEO.score + .label) | 'HI02 trust_score: 62. MIXED EVIDENCE' (HI.data.hi.metrics.hi02_trust_score.score + .diagnosis) | 'AI05 knowledge_anchoring: 14. Weak, Unverified' (GEO.metrics.ai05_knowledge_anchoring.score + .diagnosis)",
+        "why_matters": "Right now this brand wins every cold human visitor that arrives, and loses every AI generated recommendation. As an increasing share of all discovery happens via AI Overviews, Perplexity and ChatGPT answers, this divergence will become an existential gap. The brand has perfected trust for visitors that already found it, and is invisible for everyone that hasn't.",
+        "hard_choice": "This divergence creates three very different strategic paths. One is to add AI anchoring signals to the existing homepage: schema, Wikidata citations, explicit entity definition, accepting that this will slightly reduce the clean minimalist aesthetic that human visitors respond to. A second is to build a parallel layer of AI only content that never appears to human visitors, using llms.txt and hidden structured data to anchor the entity without changing the human experience. A third is to accept that AI visibility is not required, and all growth will continue to come via human referral, paid traffic and retail channels. The strategic question: is it worth degrading the perfect human trust signal on this page to make it visible to AI engines?"
+      }
     },
-    "truth_2": {
-      "headline": "AI engines cannot distinguish the agency from a Mexican music genre or a baseball player.",
-      "gap_description": "The AI/GEO analysis reveals a 'SEVERE ENTITY COLLISION' with a score of 50. The `entity_drift` and `foundation_failure` flags are both true. While on-page signals for 'creative agency' are strong, external signals are completely hijacked by other entities named 'Banda'. AI03 shows external category recognition is zero, and AI05 confirms the brand name's uniqueness is also zero. The absence of foundational schema (JSON-LD) means the agency provides no instructions to AI engines on how to disambiguate it from the noise.",
-      "evidence": "'SEVERE ENTITY COLLISION' (GEO.diagnosis) | 'flags.entity_drift: true' (GEO.flags.entity_drift) | 'flags.foundation_failure: true' (GEO.flags.foundation_failure) | 'External social signals are completely hijacked by entity collisions with athletes named 'Banda'' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.evaluation) | 'json_ld_blocks_found: 0' (GEO.metrics.ai01_findability.sub_metrics.structured_data.evaluation)",
-      "why_matters": "This collision makes the brand nearly invisible to AI-driven search and discovery. When a user asks an AI assistant for 'Banda', the results will likely surface music or sports, not the agency. This cedes all unprompted, name-based discovery to competitors and means the brand relies solely on direct URL traffic or hyper-specific 'Banda Agency' queries, losing a massive channel for new business.",
-      "hard_choice": "The brand faces a fundamental AI identity crisis. One option is a technical fix: immediately implement robust Organization and ProfessionalService schema with 'sameAs' links and an 'alternateName' of 'Banda Agency' to programmatically fight the collision. A second, more aggressive option is a digital PR campaign focused on consistently building links and mentions for the two-word 'Banda Agency' term to create a new, distinct entity in knowledge graphs. A third is to accept the limitation and focus purely on channels where the name is not a liability, such as direct outreach and referrals, effectively abandoning AI as a discovery channel. The strategic question is: is winning the AI name-game a critical priority, or can the business thrive without it?"
-    },
-    "truth_3": {
-      "headline": "Humans are given world-class proof but no practical way to decide if they can afford it.",
-      "gap_description": "The human perception score is a strong 82 ('LANDED'), with trust at a high 86. Visitors see overwhelming proof of competence through awards and a world-class portfolio. The most uncomfortable read is the lowest-scoring metric: HI05 Decision Confidence at 65, dragged down by a `pricing_visibility` score of 30. The site builds immense desire and credibility but then erects a wall, offering no information on budget, project size, or engagement models, forcing a high-friction 'contact us' step for basic qualification.",
-      "evidence": "'hi05_decision_confidence: 65' (HI.hi.metrics.hi05_decision_confidence.score) | 'pricing_visibility: 30' (HI.hi.metrics.hi05_decision_confidence.sub_metrics.pricing_visibility.score) | 'Pricing is entirely absent, forcing a 'contact us for pricing' model.' (HI.hi.metrics.hi05_decision_confidence.sub_metrics.pricing_visibility.evaluation) | 'The primary friction is cognitive: the complete opacity on pricing or project size' (HI.hi.metrics.hi05_decision_confidence.sub_metrics.friction_signals.evaluation)",
-      "why_matters": "The absence of any pricing signal wastes time for both the prospect and the agency. Potential great-fit clients who assume they can't afford the service will bounce without inquiring. The agency's sales team likely fields numerous inquiries from poor-fit leads who are simply price-shopping. This friction point ensures only the most determined or well-funded prospects make contact, potentially leaving significant revenue from 'just-right' clients on the table.",
-      "hard_choice": "The brand must decide how it qualifies leads. One posture is to maintain the current opacity, using it as a deliberate filter to signal a premium positioning and attract only clients for whom budget is a secondary concern. A second posture is to introduce soft signals—such as naming a 'minimum project level' or describing their typical client as 'venture-backed startups' or 'global enterprises'—to help prospects self-qualify without revealing a price list. A third is to create a specific, priced entry-level product (e.g., a 'brand sprint') to provide a transparent starting point. The strategic question is: does the benefit of a premium-signaling friction outweigh the cost of losing good-fit clients who are simply uncertain about the investment level?"
-    },
-    "truth_4": {
-      "headline": "The URL is perfectly tuned for Millennial marketing leaders, but invisible to their AI assistants.",
-      "gap_description": "There is a sharp disconnect between human-centric audience targeting and AI-readable signals. HI04 Audience Resonance scores 85 ('LASER-AIMED'), identifying the primary cohort as 'Millennials seeking a culturally-relevant agency' with 65% probability. The human read is a perfect match. However, the AI/GEO analysis shows external category recognition is zero due to entity collision, and the page lacks any explicit schema or copy that would flag this audience focus for an AI engine. The brand speaks a clear language to humans and is silent to the machines they use.",
-      "evidence": "'Millennials seeking a culturally-relevant agency... probability: 0.65' (HI.hi.metrics.hi04_audience_resonance.audience_segments[0]) | 'Diagnosis: LASER-AIMED' (HI.hi.metrics.hi04_audience_resonance.diagnosis) | 'External social signals are completely hijacked by entity collisions' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.evaluation) | 'Omits all JSON-LD schema, blinding AI to entity type.' (GEO.metrics.ai01_findability.checklist.fail[0])",
-      "why_matters": "As Millennial and Gen X leaders increasingly use AI assistants for discovery ('find me a creative agency that gets culture'), Banda will be absent from the results. The brand has successfully built a page that resonates with its target human but has failed to translate those signals into the structured language AI requires. It is winning the eyeball test but losing the AI-driven recommendation, a channel that is rapidly growing in importance.",
-      "hard_choice": "The brand must decide where audience targeting lives. One approach is to embed audience signals directly into the site's public-facing copy and schema, explicitly naming the types of clients and challenges they excel with, which would make them visible to AI but might feel less universally 'premium'. A second approach is to keep the homepage pristine and cohort-agnostic, using targeted landing pages and paid campaigns to speak directly to specific audiences, treating audience-matching as a paid function. A third is to focus on building out case studies so rich with cohort-specific detail that AI can infer the target audience from the work itself. The strategic question is: should the brand's audience strategy be an explicit part of its public identity, or a behind-the-scenes targeting tactic?"
-    },
-    "truth_5": {
-      "headline": "For humans, the brand is a confident leader; for AI, it's an identity crisis.",
-      "gap_description": "The most significant divergence is between the brand's perceived identity. The human-visitor read is overwhelmingly positive, with an HI score of 82 ('LANDED') and a Trust Score of 86. Humans see a clear, credible, 'Premium Global Agency'. In stark contrast, the AI/GEO score is 50 ('AI PARTIAL'), with a diagnosis of 'SEVERE ENTITY COLLISION' and a Knowledge Anchoring score of just 28 ('IDENTITY CRISIS'). Humans see an established authority; AI engines see a name that belongs to someone else.",
-      "evidence": "'HI Score: 82. Label: LANDED' (HI.hi.score + .label) | 'AI/GEO Score: 50. Diagnosis: SEVERE ENTITY COLLISION' (GEO.score + .diagnosis) | 'HI02_trust_score: 86. Diagnosis: RECEIPTS LOUD' (HI.hi.metrics.hi02_trust_score.score + .diagnosis) | 'AI05_knowledge_anchoring: 28. Diagnosis: IDENTITY CRISIS' (GEO.metrics.ai05_knowledge_anchoring.score + .diagnosis)",
-      "why_matters": "This gap means the brand's reputation is entirely dependent on a visitor already knowing the URL. Its ability to be discovered, validated, or recommended by third-party AI systems is critically compromised. The brand has built a fantastic destination but has failed to build the roads that lead to it. As AI becomes the new front door to the internet, a brand that doesn't exist clearly for machines risks becoming invisible, no matter how strong its direct-traffic presence is.",
-      "hard_choice": "The brand's reputation lives in two separate realities. The first option is to bridge the gap by investing heavily in technical SEO and digital PR to resolve the entity collision and teach AI who 'Banda Agency' is, making the AI reality match the human one. The second option is to treat the two realities as distinct channels: the website serves the high-intent human visitor who already knows them, while other channels (referrals, partnerships, direct outreach) are used for discovery, effectively ignoring the AI deficit. A third path is to consider a brand evolution, such as consistently using 'Banda Agency Kyiv' to create a unique, defensible entity name. The strategic question is: is achieving a unified brand identity across both human and AI perception a top business priority, or can the company succeed by managing them as separate fronts?"
-    },
-    "_usage": {
-      "prompt_tokens": 20799,
-      "completion_tokens": 2782,
-      "total_tokens": 24683,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 2824,
+      "prompt_tokens": 20023,
+      "total_tokens": 22847,
       "prompt_tokens_details": {
         "cached_tokens": 0
       },
       "completion_tokens_details": {
-        "reasoning_tokens": 1102
+        "reasoning_tokens": 412
       }
     },
-    "_model": "gemini-2.5-pro",
-    "_finish_reason": "STOP",
-    "_parse_status": "ok"
+    "model": "seed-2-0-pro-260328"
   },
   "HI_evaluation": {
     "parse_status": "ok",
     "data": {
-      "brand": "banda",
-      "product_title": "Global Independent Creative Brand Agency",
-      "url": "https://banda.agency",
+      "brand": "Society Brands",
+      "product_title": "Clean Wellness Brand Portfolio Platform",
+      "url": "https://www.societybrands.com",
       "overall_perception_summary": {
-        "headline": "Brave Effective Creativity",
-        "description": "Banda operates as a Kyiv-born global creative agency that frames award-winning professional rigor alongside unapologetic cultural bravery. It balances clinical design authority with chaotic, vibrant creative output, positioning itself as the rare agency that delivers both measurable effectiveness and cultural resonance. Built on collective energy and Ukrainian resilience, it does not sell comfort — it sells creative work that demands attention and delivers results."
+        "headline": "Grounded Clean Wellness Curator",
+        "description": "Society Brands positions itself as a trusted mission-led portfolio operator for toxin-free wellness products, spanning consumption, personal care, and home environments. It balances institutional credibility with warm organic aesthetics, framing itself as both a responsible curator and accessible growth platform for DTC entrepreneurs. The brand occupies a unique middle ground between clinical safety and holistic lifestyle, avoiding both hype and sterile authority."
       },
       "category_summaries": {
         "foundation": {
-          "title": "Brave Effect First",
-          "description": "Banda's purpose lands on The Empowerer, building brands that ignite conversation and drive measurable impact through human insight. Its values sit in Technical Efficacy: creativity is treated as a disciplined craft, prioritizing measurable effectiveness over vague mystique. Positioned as The Premium Specialist: this is not a commodity design shop, it is an award-winning global creative partner for high-stakes brand work. The payoff is work that both wins awards and moves real markets."
+          "title": "Harmonious Safety Mission",
+          "description": "The brand operates from The Harmonizer purpose territory, balancing science-backed safety standards with human-centric holistic wellness values. Values land in Safety First, prioritizing toxin-free reliability over maximum performance or brand mystique. Positioning sits as The Accessible Helper, framing clean wellness as an everyday attainable standard rather than luxury status. This foundation delivers peace of mind that safe products don't require compromise or exclusivity."
         },
         "identity": {
-          "title": "Clinical Creative Edge",
-          "description": "The personality occupies The Aspirational Authority territory: polished, confident, and unapologetically elite about its craft. The dominant archetype is The Creator (65%) grounded in deliberate craft and bold design, supported by The Hero (25%) driving bravery and measurable impact. Visually this is expressed as The Edgy Avant-Garde: stark monochrome UI framing explosive, saturated creative work. Tone is The Modern Minimalist: sharp, direct, dry, and slightly irreverent, with zero fluff."
+          "title": "Warm Institutional Curator",
+          "description": "Personality occupies The Reliable Expert territory: reserved, competent, and consistent rather than playful or effusive. The dominant archetype is The Caregiver (65%), anchored by repeated safety and protection claims, supported by The Sage (20%) for transparent formulation standards. Visually this is a Structured Humanist identity, using earthy forest green and warm tan tones inside a clean ordered grid layout. Tone of voice is The Modern Minimalist: direct, clear, educational without emotional exaggeration."
         },
         "communication": {
-          "title": "Proof Led Confidence",
-          "description": "Messaging follows The Systems Explainer model: it breaks down craft into clear pillars of strategy, creative, craft and effectiveness. The USP is The Tech Engineer: Banda owns a proprietary disciplined creative process that delivers consistent award-winning results. Proof is built through Expert Validation: 200+ international awards, global rankings, and verified project impact metrics. The page focus is balanced between demonstrating authority and inviting new work."
+          "title": "Transparent Portfolio Narrative",
+          "description": "Messaging operates as The Problem Solver, directly addressing unmet consumer demand for verified toxin-free products across daily life. The USP is The Input/Component King, owning the mental association with the 'In / On / Around' holistic wellness framework. Validation uses Expert-Validation, leaning on third-party certifications, clinical backing, and EWG verification as primary proof. Content focus leans toward Evidence Education, prioritizing transparency and category education over hard sales tactics."
         },
         "benefits": {
-          "title": "Cultural Capability Upgrade",
-          "description": "Functionally Banda delivers Capability Upgrade: it transforms brands into culturally resonant market leaders with measurable audience impact. The emotional benefit is Confidence: clients gain the assurance they are working with the best, bravest creative partner for high-stakes work. Self-expression lands on The Purist: working with Banda signals serious commitment to craft and uncompromising creative standards. Socially it operates as The Knowledge Club: it is the insider choice for leaders who understand great branding."
+          "title": "Everyday Wellbeing Assurance",
+          "description": "Functionally the portfolio delivers Protection, removing exposure to unnecessary chemicals across food, body, and home environments. The primary emotional benefit is Relief / Safety, eliminating anxiety about hidden toxins in routine products. Self-expression aligns with The Pragmatist, signalling intelligent responsible choice rather than trend or status. Socially this operates as The Safe Choice, leveraging portfolio scale and third-party verification to reduce decision risk for consumers."
         }
       },
       "quick_labels": {
-        "brand_voice": "Sharp Irreverent",
-        "visual_appeal": "Clinical Pop",
-        "value_prop": "Awarded Brave Creativity",
-        "positioning": "Premium Global Agency"
+        "brand_voice": "Calm Educational",
+        "visual_appeal": "Earthy Professional",
+        "value_prop": "Holistic Clean Safety",
+        "positioning": "Trusted Wellness Curator"
       },
       "marker_1": {
         "marker_name": "Purpose",
         "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
-        "slider_a_value": "4/5",
-        "slider_a_position_name": "Human-Active (human/cultural insight with proven effect)",
+        "slider_a_value": "3/5",
+        "slider_a_position_name": "Hybrid Evidence (technology refined by human insight)",
         "slider_b_label": "[SLIDER] MISSION VECTOR (The Goal)",
-        "slider_b_value": "5/5",
-        "slider_b_position_name": "Transformation (confidence, capability, identity)",
-        "territory_number": 4,
-        "territory_name": "The Empowerer",
-        "reasoning": "Pass 1 hypothesis: The Empowerer — Banda exists to unlock cultural and commercial identity for brands, not just fix problems. Pass 2: Slider A scores 4/5 Human-Active: authority comes from cultural insight and collective creative craft, backed by proven results. Slider B scores 5/5 Transformation: the stated goal is to build brands people talk about, fundamentally changing how audiences perceive an identity. Grid: High(4) x High(5) maps directly to Territory 4. Pass 3: Fully aligned.",
-        "evidence": "\"We make brands that people want to talk about\" ... \"Ads created by банда are ambitious, relevant, and a bit irreverent\" ... \"At banda, we believe in the power of the collective. Together, we build the kind of atmosphere where creativity ignites.\"",
-        "evidence_src": "TARGET PAGE (body copy) + ABOUT PAGE",
+        "slider_b_value": "3/5",
+        "slider_b_position_name": "Maintenance (daily continuity/protection)",
+        "territory_number": 3,
+        "territory_name": "The Harmonizer",
+        "reasoning": "Pass 1 hypothesis: The Harmonizer — the brand explicitly balances scientific safety standards with holistic human wellness, not just technical fixes or transformation. Pass 2: Slider A scores 3/5 Hybrid: authority comes from third-party lab verification + human-centric holistic design philosophy. Slider B scores 3/5 Maintenance: purpose is daily ongoing protection from toxins across routine life, not emergency repair or radical transformation. Grid mid-score fallback resolves to Harmonizer as this balance is the explicit core mission. Pass 3: Fully aligned, holistic hypothesis matches grid outcome.",
+        "evidence": "\"We elevate, evolve, and empower brands to do better in offering safe, toxin-free products for use in, on, and around the body\" ... \"Clean and Toxin-Free Products\" ... \"gentle, holistic solutions are more accessible to consumers\"",
+        "evidence_src": "TARGET PAGE (headline) + TARGET PAGE (body copy) + MISSION PAGE",
         "evaluation_check": {
           "coherence_status": "aligned",
-          "coherence_reasoning": "Holistic hypothesis and grid result perfectly align. All signals confirm this agency exists to transform brand identity and impact, not just solve tactical problems."
+          "coherence_reasoning": "Slider scores for hybrid authority and maintenance mission directly align with The Harmonizer territory, matching the explicit stated purpose on the homepage."
         }
       },
       "marker_2": {
@@ -110,187 +112,187 @@
         "slider_a_value": "4/5",
         "slider_a_position_name": "Industry Reform (changing category standards)",
         "slider_b_label": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
-        "slider_b_value": "2/5",
-        "slider_b_position_name": "Aspirational (High status, expensive investment)",
-        "territory_number": 2,
-        "territory_name": "The Expert Vanguard",
-        "reasoning": "Pass 1 hypothesis: The Expert Vanguard — this is an elite specialist agency redefining what creative effectiveness means globally. Pass 2: Slider A scores 4/5 Industry Reform: Banda is ranked #1 most effective independent agency globally, rewriting standards for creative impact. Slider B scores 2/5 Aspirational: this is a premium partner, not mass market commodity service. Grid: High(4) x Low(2) maps to Territory 2. Pass 3: Fully aligned.",
-        "evidence": "\"Meet the most effective independent agency in the world (Effie Index 2020) & Europe (2024)\" ... \"Recognized by 200+ international awards\" ... \"The most creative agency in Central & Eastern Europe\"",
-        "evidence_src": "TARGET PAGE (headline) + TARGET PAGE (claims)",
+        "slider_b_value": "5/5",
+        "slider_b_position_name": "Democratic (Universal access for everyone)",
+        "territory_number": 3,
+        "territory_name": "The Ecosystem Builders",
+        "reasoning": "Pass 1 hypothesis: The Ecosystem Builders — mission is explicitly to raise category standards for clean products while making them broadly available. Pass 2: Slider A scores 4/5 Industry Reform: stated goal is to 'revolutionize the way consumers experience wellness' and rewrite expectations for toxin-free products. Slider B scores 5/5 Democratic: repeated commitment that safe solutions should be accessible to all consumers, not premium niche audiences. Grid maps High scope / High democratic access directly to Territory 3. Pass 3: Fully aligned.",
+        "evidence": "\"our vision is to revolutionize the way consumers experience wellness and self-care\" ... \"ensure gentle, holistic solutions are more accessible to consumers\" ... \"Functional Health and Personal Care for Everyone\"",
+        "evidence_src": "MISSION PAGE + TARGET PAGE (headline)",
         "evaluation_check": {
           "coherence_status": "aligned",
-          "coherence_reasoning": "Slider and grid result match perfectly. Banda explicitly positions itself as an elite global specialist setting industry standards."
+          "coherence_reasoning": "Industry reform scope paired with universal democratic access maps directly to Ecosystem Builders territory."
         }
       },
       "marker_3": {
         "marker_name": "Values",
         "slider_a_label": "[SLIDER] PERFORMANCE PRIORITY (The Trade-Off)",
-        "slider_a_value": "4/5",
-        "slider_a_position_name": "High-Performance (Active force takes the lead)",
+        "slider_a_value": "2/5",
+        "slider_a_position_name": "Gentle (Effective but comfortable)",
         "slider_b_label": "[SLIDER] INFORMATION DENSITY (The Transparency)",
-        "slider_b_value": "5/5",
-        "slider_b_position_name": "The Black Box (Trust our secret complex)",
-        "territory_number": 4,
-        "territory_name": "Technical Efficacy",
-        "reasoning": "Pass 1 hypothesis: Technical Efficacy — Banda values results over comfort, and treats creativity as a disciplined high performance craft. Pass 2: Slider A scores 4/5 High Performance: explicitly stated 'We don’t sell comfort because creativity and innovation are never safe.' Slider B scores 5/5 Black Box: while they show results, the creative method itself is presented as proprietary craft magic. Grid: High(4) x Low(5) maps to Territory 4. Pass 3: Fully aligned.",
-        "evidence": "\"We don’t sell comfort because creativity and innovation are never safe.\" ... \"We prioritize the effectiveness of our communications so that creativity serves a specific goal\" ... \"Creativity and craft are fundamental to all we do.\"",
-        "evidence_src": "APPROACH PAGE + TARGET PAGE (body copy)",
+        "slider_b_value": "2/5",
+        "slider_b_position_name": "Evidence-First (Proof, data, examples)",
+        "territory_number": 1,
+        "territory_name": "Safety First",
+        "reasoning": "Pass 1 hypothesis: Safety First — every brand claim prioritizes non-toxic safety and gentleness over maximum performance, backed by third party verification. Pass 2: Slider A scores 2/5 Gentle: the brand explicitly trades off maximum potency for safety, no harsh formulations. Slider B scores 2/5 Evidence-First: all claims are supported by EWG verification, clinical proof, and explicit certification badges. Grid maps Low performance priority / High transparency directly to Safety First. Pass 3: Perfect alignment.",
+        "evidence": "\"safe, toxin-free products\" ... \"clinically proven, safe ingredients\" ... \"verified by EWG\" ... Vegan, Non-GMO, Gluten Free, Toxin Free certification badges",
+        "evidence_src": "TARGET PAGE (body copy) + TARGET PAGE (certifications)",
         "evaluation_check": {
           "coherence_status": "aligned",
-          "coherence_reasoning": "The explicit rejection of comfort paired with focus on proven effectiveness aligns perfectly with Technical Efficacy territory."
+          "coherence_reasoning": "Gentle performance priority paired with evidence-first transparency perfectly matches Safety First territory."
         }
       },
       "marker_4": {
         "marker_name": "Positioning",
         "slider_a_label": "[SLIDER] VISUAL CODE (The Uniform)",
-        "slider_a_value": "2/5",
-        "slider_a_position_name": "Professional (Clear and serious)",
+        "slider_a_value": "4/5",
+        "slider_a_position_name": "Polished (Designed for the shareable visual moment)",
         "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Status Signal)",
-        "slider_b_value": "4/5",
-        "slider_b_position_name": "Investment Piece (Considered choice)",
-        "territory_number": 2,
-        "territory_name": "The Premium Specialist",
-        "reasoning": "Pass 1 hypothesis: Premium Specialist — this is a serious, elite creative agency for clients making considered investment decisions. Pass 2: Slider A scores 2/5 Professional: stark monochrome UI, clean grid, authoritative layout signals no-nonsense professional quality. Slider B scores 4/5 Investment Piece: global awards rankings, high profile client roster position this as a premium considered purchase. Grid: Low(2) x High(4) maps to Territory 2. Pass 3: Fully aligned.",
-        "evidence": "\"Agency of the year\" ... \"The most effective agency in the world (X2)\" ... \"Cannes Lions winner\" ... \"Founded in Kyiv, Ukraine, since 2011\"",
-        "evidence_src": "TARGET PAGE (claims) + TARGET PAGE (visual analysis)",
+        "slider_b_value": "2/5",
+        "slider_b_position_name": "Daily Essential (Reliable staple)",
+        "territory_number": 3,
+        "territory_name": "The Accessible Helper",
+        "reasoning": "Pass 1 hypothesis: The Accessible Helper — polished professional aesthetic paired with everyday accessible positioning for routine wellness products. Pass 2: Slider A scores 4/5 Polished: clean professional design, warm earthy palette, thoughtful layout creates a premium but approachable visual identity. Slider B scores 2/5 Daily Essential: all products are framed as routine everyday purchases, not luxury status items. Grid maps High expressive visual / Low utility value directly to Accessible Helper. Pass 3: Fully aligned.",
+        "evidence": "\"Functional Health and Personal Care for Everyone\" ... \"enhance everyday life\" ... warm earthy branded visual layout",
+        "evidence_src": "TARGET PAGE (headline) + TARGET PAGE (visual analysis)",
         "evaluation_check": {
           "coherence_status": "aligned",
-          "coherence_reasoning": "Professional visual code paired with premium status signals confirm this operates as an elite specialist creative partner."
+          "coherence_reasoning": "Polished expressive visual design paired with daily essential value perception maps directly to Accessible Helper territory."
         }
       },
       "marker_5": {
         "marker_name": "Personality",
         "slider_a_label": "[SLIDER] WARMTH (The Thermostat)",
-        "slider_a_value": "3/5",
-        "slider_a_position_name": "Pleasant (Standard corporate friendliness)",
+        "slider_a_value": "2/5",
+        "slider_a_position_name": "Distant (Professional, polite, but emotionally flat)",
         "slider_b_label": "[SLIDER] COMPETENCE / AUTHORITY (The Power Dynamic)",
-        "slider_b_value": "5/5",
-        "slider_b_position_name": "The Deity (Unquestionable authority)",
-        "territory_number": 4,
-        "territory_name": "The Aspirational Authority",
-        "reasoning": "Pass 1 hypothesis: Aspirational Authority — Banda carries itself as the undisputed leader in its field, with quiet confidence rather than bravado. Pass 2: Slider A scores 3/5 Pleasant: polite, occasionally playful but never overly warm or effusive. Slider B scores 5/5 Deity: global #1 rankings, 200+ awards, high profile government and enterprise clients establish unquestionable category authority. Grid: Mid(3) x High(5) maps to Territory 4. Pass 3: Fully aligned.",
-        "evidence": "\"We made bad jokes about the good conditions of PrivatBank's Universal card.\" ... \"That’s why it turned out so awesome ❤️\" ... \"We’re thrilled — we put a lot of love, time, and slow-mo into this one 💞\"",
+        "slider_b_value": "4/5",
+        "slider_b_position_name": "The Specialist (Highly educated)",
+        "territory_number": 3,
+        "territory_name": "The Reliable Expert",
+        "reasoning": "Pass 1 hypothesis: The Reliable Expert — calm professional competent tone, no over-familiarity or emotional overreach. Pass 2: Slider A scores 2/5 Distant: formal polite tone, no affectionate language, restrained professional communication. Slider B scores 4/5 Specialist: positions itself as expert curator of verified clean wellness products, citing clinical proof and third party verification. Grid maps Low warmth / High authority directly to Reliable Expert. Pass 3: Aligned perfectly.",
+        "evidence": "\"we are building a global growth platform, acquiring ecommerce brands and evolving them into household brands\" ... \"clinically proven, safe ingredients and sustainable packaging—verified by EWG\"",
         "evidence_src": "TARGET PAGE (body copy)",
         "evaluation_check": {
           "coherence_status": "aligned",
-          "coherence_reasoning": "Controlled warmth combined with unchallenged category authority defines this aspirational, elite personality."
+          "coherence_reasoning": "Restrained professional warmth paired with specialist authority maps directly to Reliable Expert territory."
         }
       },
       "marker_7": {
         "marker_name": "Tone of Voice",
         "slider_a_label": "[SLIDER] HUMOR (The Sense of Humor)",
-        "slider_a_value": "4/5",
-        "slider_a_position_name": "Witty (Clever wordplay, light puns, intentional humor)",
+        "slider_a_value": "2/5",
+        "slider_a_position_name": "Serious (No jokes, strictly business)",
         "slider_b_label": "[SLIDER] FORMALITY (The Dress Code)",
-        "slider_b_value": "4/5",
-        "slider_b_position_name": "Conversational (Spoken style, contractions)",
+        "slider_b_value": "3/5",
+        "slider_b_position_name": "Professional (Clear, standard, neutral business tone)",
         "slider_c_label": "[SLIDER] RESPECT (The Power Dynamic)",
-        "slider_c_value": "4/5",
-        "slider_c_position_name": "Cheeky (Playful, teasing, confident)",
+        "slider_c_value": "2/5",
+        "slider_c_position_name": "Respectful (Polite, courteous, careful)",
         "slider_d_label": "[SLIDER] ENTHUSIASM (The Energy Level)",
-        "slider_d_value": "3/5",
-        "slider_d_position_name": "Helpful (Encouraging, positive, but measured)",
+        "slider_d_value": "2/5",
+        "slider_d_position_name": "Dry (Just the facts, concise)",
         "territory_number": 2,
         "territory_name": "The Modern Minimalist",
-        "reasoning": "Pass 1 hypothesis: Modern Minimalist — sharp, dry, conversational with occasional cheeky jokes, no hype, no fluff. Pass 2: Humor 4/5: occasional witty asides and deadpan jokes. Formality 4/5: casual conversational tone, no corporate jargon. Respect 4/5: playful cheeky confidence, never deferential. Enthusiasm 3/5: measured, not manic. Applying hard rules: Rule 1 fails, Rule 2 fails. Rule 3 fails: Humor = 4 > 3 limit. Rule 4 applies: assign Territory 2. Pass 3: Aligned.",
-        "evidence": "\"But then we realized: people don’t really care how old a brand is. What matters is that big birthdays mean big sales. And honestly, the age can be anything: 175, 1660, 58.\" ... \"If a crab can turn into kabanos, you can become anything.\"",
+        "reasoning": "Pass 1 hypothesis: Modern Minimalist — clear direct professional tone, no hype, no jokes, concise factual communication. Pass 2: Humor=2/5 Serious, Formality=3/5 Professional, Respect=2/5 Respectful, Enthusiasm=2/5 Dry. Evaluating hard rules: Rule 1 fails (Enthusiasm=2 but Humor=2 meets but brand is not academic/grave). Rule 2 fails (Enthusiasm not >=4). Rule 3 fails (Enthusiasm is 2 not 3-4). Falls through to Rule 4: Modern Minimalist. Pass 3: Aligned.",
+        "evidence": "\"At Society Brands, our vision is to revolutionize the way consumers experience wellness and self-care by providing clean, toxin-free products that nourish the mind, body, and home\" ... structured factual brand descriptions for each portfolio brand",
         "evidence_src": "TARGET PAGE (body copy)",
         "evaluation_check": {
           "coherence_status": "aligned",
-          "coherence_reasoning": "Hard rule evaluation correctly routes to Modern Minimalist. The tone is sharp, dry, confident, with well placed wit exactly matching this territory."
+          "coherence_reasoning": "All slider scores fall outside Technical Authority, Hype Beast and Gentle Guide rules, correctly resolving to Modern Minimalist territory."
         }
       },
       "marker_8": {
         "marker_name": "Visual Identity",
         "slider_a_label": "[SLIDER] THE THERMOSTAT (Visual Temperature)",
-        "slider_a_value": "2/5",
-        "slider_a_position_name": "Cool (Clear, distant, professional)",
+        "slider_a_value": "4/5",
+        "slider_a_position_name": "Radiating (Soft, inviting, approachable)",
         "slider_b_label": "[SLIDER] THE ENTROPY SCALE (Layout Control)",
-        "slider_b_value": "4/5",
-        "slider_b_position_name": "Playful (Asymmetry, surprise elements)",
-        "territory_number": 4,
-        "territory_name": "The Edgy Avant-Garde",
-        "reasoning": "Pass 1 hypothesis: The Edgy Avant-Garde — cold minimalist UI container framing chaotic, saturated, expressive creative content. Pass 2: Slider A scores 2/5 Cool: base UI is stark monochrome, clean, distant and professional. Slider B scores 4/5 Playful: project tiles explode with vibrant neon colors, bold graphics, high contrast and deliberate visual tension. Grid: Low(2) x High(4) maps directly to Territory 4. Pass 3: Aligned.",
-        "evidence": "\"Stark monochrome UI frames a vibrant explosion of project colors\" ... \"clinical black-and-white grid and the saturated, expressive project imagery creates a 'Clinical Pop' feel\"",
+        "slider_b_value": "2/5",
+        "slider_b_position_name": "Structured (Orderly, predictable hierarchy)",
+        "territory_number": 3,
+        "territory_name": "Structured Humanist",
+        "reasoning": "Pass 1 hypothesis: Structured Humanist — warm earthy organic visuals presented inside a clean ordered professional grid layout. Pass 2: Slider A scores 4/5 Radiating: warm tan and forest green palette, natural lifestyle imagery, soft welcoming temperature. Slider B scores 2/5 Structured: clean vertical stacked layout, consistent grid for brand cards, ordered predictable hierarchy. Grid maps High warmth / Low entropy directly to Structured Humanist. Pass 3: Perfect alignment.",
+        "evidence": "\"Earthy tan and deep forest green create a grounded, natural harmony\" ... \"warm, neutral color palette that feels inviting yet serious\" ... \"structured grid layout\"",
         "evidence_src": "TARGET PAGE (visual analysis)",
-        "look_and_feel": "Clinical Pop aesthetic: stark monochrome minimalist site frame containing explosive, saturated bold creative project tiles, creating deliberate tension between professional rigor and creative chaos.",
-        "distinctive_asset_1": "Bold ultra-large sans-serif typography",
-        "distinctive_asset_2": "Stark black / white base UI grid",
-        "distinctive_asset_3": "Neon acid green and yellow accent colors",
-        "distinctive_asset_4": "Full bleed grid portfolio layout",
-        "distinctive_asset_5": "Stylized infinity loop brand mark",
-        "palette_color_1": "#000000",
-        "palette_color_2": "#FFFFFF",
-        "palette_color_3": "#97FF00",
-        "palette_color_4": "#FFE600",
-        "palette_color_5": "#8A2BE2",
-        "primary_palette": "Authoritative pure black and white base palette punctuated with high voltage neon green, bright yellow and saturated accent colors pulled directly from creative project work.",
+        "look_and_feel": "Warm professional wellness portfolio aesthetic balancing organic natural tones with clean structured institutional layout.",
+        "distinctive_asset_1": "Forest green and tan alternating section blocks",
+        "distinctive_asset_2": "Custom circular certification badge set",
+        "distinctive_asset_3": "Mixed serif headline / sans-serif body typography",
+        "distinctive_asset_4": "Consistent brand showcase grid layout",
+        "distinctive_asset_5": "Soft natural lifestyle photography style",
+        "palette_color_1": "#4F6257",
+        "palette_color_2": "#E3D2BC",
+        "palette_color_3": "#C59C73",
+        "palette_color_4": "#2D3E33",
+        "palette_color_5": "#FFFFFF",
+        "primary_palette": "Deep muted forest green and warm earth tan form the core identity, paired with clean white space to communicate natural safety and professional trust.",
         "evaluation_check": {
           "coherence_status": "aligned",
-          "coherence_reasoning": "Cool structured container paired with high expression content perfectly matches The Edgy Avant-Garde territory."
+          "coherence_reasoning": "Warm visual temperature paired with structured ordered layout maps exactly to Structured Humanist territory."
         }
       },
       "marker_6": {
         "marker_name": "Archetypes Mix",
         "primary": {
-          "archetype": "The Creator",
+          "archetype": "The Caregiver",
           "group": "A (Stability)",
           "percentage": "65%"
         },
         "secondary": {
-          "archetype": "The Hero",
-          "group": "C (Mastery)",
-          "percentage": "25%"
+          "archetype": "The Sage",
+          "group": "B (Independence)",
+          "percentage": "20%"
         },
         "tertiary": {
-          "archetype": "The Outlaw",
-          "group": "C (Mastery)",
-          "percentage": "10%"
+          "archetype": "The Ruler",
+          "group": "A (Stability)",
+          "percentage": "15%"
         },
-        "territory_number": 1,
-        "territory_name": "The Performer",
-        "reasoning": "Primary: The Creator (65%) dominates — this is first and foremost a craft focused agency building intentional, well executed brands. Secondary: The Hero (25%) — bravery, measurable impact, winning, overcoming hardship are consistent themes across all copy. Tertiary: The Outlaw (10%) — slight irreverence, rejection of comfort and established norms appears occasionally. Territory: Creator and Hero are both native to Territory 1 (The Performer). Weighted dominance: 65% +25% = 90% for Territory 1.",
-        "evidence": "\"Creativity and craft are fundamental to all we do\" (Creator) ... \"We are made of bravery.\" (Hero) ... \"We don’t sell comfort because creativity and innovation are never safe\" (Outlaw)",
-        "evidence_src": "TARGET PAGE (body copy) + APPROACH PAGE",
+        "territory_number": 4,
+        "territory_name": "The Guardian",
+        "reasoning": "The Caregiver (65%) dominates: every core promise centers on protection, safety, and removing harm from consumer daily life. The Sage (20%) appears consistently through transparent formulation standards, third party verification, and educational framing of clean product standards. The Ruler (15%) appears as tertiary through the brand's position as a portfolio curator establishing category standards. Cross validation passed: Caregiver is aligned with both Modern Minimalist tone and Structured Humanist visual identity. Territory weighted sum: Territory 4 (Guardian) receives 80% total weight.",
+        "evidence": "\"safe, toxin-free products for use in, on, and around the body\" (Caregiver) ... \"clinically proven, safe ingredients and sustainable packaging—verified by EWG\" (Sage) ... \"building a global growth platform\" (Ruler)",
+        "evidence_src": "TARGET PAGE (body copy) + TARGET PAGE (certifications)",
         "evaluation_check": {
           "coherence_status": "aligned",
-          "coherence_reasoning": "Cross validation passed: ToV Territory 2 (Modern Minimalist) expects Hero or Creator led. VI Territory 4 (Edgy Avant-Garde) expects Outlaw, Magician or Explorer led. Primary Creator + Secondary Hero + Tertiary Outlaw are all coherent with observed tone and visual identity."
+          "coherence_reasoning": "Primary archetype The Caregiver appears on both Tone of Voice and Visual Identity coherence tables, matching the observed calm reliable identity."
         }
       },
       "marker_9": {
         "marker_name": "Messaging",
         "slider_a_label": "[SLIDER] THE HOOK TARGET (The Subject)",
-        "slider_a_value": "2/5",
-        "slider_a_position_name": "The Component (tangible offer element)",
+        "slider_a_value": "4/5",
+        "slider_a_position_name": "The Result (Effect subject)",
         "slider_b_label": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
         "slider_b_value": "2/5",
         "slider_b_position_name": "Rational (Logical cause-and-effect)",
-        "territory_number": 1,
-        "territory_name": "The Systems Explainer",
-        "reasoning": "Pass 1 hypothesis: The Systems Explainer — Banda breaks its value proposition down into clear, structured pillars: Strategy, Creative, Craft, Effectiveness. Pass 2: Slider A scores 2/5 Component: messaging leads with the components of their process and service offering. Slider B scores 2/5 Rational: persuasion is built on award rankings, proven impact metrics, and client track record. Grid: Low(2) x Low(2) maps to Territory 1. Pass 3: Aligned.",
-        "evidence": "\"Strategy → Creative → Craft → Effectiveness\" ... \"Founded in Kyiv, Ukraine, since 2011 we specialize in brand launch and transformation strategies, standout aesthetic design systems, and user experience insights.\"",
-        "evidence_src": "APPROACH PAGE + TARGET PAGE (body copy)",
+        "territory_number": 2,
+        "territory_name": "The Problem Solver",
+        "reasoning": "Pass 1 hypothesis: The Problem Solver — messaging directly addresses the unmet consumer pain point of hidden toxins across daily life. Pass 2: Slider A scores 4/5 Result: leads with the end benefit of safe toxin-free living rather than individual ingredients or technology. Slider B scores 2/5 Rational: persuasion uses logical factual claims and third party verification rather than emotional or poetic language. Grid maps High result hook / Low rational persuasion directly to Problem Solver. Pass 3: Aligned.",
+        "evidence": "\"Clean and Toxin-Free Products\" ... \"In, on, and around your body.\" ... \"safe, effective, and chemical-free and empower our customers to thrive in optimal health and wellness\"",
+        "evidence_src": "TARGET PAGE (headline) + TARGET PAGE (body copy)",
         "evaluation_check": {
           "coherence_status": "aligned",
-          "coherence_reasoning": "Component focus paired with rational proof based persuasion perfectly matches Systems Explainer territory."
+          "coherence_reasoning": "End result focused hook paired with rational logical argument maps directly to Problem Solver territory."
         }
       },
       "marker_10": {
         "marker_name": "Narrative",
         "slider_a_label": "[SLIDER] THE PROTAGONIST (Who Solved It)",
         "slider_a_value": "3/5",
-        "slider_a_position_name": "The Coalition (Founder, expert, community collaboration)",
+        "slider_a_position_name": "The Coalition (founder, expert, community collaboration)",
         "slider_b_label": "[SLIDER] THE SETTING (Where It Happened)",
-        "slider_b_value": "5/5",
-        "slider_b_position_name": "Mythic / Cultural Source",
-        "territory_number": 4,
-        "territory_name": "The Cultural Origin",
-        "reasoning": "Pass 1 hypothesis: The Cultural Origin — Banda's narrative is rooted in Ukrainian collective resilience and bravery, built by a community of creators. Pass 2: Slider A scores 3/5 Coalition: explicitly 'power of the collective' narrative, not individual founder or lone institution. Slider B scores 5/5 Cultural Source: origin story is tied directly to Ukrainian culture, resilience, and global context of bravery. Grid: Mid(3) x High(5) resolves to Territory 4. Pass 3: Aligned.",
-        "evidence": "\"Founded in Kyiv, Ukraine, since 2011\" ... \"At banda, we believe in the power of the collective.\" ... \"We are made of bravery.\"",
-        "evidence_src": "TARGET PAGE (body copy)",
+        "slider_b_value": "3/5",
+        "slider_b_position_name": "Built (studio, workshop, prototype, small team)",
+        "territory_number": 2,
+        "territory_name": "The Founder-Led Solution",
+        "reasoning": "Pass 1 hypothesis: Founder-Led Solution — established 2020 by three co-founders to solve the gap in accessible verified clean wellness products. Pass 2: Slider A scores 3/5 Coalition: narrative centers on the founding team building a curated portfolio of trusted brands rather than single founder or institutional authority. Slider B scores 3/5 Built: founded in 2020 as a modern startup platform, not institutional lab or cultural movement. Mid-score fallback resolves to Founder-Led Solution as founder origin story is the explicit narrative anchor. Pass 3: Aligned.",
+        "evidence": "\"FOUNDED in 2020\" ... Co-Founder team listed: Michael Sirpilla, Justin Sirpilla, Shawn Dougherty ... \"building a community of entrepreneurs and ecommerce brands\"",
+        "evidence_src": "TARGET PAGE (body copy) + ABOUT PAGE",
         "evaluation_check": {
           "coherence_status": "aligned",
-          "coherence_reasoning": "Collective protagonist paired with cultural origin story confirms Cultural Origin territory."
+          "coherence_reasoning": "Founder coalition protagonist paired with modern startup origin resolves correctly to Founder-Led Solution territory."
         }
       },
       "marker_11": {
@@ -303,84 +305,84 @@
         "slider_b_position_name": "The Stat (percentages, adoption metrics, outcome numbers)",
         "territory_number": 1,
         "territory_name": "Expert-Validation",
-        "reasoning": "Pass 1 hypothesis: Expert Validation — all proof comes from independent industry awards and global ranking bodies. Pass 2: Slider A scores 2/5 Specialists: validation comes from international award juries and industry ranking bodies. Slider B scores 2/5 Stat: proof is delivered as counts: 200+ awards, #1 global ranking, +294% attendance metrics. Grid: Low(2) x Low(2) maps to Territory 1. Pass 3: Aligned.",
-        "evidence": "\"Recognized by 200+ international awards\" ... \"most effective independent agency in the world (Effie Index 2020)\" ... \"+294% attendance in a year, 20 million organic impressions\"",
-        "evidence_src": "TARGET PAGE (claims) + TARGET PAGE (visual analysis)",
+        "reasoning": "Pass 1 hypothesis: Expert-Validation — all proof leans on third party experts, certifications and clinical verification. Pass 2: Slider A scores 2/5 Specialists: validators are EWG, clinical researchers, and formulation experts, not crowd reviews or general authority. Slider B scores 2/5 Stat: proof type is verified certification status and clinical testing results. Grid maps Low expert validator / Low stat proof directly to Expert-Validation. Pass 3: Aligned.",
+        "evidence": "\"verified by EWG\" ... \"clinically proven, safe ingredients\" ... Vegan, Non-GMO, Toxin Free certification badges",
+        "evidence_src": "TARGET PAGE (body copy) + TARGET PAGE (certifications)",
         "evaluation_check": {
           "coherence_status": "aligned",
-          "coherence_reasoning": "Specialist validator paired with statistical proof perfectly matches Expert Validation territory."
+          "coherence_reasoning": "Specialist expert validators paired with statistical verification proof maps directly to Expert-Validation territory."
         }
       },
       "marker_12": {
         "marker_name": "USP",
         "slider_a_label": "[SLIDER] THE OWNERSHIP CLAIM (What Makes You Unique)",
-        "slider_a_value": "5/5",
-        "slider_a_position_name": "The Proprietary System (Patented engineering platform)",
+        "slider_a_value": "2/5",
+        "slider_a_position_name": "The Hero Input/Component (Owned mental link to one substance)",
         "slider_b_label": "[SLIDER] THE TARGET SCOPE (Market Breadth)",
         "slider_b_value": "3/5",
-        "slider_b_position_name": "The Category Player (General user/team/customer offer)",
-        "territory_number": 2,
-        "territory_name": "The Tech Engineer",
-        "reasoning": "Pass 1 hypothesis: The Tech Engineer — Banda owns a disciplined creative process that consistently delivers award winning effective results at global scale. Pass 2: Slider A scores 5/5 Proprietary System: the agency has a refined, proven creative methodology that is its core differentiator. Slider B scores 3/5 Category Player: they operate across all brand categories globally. Grid: High(5) x Mid(3) maps to Territory 2. Pass 3: Aligned.",
-        "evidence": "\"Bringing method to beautiful chaos.\" ... \"The results of worldwide effectiveness assessments illustrate the viability of our strategy.\"",
-        "evidence_src": "APPROACH PAGE",
+        "slider_b_position_name": "The Category Player (General user offer, broad appeal)",
+        "territory_number": 1,
+        "territory_name": "The Input/Component King",
+        "reasoning": "Pass 1 hypothesis: The Input/Component King — the brand owns the unique 'In / On / Around' holistic wellness framework as its signature differentiator. Pass 2: Slider A scores 2/5 Hero Input: the brand has established exclusive mental ownership of the cross-category 'In / On / Around' wellness framework. Slider B scores 3/5 Category Player: broad market appeal across all wellness consumer segments, no niche targeting. Grid maps Hero Input / Mid market directly to Input/Component King. Pass 3: Aligned.",
+        "evidence": "\"what goes IN, ON, and AROUND your body\" ... repeated positioning across all page sections of this three part wellness framework",
+        "evidence_src": "TARGET PAGE (headline) + TARGET PAGE (body copy)",
         "evaluation_check": {
           "coherence_status": "aligned",
-          "coherence_reasoning": "Proprietary proven creative system paired with broad category operation confirms Tech Engineer territory."
+          "coherence_reasoning": "Owned signature holistic framework paired with broad category positioning maps directly to Input/Component King territory."
         }
       },
       "marker_13": {
         "marker_name": "Focus",
         "slider_a_label": "[SLIDER] THE DEPTH GAUGE (Content Purpose)",
         "slider_a_value": "2/5",
-        "slider_a_position_name": "The Explainer (infographics, how it works)",
+        "slider_a_position_name": "The Explainer (Infographics, How it Works)",
         "slider_b_label": "[SLIDER] THE INTENT VECTOR (Content Goal)",
-        "slider_b_value": "3/5",
-        "slider_b_position_name": "The Offer Display (standard page information)",
+        "slider_b_value": "2/5",
+        "slider_b_position_name": "The Evidence (demos, case studies, before/after)",
         "territory_number": 1,
         "territory_name": "Evidence Education",
-        "reasoning": "Pass 1 hypothesis: Evidence Education — the homepage exists first to prove capability through portfolio and awards, not hard sell. Pass 2: Slider A scores 2/5 Explainer: content explains process, shows work, demonstrates track record. Slider B scores 3/5 Neutral Offer Display: no aggressive CTAs, just presentation of credentials. Grid: Low(2) x Mid(3) resolves to Territory 1. Pass 3: Aligned.",
-        "evidence": "\"Load more projects\" ... portfolio grid layout + award listings ... \"Share a bit about your business and the challenge you want to solve — just drop us an email here.\"",
-        "evidence_src": "TARGET PAGE (body copy) + APPROACH PAGE",
+        "reasoning": "Pass 1 hypothesis: Evidence Education — page prioritizes educating visitors on clean wellness standards and verifying brand credibility over hard sales. Pass 2: Slider A scores 2/5 Explainer: content explains the clean product philosophy and portfolio framework, no pure inspiration content. Slider B scores 2/5 Evidence: primary intent is building trust through certification proof and brand credentials. Grid maps Low education / Low trust intent directly to Evidence Education. Pass 3: Aligned.",
+        "evidence": "\"Our focus today and in the future is on clean, toxin-free products that support total well-being\" ... certification badge display ... detailed brand credibility descriptions",
+        "evidence_src": "TARGET PAGE (body copy) + TARGET PAGE (certifications)",
         "evaluation_check": {
           "coherence_status": "aligned",
-          "coherence_reasoning": "Explainer depth with neutral intent correctly maps to Evidence Education territory. This page demonstrates authority first, converts second."
+          "coherence_reasoning": "Explainer content depth paired with evidence building intent maps directly to Evidence Education territory."
         }
       },
       "marker_14": {
         "marker_name": "Functional Benefits",
         "slider_a_label": "[SLIDER] THE ACTION VECTOR (The Mechanism)",
-        "slider_a_value": "5/5",
-        "slider_a_position_name": "The Enabler (unlocks new ability)",
+        "slider_a_value": "1/5",
+        "slider_a_position_name": "The Shield (protects, secures, blocks, prevents risk)",
         "slider_b_label": "[SLIDER] THE OUTCOME TARGET (The Goal)",
-        "slider_b_value": "5/5",
-        "slider_b_position_name": "Strategic Advantage (leverage, competitiveness)",
-        "territory_number": 4,
-        "territory_name": "Capability Upgrade",
-        "reasoning": "Pass 1 hypothesis: Capability Upgrade — Banda transforms brands from invisible into culturally relevant market leaders. Pass 2: Slider A scores 5/5 Enabler: the agency unlocks new cultural and commercial capability for brands. Slider B scores 5/5 Strategic Advantage: deliverables provide competitive market advantage and cultural resonance. Grid: High(5) x High(5) maps to Territory 4. Pass 3: Aligned.",
-        "evidence": "\"We make brands that people want to talk about\" ... \"improve the brand's connection with people over time\" ... \"Building and reshaping widely recognized brands, which frequently become market leaders.\"",
-        "evidence_src": "TARGET PAGE (body copy) + APPROACH PAGE",
+        "slider_b_value": "2/5",
+        "slider_b_position_name": "Ease & Relief (less effort, less confusion, smoother experience)",
+        "territory_number": 2,
+        "territory_name": "Protection",
+        "reasoning": "Pass 1 hypothesis: Protection — core functional benefit is removing exposure to harmful toxins across daily life. Pass 2: Slider A scores 1/5 Shield: all products act as protection against unnecessary chemical exposure. Slider B scores 2/5 Ease & Relief: outcome is removing the effort and anxiety of verifying safe products individually. Grid maps Low defense action / Low operational outcome directly to Protection. Pass 3: Aligned.",
+        "evidence": "\"toxin-free products that nourish the mind, body, and home\" ... \"safe, effective, and chemical-free\" ... remove exposure to hidden harmful ingredients",
+        "evidence_src": "TARGET PAGE (body copy)",
         "evaluation_check": {
           "coherence_status": "aligned",
-          "coherence_reasoning": "Enabler mechanism paired with strategic advantage outcome perfectly matches Capability Upgrade territory."
+          "coherence_reasoning": "Shield defense mechanism paired with operational relief outcome maps directly to Protection territory."
         }
       },
       "marker_15": {
         "marker_name": "Emotional Benefits",
         "slider_a_label": "[SLIDER] THE ANXIETY AXIS (The Emotional Direction)",
-        "slider_a_value": "3/5",
-        "slider_a_position_name": "Contentment (The feeling of a job well done)",
+        "slider_a_value": "2/5",
+        "slider_a_position_name": "Reassurance (\"Don't worry, this works\")",
         "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS (The Audience)",
-        "slider_b_value": "3/5",
-        "slider_b_position_name": "Readiness (I am ready to face the day, task, market, or moment)",
-        "territory_number": 4,
-        "territory_name": "Intelligence",
-        "reasoning": "Pass 1 hypothesis: Intelligence — working with Banda makes you feel sharp, competent, and like you made the correct brave choice. Pass 2: Slider A scores 3/5 Contentment: the emotional payoff is satisfaction from great work done well. Slider B scores 3/5 Readiness: clients gain confidence to face their market. Marker specific grid maps Contentment x Readiness to Territory 4. Pass 3: Aligned.",
-        "evidence": "\"We find surprisingly effective concepts to improve the brand's connection with people over time.\" ... \"We prioritize the effectiveness of our communications so that creativity serves a specific goal.\"",
-        "evidence_src": "APPROACH PAGE",
+        "slider_b_value": "1/5",
+        "slider_b_position_name": "Sanctuary (I feel safe inside my own world/context)",
+        "territory_number": 1,
+        "territory_name": "Relief / Safety",
+        "reasoning": "Pass 1 hypothesis: Relief / Safety — core emotional benefit is removing anxiety about hidden toxins in routine purchases. Pass 2: Slider A scores 2/5 Reassurance: emotional tone is calm reassurance that products are safe, no euphoria or excitement. Slider B scores 1/5 Sanctuary: benefit is internal private safety and peace of mind, not external status. Grid maps Low relief anxiety / Low internal self perception directly to Relief / Safety. Pass 3: Aligned.",
+        "evidence": "\"safe, toxin-free products\" ... \"gentle, holistic solutions\" ... remove worry about harmful chemicals in everyday products",
+        "evidence_src": "TARGET PAGE (body copy)",
         "evaluation_check": {
           "coherence_status": "aligned",
-          "coherence_reasoning": "Contentment + Readiness combination resolves correctly to Intelligence territory per marker specific rules."
+          "coherence_reasoning": "Reassurance emotional direction paired with private sanctuary self perception maps directly to Relief / Safety territory."
         }
       },
       "marker_16": {
@@ -389,286 +391,272 @@
         "slider_a_value": "2/5",
         "slider_a_position_name": "The Smart Choice (because it makes sense)",
         "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION (Social Position)",
-        "slider_b_value": "4/5",
-        "slider_b_position_name": "The Insider (Hard to find; \"if you know, you know\")",
-        "territory_number": 3,
-        "territory_name": "The Purist",
-        "reasoning": "Pass 1 hypothesis: The Purist — clients choose Banda because they care deeply about craft and effectiveness, not trend. Pass 2: Slider A scores 2/5 Smart Choice: selection is rational, based on proven track record. Slider B scores 4/5 Insider: this is the agency for clients who understand great creative work. Grid: Low(2) x High(4) maps to Territory 3. Pass 3: Aligned.",
-        "evidence": "\"The most effective independent agency in the world\" ... \"We don’t sell comfort because creativity and innovation are never safe.\"",
-        "evidence_src": "TARGET PAGE (headline) + APPROACH PAGE",
+        "slider_b_value": "2/5",
+        "slider_b_position_name": "The Trending (What is currently hot/viral)",
+        "territory_number": 1,
+        "territory_name": "The Pragmatist",
+        "reasoning": "Pass 1 hypothesis: The Pragmatist — choosing this brand signals intelligent responsible decision making, not trend or status. Pass 2: Slider A scores 2/5 Smart Choice: motivation is rational responsible selection of verified safe products, not identity signalling. Slider B scores 2/5 Trending: broad mainstream clean wellness market positioning, not niche exclusive. Grid maps Low logic driver / Low mass tribal position directly to Pragmatist. Pass 3: Aligned.",
+        "evidence": "\"empower our customers to thrive in optimal health and wellness\" ... rational factual product claims, no status or trend signalling language",
+        "evidence_src": "TARGET PAGE (body copy)",
         "evaluation_check": {
           "coherence_status": "aligned",
-          "coherence_reasoning": "Rational selection paired with niche insider status correctly maps to The Purist territory."
+          "coherence_reasoning": "Smart choice rational motivation paired with mainstream market position maps directly to The Pragmatist territory."
         }
       },
       "marker_17": {
         "marker_name": "Social Benefits",
         "slider_a_label": "[SLIDER] THE SOCIAL VECTOR (Social Goal)",
-        "slider_a_value": "4/5",
-        "slider_a_position_name": "Distinction (I want to be noticed)",
+        "slider_a_value": "2/5",
+        "slider_a_position_name": "Acceptance (I want to be accepted by the group)",
         "slider_b_label": "[SLIDER] THE GROUP DYNAMIC (Tribal Scale)",
-        "slider_b_value": "4/5",
-        "slider_b_position_name": "The Club (Enthusiasts/Fans)",
-        "territory_number": 4,
-        "territory_name": "The Insider Clique",
-        "reasoning": "Pass 1 hypothesis: The Insider Clique — working with Banda signals you are part of the small group of leaders who understand great effective creative. Pass 2: Slider A scores 4/5 Distinction: choosing Banda sets you apart from commodity brand work. Slider B scores 4/5 Club: it is an exclusive community of clients, creators and industry leaders. Grid: High(4) x High(4) maps to Territory 4. Pass 3: Aligned.",
-        "evidence": "\"The most effective independent agency in the world\" ... \"The most creative agency in Central & Eastern Europe\"",
-        "evidence_src": "TARGET PAGE (claims)",
+        "slider_b_value": "2/5",
+        "slider_b_position_name": "The Mainstream (Popular culture)",
+        "territory_number": 1,
+        "territory_name": "The Safe Choice",
+        "reasoning": "Pass 1 hypothesis: The Safe Choice — social benefit is low risk decision making validated by broad market acceptance. Pass 2: Slider A scores 2/5 Acceptance: social goal is making a sensible choice that is broadly approved, not standing out. Slider B scores 2/5 Mainstream: broad market positioning targeting general wellness consumers. Grid maps Low assimilation vector / Low mainstream group scale directly to The Safe Choice. Pass 3: Aligned.",
+        "evidence": "\"evolving them into household brands\" ... broad accessible positioning ... third party verified credibility reduces decision risk",
+        "evidence_src": "TARGET PAGE (body copy)",
         "evaluation_check": {
           "coherence_status": "aligned",
-          "coherence_reasoning": "Distinction vector paired with dedicated club community correctly maps to The Insider Clique territory."
+          "coherence_reasoning": "Acceptance social goal paired with mainstream group dynamic maps directly to The Safe Choice territory."
+        }
+      },
+      "hi": {
+        "score": 67,
+        "label": "READABLE",
+        "diagnosis": "CLEAR READ",
+        "profile": "This corporate homepage positions Society Brands as a mission-driven curator of clean wellness products spanning food, personal care and household goods. It uses a grounded earthy visual identity, clear category framing and consistent formal tone to build authority for its brand portfolio. The page assumes visitor alignment with clean living values and leans heavily on certification badges rather than customer proof to establish trust.",
+        "blind_spot": "The page leads entirely with generic category claims (clean, toxin-free) and never communicates its actual differentiator as an ecommerce brand aggregator. First time visitors cannot distinguish Society Brands from any other wellness brand within 10 seconds. Add one line explaining this is a curated portfolio of acquired brands to give visitors context for why this collection exists.",
+        "metrics": {
+          "hi01_message_clarity": {
+            "label": "MESSAGE CLARITY",
+            "score": 58,
+            "diagnosis": "TAKES EFFORT",
+            "so_what": "Visitors understand this is a clean wellness brand but will not grasp what makes Society Brands unique. The headline and opening copy never state that this is a brand portfolio aggregator, only repeating generic industry claims that every competitor also uses. It takes deliberate reading past the fold to understand the actual business model.",
+            "sub_metrics": {
+              "headline_clarity": {
+                "score": 50,
+                "evaluation": "Headline 'In, on, and around your body. Clean and Toxin-Free Products' only delivers the WHAT anchor. It never names WHO this is for or WHY choose this brand over alternatives. Only one of three Krug trunk test anchors land."
+              },
+              "value_prop_above_fold": {
+                "score": 50,
+                "evaluation": "First 150 words only deliver the generic benefit of toxin-free products. No mechanism for how this brand delivers value, and no contrast against competing wellness brands or aggregators is provided."
+              },
+              "benefit_hierarchy": {
+                "score": 50,
+                "evaluation": "Lead benefit is the default category claim of 'clean toxin-free products' rather than Society Brands' actual differentiator as a curated multi-category brand portfolio. No unique positioning is presented first."
+              },
+              "jargon_load": {
+                "score": 80,
+                "evaluation": "Copy uses standard widely understood wellness vocabulary. No unexplained jargon, internal shorthand or gratuitous industry terms appear. All language is accessible for general audiences."
+              }
+            },
+            "checklist": {
+              "pass": [
+                "uses clear plain language with no gratuitous jargon"
+              ],
+              "warn": [
+                "leads with generic category claims instead of unique positioning"
+              ],
+              "fail": [
+                "omits WHO and WHY anchors from all above-fold headlines"
+              ]
+            }
+          },
+          "hi02_trust_score": {
+            "label": "TRUST SCORE",
+            "score": 62,
+            "diagnosis": "MIXED EVIDENCE",
+            "so_what": "Trust signals are heavily weighted toward certifications and press logos, with almost zero customer validation. The page demonstrates good surface and reputed credibility but entirely lacks earned proof that actual people use and trust these products. Superlative claims appear without adjacent substantiation.",
+            "sub_metrics": {
+              "hype_index": {
+                "score": 70,
+                "evaluation": "Page contains 5 unsupported superlatives including 'revolutionize', 'highest standards' and 'cutting-edge'. No evidence is placed immediately alongside these claims to back them up."
+              },
+              "claim_to_evidence_ratio": {
+                "score": 50,
+                "evaluation": "Approximately 40% of claims are verifiable: EWG verification for Crunchi, named founder for Vitality Now. The majority of claims are unsubstantiated generic wellness statements."
+              },
+              "social_proof": {
+                "score": 30,
+                "evaluation": "Only generic press logos appear as external validation. No customer reviews, user counts, testimonials or case studies are present on the page."
+              },
+              "trust_signals": {
+                "score": 70,
+                "evaluation": "3 of 4 Fogg credibility types are present: professional surface design, reputed press logos, and presumed trust signals including published privacy policies. Only earned customer proof is missing."
+              },
+              "visible_certifications": {
+                "score": 90,
+                "evaluation": "6 clearly labelled certification badges are visibly displayed: Vegan, Non-GMO, Gluten Free, Toxin Free, Hormone Free, Preservative Free. These are presented as consistent brand assets."
+              }
+            },
+            "checklist": {
+              "pass": [
+                "displays 6 clearly labelled product certification badges"
+              ],
+              "warn": [
+                "uses 5 unsubstantiated superlatives across body copy"
+              ],
+              "fail": [
+                "omits all customer facing social proof from the page"
+              ]
+            }
+          },
+          "hi03_voice_consistency": {
+            "label": "VOICE CONSISTENCY",
+            "score": 80,
+            "diagnosis": "ONE PERSON",
+            "so_what": "Voice is exceptionally consistent across every section of the page. The formal consultative wellness tone, core vocabulary and Caregiver archetype are maintained uniformly from hero copy through brand listings. No drift, tone shifts or conflicting messaging appears anywhere.",
+            "sub_metrics": {
+              "tone_alignment": {
+                "score": 80,
+                "evaluation": "Page maintains a consistent formal consultative wellness register across all sections. No shifts in tone occur between the hero, mission statement and individual brand descriptions."
+              },
+              "vocabulary_alignment": {
+                "score": 80,
+                "evaluation": "Core semantic fields of clean safety, holistic wellness and product curation are used uniformly across all copy. No out of place or inconsistent vocabulary appears."
+              },
+              "voice_signature_match": {
+                "score": 80,
+                "evaluation": "Page consistently projects a Caregiver archetype focused on safety and well-being across every section. No archetype drift is detectable."
+              },
+              "claim_stack_alignment": {
+                "score": 80,
+                "evaluation": "All claims consistently reinforce the In/On/Around product framework and toxin-free brand promise. No contradictory claims are present anywhere on the page."
+              }
+            },
+            "checklist": {
+              "pass": [
+                "maintains perfectly consistent tone across all page sections"
+              ],
+              "warn": [
+                "voice is formal and safe, lacking distinctive personality"
+              ],
+              "fail": [
+                "does not carry through team humanising tone from the about page"
+              ]
+            }
+          },
+          "hi04_audience_resonance": {
+            "label": "AUDIENCE RESONANCE",
+            "score": 75,
+            "diagnosis": "KNOWS AUDIENCE",
+            "so_what": "The page clearly targets wellness focused audiences with a primary center of gravity around Millennials. Visual palette, copy framing and certification signals align tightly for this group. The only gap is missing clarity around cost and commitment to take the next step.",
+            "sub_metrics": {
+              "audience_segment_probability": {
+                "score": 70,
+                "evaluation": "Page signals align most strongly to Millennials with 0.55 probability, secondary Gen X at 0.30. Target cohort is clear but not overwhelmingly specific."
+              },
+              "signal_coherence": {
+                "score": 90,
+                "evaluation": "Text and visual signals are perfectly aligned. Earthy warm palette, natural imagery and clean layout exactly match the holistic clean wellness messaging."
+              },
+              "intent_match": {
+                "score": 70,
+                "evaluation": "Page operates primarily as an awareness stage introduction to the brand portfolio, with minor consideration elements. Primary intent is clear with only minor stage overlap."
+              },
+              "accessibility_signals": {
+                "score": 70,
+                "evaluation": "3 of 4 accessibility signals present: inclusive language, no unexplained jargon, plain CTAs. Missing commitment tier visibility as no pricing or entry cost is indicated."
+              }
+            },
+            "audience_segments": [
+              {
+                "label": "Millennials seeking trusted toxin-free wellness products across food, body and home categories",
+                "cohort": "millennials",
+                "probability": 0.55,
+                "evidence_text": "clean, toxin-free products that nourish the mind, body, and home",
+                "evidence_visual": "Earthy tan and deep forest green create a grounded, natural harmony with clean white space"
+              },
+              {
+                "label": "Gen X seeking holistic safe household and personal care products for their family",
+                "cohort": "gen_x",
+                "probability": 0.3,
+                "evidence_text": "Baby and Kids Care, safe effective chemical free",
+                "evidence_visual": "professional photography that balances lifestyle with clinical product shots"
+              },
+              {
+                "label": "Gen Z seeking transparent eco-friendly wellness and self care brands",
+                "cohort": "gen_z",
+                "probability": 0.15,
+                "evidence_text": "sustainable packaging, reduce plastic waste",
+                "evidence_visual": "clean minimal product presentation with clear certification badges"
+              }
+            ],
+            "checklist": {
+              "pass": [
+                "aligns text and visual signals perfectly for wellness audiences"
+              ],
+              "warn": [
+                "targets a broad wellness audience with no specific niche focus"
+              ],
+              "fail": [
+                "hides all pricing and commitment tier information"
+              ]
+            }
+          },
+          "hi05_decision_confidence": {
+            "label": "DECISION CONFIDENCE",
+            "score": 75,
+            "diagnosis": "CONFIDENT",
+            "so_what": "The page communicates a clear single next step with very low friction. There is no choice paralysis, and the brand appears confident about the action it offers visitors. Only minor weaknesses exist around CTA specificity and duplicate page content.",
+            "sub_metrics": {
+              "cta_clarity": {
+                "score": 70,
+                "evaluation": "Single clear dominant CTA 'DISCOVER OUR BRANDS' is presented prominently. CTA uses exploratory rather than concrete action wording, no secondary action options are offered."
+              },
+              "pricing_visibility": {
+                "score": 70,
+                "evaluation": "This is a corporate brand portfolio homepage not a transactional retail page. Pricing is not applicable for this page's intended purpose."
+              },
+              "next_step_obviousness": {
+                "score": 90,
+                "evaluation": "Single obvious next step is presented clearly. No choice paralysis, visitors understand exactly what action is offered within 10 seconds."
+              },
+              "friction_signals": {
+                "score": 70,
+                "evaluation": "Clean low friction layout. Only minor friction present is duplicate repeated copy blocks appearing in the page source. No major usability barriers exist."
+              }
+            },
+            "checklist": {
+              "pass": [
+                "presents one clear unambiguous next action for visitors"
+              ],
+              "warn": [
+                "uses generic exploratory CTA wording instead of specific action"
+              ],
+              "fail": [
+                "contains duplicate repeated copy blocks in page source"
+              ]
+            }
+          }
         }
       }
     },
     "finish_reason": "stop",
     "usage": {
-      "completion_tokens": 7810,
-      "prompt_tokens": 47206,
-      "total_tokens": 55016,
+      "completion_tokens": 5901,
+      "prompt_tokens": 13946,
+      "total_tokens": 19847,
       "prompt_tokens_details": {
         "cached_tokens": 0
       },
       "completion_tokens_details": {
-        "reasoning_tokens": 257
+        "reasoning_tokens": 3398
       }
     },
-    "model": "seed-2-0-pro-260328",
-    "hi": {
-      "score": 82,
-      "label": "LANDED",
-      "diagnosis": "FULLY CONVINCING",
-      "profile": "The website operates as a high-end creative gallery, using its portfolio and a dense stack of prestigious awards as the complete argument. It assumes a visitor is already in the market for a top-tier agency and wastes no time on persuasion beyond showing the work. The 'Clinical Pop' visual system—a stark, professional container filled with vibrant, culturally-charged content—perfectly communicates the brand's promise of disciplined execution of fearless ideas.",
-      "blind_spot": "The brand's confidence is its primary asset but also its main filter. By omitting any signal of engagement size, process, or ideal client profile, it forces prospects to make a high-friction inquiry. Adding a single sentence on the 'Approach' page about the type of challenges they seek (e.g., 'We partner with ambitious leaders on brand launches and transformations') would help visitors self-qualify faster.",
-      "metrics": {
-        "hi01_message_clarity": {
-          "label": "MESSAGE CLARITY",
-          "score": 80,
-          "diagnosis": "INSTANT-READ",
-          "so_what": "The page instantly communicates its core function: an award-winning creative agency. The headline 'We make brands that people want to talk about' is a clear, differentiated benefit. A visitor immediately understands what Banda does and the high-impact quality of the work they produce.",
-          "sub_metrics": {
-            "headline_clarity": {
-              "score": 70,
-              "evaluation": "The headline 'We make brands that people want to talk about' clearly states WHAT (make brands) and WHY (talkability). It implies WHO (clients needing buzz) but doesn't name them, landing 2 of 3 Krug anchors effectively."
-            },
-            "value_prop_above_fold": {
-              "score": 70,
-              "evaluation": "The value prop delivers a strong BENEFIT ('brands that people want to talk about') and implies MECHANISM through the portfolio. It lacks an explicit CONTRAST against alternatives, relying on the quality of the work to make the case."
-            },
-            "benefit_hierarchy": {
-              "score": 90,
-              "evaluation": "The lead benefit—creating 'talkable' brands—is the core differentiator for a creative agency versus a more conservative, sales-focused one. It's the sharpest version of their value and is stated upfront."
-            },
-            "jargon_load": {
-              "score": 90,
-              "evaluation": "The copy uses industry-standard terms like 'brand launch' and 'design systems' which are expected by its B2B audience. There is zero gratuitous jargon, making the site feel direct and confident."
-            }
-          },
-          "checklist": {
-            "pass": [
-              "leads with a clear, differentiator benefit: 'talkable brands'"
-            ],
-            "warn": [
-              "headline implies but does not name the target audience"
-            ],
-            "fail": [
-              "value proposition omits an explicit contrast to competitors"
-            ]
-          }
-        },
-        "hi02_trust_score": {
-          "label": "TRUST SCORE",
-          "score": 86,
-          "diagnosis": "RECEIPTS LOUD",
-          "so_what": "Trust is established immediately and overwhelmingly through a barrage of evidence. The brand makes audacious claims like 'most effective agency in the world' and immediately substantiates them with named, prestigious awards like Effie and Cannes Lions. This isn't hype; it's a documented track record.",
-          "sub_metrics": {
-            "hype_index": {
-              "score": 90,
-              "evaluation": "Superlatives like 'The most effective agency in the world' are used, but they are immediately substantiated with sources like 'Effie Index 2020'. This converts potential hype into a verifiable claim, leaving almost no unsupported self-praise."
-            },
-            "claim_to_evidence_ratio": {
-              "score": 90,
-              "evaluation": "Nearly every major claim is Level A or B. 'Most effective' is cited to Effie, 'Cannes Lions winner' is a verifiable fact, and the portfolio of work for brands like Uber and Google serves as direct evidence. Over 70% of claims are substantiated."
-            },
-            "social_proof": {
-              "score": 90,
-              "evaluation": "Social proof is high-quality, using SPECIFICITY through named client logos (Uber, Google) and prestigious awards (Cannes, Red Dot). For a B2B agency, this is more powerful than anonymous testimonials."
-            },
-            "trust_signals": {
-              "score": 90,
-              "evaluation": "All four Fogg credibility types are present: SURFACE (professional design), EARNED (named client work), PRESUMED (clear contact info), and REPUTED (numerous named international awards). This creates a comprehensive trust profile."
-            },
-            "visible_certifications": {
-              "score": 70,
-              "evaluation": "The page explicitly names three major industry awards that function as certifications of excellence: 'Cannes Lions', 'Red Dot', and 'Effie Index'. These are powerful, recognizable signals of quality."
-            }
-          },
-          "checklist": {
-            "pass": [
-              "substantiates 'most effective' claim with 'Effie Index 2020'"
-            ],
-            "warn": [
-              "relies on awards and logos over client testimonials/quotes"
-            ],
-            "fail": [
-              "lacks a client-count or years-in-business stat for quick scale"
-            ]
-          }
-        },
-        "hi03_voice_consistency": {
-          "label": "VOICE CONSISTENCY",
-          "score": 90,
-          "diagnosis": "ONE PERSON",
-          "so_what": "The brand speaks with a single, unwavering voice across its homepage and its 'Approach' page. The confident, slightly irreverent, and effectiveness-focused tone is perfectly consistent, projecting an image of a focused agency that knows exactly who it is. The homepage is the proof of the philosophy described on the approach page.",
-          "sub_metrics": {
-            "tone_alignment": {
-              "score": 90,
-              "evaluation": "The consultative-yet-bold tone from the 'Approach' page ('We don’t sell comfort') is identical to the homepage's presentation of brave, impactful work. The register is perfectly matched."
-            },
-            "vocabulary_alignment": {
-              "score": 90,
-              "evaluation": "The brand's core semantic fields from the 'Approach' page—effectiveness, creativity, and connection—are all dominant on the homepage, showcased through awards, visual work, and the 'talk about' headline."
-            },
-            "voice_signature_match": {
-              "score": 90,
-              "evaluation": "The brand's Creator/Rebel archetype is delivered flawlessly. The homepage is a gallery of rule-breaking, attention-grabbing work that perfectly embodies the 'creativity and innovation are never safe' ethos."
-            },
-            "claim_stack_alignment": {
-              "score": 90,
-              "evaluation": "The homepage is a direct reinforcement of the claims made on the 'Approach' page. It promises effectiveness, creativity, and craft, and then shows the awards, the work, and the client list to prove it."
-            }
-          },
-          "checklist": {
-            "pass": [
-              "delivers a consistent Creator/Rebel archetype"
-            ],
-            "warn": [
-              "irreverent tone may not resonate with more conservative brands"
-            ],
-            "fail": [
-              "lacks a clear manifesto beyond creative effectiveness"
-            ]
-          }
-        },
-        "hi04_audience_resonance": {
-          "label": "AUDIENCE RESONANCE",
-          "score": 85,
-          "diagnosis": "LASER-AIMED",
-          "so_what": "The page is precisely calibrated for its target audience of brand and marketing leaders, primarily Millennials and Gen X. The combination of top-tier creative work and hard proof of effectiveness (Effie awards) speaks directly to a decision-maker who needs to justify a premium agency choice with both creative flair and business results.",
-          "sub_metrics": {
-            "audience_segment_probability": {
-              "score": 90,
-              "evaluation": "The focus on high-impact, culturally relevant work and prestigious awards strongly targets Millennial marketing leaders (≈0.65) and Gen X CMOs (≈0.30). The evidence in both text and visuals for this top cohort is overwhelming."
-            },
-            "signal_coherence": {
-              "score": 90,
-              "evaluation": "Textual claims of being the 'most effective' and 'most creative' are perfectly anchored by visuals that are both professionally structured (the grid) and creatively explosive (the project art). Text and visuals tell the same story."
-            },
-            "intent_match": {
-              "score": 90,
-              "evaluation": "The page is unambiguously designed for the 'consideration' and 'decision' stages of hiring an agency. It presents a portfolio and credentials, which is exactly what a prospect in this phase needs to see."
-            },
-            "accessibility_signals": {
-              "score": 70,
-              "evaluation": "The page has 3 of 4 signals: inclusive language for its audience, appropriate jargon, and a clear 'Contact' CTA. It fails on commitment-tier visibility, as pricing is completely absent, which is standard but still a friction."
-            }
-          },
-          "audience_segments": [
-            {
-              "label": "Millennials seeking a culturally-relevant agency to build a brand that generates buzz and wins awards",
-              "cohort": "millennials",
-              "probability": 0.65,
-              "evidence_text": "We make brands that people want to talk about. Recognized by 200+ international awards",
-              "evidence_visual": "Vibrant neon color accents in project previews and a focus on high-impact, culturally resonant work like 'BRAVERY'."
-            },
-            {
-              "label": "Gen X seeking a proven, high-performance partner to deliver measurable business results through brand transformation",
-              "cohort": "gen_x",
-              "probability": 0.3,
-              "evidence_text": "Meet the most effective independent agency in the world (Effie Index 2020) & Europe (2024)",
-              "evidence_visual": "Minimalist black-and-white site navigation and grid-based portfolio layout project authority and design rigor."
-            },
-            {
-              "label": "Gen Z seeking a challenger agency to create viral moments and build an authentic social presence",
-              "cohort": "gen_z",
-              "probability": 0.05,
-              "evidence_text": "Ads created by банда are ambitious, relevant, and a bit irreverent.",
-              "evidence_visual": "The 'Clinical Pop' visual territory combines professional structure with energetic, social-media-ready creative."
-            }
-          ],
-          "checklist": {
-            "pass": [
-              "aligns text (effectiveness) and visuals (creativity) perfectly"
-            ],
-            "warn": [
-              "assumes high level of industry knowledge from visitors"
-            ],
-            "fail": [
-              "hides commitment tier by providing no pricing or budget signals"
-            ]
-          }
-        },
-        "hi05_decision_confidence": {
-          "label": "DECISION CONFIDENCE",
-          "score": 65,
-          "diagnosis": "CONFIDENT",
-          "so_what": "The brand projects extreme confidence in its desired next steps: view our work, then contact us. The path is clear and uncluttered. The only point of hesitation is the complete lack of pricing information, which is an industry norm but still requires a leap of faith from the visitor, lowering decision confidence for those who are budget-sensitive.",
-          "sub_metrics": {
-            "cta_clarity": {
-              "score": 90,
-              "evaluation": "The hierarchy is clear. The primary action is to browse the work ('Load more projects'), and the secondary action is to 'Contact'. This is a logical, low-friction flow for an agency website with no competing calls to action."
-            },
-            "pricing_visibility": {
-              "score": 30,
-              "evaluation": "Pricing is entirely absent, forcing a 'contact us for pricing' model. While standard for high-end agencies, this creates significant friction and disrespects the visitor's time if they are not a budget fit."
-            },
-            "next_step_obviousness": {
-              "score": 90,
-              "evaluation": "Within 10 seconds, a visitor knows exactly what to do: scroll to see the work. The 'Contact' link is always visible in the main navigation. The path forward is unambiguous."
-            },
-            "friction_signals": {
-              "score": 50,
-              "evaluation": "The user interface is frictionless. The primary friction is cognitive: the complete opacity on pricing or project size, which forces a high-commitment 'contact us' step to get basic business information. This is a single, major friction point."
-            }
-          },
-          "checklist": {
-            "pass": [
-              "provides a clear primary ('view work') and secondary ('contact') CTA"
-            ],
-            "warn": [
-              "portfolio grid can present a paradox of choice for new visitors"
-            ],
-            "fail": [
-              "omits any pricing or budget range, creating a major friction point"
-            ]
-          }
-        }
-      }
-    },
-    "_usage": {
-      "prompt_tokens": 13976,
-      "completion_tokens": 3141,
-      "total_tokens": 20754,
-      "prompt_tokens_details": {
-        "cached_tokens": 0
-      },
-      "completion_tokens_details": {
-        "reasoning_tokens": 3637
-      }
-    },
-    "_model": "gemini-2.5-pro",
-    "_finish_reason": "STOP",
-    "_parse_status": "ok"
+    "model": "seed-2-0-pro-260328"
   },
   "GEO_evaluation": {
-    "score": 50,
-    "label": "AI PARTIAL",
-    "diagnosis": "SEVERE ENTITY COLLISION",
-    "profile": "Banda Agency has a strong on-page portfolio with highly verifiable claims and excellent taxonomy alignment. However, its AI visibility is critically compromised by its brand name. 'Banda' collides with Mexican music genres, historical islands, and prominent athletes, which currently dominate the brand's Reddit and Wikipedia signals. Because the site lacks JSON-LD schema to explicitly define itself as a creative agency, AI models will likely misattribute queries for 'Banda' to these higher-authority entities.",
-    "fix": "Ship Organization and ProfessionalService JSON-LD schema immediately. Include 'sameAs' links to the agency's specific social profiles and use 'alternateName: Banda Agency' to force AI models to disambiguate the agency from the surname.",
+    "score": 46,
+    "label": "AI WEAK",
+    "diagnosis": "Entity Drift, Low Anchoring",
+    "profile": "Society Brands positions itself as an acquirer of DTC ecommerce brands, yet its homepage content heavily emphasizes the product categories of its acquired brands rather than its core aggregation business. This creates a split identity for AI, making it harder to anchor the company's primary function. While the site is technically crawlable, the lack of external knowledge graph presence and a generic brand name further dilute its AI visibility.",
+    "fix": "Rewrite the homepage's primary content to explicitly define Society Brands as an ecommerce aggregator, detailing its acquisition process and value proposition for entrepreneurs. Add `Organization` schema to clearly identify the company entity. Submit a Wikidata Q-id with press citations to establish external authority.",
     "flags": {
       "entity_drift": true,
       "critical_blackout": false,
-      "foundation_failure": true,
+      "foundation_failure": false,
       "trustpilot_collapse": false,
       "category_hint_corrupted": false,
       "third_party_taxonomy_error": false,
@@ -677,128 +665,133 @@
     "metrics": {
       "ai01_findability": {
         "label": "AI FINDABILITY",
-        "score": 57,
-        "diagnosis": "SCHEMA BLINDSPOT",
-        "so_what": "AI models can easily extract Banda's impressive award history and founding details, but lack the structured data needed to confidently categorize the entity. Without JSON-LD, the agency relies entirely on text parsing, which is highly risky given the brand name's ambiguity. The lack of a canonical URL further weakens the signal.",
+        "score": 83,
+        "diagnosis": "Clear, Quotable",
+        "so_what": "Society Brands' page offers clear definitions and quotable facts, making it easy for AI to extract direct answers about its mission and acquired brands. However, the H1's focus on product categories rather than the company's core business creates a slight disconnect. Aligning the H1 with the brand's aggregation service would strengthen AI's understanding of the company's primary entity.",
         "sub_metrics": {
           "structured_data": {
-            "score": 50,
-            "evaluation": "GEO_ANALYSIS shows json_ld_blocks_found: 0; json_ld_types: []; og: 5/6 core tags; twitter: yes (3/4); meta_desc: present; canonical: absent; hreflang_count: 0. AI engines must infer from prose; add Product/Organization JSON-LD with og:image to lift the score.",
+            "score": 70,
+            "evaluation": "GEO_ANALYSIS shows json_ld_blocks_found: 2; json_ld_types: [\"WebSite\",\"LocalBusiness\"]; og: 6/6 core tags; twitter: yes (4/4); meta_desc: present; canonical: present; hreflang_count: 0. AI engines have rich citation hooks; sustain by adding FAQPage schema for direct AI Overviews citations.",
             "flags_emitted": []
           },
           "quotable_content": {
-            "score": 50,
-            "evaluation": "Banda provides solid quotable facts like 'Recognized by 200+ international awards' and 'Founded in Kyiv, Ukraine, since 2011'. However, the page lacks specific statistical outcomes for its client case studies. Add concrete performance metrics (e.g., 'increased sales by X%') to project descriptions to feed AI retrieval.",
+            "score": 90,
+            "evaluation": "The page contains over 10 unique quotable statements, such as 'FOUNDED in 2020' and 'Crunchi delivers high-performance makeup and skincare with clinically proven, safe ingredients—verified by EWG.' This rich detail provides AI with specific, citable information for direct answers and summaries.",
             "flags_emitted": []
           },
           "entity_clarity": {
-            "score": 70,
-            "evaluation": "The brand clearly identifies itself as a 'creative agency' and 'independent agency' alongside the name 'banda' or 'Banda Agency'. To reach 90, place a strict definitional sentence ('Banda is a creative agency that...') in the first 100 words rather than relying on scattered headers.",
+            "score": 90,
+            "evaluation": "The first 200 words explicitly define 'Society Brands' as 'acquiring ecommerce brands and evolving them into household brands,' clearly linking the brand to its core category. This strong initial definition helps AI agents quickly grasp the company's purpose and domain.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Claims verifiable awards like Effie Index and Cannes Lions."
+            "Quotes \"FOUNDED in 2020\" for context.",
+            "Defines \"Society Brands\" as an acquirer.",
+            "Mentions \"verified by EWG\" for Crunchi."
           ],
           "warn": [
-            "Scatters brand definitions instead of leading with them."
+            "H1 \"In, on, and around your body\" is product-focused."
           ],
           "fail": [
-            "Omits all JSON-LD schema, blinding AI to entity type."
+            "No explicit statistics beyond founding year."
           ]
         }
       },
       "ai02_content_focus": {
         "label": "AI SIGNAL CLARITY",
-        "score": 66,
-        "diagnosis": "PORTFOLIO HEAVY",
-        "so_what": "The portfolio-heavy content provides excellent, concrete data points (named clients, specific awards) that AI models favor over marketing fluff. However, the introductory copy leans on subjective boosters that LLMs typically filter out during summarization. The high verifiability of the awards is a major asset.",
+        "score": 50,
+        "diagnosis": "Mixed Specificity",
+        "so_what": "Society Brands' content offers a mix of specific product details and broader marketing claims. While individual brand descriptions are factual, the overall page suffers from a low density of hard data points and a reliance on booster adjectives. AI will struggle to extract concrete, verifiable facts about the company's aggregation process, potentially leading to generic summaries.",
         "sub_metrics": {
           "fact_to_filler_ratio": {
-            "score": 70,
-            "evaluation": "The copy balances marketing flair with concrete named entities like 'PrivatBank', 'Silpo', and 'Red Dot Awards'. The ratio sits around 1:2 fact-to-filler. Replace subjective claims like 'standout aesthetic design systems' with specific methodologies to improve density.",
+            "score": 50,
+            "evaluation": "The content presents a roughly 1:3 fact-to-filler ratio, with specific details like 'FOUNDED in 2020' balanced by marketing language such as 'revolutionize the way consumers experience wellness.' AI will find some facts but also wade through promotional text.",
             "flags_emitted": []
           },
           "adjective_load": {
-            "score": 50,
-            "evaluation": "The text relies on several booster adjectives like 'awesome', 'iconic', 'standout', and 'crazy-fast'. AI models strip these out during semantic processing. Swap these subjective intensifiers for concrete descriptors of the work delivered.",
+            "score": 30,
+            "evaluation": "The page uses 10-15 empty or booster adjectives like 'profound difference,' 'innovative,' and 'cutting-edge.' This high adjective load can dilute factual content, making it harder for AI to discern concrete value.",
             "flags_emitted": []
           },
           "specificity_index": {
-            "score": 70,
-            "evaluation": "The portfolio section anchors the page in highly specific, Rung 1 and 2 claims, detailing exact projects like 'Kvass made from yesterday’s baguette for @silpoua'. The introductory positioning remains slightly abstract. Ground the intro in the same concrete reality as the case studies.",
+            "score": 50,
+            "evaluation": "Approximately 40-59% of claims are at Rung 1 or 2, such as 'verified by EWG' for Crunchi, but many remain category-vague. AI will find some specific mechanisms but also encounter abstract statements.",
             "flags_emitted": []
           },
           "data_point_density": {
             "score": 50,
-            "evaluation": "The page includes about 7-8 solid data points, including award years ('2024', '2020'), founding year ('2011'), and award counts ('200+'). Injecting specific campaign performance numbers (ROI, reach, conversion lifts) would push this density higher for AI ingestion.",
+            "evaluation": "The page contains 6 data points per ~500 words, including 'FOUNDED in 2020' and 'Developed by Dr. Sam Walters.' This moderate density means AI can extract some specific facts, but more numerical evidence would enhance credibility.",
             "flags_emitted": []
           },
           "claim_verifiability": {
-            "score": 90,
-            "evaluation": "Banda excels at claim verifiability by explicitly naming the awarding bodies for its accolades, such as 'Effie Index 2020', 'Red Dot in Packaging Design', and 'Cannes Lions'. AI models can easily cross-reference these claims against external knowledge graphs.",
+            "score": 70,
+            "evaluation": "Around 50-69% of claims are verifiable at FTC levels A or B, such as 'verified by EWG' and 'clinically proven, safe ingredients.' This provides AI with a solid foundation for trust, though some claims remain uncited.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Names specific clients like Silpo, Comfy, and PrivatBank."
+            "Cites \"FOUNDED in 2020\" as a data point.",
+            "Uses \"EWG\" verification for Crunchi.",
+            "Describes specific brand technologies."
           ],
           "warn": [
-            "Relies on subjective boosters like awesome and iconic."
+            "Uses \"profound difference\" as a booster adjective."
           ],
           "fail": [
-            "Hides concrete campaign performance metrics and ROI data."
+            "Low data point density (6 in ~500 words)."
           ]
         }
       },
       "ai03_ai_positioning": {
         "label": "AI CATEGORY POSITIONING",
-        "score": 48,
-        "diagnosis": "EXTERNAL HIJACK",
-        "so_what": "Banda perfectly aligns with creative agency taxonomy on-page, but its external signals are a disaster. Reddit and Wikipedia signals are entirely hijacked by athletes named Banda, meaning AI models will not associate the standalone word 'Banda' with an agency without explicit context. The brand must aggressively use 'Banda Agency' in all external PR.",
+        "score": 33,
+        "diagnosis": "Drifting, Unanchored",
+        "so_what": "Society Brands' homepage content drifts from its core 'DTC Brand Growth' category, focusing instead on the product types of its acquired brands. This 'entity drift' confuses AI about the company's primary function, making it difficult to position Society Brands against competitors or within its true market. Without external category recognition, AI will struggle to surface the brand for relevant queries.",
         "sub_metrics": {
           "category_keyword_alignment": {
-            "score": 90,
-            "evaluation": "The page is densely packed with standard creative agency taxonomy, including 'brand launch', 'transformation strategies', 'rebranding', and 'packaging design'. This perfect alignment ensures AI categorizes the agency accurately when parsing the page directly.",
-            "flags_emitted": []
+            "score": 30,
+            "evaluation": "The page's body content heavily emphasizes 'Functional Health and Personal Care' products, while the primary category hint is 'DTC Brand Growth.' This 'entity drift' means off-taxonomy terms dominate, confusing AI about the company's core business. Rewrite content to align with the aggregation category.",
+            "flags_emitted": [
+              "entity_drift"
+            ]
           },
           "competitor_placement": {
-            "score": 50,
-            "evaluation": "Banda clearly identifies its category but lacks explicit competitive positioning or 'unlike traditional agencies' framing. AI models struggle to rank brands that don't define what they are replacing. Add a section contrasting Banda's approach with legacy agency models.",
+            "score": 30,
+            "evaluation": "The page lacks explicit competitive context, neither naming competitors nor using 'industry standard' framing with concrete differentiation. AI cannot easily understand Society Brands' unique value proposition in the aggregation market without this context.",
             "flags_emitted": []
           },
           "value_proposition_clarity": {
-            "score": 50,
-            "evaluation": "The first 200 words clearly establish WHAT the agency does (brand launch, design systems) and WHY to choose them (200+ awards). It omits explicit target audience (WHO) and pricing/engagement models (HOW-MUCH). Explicitly name the ideal client profile to improve AI matching.",
+            "score": 70,
+            "evaluation": "The first 200 words clearly state WHAT ('acquiring ecommerce brands') and WHO ('entrepreneurs and ecommerce brands'), with a weak WHY ('help one another reach new heights'). The HOW-MUCH is missing. AI can grasp the core offering but lacks a full picture.",
             "flags_emitted": []
           },
           "category_recognition_external": {
             "score": 0,
-            "evaluation": "External social signals are completely hijacked by entity collisions with athletes named 'Banda' (e.g., Anthony Banda in baseball, Barbra Banda in NWSL). AI models will associate the brand name with sports rather than creative agencies. The agency must aggressively build digital PR linking 'Banda Agency' to marketing contexts to override this noise.",
-            "flags_emitted": [
-              "entity_drift"
-            ]
+            "evaluation": "GEO_ANALYSIS shows 0 total Reddit mentions, indicating no external organic category recognition. For a B2B/aggregator brand, this is expected, but it means AI has no social proof to validate its category understanding.",
+            "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Uses accurate taxonomy like brand launch and design systems."
+            "States \"acquiring ecommerce brands\" as core service.",
+            "Identifies \"entrepreneurs and ecommerce brands\" as target."
           ],
           "warn": [
-            "Omits explicit target audience in the value proposition."
+            "Body content focuses on product categories."
           ],
           "fail": [
-            "Loses external signals to athletes with the surname Banda."
+            "No external category recognition on Reddit."
           ]
         }
       },
       "ai04_crawler_coverage": {
         "label": "AI CRAWL READINESS",
         "score": 60,
-        "diagnosis": "BOTS ALLOWED",
-        "so_what": "The site's technical foundation is solid for traditional search crawlers, with all major AI bots allowed and basic infrastructure in place. However, the absence of an llms.txt file means AI agents lack a prioritized map of the agency's best case studies.",
+        "diagnosis": "Crawlable, Unoptimized",
+        "so_what": "Society Brands' site is fully accessible to AI crawlers, ensuring content can be indexed. However, the absence of an `llms.txt` file means AI agents lack explicit guidance on key content sections. Ship an `llms.txt` to direct AI to the most important information, improving content prioritization and retrieval.",
         "sub_metrics": {
           "bot_coverage": {
             "score": 90,
@@ -812,46 +805,47 @@
           },
           "infrastructure_basics": {
             "score": 90,
-            "evaluation": "robots.txt: present, sitemap_reference: yes, sitemap_url: https://banda.agency/sitemap.xml (canonical), https_enforced: true. All foundational crawl signals present.",
+            "evaluation": "robots.txt: present, sitemap_reference: yes, sitemap_url: https://www.societybrands.com/sitemap.xml (canonical), https_enforced: true. All foundational crawl signals present.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Allows all major AI crawlers including GPTBot and Claude."
+            "Allows all major AI crawlers (GPTBot, ClaudeBot).",
+            "Enforces HTTPS for secure access."
           ],
           "warn": [
-            "Lacks an llms.txt file to guide agents to case studies."
+            "No `llms.txt` present for AI guidance."
           ],
           "fail": [
-            "Omits canonical URL tags in the site header."
+            "Omits `llms.txt` for AI agent route map."
           ]
         }
       },
       "ai05_knowledge_anchoring": {
         "label": "AI KNOWLEDGE ANCHORING",
-        "score": 28,
-        "diagnosis": "IDENTITY CRISIS",
-        "so_what": "Banda's knowledge anchoring is critically weak due to a massive entity collision. Wikipedia and Wikidata entries for 'Banda' point to a surname, not the agency. Without Organization schema to disambiguate, AI models will consistently confuse the agency with other entities.",
+        "score": 14,
+        "diagnosis": "Weak, Unverified",
+        "so_what": "Society Brands lacks strong external knowledge anchors like Wikipedia or Wikidata, making it difficult for AI to verify its identity and authority. The generic brand name further compounds this issue, increasing the risk of AI confusing it with other entities. Establish a Wikidata entry and implement `Organization` schema to provide AI with authoritative, unambiguous entity signals.",
         "sub_metrics": {
           "brandname_uniqueness": {
-            "score": 0,
-            "evaluation": "'Banda' suffers from severe entity collision, sharing its name with a Mexican music genre, historical islands, and numerous athletes. AI models will default to these higher-authority entities unless the brand is strictly queried as 'Banda Agency'. Always use the full 'Banda Agency' in digital PR and schema to force disambiguation.",
+            "score": 30,
+            "evaluation": "The brand name 'Society Brands' consists of two common English words, making it generic and prone to collisions with other entities in AI's training data. This lack of uniqueness hinders AI's ability to confidently identify and anchor the brand.",
             "flags_emitted": []
           },
           "schema_category_fit": {
-            "score": 0,
-            "evaluation": "The site ships zero JSON-LD structured data, leaving AI crawlers to guess its entity type from raw text. This is a critical failure for a brand fighting severe name collisions. Implement Organization and ProfessionalService schema immediately, explicitly defining the 'sameAs' properties to link your social profiles.",
+            "score": 30,
+            "evaluation": "While `LocalBusiness` schema is present, the critical `Organization` schema is missing, as indicated by RICH_RESULTS_ELIGIBILITY.missed_types. This constitutes a category-defining gap for a company, preventing AI from fully understanding its corporate entity.",
             "flags_emitted": []
           },
           "knowledge_graph_presence": {
-            "score": 70,
-            "evaluation": "wikipedia_present: true; summary length: 60 chars. wikidata_id: 'Q16479793'; wikidata_label: 'Banda'; wikidata_description: 'family name'. Both anchors present and matching.",
+            "score": 0,
+            "evaluation": "wikipedia_present: false; summary length: 0 chars. wikidata_id: 'absent'; wikidata_label: 'absent'; wikidata_description: 'absent'. Submit a Wikidata Q-id with 2 notable press citations to anchor the brand entity.",
             "flags_emitted": []
           },
           "identity_convergence": {
-            "score": 70,
-            "evaluation": "BRAND_NAMING.brand_inferred 'banda' vs names_found: og_site_name=✓(banda); title_tag=✓(banda.agency); h1=✗(); wikidata_label=✓(Banda); wikipedia_title=✓(Banda (surname)). 4/5 surfaces agree. Names converge — strong identity.",
+            "score": 10,
+            "evaluation": "BRAND_NAMING.brand_inferred 'Society Brands' vs names_found: og_site_name=✓(Society Brands); title_tag=✗(Sell Your Ecommerce Business |); h1=✗(In, on, and around your body.); wikidata_label=✗(); wikipedia_title=✗(). 1/5 surfaces agree. Reconcile divergent surfaces — set og:site_name and align Wikipedia/Wikidata to match canonical brand name.",
             "flags_emitted": []
           },
           "trustpilot_anchoring": {
@@ -862,13 +856,14 @@
         },
         "checklist": {
           "pass": [
-            "Maintains consistent brand naming across meta tags."
+            "Uses `LocalBusiness` schema for locations.",
+            "og:site_name matches brand name."
           ],
           "warn": [
-            "Lacks third-party B2B review anchors like Clutch."
+            "Brand name \"Society Brands\" is generic."
           ],
           "fail": [
-            "Collides heavily with a common surname and music genre."
+            "Omits `Organization` schema for company entity."
           ]
         }
       }
