@@ -1,51 +1,51 @@
 {
-  "url": "https://www.entlify.com",
-  "brand": "Entlify",
+  "url": "https://shelter.film",
+  "brand": "shelter.film",
   "5_truth": {
     "truth_1": {
-      "headline": "The brand identity is a hyper-rational, competent expert with no discernible warmth.",
-      "gap_description": "The 17-marker framework consistently reads Entlify as a distant authority. Its personality is 'The Reliable Expert' (warmth 2/5, competence 4/5), its archetype is 70% 'The Sage,' its tone is 'The Clinical Authority,' and its visual identity is 'Pharma-Code.' Every dimension of the brand's identity converges on intellectual rigor and professional distance. This creates a powerful but cold projection, built to be respected for its knowledge, not liked for its personality.",
-      "evidence": "'The Reliable Expert' (HI.marker_5.territory_name) | 'The Sage 70%' (HI.marker_6.primary.archetype) | 'The Clinical Authority' (HI.marker_7.territory_name) | 'Pharma-Code' (HI.marker_8.territory_name) | 'Personality... Warmth: 2/5 Distant' (HI.marker_5.slider_a_value)",
-      "why_matters": "This hyper-rational identity effectively pre-qualifies clients who value data-driven, hands-off execution. However, it actively repels prospects who are looking for a collaborative, high-touch partner. The brand's identity is a filter; it wins a specific type of client by making it clear it is not for everyone else, which may limit its total addressable market.",
-      "hard_choice": "The brand must decide if this cold, expert positioning is a strategic moat or a growth ceiling. One path is to double down on the Sage archetype, accepting that it filters out clients who need more hand-holding, thus improving operational efficiency. A second path is to intentionally introduce warmth by elevating the 10% Caregiver archetype, perhaps through human-centric case stories or team bios, to attract a broader client base. The strategic question: is the ideal client one who values pure competence, or has the market shifted to demand competence delivered with partnership?"
+      "headline": "The brand identity is a fortress of cold, elite, and unquestionable authority.",
+      "gap_description": "The 17-marker framework analysis reveals an incredibly coherent but severe brand identity. Every dimension converges on a single read: a 'Ruler' archetype (60%) with a 'Reliable Expert' personality (Distant 2/5, Deity 5/5), a 'Clinical Authority' tone of voice, and a 'Pharma-Code' visual identity (Sterile 1/5). This brand is not designed to be liked or understood by outsiders; it is built to command respect from an 'Insider Clique' of peers who already recognize its status. The identity is a powerful, intentional filter.",
+      "evidence": "'The Ruler 60%' (HI.marker_6.primary.archetype + .percentage) | 'Personality: The Reliable Expert (Distant 2/5, The Deity 5/5)' (HI.marker_5.territory_name) | 'Visual Identity: Pharma-Code (Sterile 1/5, Swiss Grid 1/5)' (HI.marker_8.territory_name) | 'Social Benefits: The Insider Clique' (HI.marker_17.territory_name)",
+      "why_matters": "This fortress-like identity effectively attracts high-status clients seeking to validate their own prestige. However, it actively repels anyone seeking a collaborative partner, warmth, or an entry point into the high-end market. The commercial model is predicated on extreme exclusion, limiting the potential client pool to the absolute top tier and making the brand unapproachable for emerging or mid-market brands with high potential.",
+      "hard_choice": "The brand's identity is so consistent that changing any element risks breaking the whole structure. One path is to embrace this severity as a competitive moat, accepting a smaller, higher-value client base as a feature of the brand. A second path involves creating a separate, more accessible channel or sub-brand to capture growth without diluting the core's mystique. A third, more difficult path, is to find a way to dial up a secondary archetype, like 'The Creator,' to introduce a sliver of artistic energy without sacrificing the 'Ruler's' authority. The strategic question: is the brand's growth path dependent on finding more of the 0.1%, or must it find a way to serve the 1% without compromising its soul?"
     },
     "truth_2": {
-      "headline": "To AI engines, the brand is an unanchored ghost with a technically sound website.",
-      "gap_description": "The AI/GEO analysis returns a score of 42, diagnosing the brand as an 'INVISIBLE ENTITY.' While the site is technically crawlable (AI04=60), it has zero substance for an AI. Knowledge Anchoring (AI05) is at 20 because the brand has no Wikipedia or Wikidata presence. Content Focus (AI02) is at 16 because the copy is seen as 'MARKETING SLOGANS' with a near-zero fact-to-filler ratio. AI can see the domain exists, but finds no verifiable, authoritative information about the business itself.",
-      "evidence": "'Diagnosis: INVISIBLE ENTITY' (GEO.diagnosis) | 'AI KNOWLEDGE ANCHORING... Diagnosis: UNANCHORED GHOST' (GEO.metrics.ai05_knowledge_anchoring.diagnosis) | 'AI SIGNAL CLARITY... Diagnosis: MARKETING SLOGANS' (GEO.metrics.ai02_content_focus.diagnosis) | 'knowledge_graph_presence: wikipedia_present: false; ... wikidata_id: 'absent'' (GEO.metrics.ai05_knowledge_anchoring.sub_metrics.knowledge_graph_presence.evaluation)",
-      "why_matters": "Without an external knowledge anchor, AI systems cannot trust or recommend Entlify for any query that isn't a direct search for its name. It will be absent from AI Overviews, chatbot recommendations, and any search for 'best SaaS marketing agency.' The brand is invisible at the exact moment of AI-assisted discovery, ceding that ground entirely to competitors with a verifiable digital footprint.",
-      "hard_choice": "The brand faces a choice between remaining a 'dark web' entity known only through direct sales, or building a public, machine-readable identity. One strategy is to ignore AI visibility and focus purely on human-to-human outreach, accepting the limitations. Another is to undertake the foundational work of entity-building: creating a Wikidata entry, shipping Organization schema, and seeding third-party directories. This requires effort but makes the brand legible to the new gatekeepers of information. The strategic question: is growth driven by who you know, or by what AI knows about you?"
+      "headline": "AI engines see a content blackout; the brand is a ghost in digital discovery.",
+      "gap_description": "The AI/GEO posture is a catastrophic failure, scoring 19/100 and triggering a 'critical_blackout' flag. The homepage's entire content is the single word 'UFC,' providing zero information for AI crawlers. Consequently, AI positioning (AI03) and knowledge anchoring (AI05) score 0 and 2, respectively. While the technical crawl infrastructure is sound (AI04=60), it's a perfectly built road leading to an empty lot. To any AI system, the brand does not exist in its category.",
+      "evidence": "'critical_blackout: true' (GEO.flags.critical_blackout) | 'AI CATEGORY POSITIONING score: 0. Diagnosis: CATEGORY UNKNOWN.' (GEO.metrics.ai03_ai_positioning.score + .diagnosis) | 'The page content is just the text \"UFC\", providing zero quotable statistics, definitions, or claims.' (GEO.metrics.ai01_findability.sub_metrics.quotable_content.evaluation) | 'AI KNOWLEDGE ANCHORING score: 2. Diagnosis: UNANCHORED ENTITY.' (GEO.metrics.ai05_knowledge_anchoring.score + .diagnosis)",
+      "why_matters": "By being invisible to AI, the brand cedes the entire digital discovery landscape to its competitors. It cannot be found, compared, or recommended by any AI-driven search or assistant for queries like 'best cinematic production companies.' All new business must come from direct reputation and word-of-mouth, a model that is vulnerable to shifts in the industry and cannot capture new market entrants.",
+      "hard_choice": "This extreme invisibility may be a deliberate choice. One posture is to remain an AI ghost, treating digital obscurity as the ultimate signal of exclusivity—a club with an unlisted address. A second posture is minimalist compliance: add just enough text and schema for AI to classify the entity, making it findable without altering the severe aesthetic. A third is to bifurcate the strategy: keep the homepage as pure art but build machine-readable content on other pages or channels to handle the work of discovery. The strategic question: is being invisible to AI a feature of the brand's mystique, or a fatal flaw that cuts it off from all future channels of discovery?"
     },
     "truth_3": {
-      "headline": "The brand claims radical transparency but creates friction by hiding its price.",
-      "gap_description": "There is a direct conflict between the brand's stated values and its user experience. The 17-marker framework identifies the brand's core value as 'Radical Transparency' (Marker 3). However, the human-visitor analysis (HI) flags 'complete opacity on pricing' as the primary 'blind_spot.' This is quantified by a `pricing_visibility` score of just 30 in the Decision Confidence metric (HI05), making it the single lowest-scoring sub-metric across the entire HI evaluation. The brand promises straightforwardness but erects a significant barrier at the point of purchase consideration.",
-      "evidence": "'Values... Territory Name: Radical Transparency' (HI.marker_3.territory_name) | 'blind_spot: The brand's primary friction point is its complete opacity on pricing.' (HI.hi.blind_spot) | 'pricing_visibility: score: 30' (HI.hi.metrics.hi05_decision_confidence.sub_metrics.pricing_visibility.score) | 'evaluation: Pricing is completely hidden behind a contact gate.' (HI.hi.metrics.hi05_decision_confidence.sub_metrics.pricing_visibility.evaluation)",
-      "why_matters": "Hiding the price disqualifies potential clients—especially its target audience of time-poor executives—who need to know the investment level before committing to a sales call. This friction undermines the promise of being an efficient, 'hands-off' partner and can create a perception of being expensive or inflexible, regardless of the actual cost. It forces a high-effort action for a low-information reward.",
-      "hard_choice": "The brand is at a crossroads between sales process and brand promise. It can maintain pricing opacity, using the 'Request a Call' gate as a tool to qualify leads and control the sales narrative, accepting that this will cause some prospects to drop off. Alternatively, it could align with its 'Radical Transparency' value by providing pricing tiers, ranges, or a self-serve quote calculator. This would reduce friction but might commoditize the service or attract lower-quality leads. The strategic question: does the value of qualifying a lead outweigh the cost of frustrating a prospect?"
+      "headline": "The URL hides its greatest assets, forcing even ideal visitors to work for proof.",
+      "gap_description": "The human perception is polarized. While the page is 'LASER-AIMED' (HI04=80) for its insider audience, its message is 'OPAQUE' (HI01=48) and its trust score is low (HI02=46). The core issue is the 'blind_spot': the homepage shows a beautiful film but completely omits the brand's most powerful assets—its long list of Cannes Lions, Black Pencils, and other top-tier awards. Social proof and visible certifications both score zero, asking a visitor to trust the aesthetic alone.",
+      "evidence": "'The homepage completely omits the brand's most powerful trust assets: its extensive list of prestigious awards...' (HI.hi.blind_spot) | 'social_proof: score 0' (HI.hi.metrics.hi02_trust_score.sub_metrics.social_proof.score) | 'visible_certifications: score 0' (HI.hi.metrics.hi02_trust_score.sub_metrics.visible_certifications.score) | 'MESSAGE CLARITY: score 48, OPAQUE' (HI.hi.metrics.hi01_message_clarity.score + .diagnosis)",
+      "why_matters": "By withholding its credentials on the homepage, the brand creates unnecessary friction. A qualified creative director who lands on the page sees quality but lacks the immediate validation of 'this is an award-winning firm.' They are forced to click 'About' to connect the dots. This extra step, while small, will cause a percentage of perfectly matched, time-poor leads to bounce, making the top of the funnel less efficient than it could be.",
+      "hard_choice": "The brand must weigh aesthetic purity against commercial clarity. One option is to maintain the current artistic purity, believing that serious prospects will do the work to verify their credentials. This treats the friction as a feature that filters out the uncommitted. A second option is to add a single, elegant text element—'Award-winning film production'—to provide instant validation without compromising the minimalist design. A third is to assume the URL is not for persuasion at all, and that proof belongs only in pitch decks and direct conversations. The strategic question: is the homepage an art gallery, or is it the most valuable piece of real estate for converting qualified interest into a conversation?"
     },
     "truth_4": {
-      "headline": "The URL speaks clearly to its niche human audience, but is generic to AI.",
-      "gap_description": "A clear divergence exists between how the brand's positioning is perceived by humans and by AI. The human-visitor lens (HI04) confirms the page resonates strongly with its target 'Gen X seeking a reliable, hands-off agency.' The brand framework identifies its unique position as 'The Specialist' (Marker 12) for SaaS companies. Yet, the AI/GEO analysis (AI03) diagnoses its positioning as 'GENERIC AND ALONE,' with zero external signals to validate its niche expertise. The specialization is visible in the page's copy but invisible to the machines that categorize the web.",
-      "evidence": "'Gen X seeking a reliable, hands-off agency to manage technical marketing' (HI.hi.metrics.hi04_audience_resonance.audience_segments[0].label) | 'USP... Territory Name: The Specialist' (HI.marker_12.territory_name) | 'AI CATEGORY POSITIONING... Diagnosis: GENERIC AND ALONE' (GEO.metrics.ai03_ai_positioning.diagnosis) | 'category_recognition_external: score: 0' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.score)",
-      "why_matters": "Because its specialist positioning isn't machine-readable, the brand loses every AI-driven search for its niche. When a SaaS CMO asks an AI for 'agencies that specialize in cybersecurity marketing,' Entlify will not be on the list. The brand has successfully defined its niche but has failed to broadcast that definition on the channels where its audience is now looking.",
-      "hard_choice": "The brand must decide where its positioning strategy should live. One option is to keep it as a messaging layer on the website, relying on direct traffic and human interpretation, effectively treating the site as a digital brochure. A second option is to translate the positioning into machine-readable signals—like `Service` schema defining its SaaS focus, blog content targeting niche keywords, and profiles on B2B review sites like Clutch or G2. This would make the positioning an active asset for discovery. The strategic question: is being a specialist a story you tell visitors, or an identity you declare to the internet?"
+      "headline": "The brand is perfectly positioned for an audience it cannot reach through digital channels.",
+      "gap_description": "A stark contradiction exists between audience targeting and digital visibility. The human-visitor lens shows a 'LASER-AIMED' (HI04=80) page that resonates perfectly with its target audience of Millennial and Gen X creative directors. The brand framework confirms this with 'Status Seeker' and 'Insider Clique' positioning. Yet, the AI-engine lens shows a score of 0 for AI Positioning, with a diagnosis of 'CATEGORY UNKNOWN.' The brand speaks the language of its tribe fluently but is mute in the digital spaces where that tribe now discovers new partners.",
+      "evidence": "'AUDIENCE RESONANCE score: 80. Diagnosis: LASER-AIMED.' (HI.hi.metrics.hi04_audience_resonance.score + .diagnosis) | 'Millennials seeking an award-winning production partner...' (HI.hi.metrics.hi04_audience_resonance.audience_segments[0].label) | 'AI CATEGORY POSITIONING score: 0. Diagnosis: CATEGORY UNKNOWN.' (GEO.metrics.ai03_ai_positioning.score + .diagnosis) | 'The page content \"UFC\" has zero alignment with the brand's declared category, \"production company\".' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_keyword_alignment.evaluation)",
+      "why_matters": "This disconnect means the brand's audience strategy is entirely dependent on offline, reputation-based channels. It cannot acquire a new client from its ideal target segment if that client begins their search online or with an AI assistant. The brand is perfectly dressed for a party it can't find the address to, ceding all digitally-native new business to competitors who are simply more visible.",
+      "hard_choice": "The brand must decide if its audience lives online. One strategy is to assume they do not, and that all meaningful discovery happens through industry awards, festivals, and personal networks, rendering digital positioning irrelevant. A second strategy is to bridge the gap by adding a minimal machine-readable layer—basic schema and a descriptive sentence—to make their 'laser-aimed' positioning discoverable by search without altering the human experience. A third is to treat discovery as a separate job, building content-rich landing pages or channel presences designed to be found, which then funnel qualified traffic to the artistic main site. The strategic question: is the brand's audience positioning a complete strategy, or is it only half a strategy because it ignores the channels that audience uses for discovery?"
     },
     "truth_5": {
-      "headline": "Humans understand the message, but AI dismisses the content as marketing filler.",
-      "gap_description": "The largest cross-lens divergence is in how the URL's content is interpreted. For humans, Message Clarity (HI01) scores a solid 70 ('UNDERSTANDABLE'). A person can read between the lines of marketing copy to grasp the value proposition. For AI, Content Focus (AI02) scores a catastrophic 16 ('MARKETING SLOGANS'). The AI sees a page with a fact-to-filler ratio of '1:8 or worse' and almost no verifiable data, classifying it as low-signal noise. The brand is speaking a language humans can parse but that machines are trained to ignore.",
-      "evidence": "'hi01_message_clarity: score: 70, diagnosis: UNDERSTANDABLE' (HI.hi.metrics.hi01_message_clarity) | 'ai02_content_focus: score: 16, diagnosis: MARKETING SLOGANS' (GEO.metrics.ai02_content_focus) | 'The ratio of factual claims to marketing filler is estimated at 1:8 or worse' (GEO.metrics.ai02_content_focus.sub_metrics.fact_to_filler_ratio.evaluation) | 'The body copy contains almost no hard data points' (GEO.metrics.ai02_content_focus.sub_metrics.data_point_density.evaluation)",
-      "why_matters": "This divergence means the website only works for visitors who have already arrived; it does nothing to attract new ones through AI-driven discovery. Content that AI deems 'filler' is not used to answer queries, populate knowledge panels, or establish authority. The brand has created a persuasive sales pitch for humans but has failed to create a substantive, evidence-based asset for machines, effectively cutting itself off from modern search and discovery.",
-      "hard_choice": "The brand faces a fundamental choice about the purpose of its web content. It can continue to write persuasive, benefit-led copy optimized for human conversion, accepting that this makes it invisible to AI. Or, it can shift to a data-first content model, replacing slogans with specific metrics, case data, and process descriptions. This might make the copy feel drier to a human reader but would provide the verifiable substance AI needs to see the brand as an authority. The strategic question: is the website's primary job to convert the visitor who is already there, or to convince the AI to bring the next one?"
+      "headline": "Humans see a secret handshake; AI sees a blank page. The brand is a shibboleth.",
+      "gap_description": "The divergence between the human and AI read is absolute. For the right human, the page is 'LASER-AIMED' (HI04 Audience Resonance = 80), a perfectly crafted signal of elite creative capability. For an AI, it is a 'CONTENT BLACKOUT' (GEO Score = 19), an unclassifiable page with no meaning. This 61-point chasm is not a simple gap; it is a deliberate choice. The URL functions as a shibboleth: a password or signal that is instantly understood by an insider and is meaningless noise to everyone else, including machines.",
+      "evidence": "'HI04 AUDIENCE RESONANCE score: 80. Diagnosis: LASER-AIMED.' (HI.hi.metrics.hi04_audience_resonance.score + .diagnosis) | 'GEO score: 19. Diagnosis: CONTENT BLACKOUT.' (GEO.score + .diagnosis) | 'The page is a perfect filter for its target audience of creative directors...' (HI.hi.metrics.hi04_audience_resonance.so_what) | 'The brand shelter.film is an enigma to AI... its homepage contains only the word \"UFC\"...' (GEO.profile)",
+      "why_matters": "This shibboleth strategy creates immense desirability within a closed network. The brand's value is tied to its inaccessibility. However, it means the business cannot scale beyond its existing circle of reputation. It is a commercial model capped by its own mystique. Any potential client outside this circle, no matter how well-funded or aligned, will never find them through modern discovery tools.",
+      "hard_choice": "The brand's core strategy is embodied in this divergence. One path is to lean into it, viewing the gap between the human-insider read and the AI-outsider read as the brand's primary competitive advantage. A second path is to decide the era of pure mystique is over and that growth requires closing this gap, adding just enough signal for machines to understand their value. A third path is to maintain the shibboleth on the main URL but build explicit, machine-readable 'embassies' on other platforms to engage with the outside world. The strategic question: is this massive divergence a moat that protects the brand's elite status, or a cage that limits its future?"
     },
     "_usage": {
-      "prompt_tokens": 21895,
-      "completion_tokens": 2546,
-      "total_tokens": 26630,
+      "prompt_tokens": 21446,
+      "completion_tokens": 2744,
+      "total_tokens": 28341,
       "prompt_tokens_details": {
-        "cached_tokens": 4078
+        "cached_tokens": 20390
       },
       "completion_tokens_details": {
-        "reasoning_tokens": 2189
+        "reasoning_tokens": 4151
       }
     },
     "_model": "gemini-2.5-pro",
@@ -53,71 +53,71 @@
     "_parse_status": "ok"
   },
   "HI_evaluation": {
-    "brand": "Entlify",
-    "product_title": "Entlify - Digital Marketing & Web Dev",
-    "url": "https://www.entlify.com",
+    "brand": "shelter.film",
+    "product_title": "shelter.film",
+    "url": "https://shelter.film",
     "overall_perception_summary": {
-      "headline": "Pragmatic Growth Partner",
-      "description": "Entlify presents itself as the rational, results-driven solution to the chaos of digital marketing for B2B tech companies. The brand's perception is built on a foundation of pragmatic expertise, promising to be a seamless 'extension of your team' that translates complex processes into predictable revenue. This is visually captured by a 'Clinical Pop' aesthetic — a serious, professional interface energized by vibrant, data-driven visuals — positioning Entlify as both a reliable expert and a catalyst for growth."
+      "headline": "Auteur-Grade Production House",
+      "description": "Shelter.film positions itself as an elite, auteur-driven production company where creative mastery is the core product. The brand communicates through its work and a staggering list of industry awards, projecting an aura of unquestionable authority and artistic integrity. It operates as a status signal for clients like IKEA and UFC, differentiating them not through claims, but through the sheer caliber of the cinematic art it produces. Choosing Shelter is a declaration of a brand's commitment to high craft and creative excellence."
     },
     "category_summaries": {
       "foundation": {
-        "title": "Expert Problem Solvers",
-        "description": "Entlify's purpose is that of The Healer, fixing the 'expensive, time-consuming, and unpredictable' problems of digital marketing. The brand's ethos is Radical Transparency, prioritizing 'outstanding results' and 'data-informed decisions' backed by client testimonials. Its positioning as a Medical Authority for business means it targets a specific niche (SaaS companies) with a promise of predictable, cost-conscious solutions. The payoff for the client is the elimination of guesswork and a clear, straightforward path to revenue."
+        "title": "Award-Winning Artistic Authority",
+        "description": "The brand's stance is The Empowerer, using its artistic vision to create transformative work for clients. Its ethos is one of Clinical Efficacy, prioritizing high-performance results (award-winning films) and protecting its creative process with an air of mystique. Positioned as a High Fashion Status Symbol, Shelter leverages its portfolio and extensive awards to justify its premium, aspirational slot in the market. The payoff for a client is not just a film, but a piece of validated art that elevates their own brand's prestige."
       },
       "identity": {
-        "title": "The Reliable Expert",
-        "description": "The brand's personality is The Reliable Expert, communicating with a distant but competent authority. This is driven by a dominant Sage archetype, which demystifies complex topics like SEO and CRO, positioning the agency as a source of truth and clarity. The Visual Identity is Pharma-Code, using a cool, structured, and professional layout that signals technical precision and trustworthiness. The Tone of Voice is a Clinical Authority, using serious, dry, and professional language focused on outcomes, not emotion."
+        "title": "The Authoritative Auteur",
+        "description": "The brand's personality is The Reliable Expert — distant, precise, and communicating through mastery rather than warmth. The dominant archetype is The Ruler, commanding its creative space with the full backing of industry accolades. Its visual identity is Pharma-Code, using a stark, minimalist, and cold aesthetic to signal precision, control, and serious artistic intent. The tone of voice is The Clinical Authority, speaking with a dry, serious, and confident voice that is focused entirely on the craft."
       },
       "communication": {
-        "title": "ROI-Focused Expertise",
-        "description": "The messaging hook is that of The Problem Solver, leading with clear outcomes like 'Rank higher, convert better.' The brand's edge is its USP as The Specialist, hyper-focused on the needs of SaaS and tech companies. Key Selling Points rely on Derm-Validation, using testimonials from high-level clients (CMOs, Managing Partners) as the primary form of proof. The communication focus is on Science Education, explaining their processes to build trust and demonstrate competence before asking for the sale."
+        "title": "Show, Don't Tell",
+        "description": "The messaging strategy is that of The Promise Maker, showing the 'wow' of the final product and letting the work speak for itself. Its unique edge is being The Specialist in top-tier, award-winning productions for a global clientele. The primary proof is Derm-Validation, re-contextualized as 'Industry Validation' through its extensive list of Gold Lions, Black Pencils, and Grand Prix awards. The communication focus is a pure portfolio showcase, using the films themselves as the primary evidence of capability."
       },
       "benefits": {
-        "title": "Confidence Through Competence",
-        "description": "The functional benefit is Correction, fixing underperforming websites and marketing funnels to 'improve your bottom line.' The emotional payoff is Confidence, reassuring clients that their investment is safe and their goals are achievable. Self-expression for a client choosing Entlify is that of The Pragmatist — they are making a smart, rational choice, not an emotional or trend-based one. The social benefit is entry into The Knowledge Club, signaling that the client is 'in the know' by choosing an agency that specializes in their specific industry."
+        "title": "Confidence Through Craft",
+        "description": "Functionally, Shelter provides Correction, delivering visual perfection that elevates a brand's aesthetic. The emotional benefit is Confidence, removing any insecurity a client might have about creative execution and bestowing a sense of superiority. For a marketing director, choosing Shelter is an act of self-expression as a Status Seeker, signaling their taste and access to the industry's best. The social benefit is entry into The Insider Clique of award-winning brands and creatives."
       }
     },
     "quick_labels": {
-      "brand_voice": "Expert Pragmatist",
-      "visual_appeal": "Clinical Pop",
-      "value_prop": "Predictable ROI",
-      "positioning": "SaaS Growth Agency"
+      "brand_voice": "Authoritative Auteur",
+      "visual_appeal": "Luxury Minimalist",
+      "value_prop": "Award-Winning Craft",
+      "positioning": "Elite Creatives"
     },
     "marker_1": {
       "marker_name": "Purpose",
       "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "Derm-Validated (White coat authority)",
+      "slider_a_value": "3/5",
+      "slider_a_position_name": "Hybrid Science (Nature refined by lab)",
       "slider_b_label": "[SLIDER] MISSION VECTOR (The Goal)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "Restoration (Repairing damage)",
-      "territory_number": 1,
-      "territory_name": "The Healer",
-      "reasoning": "Pass 1 hypothesis: The Healer. The brand explicitly frames its work as solving a 'problem' and a 'headache' for clients. Pass 2: Slider A scores 2/5 Derm-Validated; authority comes from professional expertise and process ('advanced tools', 'AI-ready'), not raw nature. Slider B scores 2/5 Restoration; the mission is to fix inefficient marketing and 'eliminate errors,' restoring a business's growth trajectory. Grid: Low(2) x Low(2) maps directly to Territory 1. Pass 3: Aligned. The brand's purpose is to cure the common ailments of digital marketing for tech companies.",
-      "evidence": "\"A new approach to an old problem.\" ... \"Web development and digital marketing are expensive, time-consuming, and have unpredictable results.\" ... \"lifts the burden of testing multiple ways to acquire users online.\"",
+      "slider_b_value": "5/5",
+      "slider_b_position_name": "Transformation (Joy, vibe, psychology)",
+      "territory_number": 4,
+      "territory_name": "The Empowerer",
+      "reasoning": "Pass 1 hypothesis: The Empowerer. The brand's purpose is to elevate client work through high art, transforming their perception. Pass 2: Slider A is 3/5 Hybrid, as the brand fuses raw artistic talent ('art of filmmaking') with 'technical innovation'. Slider B is 5/5 Transformation, focusing on creating 'cinematic value' and elevating style, which is a psychological shift for the client's brand. The grid's mid-score fallback, guided by the strong 'Transformation' vector, points to The Empowerer. Pass 3: Aligned. The brand exists to empower clients with transformative, high-status creative work.",
+      "evidence": "\"FUSING EXPERTISE IN THE ART OF FILMMAKING WITH A GRASP OF STYLE.\" ... \"CLASH MUSIC VIDEOS AND COMMERCIALS WITH ████████ STORYTELLING, CINEMATIC VALUE, AND █████ TECHNICAL INNOVATION.\"",
       "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The holistic hypothesis and grid result both converge on The Healer. The brand's entire narrative is built around solving a painful, pre-existing business problem."
+        "coherence_reasoning": "The holistic hypothesis and the grid result both converge on The Empowerer. The brand's purpose is to provide transformative artistic value, a perfect match for this territory."
       }
     },
     "marker_2": {
       "marker_name": "Mission & Vision",
       "slider_a_label": "[SLIDER] SCOPE OF IMPACT (The Blast Radius)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "Optimization (General appearance/glow)",
+      "slider_a_value": "4/5",
+      "slider_a_position_name": "Industry Reform (Changing beauty standards)",
       "slider_b_label": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
-      "slider_b_value": "4/5",
-      "slider_b_position_name": "Approachable (Easy to find, easy to buy)",
-      "territory_number": 1,
-      "territory_name": "The Democratizers",
-      "reasoning": "Pass 1 hypothesis: The Scientific Vanguard, due to the niche focus on SaaS and tech. Pass 2: Slider A is 2/5 Optimization, as the mission is focused on improving individual client bottom lines, not reforming the industry. Slider B scores 4/5 Approachable; despite the niche, the language emphasizes being 'cost-conscious,' 'flexible,' and 'easily approachable,' removing barriers rather than creating them. Grid: Low(2) x High(4) maps to Territory 1, The Democratizers. Pass 3: Diverged. The niche targeting suggested exclusivity, but the mission language of affordability and approachability better fits The Democratizers, who make high-level services accessible to their target group.",
-      "evidence": "\"Our goal is to simplify all aspects of website development and digital marketing activities\" ... \"pricing is flexible and mindful of your budget\" ... \"proactive and easily approachable.\"",
-      "evidence_src": "ABOUT PAGE + HOME PAGE (body copy)",
+      "slider_b_value": "2/5",
+      "slider_b_position_name": "Aspirational (High status, expensive investment)",
+      "territory_number": 4,
+      "territory_name": "The High Priests",
+      "reasoning": "Pass 1 hypothesis: The High Priests. The brand operates at an elite, aspirational level with a clear, challenging manifesto. Pass 2: Slider A is 4/5 Industry Reform; their mission to 'CLASH' formats and 'FIGHT FOR...APPROACH' aims to set new standards in filmmaking. Slider B is 2/5 Aspirational; the extensive list of prestigious awards and high-profile clients makes them a selective, high-status partner. The grid maps High(4) x Low(2) directly to Territory 4. Pass 3: Aligned. The brand's mission is to execute an elite, uncompromising vision, accessible only to those who share their commitment to excellence.",
+      "evidence": "\"WE FIGHT FOR ████ APPROACH IN ANY █████ FORMAT.\" ... \"GOLD Lion in Entertainment\" ... \"BLACK PENCIL IN MUSIC VIDEO / DIRECTION\" ... \"GRAND PRIX IN MUSIC VIDEO\"",
+      "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
-        "coherence_status": "diverged",
-        "coherence_reasoning": "The initial hypothesis focused on the niche B2B target, suggesting exclusivity. However, the explicit mission language around simplification, cost-consciousness, and approachability strongly supports the grid result of The Democratizers, who make complex services accessible to their defined market."
+        "coherence_status": "aligned",
+        "coherence_reasoning": "The combination of an industry-shaping mission and aspirational access maps perfectly to The High Priests territory, aligning the holistic view with the grid result."
       }
     },
     "marker_3": {
@@ -126,34 +126,34 @@
       "slider_a_value": "4/5",
       "slider_a_position_name": "High-Performance (Actives take the lead)",
       "slider_b_label": "[SLIDER] INFORMATION DENSITY (The Transparency)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "Evidence-First (Charts, diagrams, studies)",
-      "territory_number": 2,
-      "territory_name": "Radical Transparency",
-      "reasoning": "Pass 1 hypothesis: Radical Transparency. The brand emphasizes being 'Predictable,' 'Straightforward,' and showing 'Our work in action' through testimonials. Pass 2: Slider A is 4/5 High-Performance, driven by claims like 'outstanding results' and 'improve your bottom line from day one.' Slider B is 2/5 Evidence-First; they use client testimonials and case study language ('doubled the number of organic impressions') as proof, not just mystique. Grid: High(4) x High(2) maps to Territory 2. Pass 3: Aligned. The brand values demonstrable results and clear, evidence-based communication.",
-      "evidence": "\"We prioritize the activities that can improve your bottom line from day one.\" ... \"We simplify ambiguous processes, abbreviations, and numbers for your team\" ... \"Read the feedback from our incredible clients.\"",
-      "evidence_src": "HOME PAGE (body copy) + ABOUT PAGE",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "Story-First (Focus on legend or vibe)",
+      "territory_number": 4,
+      "territory_name": "Clinical Efficacy",
+      "reasoning": "Pass 1 hypothesis: Clinical Efficacy (reinterpreted as Creative Efficacy). The brand values results above all, proven by awards, while keeping their creative process a 'black box'. Pass 2: Slider A is 4/5 High-Performance, evidenced by the dozens of awards for craft and execution. Slider B is 4/5 Story-First; the brand presents its manifesto and the final work, not a technical breakdown of its process. The grid maps High(4) x Low(4) to Territory 4. Pass 3: Aligned. The brand's values center on delivering potent, award-winning results while maintaining the mystique of their creative craft.",
+      "evidence": "\"FUSING EXPERTISE IN THE ART OF FILMMAKING\" ... \"TECHNICAL INNOVATION\" ... \"GOLD Lion in Craft/ Direction\" ... \"VIDEO OF THE YEAR\"",
+      "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's stated values of being 'Predictable' and 'Straightforward,' combined with a focus on results and client proof, align perfectly with the Radical Transparency territory."
+        "coherence_reasoning": "The brand's focus on award-winning results (High-Performance) combined with a mystique-driven communication style (Story-First) aligns perfectly with the Clinical Efficacy territory."
       }
     },
     "marker_4": {
       "marker_name": "Positioning",
       "slider_a_label": "[SLIDER] AESTHETIC VIBE (The Uniform)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "Professional (Clean and serious)",
+      "slider_a_value": "5/5",
+      "slider_a_position_name": "High Fashion (Artistic, abstract)",
       "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Status Signal)",
-      "slider_b_value": "3/5",
-      "slider_b_position_name": "Elevated Everyday (Premium feel, accessible positioning)",
-      "territory_number": 1,
-      "territory_name": "The Medical Authority",
-      "reasoning": "Pass 1 hypothesis: The Scientific Miracle, given the tech focus and premium feel. Pass 2: Slider A is 2/5 Professional; the visual analysis points to a clean, serious, structured layout, not sterile but not lifestyle-oriented. Slider B is 3/5 Elevated Everyday; it's a considered B2B purchase, but framed as 'cost-conscious' and 'competitive,' not a pure status symbol. Grid: Low(2) x Mid(3) triggers the mid-score fallback. The aesthetic is cool and clinical, pushing it towards T1/T2. The value is pragmatic, not prestige, which aligns it with T1. Pass 3: Diverged. The final territory is The Medical Authority, positioning them as the 'doctor' for a business's website health, which is a better fit than the prestige-focused Scientific Miracle.",
-      "evidence": "\"Fast-growing tech companies trust us\" ... \"SaaS teams operating in cloud management, programming, cybersecurity, and more.\" ... \"Excellent service at a competitive price\"",
-      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (testimonial)",
+      "slider_b_value": "5/5",
+      "slider_b_position_name": "Status Symbol (Exclusivity cues)",
+      "territory_number": 4,
+      "territory_name": "The Clean Essentialist",
+      "reasoning": "Pass 1 hypothesis: A high-art, luxury service. The visual analysis points to 'Luxury Minimal'. Pass 2: Slider A is 5/5 High Fashion; the aesthetic is artistic, abstract, and cinematic, far from sterile or conventional lifestyle. Slider B is 5/5 Status Symbol; the wall of Cannes Lions and other top-tier awards positions them as an exclusive, prestige choice. The grid maps High(5) x High(5) to Territory 4. Pass 3: Aligned. While the territory name 'Clean Essentialist' is from a different category, its definition ('Design-forward, minimalist, curated, cult-favorite') accurately describes Shelter's positioning.",
+      "evidence": "\"Luxury Minimal visual territory\" ... \"Full-bleed cinematic imagery\" ... \"GOLD Lion in Entertainment\" ... \"BLACK PENCIL IN MUSIC VIDEO / DIRECTION\"",
+      "evidence_src": "PRODUCT PAGE (visual territory) + ABOUT PAGE",
       "evaluation_check": {
-        "coherence_status": "diverged",
-        "coherence_reasoning": "The initial hypothesis of Scientific Miracle was based on the tech-client focus. However, the brand's emphasis on pragmatic value ('competitive price') and its clinical aesthetic aligns better with The Medical Authority, which acts as a trusted, expert problem-solver rather than a luxury status symbol."
+        "coherence_status": "aligned",
+        "coherence_reasoning": "The combination of a high-fashion aesthetic and status-symbol value perception maps to The Clean Essentialist territory, whose 'curated, design-forward' attributes fit the brand's positioning."
       }
     },
     "marker_5": {
@@ -162,43 +162,43 @@
       "slider_a_value": "2/5",
       "slider_a_position_name": "Distant (Professional, polite, but emotionally flat)",
       "slider_b_label": "[SLIDER] COMPETENCE / AUTHORITY (The Power Dynamic)",
-      "slider_b_value": "4/5",
-      "slider_b_position_name": "The Specialist (Highly educated)",
+      "slider_b_value": "5/5",
+      "slider_b_position_name": "The Deity (Unquestionable authority)",
       "territory_number": 3,
       "territory_name": "The Reliable Expert",
-      "reasoning": "Pass 1 hypothesis: The Reliable Expert. The entire website communicates competence, expertise, and a serious, results-oriented approach. Pass 2: Slider A scores 2/5 Distant; while they claim to be 'approachable,' the written language is formal, professional, and emotionally flat. Slider B scores 4/5 The Specialist; they explicitly target a highly technical niche (SaaS, cybersecurity) and discuss specialized services. Grid: Low(2) x High(4) maps directly to Territory 3. Pass 3: Aligned. The brand's personality is defined by its deep expertise, not its warmth.",
-      "evidence": "\"Entlify is a digital marketing and web development agency that works with SaaS teams operating in cloud management, programming, cybersecurity, and more.\" ... \"proactive, knowledgeable, and diligent.\"",
-      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (testimonial)",
+      "reasoning": "Pass 1 hypothesis: The Reliable Expert. The brand's personality is defined by its supreme competence and professional distance. Pass 2: Slider A is 2/5 Distant; the visual analysis confirms a 'cold' and 'cool' temperature, and the tone is assertive, not warm. Slider B is 5/5 The Deity; the sheer volume of prestigious awards creates an aura of unquestionable authority in their field. The grid maps Low(2) x High(5) to Territory 3. Pass 3: Aligned. The brand personality is that of a master craftsman: restrained, precise, and defined by their expertise.",
+      "evidence": "\"visual_territory: Luxury Minimal\" ... \"container_analysis temperature: cold\" ... \"GRAND PRIX IN MUSIC VIDEO\" ... \"BLACK PENCIL IN MUSIC VIDEO / DIRECTION\"",
+      "evidence_src": "PRODUCT PAGE (visual territory) + ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "Both the holistic read and the slider scores converge on The Reliable Expert. The brand's power comes from what it knows, not how it makes you feel."
+        "coherence_reasoning": "The personality is a clear combination of emotional distance and supreme authority, which maps directly to The Reliable Expert territory."
       }
     },
     "marker_6": {
       "marker_name": "Archetypes Mix",
       "primary": {
-        "archetype": "The Sage",
-        "group": "B (Independence)",
-        "percentage": "70%"
-      },
-      "secondary": {
         "archetype": "The Ruler",
         "group": "A (Stability)",
-        "percentage": "20%"
+        "percentage": "60%"
+      },
+      "secondary": {
+        "archetype": "The Sage",
+        "group": "B (Independence)",
+        "percentage": "25%"
       },
       "tertiary": {
-        "archetype": "The Caregiver",
+        "archetype": "The Creator",
         "group": "A (Stability)",
-        "percentage": "10%"
+        "percentage": "15%"
       },
-      "territory_number": 3,
-      "territory_name": "The Philosopher",
-      "reasoning": "The primary archetype is The Sage (70%), evident in the focus on knowledge, data, and simplifying complexity ('simplify ambiguous processes,' 'data-informed decisions,' 'AI-ready'). The secondary is The Ruler (20%), as the goal of this wisdom is to help clients dominate ('Rank higher,' 'Outperform the competition'). The tertiary is The Caregiver (10%), reflecting the supportive client relationship ('extension of your team,' 'lifts the burden'). Cross-validation: ToV (T1 Clinical Authority) expects Sage/Ruler; VI (T1 Pharma-Code) expects Sage/Ruler/Caregiver. The Sage primary is coherent. Territory: The Sage is native to T3, making The Philosopher the dominant territory.",
-      "evidence": "\"Leverage analytics to make data-informed decisions\" (Sage) ... \"Outperform the competition by identifying gaps and ranking opportunities.\" (Ruler) ... \"We operate as an extension of your team, proactive and easily approachable.\" (Caregiver)",
-      "evidence_src": "HOME PAGE (body copy)",
+      "territory_number": 4,
+      "territory_name": "The Guardian",
+      "reasoning": "The Ruler (60%) is primary, established by the brand's commanding authority, elite status, and the long list of top-tier awards that place it in a leadership position. The Sage (25%) is secondary, reflecting the deep 'EXPERTISE IN THE ART OF FILMMAKING' and 'TECHNICAL INNOVATION'. The Creator (15%) is tertiary, present in the mission to 'FUSE' and 'CLASH' formats to create new cinematic value. Cross-validation against ToV (Clinical Authority) and VI (Pharma-Code) confirms a Ruler or Sage primary is coherent. The weighted territory calculation places the brand in Territory 4, The Guardian, as both Ruler and Creator are native to it. While the brand's output feels more like a Performer, its operational modality is one of absolute control and order, aligning with the Guardian's core.",
+      "evidence": "\"GOLD Lion in Craft/ Direction\" (Ruler) ... \"EXPERTISE IN THE ART OF FILMMAKING\" (Sage) ... \"FUSING...WITH A GRASP OF STYLE\" (Creator)",
+      "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The primary archetype, The Sage, is strongly supported by the ToV (T1 Clinical Authority) and VI (T1 Pharma-Code) territories, which both point to an expert-led brand. The archetype mix is coherent with the observed tone and visuals."
+        "coherence_reasoning": "The archetype mix is strongly supported by the evidence and passes the cross-validation gate with Marker 7 (ToV) and Marker 8 (VI). The resulting territory is derived directly from the weighted archetype calculation per the methodology."
       }
     },
     "marker_7": {
@@ -207,8 +207,8 @@
       "slider_a_value": "2/5",
       "slider_a_position_name": "Serious (No jokes, strictly business)",
       "slider_b_label": "[SLIDER] FORMALITY (The Dress Code)",
-      "slider_b_value": "3/5",
-      "slider_b_position_name": "Professional (Clean, standard, neutral business tone)",
+      "slider_b_value": "2/5",
+      "slider_b_position_name": "Traditional (Corporate, proper grammar)",
       "slider_c_label": "[SLIDER] RESPECT (The Power Dynamic)",
       "slider_c_value": "3/5",
       "slider_c_position_name": "Neutral (Direct, matter-of-fact)",
@@ -217,60 +217,60 @@
       "slider_d_position_name": "Dry (Just the facts, concise)",
       "territory_number": 1,
       "territory_name": "The Clinical Authority",
-      "reasoning": "Pass 1 hypothesis: The Clinical Authority. The language is direct, professional, and focused on outcomes. Pass 2: Humor is 2/5 (Serious), Formality is 3/5 (Professional), Respect is 3/5 (Neutral), and Enthusiasm is 2/5 (Dry). Applying the hard rules, Rule 1 for Clinical Authority is met: Humor <= 2, Enthusiasm <= 2, and Formality >= 2. This is a direct match. Pass 3: Aligned. The tone is that of a competent, serious expert.",
-      "evidence": "\"Rank higher, convert better.\" ... \"We prioritize the activities that can improve your bottom line from day one.\" ... \"Reduce customer acquisition costs by maximizing the value of your current website traffic.\"",
-      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: The Clinical Authority. The tone is serious, confident, and focused on expertise. Pass 2: Sliders are scored as Serious (2/5), Traditional (2/5), Neutral (3/5), and Dry (2/5) based on the declarative and professional manifesto. Applying the hard rules, the first rule for Clinical Authority matches (Humor <= 2, Enthusiasm <= 2, Formality >= 2). Pass 3: Aligned. The tone is that of an undisputed master of a technical craft, which is perfectly captured by The Clinical Authority.",
+      "evidence": "\"INTERNATIONAL SERVICE ██████ PRODUCTION COMPANY. FUSING EXPERTISE IN THE ART OF FILMMAKING WITH A GRASP OF STYLE. WE FIGHT FOR ████ APPROACH...\"",
+      "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The slider scores for low humor and low enthusiasm, combined with professional formality, trigger the first hard rule, assigning the brand to The Clinical Authority territory, which matches the holistic assessment."
+        "coherence_reasoning": "The slider scores meet the specific criteria for Territory 1 in the hard rule set. The resulting territory aligns perfectly with the brand's serious, expert-driven voice."
       }
     },
     "marker_8": {
       "marker_name": "Visual Identity",
       "slider_a_label": "[SLIDER] THE THERMOSTAT (Visual Temperature)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "Cool (Clean, distant, professional)",
+      "slider_a_value": "1/5",
+      "slider_a_position_name": "Sterile (Hospital white, cool blue)",
       "slider_b_label": "[SLIDER] THE ENTROPY SCALE (Layout Control)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "Structured (Orderly, predictable hierarchy)",
+      "slider_b_value": "1/5",
+      "slider_b_position_name": "Swiss Grid (Rigid structure, negative space)",
       "territory_number": 1,
       "territory_name": "Pharma-Code",
-      "reasoning": "Pass 1 hypothesis: Pharma-Code. The visual analysis highlights a structured, professional, dark/grey UI that feels clinical and precise. Pass 2: Slider A scores 2/5 Cool, based on the visual analysis of the container layer ('cool temperature,' 'dark-mode UI,' 'light-grey background'). Slider B scores 2/5 Structured, reflecting the 'stacked-vertical' layout and 'Bento-box style feature grids.' Grid: Low(2) x Low(2) maps directly to Territory 1. Pass 3: Aligned. The brand's visual system uses the codes of clinical precision and order.",
-      "evidence": "\"container_analysis: temperature: cool\" ... \"layout_type: stacked-vertical\" ... \"dominant_colors: [\\\"#000000\\\", \\\"#FFFFFF\\\", \\\"#F0F0F0\\\"]\" ... \"highly structured vertical layout with a clear typographic hierarchy\"",
-      "evidence_src": "PRODUCT PAGE (visual territory)",
-      "look_and_feel": "A high-end, specialized agency aesthetic signaling modernity, performance, and technical mastery through a polished, dark-themed design system.",
-      "distinctive_asset_1": "Vibrant orange solar gradients",
-      "distinctive_asset_2": "Circular performance gauges",
-      "distinctive_asset_3": "Greyscale client logo strip",
-      "distinctive_asset_4": "Connector-line workflow diagrams",
-      "distinctive_asset_5": "Bento-box style feature grids",
-      "palette_color_1": "#FF5C00",
-      "palette_color_2": "#00C853",
-      "palette_color_3": "#1E88E5",
+      "reasoning": "Pass 1 hypothesis: Pharma-Code or a similar minimalist, high-control territory. The visual analysis describes a 'stark, minimalist UI' and 'cold' temperature. Pass 2: Slider A is 1/5 Sterile, based on the explicit 'cold' container and 'cool' content analysis, with a black, white, and deep teal palette. Slider B is 1/5 Swiss Grid, reflecting the 'rigid structure,' 'utilitarian and architectural' layout. The grid maps Low(1) x Low(1) directly to Territory 1. Pass 3: Aligned. The visual identity uses the codes of sterility and control to signal precision, mastery, and artistic rigor.",
+      "evidence": "\"container_analysis temperature: cold\" ... \"content_analysis temperature: cool\" ... \"stark, minimalist UI shell\" ... \"layout_type: full-bleed\"",
+      "evidence_src": "PRODUCT PAGE (visual territory) + PRODUCT PAGE (visual content)",
+      "look_and_feel": "A luxury minimalist aesthetic using a stark black-and-white container to frame moody, atmospheric, and cinematic content, signaling sophisticated artistic control.",
+      "distinctive_asset_1": "Stylized SHELTER logo with unique 'T' character",
+      "distinctive_asset_2": "Full-bleed cinematic imagery",
+      "distinctive_asset_3": "Minimalist black letterbox UI layout",
+      "distinctive_asset_4": "Teal-toned color grading",
+      "distinctive_asset_5": "High-contrast sans-serif typography",
+      "palette_color_1": "#0B1C22",
+      "palette_color_2": "#4D5E5F",
+      "palette_color_3": "#1B2D33",
       "palette_color_4": "#000000",
       "palette_color_5": "#FFFFFF",
-      "primary_palette": "A high-contrast palette where orange drives action and conversion, green signals positive growth metrics, and blue denotes technical reliability, all set against a professional black/grey foundation.",
+      "primary_palette": "A moody, cinematic palette of deep teals and dark blues, contrasted with stark black and white, to communicate sophistication, artistic depth, and high-production value.",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The visual analysis report's description of a cool, structured container layer provides direct evidence for the slider scores, which in turn map cleanly to the Pharma-Code territory."
+        "coherence_reasoning": "The visual analysis provides direct evidence for cold temperature and minimalist control, mapping cleanly to the Pharma-Code territory. The holistic assessment and grid result are in perfect agreement."
       }
     },
     "marker_9": {
       "marker_name": "Messaging",
       "slider_a_label": "[SLIDER] THE HOOK TARGET (The Subject)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "The Result (Effect subject)",
+      "slider_a_value": "5/5",
+      "slider_a_position_name": "The Dream (Identity subject)",
       "slider_b_label": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "Rational (Logical cause-and-effect)",
-      "territory_number": 2,
-      "territory_name": "The Problem Solver",
-      "reasoning": "Pass 1 hypothesis: The Problem Solver. The messaging is relentlessly focused on outcomes and fixing business issues. Pass 2: Slider A is 4/5 The Result; headlines like 'Rank higher, convert better' and 'Find the shortest path to revenue' are pure end-benefit hooks. Slider B is 2/5 Rational; the persuasion is based on logical arguments like 'Increase conversions by aligning content with... search intent.' Grid: High(4) x Low(2) maps to Territory 2. Pass 3: Aligned. The brand sells a rational solution to a tangible business problem.",
-      "evidence": "\"Rank higher, convert better.\" ... \"Turn your search positions into revenue by prioritizing product-relevant keywords.\" ... \"Reduce customer acquisition costs by maximizing the value of your current website traffic.\"",
-      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
+      "slider_b_value": "5/5",
+      "slider_b_position_name": "Pure Vibes (Abstract, poetic, mood-driven)",
+      "territory_number": 3,
+      "territory_name": "The Promise Maker",
+      "reasoning": "Pass 1 hypothesis: The Promise Maker. The brand's messaging is its portfolio; it sells the dream of what a client's brand could look like. Pass 2: The hook (Slider A) is 5/5 The Dream, as the messaging is entirely about the aspirational, identity-shifting quality of their work. The persuasion (Slider B) is 5/5 Pure Vibes; the logic is communicated through the atmospheric, cinematic quality of the visuals, not through rational arguments or data points in copy. The grid maps High(5) x High(5) to Territory 3. Pass 3: Aligned. The brand ignores the 'how' and focuses entirely on the 'wow' of the final product.",
+      "evidence": "\"UFC\" ... \"IKEA – SO QUIET\" ... \"Full-bleed cinematic visual with a moody, dark atmosphere\"",
+      "evidence_src": "HOME PAGE + PRODUCT PAGE + PRODUCT PAGE (visual content)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The messaging consistently leads with the end result (Slider A) and uses logical, cause-and-effect arguments (Slider B), making The Problem Solver a perfect fit."
+        "coherence_reasoning": "The brand's communication is almost entirely non-verbal, relying on the aspirational quality (The Dream) and atmospheric feel (Pure Vibes) of its portfolio, which is a perfect match for The Promise Maker."
       }
     },
     "marker_10": {
@@ -283,12 +283,12 @@
       "slider_b_position_name": "Tech-Forward (Biotech labs, modern innovation)",
       "territory_number": 1,
       "territory_name": "The Lab Breakthrough",
-      "reasoning": "Pass 1 hypothesis: The Lab Breakthrough. The story is about a new, better process and technology, not a person. Pass 2: Slider A is 1/5 The Nobel; the protagonist is the faceless, institutional 'team' or 'agency,' not a founder. Slider B is 2/5 Tech-Forward; the setting is defined by 'advanced tools,' 'AI algorithms,' and modern digital processes. Grid: Low(1) x Low(2) maps to Territory 1. Pass 3: Aligned. The narrative is one of institutional, technological innovation.",
-      "evidence": "\"Our goal is to simplify all aspects of website development and digital marketing activities for your team, making sure that you achieve the results you projected with the most advanced tools available.\" ... \"We ensure your website is optimized to meet the demands of new technologies\"",
+      "reasoning": "Pass 1 hypothesis: The Lab Breakthrough. The narrative is one of institutional and technical mastery, not a personal founder's journey. Pass 2: The protagonist (Slider A) is 1/5 The Nobel; the brand is a faceless 'INTERNATIONAL...PRODUCTION COMPANY' whose authority is institutional. The setting (Slider B) is 2/5 Tech-Forward, based on their stated focus on 'TECHNICAL INNOVATION'. The grid maps Low(1) x Low(2) to Territory 1. Pass 3: Aligned. The brand's story is one of institutional expertise and technical prowess leading to creative breakthroughs.",
+      "evidence": "\"INTERNATIONAL SERVICE ██████ PRODUCTION COMPANY.\" ... \"TECHNICAL INNOVATION.\" ... \"8 YEARS OF EXPERIENCE\"",
       "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "With no founder story, the narrative defaults to the institutional 'we' (the agency) using advanced technology to solve problems, which is the core of The Lab Breakthrough territory."
+        "coherence_reasoning": "The narrative of a faceless, authoritative institution leveraging technical innovation maps perfectly to The Lab Breakthrough territory."
       }
     },
     "marker_11": {
@@ -297,52 +297,52 @@
       "slider_a_value": "2/5",
       "slider_a_position_name": "The Lab (Scientists, Estheticians)",
       "slider_b_label": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
-      "slider_b_value": "3/5",
-      "slider_b_position_name": "The Visual (Before & After photos)",
+      "slider_b_value": "2/5",
+      "slider_b_position_name": "The Stat (95% saw reduction in acne)",
       "territory_number": 1,
       "territory_name": "Derm-Validation",
-      "reasoning": "Pass 1 hypothesis: Derm-Validation. The brand relies heavily on testimonials from credible industry leaders (CMOs) as proof. Pass 2: Slider A is 2/5 The Lab, where 'Lab' represents professional experts like a 'Vice President of Marketing' or 'CMO.' Slider B is 3/5 The Visual; the proof is in the results described in testimonials, like 'doubled the number of organic impressions,' which functions as a before-and-after. Grid: Low(2) x Mid(3) maps to Territory 1. Pass 3: Aligned. The KSPs are validated by expert testimony, the business equivalent of a dermatologist's recommendation.",
-      "evidence": "\"Read the feedback from our incredible clients.\" ... \"'Entlify WAY exceeded our expectations...' Julie O’Brien, CMO\" ... \"'doubled the number of organic impressions.'\"",
-      "evidence_src": "HOME PAGE (testimonial)",
+      "reasoning": "Pass 1 hypothesis: Derm-Validation, re-contextualized as 'Industry-Validation'. The proof is elite, expert-panel validation. Pass 2: The validator (Slider A) is 2/5 The Lab, representing the highest level of professional validation from industry expert panels (Cannes juries, etc.). The proof type (Slider B) is 2/5 The Stat; the long list of awards functions as a statistical demonstration of excellence. The grid maps Low(2) x Low-Mid(2) to Territory 1. Pass 3: Aligned. The brand's key selling point is its validation by the highest authorities in its industry.",
+      "evidence": "\"GOLD Lion in Entertainment in Music\" ... \"BLACK PENCIL IN MUSIC VIDEO / DIRECTION\" ... \"GRAND PRIX IN TV / CINEMA RETAIL\" ... \"WINNER IN SHORT FILMS COMPETITION AWARD\"",
+      "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The use of testimonials from high-ranking professionals (CMOs) as the primary validator is a direct match for the expert-led proof of the Derm-Validation territory."
+        "coherence_reasoning": "The brand uses validation from elite industry bodies (The Lab) in the form of awards (The Stat) as its primary proof, which is a direct functional match for the Derm-Validation territory."
       }
     },
     "marker_12": {
       "marker_name": "USP",
       "slider_a_label": "[SLIDER] THE OWNERSHIP CLAIM (What Makes You Unique)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "The Delivery Innovation (How it works, not what's in it)",
+      "slider_a_value": "5/5",
+      "slider_a_position_name": "The Proprietary System (Patented engineering platform)",
       "slider_b_label": "[SLIDER] THE TARGET SCOPE (Market Breadth)",
       "slider_b_value": "5/5",
       "slider_b_position_name": "The Specialist (Hyper-niche condition)",
       "territory_number": 4,
       "territory_name": "The Specialist",
-      "reasoning": "Pass 1 hypothesis: The Specialist. The brand repeatedly and explicitly states its narrow focus on SaaS and tech companies. Pass 2: Slider A is 4/5 Delivery Innovation; their uniqueness lies in their process and service model ('A new approach to an old problem,' 'seamless onboarding'). Slider B is 5/5 The Specialist, due to the clear targeting of 'SaaS teams operating in cloud management, programming, cybersecurity, and more.' Grid: Any(4) x High(5) maps directly to Territory 4. Pass 3: Aligned. The brand's primary differentiator is its niche focus.",
-      "evidence": "\"Entlify is a digital marketing and web development agency that works with SaaS teams operating in cloud management, programming, cybersecurity, and more.\" ... \"Your product is our North Star.\"",
-      "evidence_src": "HOME PAGE (body copy) + ABOUT PAGE",
+      "reasoning": "Pass 1 hypothesis: The Specialist. Their unique selling proposition is being the absolute best in a hyper-niche field: award-winning cinematic production. Pass 2: The ownership claim (Slider A) is 5/5 The Proprietary System; their unique 'APPROACH' that fuses art, style, and technology is their protected IP. The target scope (Slider B) is 5/5 The Specialist; they serve a very specific, high-end niche of the market. The grid maps Any x Niche(5) to Territory 4. Pass 3: Aligned. The brand's USP is its mastery within a hyper-specialized domain.",
+      "evidence": "\"FUSING EXPERTISE IN THE ART OF FILMMAKING WITH A GRASP OF STYLE.\" ... \"WE FIGHT FOR ████ APPROACH IN ANY █████ FORMAT.\" ... \"Client: IKEA\"",
+      "evidence_src": "ABOUT PAGE + PRODUCT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The explicit and repeated definition of their target audience as SaaS and tech companies makes The Specialist the only possible territory."
+        "coherence_reasoning": "The combination of a unique, proprietary creative system and a hyper-niche target market makes The Specialist a perfect fit."
       }
     },
     "marker_13": {
       "marker_name": "Focus",
       "slider_a_label": "[SLIDER] THE DEPTH GAUGE (Content Purpose)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "The Explainer (Infographics, How it Works)",
+      "slider_a_value": "5/5",
+      "slider_a_position_name": "The Gallery (Artistic, abstract, mood-first)",
       "slider_b_label": "[SLIDER] THE INTENT VECTOR (Content Goal)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "The Evidence (Before & Afters, user stats)",
-      "territory_number": 1,
-      "territory_name": "Science Education",
-      "reasoning": "Pass 1 hypothesis: Science Education. The site's content is designed to explain their value and prove their competence. Pass 2: Slider A is 2/5 The Explainer; the content breaks down their services (SEO, CRO) and uses data visualizations. Slider B is 2/5 The Evidence; the primary goal is to build trust through client testimonials and case studies ('Our work in action'). Grid: Low(2) x Low(2) maps to Territory 1. Pass 3: Aligned. The focus is on educating the potential client on why Entlify is the competent, trustworthy choice.",
-      "evidence": "\"Ensure your SEO works beyond algorithms.\" ... \"Leverage analytics to make data-informed decisions\" ... \"Our work in action. Read the feedback from our incredible clients.\"",
-      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (headline)",
+      "slider_b_value": "1/5",
+      "slider_b_position_name": "The Thesis (Clinical studies, dermatologist quotes)",
+      "territory_number": 2,
+      "territory_name": "Social Proof",
+      "reasoning": "Pass 1 hypothesis: A pure portfolio showcase, focused on demonstrating artistic mastery. This doesn't fit any territory well. Pass 2: The depth (Slider A) is 5/5 The Gallery; the site is a visual portfolio. The intent (Slider B) is 1/5 The Thesis; the goal is to establish credibility through the work and the awards list (which functions like a clinical study). The grid maps High(5) x Low(1) to Territory 2, Social Proof. Pass 3: Diverged. The grid misinterprets 'visual proof from an elite authority' as 'social proof'. The brand's focus is on institutional proof and artistic demonstration, not community validation. However, per methodology, the grid result is used.",
+      "evidence": "\"visual_analysis_interpreted communication_focus: Cinematic production quality and artistic portfolio showcase.\" ... \"AWARDS... GOLD Lion... SILVER Lion... GRAND PRIX\"",
+      "evidence_src": "PRODUCT PAGE (visual territory) + ABOUT PAGE",
       "evaluation_check": {
-        "coherence_status": "aligned",
-        "coherence_reasoning": "The content focus on explaining their process (Slider A) and providing proof via testimonials (Slider B) aligns perfectly with the Science Education territory."
+        "coherence_status": "diverged",
+        "coherence_reasoning": "The holistic focus is on demonstrating elite, institutional proof of craft. The grid maps 'visual-first proof' to 'Social Proof', which is a poor fit. The brand's proof is from elite juries, the opposite of a social crowd."
       }
     },
     "marker_14": {
@@ -351,292 +351,292 @@
       "slider_a_value": "5/5",
       "slider_a_position_name": "The Fixer (Reverses damage, cracks, acne)",
       "slider_b_label": "[SLIDER] THE OUTCOME TARGET (The Goal)",
-      "slider_b_value": "4/5",
-      "slider_b_position_name": "Aesthetic (Brightening, smoothing texture)",
+      "slider_b_value": "5/5",
+      "slider_b_position_name": "Vanity (Glass skin, poreless, filter-like)",
       "territory_number": 4,
       "territory_name": "Correction",
-      "reasoning": "Pass 1 hypothesis: Correction. The service is designed to fix underperforming business metrics. Pass 2: Slider A is 5/5 The Fixer; the service aims to 'eliminate errors,' 'identify gaps,' and solve the problem of unpredictable results. Slider B is 4/5 Aesthetic; the outcomes are about appearance-level business metrics like 'Rank higher' and 'convert better,' which are visible improvements. Grid: High(5) x High(4) maps to Territory 4. Pass 3: Aligned. The core function is to correct a company's digital performance.",
-      "evidence": "\"Rank higher, convert better.\" ... \"eliminating any obstacles visitors may encounter.\" ... \"Grow conversions by eliminating errors and making the website easily accessible\"",
-      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: Correction. The function of the service is to provide visual perfection for a client's brand. Pass 2: The action (Slider A) is analogous to 5/5 The Fixer, as they transform a brand's image. The outcome (Slider B) is 5/5 Vanity, as the goal is a perfect, high-status aesthetic. The grid maps High(5) x High(5) to Territory 4. Pass 3: Aligned. The functional benefit of hiring Shelter is achieving a state of visual perfection and creative correction for a brand.",
+      "evidence": "\"FUSING EXPERTISE IN THE ART OF FILMMAKING WITH A GRASP OF STYLE.\" ... \"CINEMATIC VALUE\"",
+      "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The functional benefit is clearly about fixing (Slider A) visible business metrics (Slider B), making Correction the correct territory."
+        "coherence_reasoning": "The service's function is to transform a brand's image to a state of aesthetic perfection, which is a direct analogue for the Correction territory."
       }
     },
     "marker_15": {
       "marker_name": "Emotional Benefits",
       "slider_a_label": "[SLIDER] THE ANXIETY AXIS (The Emotional Direction)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "Reassurance (Don't worry, this works)",
+      "slider_a_value": "5/5",
+      "slider_a_position_name": "Euphoria (Obsession, luxury, I love this)",
       "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS (The Audience)",
-      "slider_b_value": "4/5",
-      "slider_b_position_name": "Savvy (I feel smart/validated for choosing this)",
+      "slider_b_value": "5/5",
+      "slider_b_position_name": "Superiority (I feel better than others)",
       "territory_number": 2,
       "territory_name": "Confidence",
-      "reasoning": "Pass 1 hypothesis: Confidence. The service sells peace of mind to marketing leaders. Pass 2: Slider A is 2/5 Reassurance; it addresses the 'headache' of marketing and 'lifts the burden,' calming anxiety about unpredictable results. Slider B is 4/5 Savvy; the client feels smart for making a 'data-informed decision' and eliminating 'guesswork.' Grid: Low(2) x High(4) maps to Territory 2. Pass 3: Aligned. The emotional benefit is the confidence that comes from making a smart, reassured decision.",
-      "evidence": "\"managing website migration or selecting a digital marking strategy for your product can be a headache\" ... \"eliminate guesswork, and optimize your website for exceptional performance.\" ... \"It's mostly hands off. The Entlify team makes it easy for me\"",
-      "evidence_src": "ABOUT PAGE + HOME PAGE (body copy) + HOME PAGE (testimonial)",
+      "reasoning": "Pass 1 hypothesis: Confidence or Superiority. The emotional payoff for the client is the prestige and validation of working with the best. Pass 2: The emotional direction (Slider A) is 5/5 Euphoria; the goal is to create something exceptional that generates excitement and pride. The self-perception (Slider B) is 5/5 Superiority; choosing Shelter is a status play that elevates the client above competitors. The grid maps High(5) x High(5) to Territory 2, Confidence. Pass 3: Aligned. The ultimate emotional benefit is the confidence that comes from creative and social superiority.",
+      "evidence": "\"GOLD Lion in Craft/ Direction\" ... \"VIDEO OF THE YEAR\" ... \"GRAND PRIX IN MUSIC VIDEO\"",
+      "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The service calms the anxiety of unpredictable marketing (Reassurance) and makes the client feel intelligent for their choice (Savvy), which combine to create Confidence."
+        "coherence_reasoning": "The emotional benefit of achieving creative excellence (Euphoria) and signaling market leadership (Superiority) is best captured by the Confidence territory."
       }
     },
     "marker_16": {
       "marker_name": "Self-Expression",
       "slider_a_label": "[SLIDER] THE SIGNAL DRIVER (Purchase Motivation)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "The Smart Choice (because it makes sense)",
+      "slider_a_value": "5/5",
+      "slider_a_position_name": "The Avatar (define who I am)",
       "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION (Social Position)",
-      "slider_b_value": "3/5",
-      "slider_b_position_name": "The Curated (Known by enthusiasts)",
-      "territory_number": 1,
-      "territory_name": "The Pragmatist",
-      "reasoning": "Pass 1 hypothesis: The Pragmatist. Choosing Entlify is a rational business decision based on their niche expertise and focus on ROI. Pass 2: Slider A is 2/5 The Smart Choice; the motivation is purely logical. Slider B is 3/5 The Curated; they are a known entity within the specific niche of SaaS marketing professionals. Grid: Low(2) x Mid(3) triggers the mid-score fallback, which resolves to Territory 1, The Pragmatist, as the logical motivation is the dominant signal. Pass 3: Aligned. The brand appeals to rational actors, not those seeking identity expression.",
-      "evidence": "\"We prioritize the activities that can improve your bottom line from day one.\" ... \"Make every dollar count.\" ... \"Excellent service at a competitive price\"",
-      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (testimonial)",
+      "slider_b_value": "5/5",
+      "slider_b_position_name": "The Exclusive (Gatekept by price or access)",
+      "territory_number": 4,
+      "territory_name": "The Status Seeker",
+      "reasoning": "Pass 1 hypothesis: The Status Seeker. A client hires Shelter to express their brand's (and their own) elite status and taste. Pass 2: The signal driver (Slider A) is 5/5 The Avatar; this choice defines the client as a patron of high art. The tribal orientation (Slider B) is 5/5 The Exclusive; Shelter is gatekept by prestige and access. The grid maps High(5) x High(5) directly to Territory 4. Pass 3: Aligned. The act of hiring Shelter is a pure expression of seeking and affirming status through taste and access.",
+      "evidence": "\"GRAND PRIX IN MUSIC VIDEO\" ... \"BLACK PENCIL IN MUSIC VIDEO / DIRECTION\" ... \"Client: IKEA\"",
+      "evidence_src": "ABOUT PAGE + PRODUCT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The overwhelming evidence points to a logical, ROI-based decision process (The Smart Choice) within a professional niche (The Curated), making The Pragmatist the clear territory."
+        "coherence_reasoning": "The motivation to hire Shelter is a clear identity signal of exclusivity and taste, which is a perfect match for The Status Seeker territory."
       }
     },
     "marker_17": {
       "marker_name": "Social Benefits",
       "slider_a_label": "[SLIDER] THE SOCIAL VECTOR (Social Goal)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "Acceptance (I want to be accepted by the group)",
+      "slider_a_value": "5/5",
+      "slider_a_position_name": "Separation (I want to be unlike the rest)",
       "slider_b_label": "[SLIDER] THE GROUP DYNAMIC (Tribal Scale)",
-      "slider_b_value": "3/5",
-      "slider_b_position_name": "The Niche (Specific interest group)",
-      "territory_number": 2,
-      "territory_name": "The Knowledge Club",
-      "reasoning": "Pass 1 hypothesis: The Knowledge Club. Choosing Entlify signals that you are a savvy SaaS marketer who knows the right specialist for the job. Pass 2: Slider A is 2/5 Acceptance; the goal is to join the group of other 'Fast-growing tech companies' that made the same smart choice. Slider B is 3/5 The Niche; the relevant social group is specifically SaaS and tech marketing professionals. Grid: Low(2) x Mid(3) triggers the mid-score fallback. The context of a specific professional niche making an informed choice strongly supports Territory 2. Pass 3: Aligned. The social currency is being 'in the know.'",
-      "evidence": "\"Fast-growing tech companies trust us with website development and traffic acquisition.\" ... \"Why teams rely on Entlify\" ... \"works with SaaS teams operating in cloud management, programming, cybersecurity, and more.\"",
-      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
+      "slider_b_value": "5/5",
+      "slider_b_position_name": "The Elite (Gatekeepers/VIPs)",
+      "territory_number": 4,
+      "territory_name": "The Insider Clique",
+      "reasoning": "Pass 1 hypothesis: The Insider Clique. The social benefit is entry into the exclusive club of award-winning creatives and brands. Pass 2: The social vector (Slider A) is 5/5 Separation; the goal is to differentiate and stand apart from competitors through superior craft. The group dynamic (Slider B) is 5/5 The Elite; the relevant social group is the small, gatekept world of top-tier industry awards. The grid maps High(5) x High(5) to Territory 4. Pass 3: Aligned. The brand provides a social benefit of access to an exclusive, elite community defined by taste and achievement.",
+      "evidence": "\"GOLD Lion in Entertainment\" ... \"GRAND PRIX IN TV / CINEMA RETAIL\" ... \"BLACK PENCIL IN MUSIC VIDEO / DIRECTION\"",
+      "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The social benefit comes from joining a specific, knowledgeable peer group (SaaS marketers), which is the definition of The Knowledge Club."
+        "coherence_reasoning": "The social goal of differentiation and the elite nature of the target group map perfectly to The Insider Clique territory."
       }
     },
     "_usage": {
-      "prompt_tokens": 14586,
-      "completion_tokens": 3174,
-      "total_tokens": 21113,
+      "prompt_tokens": 12051,
+      "completion_tokens": 3059,
+      "total_tokens": 19154,
       "prompt_tokens_details": {
-        "cached_tokens": 12209
+        "cached_tokens": 8128
       },
       "completion_tokens_details": {
-        "reasoning_tokens": 3353
+        "reasoning_tokens": 4044
       }
     },
     "_model": "gemini-2.5-pro",
     "_finish_reason": "STOP",
     "_parse_status": "ok",
     "hi": {
-      "score": 73,
-      "label": "READABLE",
-      "diagnosis": "CLEAR READ",
-      "profile": "The brand presents as a sophisticated, high-end B2B agency targeting tech and SaaS companies. The message is direct and benefit-driven ('Rank higher, convert better'), supported by strong, specific social proof from relevant industry leaders. The visual identity uses a dark-mode, tech-forward aesthetic to signal modernity and expertise, creating a perception of a competent, results-oriented partner.",
-      "blind_spot": "The brand's primary friction point is its complete opacity on pricing. While common in the agency world, forcing a visitor to 'Request a Call' for even a hint of the commitment level creates a significant hurdle. This signals that the service is expensive and potentially disrespects the visitor's time, contrasting with the 'straightforward' and 'time-oriented' values claimed on other pages.",
+      "score": 59,
+      "label": "HEDGED",
+      "diagnosis": "MIXED READ",
+      "profile": "The brand communicates exclusively through visuals, presenting a high-confidence, minimalist portfolio. It operates on a 'show, don't tell' principle, using a full-bleed cinematic hero to act as the entire message. This approach assumes the visitor is an industry insider who can judge quality instantly and requires no textual persuasion.",
+      "blind_spot": "The homepage completely omits the brand's most powerful trust assets: its extensive list of prestigious awards (Cannes Lions, D&AD Pencils) and blue-chip clients like IKEA. Adding a single, subtle text line like 'Award-winning film production' below the navigation would anchor the visual confidence in verifiable, world-class achievement without compromising the minimalist aesthetic.",
       "metrics": {
         "hi01_message_clarity": {
           "label": "MESSAGE CLARITY",
-          "score": 70,
-          "diagnosis": "UNDERSTANDABLE",
-          "so_what": "The page clearly communicates its core services and target audience within seconds. The headline is a direct benefit statement, and the sub-headline names the audience. While effective, the lead benefit is a category-generic promise rather than the brand's unique differentiator of being a proactive, integrated team.",
+          "score": 48,
+          "diagnosis": "OPAQUE",
+          "so_what": "The page is visually stunning but textually silent. A first-time visitor sees a project title ('UFC') but receives zero information about what the company is, who it's for, or why it's different. The entire burden of communication is placed on the visitor's ability to interpret the cinematic visuals.",
           "sub_metrics": {
             "headline_clarity": {
-              "score": 70,
-              "evaluation": "The headline 'Rank higher, convert better.' clearly states WHAT the visitor gets. The sub-headline 'Fast-growing tech companies trust us...' clarifies WHO it's for. The WHY (differentiator) is absent from the hero, making it a 2-out-of-3 read."
+              "score": 50,
+              "evaluation": "The headline is just 'UFC', likely a project title. It hints at WHAT is being shown (a piece of work) but fails to answer WHO it's for or WHY this company is the one to choose. It functions as a label, not a message."
             },
             "value_prop_above_fold": {
-              "score": 70,
-              "evaluation": "The hero section provides the BENEFIT ('Rank higher, convert better') and the MECHANISM ('website development and traffic acquisition'). It lacks an explicit CONTRAST against competitors or the status quo, relying on the visitor to infer the difference."
+              "score": 0,
+              "evaluation": "The first 150 words consist of a single acronym. There is no stated benefit, mechanism, or contrast against alternatives. The value proposition is entirely visual and implicit, which fails the text-based analysis for a first-time visitor."
             },
             "benefit_hierarchy": {
               "score": 50,
-              "evaluation": "The lead benefit, 'Rank higher, convert better,' is the default promise of any SEO/CRO agency. The true differentiator—'We operate as an extension of your team'—is buried further down the page, weakening the initial hook."
+              "evaluation": "The implied benefit is 'see our high-quality work,' which is the category default for any production company. The brand's key differentiators—international scope and a massive list of awards—are absent from the homepage."
             },
             "jargon_load": {
               "score": 90,
-              "evaluation": "The copy uses industry-standard terms like 'SEO' and 'Core Web Vitals' which are table-stakes for its B2B tech audience. There is no gratuitous jargon, making the content feel professional and direct."
+              "evaluation": "With only one acronym ('UFC') on the page, there is virtually no text and therefore no jargon. The communication is purely visual, making it linguistically accessible by default."
             }
           },
           "checklist": {
             "pass": [
-              "states target audience clearly: 'Fast-growing tech companies'"
+              "uses minimal text to focus all attention on the visual work"
             ],
             "warn": [
-              "lacks an explicit contrast against alternatives above the fold"
+              "headline 'UFC' is a project label, not a value proposition"
             ],
             "fail": [
-              "leads with a generic category benefit, not the core differentiator"
+              "omits any text explaining what the company is or who it serves"
             ]
           }
         },
         "hi02_trust_score": {
           "label": "TRUST SCORE",
-          "score": 70,
-          "diagnosis": "CREDIBLE",
-          "so_what": "The brand builds strong credibility through high-quality, specific social proof. Testimonials from named CMOs and partners in the target industry are powerful validators. The primary weakness is a lack of reputed, third-party signals like press mentions or awards, relying instead on client voice and professional design.",
+          "score": 46,
+          "diagnosis": "HYPE-HEAVY",
+          "so_what": "Trust is conveyed solely through the high production value of the featured video. The page lacks any explicit trust signals like client logos, testimonials, or the many awards listed on the 'About' page. For a visitor without prior knowledge of the brand, it asks for trust based on aesthetics alone.",
           "sub_metrics": {
             "hype_index": {
-              "score": 70,
-              "evaluation": "The copy contains a few unsupported superlatives like 'outstanding results,' 'flawless websites,' and 'exceptional performance.' These are mild and fit within the 3-5 claim band, but they are still brand-self-praise without immediate substantiation."
+              "score": 90,
+              "evaluation": "The page contains no superlatives or intensifier adverbs. Its confidence comes from its minimalism, not from hype-filled copy."
             },
             "claim_to_evidence_ratio": {
-              "score": 50,
-              "evaluation": "Claims are primarily supported by Level B evidence (named testimonials, client logos). While strong, there is a lack of Level A evidence (e.g., links to case studies with hard data, third-party audits). This puts the verifiable claim ratio in the 30-49% range."
+              "score": 90,
+              "evaluation": "The implicit claim is 'we produced this work.' The evidence is the work itself, which is fully verifiable (Level A). The page makes no other claims, resulting in a high ratio."
             },
             "social_proof": {
-              "score": 90,
-              "evaluation": "Social proof is excellent, hitting both SPECIFICITY (named individuals, titles, companies) and SIMILARITY (CMOs and partners at tech firms). Testimonials like 'Julie O’Brien, CMO | Dazz' are perfectly targeted and highly credible."
+              "score": 0,
+              "evaluation": "The homepage has a complete absence of social proof. There are no client logos, testimonials, user counts, or award mentions, all of which are present on other pages of the site."
             },
             "trust_signals": {
-              "score": 70,
-              "evaluation": "The page demonstrates 3 of 4 Fogg credibility types: SURFACE (professional design), EARNED (strong testimonials), and PRESUMED (privacy policy, contact info). It lacks REPUTED credibility from third-party press, awards, or associations."
+              "score": 50,
+              "evaluation": "The page demonstrates strong SURFACE credibility via its professional, 'Luxury Minimal' design and PRESUMED credibility with a 'CONTACTS' link. It lacks EARNED (reviews) and REPUTED (awards, press) signals. 2 of 4 Fogg types are present."
             },
             "visible_certifications": {
-              "score": 70,
-              "evaluation": "The site displays client logos ('Dazz, Cayosoft') and technology partner logos ('Webflow, WordPress'). These act as de facto certifications of trust and capability, with 2-3 distinct types of logos visible."
+              "score": 0,
+              "evaluation": "No certification logos, award seals, or named accolades are visible on the homepage. The brand's significant achievements are hidden on a secondary page."
             }
           },
           "checklist": {
             "pass": [
-              "cites specific, high-quality testimonials with names and titles"
+              "implies claims through work, which is verifiable evidence"
             ],
             "warn": [
-              "uses unsupported claims like 'exceptional performance'"
+              "relies on professional design as the only explicit trust signal"
             ],
             "fail": [
-              "omits reputed trust signals like press mentions or awards"
+              "omits all forms of social proof like awards or client logos"
             ]
           }
         },
         "hi03_voice_consistency": {
           "label": "VOICE CONSISTENCY",
-          "score": 90,
-          "diagnosis": "ONE PERSON",
-          "so_what": "The brand voice is exceptionally consistent between the homepage and the 'Why Entlify' page. It maintains a consultative, expert, and collaborative tone throughout, reinforcing the archetype of a Sage/Caregiver partner. The message discipline is tight, making the brand feel focused and reliable.",
+          "score": 70,
+          "diagnosis": "MOSTLY COHERENT",
+          "so_what": "The brand's voice is primarily visual, and in that medium, it is perfectly consistent with the confident, artistic, and authoritative tone of its 'About' page. However, the textual voice is absent on the homepage, creating a disconnect where the brand's rich vocabulary of craft and innovation is replaced by a single, uncommunicative label.",
           "sub_metrics": {
             "tone_alignment": {
-              "score": 90,
-              "evaluation": "The baseline tone from the 'Why Entlify' page is consultative and problem-solving. The homepage perfectly mirrors this with headlines like 'Why teams rely on Entlify' and a helpful, expert register. The match is exact."
+              "score": 70,
+              "evaluation": "The baseline tone from the 'About' page is formal and authoritative. The homepage's tone is 'frozen' due to its extreme minimalism. This is a deliberate one-step shift to let the work speak, maintaining overall coherence."
             },
             "vocabulary_alignment": {
-              "score": 90,
-              "evaluation": "The semantic fields from the 'about' page (problem/solution, partnership, efficiency) are all dominantly used on the homepage. Phrases like 'extension of your team' and 'improve your bottom line' appear in both, creating strong alignment."
+              "score": 30,
+              "evaluation": "The brand's core semantic fields are 'Filmmaking Craft,' 'Artistry,' and 'Prestige.' The homepage text 'UFC' uses none of these, creating a complete vocabulary mismatch between the brand's story and its introduction."
             },
             "voice_signature_match": {
               "score": 90,
-              "evaluation": "The brand's Sage (expert) and Caregiver (partner) archetype is delivered consistently. The homepage offers expert solutions ('Ensure your SEO works beyond algorithms') within a collaborative frame ('Take client-agency collaboration further')."
+              "evaluation": "The brand's archetype is a Creator/Ruler mix, emphasizing vision and authority. The homepage's bold, minimalist presentation of a single work perfectly delivers this signature: it's a confident, authoritative act of creation."
             },
             "claim_stack_alignment": {
               "score": 90,
-              "evaluation": "The homepage reinforces the core claims from the 'about' page (being predictable, cost-conscious, product-focused). The testimonials on the homepage directly support claims of speed, quality, and collaboration made elsewhere."
+              "evaluation": "The baseline claims from the 'About' page are about 'cinematic value' and 'technical innovation.' The homepage reinforces these claims powerfully through the visual evidence of the featured work, even without using text."
             }
           },
           "checklist": {
             "pass": [
-              "maintains a consistent consultative tone across all pages"
+              "delivers a consistent Creator/Ruler archetype visually"
             ],
             "warn": [
-              "the 'Careers' page is purely functional, missing brand voice"
+              "homepage text is a label, not aligned with brand vocabulary"
             ],
             "fail": [
-              "omits any narrative about team culture to back 'extension' claim"
+              "omits any textual reinforcement of brand claims on the homepage"
             ]
           }
         },
         "hi04_audience_resonance": {
           "label": "AUDIENCE RESONANCE",
-          "score": 75,
-          "diagnosis": "KNOWS AUDIENCE",
-          "so_what": "The page is laser-focused on its target audience of decision-makers at B2B tech companies. Both the explicit text ('SaaS teams') and the implicit visual cues (dark UI, data visualizations) align perfectly to resonate with this segment. The only major disconnect is hiding the commitment tier (pricing), which can frustrate a time-poor executive audience.",
+          "score": 80,
+          "diagnosis": "LASER-AIMED",
+          "so_what": "The page is a perfect filter for its target audience of creative directors and brand managers. The 'Luxury Minimal' aesthetic and focus on cinematic craft resonate strongly with industry professionals who value artistry over explanation. It speaks their language visually, creating an immediate sense of belonging for the right visitor.",
           "sub_metrics": {
             "audience_segment_probability": {
               "score": 70,
-              "evaluation": "The content clearly targets senior marketing and leadership roles in tech, pointing to Gen X (≈0.50) and older Millennials (≈0.40). Evidence like 'Vice President of Marketing' in a testimonial confirms this focus on experienced professionals."
+              "evaluation": "The page targets a professional B2B audience, primarily creative decision-makers. This points to Millennials (≈0.50) and Gen X (≈0.40). The top cohort is clear, indicating a well-defined but not overly narrow target."
             },
             "signal_coherence": {
               "score": 90,
-              "evaluation": "Text and visual signals are perfectly aligned. The copy speaks to 'SaaS teams' and 'cybersecurity,' while the 'sleek obsidian' UI and 'data-centric' visuals reinforce a message of technical mastery for a B2B tech audience."
+              "evaluation": "Text and visual signals are perfectly aligned in their shared minimalism. The stark UI and single project title ('UFC') force all attention onto the 'full-bleed cinematic visual,' creating a single, coherent message about the primacy of the work."
             },
             "intent_match": {
               "score": 90,
-              "evaluation": "The page is unambiguously designed for the consideration-to-decision stage of the funnel. It presents capabilities, offers proof, and drives towards a single action: 'Request a Call'. The intent is singular and clear."
+              "evaluation": "The page is clearly designed for the 'consideration' stage. Its purpose is to showcase the quality of work to a potential client or collaborator, and it does so with extreme focus and no distractions."
             },
             "accessibility_signals": {
-              "score": 50,
-              "evaluation": "The page provides 2 of 4 signals. It uses plain-language CTAs ('Request a Call') and inclusive language for its target audience. It fails by hiding the commitment tier (pricing) and assuming technical jargon without explanation."
+              "score": 70,
+              "evaluation": "The page has 3 of 4 signals: inclusive language (by having none), no jargon, and plain-language CTAs in the navigation ('WORKS', 'CONTACTS'). It fails on commitment-tier visibility, as the cost of engagement is high and hidden."
             }
           },
           "audience_segments": [
             {
-              "label": "Gen X seeking a reliable, hands-off agency to manage technical marketing and drive revenue",
-              "cohort": "gen_x",
-              "probability": 0.5,
-              "evidence_text": "“It's mostly hands off. The Entlify team makes it easy for me, doing most of the work and simply communicating the highlights.”",
-              "evidence_visual": "The 'clinical light-grey structured layout' and 'data visualization graphics' signal a focus on professional, measurable results."
-            },
-            {
-              "label": "Millennials seeking a modern, proactive partner to accelerate growth for their fast-moving SaaS company",
+              "label": "Millennials seeking an award-winning production partner with a strong stylistic point of view for commercial or music video projects",
               "cohort": "millennials",
-              "probability": 0.4,
-              "evidence_text": "Fast-growing tech companies trust us with website development and traffic acquisition.",
-              "evidence_visual": "The 'sophisticated dark-mode UI' and 'high-intensity 'solar' orange accents' communicate a modern, energetic, and tech-forward approach."
+              "probability": 0.5,
+              "evidence_text": "FUSING EXPERTISE IN THE ART OF FILMMAKING WITH A GRASP OF STYLE.",
+              "evidence_visual": "The viewport uses a 'Luxury Minimal' approach... positioning the brand as a high-end creative entity focused on visual storytelling and sophisticated production."
             },
             {
-              "label": "Boomers seeking an experienced and diligent team for long-term, stable marketing partnership",
-              "cohort": "boomers",
+              "label": "Gen X seeking an established, internationally recognized production company to execute high-stakes brand campaigns",
+              "cohort": "gen_x",
+              "probability": 0.4,
+              "evidence_text": "INTERNATIONAL SERVICE ██████ PRODUCTION COMPANY. ... UKRAINE, BELGIUM, GEORGIA.",
+              "evidence_visual": "Communication focus: Cinematic production quality and artistic portfolio showcase."
+            },
+            {
+              "label": "Gen Z seeking collaborators for culturally resonant projects that push creative and technical boundaries",
+              "cohort": "gen_z",
               "probability": 0.1,
-              "evidence_text": "“I have been working with the Entlify team for over five years. They are proactive, knowledgeable, and diligent.\"",
-              "evidence_visual": "The clean typographic hierarchy and professional readability appeal to a desire for straightforward, no-nonsense service."
+              "evidence_text": "WE ████ CLASH MUSIC VIDEOS AND COMMERCIALS WITH ████████ STORYTELLING... AND █████ TECHNICAL INNOVATION.",
+              "evidence_visual": "The content is a full-bleed cinematic visual with a moody, dark atmosphere."
             }
           ],
           "checklist": {
             "pass": [
-              "aligns text ('SaaS teams') and visuals ('dark-mode UI') tightly"
+              "aligns visual and textual minimalism for strong signal coherence"
             ],
             "warn": [
-              "assumes audience understands technical terms like 'Core Web Vitals'"
+              "assumes a high level of industry knowledge from its audience"
             ],
             "fail": [
-              "hides pricing, creating friction for its time-sensitive audience"
+              "lacks any plain-language introduction for non-expert visitors"
             ]
           }
         },
         "hi05_decision_confidence": {
           "label": "DECISION CONFIDENCE",
-          "score": 65,
+          "score": 70,
           "diagnosis": "CONFIDENT",
-          "so_what": "The brand projects confidence by guiding the visitor toward a single, clear next step: making contact. The CTAs are direct and the path is obvious. However, this confidence is undermined by hiding the price, which introduces uncertainty and friction right at the point of decision.",
+          "so_what": "The brand projects confidence by providing a simple, elegant, and low-friction experience. For its target audience, the next steps ('WORKS', 'CONTACTS') are obvious and logical. It doesn't need a loud CTA because its ideal visitor already knows what they are looking for.",
           "sub_metrics": {
             "cta_clarity": {
-              "score": 90,
-              "evaluation": "The page has a clear primary CTA ('Request a Call' / 'Let’s Talk') that is consistently messaged. There is no ambiguity about what the brand wants the visitor to do next, creating a strong sense of direction."
+              "score": 50,
+              "evaluation": "There is no primary CTA button. The navigation ('WORKS | CONTACTS | ABOUT') provides clear but equal-weight options. This creates potential ambiguity for a visitor needing guidance, violating Hick's Law."
             },
             "pricing_visibility": {
-              "score": 30,
-              "evaluation": "Pricing is completely hidden behind a contact gate. The text 'Reach out to our team for a quote' creates significant friction and signals a lack of transparency, forcing the visitor to invest time before knowing the cost."
+              "score": 70,
+              "evaluation": "This is a high-end B2B service, so pricing is not applicable on the homepage. The brand correctly omits it, aligning with industry norms. Per the rubric, this scores a 70 as a non-commercial surface."
             },
             "next_step_obviousness": {
-              "score": 90,
-              "evaluation": "The next step is unequivocally to contact the agency. The entire page structure, from the navigation to the final section, funnels the user towards this single action, leaving no room for confusion."
+              "score": 70,
+              "evaluation": "For a visitor evaluating a creative partner, the next steps are obvious: see more work or make contact. The navigation makes these two paths clear, though it doesn't prioritize one over the other."
             },
             "friction_signals": {
-              "score": 50,
-              "evaluation": "There are two major friction sources. The first is the hidden pricing. The second is the 'heavy' text density and long scroll, which demands significant work from the visitor to get the full story."
+              "score": 90,
+              "evaluation": "The page is extremely low-friction. The 'stark, minimalist UI' and lack of text create a seamless, focused experience with zero cognitive load beyond interpreting the visual content itself."
             }
           },
           "checklist": {
             "pass": [
-              "uses a clear, unambiguous primary CTA: 'Request a Call'"
+              "uses a clean, minimalist UI that removes all friction"
             ],
             "warn": [
-              "page length and text density create a high cognitive load"
+              "presents multiple navigation options with no clear hierarchy"
             ],
             "fail": [
-              "hides all pricing information behind a contact form"
+              "lacks a single, primary call-to-action to guide the journey"
             ]
           }
         }
@@ -644,14 +644,14 @@
     }
   },
   "GEO_evaluation": {
-    "score": 42,
-    "label": "AI WEAK",
-    "diagnosis": "INVISIBLE ENTITY",
-    "profile": "Entlify has a unique name and a technically sound website that's open to crawlers. However, its on-page content is a fog of marketing jargon with no data, and it lacks any external anchors—no structured data, no knowledge graph presence, no third-party reviews. To an AI, Entlify is a ghost: it can see the domain name, but has no verifiable information about the business itself.",
-    "fix": "The highest-impact fix is to establish an entity baseline. Ship `Organization` and `WebSite` schema in the `<head>` of `entlify.com` to give AI a machine-readable business card. Then, create a Wikidata entry for \"Entlify\" citing two independent sources (e.g., press, directory listings) to anchor the brand in the public knowledge graph.",
+    "score": 19,
+    "label": "AI INVISIBLE",
+    "diagnosis": "CONTENT BLACKOUT",
+    "profile": "The brand shelter.film is an enigma to AI. Its homepage contains only the word \"UFC\", providing no text for crawlers to understand its purpose, category, or value. While basic crawl infrastructure is in place, the absolute lack of on-page content, structured data, and external knowledge anchors renders the site invisible and unclassifiable for any AI-driven search or summary task.",
+    "fix": "The most critical fix is to replace the placeholder content on https://shelter.film. Publish a homepage with at least 300 words of descriptive text defining \"Shelter.film\" as a production company, outlining its services, and showcasing its work. Concurrently, ship foundational Organization JSON-LD schema in the page's <head> to give machines a structured summary of the business entity.",
     "flags": {
       "entity_drift": false,
-      "critical_blackout": false,
+      "critical_blackout": true,
       "foundation_failure": false,
       "trustpilot_collapse": false,
       "category_hint_corrupted": false,
@@ -661,128 +661,132 @@
     "metrics": {
       "ai01_findability": {
         "label": "AI FINDABILITY",
-        "score": 63,
-        "diagnosis": "CLEAR BUT UNSUPPORTED",
-        "so_what": "Entlify clearly states it's a \"digital marketing and web development agency,\" but without structured data, AI must guess its services and structure. This forces AI to treat the site like a blog post, not a business, limiting its use in direct answers for \"best agency for SaaS\" queries. The single most important fix is adding Organization and Service schema to entlify.com to give AI a machine-readable business card.",
+        "score": 17,
+        "diagnosis": "UNDEFINED ENTITY",
+        "so_what": "With no descriptive content (\"UFC\") and no structured data, AI cannot understand what shelter.film is. It will be ignored in any query for \"production companies\" because it has failed to state its own identity. The single most important fix is adding a sentence like \"Shelter.film is a production company that...\" to the homepage.",
         "sub_metrics": {
           "structured_data": {
             "score": 50,
-            "evaluation": "GEO_ANALYSIS shows json_ld_blocks_found: 0; json_ld_types: []; og: 4/6 core tags; twitter: yes (1/4); meta_desc: present; canonical: present; hreflang_count: 0. AI engines must infer from prose; add Product/Organization JSON-LD with og:image to lift the score.",
+            "evaluation": "GEO_ANALYSIS shows json_ld_blocks_found: 0; json_ld_types: []; og: 3/6 core tags; twitter: no (0/4); meta_desc: absent; canonical: absent; hreflang_count: 0. AI engines must infer from prose; add Product/Organization JSON-LD with og:image to lift the score.",
             "flags_emitted": []
           },
           "quotable_content": {
-            "score": 50,
-            "evaluation": "The page contains a few quotable statements, including a clear definition (\"Entlify is a digital marketing and web development agency\") and specifics from testimonials (\"doubled the number of organic impressions\"). However, with only 4-6 such statements, AI has limited material to cite as fact. Add at least five more specific data points or definitions to the main service descriptions.",
+            "score": 0,
+            "evaluation": "The page content is just the text \"UFC\", providing zero quotable statistics, definitions, or claims. AI has nothing to cite, making the page invisible for answer generation. Add a clear definition like \"Shelter.film is a production company specializing in...\" and include 2-3 project statistics.",
             "flags_emitted": []
           },
           "entity_clarity": {
-            "score": 90,
-            "evaluation": "The page explicitly defines the brand in the first 200 words: \"Entlify is a digital marketing and web development agency.\" This direct statement provides perfect clarity for an AI trying to understand the entity's core purpose. No fix is needed here; this is a model execution.",
+            "score": 0,
+            "evaluation": "The brand name \"shelter.film\" is completely absent from the page's body content, which only contains \"UFC\". This creates total entity confusion for an AI, which cannot determine what the page is about. Add the brand name and a definitional sentence in the first paragraph.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Defines itself clearly: 'digital marketing and web development'."
+            "Uses 'shelter.film' in the title tag."
           ],
           "warn": [
-            "Lacks specific, quotable data points beyond testimonials."
+            "Relies on OpenGraph tags for description."
           ],
           "fail": [
-            "Ships zero JSON-LD structured data blocks."
+            "Provides no JSON-LD structured data.",
+            "Offers zero quotable content on the page.",
+            "Omits brand name from page body content."
           ]
         }
       },
       "ai02_content_focus": {
         "label": "AI SIGNAL CLARITY",
-        "score": 16,
-        "diagnosis": "MARKETING SLOGANS",
-        "so_what": "The content on entlify.com is a wall of marketing slogans like \"Rank higher, convert better\" that AI models are trained to ignore as low-signal filler. With a fact-to-filler ratio near 1:8 and almost no verifiable data, AI will struggle to extract any substantive claims, making the site invisible for queries requiring proof. Replace vague promises with case study data, such as \"increased organic impressions by 200% for Client X.\"",
+        "score": 18,
+        "diagnosis": "CRITICAL CONTENT VOID",
+        "so_what": "The page content is just \"UFC\", which provides zero factual signals for an AI to analyze. This isn't just thin content; it's a black hole that prevents any form of AI summary, comparison, or verification. The site will be treated as an empty or broken page, disqualifying it from generative answers.",
         "sub_metrics": {
           "fact_to_filler_ratio": {
             "score": 0,
-            "evaluation": "The page is dominated by filler sentences like \"Make your goals a reality, much faster\" and \"Gain more with less.\" The ratio of factual claims to marketing filler is estimated at 1:8 or worse, starving AI of substance. Rewrite every headline and sub-headline to state a specific outcome or feature.",
+            "evaluation": "The page contains only the word \"UFC\", making a fact-to-filler analysis impossible. This extreme lack of content means AI crawlers find no substance to index or use. Expand the content to include at least 3-5 factual sentences describing the company's work.",
             "flags_emitted": []
           },
           "adjective_load": {
-            "score": 50,
-            "evaluation": "The copy uses approximately 9 empty booster adjectives like 'seamless,' 'outstanding,' 'flawless,' and 'exceptional.' This level of marketing language dilutes the credibility of the factual claims for an AI. Replace subjective adjectives with objective descriptions of service features or outcomes.",
+            "score": 90,
+            "evaluation": "The page contains no empty marketing adjectives because it contains almost no text at all (\"UFC\"). While this technically passes, it's a sign of a critical content void, not disciplined writing. The goal is to add factual content, not just avoid fluff.",
             "flags_emitted": []
           },
           "specificity_index": {
-            "score": 30,
-            "evaluation": "Most claims are abstract (Rung 4: \"Gain more with less\") or category-vague (Rung 3: \"Optimize\"). Less than 40% of the content provides specific mechanisms or data, forcing AI to guess at the actual process. Convert vague promises into descriptions of the specific actions taken, like \"We audit Core Web Vitals using Lighthouse.\"",
+            "score": 0,
+            "evaluation": "No claims are present on the page, only the acronym \"UFC\". This results in a specificity score of zero, as there is nothing for an AI to classify or understand. Add concrete claims about projects, clients, or capabilities (e.g., \"Produced 15 commercials for Nike\").",
             "flags_emitted": []
           },
           "data_point_density": {
             "score": 0,
-            "evaluation": "The body copy contains almost no hard data points, with only 1-2 per 500 words, primarily from testimonials. The charts shown lack units or context, rendering them meaningless to a machine. Embed specific numbers, percentages, and timelines into the service descriptions to provide concrete evidence.",
+            "evaluation": "The page has a data point density of zero, as the content is just \"UFC\". AI models rely on data points (numbers, dates, specific metrics) to verify and rank information. Add at least 3-5 specific data points, such as project counts or years in business.",
             "flags_emitted": []
           },
           "claim_verifiability": {
             "score": 0,
-            "evaluation": "Nearly all claims are subjective hyperbole (\"Best in class web development\") or plausible but uncited statements. With less than 10% of claims referencing a source or evidence type, AI must treat the content as unsubstantiated opinion. Link key claims to case studies or add footnotes citing the source of the data.",
+            "evaluation": "The page makes no claims, verifiable or otherwise, containing only the text \"UFC\". This leaves AI with no information to trust or use in summaries. Introduce verifiable claims, such as \"Our work has been featured in...\" or \"Winner of the [Award Name]\".",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Uses testimonials with some specific claims ('doubled...')."
+            "Avoids using empty marketing adjectives."
           ],
           "warn": [
-            "Uses 9+ empty booster adjectives like 'seamless', 'flawless'."
+            "Lacks any verifiable claims or citations."
           ],
           "fail": [
-            "Offers almost zero verifiable data points (0-2 per 500w).",
-            "Fact-to-filler ratio is extremely low (est. 1:8)."
+            "Contains only one word of text ('UFC').",
+            "Has a data point density of zero.",
+            "Makes no specific claims about its service."
           ]
         }
       },
       "ai03_ai_positioning": {
         "label": "AI CATEGORY POSITIONING",
-        "score": 48,
-        "diagnosis": "GENERIC AND ALONE",
-        "so_what": "Entlify nails its category language (\"SEO\", \"CRO\"), which helps AI classify it correctly. However, it completely fails to position itself against competitors or define its unique value, and has zero external validation on platforms like Reddit. This makes it a generic entry in a crowded field; AI can see *what* it is, but has no reason to believe it's *better* than anyone else. Add a \"Who We're For\" section that contrasts its approach with typical agencies.",
+        "score": 0,
+        "diagnosis": "CATEGORY UNKNOWN",
+        "so_what": "Because the page only says \"UFC\", AI has no way to connect shelter.film to its actual category of \"production company\". It cannot be positioned against competitors or understood by potential customers. External signals are pure noise, reinforcing the brand's invisibility within its own market.",
         "sub_metrics": {
           "category_keyword_alignment": {
-            "score": 90,
-            "evaluation": "The page uses standard, on-taxonomy terms like \"Search Engine Optimization,\" \"Conversion Rate Optimization,\" and \"Paid Search Advertising,\" aligning perfectly with the 'Digital Marketing & Web Dev' category hint. This clarity helps AI correctly classify the business. This is well-executed.",
+            "score": 0,
+            "evaluation": "The page content \"UFC\" has zero alignment with the brand's declared category, \"production company\". This disconnect confuses AI about the site's purpose, likely misclassifying it entirely. Rewrite the page content to explicitly use and describe its role as a production company.",
             "flags_emitted": []
           },
           "competitor_placement": {
-            "score": 50,
-            "evaluation": "The content clearly identifies its service category but provides no competitive context. It doesn't name competitors, contrast its approach with \"traditional agencies,\" or offer unique differentiators beyond generic claims like being \"proactive.\" Add a section explaining how the Entlify process differs from the industry standard.",
+            "score": 0,
+            "evaluation": "The page provides no competitive context, containing only the word \"UFC\". AI cannot position the brand within its market, making it invisible in comparison queries. Add language that differentiates Shelter.film from other production companies or the industry standard.",
             "flags_emitted": []
           },
           "value_proposition_clarity": {
-            "score": 50,
-            "evaluation": "The first 200 words clearly state WHAT Entlify does (\"digital marketing and web development\") and for WHOM (\"SaaS teams\"). However, it fails to explain WHY-THIS-ONE with a unique differentiator or HOW-MUCH it costs, leaving two critical questions unanswered for AI. Add a concise differentiator and a link to pricing or a quote process in the intro.",
+            "score": 0,
+            "evaluation": "The page content (\"UFC\") fails to establish what the company does, for whom, its unique value, or its pricing. With zero value proposition anchors, AI cannot summarize the business for potential customers. Add a concise opening that covers at least what the service is and who it's for.",
             "flags_emitted": []
           },
           "category_recognition_external": {
             "score": 0,
-            "evaluation": "SOCIAL_PROOF_EXTERNAL shows zero organic Reddit mentions. This total absence of third-party discussion means AI has no external signal to validate that Entlify is a recognized player in its category. For a B2B agency, this could be supplemented by mentions in trade publications or directories like Clutch or G2.",
+            "evaluation": "The brand has zero organic Reddit mentions, and all 50 total mentions are in unrelated subreddits like r/ukraine, indicating they are about the generic word \"shelter\". This lack of relevant external discussion means AI sees no third-party validation of its category. The brand is invisible in its own market conversations.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Aligns services with standard terms like 'SEO', 'CRO'."
+            "Has a clear primary category hint ('production company')."
           ],
           "warn": [
-            "Value proposition omits pricing and a clear differentiator."
+            "Shows zero organic mentions on Reddit."
           ],
           "fail": [
-            "Shows zero external category recognition (0 Reddit mentions).",
-            "Omits any mention of competitors or industry context."
+            "Page content ('UFC') misaligns with category.",
+            "Lacks a clear value proposition (WHAT/WHO/WHY).",
+            "Provides no competitive context or differentiators."
           ]
         }
       },
       "ai04_crawler_coverage": {
         "label": "AI CRAWL READINESS",
         "score": 60,
-        "diagnosis": "OPEN BUT UNGUIDED",
-        "so_what": "Entlify's technical foundation is solid: all major AI crawlers are permitted and can find the sitemap. But the absence of an llms.txt file is a missed opportunity to guide these bots to high-value content, like case studies or service pages. It's like inviting guests to a mansion but not giving them a map; they'll wander aimlessly. Create a /llms.txt file to explicitly point AI to the most important content on entlify.com.",
+        "diagnosis": "TECHNICALLY SOUND",
+        "so_what": "shelter.film has solid technical foundations for crawling; robots.txt is permissive and a sitemap exists. However, this is like having a perfectly paved road leading to an empty lot. AI crawlers can arrive easily but will leave with no useful information, as there is no llms.txt to guide them and no content to index.",
         "sub_metrics": {
           "bot_coverage": {
             "score": 90,
@@ -796,37 +800,37 @@
           },
           "infrastructure_basics": {
             "score": 90,
-            "evaluation": "robots.txt: present, sitemap_reference: yes, sitemap_url: https://www.entlify.com/sitemap.xml (canonical), https_enforced: true. All foundational crawl signals present.",
+            "evaluation": "robots.txt: present, sitemap_reference: yes, sitemap_url: https://shelter.film/sitemap_index.xml (canonical), https_enforced: true. All foundational crawl signals present.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
             "Allows all major AI crawlers in robots.txt.",
-            "Provides a valid sitemap reference in robots.txt."
+            "Provides a valid sitemap_index.xml."
           ],
           "warn": [
-            "Could add more specific crawler directives."
+            "Sitemap count is low (1)."
           ],
           "fail": [
-            "Omits an llms.txt file to guide AI crawlers."
+            "Omits an llms.txt file to guide AI bots."
           ]
         }
       },
       "ai05_knowledge_anchoring": {
         "label": "AI KNOWLEDGE ANCHORING",
-        "score": 20,
-        "diagnosis": "UNANCHORED GHOST",
-        "so_what": "The brand name \"Entlify\" is unique, a major asset. But with no Wikipedia/Wikidata presence, no third-party reviews, and no structured data, the brand is a ghost online. AI has no external, trusted sources to verify Entlify's existence or claims, making it a high-risk, low-authority entity. The top priority is to create a Wikidata entry and ship `Organization` schema on entlify.com to establish a foundational knowledge graph footprint.",
+        "score": 2,
+        "diagnosis": "UNANCHORED ENTITY",
+        "so_what": "shelter.film has no presence in external knowledge bases like Wikipedia or Wikidata, and its common name (\"Shelter\") creates high ambiguity. Without these external anchors and with no on-page schema, AI systems cannot reliably distinguish this production company from charities, films, or other entities named \"Shelter\". This identity confusion is a major barrier to being surfaced in search.",
         "sub_metrics": {
           "brandname_uniqueness": {
-            "score": 90,
-            "evaluation": "The name 'Entlify' is a coined term with no obvious collisions with other major entities in my training data. This high level of uniqueness is a significant asset, making it easy for AI to associate signals with this specific brand. No fix needed.",
+            "score": 0,
+            "evaluation": "The brand name \"Shelter\" is a common English word, leading to high ambiguity and collision with numerous other entities (charities, movies, etc.). The \".film\" TLD helps but isn't enough to prevent AI confusion. Consistently using \"Shelter.film\" as the full brand name is critical to help disambiguate.",
             "flags_emitted": []
           },
           "schema_category_fit": {
             "score": 0,
-            "evaluation": "The site is eligible for `Organization` and `Service` schema but ships none, as shown in RICH_RESULTS_ELIGIBILITY. This is a critical failure, as it provides no machine-readable summary of the business. Implement `Organization` schema immediately to create a foundational entity for AI to reference.",
+            "evaluation": "The page has zero JSON-LD schema blocks, as shown by json_ld_blocks_found: 0. For a \"production company\", Organization schema is a foundational requirement for AI to understand the entity type. Ship Organization schema with name, url, and logo to establish a basic machine-readable identity.",
             "flags_emitted": []
           },
           "knowledge_graph_presence": {
@@ -836,7 +840,7 @@
           },
           "identity_convergence": {
             "score": 10,
-            "evaluation": "BRAND_NAMING.brand_inferred 'Entlify' vs names_found: og_site_name=✗(); title_tag=✓(Entlify - Digital Marketing & ); h1=✗(Rank higher, convert better.); wikidata_label=✗(); wikipedia_title=✗(). 1/5 surfaces agree. Reconcile divergent surfaces — set og:site_name and align Wikipedia/Wikidata to match canonical brand name.",
+            "evaluation": "BRAND_NAMING.brand_inferred 'shelter.film' vs names_found: og_site_name=✗(); title_tag=✓(shelter.film - production comp); h1=✗(); wikidata_label=✗(); wikipedia_title=✗(). 1/5 surfaces agree. Reconcile divergent surfaces — set og:site_name and align Wikipedia/Wikidata to match canonical brand name.",
             "flags_emitted": []
           },
           "trustpilot_anchoring": {
@@ -847,14 +851,15 @@
         },
         "checklist": {
           "pass": [
-            "Uses a unique, coined brand name ('Entlify')."
+            "Shows consistent naming in title tag."
           ],
           "warn": [
-            "Brand name is missing from the H1 tag."
+            "Uses a common word ('Shelter') as brand name."
           ],
           "fail": [
-            "Has no presence in any knowledge graph (Wikipedia/Wikidata).",
-            "Lacks any third-party review signals (e.g. Trustpilot)."
+            "Lacks a Wikipedia or Wikidata entry.",
+            "Ships zero JSON-LD schema for its category.",
+            "Has no Trustpilot or other third-party trust signals."
           ]
         }
       }
