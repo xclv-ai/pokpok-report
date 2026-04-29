@@ -1,51 +1,51 @@
 {
-  "url": "https://theredtree.co.uk/the-beauty-accelerator/",
-  "brand": "The Red Tree",
+  "url": "https://banda.agency",
+  "brand": "banda",
   "5_truth": {
     "truth_1": {
-      "headline": "The brand identity is a fortress designed to attract kings and repel commoners.",
-      "gap_description": "The 17-marker framework consistently reads an identity of extreme exclusivity and professional authority. The brand is a 70% 'Ruler' archetype, with a 'Reliable Expert' personality (Warmth 2/5, Competence 5/5) and a 'Clinical Authority' tone. Its mission is to act as 'The High Priests' of the beauty industry, creating an 'Insider Clique' for winners. Every signal is calibrated to project intimidating, high-status competence, creating a powerful filter that pre-qualifies the most confident applicants and deters everyone else.",
-      "evidence": "'The Ruler 70% / The Sage 20% / The Caregiver 10%' (HI.marker_6.primary.archetype) | 'Distant (Professional, polite, but emotionally flat)' (HI.marker_5.slider_a_position_name) | 'The High Priests' (HI.marker_2.territory_name) | 'The Insider Clique' (HI.marker_17.territory_name)",
-      "why_matters": "This fortress-like identity is highly effective at attracting the exact type of ambitious, prepared founder it wants. However, it actively discourages applications from promising founders who may lack the confidence to approach such an imposing authority, potentially filtering out unconventional or early-stage genius. The applicant pool is narrowed by design, for better or for worse.",
-      "hard_choice": "The brand's identity creates a strategic choice between applicant volume and applicant quality. One path is to maintain this intimidating posture, accepting that it yields a smaller pool of highly qualified, confident applicants, which simplifies the selection process. A second path is to introduce slightly more accessible content—like stories of founders who felt intimidated but succeeded—to widen the top of the funnel without diluting the core brand's elite status. The strategic question: Is the current level of exclusivity a feature that correctly filters for the best, or a bug that overlooks hidden talent?"
+      "headline": "The brand's identity is a high-wire act of intentional friction.",
+      "gap_description": "The 17-marker framework reveals a core strategic tension. The brand's visual identity is 'Pharma-Code' (cool, structured, clinical), and its personality is 'The Reliable Expert' (distant, competent). Yet, its tone of voice is 'The Hype Beast' (witty, conversational, cheeky), driven by a dominant 'Outlaw' archetype. This creates what the summary calls a 'compelling friction between what you see (serious) and what you hear (playful).' The brand is a severe-looking expert that talks like a clever rebel, a combination that requires a sophisticated client to appreciate.",
+      "evidence": "'Pharma-Code' (HI.marker_8.territory_name) | 'The Reliable Expert' (HI.marker_5.territory_name) | 'The Hype Beast' (HI.marker_7.territory_name) | 'The Outlaw 60%' (HI.marker_6.primary.archetype) | 'creating a compelling friction between what you see (serious) and what you hear (playful)' (HI.category_summaries.identity.description)",
+      "why_matters": "This high-concept identity acts as a powerful filter. It attracts clients who are confident enough to understand the creative tension and are seeking a partner with a strong, edgy point of view. It simultaneously repels more conservative clients who may perceive the friction as inconsistency or arrogance. The brand is deliberately choosing a narrow, sophisticated audience over broad appeal.",
+      "hard_choice": "The central choice is whether this friction is a sustainable core differentiator or a potential barrier to growth. One path is to lean into the tension, making it the centerpiece of the brand's story, attracting only the clients who 'get it.' Another path is to soften the edges, perhaps by injecting more of the Hype Beast's warmth into the visual identity to make the brand more approachable. A third option is to segment, keeping the stark homepage for a powerful first impression while using case studies or social channels to reveal the more playful, human side. The strategic question: Is this identity friction a feature that qualifies the perfect client, or a bug that disqualifies too many good ones?"
     },
     "truth_2": {
-      "headline": "AI engines cannot distinguish the brand from a famous painting, making it nearly invisible.",
-      "gap_description": "The AI/GEO posture is critically compromised by a fundamental identity collision, firing the `entity_drift` flag. The brand name 'The Red Tree' directly conflicts with a well-known Piet Mondrian painting, resulting in a knowledge anchoring score (AI05) of just 34. AI models see a page rich with data but are unable to confidently attribute it to a unique business entity, as confirmed by Wikipedia and Reddit signals which overwhelmingly point to the artwork.",
-      "evidence": "'entity_drift: true' (GEO.flags.entity_drift) | 'The brand name 'The Red Tree' has extremely low uniqueness, directly colliding with a famous Piet Mondrian painting' (GEO.metrics.ai05_knowledge_anchoring.sub_metrics.brandname_uniqueness.evaluation) | 'wikidata_description: 'painting by Piet Mondrian'' (GEO.metrics.ai05_knowledge_anchoring.sub_metrics.knowledge_graph_presence.evaluation) | 'External signals from Reddit are 100% noise' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.evaluation)",
-      "why_matters": "This entity confusion makes the brand functionally invisible to any AI-driven discovery or recommendation engine. When a user asks an AI for 'beauty startup accelerators,' The Red Tree is unlikely to be surfaced because its identity is corrupted by a more famous, unrelated entity. The brand loses out on all forms of organic, AI-assisted discovery, limiting its reach to direct traffic and word-of-mouth.",
-      "hard_choice": "The brand name is a permanent liability that presents two paths. The first is to mitigate the damage through aggressive technical disambiguation: implementing extensive `Service` and `FAQPage` schema and building a dense network of on-category external links to create a stronger signal for the business entity. The second is to de-prioritize AI-driven discovery entirely, accepting the name collision as a sunk cost and focusing marketing efforts on channels where context is controlled, such as direct partnerships, email, and paid media. The strategic question: Is winning the long, expensive battle for the brand's name in AI a priority, or should resources be focused on channels that bypass the problem?"
+      "headline": "AI engines cannot distinguish the agency from a person, erasing it from search.",
+      "gap_description": "The AI/GEO analysis reveals a catastrophic 'ENTITY COLLISION.' The brand name 'Banda' is so common—colliding with a surname, athletes, and places—that AI systems cannot reliably identify the agency. This is confirmed by a `entity_drift: true` flag, a 'IDENTITY LOST' diagnosis for knowledge anchoring (AI05 score: 28), and the fact that all 47 of its Reddit mentions are for other entities. Without foundational schema or a unique name, the agency is invisible and miscategorized by machines.",
+      "evidence": "'ENTITY COLLISION' (GEO.diagnosis) | 'flags.entity_drift: true' (GEO.flags.entity_drift) | 'The brand name \\'Banda\\' is extremely common, colliding with a surname (per Wikipedia), multiple athletes...' (GEO.metrics.ai05_knowledge_anchoring.sub_metrics.brandname_uniqueness.evaluation) | 'The 47 organic Reddit mentions are entirely about athletes named Banda...' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.evaluation)",
+      "why_matters": "This entity confusion makes the agency nonexistent in any AI-powered discovery. When a potential client asks an AI assistant for 'top creative agencies,' Banda will be omitted because the system cannot confidently identify it. Its hard-won reputation is confined to human networks, and its digital presence is actively corrupted by irrelevant noise, ceding all machine-driven referrals to competitors with clearer identities.",
+      "hard_choice": "The brand faces a fundamental decision about its machine-readable identity. One option is a technical battle: ship `Organization` schema and consistently use 'Banda Agency' to disambiguate the name, a long and difficult process. A second option is a branding shift: formally adopt 'Banda Agency' as the public-facing name to create a unique entity, sacrificing the punchiness of the single word. A third, defiant option is to ignore AI-driven discovery entirely, betting that their elite clientele will always find them through reputation and direct referrals, not search. The strategic question: Is winning the entity war with AI a critical future investment, or can the business thrive without a machine-readable identity?"
     },
     "truth_3": {
-      "headline": "The page is brilliantly persuasive but makes the human visitor work too hard.",
-      "gap_description": "While human perception is overwhelmingly positive (HI Score 80, 'LANDED'), the page's primary weakness is friction. The `blind_spot` analysis identifies a 'sheer density of information' and an intrusive cookie banner as initial hurdles. This is reflected in the lowest-scoring HI sub-metric, `friction_signals` (60), which notes the 'high text density requires significant cognitive load.' The page provides all the right answers, but buries them in long paragraphs that demand significant user effort.",
-      "evidence": "'The page's primary weakness is its initial friction.' (HI.hi.blind_spot) | 'friction_signals: { score: 60 }' (HI.hi.metrics.hi05_decision_confidence.sub_metrics.friction_signals) | 'the high text density requires significant cognitive load to parse all the details' (HI.hi.metrics.hi05_decision_confidence.sub_metrics.friction_signals.evaluation) | 'body copy is text-heavy, potentially slowing down information absorption' (HI.hi.metrics.hi01_message_clarity.checklist.warn[0])",
-      "why_matters": "In a competitive landscape, even highly motivated founders are time-poor. A dense, text-heavy page risks losing a portion of its target audience in the first 10 seconds before they have absorbed the key value propositions. A competitor with a more scannable, visually organized page might capture that visitor's attention first, even with a weaker offering. The page is optimized for the committed reader, not the initial scanner.",
-      "hard_choice": "The information density presents a choice about audience filtering. One view is that the high cognitive load is an effective, intentional filter that weeds out unserious or impatient applicants, selecting for diligence. An alternative view is that the page could serve its expert audience better by improving scannability—using more aggressive headlines, call-out boxes for key stats (£250k, 12 months), and a summary section—to capture attention first, then provide detail. The strategic question: Is the page's cognitive demand an intentional filter for the ideal candidate, or an unintentional barrier losing high-potential but time-constrained founders?"
+      "headline": "The URL proves the agency is competent, but not what it's like to work with.",
+      "gap_description": "Human perception is overwhelmingly positive (HI Score: 80), but it reveals a specific blind spot. The brand builds trust almost exclusively on 'Reputed' credibility—a wall of awards and high-status client logos. It completely lacks 'Earned' credibility signals. There are no client testimonials, case study narratives, or quotes that provide a human-scale connection. The page successfully answers 'Are they good enough?' but leaves 'What is the experience of partnering with them?' entirely blank.",
+      "evidence": "'it doesn't show what it's like to work with them.' (HI.hi.blind_spot) | 'lacks SPECIFICITY and SIMILARITY, as there are no testimonials or quotes from individual clients to create a personal connection.' (HI.hi.metrics.hi02_trust_score.sub_metrics.social_proof.evaluation) | 'It completely lacks EARNED credibility signals like case studies or testimonials on the homepage.' (HI.hi.metrics.hi02_trust_score.sub_metrics.trust_signals.evaluation)",
+      "why_matters": "By showcasing only credentials, the agency filters for clients who buy on status and awards, while potentially alienating those who prioritize cultural fit and a collaborative process. A prospective client might be deeply impressed by the portfolio but hesitate to make contact, fearing a difficult or arrogant working relationship. The brand wins on competence but risks losing on character and connection.",
+      "hard_choice": "The agency must decide if its 'work speaks for itself' posture is absolute. One strategy is to maintain the current approach, using the absence of human testimonials as a deliberate filter for clients who share their confidence. A second strategy is to add a human layer, carefully curating one or two powerful client quotes on the homepage to add warmth without diluting the authority. A third is to channel this content elsewhere, keeping the homepage a pure portfolio but using a blog or 'process' page to tell the human stories behind the work. The strategic question: Is the brand's promise solely about delivering award-winning output, or is the client experience part of the product?"
     },
     "truth_4": {
-      "headline": "The brand has a perfect position but broadcasts it into an empty room.",
-      "gap_description": "There is a stark disconnect between the brand's on-page positioning and its off-page presence. On its URL, the brand is a master of positioning, clearly targeting founders with an 'Insider Clique' promise. However, AI/GEO analysis reveals it has zero external category recognition. Its audience exists, and its positioning is clear, but the brand has no footprint in the third-party digital spaces where that audience congregates, discusses problems, and discovers opportunities.",
-      "evidence": "'category_recognition_external: score: 0' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.score) | 'External signals from Reddit are 100% noise...AI has zero third-party validation that 'The Red Tree' operates in the business or beauty category.' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.evaluation) | 'The Insider Clique' (HI.marker_17.territory_name) | 'The page is unambiguously designed for the decision/action stage of the funnel.' (HI.hi.metrics.hi04_audience_resonance.sub_metrics.intent_match.evaluation)",
-      "why_matters": "By existing only on its own domain, the brand misses the entire discovery and consideration phase of its audience's journey. Founders looking for advice on beauty industry forums, subreddits, or professional groups will never encounter The Red Tree. This makes the business entirely dependent on high-cost, high-effort channels like PR and direct outreach, ceding the vast territory of organic community-based discovery to competitors.",
-      "hard_choice": "The brand must decide whether its 'Insider Clique' status is best served by being aloof or by being a visible leader. One strategy is to double down on exclusivity, remaining a hard-to-find destination that relies on mystique and word-of-mouth among elites. A second, contrasting strategy is to actively build a presence in relevant external communities—participating in discussions, securing interviews on industry podcasts, and generating on-topic content—to become a recognized authority where its audience already is. The strategic question: Does growth come from being a hidden gem for the few who are told where to look, or from becoming a public lighthouse for the entire industry?"
+      "headline": "The brand is laser-focused on its human audience and invisible to its AI equivalent.",
+      "gap_description": "There is a stark divide between how the brand positions itself for humans versus machines. For humans, the page is 'LASER-AIMED' (HI04 Diagnosis), resonating strongly with its target 'Millennials seeking a culturally-fluent agency' (0.65 probability). But for AI, the positioning is 'CATEGORY INVISIBLE' (AI03 Diagnosis). It lacks competitive context, and its external signals are corrupted by the entity collision. The brand has perfectly calibrated its message for a human reader but has done nothing to translate that positioning for a machine.",
+      "evidence": "'Millennials seeking a culturally-fluent agency... probability 0.65' (HI.hi.metrics.hi04_audience_resonance.audience_segments[0]) | 'The page is precisely calibrated for its target audience' (HI.hi.metrics.hi04_audience_resonance.so_what) | 'AI CATEGORY POSITIONING... CATEGORY INVISIBLE' (GEO.metrics.ai03_ai_positioning.label + .diagnosis) | 'External signals are nonexistent and misleading.' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.evaluation)",
+      "why_matters": "This disconnect means the brand is absent from the entire AI-assisted discovery phase of a client's journey. A Millennial brand manager asking an AI, 'Find me an irreverent agency that understands culture,' will not be shown Banda, even though Banda is a perfect match. The agency is winning clients who are already in the room but is invisible to the ones still searching for the door.",
+      "hard_choice": "The brand must decide if its target audience uses machines for discovery. One posture is to continue focusing on human-centric channels—reputation, awards, word-of-mouth—and treat AI-driven discovery as irrelevant to their elite acquisition model. A second posture is to actively translate its positioning for machines by building out competitive context, fixing the entity problem, and creating AI-readable content. A third is to bypass organic AI discovery with paid ads, using precise demographic targeting on platforms like LinkedIn to reach their ideal client directly. The strategic question: How do our ideal clients really find us, and is AI a meaningful part of that path?"
     },
     "truth_5": {
-      "headline": "Humans see a clear, authoritative offer; AI sees a confusing, untrustworthy ghost.",
-      "gap_description": "The most significant divergence is between human clarity and machine confusion. For a human visitor, the page is 'FULLY CONVINCING' (HI Score 80) with 'INSTANT-READ' message clarity (HI01 Score 90). For an AI, the page is 'DATA-RICH, ENTITY-BLURRED' (GEO Score 57), anchored by a catastrophic knowledge score (AI05 Score 34) due to its name colliding with a painting. The brand has perfected its message for the human eye but built it on a foundation that is invisible and incoherent to the machine.",
-      "evidence": "'HI score: 80. Diagnosis: FULLY CONVINCING.' (HI.hi.score) | 'GEO score: 57. Diagnosis: DATA-RICH, ENTITY-BLURRED.' (GEO.score) | 'hi01_message_clarity: score: 90' (HI.hi.metrics.hi01_message_clarity.score) | 'ai05_knowledge_anchoring: score: 34' (GEO.metrics.ai05_knowledge_anchoring.score)",
-      "why_matters": "This gap means the brand has a powerful conversion tool that very few people will ever find through automated means. It has a fantastic destination but no roads leading to it. Any future growth dependent on organic search, AI assistants, or automated recommendation platforms is blocked until the machine-readable identity is fixed. The business is entirely reliant on manually directing traffic to its URL.",
-      "hard_choice": "This HI-AI divergence forces a fundamental decision on marketing strategy. The brand can continue its current path, treating the website as a destination for pre-qualified leads who arrive via direct channels, effectively ignoring the AI-legibility problem. Or, it can embark on the difficult, long-term project of building a machine-readable identity—through technical SEO, content strategy, and off-page engagement—to make its clear human message discoverable by AI. The strategic question: Is the website a brochure for warm leads, or is it meant to be an engine for new customer acquisition?"
+      "headline": "Humans see an elite, credible agency; AI engines see a ghost.",
+      "gap_description": "The greatest divergence is in perceived identity. For humans, the brand is 'FULLY CONVINCING' (HI Score: 80) and 'CREDIBLE' (HI02 Trust Score: 78), successfully using awards and client logos to project elite authority. For AI, the brand suffers from 'ENTITY COLLISION' (GEO Score: 50) and its identity is 'LOST' (AI05 Knowledge Anchoring: 28). This 50-point gap between human trust and machine recognition means the brand's entire reputation exists in a form that AI cannot parse or verify.",
+      "evidence": "'HI score: 80. Diagnosis: FULLY CONVINCING.' (HI.hi.score + .diagnosis) | 'HI02_trust_score: 78. Diagnosis: CREDIBLE.' (HI.hi.metrics.hi02_trust_score.score + .diagnosis) | 'GEO score: 50. Diagnosis: ENTITY COLLISION.' (GEO.score + .diagnosis) | 'AI05_knowledge_anchoring: 28. Diagnosis: IDENTITY LOST.' (GEO.metrics.ai05_knowledge_anchoring.score + .diagnosis)",
+      "why_matters": "The brand's equity is built on analog signals of prestige in a world increasingly run on digital, machine-readable facts. This makes its reputation fragile. A competitor with a weaker portfolio but a clean, well-defined entity could be recommended by an AI over Banda simply because the machine is more certain of who they are. The brand's value is not being translated into the new ecosystem of knowledge and discovery.",
+      "hard_choice": "The brand's reputation lives in two separate realities, forcing a choice. One path is to embrace the split, deciding that the human world of awards and referrals is the only one that matters for their business model. A second path is to bridge the realities by committing to the long-term, technically-demanding work of building a machine-readable identity through schema, consistent naming, and explicit content. A third path is to create a specific 'gateway' for machines—a set of AI-friendly pages—while preserving the main site as a pure aesthetic experience for qualified humans. The strategic question: In the future, will this brand's value be determined by human juries or by AI knowledge graphs?"
     },
     "_usage": {
-      "prompt_tokens": 22340,
-      "completion_tokens": 2529,
-      "total_tokens": 28524,
+      "prompt_tokens": 22361,
+      "completion_tokens": 2576,
+      "total_tokens": 29176,
       "prompt_tokens_details": {
-        "cached_tokens": 0
+        "cached_tokens": 20394
       },
       "completion_tokens_details": {
-        "reasoning_tokens": 3655
+        "reasoning_tokens": 4239
       }
     },
     "_model": "gemini-2.5-pro",
@@ -53,53 +53,53 @@
     "_parse_status": "ok"
   },
   "HI_evaluation": {
-    "brand": "The Red Tree",
-    "product_title": "The Beauty Accelerator™",
-    "url": "https://theredtree.co.uk/the-beauty-accelerator/",
+    "brand": "banda",
+    "product_title": "Creative & Branding Agency",
+    "url": "https://banda.agency",
     "overall_perception_summary": {
-      "headline": "Elite Beauty Gatekeeper",
-      "description": "The Red Tree positions its Beauty Accelerator™ not as a mere service, but as the definitive gateway for elite, emerging beauty brands. It combines the hard-nosed authority of a venture capital firm (SFC Capital) with the insider knowledge of a seasoned industry consultancy, creating an aspirational but intimidating proposition. The brand's perception is one of a kingmaker; being chosen is a powerful status signal that validates a startup's potential. The core promise is transforming a promising brand into a market-ready powerhouse through capital, connections, and strategic mastery."
+      "headline": "Irreverent Creative Powerhouse",
+      "description": "Banda positions itself as an elite creative partner defined by a core tension: award-winning, data-backed effectiveness delivered with a witty, irreverent, and unapologetically bold voice. The agency leverages its Ukrainian roots and global accolades (Cannes Lions, Effie Index winner) to project an identity of resilient, world-class talent. For a client, choosing Banda is a status signal—a decision to pursue market disruption and cultural relevance over safe, conventional advertising."
     },
     "category_summaries": {
       "foundation": {
-        "title": "Authoritative Industry Architects",
-        "description": "The Red Tree's purpose is that of The Empowerer, using its authority to transform emerging brands. Its mission is to act as The High Priests of the beauty industry, shaping its future by selectively anointing the next generation of winners. The brand's values are rooted in Clinical Efficacy, prioritizing high-growth results and leveraging its proprietary expertise as the 'secret sauce'. This positions them as The Scientific Miracle in the B2B space: a professional, almost clinical entity that delivers aspirational, high-status results for the brands it backs."
+        "title": "Disruptive Creative Efficacy",
+        "description": "The agency's purpose is The Empowerer, transforming brands into topics of conversation through standout aesthetics. Its values reflect a belief in Clinical Efficacy, prioritizing potent, irreverent ideas that are 'never safe' and framing them within a proprietary creative philosophy. Positioned as The Clean Essentialist, Banda is a design-forward, aspirational choice for clients seeking a curated, 'cult-favorite' partner. The payoff for a client is not just an ad campaign, but a strategic transformation into a culturally relevant entity."
       },
       "identity": {
-        "title": "Sophisticated Expert Authority",
-        "description": "The brand's personality is The Reliable Expert — professional, authoritative, and emotionally distant, projecting competence over warmth. The dominant archetype is The Ruler (70%), evident in its 'UK's leading' and 'go-to company' language, supported by The Sage's wisdom and a touch of The Caregiver's partnership promise. The visual identity, 'Earthy Organic' by grid but 'Heritage Warm' in feel, uses a sophisticated palette of deep burgundy and warm cream to signal investment authority and prestige. The tone is The Clinical Authority: serious, formal, and matter-of-fact, reinforcing its role as a serious business partner."
+        "title": "Expert Outlaw Creators",
+        "description": "The brand's personality is The Reliable Expert — a cool, distant, and supremely competent authority backed by a mountain of awards. This is driven by a dominant Outlaw archetype (60%), which embraces an 'irreverent' and 'never safe' attitude, supported by a meticulous Creator secondary. Visually, this is expressed through a stark, minimalist Pharma-Code identity that provides a clinical frame for their vibrant work. In stark contrast, the Tone of Voice is The Hype Beast — witty, enthusiastic, and conversational, creating a compelling friction between what you see (serious) and what you hear (playful)."
       },
       "communication": {
-        "title": "Expertise-Led Value Proposition",
-        "description": "The messaging hooks founders as a Problem Solver, offering a clear solution to the challenges of funding and scaling. The brand's USP is The Specialist, owning the niche of being the 'UK’s first beauty specific accelerator'. Key selling points are framed as Expert-Validation, using the investment amount (£250k) and partner track records as hard, rational proof. The communication focus is on Business Education, explaining the program's mechanics to build trust and attract high-quality applicants."
+        "title": "Award-Winning Transformation Promise",
+        "description": "The messaging hook is The Promise Maker, selling the dream of becoming a brand 'that people want to talk about.' The agency's edge is as The Specialist, focusing on high-impact brand launches and transformations for ambitious clients. Proof is delivered through Derm-Validation, using a roster of over 200 international awards as objective, third-party evidence of their expertise. The communication focus is on Social Proof, using their stunning portfolio as a gallery of inspirational work to build trust and credibility."
       },
       "benefits": {
-        "title": "Confidence Through Exclusivity",
-        "description": "Functionally, the accelerator provides business Restoration, fixing strategic and financial gaps to enable growth. The core emotional benefit is Relief and Safety, calming the immense anxiety of entrepreneurship with expert backing and capital. For a founder, being selected is an act of Self-Expression, positioning them as a Status Seeker who has achieved a significant milestone. The ultimate social benefit is entry into The Insider Clique, joining an elite, exclusive club of validated, high-potential brand leaders."
+        "title": "Status Through Distinction",
+        "description": "Functionally, Banda provides Correction, fixing a brand's outdated or boring image to achieve cultural relevance. The emotional benefit is Confidence, born from the feeling of superiority that comes with hiring the 'most effective agency in the world.' For a client, this translates into self-expression as The Status Seeker, where the choice of agency is a public declaration of their brand's ambition and taste. The ultimate social benefit is entry into The Insider Clique, joining an exclusive club of globally recognized brands known for their creative bravery."
       }
     },
     "quick_labels": {
-      "brand_voice": "Authoritative Expert",
-      "visual_appeal": "Heritage Prestige",
-      "value_prop": "Capital & Connections",
-      "positioning": "Elite Brand Accelerator"
+      "brand_voice": "Witty & Irreverent",
+      "visual_appeal": "Minimalist Power",
+      "value_prop": "Award-Winning Disruption",
+      "positioning": "Elite Creative Partner"
     },
     "marker_1": {
       "marker_name": "Purpose",
       "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "Derm-Validated (White coat authority)",
+      "slider_a_value": "4/5",
+      "slider_a_position_name": "Bio-Active (Plant-powered efficacy)",
       "slider_b_label": "[SLIDER] MISSION VECTOR (The Goal)",
       "slider_b_value": "5/5",
       "slider_b_position_name": "Transformation (Joy, vibe, psychology)",
       "territory_number": 4,
       "territory_name": "The Empowerer",
-      "reasoning": "Pass 1 hypothesis: The Empowerer. The Red Tree's purpose is to empower emerging beauty brands with capital and expertise. Pass 2: Slider A scores 2/5. The authority is professional and institutional ('UK's leading international beauty brand consultancy', 'SFC Capital'), akin to 'white coat' authority in a business context. Slider B scores 5/5. The mission is total business transformation, taking a startup to 'its next stage and beyond.' Grid: Low(2) x High(5) maps to Territory 4, The Empowerer. Pass 3: Aligned. The brand uses its professional authority to deliver transformative growth.",
-      "evidence": "\"The go‑to company for vision, strategy, action, and implementation.\" ... \"help build the brand to its next stage and beyond.\" ... \"We grow beauty brands.\"",
-      "evidence_src": "ABOUT PAGE + PRODUCT PAGE (body copy) + HOME PAGE (headline)",
+      "reasoning": "Pass 1 hypothesis: The Empowerer. The agency's stated goal is to 'make brands that people want to talk about,' which is a mission of psychological uplift and transformation. Pass 2: Slider A scores 4/5. The authority isn't clinical but comes from human insight and creativity—'a witty answer,' 'joyful moments,' 'unexpectedly familiar.' This is akin to natural wisdom. Slider B scores 5/5. The mission is explicitly 'brand launch and transformation strategies' and creating 'standout aesthetic design systems,' aiming for a total identity shift. Grid: High(4) x High(5) maps directly to Territory 4. Pass 3: Aligned. Both passes confirm the agency's purpose is to empower brands through creative transformation.",
+      "evidence": "\"We make brands that people want to talk about.\" ... \"specialize in brand launch and transformation strategies, standout aesthetic design systems\" ... \"emotional cues that people can easily recognize in a crowded market.\"",
+      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The holistic hypothesis and grid result both converge on The Empowerer. The brand's purpose is to leverage its established business authority to create transformative outcomes for the brands it selects."
+        "coherence_reasoning": "The holistic hypothesis and grid result both point to The Empowerer. The agency's purpose is to transform a brand's public perception and cultural relevance."
       }
     },
     "marker_2": {
@@ -108,16 +108,16 @@
       "slider_a_value": "4/5",
       "slider_a_position_name": "Industry Reform (Changing beauty standards)",
       "slider_b_label": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
-      "slider_b_value": "1/5",
-      "slider_b_position_name": "The Velvet Rope (Gatekept by price or license)",
+      "slider_b_value": "2/5",
+      "slider_b_position_name": "Aspirational (High status, expensive investment)",
       "territory_number": 4,
       "territory_name": "The High Priests",
-      "reasoning": "Pass 1 hypothesis: The High Priests. The mission is to shape the future of the beauty industry by hand-picking and elevating a select few, making it an exclusive, manifesto-driven initiative. Pass 2: Slider A scores 4/5. As 'Thought leaders at the cutting edge of knowledge,' their mission is to influence the industry's direction. Slider B scores 1/5. Access is gatekept; brands must apply and be selected from over 150+ applicants for a single spot, making it highly exclusive. Grid: High(4) x Low(1) maps to Territory 4, The High Priests. Pass 3: Aligned. The mission is to impact the industry through a highly selective, elite process.",
-      "evidence": "\"Thought leaders at the cutting edge of knowledge, providing insights for our clients and the industry.\" ... \"one emerging independent beauty brand receive up to £250,000 equity investment\" ... \"150+ brands have applied since The Beauty Accelerator launched in 2020.\"",
-      "evidence_src": "ABOUT PAGE + PRODUCT PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: The High Priests. Banda has a clear ethos ('We don’t sell comfort'), a global-impact client list (Uber, Google), and an aspirational, selective positioning. Pass 2: Slider A scores 4/5. They work on global campaigns ('Uber. Keep Ukraine Moving') and national identity projects ('BRAVERY'), aiming to shift culture, not just optimize a single metric. Slider B scores 2/5. The high-profile client roster and award-winning status create an aspirational barrier; they are a considered, high-status investment for a brand. Grid: High(4) x Low(2) maps to Territory 4. Pass 3: Aligned. The mission is to create culture-shifting work for an elite, aspirational clientele.",
+      "evidence": "\"Global campaign to support Ukraine\" ... \"We don’t sell comfort because creativity and innovation are never safe.\" ... \"We love brands that are good for people or good for the planet.\"",
+      "evidence_src": "HOME PAGE (body copy) + APPROACH PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The mission to shape the industry (high scope) combined with a highly selective application process (high barrier) perfectly aligns with The High Priests territory."
+        "coherence_reasoning": "The mission to create large-scale, innovative work combined with their selective, high-status positioning aligns perfectly with The High Priests territory."
       }
     },
     "marker_3": {
@@ -130,30 +130,30 @@
       "slider_b_position_name": "Story-First (Focus on legend or vibe)",
       "territory_number": 4,
       "territory_name": "Clinical Efficacy",
-      "reasoning": "Pass 1 hypothesis: Clinical Efficacy. The brand values delivering high-performance business results ('action, and implementation') and does so through its proprietary expertise and network, which acts as a 'black box' of value. Pass 2: Slider A scores 5/5. The focus is on aggressive growth and results, backed by the 'most active seed-stage investor in the UK.' Slider B scores 4/5. While they provide information, the core value is in their expertise and network ('knowledge and expertise of The Red Tree'), which is a story-driven asset, not a transparent spec sheet. Grid: High(5) x Low(4) maps to Territory 4, Clinical Efficacy. Pass 3: Aligned. The brand values results above all, delivered via its prestigious and somewhat mysterious expertise.",
-      "evidence": "\"The go‑to company for vision, strategy, action, and implementation.\" ... \"SFC Capital is the most active seed-stage investor in the UK\" ... \"plus the knowledge and expertise of The Red Tree applied over 12 months.\"",
-      "evidence_src": "ABOUT PAGE + PRODUCT PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: Clinical Efficacy (or 'Creative Efficacy'). The brand values results ('most effective agency') and potency ('never safe') delivered through a proprietary, story-driven process. Pass 2: Slider A scores 5/5. The value 'We don’t sell comfort because creativity and innovation are never safe' is a clear prioritization of aggressive, potent ideas over safety. Slider B scores 4/5. They explain their process through a philosophical narrative ('Bringing method to beautiful chaos,' 'joyful moments') rather than a technical spec sheet, creating a mystique around their craft. Grid: High(5) x Low(4) maps to Territory 4. Pass 3: Aligned. The territory name is a slight misfit, but the logic of 'results at all costs' driven by a proprietary 'magic' is a perfect match.",
+      "evidence": "\"We don’t sell comfort because creativity and innovation are never safe.\" ... \"We prioritize the effectiveness of our communications so that creativity serves a specific goal.\" ... \"Bringing method to beautiful chaos.\"",
+      "evidence_src": "APPROACH PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The focus on high-performance results (Slider A) combined with the value proposition of proprietary knowledge and expertise (Slider B) is a perfect match for the Clinical Efficacy territory."
+        "coherence_reasoning": "The brand's explicit value of prioritizing unsafe, innovative ideas for maximum effectiveness, framed within their unique process narrative, aligns with the core concept of this territory."
       }
     },
     "marker_4": {
       "marker_name": "Positioning",
       "slider_a_label": "[SLIDER] AESTHETIC VIBE (The Uniform)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "Professional (Clean and serious)",
+      "slider_a_value": "5/5",
+      "slider_a_position_name": "High Fashion (Artistic, abstract)",
       "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Status Signal)",
       "slider_b_value": "5/5",
       "slider_b_position_name": "Status Symbol (Exclusivity cues)",
-      "territory_number": 2,
-      "territory_name": "The Scientific Miracle",
-      "reasoning": "Pass 1 hypothesis: The Scientific Miracle. The brand uses a professional, serious aesthetic to justify a highly prestigious, aspirational value proposition for startups. Pass 2: Slider A scores 2/5. The visual identity is professional and serious, with serif fonts and a structured layout, not sterile but certainly not lifestyle-focused. Slider B scores 5/5. Winning the accelerator is a massive status symbol for an emerging brand, signaling elite validation and potential. Grid: Low(2) x High(5) maps to Territory 2, The Scientific Miracle. Pass 3: Aligned. The serious, professional presentation underpins the immense prestige of being selected.",
-      "evidence": "\"The UK’s first beauty specific accelerator.\" ... \"The winner of The Beauty Accelerator™️ will receive up to £250,000 equity investment\" ... Visuals: Sophisticated serif headline font, Stat-heavy layout.",
-      "evidence_src": "PRODUCT PAGE (headline) + PRODUCT PAGE (body copy) + PRODUCT PAGE (visual analysis)",
+      "territory_number": 4,
+      "territory_name": "The Clean Essentialist",
+      "reasoning": "Pass 1 hypothesis: The Clean Essentialist. The agency's visual identity is design-forward and minimalist, while their client list and awards position them as a curated, prestige choice. Pass 2: Slider A scores 5/5. The visual analysis notes a 'sophisticated balance between a restrained, minimalist UI and a loud, expressive creative portfolio,' with 'heavy sans-serif typography' and an artistic feel. This is High Fashion. Slider B scores 5/5. Being the 'most effective independent agency in the world' and having clients like Google and Uber makes working with them a status symbol. Grid: High(5) x High(5) maps to Territory 4. Pass 3: Aligned. While the territory name is borrowed from beauty, the description of a design-forward, curated, cult-favorite brand fits perfectly.",
+      "evidence": "\"Recognized by 200+ international awards\" ... \"The most effective agency in the world (X2)\" ... \"Cannes Lions winner\" ... Visuals: Heavy sans-serif typography, alternating black-on-white sections, full-bleed portfolio grid.",
+      "evidence_src": "HOME PAGE (headline) + PRODUCT GALLERY (visual analysis)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The professional, serious aesthetic combined with the high-prestige, status-conferring value of winning the accelerator aligns perfectly with The Scientific Miracle."
+        "coherence_reasoning": "The combination of a highly curated, artistic aesthetic and extreme prestige signaling (global awards, top-tier clients) firmly places the agency in this territory."
       }
     },
     "marker_5": {
@@ -166,93 +166,93 @@
       "slider_b_position_name": "The Deity (Unquestionable authority)",
       "territory_number": 3,
       "territory_name": "The Reliable Expert",
-      "reasoning": "Pass 1 hypothesis: The Reliable Expert. The brand's personality is defined by its deep expertise and authority, communicated in a professional, non-emotional manner. Pass 2: Slider A scores 2/5. The tone is professional and polite ('How can we help you?'), but emotionally distant and fact-based. Slider B scores 5/5. Language like 'The go-to company,' 'UK's leading,' and 'unparalleled global perspective' establishes unquestionable authority. Grid: Low(2) x High(5) maps to Territory 3, The Reliable Expert. Pass 3: Aligned. The personality is that of a top-tier, authoritative expert.",
-      "evidence": "\"The go‑to company for vision, strategy, action, and implementation.\" ... \"Thought leaders at the cutting edge of knowledge\" ... \"We understand the beauty business intimately and reach the heart of a client’s problem quickly.\"",
-      "evidence_src": "ABOUT PAGE + POSITIONING PAGE",
+      "reasoning": "Pass 1 hypothesis: The Reliable Expert. The brand's personality is one of supreme confidence and competence, communicated with a cool, professional distance rather than warm familiarity. Pass 2: Slider A scores 2/5. The tone is direct and confident ('Hey.'), but not warm or affectionate. It's the voice of a busy, in-demand professional. Slider B scores 5/5. The repeated claims of being the 'most effective agency in the world,' backed by Effie, Cannes, and 200+ other awards, establish unquestionable authority. Grid: Low(2) x High(5) maps to Territory 3. Pass 3: Aligned. The personality is defined by its world-class expertise and a cool, professional demeanor.",
+      "evidence": "\"Meet the most effective independent agency in the world (Effie Index 2020) & Europe (2024)\" ... \"Ads created by банда are ambitious, relevant, and a bit irreverent.\" ... \"Hey.\"",
+      "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy) + PRODUCT GALLERY (visual analysis)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The combination of low emotional warmth and extremely high authority/competence is the definition of The Reliable Expert personality."
+        "coherence_reasoning": "The personality is overwhelmingly defined by its elite competence and authority, with a professional rather than warm emotional temperature, which is the core of The Reliable Expert."
       }
     },
     "marker_6": {
       "marker_name": "Archetypes Mix",
       "primary": {
-        "archetype": "The Ruler",
-        "group": "A (Stability)",
-        "percentage": "70%"
+        "archetype": "The Outlaw",
+        "group": "C (Mastery)",
+        "percentage": "60%"
       },
       "secondary": {
-        "archetype": "The Sage",
-        "group": "B (Independence)",
-        "percentage": "20%"
+        "archetype": "The Creator",
+        "group": "A (Stability)",
+        "percentage": "25%"
       },
       "tertiary": {
-        "archetype": "The Caregiver",
-        "group": "A (Stability)",
-        "percentage": "10%"
+        "archetype": "The Magician",
+        "group": "C (Mastery)",
+        "percentage": "15%"
       },
-      "territory_number": 4,
-      "territory_name": "The Guardian",
-      "reasoning": "The Ruler (70%) is dominant, evident in claims of leadership and authority: 'The go-to company,' 'UK's leading,' 'unparalleled.' They establish order and control in the chaotic startup world. The Sage (20%) supports this with a focus on wisdom and knowledge: 'Thought leaders,' 'insights,' 'expert industry advice.' The Caregiver (10%) provides a crucial softening element, expressing partnership and protection: 'We become part of your team,' 'nurture and grow your beauty business.' Territory: The weighted dominance of The Ruler and The Caregiver places the brand firmly in Territory 4, The Guardian, which frames its role as one of protective, authoritative stewardship.",
-      "evidence": "\"The go‑to company for vision, strategy, action, and implementation.\" (Ruler) ... \"Thought leaders at the cutting edge of knowledge\" (Sage) ... \"We become part of your team.\" (Caregiver)",
-      "evidence_src": "ABOUT PAGE",
+      "territory_number": 1,
+      "territory_name": "The Performer",
+      "reasoning": "The primary archetype is The Outlaw (60%), driven by explicit claims of being 'a bit irreverent' and the ethos that 'creativity and innovation are never safe.' This rebellious spirit defines their approach. The secondary is The Creator (25%), evidenced by their focus on 'craft,' 'painstaking attention to detail,' and building 'standout aesthetic design systems.' The tertiary is The Magician (15%), representing their promise of 'brand launch and transformation.' The weighted dominance of Outlaw and Magician places the brand firmly in Territory 1, The Performer, which aligns with their focus on high-intensity, transformative results.",
+      "evidence": "\"a bit irreverent\" (Outlaw) ... \"We don’t sell comfort because creativity and innovation are never safe.\" (Outlaw) ... \"Creative advertising is a sort of art that requires painstaking attention to detail.\" (Creator) ... \"brand launch and transformation strategies\" (Magician)",
+      "evidence_src": "HOME PAGE (body copy) + APPROACH PAGE",
       "evaluation_check": {
         "coherence_status": "diverged",
-        "coherence_reasoning": "Cross-validation: ToV is Territory 1 (Clinical Authority), which expects a Ruler or Sage primary. VI is Territory 3 (Earthy Organic), expecting Caregiver/Everyman. The chosen primary, The Ruler, aligns perfectly with the observed ToV, which is the more diagnostic signal for a B2B consultancy. The VI territory is a poor fit for the brand's actual function, so the divergence is noted and the ToV-aligned archetype is prioritized."
+        "coherence_reasoning": "Cross-validation reveals a core brand tension. ToV is T4 Hype Beast (expects Magician/Jester) and VI is T1 Pharma-Code (expects Sage/Ruler). No single archetype fits both perfectly. However, The Outlaw is the only archetype that can logically bridge this gap: its rebellious nature explains the irreverent tone (ToV), while its disruptive stance can be expressed through a stark, anti-establishment visual minimalism (VI). The archetype mix is therefore a strategic choice to represent this central tension."
       }
     },
     "marker_7": {
       "marker_name": "Tone of Voice",
       "slider_a_label": "[SLIDER] HUMOR (The Sense of Humor)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "Serious (No jokes, strictly business)",
+      "slider_a_value": "4/5",
+      "slider_a_position_name": "Witty (Clever wordplay, light puns)",
       "slider_b_label": "[SLIDER] FORMALITY (The Dress Code)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "Traditional (Corporate, proper grammar)",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "Conversational (Spoken style, contractions)",
       "slider_c_label": "[SLIDER] RESPECT (The Power Dynamic)",
-      "slider_c_value": "2/5",
-      "slider_c_position_name": "Respectful (Polite, courteous, careful)",
+      "slider_c_value": "4/5",
+      "slider_c_position_name": "Cheeky (Playful, teasing, confident)",
       "slider_d_label": "[SLIDER] ENTHUSIASM (The Energy Level)",
-      "slider_d_value": "2/5",
-      "slider_d_position_name": "Dry (Just the facts, concise)",
-      "territory_number": 1,
-      "territory_name": "The Clinical Authority",
-      "reasoning": "Pass 1 hypothesis: The Clinical Authority. The language is that of a high-level business consultancy—professional, fact-based, and authoritative. Pass 2: Humor is 2/5 (Serious), there are no jokes. Formality is 2/5 (Traditional), using proper corporate language. Respect is 2/5 (Respectful). Enthusiasm is 2/5 (Dry), focusing on facts like investment figures and stats, not emotional language. Applying hard rules: Rule 1 (Clinical Authority) requires H<=2, E<=2, F>=2. All conditions are met (2, 2, 2). The rule fires. Territory 1. Pass 3: Aligned.",
-      "evidence": "\"We develop and steer your ideas, challenge your thinking, and deliver results.\" ... \"An unrivalled breadth of services with deep expertise across all categories of beauty, from mass to super luxury.\"",
-      "evidence_src": "ABOUT PAGE + POSITIONING PAGE",
+      "slider_d_value": "4/5",
+      "slider_d_position_name": "Excited (Exclamation marks, strong adjectives)",
+      "territory_number": 4,
+      "territory_name": "The Hype Beast",
+      "reasoning": "Pass 1 hypothesis: The Hype Beast. The tone is energetic, clever, and confident, designed to create buzz. Pass 2: Humor is 4/5 Witty ('bad jokes about good conditions'). Formality is 4/5 Conversational ('That’s why it turned out so awesome ❤️'). Respect is 4/5 Cheeky ('a bit irreverent'). Enthusiasm is 4/5 Excited ('We’re thrilled,' 'We’re obsessed'). Applying the hard rules: Rule 1 (Clinical) fails. Rule 2 (Hype Beast) is a match because Enthusiasm is >=4 AND Formality, Humor, and Respect are all >=4. The rule fires, assigning Territory 4. Pass 3: Aligned. The combination of high wit, excitement, and cheekiness defines a sophisticated Hype Beast tone.",
+      "evidence": "\"a bit irreverent\" ... \"We made bad jokes about the good conditions of PrivatBank's 'Universal' card.\" ... \"That’s why it turned out so awesome ❤️\" ... \"We’re obsessed with collabs.\"",
+      "evidence_src": "HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The slider scores (H=2, F=2, R=2, E=2) meet the criteria for the first hard rule, assigning the tone to The Clinical Authority. This aligns with the brand's positioning as a serious, expert consultancy."
+        "coherence_reasoning": "The slider scores (H=4, F=4, R=4, E=4) meet the criteria for Rule 2, making the assignment to The Hype Beast territory definitive. The tone is consistently witty, conversational, and energetic."
       }
     },
     "marker_8": {
       "marker_name": "Visual Identity",
       "slider_a_label": "[SLIDER] THE THERMOSTAT (Visual Temperature)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "Radiating (Soft, inviting, approachable)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "Cool (Clean, distant, professional)",
       "slider_b_label": "[SLIDER] THE ENTROPY SCALE (Layout Control)",
       "slider_b_value": "2/5",
       "slider_b_position_name": "Structured (Orderly, predictable hierarchy)",
-      "territory_number": 3,
-      "territory_name": "Earthy Organic",
-      "reasoning": "Pass 1 hypothesis: Heritage Warm, as described by the visual agent, suggesting established luxury and professional warmth. Pass 2: Slider A scores 4/5 Radiating, based directly on the visual analysis reporting 'warm' temperature, 'warm cream', and 'warm-toned' photography. Slider B scores 2/5 Structured, reflecting the 'structured grid' and 'orderly' layout. Grid: High(4) x Low(2) maps to Territory 3, Earthy Organic. Pass 3: Diverged. The grid-derived territory 'Earthy Organic' is a poor descriptor for a financial accelerator. The holistic 'Heritage Warm' better captures the visual intent: using warmth not to signal 'nature', but to make the intimidating world of investment feel more sophisticated and connected to the beauty industry's aesthetic.",
-      "evidence": "\"visual_territory: Heritage Warm\" ... \"color_mood: established luxury and professional warmth\" ... \"primary_palette: Deep burgundy and warm cream tones communicate prestige, investment authority, and sophisticated beauty industry expertise.\"",
-      "evidence_src": "PRODUCT PAGE (visual analysis)",
-      "look_and_feel": "A sophisticated and premium layout using a warm, muted color palette of deep burgundy and cream to establish professional credibility and investment authority.",
-      "distinctive_asset_1": "Deep maroon primary CTA buttons",
-      "distinctive_asset_2": "Sophisticated serif headline font",
-      "distinctive_asset_3": "Stat-heavy layout with thin divider lines",
-      "distinctive_asset_4": "Alternating warm off-white and dark maroon section backgrounds",
-      "distinctive_asset_5": "Macro cream texture imagery",
-      "palette_color_1": "#5E1F2B",
-      "palette_color_2": "#F1EFE9",
-      "palette_color_3": "#8D5E4D",
-      "palette_color_4": "#000000",
-      "palette_color_5": "#EBEAE4",
-      "primary_palette": "Deep burgundy and warm cream tones that communicate prestige, investment authority, and sophisticated beauty industry expertise.",
+      "territory_number": 1,
+      "territory_name": "Pharma-Code",
+      "reasoning": "Pass 1 hypothesis: Pharma-Code. The dominant visual container is a minimalist, high-contrast, black-and-white system that signals professionalism and rigor. Pass 2: Slider A scores 2/5 Cool. The visual analysis describes the container as 'neutral' with a 'stark monochrome UI,' creating a professional, distant feel. Slider B scores 2/5 Structured. The layout is a 'fixed-width grid' with 'orderly, predictable hierarchy.' Grid: Low(2) x Low(2) maps directly to Territory 1. Pass 3: Aligned. While the portfolio content inside is warm and expressive ('Clinical Pop'), the brand's own visual identity—the frame it builds—is cool, structured, and authoritative, which is perfectly captured by Pharma-Code.",
+      "evidence": "\"Stark monochrome UI sections create a professional, 'clinical' foundation\" ... \"The Container layer uses high-contrast black and white banding and massive sans-serif type to establish an air of professional authority\" ... \"layout_type: grid\"",
+      "evidence_src": "PRODUCT GALLERY (visual analysis)",
+      "look_and_feel": "A sophisticated balance between a restrained, minimalist UI and a loud, expressive creative portfolio, positioning the brand as both strategically grounded and visually adventurous.",
+      "distinctive_asset_1": "Heavy sans-serif typography for primary headlines",
+      "distinctive_asset_2": "Alternating black-on-white and white-on-black sections",
+      "distinctive_asset_3": "Full-bleed portfolio grid with minimal text overlays",
+      "distinctive_asset_4": "Symmetrical abstract infinity brand mark in the footer",
+      "distinctive_asset_5": "Direct 'Hey' typographic section for approachability",
+      "palette_color_1": "#000000",
+      "palette_color_2": "#FFFFFF",
+      "palette_color_3": "#0057B7",
+      "palette_color_4": "#FFD700",
+      "palette_color_5": "#9C56A6",
+      "primary_palette": "The agency's palette is grounded in professional black and white, supplemented by the national blue and gold of Ukraine, signaling both global professionalism and strong cultural identity.",
       "evaluation_check": {
-        "coherence_status": "diverged",
-        "coherence_reasoning": "The grid maps the warm and structured visuals to 'Earthy Organic,' which is thematically incorrect for a business consultancy. The visual agent's own interpretation, 'Heritage Warm,' better reflects the strategic use of warmth to signal approachable luxury and prestige in a corporate context."
+        "coherence_status": "aligned",
+        "coherence_reasoning": "The visual analysis of the website's container—the agency's own design choices—points to a cool, structured, high-contrast aesthetic. This aligns perfectly with the Pharma-Code territory."
       }
     },
     "marker_9": {
@@ -261,52 +261,52 @@
       "slider_a_value": "5/5",
       "slider_a_position_name": "The Dream (Identity subject)",
       "slider_b_label": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "Rational (Logical cause-and-effect)",
-      "territory_number": 2,
-      "territory_name": "The Problem Solver",
-      "reasoning": "Pass 1 hypothesis: The Problem Solver. The core message is a solution to the biggest problems for a startup: lack of capital and strategic direction. Pass 2: Slider A scores 5/5. The hook is 'The Dream': receiving £250,000 in equity investment and 12 months of expert guidance. Slider B scores 2/5. The persuasion is rational, based on the investment amount, the partners' track records (SFC Capital backing 450+ startups), and testimonials. Grid: High(5) x Low(2) maps to Territory 2, The Problem Solver. Pass 3: Aligned. The messaging sells the dream, but proves it with rational, compelling facts.",
-      "evidence": "\"Investing up to £250K in emerging beauty brands.\" ... \"receive up to £250,000 equity investment from SFC Capital plus the knowledge and expertise of The Red Tree\" ... \"450 start-up brands backed by SFC Capital\"",
-      "evidence_src": "HOME PAGE (headline) + PRODUCT PAGE (body copy)",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "Evocative (Descriptive, sensory language)",
+      "territory_number": 3,
+      "territory_name": "The Promise Maker",
+      "reasoning": "Pass 1 hypothesis: The Promise Maker. The core message isn't about a process, but about an outcome: becoming a brand that achieves cultural relevance. Pass 2: Slider A scores 5/5. The hook 'We make brands that people want to talk about' is a pure identity-level dream. Slider B scores 4/5. The persuasion is evocative, using phrases like 'beautiful chaos,' 'joyful moments,' and 'witty answer' to describe their value, appealing to emotion and aspiration. Grid: High(5) x High(4) maps to Territory 3. Pass 3: Aligned. The messaging sells the aspirational promise of transformation.",
+      "evidence": "\"We make brands that people want to talk about.\" ... \"We see branding as a series of joyful moments found in the unexpectedly familiar.\" ... \"emotional cues that people can easily recognize\"",
+      "evidence_src": "HOME PAGE (headline) + APPROACH PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The messaging leads with the ultimate dream for a founder (funding) and backs it up with rational proof points, which is the core of The Problem Solver territory."
+        "coherence_reasoning": "The messaging consistently focuses on the aspirational, identity-level outcome of their work, using evocative language, which is the definition of The Promise Maker."
       }
     },
     "marker_10": {
       "marker_name": "Narrative",
       "slider_a_label": "[SLIDER] THE PROTAGONIST (Who Solved It)",
-      "slider_a_value": "1/5",
-      "slider_a_position_name": "The Nobel (Faceless PhDs, dermatologists)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "The Professional (Named specialists, industry insiders)",
       "slider_b_label": "[SLIDER] THE SETTING (Where It Happened)",
-      "slider_b_value": "1/5",
-      "slider_b_position_name": "Sterile (Test tubes, molecules, clean rooms)",
+      "slider_b_value": "3/5",
+      "slider_b_position_name": "Studio (Kitchen table, salon, atelier)",
       "territory_number": 1,
       "territory_name": "The Lab Breakthrough",
-      "reasoning": "Pass 1 hypothesis: The Lab Breakthrough. The narrative is not about a personal journey but about institutional power and expertise creating success. Pass 2: Slider A scores 1/5. The protagonists are faceless, powerful institutions: 'The Red Tree' and 'SFC Capital.' There is no founder story. Slider B scores 1/5. The setting is the sterile, professional world of business strategy and finance, not a natural or craft-based environment. Grid: Low(1) x Low(1) maps to Territory 1, The Lab Breakthrough. Pass 3: Aligned. The story is one of institutional expertise leading to a business breakthrough.",
-      "evidence": "\"A joint initiative between The Red Tree and SFC Capital.\" ... \"The Red Tree is the UK’s leading international beauty brand consultancy.\" ... \"SFC Capital is the most active seed-stage investor in the UK.\"",
-      "evidence_src": "PRODUCT PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: The Lab Breakthrough. The narrative is institutional, focusing on their unique process ('method to chaos') as the source of innovation. Pass 2: Slider A scores 2/5. The protagonist is the agency as a professional collective ('Founded in Kyiv... we specialize'), not a single founder. Slider B scores 3/5. The setting is their creative process, a 'studio' or 'house of interconnected units' where 'creativity ignites.' Grid: A=2, B=3 triggers the mid-score fallback. The narrative emphasizes their technique ('Strategy, Creative, Craft'), which pushes the result to T1/T2. Since the protagonist is institutional, Territory 1 is the better fit. Pass 3: Aligned. The narrative of an expert collective using a proprietary method to achieve breakthroughs fits this territory.",
+      "evidence": "\"At banda, we believe in the power of the collective.\" ... \"Bringing method to beautiful chaos.\" ... \"Banda is a house of interconnected units.\" ... \"Founded in Kyiv, Ukraine, since 2011 we specialize in...\"",
+      "evidence_src": "HOME PAGE (body copy) + APPROACH PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The narrative centers on powerful, faceless institutions (The Protagonist) operating in a professional, data-driven environment (The Setting), which is a direct match for The Lab Breakthrough."
+        "coherence_reasoning": "Although the setting is a creative 'studio,' the narrative's focus on a proprietary 'method' and institutional expertise aligns it with the logic of a Lab Breakthrough, where the 'lab' is their unique process."
       }
     },
     "marker_11": {
       "marker_name": "Key Selling Points",
       "slider_a_label": "[SLIDER] THE VALIDATOR (Who Says It Works?)",
-      "slider_a_value": "1/5",
-      "slider_a_position_name": "The Board (Dermatologist developed/recommended)",
+      "slider_a_value": "3/5",
+      "slider_a_position_name": "The Certifiers (Third-party logos: EWG, PETA)",
       "slider_b_label": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
       "slider_b_value": "2/5",
       "slider_b_position_name": "The Stat ('95% saw reduction in acne')",
       "territory_number": 1,
       "territory_name": "Derm-Validation",
-      "reasoning": "Pass 1 hypothesis: Derm-Validation (re-interpreted as Expert-Validation). The proof comes from the authority of the institutions involved and the hard numbers they present. Pass 2: Slider A scores 1/5. The validators are the institutions themselves—The Red Tree and SFC Capital—acting as the board of experts. Slider B scores 2/5. The proof is statistical and numerical: 'up to £250,000,' '12 months,' '450+ start-up brands backed.' Grid: Low(1) x Low(2) maps to Territory 1. Pass 3: Aligned. The KSPs are validated by expert authority and backed by quantitative data.",
-      "evidence": "\"up to £250,000 equity investment\" ... \"12 months of knowledge and expertise\" ... \"450 start-up brands backed by SFC Capital\" ... Testimonials from past winners.",
-      "evidence_src": "PRODUCT PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: Derm-Validation. The brand's primary proof points are prestigious, third-party awards from expert juries. Pass 2: Slider A scores 3/5. The validators are award bodies like Cannes Lions and Effie—the industry's equivalent of certifiers. Slider B scores 2/5. The proof is statistical: '200+ international awards,' 'most effective agency in the world (X2).' Grid: Mid(3) x Low(2) maps to Territory 1. Pass 3: Aligned. The territory name is from skincare, but the logic of using third-party expert validation and statistical proof is a perfect match.",
+      "evidence": "\"Recognized by 200+ international awards\" ... \"The most creative agency in Central & Eastern Europe\" ... \"The most effective agency in the world (X2)\" ... \"Cannes Lions winner\"",
+      "evidence_src": "HOME PAGE (headline)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The validation comes from the highest authority (The Board) and is presented as hard data (The Stat), which is a direct fit for the re-interpreted 'Derm-Validation' territory."
+        "coherence_reasoning": "The KSPs are consistently framed as objective, third-party validation from the highest authorities in the advertising industry, which is the core of this territory."
       }
     },
     "marker_12": {
@@ -319,30 +319,30 @@
       "slider_b_position_name": "The Specialist (Hyper-niche condition)",
       "territory_number": 4,
       "territory_name": "The Specialist",
-      "reasoning": "Pass 1 hypothesis: The Specialist. The entire program is hyper-focused on a very specific niche: emerging independent beauty brands in the UK. Pass 2: Slider A scores 5/5. The claim 'The UK’s first beauty specific accelerator' positions it as a unique, proprietary system. Slider B scores 5/5. The target audience, 'emerging independent beauty brand,' is a hyper-niche segment of the startup world. Grid: Any(5) x High(5) maps directly to Territory 4, The Specialist. Pass 3: Aligned. The USP is its unique system applied to a very specific market niche.",
-      "evidence": "\"The UK’s first beauty specific accelerator.\" ... \"one emerging independent beauty brand\" ... \"A joint initiative between The Red Tree and SFC Capital.\"",
-      "evidence_src": "PRODUCT PAGE (headline) + PRODUCT PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: The Specialist. Banda's unique selling proposition is their specialized expertise in creating culturally resonant, award-winning brands. Pass 2: Slider A scores 5/5. Their USP is their unique philosophy and process—'Bringing method to beautiful chaos,' 'a bit irreverent'—which functions as a proprietary system for creativity. Slider B scores 5/5. They are specialists in a hyper-niche: high-impact brand launches and transformations for clients who value creativity over comfort. Grid: Any(A) x High(5) maps directly to Territory 4. Pass 3: Aligned. They are specialists in a very specific, high-end segment of the market.",
+      "evidence": "\"specialize in brand launch and transformation strategies\" ... \"We don’t sell comfort because creativity and innovation are never safe.\" ... \"Ads created by банда are ambitious, relevant, and a bit irreverent.\"",
+      "evidence_src": "HOME PAGE (body copy) + APPROACH PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's unique claim to be the 'first' in its category, combined with its hyper-niche target audience, makes it a textbook example of The Specialist."
+        "coherence_reasoning": "The combination of a unique, proprietary creative philosophy and a hyper-focused target market (ambitious brands seeking transformation) makes them a clear Specialist."
       }
     },
     "marker_13": {
       "marker_name": "Focus",
       "slider_a_label": "[SLIDER] THE DEPTH GAUGE (Content Purpose)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "The Explainer (Infographics, How it Works)",
+      "slider_a_value": "5/5",
+      "slider_a_position_name": "The Gallery (Artistic, abstract, mood-first)",
       "slider_b_label": "[SLIDER] THE INTENT VECTOR (Content Goal)",
       "slider_b_value": "1/5",
       "slider_b_position_name": "The Thesis (Clinical studies, dermatologist quotes)",
-      "territory_number": 1,
-      "territory_name": "Science Education",
-      "reasoning": "Pass 1 hypothesis: Science Education (re-interpreted as Business Education). The page's focus is on explaining the program's mechanics and credibility to build trust and attract qualified applicants. Pass 2: Slider A scores 2/5. The content (FAQs, criteria, program details) serves to explain how the accelerator works. Slider B scores 1/5. The intent is to build trust and prove credibility through facts, figures, and partner credentials, much like a thesis. The 'sale' is getting a quality application, which requires maximum trust. Grid: Low(2) x Low(1) maps to Territory 1. Pass 3: Aligned. The focus is on educating the potential applicant to build trust.",
-      "evidence": "\"What is The Beauty Accelerator™?\" ... \"Who is The Red Tree?\" ... \"Who is SFC Capital?\" ... \"The Beauty Accelerator™ Entry Criteria\"",
-      "evidence_src": "PRODUCT PAGE (body copy)",
+      "territory_number": 2,
+      "territory_name": "Social Proof",
+      "reasoning": "Pass 1 hypothesis: Social Proof. The website's primary focus is using its portfolio of work (visual inspiration) as proof of its elite capabilities (trust). Pass 2: Slider A scores 5/5. The homepage is dominated by a 'full-bleed portfolio grid,' functioning as an art gallery of their best work. Slider B scores 1/5. The intent of showcasing this work, alongside the numerous awards, is to establish unquestionable credibility and trust. Grid: High(5) x Low(1) maps to Territory 2. Pass 3: Aligned. While not 'social' in the user-generated sense, the logic of using inspirational content to build validation and trust holds true.",
+      "evidence": "\"Works\" (Primary navigation) ... \"Load more projects\" (CTA) ... The visual layout is a grid of client projects (Uber, Google, BRAVERY, etc.).",
+      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (headline)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The content is primarily explanatory (Slider A) with the goal of establishing deep credibility and trust (Slider B), which aligns perfectly with the Business Education interpretation of this territory."
+        "coherence_reasoning": "The website is structured as a gallery of past work (inspiration) with the clear goal of proving their expertise and building trust (validation), which aligns with this territory."
       }
     },
     "marker_14": {
@@ -351,81 +351,81 @@
       "slider_a_value": "5/5",
       "slider_a_position_name": "The Fixer (Reverses damage, cracks, acne)",
       "slider_b_label": "[SLIDER] THE OUTCOME TARGET (The Goal)",
-      "slider_b_value": "1/5",
-      "slider_b_position_name": "Biological (pH balance, microbiome, lipid layer)",
-      "territory_number": 1,
-      "territory_name": "Restoration",
-      "reasoning": "Pass 1 hypothesis: Restoration. The functional benefit is to fix a startup's core problems (funding, strategy, network) and restore its health for growth. Pass 2: Slider A scores 5/5. The program is a 'Fixer,' providing capital and strategy to solve fundamental business challenges. Slider B scores 1/5. The outcome is improved business health at a foundational level—'business plan,' 'retail strategy,' 'market entry'—which is analogous to biological health. Grid: High(5) x Low(1) maps to Territory 1, Restoration. Pass 3: Aligned. The program functions to restore the foundational health of a business.",
-      "evidence": "\"create comprehensive strategies that articulate your brand’s vision.\" ... \"Market Entry Strategies\" ... \"Commercial Finance & Exit Planning\" ... \"equity investment\"",
-      "evidence_src": "POSITIONING PAGE + PRODUCT PAGE (body copy)",
+      "slider_b_value": "5/5",
+      "slider_b_position_name": "Vanity (Glass skin, poreless, filter-like)",
+      "territory_number": 4,
+      "territory_name": "Correction",
+      "reasoning": "Pass 1 hypothesis: Correction. The functional benefit for a client is the correction of a stale or invisible brand image into something standout and culturally relevant. Pass 2: Slider A scores 5/5. The agency specializes in 'brand launch and transformation,' which is an aggressive restoration or fixing of a brand's market position. Slider B scores 5/5. The goal is a 'standout aesthetic design system' that makes a brand talked about—a vanity-driven outcome focused on public perception and appearance. Grid: High(5) x High(5) maps to Territory 4. Pass 3: Aligned. The core function is to correct a brand's image for maximum aesthetic and cultural impact.",
+      "evidence": "\"brand launch and transformation strategies\" ... \"standout aesthetic design systems\" ... \"NAMU Rebranding. Old doesn’t have to mean boring\"",
+      "evidence_src": "HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The program acts as a 'Fixer' (Slider A) to improve the fundamental 'biological' health of a business (Slider B), making Restoration a perfect fit."
+        "coherence_reasoning": "The agency's function is to aggressively transform a brand's public image, focusing on aesthetic and perceptual outcomes, which is the definition of Correction."
       }
     },
     "marker_15": {
       "marker_name": "Emotional Benefits",
       "slider_a_label": "[SLIDER] THE ANXIETY AXIS (The Emotional Direction)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "Reassurance ('Don't worry, this works')",
+      "slider_a_value": "4/5",
+      "slider_a_position_name": "Delight (A pleasant surprise/smell)",
       "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS (The Audience)",
-      "slider_b_value": "1/5",
-      "slider_b_position_name": "Sanctuary (I feel safe inside my own body)",
-      "territory_number": 1,
-      "territory_name": "Relief / Safety",
-      "reasoning": "Pass 1 hypothesis: Relief / Safety. For a founder, the biggest emotional pains are uncertainty and financial anxiety. This program offers the safety of expert guidance and the relief of funding. Pass 2: Slider A scores 2/5. The promise of 'knowledge and expertise' and 'strategic guidance' provides immense reassurance to an anxious founder. Slider B scores 1/5. This reassurance creates a feeling of internal safety and sanctuary, allowing the founder to focus on building the brand without constant worry. Grid: Low(2) x Low(1) maps to Territory 1. Pass 3: Aligned. The core emotional benefit is the removal of anxiety.",
-      "evidence": "\"We become part of your team.\" ... \"Building long-term relationships with our clients to become an integral and trusted part of their business.\" ... \"strategic guidance, access to a global network\"",
-      "evidence_src": "ABOUT PAGE + PRODUCT PAGE (body copy)",
+      "slider_b_value": "5/5",
+      "slider_b_position_name": "Superiority (I feel better than others)",
+      "territory_number": 2,
+      "territory_name": "Confidence",
+      "reasoning": "Pass 1 hypothesis: Confidence. The emotional payoff for a client is the confidence that comes from working with the 'best in the world' and the excitement of creating something disruptive. Pass 2: Slider A scores 4/5. The process is framed as joyful and exciting—'creativity ignites,' 'joyful moments.' Slider B scores 5/5. Hiring the 'most effective agency in the world' provides a feeling of superiority and status within one's industry. Grid: High(4) x High(5) maps to Territory 2. Pass 3: Aligned. The emotional benefit is a powerful sense of confidence, bordering on superiority, derived from partnering with an elite, exciting agency.",
+      "evidence": "\"At banda, we believe in the power of the collective. Together, we build the kind of atmosphere where creativity ignites.\" ... \"We see branding as a series of joyful moments\" ... \"Meet the most effective independent agency in the world\"",
+      "evidence_src": "HOME PAGE (body copy) + APPROACH PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The program's promise of expert partnership provides reassurance (Slider A) that creates a sense of internal safety for the founder (Slider B), aligning with the Relief / Safety territory."
+        "coherence_reasoning": "The combination of creative excitement and the status conferred by the agency's elite reputation delivers a powerful feeling of confidence to their clients."
       }
     },
     "marker_16": {
       "marker_name": "Self-Expression",
       "slider_a_label": "[SLIDER] THE SIGNAL DRIVER (Purchase Motivation)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "The Statement (I buy it to show my taste)",
+      "slider_a_value": "5/5",
+      "slider_a_position_name": "The Avatar (define who I am)",
       "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION (Social Position)",
-      "slider_b_value": "4/5",
-      "slider_b_position_name": "The Insider (Hard to find; 'if you know, you know')",
+      "slider_b_value": "5/5",
+      "slider_b_position_name": "The Exclusive (Gatekept by price or access)",
       "territory_number": 4,
       "territory_name": "The Status Seeker",
-      "reasoning": "Pass 1 hypothesis: The Status Seeker. Being selected by this accelerator is a powerful status signal within the beauty industry, expressing that your brand is elite and has high potential. Pass 2: Slider A scores 4/5. A founder applies not just for the money, but to make a statement that their brand has been validated by the best. Slider B scores 4/5. This places the brand in an 'insider' group of highly vetted, promising startups, a tribe that is hard to get into. Grid: High(4) x High(4) maps to Territory 4, The Status Seeker. Pass 3: Aligned. The self-expression benefit is achieving the status of being a chosen one.",
-      "evidence": "\"The winner of The Beauty Accelerator™️ will receive up to £250,000\" ... \"it’s a dream come true.\" ... \"We applied, never thinking we would ACTUALLY win\"",
-      "evidence_src": "PRODUCT PAGE (body copy) + PRODUCT PAGE (testimonials)",
+      "reasoning": "Pass 1 hypothesis: The Status Seeker. Choosing Banda is a public statement about a brand's ambition, taste, and willingness to invest in top-tier creative. Pass 2: Slider A scores 5/5. The decision to hire this agency is a full identity signal; it says 'we are a bold, creative, and world-class brand.' Slider B scores 5/5. As the 'most effective independent agency' with a curated client list, they are an exclusive, gatekept choice. Grid: High(5) x High(5) maps to Territory 4. Pass 3: Aligned. Hiring Banda is the ultimate status signal in the marketing world.",
+      "evidence": "\"The most effective agency in the world (X2)\" ... \"Cannes Lions winner\" ... \"We don’t sell comfort because creativity and innovation are never safe.\"",
+      "evidence_src": "HOME PAGE (headline) + APPROACH PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The motivation to apply is to gain a powerful identity statement (Slider A) by joining a highly exclusive insider group (Slider B), which defines the Status Seeker."
+        "coherence_reasoning": "The purchase motivation is pure identity signaling, and the agency's positioning is exclusive and elite, making The Status Seeker a perfect fit."
       }
     },
     "marker_17": {
       "marker_name": "Social Benefits",
       "slider_a_label": "[SLIDER] THE SOCIAL VECTOR (Social Goal)",
       "slider_a_value": "5/5",
-      "slider_a_position_name": "Separation ('I want to be unlike the rest')",
+      "slider_a_position_name": "Separation (I want to be unlike the rest)",
       "slider_b_label": "[SLIDER] THE GROUP DYNAMIC (Tribal Scale)",
       "slider_b_value": "5/5",
       "slider_b_position_name": "The Elite (Gatekeepers/VIPs)",
       "territory_number": 4,
       "territory_name": "The Insider Clique",
-      "reasoning": "Pass 1 hypothesis: The Insider Clique. Winning provides entry into an exclusive social circle of elite founders and investors. Pass 2: Slider A scores 5/5. The social goal is ultimate differentiation; being a 'winner' of this accelerator separates a brand from the hundreds of others that applied. Slider B scores 5/5. The winner joins an elite group, hand-picked by industry gatekeepers (The Red Tree, SFC Capital). Grid: High(5) x High(5) maps to Territory 4, The Insider Clique. Pass 3: Aligned. The social benefit is joining an exclusive, elite club.",
-      "evidence": "\"The winner of The Beauty Accelerator™️\" ... \"150+ brands have applied since The Beauty Accelerator launched in 2020.\" ... \"it’s a dream come true. We applied, never thinking we would ACTUALLY win\"",
-      "evidence_src": "PRODUCT PAGE (body copy) + PRODUCT PAGE (testimonials)",
+      "reasoning": "Pass 1 hypothesis: The Insider Clique. Working with Banda grants a brand entry into an exclusive club of creatively ambitious, globally recognized companies. Pass 2: Slider A scores 5/5. The goal is radical differentiation; their ethos is to be 'a bit irreverent' and 'never safe,' ensuring their clients stand apart. Slider B scores 5/5. The group dynamic is explicitly elite, comprised of other major brands (Uber, Google) and validated by the most prestigious award juries in the world. Grid: High(5) x High(5) maps to Territory 4. Pass 3: Aligned. The social benefit is joining an elite, insider group known for creative distinction.",
+      "evidence": "\"Founded in Kyiv, Ukraine...\" (signals a distinct origin story) ... \"We don’t sell comfort...\" (signals differentiation) ... Client list includes Uber, Google, CryptoProcessing (signals an elite group).",
+      "evidence_src": "HOME PAGE (body copy) + APPROACH PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The goal of separating one's brand from the pack (Slider A) by joining a group curated by elites (Slider B) is the definition of The Insider Clique."
+        "coherence_reasoning": "The agency's entire positioning is based on helping brands differentiate themselves, and in doing so, granting them access to an elite tier of creatively-led companies."
       }
     },
     "_usage": {
-      "prompt_tokens": 17441,
-      "completion_tokens": 2916,
-      "total_tokens": 22821,
+      "prompt_tokens": 13930,
+      "completion_tokens": 3283,
+      "total_tokens": 21074,
       "prompt_tokens_details": {
-        "cached_tokens": 16296
+        "cached_tokens": 12205
       },
       "completion_tokens_details": {
-        "reasoning_tokens": 2464
+        "reasoning_tokens": 3861
       }
     },
     "_model": "gemini-2.5-pro",
@@ -435,208 +435,208 @@
       "score": 80,
       "label": "LANDED",
       "diagnosis": "FULLY CONVINCING",
-      "profile": "The page is a masterclass in B2B communication for a niche, high-value audience. It clearly articulates a complex offering—an equity-for-expertise accelerator—with exceptional clarity and authority. Strong social proof from named founders and transparent partnership details build immediate, substantial trust for its target of emerging beauty brand founders.",
-      "blind_spot": "The page's primary weakness is its initial friction. A large cookie consent banner obscures initial content, and the sheer density of information, while valuable, could be better structured with more visual hierarchy to guide a visitor scanning in the first 10 seconds. Highlighting the key numbers (£250k, 12 months) more dynamically would improve scannability.",
+      "profile": "The website functions as a powerful statement of authority, using a portfolio of high-status clients (Uber, Google) and a large volume of prestigious awards (Cannes, Effie) as its primary argument. It projects extreme confidence through a minimalist 'Clinical Pop' visual system and direct, declarative copy. The brand's core message is that its creative work is not just aesthetically pleasing but globally recognized as the most effective.",
+      "blind_spot": "The brand's immense confidence, backed by awards, completely substitutes for human-scale trust signals like client testimonials or case study narratives on the homepage. While it successfully proves it's the 'best', it doesn't show what it's like to work with them. Adding a single, powerful quote from a client like Uber could bridge the gap from 'award-winning vendor' to 'trusted creative partner'.",
       "metrics": {
         "hi01_message_clarity": {
           "label": "MESSAGE CLARITY",
-          "score": 90,
+          "score": 80,
           "diagnosis": "INSTANT-READ",
-          "so_what": "The page instantly communicates its purpose and value. A visitor immediately understands this is a high-stakes accelerator for beauty brands, what the prize is, and who is behind it. This clarity ensures only qualified prospects will continue reading, effectively pre-screening the audience.",
+          "so_what": "The page instantly communicates its core differentiator: creating culturally relevant work that gets talked about. While it doesn't explicitly name its target audience, the high-caliber client list and award mentions do that work implicitly. A visitor immediately understands this is a top-tier agency for ambitious brands.",
           "sub_metrics": {
             "headline_clarity": {
-              "score": 90,
-              "evaluation": "The headline 'The UK’s first beauty specific accelerator' perfectly answers WHAT (accelerator), WHO FOR (beauty brands), and WHY THIS ONE (it's the first). All three Krug anchors land immediately, establishing authority and relevance."
+              "score": 70,
+              "evaluation": "The headline 'We make brands that people want to talk about' clearly states WHAT the agency does and WHY a client should choose them (to generate buzz). It omits WHO it's for, but the surrounding client logos (Uber, Google) fill in that gap, making 2 of 3 anchors land."
             },
             "value_prop_above_fold": {
-              "score": 90,
-              "evaluation": "The first 150 words state the BENEFIT ('up to £250,000 equity investment'), MECHANISM ('joint initiative between The Red Tree and SFC Capital'), and CONTRAST ('The UK’s first'). The core value exchange is fully articulated above the fold."
+              "score": 70,
+              "evaluation": "The first 150 words state the BENEFIT ('brands that people want to talk about') and the MECHANISM ('brand launch and transformation strategies, standout aesthetic design systems'). It lacks an explicit CONTRAST statement, instead using its awards and client list as an implicit 'versus everyone else'."
             },
             "benefit_hierarchy": {
               "score": 90,
-              "evaluation": "The lead benefit is the £250k investment and 12 months of expertise, which is the core differentiator of the program. The page leads with its strongest, most unique asset, which is best practice."
+              "evaluation": "The lead benefit, creating 'brands that people want to talk about,' is the core differentiator. It elevates the agency from a service provider to a creator of cultural capital, which is exactly what high-end clients are buying."
             },
             "jargon_load": {
               "score": 90,
-              "evaluation": "Terms like 'equity investment' and 'seed-stage investor' are table-stakes vocabulary for the target audience of brand founders. The language is precise and professional, not gratuitously complex, with zero unexplained jargon for its intended reader."
+              "evaluation": "The copy is direct and clean. Terms like 'design systems' and 'user experience insights' are standard vocabulary for the target B2B audience and are not used gratuitously. The overall effect is one of clarity and confidence."
             }
           },
           "checklist": {
             "pass": [
-              "headline 'The UK’s first beauty specific accelerator' nails all 3 anchors"
+              "leads with a clear differentiator: 'brands people want to talk about'"
             ],
             "warn": [
-              "body copy is text-heavy, potentially slowing down information absorption"
+              "implies WHO it's for via client logos rather than stating it"
             ],
             "fail": [
-              "lacks a simple summary sentence for visitors who won't read paragraphs"
+              "omits an explicit contrast against alternative agencies"
             ]
           }
         },
         "hi02_trust_score": {
           "label": "TRUST SCORE",
-          "score": 82,
-          "diagnosis": "RECEIPTS LOUD",
-          "so_what": "Trust is established through overwhelming, specific evidence rather than brand self-praise. Named testimonials from past winners, transparent partner details, and specific data points create a powerful case. The brand doesn't ask for trust; it demonstrates its trustworthiness with verifiable facts.",
+          "score": 78,
+          "diagnosis": "CREDIBLE",
+          "so_what": "The brand builds trust almost exclusively through overwhelming reputed credibility. It makes superlative claims like 'most effective agency in the world' and immediately substantiates them with named, verifiable awards like the Effie Index. This is a high-risk, high-reward strategy that works because the proof is undeniable.",
           "sub_metrics": {
             "hype_index": {
               "score": 90,
-              "evaluation": "The page is virtually free of hype. Claims like 'The UK's first' are factual differentiators, not unsupported superlatives. The tone is professional and evidence-based, with fewer than 2 instances of self-praise."
+              "evaluation": "The page is loaded with superlatives like 'The most effective agency in the world', but nearly every one is immediately substantiated with a source ('Effie Index 2020'). This rare execution turns potential hype into hard evidence, leaving very few unsupported claims."
             },
             "claim_to_evidence_ratio": {
               "score": 90,
-              "evaluation": "Nearly every claim is substantiated. The investment amount is specific (Level A), partners are named and detailed (Level A), and testimonials are from named founders of specific companies (Level A). Over 70% of claims are fully verifiable."
+              "evaluation": "The ratio of verifiable claims is exceptionally high. Claims like 'Cannes Lions winner' and 'most effective independent agency (Effie Index 2020)' are Level A. Over 70% of the trust-building statements are directly tied to verifiable, third-party sources."
             },
             "social_proof": {
-              "score": 90,
-              "evaluation": "Social proof is high-quality, featuring named founders from past winning brands like 'KANKAN' and 'Faace'. This demonstrates strong SPECIFICITY and SIMILARITY, showing prospective applicants a clear picture of who succeeds."
+              "score": 70,
+              "evaluation": "Social proof is strong but one-dimensional, relying on high-status client logos and prestigious awards (QUANTITY/AUTHORITY). It lacks SPECIFICITY and SIMILARITY, as there are no testimonials or quotes from individual clients to create a personal connection."
             },
             "trust_signals": {
-              "score": 90,
-              "evaluation": "All four Fogg credibility types are present: SURFACE (professional design), EARNED (named testimonials), PRESUMED (company registration details in footer), and REPUTED (partnership with SFC Capital, a named investor)."
+              "score": 70,
+              "evaluation": "The page exhibits 3 of 4 Fogg credibility types. It has strong SURFACE (professional design), PRESUMED (clear contact info), and REPUTED (awards, press, clients) credibility. It completely lacks EARNED credibility signals like case studies or testimonials on the homepage."
             },
             "visible_certifications": {
-              "score": 50,
-              "evaluation": "The page cites its key partner, SFC Capital, but does not use third-party certification logos (like B Corp, awards, or press mentions) to bolster trust. This represents a missed opportunity to add another layer of external validation."
+              "score": 70,
+              "evaluation": "The page explicitly cites multiple prestigious awards which function as certifications of quality: 'Cannes Lions', 'Red Dot', and the 'Effie Index'. These 3 named awards are powerful trust assets for their target audience."
             }
           },
           "checklist": {
             "pass": [
-              "cites named testimonials from past winners like 'Mary McLeod... — KANKAN'"
+              "substantiates superlative claims with named awards like 'Effie Index'"
             ],
             "warn": [
-              "relies on partner reputation instead of independent third-party awards"
+              "relies entirely on awards and logos, lacking human testimonials"
             ],
             "fail": [
-              "omits logos from press or industry bodies to act as visual shorthand for trust"
+              "omits all 'Earned' trust signals like case studies on the homepage"
             ]
           }
         },
         "hi03_voice_consistency": {
           "label": "VOICE CONSISTENCY",
-          "score": 90,
+          "score": 85,
           "diagnosis": "ONE PERSON",
-          "so_what": "The voice is flawlessly consistent with the brand's positioning as an expert consultancy. The accelerator page is a perfect productization of the brand's core promise—'vision, strategy, action'—speaking with the same authoritative, consultative, and results-focused tone found across its main site.",
+          "so_what": "The brand voice is remarkably consistent, projecting a confident, edgy, and results-obsessed personality. The homepage perfectly executes the Creator/Rebel archetype established in the 'Approach' page, speaking with the authority of an agency that knows it's at the top of its game. It reads like it was written by one person with a clear point of view.",
           "sub_metrics": {
             "tone_alignment": {
               "score": 90,
-              "evaluation": "The brand's baseline from 'about' and 'what we do' pages is consultative and expert. The target page maintains this exact register, presenting the accelerator as a serious, structured business opportunity. The tone is a perfect match."
+              "evaluation": "The baseline tone from the 'Approach' page is consultative with an edge ('creativity and innovation are never safe'). The homepage's declarative, confident tone ('We make brands that people want to talk about') is a perfect match, representing the same register."
             },
             "vocabulary_alignment": {
-              "score": 90,
-              "evaluation": "The brand's core semantic fields of 'strategy', 'business', and 'implementation' are all present on the target page through phrases like 'strategic guidance' and 'equity investment'. The vocabulary is perfectly aligned."
+              "score": 70,
+              "evaluation": "The homepage heavily uses the brand's core semantic fields of 'Effectiveness' ('most effective agency') and 'Creativity/Craft' (the portfolio). It underutilizes the 'Simplicity' field from the baseline, and omits the 'good for the planet' ethos entirely."
             },
             "voice_signature_match": {
               "score": 90,
-              "evaluation": "The brand's Sage/Ruler archetype (expert + authority) is delivered consistently. The page provides knowledge (FAQs, criteria) and asserts control over a high-value process, matching the signature established on other pages."
+              "evaluation": "The brand's archetype is a Creator/Rebel mix. The homepage delivers this flawlessly, showcasing innovative work (Creator) with bold, 'irreverent' claims and edgy projects that challenge norms (Rebel). The signature is perfectly consistent."
             },
             "claim_stack_alignment": {
               "score": 90,
-              "evaluation": "The core brand claim to be 'The go-to company for vision, strategy, action' is directly reinforced. The accelerator is the ultimate proof of this claim, offering exactly that to a new brand. All baseline claims are reinforced."
+              "evaluation": "The homepage is a direct reinforcement of the core claims from the 'Approach' page. It leads with 'Effectiveness' (Effie awards) and proves its commitment to 'Creativity' and 'Craft' with the visual portfolio. All baseline claims are reinforced."
             }
           },
           "checklist": {
             "pass": [
-              "uses consistent vocabulary like 'strategic guidance'"
+              "delivers a consistent Creator/Rebel archetype"
             ],
             "warn": [
-              "could introduce more of the 'naturally curious' personality from the about page"
+              "homepage vocabulary omits the 'good for the planet' ethos"
             ],
             "fail": [
-              "lacks a concise mission statement on-page to anchor the voice"
+              "lacks any mention of the 'simplicity' value from the approach page"
             ]
           }
         },
         "hi04_audience_resonance": {
           "label": "AUDIENCE RESONANCE",
-          "score": 83,
+          "score": 85,
           "diagnosis": "LASER-AIMED",
-          "so_what": "The page speaks directly and exclusively to its target audience: ambitious beauty founders. The combination of sophisticated visuals and no-nonsense financial and strategic language resonates perfectly with a user who is seeking serious business growth, not just creative inspiration.",
+          "so_what": "The page is precisely calibrated for its target audience of modern, ambitious brand leaders, likely Millennials and older Gen Z. The combination of a minimalist, high-design aesthetic with a portfolio of culturally-relevant work and hard proof of effectiveness speaks directly to a decision-maker who values both creative credibility and business impact.",
           "sub_metrics": {
             "audience_segment_probability": {
-              "score": 70,
-              "evaluation": "The page targets a professional stage, not an age cohort, but startup founders skew towards Millennials (≈0.60) and Gen X (≈0.30). The sophisticated 'Heritage Warm' aesthetic and focus on scaling a business aligns with these groups. The top cohort is clear."
+              "score": 90,
+              "evaluation": "The signals point strongly to Millennial decision-makers (≈0.65) who value creativity, effectiveness, and cultural relevance. The irreverent tone and tech-forward client list also resonate with Gen Z (≈0.25), while the effectiveness awards appeal to results-driven Gen X (≈0.10)."
             },
             "signal_coherence": {
               "score": 90,
-              "evaluation": "Text and visual signals are perfectly coherent. The professional, investment-focused copy is anchored by a 'sophisticated and premium layout' with a 'Heritage Warm' aesthetic. Both signals point to a serious, high-value business proposition."
+              "evaluation": "Text and visual signals are perfectly anchored. The 'irreverent' and confident copy is embodied by the 'Clinical Pop' visual territory—a stark, professional frame containing explosive, vibrant creative work. The message is unified and powerful."
             },
             "intent_match": {
               "score": 90,
-              "evaluation": "The page is unambiguously designed for the decision/action stage of the funnel. The goal is to inform and persuade a qualified founder to apply. The content is perfectly matched to this single, clear intent."
+              "evaluation": "The page is clearly designed for the consideration and decision stages of the client funnel. It presents a portfolio of work and a wall of evidence (awards) to help a potential client evaluate their capabilities and make a hiring decision. The intent is singular and clear."
             },
             "accessibility_signals": {
-              "score": 80,
-              "evaluation": "Scores 3 of 4. COMMITMENT TIER is visible ('up to £250,000 equity investment'). LANGUAGE is inclusive for its expert audience. CTAs are plain-language ('Apply now'). It only misses on providing layperson translations, which are not necessary for this B2B context."
+              "score": 70,
+              "evaluation": "The page has 3 of 4 signals: inclusive, direct language; jargon appropriate for the audience; and a clear CTA ('Load more projects'). It fails on commitment-tier visibility, as pricing is entirely opaque, which is standard for the industry but still a barrier."
             }
           },
           "audience_segments": [
             {
-              "label": "Millennials seeking to scale their emerging beauty brand with significant funding and expert mentorship",
+              "label": "Millennials seeking a culturally-fluent agency to build a brand that generates authentic conversation and buzz",
               "cohort": "millennials",
-              "probability": 0.6,
-              "evidence_text": "The winner of The Beauty Accelerator™️ will receive up to £250,000 equity investment from SFC Capital plus the knowledge and expertise of The Red Tree applied over 12 months.",
-              "evidence_visual": "The website presents a sophisticated and premium layout using a warm, muted color palette that establishes immediate professional credibility."
+              "probability": 0.65,
+              "evidence_text": "We make brands that people want to talk about.",
+              "evidence_visual": "Vibrant and diverse portfolio, ranging from grit-filled lifestyle photography to playful character illustrations and saturated brand graphics."
             },
             {
-              "label": "Gen X seeking a strategic partner and capital to accelerate growth for their established independent beauty company",
-              "cohort": "gen_x",
-              "probability": 0.3,
-              "evidence_text": "A joint initiative between The Red Tree and SFC Capital.",
-              "evidence_visual": "The UI shell features a warm, off-white and light-grey background system with sophisticated deep maroon accents for buttons and callouts."
-            },
-            {
-              "label": "Gen Z seeking foundational investment and industry connections to launch a disruptive beauty startup",
+              "label": "Gen Z seeking an authentic, irreverent agency with standout visuals for a digitally-native brand",
               "cohort": "gen_z",
+              "probability": 0.25,
+              "evidence_text": "Ads created by банда are ambitious, relevant, and a bit irreverent.",
+              "evidence_visual": "The viewport presents a sophisticated balance between a restrained, minimalist UI and a loud, expressive creative portfolio."
+            },
+            {
+              "label": "Gen X seeking a proven, highly effective agency to drive measurable business results for an established brand",
+              "cohort": "gen_x",
               "probability": 0.1,
-              "evidence_text": "The UK’s first beauty specific accelerator.",
-              "evidence_visual": "Brand visuals rely on warm-toned lifestyle photography...and macro texture shots of white cosmetic cream."
+              "evidence_text": "Meet the most effective independent agency in the world (Effie Index 2020) & Europe (2024)",
+              "evidence_visual": "Stark monochrome UI sections create a professional, 'clinical' foundation."
             }
           ],
           "checklist": {
             "pass": [
-              "aligns professional text with sophisticated 'Heritage Warm' visuals"
+              "aligns text ('irreverent') and visuals ('Clinical Pop') perfectly"
             ],
             "warn": [
-              "assumes a high level of business literacy from all visitors"
+              "uses industry-appropriate language that may be dense for outsiders"
             ],
             "fail": [
-              "lacks any content aimed at a pre-startup/idea-stage founder"
+              "hides commitment tier (pricing), forcing a high-friction contact step"
             ]
           }
         },
         "hi05_decision_confidence": {
           "label": "DECISION CONFIDENCE",
-          "score": 78,
+          "score": 75,
           "diagnosis": "CONFIDENT",
-          "so_what": "The page projects confidence and provides a clear, unambiguous path forward for an interested applicant. By presenting a single, primary call-to-action and transparently outlining the offering, it removes ambiguity and empowers the visitor to make a clear decision to apply or not.",
+          "so_what": "The brand projects extreme confidence in its desired next action: for the visitor to be impressed by the work. The entire page is structured to guide the user through the portfolio, with a clear 'Load more projects' CTA. The only major friction is the standard industry practice of hiding pricing, which forces a high-intent contact.",
           "sub_metrics": {
             "cta_clarity": {
               "score": 90,
-              "evaluation": "A single, dominant CTA, 'Register Your Interest', is presented clearly and repeatedly. Secondary links like 'The Criteria' support the primary action. This creates a clear hierarchy and avoids choice paralysis."
+              "evaluation": "The page has a single, dominant purpose: browse the work. The primary CTA, 'Load more projects,' and the grid layout support this. The secondary CTA is the 'Contact' link in the navigation. The hierarchy is clear and effective for a portfolio site."
             },
             "pricing_visibility": {
-              "score": 70,
-              "evaluation": "This is a non-commercial page; the user applies for funding, they don't buy a product. The 'price' or value of the award, 'up to £250,000', is highly visible. This is the correct approach for this type of offer."
+              "score": 30,
+              "evaluation": "Pricing is completely absent, which is typical for a high-end creative agency. This forces a 'contact for pricing' model, which, while standard, is a significant information gate and scores low on this metric for respecting visitor time."
             },
             "next_step_obviousness": {
               "score": 90,
-              "evaluation": "The next step is perfectly obvious: review the criteria, then register your interest. The entire page is structured to funnel a qualified visitor to this single, clear outcome."
+              "evaluation": "Within seconds, a visitor knows this is a creative agency and the obvious next step is to explore their projects. The page design makes this path effortless and singular, inspiring confidence in what to do next."
             },
             "friction_signals": {
-              "score": 60,
-              "evaluation": "The page has two notable friction sources. A large cookie banner interrupts the initial view, and the high text density requires significant cognitive load to parse all the details, though the information is well-organized."
+              "score": 90,
+              "evaluation": "The page is virtually frictionless. The clean, minimalist design, lack of pop-ups or interruptions, and clear navigation create a smooth user experience. The only friction is the cognitive load of being so impressed by the work."
             }
           },
           "checklist": {
             "pass": [
-              "uses a clear, repeated primary CTA: 'Register Your Interest'"
+              "makes the next step obvious: browse the portfolio"
             ],
             "warn": [
-              "text density is high, requiring significant reading commitment"
+              "primary CTA is to 'Load more' rather than a direct business action"
             ],
             "fail": [
-              "blocks initial view with a large cookie consent banner"
+              "hides all pricing information behind a contact gate"
             ]
           }
         }
@@ -644,15 +644,15 @@
     }
   },
   "GEO_evaluation": {
-    "score": 57,
+    "score": 50,
     "label": "AI PARTIAL",
-    "diagnosis": "DATA-RICH, ENTITY-BLURRED",
-    "profile": "The Red Tree's page for its Beauty Accelerator is a masterclass in on-page data density, packed with specific, quotable financial and performance metrics that AI models can easily digest and cite. However, this clarity is dangerously undermined by a generic brand name that collides with a famous painting, confirmed by confused signals from Wikipedia and Reddit. The AI sees a factually dense page from an entity it can't reliably distinguish from two other well-known concepts.",
-    "fix": "The most critical fix is to disambiguate the entity. Add `FAQPage` schema to the extensive FAQ section and `Service` schema for the accelerator program itself. This provides structured, machine-readable context that explicitly tells AI models \"this URL describes a business service and answers questions about it,\" helping it separate the consultancy from the painting.",
+    "diagnosis": "ENTITY COLLISION",
+    "profile": "Banda presents as a world-class creative agency, citing major awards like Effie and Cannes Lions. However, its digital identity is completely lost in the noise of a common surname, athletes, and geographical locations that share the name \"Banda\". AI systems see the awards but can't reliably connect them to this specific agency, mistaking it for a person or place.",
+    "fix": "The most critical fix is to disambiguate the brand entity. Ship `Organization` schema on the homepage that explicitly names the entity as \"Banda Agency\" and uses the `sameAs` property to link to official social profiles (LinkedIn, etc.). This gives AI a clear, machine-readable identity card to distinguish it from the athletes and surname.",
     "flags": {
       "entity_drift": true,
       "critical_blackout": false,
-      "foundation_failure": false,
+      "foundation_failure": true,
       "trustpilot_collapse": false,
       "category_hint_corrupted": false,
       "third_party_taxonomy_error": false,
@@ -661,127 +661,126 @@
     "metrics": {
       "ai01_findability": {
         "label": "AI FINDABILITY",
-        "score": 73,
-        "diagnosis": "QUOTABLE BUT OBSCURED",
-        "so_what": "The Red Tree's accelerator program is packed with quotable stats like \"up to £250,000 equity investment\", making it easy for AI to cite. However, the brand's core identity as a \"beauty brand consultancy\" is buried in an FAQ, forcing AI to piece together who they are instead of getting a clear, upfront definition. The single most impactful fix is to add a concise, one-sentence definition of \"The Red Tree\" within the first paragraph of the page body.",
+        "score": 63,
+        "diagnosis": "QUOTABLE BUT VAGUE",
+        "so_what": "Banda's page is full of award-winning, quotable claims, but without a clear \"Banda is a creative agency\" statement upfront, AI has to guess its identity. The lack of an H1 tag and structured data means AI models might summarize the page as a portfolio of other brands (Uber, Google) instead of defining Banda itself. The most urgent fix is adding a clear H1 tag like \"Banda: A Global Creative Agency\".",
         "sub_metrics": {
           "structured_data": {
-            "score": 60,
-            "evaluation": "GEO_ANALYSIS shows json_ld_blocks_found: 1; json_ld_types: [\"WebPage\",\"BreadcrumbList\",\"WebSite\",\"Organization\"]; og: 5/6 core tags; twitter: yes (1/4); meta_desc: present; canonical: present; hreflang_count: 0. AI engines must infer from prose; add Product/Organization JSON-LD with og:image to lift the score.",
+            "score": 50,
+            "evaluation": "GEO_ANALYSIS shows json_ld_blocks_found: 0; json_ld_types: []; og: 5/6 core tags; twitter: yes (3/4); meta_desc: present; canonical: absent; hreflang_count: 0. AI engines must infer from prose; add Product/Organization JSON-LD with og:image to lift the score.",
             "flags_emitted": []
           },
           "quotable_content": {
             "score": 90,
-            "evaluation": "The page contains over 12 distinct, quotable data points, including \"up to £250,000 equity investment\" and \"ranked fifth globally by Pitchbook in both 2018 and 2019.\" This high density of specific claims makes the content extremely valuable for AI models seeking verifiable statistics to include in summaries. To further improve, ensure every key service has at least one quantifiable outcome metric.",
+            "evaluation": "The page contains over 10 highly quotable claims, including specific awards like \"most effective independent agency in the world (Effie Index 2020)\" and \"won two Red Dot Awards\". This density of verifiable achievements makes the content ideal for AI-generated summaries seeking proof of expertise. To improve further, consolidate the top 3 awards into a single, clear headline.",
             "flags_emitted": []
           },
           "entity_clarity": {
-            "score": 70,
-            "evaluation": "The brand is explicitly defined in the FAQ section: \"The Red Tree is the UK’s leading international beauty brand consultancy.\" This is a strong signal, but its placement deep in the page forces an AI to read the entire document to understand the entity. Move this definitional sentence into the first 200 words to ensure immediate entity recognition.",
+            "score": 50,
+            "evaluation": "The brand name 'Banda' and its category 'agency' are present but never clearly connected in a simple definitional sentence in the opening paragraphs. The page relies on AI to infer its identity from a list of awards, which is unreliable given the empty H1 tag. Add a simple sentence: \"Banda is a creative agency founded in Kyiv.\"",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Includes 10+ quotable stats like '29+ brands have applied'."
+            "Lists 200+ awards and multiple Cannes/Red Dot wins."
           ],
           "warn": [
-            "Defines 'The Red Tree' in an FAQ, not the intro."
+            "Lacks a clear 'Banda is a...' definitional sentence."
           ],
           "fail": [
-            "H1 'We grow beauty brands' omits brand and category."
+            "Omits a primary H1 heading on the homepage."
           ]
         }
       },
       "ai02_content_focus": {
         "label": "AI SIGNAL CLARITY",
-        "score": 62,
-        "diagnosis": "SPECIFIC BUT PUFFED",
-        "so_what": "The page provides a high density of verifiable data points like \"ranked fifth globally by Pitchbook\", which AI models value as credible evidence. This strength is undermined by a heavy load of 13+ booster adjectives like \"captivating\" and \"unparalleled\", which AI tends to filter out as low-signal marketing fluff. To improve, rewrite sentences to replace subjective claims with objective descriptions of process or outcomes.",
+        "score": 60,
+        "diagnosis": "FACT-DENSE, FLUFF-HEAVY",
+        "so_what": "The content is dense with verifiable data points and specific awards, which AI models value for factual summaries. However, the high load of marketing adjectives like \"ambitious,\" \"witty,\" and \"awesome\" dilutes this authority, making the prose sound like generic ad copy. To improve, Banda should strip out the booster words and let the impressive facts (like \"Effie Index 2020 winner\") stand on their own.",
         "sub_metrics": {
           "fact_to_filler_ratio": {
-            "score": 70,
-            "evaluation": "The content maintains a healthy fact-to-filler ratio of approximately 1:2, with factual statements about investment figures and partner credentials balancing out marketing copy. This keeps the page grounded in verifiable details, preventing AI from dismissing it as pure sales material. Condensing the more abstract sections like \"Our Thoughts\" could improve this further.",
+            "score": 50,
+            "evaluation": "The page mixes hard facts (project names, awards) with marketing filler, achieving a ratio of roughly 1 fact for every 3 filler sentences. While the awards are strong signals, they are surrounded by vague statements like \"We make brands that people want to talk about.\" Cut the filler to increase the density of factual claims.",
             "flags_emitted": []
           },
           "adjective_load": {
-            "score": 30,
-            "evaluation": "The text is loaded with over 13 empty booster adjectives like \"captivating,\" \"unparalleled,\" and \"thought-provoking.\" This language signals marketing hype to an AI, which can reduce the perceived credibility of the surrounding factual claims. Replace these subjective terms with concrete descriptions of value or process.",
+            "score": 0,
+            "evaluation": "The text is overloaded with more than 15 empty booster adjectives, such as \"ambitious,\" \"witty,\" \"awesome,\" and \"biggest collab ever.\" This language undermines the credibility established by the numerous awards, making the content read like hype. Rewrite sentences to remove these subjective terms and focus on objective outcomes.",
             "flags_emitted": []
           },
           "specificity_index": {
-            "score": 90,
-            "evaluation": "Over 80% of claims are highly specific (Hayakawa Rung 1-2), such as \"receive up to £250,000 equity investment\" and \"backed more than 225 startups.\" This level of concrete detail is ideal for AI, as it provides unambiguous, extractable information. The page successfully avoids the vague, abstract claims that AI models struggle to interpret.",
+            "score": 70,
+            "evaluation": "Over 60% of the content operates at a high level of specificity, citing named awards (\"Red Dot\"), clients (\"Uber\"), and dates (\"since 2011\"). This grounds the page in concrete reality, which AI models favor. The score is held back by abstract claims like \"Creativity and craft are fundamental to all we do.\"",
             "flags_emitted": []
           },
           "data_point_density": {
             "score": 90,
-            "evaluation": "The page features an excellent data point density, with over 15 quantifiable metrics per 500 words, including investment amounts, timelines, and partner statistics. This high density signals to AI that the page is a rich source of factual information. Maintaining this density across all service pages is a key strength.",
+            "evaluation": "The page features over 15 distinct data points per 500 words, including \"200+ international awards,\" \"Effie Index 2020,\" and \"50 iconic brands.\" This high density provides ample raw material for AI to construct fact-based summaries about the agency's accomplishments. This is a key strength.",
             "flags_emitted": []
           },
           "claim_verifiability": {
-            "score": 30,
-            "evaluation": "The page makes some Level A/B verifiable claims, such as citing \"Pitchbook\" for a partner's ranking. However, the majority of claims are plausible but uncited (Level C) or subjective (Level D), like being the \"UK's leading... consultancy.\" To increase trust with AI, add links or references for key claims about market position or past success.",
+            "score": 90,
+            "evaluation": "Over 70% of claims are highly verifiable, referencing specific, third-party awards like \"Cannes Lions winner\" and \"Effie Index 2020.\" This is a powerful signal of credibility for AI systems, which are trained to identify and prioritize substantiated claims. The agency effectively uses evidence to back up its assertions of quality.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Cites external sources like 'Pitchbook'.",
-            "Uses 15+ data points per 500 words."
+            "Cites specific, verifiable awards (Effie, Red Dot)."
           ],
           "warn": [
-            "Uses 13+ empty adjectives like 'unparalleled'."
+            "Mixes factual claims with vague marketing prose."
           ],
           "fail": [
-            "Makes unverifiable claims like 'UK’s leading...consultancy'."
+            "Uses 15+ empty booster adjectives like 'awesome'."
           ]
         }
       },
       "ai03_ai_positioning": {
         "label": "AI CATEGORY POSITIONING",
-        "score": 63,
-        "diagnosis": "CLEAR ON-PAGE, INVISIBLE OFF-PAGE",
-        "so_what": "The Red Tree masterfully defines its value proposition for \"The Beauty Accelerator™\", answering what, who, why, and how much in the first 150 words. This clarity is entirely on-page, as external signals from Reddit are 100% noise, referencing literal trees and art, leaving AI with no third-party context about the brand's category. The priority is to build off-site relevance through guest posts or interviews on beauty industry subreddits or forums to create a trail of external discussion.",
+        "score": 48,
+        "diagnosis": "CATEGORY INVISIBLE",
+        "so_what": "Banda clearly signals its category with terms like \"creative agency\" and \"branding,\" but it completely fails to position itself against competitors. AI cannot answer \"How is Banda different from other agencies?\" because the page offers no context. Furthermore, all 47 of its organic Reddit mentions are about athletes named Banda, rendering its social proof useless and actively confusing its entity.",
         "sub_metrics": {
           "category_keyword_alignment": {
             "score": 90,
-            "evaluation": "The page correctly uses standard industry terms like \"accelerator,\" \"equity investment,\" and \"seed-stage investor\" to describe its offering. This strong alignment with established taxonomy makes it easy for an AI to categorize the page's purpose accurately. The brand avoids inventing jargon, which aids machine comprehension.",
+            "evaluation": "The page uses a high concentration of on-taxonomy terms for its inferred category of 'Creative Agency,' including \"brand launch,\" \"design systems,\" and \"content strategies.\" This strong alignment clearly communicates its function to AI crawlers. The language is professional and industry-standard.",
             "flags_emitted": []
           },
           "competitor_placement": {
-            "score": 70,
-            "evaluation": "The page establishes strong competitive positioning with the claim \"The UK’s first beauty specific accelerator.\" This provides a clear differentiator for AI models without needing to name specific competitors. While a direct comparison could add more context, this unique positioning is a powerful signal of its market niche.",
+            "score": 50,
+            "evaluation": "The content identifies its category but provides no competitive context, never mentioning competitors or framing its services against an \"industry standard.\" This forces AI to guess its market position. Add a section explaining how Banda's approach differs from traditional agencies.",
             "flags_emitted": []
           },
           "value_proposition_clarity": {
-            "score": 90,
-            "evaluation": "The first 200 words clearly articulate all four value proposition anchors: WHAT (beauty accelerator), WHO (emerging brands), WHY-THIS-ONE (first of its kind, expert backing), and HOW-MUCH (up to £250k investment). This comprehensive upfront summary allows an AI to grasp the entire offering immediately. This is an exemplary execution.",
+            "score": 50,
+            "evaluation": "The first 200 words successfully establish WHAT the agency does and WHY it's credible (awards), but fail to define WHO it's for or HOW MUCH it costs. This leaves two of the four core value proposition questions unanswered. An AI would struggle to match the agency to a specific type of customer.",
             "flags_emitted": []
           },
           "category_recognition_external": {
             "score": 0,
-            "evaluation": "External signals from Reddit are 100% noise, with all 50 mentions referencing literal trees or art, as seen in subreddits like 'NatureIsFuckingLit'. This means AI has zero third-party validation that 'The Red Tree' operates in the business or beauty category. The brand is invisible in relevant online communities, creating a major context gap.",
+            "evaluation": "External signals are nonexistent and misleading. The 47 organic Reddit mentions are entirely about athletes named Banda, as seen in subreddits like 'NWSL' and 'baseball'. This noise actively harms the brand, teaching AI that 'Banda' is a person, not a company.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Answers WHAT/WHO/WHY/HOW-MUCH in the first 200 words."
+            "Uses on-taxonomy terms like 'branding' and 'strategy'."
           ],
           "warn": [
-            "Positions itself as 'first', but names no competitors."
+            "Omits the target audience (WHO) from its value prop."
           ],
           "fail": [
-            "Has zero on-category Reddit mentions; all are noise."
+            "Has zero relevant external mentions on Reddit."
           ]
         }
       },
       "ai04_crawler_coverage": {
         "label": "AI CRAWL READINESS",
         "score": 60,
-        "diagnosis": "OPEN DOORS, NO MAP",
-        "so_what": "The Red Tree has near-perfect technical accessibility, with a valid robots.txt that allows all major AI crawlers to access the site. However, the absence of an `llms.txt` file means these crawlers arrive without a map, forcing them to guess which content is most important. Publishing a simple `llms.txt` file at the root is the easiest, highest-impact fix to guide AI summarization and retrieval.",
+        "diagnosis": "OPEN BUT UNGUIDED",
+        "so_what": "The site's technical foundation is solid, allowing all major AI crawlers to access the content. However, the absence of an `llms.txt` file is a missed opportunity. Without it, Banda provides no guidance to AI models on which content is most important, forcing them to guess. Shipping a simple `llms.txt` would allow Banda to direct AI attention to its key case studies and mission statement.",
         "sub_metrics": {
           "bot_coverage": {
             "score": 90,
@@ -795,47 +794,46 @@
           },
           "infrastructure_basics": {
             "score": 90,
-            "evaluation": "robots.txt: present, sitemap_reference: yes, sitemap_url: https://theredtree.co.uk/sitemap_index.xml (canonical), https_enforced: true. All foundational crawl signals present.",
+            "evaluation": "robots.txt: present, sitemap_reference: yes, sitemap_url: https://banda.agency/sitemap.xml (canonical), https_enforced: true. All foundational crawl signals present.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Allows all major AI crawlers in robots.txt.",
-            "Provides a valid sitemap in robots.txt."
+            "Allows all major AI crawlers in robots.txt."
           ],
           "warn": [
-            "Twitter card schema is minimal ('summary_large_image')."
+            "Sitemap is present but could be more descriptive."
           ],
           "fail": [
-            "Omits llms.txt, providing no guidance for AI crawlers."
+            "Omits an llms.txt file to guide AI models."
           ]
         }
       },
       "ai05_knowledge_anchoring": {
         "label": "AI KNOWLEDGE ANCHORING",
-        "score": 34,
-        "diagnosis": "COLLIDED ENTITY",
-        "so_what": "The brand name \"The Red Tree\" is a major liability, creating a three-way collision with a famous Mondrian painting and the literal object, as confirmed by Wikipedia and Reddit signals. This forces AI to constantly disambiguate, diluting brand authority. While the on-page schema is functional, it's missing `FAQPage` and `Service` types, which would explicitly define the page's purpose and offerings, helping AI correctly classify this entity over the others.",
+        "score": 28,
+        "diagnosis": "IDENTITY LOST",
+        "so_what": "This is Banda's biggest failure. The brand name \"Banda\" collides with a common surname, athletes, and places, as confirmed by Wikipedia and Reddit signals. Without any `Organization` schema to create a distinct knowledge graph entry, AI systems will perpetually confuse the agency with other entities. This entity collision makes it nearly impossible for AI to build a reliable, accurate profile of the business.",
         "sub_metrics": {
           "brandname_uniqueness": {
             "score": 0,
-            "evaluation": "The brand name 'The Red Tree' has extremely low uniqueness, directly colliding with a famous Piet Mondrian painting, as confirmed by the Wikipedia/Wikidata results. This creates massive entity confusion for AI, forcing it to guess whether a mention refers to a consultancy or a work of art. This name is a significant, permanent handicap for knowledge graph anchoring.",
+            "evaluation": "The brand name 'Banda' is extremely common, colliding with a surname (per Wikipedia), multiple athletes, and a common word in several languages. This massive name collision is the root of the brand's identity problem, as AI cannot easily distinguish the agency from other entities. A more unique name like 'Banda Agency' should be used consistently.",
             "flags_emitted": []
           },
           "schema_category_fit": {
-            "score": 30,
-            "evaluation": "The page is missing two critical, category-defining schema types: `FAQPage` for its large FAQ section and `Service` for the accelerator program itself. This omission forces AI to guess the page's function from unstructured text, when it could be told explicitly. Adding these schema types is a high-impact fix to improve machine understanding.",
+            "score": 0,
+            "evaluation": "The page ships zero JSON-LD blocks, a critical failure. It misses the essential `Organization` schema needed to define itself as a business entity to machines. This absence of structured data is the primary technical reason AI systems are confused about its identity.",
             "flags_emitted": []
           },
           "knowledge_graph_presence": {
-            "score": 90,
-            "evaluation": "wikipedia_present: true; summary length: 728 chars. wikidata_id: 'Q3818263'; wikidata_label: 'The Red Tree'; wikidata_description: 'painting by Piet Mondrian'. Both anchors present and matching.",
+            "score": 70,
+            "evaluation": "wikipedia_present: true; summary length: 60 chars. wikidata_id: 'Q16479793'; wikidata_label: 'Banda'; wikidata_description: 'family name'. Both anchors present and matching.",
             "flags_emitted": []
           },
           "identity_convergence": {
-            "score": 50,
-            "evaluation": "BRAND_NAMING.brand_inferred 'The Red Tree' vs names_found: og_site_name=✓(The Red Tree); title_tag=✓(The Red Tree - Strategic busin); h1=✗(We grow beauty brands.); wikidata_label=✓(The Red Tree); wikipedia_title=✗(Evening; Red Tree). 3/5 surfaces agree. Reconcile divergent surfaces — set og:site_name and align Wikipedia/Wikidata to match canonical brand name.",
+            "score": 70,
+            "evaluation": "BRAND_NAMING.brand_inferred 'banda' vs names_found: og_site_name=✓(banda); title_tag=✓(banda.agency); h1=✗(); wikidata_label=✓(Banda); wikipedia_title=✓(Banda (surname)). 4/5 surfaces agree. Names converge — strong identity.",
             "flags_emitted": []
           },
           "trustpilot_anchoring": {
@@ -846,14 +844,13 @@
         },
         "checklist": {
           "pass": [
-            "Wikipedia/Wikidata entries exist (though for wrong entity)."
+            "Has a Wikidata entry, though for the surname."
           ],
           "warn": [
-            "Brand name in H1, title, and OG tags is inconsistent."
+            "Brand name 'Banda' is a common surname."
           ],
           "fail": [
-            "Brand name 'The Red Tree' collides with a famous painting.",
-            "Misses critical FAQPage schema for its large FAQ section."
+            "Ships zero JSON-LD schema to define its entity."
           ]
         }
       }
