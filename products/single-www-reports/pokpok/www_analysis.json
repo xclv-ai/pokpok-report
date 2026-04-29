@@ -1,51 +1,51 @@
 {
-  "url": "https://www.razor-group.com",
-  "brand": "Razor Group",
+  "url": "https://www.societybrands.com",
+  "brand": "Society Brands",
   "5_truth": {
     "truth_1": {
-      "headline": "The brand identity is a ruthlessly consistent, exclusionary Ruler built for dominance.",
-      "gap_description": "The 17-marker framework reveals a brand identity of extreme discipline. Every marker converges on a single read: a Ruler archetype (65%) with a 'Reliable Expert' personality (competence 5/5, warmth 2/5), a 'Clinical Authority' voice, and a 'Pharma-Code' visual system. The brand is engineered to project cold, unquestionable competence and elite status, attracting founders who want to join an 'Insider Clique' and repelling any who seek warmth or partnership.",
-      "evidence": "'The Ruler 65%' (HI.marker_6.primary.archetype) | 'Personality: The Reliable Expert' (HI.marker_5.territory_name) | 'Tone of Voice: The Clinical Authority' (HI.marker_7.territory_name) | 'Visual Identity: Pharma-Code' (HI.marker_8.territory_name) | 'Social Benefits: The Insider Clique' (HI.marker_17.territory_name)",
-      "why_matters": "This hyper-focused identity perfectly attracts its target—ambitious founders seeking a high-status exit—by signaling power and exclusivity. However, this same focus makes the brand unsuitable for any other audience or future market expansion that might require a softer, more collaborative positioning. The brand's greatest strength is also its strategic cage.",
-      "hard_choice": "The brand must decide if this disciplined, exclusionary identity is a permanent strategy or a temporary phase. One path is to maintain this Ruler posture, cementing its position as the elite choice within its current niche and accepting that it cannot appeal to a broader market. Another is to begin layering in secondary brand assets or messaging that introduce more warmth or accessibility, preparing for future growth at the risk of diluting its current powerful signal. The strategic question: Is the brand's future in dominating its current niche, or in expanding its appeal to new types of founders?"
+      "headline": "The brand projects a gentle Caregiver persona while operating as a tech-driven Ruler.",
+      "gap_description": "The 17-marker framework reveals a fundamental split in the brand's identity. Its archetype mix is a tense combination of The Caregiver (65%) and The Ruler (20%). This is reflected across the framework: the Tone of Voice ('The Gentle Guide') and Visual Identity ('Earthy Organic') project a warm, protective Caregiver. In contrast, the Narrative ('The Lab Breakthrough') and USP ('The Specialist') describe a 'tech-enabled global growth platform'—a classic Ruler's mission. The brand speaks like a wellness curator but acts like a corporate acquirer.",
+      "evidence": "'The Caregiver 65% / The Ruler 20%' (HI.marker_6.primary.archetype + .secondary.archetype) | 'Tone of Voice: The Gentle Guide' (HI.marker_7.territory_name) | 'Visual Identity: Earthy Organic' (HI.marker_8.territory_name) | 'Narrative: The Lab Breakthrough... a tech-enabled consumer products company' (HI.marker_10.territory_name + .evidence)",
+      "why_matters": "This dual identity confuses both of the brand's target audiences. Founders looking for a growth partner see a soft wellness story, not a powerful acquisition engine. Consumers who look beyond the homepage may feel deceived by the corporate reality behind the 'clean living' facade. The brand fails to build focused trust with either group because it's telling two different stories at once.",
+      "hard_choice": "The brand must decide which identity is the true north. One path is to unify the narrative, framing the Ruler's acquisition power as the engine that enables the Caregiver's mission of providing safe products. A second path is to bifurcate, creating a hard-nosed corporate site for the Ruler's B2B audience and a separate, purely consumer-facing portal for the Caregiver's brands. A third is to commit fully to the Caregiver persona publicly and treat the acquisition model as a back-office function. The strategic question is: Is the brand's story about its gentle mission or its powerful business model?"
     },
     "truth_2": {
-      "headline": "To AI engines, the brand is an unidentifiable ghost due to a catastrophic name collision.",
-      "gap_description": "The AI/GEO analysis returns a score of 26, diagnosing a complete 'IDENTITY COLLAPSE'. The core issue is the brand name 'Razor' creates massive entity collision with a global scooter brand and a common noun. With no Wikipedia or Wikidata entry (AI05 score: 2) and zero structured data, AI engines cannot distinguish the company from the noise. The brand is functionally invisible and unclassifiable to any machine intelligence.",
-      "evidence": "'AI KNOWLEDGE ANCHORING: score 2, diagnosis: IDENTITY COLLAPSE' (GEO.metrics.ai05_knowledge_anchoring.score + .diagnosis) | 'The brand name \\'Razor\\' ... creates massive entity collision' (GEO.metrics.ai05_knowledge_anchoring.sub_metrics.brandname_uniqueness.evaluation) | 'The site has zero JSON-LD blocks, a critical failure for a business.' (GEO.metrics.ai05_knowledge_anchoring.sub_metrics.schema_category_fit.evaluation) | 'External Reddit signals are 100% noise.' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.evaluation)",
-      "why_matters": "This AI invisibility means the brand is excluded from all forms of automated discovery. It will not be cited in AI-generated answers, included in market comparisons, or surfaced for any non-branded search query. Its entire digital acquisition model must rely on direct traffic and paid advertising, ceding the vast and growing landscape of AI-driven discovery to its competitors.",
-      "hard_choice": "The company faces a fundamental decision about its digital identity. It can accept AI invisibility, focusing its resources on channels it directly controls like outbound sales and targeted ads, treating the brand name as a sunk cost. Alternatively, it can undertake a significant technical effort to build an AI-readable identity from scratch—aggressively shipping schema, creating knowledge graph entries, and generating content that disambiguates it from other 'Razors'. The strategic question: Is being understood by AI a mandatory cost of doing business, or can the company succeed by operating entirely outside of that ecosystem?"
+      "headline": "To AI engines, the company is an unintelligible ghost with a generic name.",
+      "gap_description": "The AI/GEO read is a catastrophic 32/100, diagnosed as 'VAGUE & UNANCHORED.' The core issue is a complete failure in entity definition. AI Knowledge Anchoring (AI05) scores just 12/100, crippled by a generic name with 'massive name collision' (brandname_uniqueness: 0) and a total absence from knowledge graphs like Wikipedia or Wikidata. AI Content Focus (AI02) is 17/100, with AI classifying the page as low-trust 'MARKETING OVERLOAD' due to high adjective use and a low fact-to-filler ratio. AI engines cannot determine what this company is or why it is credible.",
+      "evidence": "'score: 32. Diagnosis: VAGUE & UNANCHORED.' (GEO.score + .diagnosis) | 'ai05_knowledge_anchoring: 12. Diagnosis: UNANCHORED ENTITY.' (GEO.metrics.ai05_knowledge_anchoring.score + .diagnosis) | 'brandname_uniqueness: 0. The name...creating massive name collision' (GEO.metrics.ai05_knowledge_anchoring.sub_metrics.brandname_uniqueness.score + .evaluation) | 'knowledge_graph_presence: 0. wikipedia_present: false; wikidata_id: absent' (GEO.metrics.ai05_knowledge_anchoring.sub_metrics.knowledge_graph_presence.score + .evaluation)",
+      "why_matters": "The brand is invisible in any AI-mediated discovery. It will not be surfaced in AI Overviews, chatbot recommendations, or competitive analyses for 'e-commerce aggregators' or 'clean wellness brand portfolios.' By failing to provide clear, factual signals, the company cedes all non-branded search and discovery opportunities to competitors who speak the language machines can understand.",
+      "hard_choice": "The brand faces a direct trade-off between its poetic marketing voice and machine-readable clarity. One option is to rewrite the site's core elements for AI—a factual H1, quantified claims, and structured data—and build foundational anchors like a Wikidata entry, accepting this may dilute the 'gentle' persona. A second option is to ignore the corporate brand's AI presence and focus all machine-facing efforts on its portfolio of acquired brands, treating the parent site as a non-discoverable brochure. The strategic question is: Does the holding company itself need to be found by machines, or is that a job for the brands it owns?"
     },
     "truth_3": {
-      "headline": "The URL greets visitors with a vague headline and a high-friction demand for financial data.",
-      "gap_description": "While human perception is generally strong (HI Score 75), the weakest points are at the very top and bottom of the funnel. Message Clarity (HI01) is dragged down by a headline that acts as a vague mission statement, failing to explain who the service is for or why it's different. Decision Confidence (HI05) is hampered by a lead form that immediately asks for sensitive financial data, creating a significant barrier for founders who are still in the consideration phase.",
-      "evidence": "'The headline... is a mission statement, not a functional headline, landing only one of three Krug anchors.' (HI.hi.metrics.hi01_message_clarity.sub_metrics.headline_clarity.evaluation) | 'The lead form asks for \\'Total Amazon Revenue (last 12 months)\\'. Requesting sensitive financial data this early is a significant... barrier to entry' (HI.hi.metrics.hi05_decision_confidence.sub_metrics.friction_signals.evaluation) | 'pricing_visibility: score 30' (HI.hi.metrics.hi05_decision_confidence.sub_metrics.pricing_visibility.score)",
-      "why_matters": "This combination of a fuzzy entrance and a hard gate means the brand is filtering out a large number of potential leads. Founders who are exploring their options but are not yet ready to disclose revenue figures will likely bounce rather than engage. The funnel is optimized for highly-motivated, late-stage sellers at the cost of capturing a wider audience for nurturing.",
-      "hard_choice": "The brand's lead generation strategy is at a crossroads. One approach is to maintain the current high-friction model, viewing it as an effective filter that saves the sales team time by only surfacing the most serious, pre-qualified leads. A different approach would be to create a lower-friction path—clarifying the headline and using a two-step form that captures basic contact info first—to build a larger pipeline of early-stage prospects. The strategic question: Is the primary goal of the website to close the most qualified leads, or to capture the broadest possible range of potential sellers?"
+      "headline": "Human visitors are met with a schizophrenic voice that erodes credibility.",
+      "gap_description": "The most damaging human perception metric is HI03 Voice Consistency, scoring a very low 35/100 with a diagnosis of 'SCHIZOPHRENIC.' Visitors encounter a gentle, 'Caregiver' wellness brand on the homepage, but the press page reveals a 'financially aggressive Ruler' focused on M&A and capital raises. The vocabulary is completely misaligned, with 'holistic' and 'toxin-free' on one page and 'raises $204M' on another. This chasm between the public persona and the corporate identity is the brand's core blind spot.",
+      "evidence": "'hi03_voice_consistency: 35. Diagnosis: SCHIZOPHRENIC.' (HI.hi.metrics.hi03_voice_consistency.score + .diagnosis) | 'The semantic fields are completely misaligned. The baseline from the press page is Finance/M&A... The homepage uses Wellness/Nature.' (HI.hi.metrics.hi03_voice_consistency.sub_metrics.vocabulary_alignment.evaluation) | 'The core business model is hidden.' (HI.hi.metrics.hi03_voice_consistency.sub_metrics.claim_stack_alignment.evaluation) | 'The chasm between the brand's corporate identity... and its public persona... is the core blind spot.' (HI.hi.blind_spot)",
+      "why_matters": "This inconsistency shatters trust for both key audiences. A potential acquisition target sees a soft story that lacks the hard financial credibility they need. A consumer who digs deeper than the homepage feels misled by the corporate machinery behind the 'gentle' curtain. The brand cannot be persuasive to either audience because its identity feels inauthentic and unstable.",
+      "hard_choice": "The brand must resolve its conflicting voices. One path is to create a single, unified voice that honestly presents the company as a mission-driven aggregator whose business acumen (Ruler) serves its wellness goals (Caregiver). Another is to physically separate the voices onto different web properties: one for corporate M&A, another for the consumer-facing brand portfolio. A third is to fully commit to the Caregiver story and relegate all corporate and financial news to investor-relations channels not linked from the main site. The strategic question is: Should the brand's voice reflect what it does (acquire companies) or why it does it (promote wellness)?"
     },
     "truth_4": {
-      "headline": "The brand is laser-aimed at human founders but completely fails to state its category to AI.",
-      "gap_description": "There is a stark disconnect between how the brand positions itself to humans versus machines. For humans, Audience Resonance is high (HI04 score: 80), precisely targeting Millennial and Gen X founders. Yet for machines, AI Positioning is a 'CONTEXT VACUUM' (AI03 score: 20). The page avoids the standard industry term 'e-commerce aggregator' and provides zero competitive context, making it impossible for an AI to place it in the market it so clearly targets.",
-      "evidence": "'Audience Resonance: 80, LASER-AIMED' (HI.hi.metrics.hi04_audience_resonance.score + .diagnosis) | 'AI CATEGORY POSITIONING: 20, CONTEXT VACUUM' (GEO.metrics.ai03_ai_positioning.score + .diagnosis) | 'The page... avoids the standard industry term \\'e-commerce aggregator\\'. This creates ambiguity for AI' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_keyword_alignment.evaluation) | 'The content provides zero competitive context.' (GEO.metrics.ai03_ai_positioning.sub_metrics.competitor_placement.evaluation)",
-      "why_matters": "By speaking its position only to humans, the brand forfeits all AI-mediated discovery. A founder asking an AI 'who are the top e-commerce aggregators?' will never be shown Razor Group. The brand's effective positioning is confined to its own digital property, invisible to the systems that are increasingly responsible for search, comparison, and recommendation.",
-      "hard_choice": "The brand must decide if its positioning is a human-only message or a machine-readable signal. It can continue to rely on its website's direct appeal, using paid and direct channels to bring its well-defined audience to a page that speaks their language. Or, it can translate its positioning for AI by explicitly stating its category, framing itself against competitors, and using structured data to declare its market niche. The strategic question: In today's market, is positioning only what you say to a person, or is it also what you declare to a machine?"
+      "headline": "The URL speaks perfectly to Millennial humans while being invisible to the AIs they use.",
+      "gap_description": "There is a sharp disconnect between audience targeting for humans and for machines. HI04 Audience Resonance confirms the page is expertly tuned for its target human cohort: 'Millennials seeking a trusted curator' (probability 0.65), with perfectly aligned text and visuals. However, AI03 AI Positioning is 'CONTEXT-FREE' (20/100). AI engines see a keyword mismatch between the title ('DTC Brand Growth') and content ('Health and Personal Care'), with zero competitive context or external recognition. The page successfully signals its audience to people but hides those same signals from machines.",
+      "evidence": "'Millennials seeking a trusted curator for clean, non-toxic products' (probability: 0.65) (HI.hi.metrics.hi04_audience_resonance.audience_segments[0].label + .probability) | 'signal_coherence: 90. Text and visual signals are perfectly anchored.' (HI.hi.metrics.hi04_audience_resonance.sub_metrics.signal_coherence.score + .evaluation) | 'ai03_ai_positioning: 20. Diagnosis: CONTEXT-FREE.' (GEO.metrics.ai03_ai_positioning.score + .diagnosis) | 'The page has a split intent, trying to serve both consumer awareness... and founder acquisition.' (HI.hi.metrics.hi04_audience_resonance.sub_metrics.intent_match.evaluation)",
+      "why_matters": "The brand wins the direct-visit eyeball test but loses every AI-assisted discovery moment. When a Millennial founder or consumer uses a search engine or AI assistant to find 'companies that buy clean beauty brands' or 'portfolios of non-toxic products,' Society Brands is absent. It has built a perfect message that is delivered only to those who already know where to look, forfeiting the massive audience that discovers brands programmatically.",
+      "hard_choice": "The brand must decide whether its audience targeting should be implicit or explicit. One strategy is to make the signals explicit for AI: rewrite copy and metadata to clearly name its target audience and business category, making it discoverable at the risk of sounding too corporate. A second strategy is to maintain the implicit, human-centric approach on the homepage and build separate, explicit landing pages to capture specific founder or consumer search queries. The strategic question is: Is the homepage a destination for those who already know the brand, or is it an engine for acquiring those who don't?"
     },
     "truth_5": {
-      "headline": "Humans see a trustworthy institution; AI sees an unproven entity with no reputation.",
-      "gap_description": "The most significant divergence is in perceived credibility. The human-read Trust Score is a high 82 ('RECEIPTS LOUD'), driven by the visible logos of top-tier investors like BlackRock. In stark contrast, the AI-read Knowledge Anchoring score is a near-zero 2 ('IDENTITY COLLAPSE'), because these logos are not supported by any machine-readable proof like schema or a knowledge graph entry. The brand's entire reputation is built on signals that only human eyes can process.",
-      "evidence": "'HI TRUST SCORE: 82. Diagnosis: RECEIPTS LOUD.' (HI.hi.metrics.hi02_trust_score.score + .diagnosis) | 'AI KNOWLEDGE ANCHORING: 2. Diagnosis: IDENTITY COLLAPSE.' (GEO.metrics.ai05_knowledge_anchoring.score + .diagnosis) | 'REPUTED (named investors like BlackRock and L Catterton).' (HI.hi.metrics.hi02_trust_score.sub_metrics.trust_signals.evaluation) | 'wikipedia_present: false; ... wikidata_id: \\'absent\\'; ... The site has zero JSON-LD blocks' (GEO.metrics.ai05_knowledge_anchoring.sub_metrics.knowledge_graph_presence.evaluation + .schema_category_fit.evaluation)",
-      "why_matters": "This gap means the brand's hard-won institutional credibility is non-transferable to the world of AI. While a human visitor is impressed, any AI system asked about Razor Group's backers or market standing will find no verifiable data and conclude it has none. The brand's reputation is potent but confined entirely to its own webpage, unable to travel across the digital ecosystem.",
-      "hard_choice": "The brand is faced with two divergent views of what constitutes 'proof'. It can decide that its human-centric model of trust is sufficient, betting that its high-value audience will always visit the site directly and be persuaded by the logos they see. Or, it can invest in translating its reputational assets into machine-readable formats, building a Wikidata entry and using schema to make its investor backing a verifiable fact for AI systems. The strategic question: Is a brand's reputation defined only by what a human can see on its homepage, or must it also be defined by what a machine can verify in the public record?"
+      "headline": "Humans see a confusing wellness brand; AI engines see unintelligible, low-trust noise.",
+      "gap_description": "The most significant divergence is that the brand exists for humans but is a ghost to machines. The human perception score is a hedged 55, recognizing an aesthetically pleasing 'Earthy Editorial' brand but flagging its 'SCHIZOPHRENIC' voice. Humans can parse the intended story, even if it's confusing. In stark contrast, the AI/GEO score is a failed 32. AI sees an 'UNANCHORED ENTITY' (AI05 score: 12) with 'MARKETING OVERLOAD' content (AI02 score: 17). Where humans see a flawed story, machines see no coherent story at all.",
+      "evidence": "'HI score: 55. Diagnosis: MIXED READ.' (HI.hi.score + .diagnosis) | 'GEO score: 32. Diagnosis: VAGUE & UNANCHORED.' (GEO.score + .diagnosis) | 'hi03_voice_consistency: 35. Diagnosis: SCHIZOPHRENIC.' (HI.hi.metrics.hi03_voice_consistency.score + .diagnosis) | 'ai05_knowledge_anchoring: 12. Diagnosis: UNANCHORED ENTITY.' (GEO.metrics.ai05_knowledge_anchoring.score + .diagnosis)",
+      "why_matters": "This gap means the brand is cut off from all forms of modern, programmatic discovery. It has built a storefront that can only be found by people who are handed the address. Any potential customer, partner, or investor using an AI-powered tool for research or discovery will not find this company. The brand's reliance on a purely human-readable aesthetic makes it dangerously invisible in a machine-read world.",
+      "hard_choice": "The brand must bridge the gap between its human aesthetic and the need for machine clarity. One path is to re-architect the site for AI first—with factual headlines, clear metadata, and structured data—and then apply the 'Earthy' visual layer over that foundation. A second path is to accept the divergence, keeping the homepage as a poetic, human-centric brochure and investing in other channels (like the websites of its acquired brands) for programmatic discovery. The strategic question is: Is the brand's identity defined by its beautiful but illegible story, or by its ability to be found and understood by the entire digital ecosystem?"
     },
     "_usage": {
-      "prompt_tokens": 22337,
-      "completion_tokens": 2509,
-      "total_tokens": 29102,
+      "prompt_tokens": 22657,
+      "completion_tokens": 2756,
+      "total_tokens": 29904,
       "prompt_tokens_details": {
-        "cached_tokens": 20394
+        "cached_tokens": 20395
       },
       "completion_tokens_details": {
-        "reasoning_tokens": 4256
+        "reasoning_tokens": 4491
       }
     },
     "_model": "gemini-2.5-pro",
@@ -53,53 +53,53 @@
     "_parse_status": "ok"
   },
   "HI_evaluation": {
-    "brand": "Razor Group",
-    "product_title": "Razor Group (Corporate Brand)",
-    "url": "https://www.razor-group.com",
+    "brand": "Society Brands",
+    "product_title": "Society Brands",
+    "url": "https://www.societybrands.com",
     "overall_perception_summary": {
-      "headline": "Elite E-commerce Accelerator",
-      "description": "Razor Group presents itself as a high-finance, technology-driven powerhouse dedicated to acquiring and scaling successful e-commerce brands. The brand perception is one of formidable competence, leveraging proprietary data systems and over a billion in funding as undeniable proof of its capability. For its target audience of ambitious entrepreneurs, engaging with Razor is positioned not just as a transaction, but as a validation of their success and an entry into an elite tier of business."
+      "headline": "Curated Wellness Ecosystem",
+      "description": "Society Brands projects itself as a sophisticated gatekeeper for the conscious consumer, building a perception of trust and ethical authority. It operates as a B2B e-commerce aggregator but communicates with a B2C voice, promising a curated world of 'clean, toxin-free' products. This creates a dual identity: a tech-driven growth platform for entrepreneurs and a safe, holistic sanctuary for end-users. The brand's core appeal is the offloading of cognitive load, offering peace of mind by vetting products for safety and purity."
     },
     "category_summaries": {
       "foundation": {
-        "title": "Data-Driven Dominance",
-        "description": "The brand's stance is The Empowerer, using its formidable tech and financial authority to deliver transformative growth to acquired brands. Its ethos is one of Radical Transparency, where a relentless focus on high-performance is backed by hard numbers like '$1BN+ in funding' and '40000+ products'. The positioning is The Scientific Miracle, using a cool, professional aesthetic to justify its prestige status as a top-tier acquirer. The payoff for an entrepreneur is a lucrative, validated exit and the assurance their creation will achieve global scale."
+        "title": "Ethical Curation Authority",
+        "description": "The brand's stance is The Empowerer, aiming to revolutionize wellness by elevating brands and consumers. Its ethos is rooted in Safety First, with an unwavering commitment to 'safe, toxin-free' and 'gentle, holistic solutions.' This is executed through a Clean Essentialist positioning, using premium, lifestyle-oriented visuals to signal a curated, aspirational value. The payoff for the consumer is not just a product, but access to a pre-vetted ecosystem of trustworthy brands, delivering both safety and a sense of informed choice."
       },
       "identity": {
-        "title": "Authoritative Corporate Power",
-        "description": "The personality is The Reliable Expert — distant, professional, and overwhelmingly competent. The brand's energy is driven by The Ruler archetype, focused on market dominance and control through superior systems. Its look is pure Pharma-Code, employing a high-contrast palette of electric blue and white with a rigid, structured layout to signal efficiency and authority. The voice is The Clinical Authority, communicating in a serious, formal, and data-centric manner that leaves no room for ambiguity."
+        "title": "Guardian of Purity",
+        "description": "The brand's personality is The Gentle Guide, offering helpful, reassuring leadership in the complex world of wellness. This is driven by a dominant Caregiver archetype, focused on protecting consumers by providing 'safe, clean' products. The look is Earthy Organic, using warm, natural tones and a structured, editorial layout to communicate harmony and trustworthiness. The voice reinforces this, speaking as a Gentle Guide—calm, supportive, and educational, solidifying its role as a reliable curator."
       },
       "communication": {
-        "title": "Pitching Prestige and Power",
-        "description": "The hook is The Problem Solver, directly addressing the challenge of scaling or exiting a successful e-commerce business. Its edge as a Specialist is its 'proprietary technology and data infrastructure' tailored for this exact purpose. The proof comes from Investor-Validation, citing backing from 'top-tier investors' like BlackRock as the ultimate credibility signal. The communication focus is a Hard Product Sell, with the entire site architecture geared towards capturing leads through its 'Ready to sell?' proposition."
+        "title": "Philosophy-Led Validation",
+        "description": "The hook is The Alchemist, selling the romantic ideal of 'clean living' rather than specific ingredients. The brand's edge is being The Specialist, uniquely focused on acquiring and scaling brands within the 'clean, toxin-free' niche. Proof comes from Formula Purity, relying on third-party validation like 'EWG verified' and checklists of 'free-from' attributes. The delivery is Science Education, using its 'In, On, Around' framework to teach its philosophy and build trust before ever attempting a sale."
       },
       "benefits": {
-        "title": "Validation, Velocity, and Vindication",
-        "description": "Functionally, Razor Group provides Correction, fundamentally altering a brand's growth trajectory towards global scale. The emotional benefit is Confidence, offering founders relief from the 'sleepless nights' of scaling, combined with the powerful validation of being chosen by an elite firm. Self-expression is rooted in The Status Seeker, as selling to Razor becomes a public signal of one's success and business acumen. The ultimate social benefit is entry into The Insider Clique, joining a select group of entrepreneurs who have achieved a top-tier exit."
+        "title": "Protective Peace of Mind",
+        "description": "Functionally, the brand delivers Protection, shielding consumers from harmful toxins and chemicals. The core emotional benefit is Relief and Safety, providing the peace of mind that comes from using products vetted for purity. This translates to a self-expression signal of The Status Seeker, where status is derived from sophisticated, ethical taste rather than wealth. The ultimate social badge is that of The Ethical Warrior, allowing consumers to signal their virtue and values through their purchasing decisions."
       }
     },
     "quick_labels": {
-      "brand_voice": "Authoritative Expert",
-      "visual_appeal": "Corporate Modern",
-      "value_prop": "Tech-Driven Scaling",
-      "positioning": "Prestige Acquirer"
+      "brand_voice": "Gentle Educator",
+      "visual_appeal": "Earthy Editorial",
+      "value_prop": "Vetted Clean Living",
+      "positioning": "Premium Wellness Aggregator"
     },
     "marker_1": {
       "marker_name": "Purpose",
       "slider_a_label": "[SLIDER] ORIGIN OF AUTHORITY (The Source of Power)",
-      "slider_a_value": "1/5",
-      "slider_a_position_name": "Pure Clinical (Sterile, molecular, synthetic)",
+      "slider_a_value": "4/5",
+      "slider_a_position_name": "Bio-Active (Plant-powered efficacy)",
       "slider_b_label": "[SLIDER] MISSION VECTOR (The Goal)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "Transformation (Joy, vibe, psychology)",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "Enhancement (Glow, texture, feel)",
       "territory_number": 4,
       "territory_name": "The Empowerer",
-      "reasoning": "Pass 1 hypothesis: The Empowerer. The brand's purpose is to use its powerful systems to elevate other businesses. Pass 2: Slider A scores 1/5 Pure Clinical. Authority is derived from 'proprietary technology and data infrastructure' and a 'data-driven approach,' which is the business equivalent of a clinical lab. Slider B scores 5/5 Transformation. The mission is to 'ELEVATE THE BRANDS of tomorrow' and help them 'reach extraordinary heights,' a complete transformation of their scale and potential. Grid: Low(1) x High(5) maps directly to Territory 4. Pass 3: Aligned. The brand uses clinical-style technological authority to deliver transformative outcomes.",
-      "evidence": "\"We take a data-driven approach to finding new customers, then use proprietary technology and data infrastructure to run them at scale.\" ... \"We help today’s visionaries ELEVATE THE BRANDS of tomorrow\"",
+      "reasoning": "Pass 1 hypothesis: The Harmonizer, based on the focus on 'holistic solutions' and 'clean living.' Pass 2: Slider A scores 4/5 Bio-Active; the authority comes from a philosophy of 'clean, toxin-free' and 'plant-based' ingredients, refined by 'the highest standards' (like EWG verification), not raw nature or a pure lab. Slider B scores 4/5 Enhancement; the mission is to 'empower our customers to thrive in optimal health and wellness,' which is an upgrade beyond simple maintenance. Grid: High(4) x High(4) maps to Territory 4. Pass 3: The grid result, The Empowerer, is a better fit than the initial hypothesis. The active, aspirational language ('revolutionize,' 'empower,' 'thrive') aligns perfectly with psychological uplift.",
+      "evidence": "\"We elevate, evolve, and empower brands to do better\" ... \"empower our customers to thrive in optimal health and wellness\" ... \"ensure gentle, holistic solutions are more accessible to consumers.\"",
       "evidence_src": "HOME PAGE (body copy)",
       "evaluation_check": {
-        "coherence_status": "aligned",
-        "coherence_reasoning": "The holistic hypothesis and grid result both point to The Empowerer. The use of 'clinical' tech and data authority to achieve business transformation is a clear fit."
+        "coherence_status": "diverged",
+        "coherence_reasoning": "The holistic hypothesis leaned towards The Harmonizer due to 'holistic' language. However, the grid result of The Empowerer better captures the active, aspirational mission vector ('empower,' 'thrive,' 'revolutionize') that dominates the brand's promise."
       }
     },
     "marker_2": {
@@ -108,205 +108,205 @@
       "slider_a_value": "4/5",
       "slider_a_position_name": "Industry Reform (Changing beauty standards)",
       "slider_b_label": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "Aspirational (High status, expensive investment)",
+      "slider_b_value": "3/5",
+      "slider_b_position_name": "Selective (Requires education to appreciate)",
       "territory_number": 4,
       "territory_name": "The High Priests",
-      "reasoning": "Pass 1 hypothesis: The High Priests. The mission is grand ('building a global e-commerce on powerhouse') but the audience they serve (successful e-commerce founders) is exclusive. Pass 2: Slider A scores 4/5 Industry Reform. The vision of 'Shaping tomorRow's E-commerce' and building a 'global powerhouse' aims to change the industry landscape. Slider B scores 2/5 Aspirational. Selling your business to a firm backed by 'top-tier investors' is a high-status, aspirational goal for entrepreneurs, making access selective. Grid: High(4) x Low(2) maps to Territory 4. Pass 3: Aligned. The brand's mission is large-scale but its engagement model is inherently exclusive.",
-      "evidence": "\"pursuing a larger vision of building a global e-commerce on powerhouse.\" ... \"Shaping tomorRow's E-commerce\" ... \"Backed by world's leading investors from day one\"",
-      "evidence_src": "HOME PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: The High Priests, as the mission is a grand manifesto ('revolutionize...wellness') for a select group of conscious consumers. Pass 2: Slider A is 4/5 Industry Reform; the vision is to 'revolutionize the way consumers experience wellness' and 'transform product portfolios,' which is about changing the rules. Slider B is 3/5 Selective; the focus on 'clean, toxin-free' and brands like Crunchi (EWG verified) appeals to an educated consumer, not the mass market. Grid: High(4) x Mid(3) triggers the MID-SCORE FALLBACK. The strong reformist scope combined with a selective, knowledge-based appeal aligns best with The High Priests. Pass 3: Aligned. The brand's mission is to lead a movement based on a specific philosophy, which is characteristic of The High Priests.",
+      "evidence": "\"our vision is to revolutionize the way consumers experience wellness and self-care\" ... \"transform product portfolios to align with the highest standards of clean living\" ... \"reaching millions of value-conscious consumers.\"",
+      "evidence_src": "HOME PAGE (body copy) + PRESS PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The combination of a grand, industry-shaping mission and an exclusive, aspirational target audience aligns perfectly with The High Priests territory."
+        "coherence_reasoning": "The holistic hypothesis and the grid analysis (via mid-score fallback) both converge on The High Priests. The mission is a grand, selective manifesto for the educated consumer."
       }
     },
     "marker_3": {
       "marker_name": "Values",
       "slider_a_label": "[SLIDER] PERFORMANCE PRIORITY (The Trade-Off)",
-      "slider_a_value": "5/5",
-      "slider_a_position_name": "Aggressive (Clinical strength)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "Gentle (Effective but comfortable)",
       "slider_b_label": "[SLIDER] INFORMATION DENSITY (The Transparency)",
       "slider_b_value": "2/5",
       "slider_b_position_name": "Evidence-First (Charts, diagrams, studies)",
-      "territory_number": 2,
-      "territory_name": "Radical Transparency",
-      "reasoning": "Pass 1 hypothesis: Radical Transparency. The brand values aggressive growth and proves its worth with hard numbers and data. Pass 2: Slider A scores 5/5 Aggressive. The language on the About page—'relentless passion for growth,' 'Be the Best, Work with the Best!'—prioritizes maximum performance above all else. Slider B scores 2/5 Evidence-First. The brand uses 'RAZOR IN NUMBERS' ($1BN+ funding, 40000+ products) as its primary proof, valuing data over narrative. Grid: High(5) x High(2) maps to Territory 2. Pass 3: Aligned. The brand's values are clearly centered on achieving aggressive results and demonstrating them with data.",
-      "evidence": "\"Be the Best, Work with the Best!\" ... \"Our culture thrives on continuous innovation, setting new standards that only the best can match.\" ... \"RAZOR IN NUMBERS ... $1BN+ ... 450+\"",
-      "evidence_src": "ABOUT PAGE + HOME PAGE (body copy)",
+      "territory_number": 1,
+      "territory_name": "Safety First",
+      "reasoning": "Pass 1 hypothesis: Safety First. The overwhelming repetition of 'safe, toxin-free,' 'clean,' and 'chemical-free' makes this the clear dominant value. Pass 2: Slider A scores 2/5 Gentle; the core promise is 'safe, toxin-free products' and 'gentle, holistic solutions.' While some portfolio brands are 'high-performance,' the parent brand's value is safety. Slider B scores 2/5 Evidence-First; the brand relies on proof signals like 'verified by EWG' and 'clinically proven, safe ingredients' rather than mystique or raw data sheets. Grid: Low(2) x High(2) maps directly to Territory 1. Pass 3: Aligned. The brand's entire premise is built on sacrificing potential potency for guaranteed safety and gentleness, backed by evidence.",
+      "evidence": "\"offering safe, toxin-free products for use in, on, and around the body\" ... \"ensure gentle, holistic solutions\" ... \"Crunchi delivers high-performance makeup and skincare with clinically proven, safe ingredients...verified by EWG.\"",
+      "evidence_src": "HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's explicit focus on being the 'best' and its use of numerical proof points are a textbook match for the Radical Transparency territory."
+        "coherence_reasoning": "Both the holistic read and the slider grid point directly to Safety First. The brand's value proposition is built on the reassurance of safety and purity."
       }
     },
     "marker_4": {
       "marker_name": "Positioning",
       "slider_a_label": "[SLIDER] AESTHETIC VIBE (The Uniform)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "Professional (Clean and serious)",
+      "slider_a_value": "4/5",
+      "slider_a_position_name": "Polished (Designed for the Shelfie)",
       "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Status Signal)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "Status Symbol (Exclusivity cues)",
-      "territory_number": 2,
-      "territory_name": "The Scientific Miracle",
-      "reasoning": "Pass 1 hypothesis: The Scientific Miracle. The clean, corporate aesthetic is used to signal competence and justify its premium, high-status position in the market. Pass 2: Slider A scores 2/5 Professional. The visual analysis describes a 'high-energy, corporate-modern aesthetic' with a 'high-contrast grid system' and 'bold, heavy sans-serif'—clean, serious, and professional. Slider B scores 5/5 Status Symbol. Being acquired by a firm 'fueled by top-tier investors' like BlackRock is an exclusive status signal for an entrepreneur. Grid: Low(2) x High(5) maps to Territory 2. Pass 3: Aligned. The professional visuals support the brand's positioning as a prestige, high-status partner.",
-      "evidence": "\"high-energy, corporate-modern aesthetic\" ... \"bold electric blue and massive, condensed typography\" ... \"FUELED BY TOP-TIER INVESTORS\" ... \"Backed by world's leading investors\"",
-      "evidence_src": "HOME PAGE (visual analysis) + HOME PAGE (headline)",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "Investment Piece (Considered purchase)",
+      "territory_number": 4,
+      "territory_name": "The Clean Essentialist",
+      "reasoning": "Pass 1 hypothesis: The Clean Essentialist. The visual analysis shows a 'premium, editorial feel' ('Heritage Warm') and the value is aspirational, positioning 'clean living' as a desirable lifestyle. Pass 2: Slider A is 4/5 Polished, directly supported by the visual analysis ('elegant serif typography,' 'high-quality lifestyle photography'). Slider B is 4/5 Investment Piece; choosing 'clean, toxin-free' products is a considered purchase reflecting an investment in one's health and values, not a utilitarian choice. Grid: High(4) x High(4) maps to Territory 4. Pass 3: Aligned. The brand uses a sophisticated, lifestyle-driven aesthetic to position its portfolio in the premium, conscious consumer space.",
+      "evidence": "\"We elevate, evolve, and empower brands\" ... \"align with the highest standards of clean living\" ... Visuals described as 'premium, editorial feel' and 'Heritage Warm' design language.",
+      "evidence_src": "HOME PAGE (body copy) + PRODUCT PAGE (visual territory)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The professional, tech-forward aesthetic perfectly complements the brand's positioning as an elite, high-status acquirer, aligning with The Scientific Miracle."
+        "coherence_reasoning": "The polished, lifestyle-oriented aesthetic and the aspirational, values-driven perception of value converge perfectly on The Clean Essentialist territory."
       }
     },
     "marker_5": {
       "marker_name": "Personality",
       "slider_a_label": "[SLIDER] WARMTH (The Thermostat)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "Distant (Professional, polite, but emotionally flat)",
+      "slider_a_value": "4/5",
+      "slider_a_position_name": "Affectionate (Soft, caring language)",
       "slider_b_label": "[SLIDER] COMPETENCE / AUTHORITY (The Power Dynamic)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "The Deity (Unquestionable authority)",
-      "territory_number": 3,
-      "territory_name": "The Reliable Expert",
-      "reasoning": "Pass 1 hypothesis: The Reliable Expert. The brand communicates with immense authority and a professional, emotionally distant tone. Pass 2: Slider A scores 2/5 Distant. While the meta description shows some empathy ('the sleepless nights'), the website copy is purely professional and business-focused. Slider B scores 5/5 The Deity. With '$1BN+ in funding,' backing from 'world's leading investors,' and a CEO speaking on proprietary technology, the brand's authority is positioned as absolute. Grid: Low(2) x High(5) maps to Territory 3. Pass 3: Aligned. The personality is overwhelmingly that of a competent, authoritative, and serious expert.",
-      "evidence": "\"Mush of out decision-making today depend upon the technology.\" ... \"Tushar Ahluwalia, co-founder & CEO\" ... \"$1BN+ IN FUNDING\" ... \"FUELED BY TOP-TIER INVESTORS\"",
-      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (headline)",
+      "slider_b_value": "3/5",
+      "slider_b_position_name": "The Guide (Helpful but leads)",
+      "territory_number": 2,
+      "territory_name": "The Trendsetter",
+      "reasoning": "Pass 1 hypothesis: The Trusted Friend. The tone feels warm, caring, and supportive. Pass 2: Slider A scores 4/5 Affectionate, with words like 'nourish,' 'gentle,' and a mission to 'empower.' Slider B scores 3/5 The Guide; the brand leads with a clear philosophy ('In, on, and around your body') and acts as a curator, guiding consumers to better choices. Grid: High(4) x Mid(3) maps to Territory 2, The Trendsetter. Pass 3: Diverged. While 'Trusted Friend' felt right, 'The Trendsetter' better captures the combination of warmth and leadership. The brand isn't just a peer; it's setting the standard for a modern, conscious lifestyle.",
+      "evidence": "\"nourish the mind, body, and home\" ... \"empower our customers to thrive\" ... \"building a community of entrepreneurs and ecommerce brands that help one another reach new heights.\"",
+      "evidence_src": "HOME PAGE (body copy)",
       "evaluation_check": {
-        "coherence_status": "aligned",
-        "coherence_reasoning": "The combination of low emotional warmth and extremely high institutional authority is a direct match for The Reliable Expert personality."
+        "coherence_status": "diverged",
+        "coherence_reasoning": "The holistic hypothesis was The Trusted Friend, focusing on warmth. However, the grid result of The Trendsetter better reflects the brand's role as a leader and guide (Authority 3/5) in the 'clean living' space, combining warmth with aspirational leadership."
       }
     },
     "marker_6": {
       "marker_name": "Archetypes Mix",
       "primary": {
-        "archetype": "The Ruler",
+        "archetype": "The Caregiver",
         "group": "A (Stability)",
         "percentage": "65%"
       },
       "secondary": {
-        "archetype": "The Sage",
-        "group": "B (Independence)",
-        "percentage": "25%"
+        "archetype": "The Ruler",
+        "group": "A (Stability)",
+        "percentage": "20%"
       },
       "tertiary": {
-        "archetype": "The Hero",
-        "group": "C (Mastery)",
-        "percentage": "10%"
+        "archetype": "The Sage",
+        "group": "B (Independence)",
+        "percentage": "15%"
       },
       "territory_number": 4,
       "territory_name": "The Guardian",
-      "reasoning": "The Ruler (65%) is dominant, evident in the ambition to build a 'global e-commerce on powerhouse,' the backing of 'top-tier investors,' and the authoritative tone. The Sage (25%) serves as the mechanism of rule, using a 'data-driven approach' and 'proprietary technology' to exert control and create order. The Hero (10%) appears as the promise to acquired brands, helping them 'ELEVATE' and 'reach extraordinary heights.' The territory is determined by the dominant Ruler archetype, which is native to Territory 4, The Guardian, representing control and stability through commanding order.",
-      "evidence": "\"...building a global e-commerce on powerhouse.\" (Ruler) ... \"We take a data-driven approach... use proprietary technology\" (Sage) ... \"We help today’s visionaries ELEVATE THE BRANDS of tomorrow\" (Hero)",
+      "reasoning": "The primary archetype is The Caregiver (65%), driven by the relentless focus on protection: 'safe, toxin-free,' 'gentle,' 'nourish,' and 'care for your home.' The secondary is The Ruler (20%), reflecting the corporate mission to acquire, control, and build a 'global growth platform' to the 'highest standards.' The tertiary is The Sage (15%), expressed through the simple, clarifying framework of 'what goes IN, ON, and AROUND your body.' The weighted dominance of Caregiver and Ruler places the brand firmly in Territory 4, The Guardian.",
+      "evidence": "\"safe, toxin-free products\" (Caregiver) ... \"building a global growth platform, acquiring ecommerce brands\" (Ruler) ... \"a simple but powerful framework: what goes IN, ON, and AROUND your body\" (Sage)",
       "evidence_src": "HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "Cross-validation: ToV is Territory 1 (Clinical Authority), expecting Ruler or Sage. VI is Territory 1 (Pharma-Code), expecting Ruler, Sage, or Caregiver. The primary archetype, The Ruler, is present in both coherence tables, confirming the selection is aligned with the observed tone and visuals."
+        "coherence_reasoning": "Cross-validation: ToV is Territory 3 (Gentle Guide), which expects Caregiver. VI is Territory 3 (Earthy Organic), which expects Caregiver. The primary archetype, The Caregiver, is strongly supported by both the tone and visual identity, confirming a coherent strategy."
       }
     },
     "marker_7": {
       "marker_name": "Tone of Voice",
       "slider_a_label": "[SLIDER] HUMOR (The Sense of Humor)",
-      "slider_a_value": "1/5",
-      "slider_a_position_name": "Grave (Solemn, warning-like tone)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "Serious (No jokes, strictly business)",
       "slider_b_label": "[SLIDER] FORMALITY (The Dress Code)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "Traditional (Corporate, proper grammar)",
+      "slider_b_value": "3/5",
+      "slider_b_position_name": "Professional (Clean, standard, neutral business tone)",
       "slider_c_label": "[SLIDER] RESPECT (The Power Dynamic)",
-      "slider_c_value": "3/5",
-      "slider_c_position_name": "Neutral (Direct, matter-of-fact)",
+      "slider_c_value": "2/5",
+      "slider_c_position_name": "Respectful (Polite, courteous, careful)",
       "slider_d_label": "[SLIDER] ENTHUSIASM (The Energy Level)",
-      "slider_d_value": "2/5",
-      "slider_d_position_name": "Dry (Just the facts, concise)",
-      "territory_number": 1,
-      "territory_name": "The Clinical Authority",
-      "reasoning": "Pass 1 hypothesis: The Clinical Authority. The language is corporate, serious, and focused on data and technology. Pass 2: Humor is 1/5 (none). Formality is 2/5 (traditional corporate language). Respect is 3/5 (direct B2B tone). Enthusiasm is 2/5 (declarative and confident, but dry and fact-based). Applying the hard rules: Rule 1 for Clinical Authority requires Humor <= 2, Enthusiasm <= 2, and Formality >= 2. The scores (H=1, E=2, F=2) meet all conditions. The rule fires. Pass 3: Aligned. The tone is a perfect match for a clinical, authoritative voice.",
-      "evidence": "\"At Razor Group. we pair our entrepreneurial, financial and product-building experience with cutting-edge technology.\" ... \"We take a data-driven approach...\"",
+      "slider_d_value": "3/5",
+      "slider_d_position_name": "Helpful (Encouraging, positive, but measured)",
+      "territory_number": 3,
+      "territory_name": "The Gentle Guide",
+      "reasoning": "Pass 1 hypothesis: The Gentle Guide. The tone is supportive, educational, and professional without being cold. Pass 2: Sliders are H=2, F=3, R=2, E=3. The language is serious and professional, but with helpful and encouraging words like 'empower,' 'nourish,' and 'thrive.' Applying the hard rules: Rule 1 (Clinical) fails on Enthusiasm. Rule 2 (Hype Beast) fails on Enthusiasm. Rule 3 (Gentle Guide) is a perfect match: E=3 (in 3-4 range), F=3 (in 2-4 range), H=2 (<=3), R=2 (<=3). Pass 3: Aligned. The tone is a classic supportive, guiding voice.",
+      "evidence": "\"We elevate, evolve, and empower brands to do better...\" ... \"nourish the mind, body, and home\" ... \"empower our customers to thrive in optimal health and wellness.\"",
       "evidence_src": "HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The slider scores directly trigger the first hard rule for Territory 1. The tone is serious, dry, and formal, which is the definition of The Clinical Authority."
+        "coherence_reasoning": "The slider scores perfectly match the criteria for Rule 3, The Gentle Guide, which was also the initial holistic hypothesis. The tone is consistently helpful and professional."
       }
     },
     "marker_8": {
       "marker_name": "Visual Identity",
       "slider_a_label": "[SLIDER] THE THERMOSTAT (Visual Temperature)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "Cool (Clean, distant, professional)",
+      "slider_a_value": "4/5",
+      "slider_a_position_name": "Radiating (Soft, inviting, approachable)",
       "slider_b_label": "[SLIDER] THE ENTROPY SCALE (Layout Control)",
       "slider_b_value": "2/5",
       "slider_b_position_name": "Structured (Orderly, predictable hierarchy)",
-      "territory_number": 1,
-      "territory_name": "Pharma-Code",
-      "reasoning": "Pass 1 hypothesis: Pharma-Code. The visual analysis points to a 'Clinical Pop' territory, but the underlying components—cool tones and structured layout—are classic Pharma-Code. Pass 2: Slider A scores 2/5 Cool. The visual analysis reports a 'cool' container temperature and the dominant electric blue reinforces this. Slider B scores 2/5 Structured. The layout is described as a 'stacked-vertical' 'high-contrast grid system,' indicating an orderly and controlled design. Grid: Low(2) x Low(2) maps directly to Territory 1. Pass 3: Aligned. The brand's visual identity uses the cool, structured language of a pharmaceutical or financial firm to signal rigor and authority.",
-      "evidence": "\"container_analysis: temperature: cool\" ... \"layout_type: stacked-vertical\" ... \"The website UI uses a high-contrast grid system alternating between stark white and a saturated electric blue.\"",
-      "evidence_src": "HOME PAGE (visual analysis)",
-      "look_and_feel": "A high-energy, corporate-modern aesthetic using bold electric blue, massive condensed typography, and a clean grid to signal digital sophistication and financial power.",
-      "distinctive_asset_1": "Electric blue brand color palette",
-      "distinctive_asset_2": "Oversized condensed uppercase typography",
-      "distinctive_asset_3": "Outlined 'hollow' text effects",
-      "distinctive_asset_4": "Diagonal geometric image masking",
-      "distinctive_asset_5": "Sectioned background alternation (Blue/White)",
-      "palette_color_1": "#0033FF",
-      "palette_color_2": "#000000",
-      "palette_color_3": "#FFFFFF",
-      "palette_color_4": "#F2F2F2",
-      "palette_color_5": "#E5E5E5",
-      "primary_palette": "A high-contrast, digital-first palette of electric blue, black, and white that communicates speed, authority, and technology-driven growth.",
+      "territory_number": 3,
+      "territory_name": "Earthy Organic",
+      "reasoning": "Pass 1 hypothesis: Earthy Organic, based on the visual analysis description of 'Heritage Warm,' 'natural environments,' and 'Earthy forest greens.' Pass 2: Slider A is 4/5 Radiating; the visual analysis explicitly states 'temperature: warm' for both container and content, citing an 'ivory-based palette' and 'warm, tactile' photography. Slider B is 2/5 Structured; the analysis notes a 'sophisticated grid system' and 'organized grids,' indicating high layout control. Grid: High(4) x Low(2) maps directly to Territory 3. Pass 3: Aligned. All visual evidence points to a warm, natural, yet highly structured and premium aesthetic.",
+      "evidence": "\"visual_territory: Heritage Warm\" ... \"temperature: warm\" ... \"Earthy forest greens and warm tan tones\" ... \"sophisticated grid system\"",
+      "evidence_src": "PRODUCT PAGE (visual territory) + PRODUCT PAGE (visual content)",
+      "look_and_feel": "A premium, editorial feel with a 'Heritage Warm' design language, using elegant serif typography, generous whitespace, and high-quality lifestyle photography to create a sense of elevated, trustworthy wellness.",
+      "distinctive_asset_1": "Serif logo with 'tm' mark",
+      "distinctive_asset_2": "Circular claims icon set (Vegan, Toxin-Free, etc.)",
+      "distinctive_asset_3": "In/On/Around three-column framework cards",
+      "distinctive_asset_4": "Deep forest green footer and hero sections",
+      "distinctive_asset_5": "Scrolling text ticker for location/founding date",
+      "palette_color_1": "#2a3c3e",
+      "palette_color_2": "#fdfaf5",
+      "palette_color_3": "#d9c1a5",
+      "palette_color_4": "#5a6e6a",
+      "palette_color_5": "#ffffff",
+      "primary_palette": "A palette of natural forest greens and skin-tone beiges reflects the brand's 'toxin-free' and 'organic' value propositions, grounded by a clean, authoritative white.",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The visual analysis data provides clear evidence for cool temperature and structured layout, which maps directly to the Pharma-Code territory in the grid."
+        "coherence_reasoning": "The holistic hypothesis and the grid result are in perfect alignment. The visual analysis provides overwhelming evidence for a warm, structured, nature-inspired identity."
       }
     },
     "marker_9": {
       "marker_name": "Messaging",
       "slider_a_label": "[SLIDER] THE HOOK TARGET (The Subject)",
-      "slider_a_value": "5/5",
-      "slider_a_position_name": "The Dream (Identity subject)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "The Component (Natural/tangible subject)",
       "slider_b_label": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
-      "slider_b_value": "1/5",
-      "slider_b_position_name": "Raw Data (Charts, percentages, clinically proven)",
-      "territory_number": 2,
-      "territory_name": "The Problem Solver",
-      "reasoning": "Pass 1 hypothesis: The Problem Solver. The messaging is geared towards solving the complex problem of scaling an e-commerce business. Pass 2: Slider A scores 5/5 The Dream. The hook isn't a feature, but the ultimate outcome: building a 'global e-commerce on powerhouse' and achieving 'extraordinary heights.' Slider B scores 1/5 Raw Data. The persuasion relies heavily on numbers: '$1BN+ IN FUNDING,' '40000+ PRODUCTS,' '1 MILLION+ CUSTOMERS.' Grid: High(5) x Low(1) maps to Territory 2. Pass 3: Aligned. The brand sells the dream of solving the scaling problem and uses hard data as its persuasive logic.",
-      "evidence": "\"developing THE NEXT GENERATION OF CONSUMER pRODUCTS\" ... \"RAZOR IN NUMBERS ... 40000+ ... 1 MILLION+ ... $1BN+\"",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "Evocative (Descriptive, sensory language)",
+      "territory_number": 4,
+      "territory_name": "The Alchemist",
+      "reasoning": "Pass 1 hypothesis: The Alchemist. The brand sells the philosophy of 'clean' and 'toxin-free' (the source) through aspirational, feeling-forward language. Pass 2: Slider A is 2/5 The Component; the primary subject is the quality of the products ('Clean and Toxin-Free'), not a specific molecule or an end-state dream. Slider B is 4/5 Evocative; the persuasion comes from emotional language like 'nourish the mind, body, and home' and 'thrive in optimal health.' Grid: Low(2) x High(4) maps to Territory 4. Pass 3: Aligned. The messaging elevates a component-level quality ('toxin-free') into a romantic, aspirational promise.",
+      "evidence": "\"Clean and Toxin-Free Products\" ... \"nourish the mind, body, and home\" ... \"empower our customers to thrive in optimal health and wellness.\"",
       "evidence_src": "HOME PAGE (headline) + HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The messaging combines the ultimate aspirational outcome (The Dream) with hard data for persuasion, which is a sophisticated form of problem-solving for a B2B audience."
+        "coherence_reasoning": "The holistic hypothesis and grid result both identify The Alchemist. The brand's messaging focuses on a philosophical ingredient quality and frames it with evocative, emotional language."
       }
     },
     "marker_10": {
       "marker_name": "Narrative",
       "slider_a_label": "[SLIDER] THE PROTAGONIST (Who Solved It)",
-      "slider_a_value": "1/5",
-      "slider_a_position_name": "The Nobel (Faceless PhDs, dermatologists)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "The Professional (Named specialists, industry insiders)",
       "slider_b_label": "[SLIDER] THE SETTING (Where It Happened)",
       "slider_b_value": "2/5",
       "slider_b_position_name": "Tech-Forward (Biotech labs, modern innovation)",
       "territory_number": 1,
       "territory_name": "The Lab Breakthrough",
-      "reasoning": "Pass 1 hypothesis: The Lab Breakthrough. The story is one of institutional power and technology, not a personal founder's journey. Pass 2: Slider A scores 1/5 The Nobel. The protagonists are faceless institutions: 'top-tier investors' and the corporate entity of 'Razor Group,' not an individual. Slider B scores 2/5 Tech-Forward. The setting is defined by 'cutting-edge technology' and 'proprietary technology and data infrastructure.' Grid: Low(1) x Low(2) maps to Territory 1. Pass 3: Aligned. The narrative is a classic story of institutional and technological innovation.",
-      "evidence": "\"Backed by world's leading investors from day one\" ... \"we pair our entrepreneurial, financial and product-building experience with cutting-edge technology.\"",
-      "evidence_src": "HOME PAGE (body copy)",
+      "reasoning": "Pass 1 hypothesis: The Lab Breakthrough. The narrative is not about a founder's personal journey or a natural source, but about a modern, tech-focused company with a specific business model. Pass 2: Slider A is 2/5 The Professional; the 'Team' page lists Co-Founders with corporate titles (CEO, President, COO), establishing institutional authority. Slider B is 2/5 Tech-Forward; the company is explicitly a 'tech-enabled consumer products company' building a 'global growth platform.' The press page reinforces this with mentions of its tech stack. Grid: Low(2) x Low(2) maps to Territory 1. Pass 3: Aligned. The origin story is that of a modern, professional, tech-driven corporation.",
+      "evidence": "\"As a tech-enabled consumer products company, we are building a global growth platform\" ... \"Meet the Team: Michael Sirpilla, Co-Founder | Chief Executive Officer\" ... \"leveraging technology to fast-track the growth of e-commerce brands.\"",
+      "evidence_src": "HOME PAGE (body copy) + ABOUT PAGE + PRESS PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The narrative centers on institutional authority and a technological setting, which is a direct fit for The Lab Breakthrough territory."
+        "coherence_reasoning": "The narrative is consistently framed around a professional, tech-enabled corporate entity, which aligns perfectly with The Lab Breakthrough territory."
       }
     },
     "marker_11": {
       "marker_name": "Key Selling Points",
       "slider_a_label": "[SLIDER] THE VALIDATOR (Who Says It Works?)",
-      "slider_a_value": "1/5",
-      "slider_a_position_name": "The Board (Dermatologist developed/recommended)",
+      "slider_a_value": "3/5",
+      "slider_a_position_name": "The Certifiers (Third-party logos: EWG, PETA)",
       "slider_b_label": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "The Stat (95% saw reduction in acne)",
-      "territory_number": 1,
-      "territory_name": "Derm-Validation",
-      "reasoning": "Pass 1 hypothesis: Derm-Validation (adapted to Investor-Validation). The key proof points are institutional backing and hard metrics. Pass 2: Slider A scores 1/5 The Board. The ultimate validators are 'world's leading investors' like BlackRock and L Catterton, the financial equivalent of a medical board. Slider B scores 2/5 The Stat. The proof is presented as numerical data: '$1BN+ IN FUNDING,' '450+ employees,' '40000+ products.' Grid: Low(1) x Low-Mid(2) maps to Territory 1. Pass 3: Aligned. The brand uses elite institutional validation and numerical stats as its core proof.",
-      "evidence": "\"FUELED BY TOP-TIER INVESTORS\" ... \"BlackRock | 468 Capital | VICTORY PARK CAPITAL | L CATTERTON\" ... \"$1BN+ IN FUNDING ... 450+ TEAM MEMBERS\"",
-      "evidence_src": "HOME PAGE (headline) + HOME PAGE (visual analysis) + HOME PAGE (body copy)",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "The List (Free-from, Vegan, Clean)",
+      "territory_number": 2,
+      "territory_name": "Formula Purity",
+      "reasoning": "Pass 1 hypothesis: Formula Purity. The brand's proof is centered on what's absent ('toxin-free') and the external validations that confirm it. Pass 2: Slider A is 3/5 The Certifiers; the mention of 'verified by EWG' for a portfolio brand is a key validator, as are the 'Vegan' and 'Toxin Free' icons shown in the visual analysis. Slider B is 4/5 The List; the primary form of proof is the checklist of attributes the products adhere to ('clean, toxin-free, chemical-free'). Grid: Mid(3) x High(4) maps to Territory 2. Pass 3: Aligned. The brand's method of proving its value is by presenting a checklist of 'pure' attributes validated by third-party standards.",
+      "evidence": "\"verified by EWG\" ... \"Icons on image: Vegan Badge, Non-GMO Badge, Toxin Free Badge, Hormone Free Badge, Preservative Free Badge\" ... \"formulated with plant-based and organic ingredients.\"",
+      "evidence_src": "HOME PAGE (body copy) + PRODUCT PAGE (visual analysis)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's reliance on top-tier institutional validators and quantitative stats is a direct parallel to the Derm-Validation territory's logic of expertise and data."
+        "coherence_reasoning": "Both the holistic read and the grid result point to Formula Purity. The brand uses third-party certifiers and 'free-from' lists as its primary evidence."
       }
     },
     "marker_12": {
@@ -319,12 +319,12 @@
       "slider_b_position_name": "The Specialist (Hyper-niche condition)",
       "territory_number": 4,
       "territory_name": "The Specialist",
-      "reasoning": "Pass 1 hypothesis: The Specialist. The brand's unique offer is highly technical and aimed at a very specific audience. Pass 2: Slider A scores 5/5 The Proprietary System. The USP is the 'proprietary technology and data infrastructure' used to scale brands. Slider B scores 5/5 The Specialist. The target audience is not the general public, but a hyper-niche group: successful e-commerce entrepreneurs looking to sell. Grid: Any(5) x High(5) maps directly to Territory 4. Pass 3: Aligned. The brand has a unique, proprietary system for a very specific, specialist audience.",
-      "evidence": "\"use proprietary technology and data infrastructure to run them at scale.\" ... \"Ready to sell?\" ... \"Tell us about your business\"",
-      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (headline)",
+      "reasoning": "Pass 1 hypothesis: The Specialist. The brand's uniqueness comes from its hyper-focused strategy of acquiring only 'clean, toxin-free' e-commerce brands, a niche within the broader aggregator market. Pass 2: Slider A is 5/5 The Proprietary System; the USP is the 'tech-enabled global growth platform' and business model, a complete system for acquiring and scaling brands. Slider B is 5/5 The Specialist; the company is not a generalist but focuses exclusively on the health, wellness, and personal care niche. Grid: Any x High(5) maps directly to Territory 4. Pass 3: Aligned. The brand's unique selling proposition is its specialization.",
+      "evidence": "\"Our focus today and in the future is on clean, toxin-free products that support total well-being.\" ... \"a tech-enabled consumer products company, we are building a global growth platform, acquiring ecommerce brands\"",
+      "evidence_src": "HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The combination of a proprietary system and a hyper-niche target market is the definition of The Specialist territory."
+        "coherence_reasoning": "The brand's entire business model is its USP, and that model is defined by its specialization in a specific market niche. This is a clear fit for The Specialist."
       }
     },
     "marker_13": {
@@ -333,34 +333,34 @@
       "slider_a_value": "2/5",
       "slider_a_position_name": "The Explainer (Infographics, How it Works)",
       "slider_b_label": "[SLIDER] THE INTENT VECTOR (Content Goal)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "The Hard Sell (Bundles, discounts, Buy Now)",
-      "territory_number": 4,
-      "territory_name": "Hard Product Sell",
-      "reasoning": "Pass 1 hypothesis: Hard Product Sell. The entire website is a funnel designed to get entrepreneurs to submit their business for evaluation. Pass 2: Slider A scores 2/5 The Explainer. The content explains the process ('Fair evaluation,' 'Analysis & deep dive') but doesn't go into deep educational content. Slider B scores 5/5 The Hard Sell. The primary call to action is 'Ready to sell?' and the site is structured around lead capture forms. Grid: Low(2) x High(5) maps to Territory 4. Pass 3: Aligned. The educational content serves the ultimate purpose of driving a transaction (the business submission).",
-      "evidence": "\"THIS IS HOW WE DO IT ... 01 Fair evaluation ... 02 Analysis & deep dive ... 03 Closing & integration\" ... \"Ready to sell?\" ... \"Total Amazon Revenue (last 12 months) *\"",
-      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (headline)",
+      "slider_b_value": "1/5",
+      "slider_b_position_name": "The Thesis (Clinical studies, dermatologist quotes)",
+      "territory_number": 1,
+      "territory_name": "Science Education",
+      "reasoning": "Pass 1 hypothesis: Science Education. The homepage is entirely dedicated to explaining the brand's philosophy and mission to build trust, with no direct calls to purchase. Pass 2: Slider A is 2/5 The Explainer; content like 'The Promise,' 'Our Mission,' and the 'In, On, Around' framework serves to explain the brand's approach in a simplified way. Slider B is 1/5 The Thesis; the page's sole intent is to establish credibility and prove its philosophical thesis. The B2B 'Partner' CTA is secondary to the primary trust-building message. Grid: Low(2) x Low(1) maps to Territory 1. Pass 3: Aligned. The focus is on educating the audience about the brand's 'why' to build foundational trust.",
+      "evidence": "\"The Promise\" ... \"Our Mission\" ... \"a simple but powerful framework: what goes IN, ON, and AROUND your body.\"",
+      "evidence_src": "HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The page's structure, with light explanation leading directly to aggressive lead capture forms, is a clear example of the Hard Product Sell focus."
+        "coherence_reasoning": "The content is structured to explain a philosophy and build trust, which is the core of the Science Education territory. The lack of commercial intent is a strong signal."
       }
     },
     "marker_14": {
       "marker_name": "Functional Benefits",
       "slider_a_label": "[SLIDER] THE ACTION VECTOR (The Mechanism)",
-      "slider_a_value": "5/5",
-      "slider_a_position_name": "The Fixer (Reverses damage, cracks, acne)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "The Buffer (Strengthens healthy skin)",
       "slider_b_label": "[SLIDER] THE OUTCOME TARGET (The Goal)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "Vanity (Glass skin, poreless, filter-like)",
-      "territory_number": 4,
-      "territory_name": "Correction",
-      "reasoning": "Pass 1 hypothesis: Correction. The functional benefit is to 'fix' a brand's growth limitations and perfect its market position. Pass 2: Slider A scores 5/5 The Fixer. Razor Group's function is to acquire and aggressively scale businesses, 'fixing' their inability to grow further on their own and helping them 'unlock their brands’ full potential.' Slider B scores 5/5 Vanity. The outcome is achieving 'extraordinary heights' and becoming part of a 'global e-commerce on powerhouse'—the business equivalent of a perfect, flawless appearance. Grid: High(5) x High(5) maps to Territory 4. Pass 3: Aligned. The brand's function is to correct a business's trajectory towards a perfect outcome.",
-      "evidence": "\"unlock their brands’ full potential - so that the best products can be available on everyone’s doorstep.\" ... \"see it reach extraordinary heights.\"",
+      "slider_b_value": "1/5",
+      "slider_b_position_name": "Biological (pH balance, microbiome, lipid layer)",
+      "territory_number": 2,
+      "territory_name": "Protection",
+      "reasoning": "Pass 1 hypothesis: Protection. The core functional benefit is protecting the body from harmful substances by offering 'safe, toxin-free' alternatives. Pass 2: Slider A is 2/5 The Buffer; the action is proactive support for the body's systems by avoiding negative inputs. Slider B is 1/5 Biological; the promised outcome is 'optimal health and wellness' and 'total well-being,' which are invisible, biological states, not aesthetic improvements. Grid: Low(2) x Low(1) maps to Territory 2. Pass 3: Aligned. The brand's functional promise is to defend the user's biological well-being.",
+      "evidence": "\"safe, toxin-free products\" ... \"support total well-being\" ... \"empower our customers to thrive in optimal health and wellness.\"",
       "evidence_src": "HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The functional benefit is clearly about aggressive intervention (The Fixer) to achieve a perfected outcome (Vanity), which aligns directly with the Correction territory."
+        "coherence_reasoning": "The functional promise is consistently framed as a defensive action (avoiding toxins) to achieve an internal, biological outcome (wellness), which is the definition of the Protection territory."
       }
     },
     "marker_15": {
@@ -369,16 +369,16 @@
       "slider_a_value": "2/5",
       "slider_a_position_name": "Reassurance (Don't worry, this works)",
       "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS (The Audience)",
-      "slider_b_value": "4/5",
-      "slider_b_position_name": "Savvy (I feel smart/validated for choosing this)",
-      "territory_number": 2,
-      "territory_name": "Confidence",
-      "reasoning": "Pass 1 hypothesis: Confidence. The brand offers relief from the stress of scaling a business and provides the validation of being acquired by a top player. Pass 2: Slider A scores 2/5 Reassurance. The meta description explicitly addresses 'the sleepless nights, the investment, the pure passion,' offering reassurance by placing the brand 'in safe hands.' Slider B scores 4/5 Savvy. Being acquired by a firm backed by top-tier investors provides immense external validation, making the founder feel smart and successful. Grid: Low(2) x High(4) maps to Territory 2. Pass 3: Aligned. The emotional benefit is the confidence that comes from both relief and validation.",
-      "evidence": "\"the sleepless nights, the investment, the pure passion. That’s why selling to us means placing your consumer’s mission in safe hands\" ... \"receiving a fair reward for your care and dedication.\"",
+      "slider_b_value": "1/5",
+      "slider_b_position_name": "Sanctuary (I feel safe inside my own body)",
+      "territory_number": 1,
+      "territory_name": "Relief / Safety",
+      "reasoning": "Pass 1 hypothesis: Relief / Safety. The emotional payoff of a 'toxin-free' promise is the removal of worry about harmful chemicals, leading to a feeling of safety. Pass 2: Slider A is 2/5 Reassurance; the entire brand positioning is designed to reassure consumers that its products are safe. Slider B is 1/5 Sanctuary; the benefit is a private feeling of safety and well-being within one's own body and home. Grid: Low(2) x Low(1) maps to Territory 1. Pass 3: Aligned. The core emotional benefit is the peace of mind that comes from trusting the safety of the products you use.",
+      "evidence": "\"offering safe, toxin-free products\" ... \"ensure gentle, holistic solutions\" ... \"creating a marketplace of trusted brands that enhance everyday life.\"",
       "evidence_src": "HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The combination of reassuring language that relieves founder anxiety and the external validation from a prestige acquirer creates a clear emotional benefit of Confidence."
+        "coherence_reasoning": "The brand's promise directly addresses consumer anxiety about product safety, delivering an emotional benefit of reassurance and creating a sense of personal sanctuary. This is a clear fit for Relief / Safety."
       }
     },
     "marker_16": {
@@ -387,256 +387,256 @@
       "slider_a_value": "4/5",
       "slider_a_position_name": "The Statement (I buy it to show my taste)",
       "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION (Social Position)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "The Exclusive (Gatekept by price or access)",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "The Insider (Hard to find; if you know, you know)",
       "territory_number": 4,
       "territory_name": "The Status Seeker",
-      "reasoning": "Pass 1 hypothesis: The Status Seeker. Selling a business to Razor Group is a significant status symbol within the entrepreneurial community. Pass 2: Slider A scores 4/5 The Statement. While a pragmatic decision, choosing to sell to *this* specific, highly-funded group is a statement about the quality and potential of one's own business. Slider B scores 5/5 The Exclusive. The 'tribe' is an exclusive club of successful founders who have achieved a top-tier exit, gatekept by the high standards of the acquirer. Grid: High(4) x High(5) maps to Territory 4. Pass 3: Aligned. The act of engaging with this brand is an expression of status and exclusivity.",
-      "evidence": "\"Get your consumer’s true worth and see it reach extraordinary heights.\" ... \"FUELED BY TOP-TIER INVESTORS\" ... \"YOU ARE IN GOOD COMPANY\"",
-      "evidence_src": "HOME PAGE (body copy) + HOME PAGE (headline)",
+      "reasoning": "Pass 1 hypothesis: The Purist. Choosing these brands signals ethical purity and deep knowledge. Pass 2: Slider A is 4/5 The Statement; choosing 'clean living' brands is a strong signal of one's values and identity. Slider B is 4/5 The Insider; this is a choice for the educated, 'value-conscious' consumer, not the mainstream, making it an 'in the know' selection. Grid: High(4) x High(4) maps to Territory 4, The Status Seeker. Pass 3: Diverged. While 'Purist' feels emotionally correct, the grid logic is sound. The brand's premium visuals and aspirational language position this ethical choice as a form of status, derived from taste and knowledge rather than wealth. The grid result is strategically more accurate.",
+      "evidence": "\"align with the highest standards of clean living\" ... \"spotlight today's most innovative, mission-led brands—reaching millions of value-conscious consumers.\" ... Visuals are 'premium' and 'editorial'.",
+      "evidence_src": "HOME PAGE (body copy) + PRESS PAGE + PRODUCT PAGE (visual territory)",
       "evaluation_check": {
-        "coherence_status": "aligned",
-        "coherence_reasoning": "The motivation is to make a statement about one's success by joining an exclusive, high-status group, which is the core of The Status Seeker territory."
+        "coherence_status": "diverged",
+        "coherence_reasoning": "The holistic hypothesis was The Purist, focusing on the ethical motivation. However, the sliders (Identity x Niche) map to The Status Seeker. Given the brand's premium aesthetic and aspirational tone, the 'status' is derived from superior taste and ethical discernment, making the grid result a more complete strategic interpretation."
       }
     },
     "marker_17": {
       "marker_name": "Social Benefits",
       "slider_a_label": "[SLIDER] THE SOCIAL VECTOR (Social Goal)",
-      "slider_a_value": "5/5",
-      "slider_a_position_name": "Separation (I want to be unlike the rest)",
+      "slider_a_value": "4/5",
+      "slider_a_position_name": "Distinction (I want to be noticed)",
       "slider_b_label": "[SLIDER] THE GROUP DYNAMIC (Tribal Scale)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "The Elite (Gatekeepers/VIPs)",
-      "territory_number": 4,
-      "territory_name": "The Insider Clique",
-      "reasoning": "Pass 1 hypothesis: The Insider Clique. The social benefit is joining an elite, exclusive group of successful entrepreneurs. Pass 2: Slider A scores 5/5 Separation. Achieving a successful exit to a major acquirer separates a founder from the vast majority of other business owners. Slider B scores 5/5 The Elite. The group dynamic is explicitly about joining the elite, as signaled by the 'top-tier investors' and the high bar for acquisition. Grid: High(5) x High(5) maps to Territory 4. Pass 3: Aligned. The social payoff is differentiation by joining an elite, insider group.",
-      "evidence": "\"YOU ARE IN GOOD COMPANY\" ... \"Be the Best, Work with the Best!\" ... \"Collaborate with the sharpest minds to reshape possibilities.\"",
-      "evidence_src": "HOME PAGE (body copy) + ABOUT PAGE",
+      "slider_b_value": "3/5",
+      "slider_b_position_name": "The Niche (Specific interest group)",
+      "territory_number": 3,
+      "territory_name": "The Ethical Warrior",
+      "reasoning": "Pass 1 hypothesis: The Ethical Warrior. The social benefit is joining a movement and signaling one's virtue through conscious consumerism. Pass 2: Slider A is 4/5 Distinction; choosing these brands differentiates you from mainstream consumers. Slider B is 3/5 The Niche; the brand targets the specific group of 'value-conscious consumers' who follow 'mission-led brands.' Grid: High(4) x Mid(3) triggers the MID-SCORE FALLBACK. The combination of seeking distinction within a specific niche strongly aligns with signaling virtue and values. Territory 3 is the most logical fit. Pass 3: Aligned. The social currency offered by the brand is the ability to demonstrate one's commitment to ethical and clean living.",
+      "evidence": "\"spotlight today's most innovative, mission-led brands—reaching millions of value-conscious consumers.\" ... \"Going beyond clean beauty standards\" ... \"promotes holistic well-being and offers toxin-free solutions\"",
+      "evidence_src": "PRESS PAGE + HOME PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The social benefit is clearly about separating oneself from the crowd by gaining entry into an elite, exclusive clique of high-achievers."
+        "coherence_reasoning": "The holistic hypothesis and the grid analysis (via mid-score fallback) both converge on The Ethical Warrior. The social benefit is clearly tied to demonstrating virtue and belonging to a conscious movement."
       }
     },
     "_usage": {
-      "prompt_tokens": 13386,
-      "completion_tokens": 3241,
-      "total_tokens": 20432,
+      "prompt_tokens": 16269,
+      "completion_tokens": 3285,
+      "total_tokens": 23996,
       "prompt_tokens_details": {
-        "cached_tokens": 12202
+        "cached_tokens": 12217
       },
       "completion_tokens_details": {
-        "reasoning_tokens": 3805
+        "reasoning_tokens": 4442
       }
     },
     "_model": "gemini-2.5-pro",
     "_finish_reason": "STOP",
     "_parse_status": "ok",
     "hi": {
-      "score": 75,
-      "label": "READABLE",
-      "diagnosis": "CLEAR READ",
-      "profile": "The brand presents as a high-energy, data-driven e-commerce aggregator targeting entrepreneurs for acquisition. It uses large-scale numbers ('$1BN+ in funding', '40000+ products') and top-tier investor logos to project institutional credibility and momentum. The visual language is a 'Clinical Pop' — corporate, but fast-moving and modern, designed to appeal to ambitious founders.",
-      "blind_spot": "The primary headline, 'developing THE NEXT GENERATION OF CONSUMER pRODUCTS', is an aspirational outcome, not a clear statement of the business model. A first-time visitor has to scroll and read to understand the core service is acquiring and scaling existing e-commerce brands, creating a slight clarity gap at the most critical point of entry.",
+      "score": 55,
+      "label": "HEDGED",
+      "diagnosis": "MIXED READ",
+      "profile": "The brand presents a split personality: the homepage tells a warm, consumer-facing story about being a curator of 'clean wellness' products, while its actual business model is a B2B e-commerce aggregator. This creates a fundamental disconnect between the B2C headline ('In, on, and around your body') and the B2B value proposition ('acquiring ecommerce brands'). The premium 'Heritage Warm' visual design effectively supports the consumer narrative but cannot resolve the strategic confusion for a 10-second visitor.",
+      "blind_spot": "The chasm between the brand's corporate identity (a finance-driven acquisition machine, per its press page) and its public persona (a gentle, holistic wellness curator) is the core blind spot. This schizophrenia undermines trust for both target audiences: potential brand acquisitions see a soft consumer story instead of a growth engine, while consumers are unaware of the corporate aggregator behind the 'clean' facade. The brand needs to decide which story is the true one and tell it consistently.",
       "metrics": {
         "hi01_message_clarity": {
           "label": "MESSAGE CLARITY",
-          "score": 65,
-          "diagnosis": "UNDERSTANDABLE",
-          "so_what": "The page clearly explains its process for acquiring brands but buries this core function below a vague, aspirational headline. A visitor understands the 'how' and 'why' after a few seconds of scrolling, but the initial 'what' is not immediately obvious. The message lands, but with a delay.",
+          "score": 60,
+          "diagnosis": "TAKES EFFORT",
+          "so_what": "The page's message is confusing because it targets two different audiences—consumers and e-commerce founders—simultaneously with conflicting signals. The main headline is for consumers, but the first paragraph of body copy is for founders. A 10-second visitor is left unsure if this is a store, a portfolio, or an investment firm.",
           "sub_metrics": {
             "headline_clarity": {
-              "score": 50,
-              "evaluation": "The headline 'developing THE NEXT GENERATION OF CONSUMER pRODUCTS' states WHAT (consumer products) but not WHO it's for (e-commerce founders) or WHY this one (fast, fair, tech-driven acquisition). It's a mission statement, not a functional headline, landing only one of three Krug anchors."
+              "score": 30,
+              "evaluation": "The headline 'In, on, and around your body.' is an aspirational tagline, not a functional headline. It explains WHAT category the products are in, but not WHO the company is for or WHY a visitor should care, reading as brand poetry."
             },
             "value_prop_above_fold": {
               "score": 70,
-              "evaluation": "The first 150 words state the MECHANISM ('pair our... experience with cutting-edge technology') and imply the BENEFIT ('Shaping tomorRow's E-commerce'). It lacks an explicit CONTRAST against alternatives, landing two of three value prop elements."
+              "evaluation": "The value prop for founders is clear: the BENEFIT is reaching 'new heights', the MECHANISM is being acquired by a 'tech-enabled' company, and the CONTRAST is going it alone. However, this B2B value prop directly contradicts the B2C focus of the headline."
             },
             "benefit_hierarchy": {
               "score": 50,
-              "evaluation": "The lead benefit is a generic category claim ('bringing the best products to everyone's lives'). The true differentiator is the tech-driven acquisition and scaling model, which is presented as a process ('THIS IS HOW WE DO IT') rather than the lead benefit."
+              "evaluation": "The lead benefit presented is the 'clean, toxin-free' product portfolio, a generic category claim. The brand's actual differentiator is its acquisition and growth model for founders, which is buried in body copy instead of leading the message."
             },
             "jargon_load": {
               "score": 90,
-              "evaluation": "Terms like 'proprietary technology' and 'data infrastructure' are used, but they are table-stakes vocabulary for the target B2B audience of tech-savvy entrepreneurs. The copy avoids gratuitous jargon, making it accessible to its intended reader."
+              "evaluation": "The copy is very clean. Terms like 'tech-enabled consumer products company' and 'global growth platform' are mild business jargon but are explained by the surrounding context and appropriate for the founder audience."
             }
           },
           "checklist": {
             "pass": [
-              "explains its acquisition mechanism clearly"
+              "uses a simple, memorable framework: 'IN, ON, and AROUND'"
             ],
             "warn": [
-              "leads with a generic category benefit, not its differentiator"
+              "value prop is for founders, but headline is for consumers"
             ],
             "fail": [
-              "omits WHO and WHY from the main headline"
+              "headline 'In, on, and around your body' omits WHO and WHY"
             ]
           }
         },
         "hi02_trust_score": {
           "label": "TRUST SCORE",
-          "score": 82,
-          "diagnosis": "RECEIPTS LOUD",
-          "so_what": "Trust is the brand's strongest asset, built on a foundation of verifiable, high-stakes evidence. The page prominently features named top-tier investors, large funding numbers, and a specific case study. This reads as a highly credible, institutionally-backed player, leaving little room for doubt.",
+          "score": 54,
+          "diagnosis": "MIXED EVIDENCE",
+          "so_what": "Trust is built on the borrowed equity of its acquired brands (e.g., Crunchi's 'verified by EWG' status) and third-party press logos. The parent brand itself offers few direct trust signals, relying on a professional design rather than establishing its own on-page credibility with social proof or case studies.",
           "sub_metrics": {
             "hype_index": {
               "score": 70,
-              "evaluation": "The page uses several unsupported superlatives like 'best products' and 'top-tier investors'. While the investor claim is later backed by logos, the 'best products' claim is pure self-praise. This falls into the 3-5 unsupported claims band."
+              "evaluation": "The page uses a few strong but not egregious superlatives like 'revolutionize' and 'profound difference'. With 3-5 such claims, it lands in the mid-range, projecting confidence without feeling overly hyped."
             },
             "claim_to_evidence_ratio": {
-              "score": 70,
-              "evaluation": "The page balances hyperbolic claims ('ELEVATE THE BRANDS of tomorrow') with a strong set of Level A verifiable evidence ('$1BN+ IN FUNDING', named investors like BlackRock). The ratio of verifiable (A+B) to subjective (C+D) claims is high, likely in the 50-69% range."
+              "score": 30,
+              "evaluation": "The page makes many Level C claims like 'safe, toxin-free products' but provides few Level A/B proofs. The specific 'verified by EWG' for one sub-brand is the strongest evidence, but the overall ratio of verifiable claims is low, around 20%."
             },
             "social_proof": {
-              "score": 90,
-              "evaluation": "Social proof is high-quality, featuring a case study with a named founder ('David Hach'), his company, and a direct quote. This demonstrates strong SPECIFICITY and SIMILARITY to the target audience of e-commerce entrepreneurs."
+              "score": 50,
+              "evaluation": "The visual analysis confirms the presence of press logos (Forbes, TechCrunch), which provides QUANTITY-based proof. However, it lacks SPECIFICITY (no quotes) or SIMILARITY (no testimonials from customers or acquired founders)."
             },
             "trust_signals": {
-              "score": 90,
-              "evaluation": "All four Fogg credibility types are present: SURFACE (professional design), EARNED (case study), PRESUMED (contact info, privacy policy), and REPUTED (named investors like BlackRock and L Catterton). This creates a comprehensive trust profile."
+              "score": 70,
+              "evaluation": "The site demonstrates 3 of 4 Fogg credibility types: SURFACE (professional design), PRESUMED (legal policies in footer), and REPUTED (press logos). It lacks any EARNED credibility signals like case studies or testimonials."
             },
             "visible_certifications": {
-              "score": 90,
-              "evaluation": "The logos of 'world's leading investors' like BlackRock, 468 Capital, and L Catterton are clearly visible. These function as powerful third-party endorsements, with 4+ named entities cited."
+              "score": 50,
+              "evaluation": "One named third-party certification, 'verified by EWG', is cited for a portfolio brand. While other icons like 'Vegan' are present, they appear to be self-claims, making the single external verification the primary signal."
             }
           },
           "checklist": {
             "pass": [
-              "cites named, top-tier investors like BlackRock as proof"
+              "cites a specific third-party cert: 'verified by EWG'"
             ],
             "warn": [
-              "uses unsupported superlatives like 'best products'"
+              "relies on press logos without specific testimonial quotes"
             ],
             "fail": [
-              "CEO quote is generic and lacks a specific customer outcome"
+              "omits all forms of direct social proof like customer reviews"
             ]
           }
         },
         "hi03_voice_consistency": {
           "label": "VOICE CONSISTENCY",
-          "score": 90,
-          "diagnosis": "ONE PERSON",
-          "so_what": "The brand voice is exceptionally consistent between its homepage and 'About Us' page. It projects a single, unified persona of an ambitious, elite, and results-driven organization. A visitor receives the exact same message about the brand's culture and standards regardless of which page they read.",
+          "score": 35,
+          "diagnosis": "SCHIZOPHRENIC",
+          "so_what": "The brand's voice is schizophrenic. The homepage speaks the language of a gentle, 'Caregiver' wellness brand focused on holistic health. In stark contrast, the press page reveals a financially aggressive 'Ruler' archetype focused on M&A, capital raises, and revenue. This creates a massive, credibility-damaging gap between the brand's story and its actions.",
           "sub_metrics": {
             "tone_alignment": {
-              "score": 90,
-              "evaluation": "The baseline tone from the 'About Us' page is formal and aspirational ('Be the Best, Work with the Best!'). The homepage maintains this consultative, high-stakes B2B tone perfectly. The register is identical."
+              "score": 50,
+              "evaluation": "The baseline brand tone from the press page is formal and corporate. The homepage's tone is consultative and aspirational ('The Promise'). This is a two-step difference on the Joos register, creating a significant tonal gap."
             },
             "vocabulary_alignment": {
-              "score": 90,
-              "evaluation": "The 'About Us' page establishes semantic fields of Excellence, Innovation, and Growth. The homepage heavily uses all three, with words like 'top-tier', 'visionaries', 'powerhouse', and 'scale'. The vocabulary is a direct match."
+              "score": 30,
+              "evaluation": "The semantic fields are completely misaligned. The baseline from the press page is Finance/M&A ('raises $204M', 'acquisitions'). The homepage uses Wellness/Nature ('toxin-free', 'holistic', 'plant-based'). There is zero vocabulary overlap."
             },
             "voice_signature_match": {
-              "score": 90,
-              "evaluation": "The brand's Ruler/Hero archetype mix is established on the 'About Us' page ('setting new standards', 'Challenges fuel your strengths'). The homepage delivers this signature perfectly with authoritative claims ('$1BN+ IN FUNDING') and heroic promises ('ELEVATE THE BRANDS')."
+              "score": 30,
+              "evaluation": "The baseline archetype from press releases is a clear Ruler, focused on market dominance and acquisition. The homepage performs as a Caregiver, focused on safety and nurturing. These are fundamentally different archetypes."
             },
             "claim_stack_alignment": {
-              "score": 90,
-              "evaluation": "The core claims from the 'About Us' page—working with the best, being innovative, and driving growth—are all directly reinforced on the homepage with hard numbers, investor logos, and process descriptions. The claim stack is perfectly aligned."
+              "score": 30,
+              "evaluation": "The baseline claims from the press page are about being a successful e-commerce aggregator. The homepage ignores these claims entirely, instead focusing on being a provider of 'clean, toxin-free products'. The core business model is hidden."
             }
           },
           "checklist": {
             "pass": [
-              "delivers a consistent Ruler/Hero archetype across pages"
+              "maintains a consistent 'Caregiver' voice within the homepage"
             ],
             "warn": [
-              "risks feeling impersonal due to its consistent corporate tone"
+              "homepage voice ignores the corporate/financial reality of the brand"
             ],
             "fail": [
-              "omits any content that breaks from the formal B2B voice"
+              "vocabulary on homepage (wellness) contradicts press page (M&A)"
             ]
           }
         },
         "hi04_audience_resonance": {
           "label": "AUDIENCE RESONANCE",
-          "score": 80,
-          "diagnosis": "LASER-AIMED",
-          "so_what": "The page is precisely calibrated for its target audience of ambitious e-commerce founders. The combination of high-energy, modern visuals with hard financial metrics and B2B language speaks directly to entrepreneurs who value data, scale, and a credible exit path. Every element serves this specific reader.",
+          "score": 70,
+          "diagnosis": "KNOWS AUDIENCE",
+          "so_what": "The page is highly effective at resonating with its target consumer—the Millennial wellness seeker—through its 'Heritage Warm' visuals and 'clean living' language. However, this sharp focus comes at the cost of clarity for its other critical audience: the e-commerce founders it needs to attract for acquisitions, who are served a completely different message.",
           "sub_metrics": {
             "audience_segment_probability": {
-              "score": 70,
-              "evaluation": "The page targets e-commerce founders, a segment dominated by Millennials (est. 0.50) and Gen X (est. 0.40). The modern, tech-forward visuals and language resonate strongly with these digitally-native cohorts. The top cohort is clear but not an overwhelming majority."
+              "score": 90,
+              "evaluation": "The combination of premium, editorial visuals and a focus on 'clean beauty' and 'holistic well-being' strongly targets Millennials (probability >0.65). Both text and visual evidence point squarely at this cohort."
             },
             "signal_coherence": {
               "score": 90,
-              "evaluation": "Textual signals ('entrepreneurs', 'visionaries', 'scale') and visual signals ('Clinical Pop', 'high-energy professionalism') are perfectly aligned. Both modes of communication point to the same target: ambitious, tech-savvy brand owners."
+              "evaluation": "Text and visual signals are perfectly anchored. The 'Heritage Warm' visual territory with its earthy tones and natural photography directly supports the textual promises of 'clean, toxin-free' and 'holistic' solutions."
             },
             "intent_match": {
-              "score": 90,
-              "evaluation": "The page is built for a single intent: lead generation from business owners in the consideration/decision stage. Content like 'THIS IS HOW WE DO IT' and the prominent contact form clearly serve this single purpose."
+              "score": 50,
+              "evaluation": "The page has a split intent, trying to serve both consumer awareness ('Our Brands') and founder acquisition ('BECOME PART OF SOMETHING BIGGER'). This lack of a single, clear purpose for the visit creates confusion."
             },
             "accessibility_signals": {
-              "score": 70,
-              "evaluation": "The page has 3 of 4 signals: inclusive B2B language, no unexplained jargon for its audience, and plain-language CTAs ('Ready to sell?'). It fails on commitment-tier visibility, as the 'price' (valuation) is gated behind a contact form."
+              "score": 50,
+              "evaluation": "The page meets 2 of 4 signals: language is inclusive and mostly jargon-free. It fails on commitment tier (no pricing/cost signals) and uses a weak, non-action CTA ('Discover our brands') instead of a plain-language one."
             }
           },
           "audience_segments": [
             {
-              "label": "Millennials seeking a lucrative, fast exit for their digitally-native e-commerce brand with a tech-focused partner",
+              "label": "Millennials seeking a trusted curator for clean, non-toxic products for their family and home",
               "cohort": "millennials",
-              "probability": 0.5,
-              "evidence_text": "We take a data-driven approach to finding new customers, then use proprietary technology and data infrastructure to run them at scale.",
-              "evidence_visual": "The viewport presents a high-energy, corporate-modern aesthetic through the use of bold electric blue and massive, condensed typography."
+              "probability": 0.65,
+              "evidence_text": "We elevate, evolve, and empower brands to do better in offering safe, toxin-free products for use in, on, and around the body.",
+              "evidence_visual": "Earthy forest greens and warm tan tones harmonize with sterile white to communicate a mix of natural purity and corporate authority."
             },
             {
-              "label": "Gen X seeking to sell their established online business to a credible, well-funded group for a fair and fast valuation",
+              "label": "Gen X seeking high-performance, science-backed wellness products from established brands",
               "cohort": "gen_x",
-              "probability": 0.4,
-              "evidence_text": "Backed by world's leading investors from day one...$1BN+ IN FUNDING",
-              "evidence_visual": "The visual content feels fast-paced and modern, emphasizing scale through large numbers and industrial-leaning product shots."
+              "probability": 0.25,
+              "evidence_text": "Vitality Now provides premium all-natural health and wellness supplements to support and improve quality of life at every stage.",
+              "evidence_visual": "The UI uses a warm, ivory-based palette with a sophisticated grid system... balances a classic serif for headers with a clean, airy sans-serif for body copy."
             },
             {
-              "label": "Gen Z seeking capital and scaling expertise for their high-potential brand from a modern, data-driven aggregator",
-              "cohort": "gen_z",
+              "label": "Boomers seeking supplements and health products to maintain quality of life",
+              "cohort": "boomers",
               "probability": 0.1,
-              "evidence_text": "We help today’s visionaries ELEVATE THE BRANDS of tomorrow",
-              "evidence_visual": "Imagery features a mix of lifestyle photography and product shots, often diagonally masked or layered over bold graphic text."
+              "evidence_text": "Primal Life Organics promotes holistic well-being and offers toxin-free solutions for dental, skin, and body care...",
+              "evidence_visual": "The interaction between the structured UI and the earthy visual elements creates a feeling of 'elevated wellness'."
             }
           ],
           "checklist": {
             "pass": [
-              "aligns text and visual signals for a coherent audience message"
+              "aligns 'Heritage Warm' visuals with 'clean living' text"
             ],
             "warn": [
-              "gates commitment-tier information (valuation) behind a form"
+              "uses a vague, non-action CTA: 'Discover our brands'"
             ],
             "fail": [
-              "lacks any signals for audiences outside the founder/investor niche"
+              "serves two clashing intents: consumer awareness and founder acquisition"
             ]
           }
         },
         "hi05_decision_confidence": {
           "label": "DECISION CONFIDENCE",
-          "score": 65,
-          "diagnosis": "CONFIDENT",
-          "so_what": "The brand projects extreme confidence in what it wants the visitor to do: provide their information for an evaluation. The path is unambiguous and the CTA is clear. The only point of hesitation is the upfront request for sensitive financial data, a high-friction step that may deter casual inquiries.",
+          "score": 50,
+          "diagnosis": "HEDGED",
+          "so_what": "The brand hedges its bets, failing to provide a clear, confident next step for either of its target audiences. Vague CTAs and a split focus create a sense of ambivalence, leaving the visitor to do the work of figuring out where to go next. The page feels more like a brochure than a tool for action.",
           "sub_metrics": {
             "cta_clarity": {
-              "score": 90,
-              "evaluation": "The page has a single, dominant call to action: 'Ready to sell?' which leads to a clear lead-capture form. This focus eliminates choice paralysis and makes the desired action obvious."
+              "score": 30,
+              "evaluation": "The primary CTA is 'Discover our brands,' a weak 'learn more' style call to action. It lacks a clear action verb and fails to signal what the visitor should do, reflecting the page's overall strategic uncertainty."
             },
             "pricing_visibility": {
-              "score": 30,
-              "evaluation": "This is a B2B acquisition service, so 'pricing' is the business valuation. This is hidden behind a 'contact us for a quote' model, which is standard for the industry but scores low on transparency. It forces the visitor to engage to get the most critical piece of information."
+              "score": 70,
+              "evaluation": "This is a non-commercial brand portfolio page, not a direct-to-consumer store, so pricing is not applicable. The absence of price does not create friction in this context, warranting the non-commercial default score."
             },
             "next_step_obviousness": {
-              "score": 90,
-              "evaluation": "The next step is to fill out the form to begin the evaluation process. This is communicated repeatedly and is the only logical path forward presented on the page, making it exceptionally obvious."
+              "score": 50,
+              "evaluation": "The next step is not obvious because the page serves two audiences. A consumer might click on a brand, while a founder might look for a 'Partner' link. There is no single, clear path forward for a first-time visitor."
             },
             "friction_signals": {
               "score": 50,
-              "evaluation": "The page has one major friction signal: the lead form asks for 'Total Amazon Revenue (last 12 months)'. Requesting sensitive financial data this early is a significant cognitive load and barrier to entry for potential sellers."
+              "evaluation": "The page has several friction sources: heavy text density, a distracting scrolling text ticker, and a visible 'Unable to load video' error. These elements increase cognitive load and detract from a smooth experience."
             }
           },
           "checklist": {
             "pass": [
-              "makes the next step for a seller exceptionally obvious"
+              "provides clear footer navigation for policy and contact info"
             ],
             "warn": [
-              "asks for sensitive financial data in the initial contact form"
+              "next step is unclear due to split audience focus"
             ],
             "fail": [
-              "hides valuation info behind a 'contact for quote' gate"
+              "uses a weak, non-action CTA: 'Discover our brands'"
             ]
           }
         }
@@ -644,11 +644,11 @@
     }
   },
   "GEO_evaluation": {
-    "score": 26,
+    "score": 32,
     "label": "AI MUTED",
-    "diagnosis": "ENTITY CONFUSION",
-    "profile": "Razor Group presents itself with aspirational marketing language but fails to state its core business—acquiring e-commerce brands—in clear, machine-readable terms. Its generic name ('Razor') is completely lost in the noise of a popular scooter brand and the common noun, making it invisible to AI systems trying to understand its market position. The absence of any structured data or external knowledge anchors (like Wikipedia) means AI has to guess, and it's guessing wrong.",
-    "fix": "Immediately ship `Organization` schema markup in the site's `<head>`. Define `name` as \"Razor Group\", `description` as \"An e-commerce aggregator that acquires and scales online brands\", and use `sameAs` to link to official social profiles. This single change provides a clear, authoritative definition for AI crawlers to stop the entity confusion.",
+    "diagnosis": "VAGUE & UNANCHORED",
+    "profile": "Society Brands presents itself as a brand aggregator but uses abstract, poetic language like \"In, on, and around your body\" instead of clear, factual statements. This, combined with a generic name and a complete lack of external knowledge anchors like Wikipedia or Wikidata, makes the brand nearly invisible and unintelligible to AI systems trying to understand its place in the market. AIs will likely confuse it with the generic concept of \"brands in society.\"",
+    "fix": "The most critical fix is to rewrite the homepage H1 tag to be a clear, factual statement: \"Society Brands: We Acquire and Grow Health & Personal Care Ecommerce Brands.\" This single change provides immediate entity clarity. The second step is to submit a Wikidata entry for \"Society Brands\" (the company) with citations to establish a canonical, machine-readable identity anchor.",
     "flags": {
       "entity_drift": false,
       "critical_blackout": false,
@@ -662,131 +662,136 @@
       "ai01_findability": {
         "label": "AI FINDABILITY",
         "score": 50,
-        "diagnosis": "UNDEFINED ENTITY",
-        "so_what": "AI models cannot confidently define what Razor Group is or does. The lack of structured data and specific, quotable facts means the site is treated as generic marketing content, unlikely to be cited as an authoritative source for its niche. The most critical fix is to add a definitional sentence in the first paragraph: \"Razor Group is an e-commerce aggregator that acquires and scales successful online brands.\"",
+        "diagnosis": "AMBIGUOUS ENTITY",
+        "so_what": "While Society Brands has solid technical metadata, its core identity is obscured by a poetic H1 tag: \"In, on, and around your body.\" AI models will struggle to classify the business, defaulting to the generic title tag \"Sell Your Ecommerce Business\" and missing the focus on health and wellness. Replace the H1 to state precisely what the company is and does to give AI a clear starting point.",
         "sub_metrics": {
           "structured_data": {
-            "score": 50,
-            "evaluation": "GEO_ANALYSIS shows json_ld_blocks_found: 0; json_ld_types: []; og: 3/6 core tags; twitter: yes (1/4); meta_desc: present; canonical: absent; hreflang_count: 0. AI engines must infer from prose; add Product/Organization JSON-LD with og:image to lift the score.",
+            "score": 70,
+            "evaluation": "GEO_ANALYSIS shows json_ld_blocks_found: 2; json_ld_types: [\"WebSite\",\"LocalBusiness\"]; og: 6/6 core tags; twitter: yes (4/4); meta_desc: present; canonical: present; hreflang_count: 0. AI engines have rich citation hooks; sustain by adding FAQPage schema for direct AI Overviews citations.",
             "flags_emitted": []
           },
           "quotable_content": {
             "score": 50,
-            "evaluation": "The page contains 4-5 quotable data points, including \"Founded in 2020,\" \"4000 products and 450+ employees,\" and a case study claim of a \"five-weeks\" process. This provides some factual material for AI, but it's diluted by marketing copy. To improve, add more specific metrics to the \"RAZOR IN NUMBERS\" section, giving each number clear context and units.",
+            "evaluation": "The page contains 4-6 quotable statements, including a founding date (\"FOUNDED in 2020\"), a specific verification (\"verified by EWG\"), and attributed expertise (\"Developed by Dr. Sam Walters\"). This gives AI some factual material to cite. To improve, add specific data points about the growth of acquired brands, such as percentage revenue increase or market share expansion.",
             "flags_emitted": []
           },
           "entity_clarity": {
-            "score": 50,
-            "evaluation": "The brand name 'Razor Group' is present, but its category ('e-commerce aggregator') is only inferrable from phrases like \"acquiring and integrating promising e-commerce businesses.\" The brand and category never co-occur in a clear definitional sentence, forcing AI to guess. Add a clear statement like \"Razor Group is an e-commerce aggregator...\" to the first paragraph.",
+            "score": 30,
+            "evaluation": "The brand name \"Society Brands\" appears, but the H1 tag \"In, on, and around your body\" completely obscures the entity's purpose. This forces an AI to guess the company's category from body text, creating ambiguity. Change the H1 to explicitly state \"Society Brands is an acquirer of health and personal care brands\" to resolve this conflict.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Uses brand name 'Razor Group' in page title."
+            "Names the brand 'Society Brands' in body copy",
+            "Includes definitional statements in paragraphs"
           ],
           "warn": [
-            "Includes a few specific claims like 'payment in a day later'."
+            "Defines itself as a 'consumer products company'",
+            "Mentions specific acquired brands like 'Crunchi'"
           ],
           "fail": [
-            "Ships zero JSON-LD structured data blocks.",
-            "Hides its business definition deep in the page.",
-            "Lacks a canonical URL tag."
+            "H1 tag 'In, on, and around your body' is abstract",
+            "Title tag and H1 tag are completely different"
           ]
         }
       },
       "ai02_content_focus": {
         "label": "AI SIGNAL CLARITY",
-        "score": 26,
+        "score": 17,
         "diagnosis": "MARKETING OVERLOAD",
-        "so_what": "The page is saturated with vague marketing adjectives like \"cutting-edge\" and \"top-tier,\" which AI models are trained to ignore as low-signal filler. This high adjective load and lack of verifiable data means the content is unlikely to be used for generating factual summaries or answers about the e-commerce acquisition market. To fix this, replace abstract claims with concrete data points, such as citing the source of the \"$1BN+\" figure.",
+        "so_what": "The content for Society Brands is dominated by abstract marketing language (\"revolutionize the way consumers experience wellness\") and unsubstantiated claims. An AI will classify this page as low-trust filler, making it unlikely to be used as a source for factual answers about the e-commerce aggregation market. To fix this, quantify claims with numbers, dates, and specific outcomes.",
         "sub_metrics": {
           "fact_to_filler_ratio": {
-            "score": 30,
-            "evaluation": "The content is dominated by filler sentences like \"Shaping tomorRow's E-commerce\" with a fact-to-filler ratio around 1:5. This high volume of marketing language buries the few factual statements, reducing the page's credibility for AI extraction. Rewrite headlines to be descriptive statements rather than aspirational slogans.",
+            "score": 10,
+            "evaluation": "The page has a fact-to-filler ratio of approximately 1:8, with concrete facts like \"FOUNDED in 2020\" buried in aspirational marketing copy like \"empower our customers to thrive.\" This low density of facts trains AI to ignore the page as a reliable source. Add at least five new, hard data points about your process or portfolio performance.",
             "flags_emitted": []
           },
           "adjective_load": {
             "score": 0,
-            "evaluation": "The text is overloaded with more than 15 empty booster adjectives such as \"cutting-edge,\" \"top-tier,\" \"promising,\" and \"extraordinary.\" This signals low-quality marketing copy to an AI, which will de-prioritize it as a source of factual information. Remove these adjectives and replace them with specific, quantitative descriptions of performance.",
+            "evaluation": "The text is saturated with over 15 unique booster adjectives like \"premium,\" \"innovative,\" \"high-performance,\" and \"cutting-edge.\" This high adjective load signals low-quality marketing content to an AI, reducing its credibility. Rewrite sentences to show, not tell, by replacing adjectives with specific product attributes or outcomes.",
             "flags_emitted": []
           },
           "specificity_index": {
-            "score": 50,
-            "evaluation": "The content is split between concrete claims (Rung 1-2), like the 3-step acquisition process, and abstract slogans (Rung 3-4) like \"developing THE NEXT GENERATION OF CONSUMER pRODUCTS.\" With roughly 50% of claims at the specific level, the page sends mixed signals to AI. Convert vague mission statements into specific descriptions of services or outcomes.",
+            "score": 15,
+            "evaluation": "Less than 20% of claims are on Hayakawa's Rung 1 or 2 (concrete facts or specific mechanisms), with most content being abstract Rung 4 statements like \"building a community.\" This lack of specificity prevents AI from extracting clear, verifiable information. Convert abstract promises into concrete descriptions of your acquisition criteria or growth playbook.",
             "flags_emitted": []
           },
           "data_point_density": {
             "score": 50,
-            "evaluation": "The page has a density of about 8 data points (e.g., \"4000 products\", \"450+ employees\", \"five-weeks\") per 500 words, which is moderate. However, the \"RAZOR IN NUMBERS\" section presents figures like \"$1BN+\" without context, rendering them unusable by an AI. Add specific labels to every number, such as \"$1BN+ in capital raised.\"",
+            "evaluation": "The page contains approximately 6-7 data points (e.g., \"2020\", \"EWG\", \"Dr. Sam Walters\", 3 office locations) in about 400 words. This density is moderate but could be much stronger. AI relies on dense data to build trust. Add metrics like number of brands acquired, total portfolio revenue, or average employee tenure.",
             "flags_emitted": []
           },
           "claim_verifiability": {
-            "score": 0,
-            "evaluation": "Less than 10% of claims are verifiable, with no sources cited for financial or operational figures. The only verifiable points are a testimonial and a CEO quote, which AI models classify as low-level evidence. To build trust, add 'As seen in' logos or link key metrics to press releases or investor announcements.",
+            "score": 10,
+            "evaluation": "Fewer than 10% of claims are verifiable (Level A/B), such as \"verified by EWG.\" The vast majority are plausible but uncited (Level C) or pure hyperbole (Level D), like \"Products that make a profound difference.\" This makes the content untrustworthy for AI citation. Add links to the EWG verification and citations for any performance claims.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Describes its 3-step acquisition process clearly."
+            "Names specific brands like 'Crunchi' and 'Clarifion'",
+            "Lists physical office locations"
           ],
           "warn": [
-            "Includes a 'RAZOR IN NUMBERS' section, but lacks context."
+            "Mentions 'verified by EWG' without a link",
+            "Claims 'clinically proven' ingredients without citation"
           ],
           "fail": [
-            "Uses over 15 empty marketing adjectives ('best', 'strong').",
-            "Makes zero claims that cite an external source.",
-            "Fact-to-filler ratio is below 1:5."
+            "Uses filler like 'profound difference'",
+            "Overuses adjectives like 'premium' and 'innovative'",
+            "Omits any quantifiable business metrics"
           ]
         }
       },
       "ai03_ai_positioning": {
         "label": "AI CATEGORY POSITIONING",
         "score": 20,
-        "diagnosis": "CONTEXT VACUUM",
-        "so_what": "Razor Group fails to position itself within its competitive landscape, making it impossible for an AI to understand its unique value. It never names its category (\"e-commerce aggregator\") or its competitors, and external signals from Reddit are entirely noise from other entities named \"Razor\". The site reads like a company operating in a vacuum, preventing AI from including it in comparisons or market summaries. The top fix is to explicitly state the WHO and WHAT in the first 200 words.",
+        "diagnosis": "CONTEXT-FREE",
+        "so_what": "Society Brands fails to position itself within the competitive landscape of e-commerce aggregators, and its external social signals are entirely noise. An AI cannot understand who Society Brands competes with or what makes it different, effectively rendering it invisible in any comparative search query. The site must add a section explaining its unique value proposition versus other aggregators.",
         "sub_metrics": {
           "category_keyword_alignment": {
-            "score": 50,
-            "evaluation": "The page uses relevant terms like 'acquiring', 'e-commerce business', and 'Amazon Revenue', but avoids the standard industry term 'e-commerce aggregator'. This creates ambiguity for AI trying to classify the business. Explicitly use the primary category term to align with the established industry taxonomy.",
+            "score": 30,
+            "evaluation": "The `primary_category_hint` from the title tag is \"DTC Brand Growth,\" but the on-page content describes a \"consumer products company\" focused on \"Health and Personal Care.\" This keyword mismatch confuses the company's core function. Align the page content and title to consistently describe the business as an \"e-commerce aggregator\" or \"brand holding company.\"",
             "flags_emitted": []
           },
           "competitor_placement": {
             "score": 0,
-            "evaluation": "The content provides zero competitive context. It neither names competitors (e.g., Thrasio) nor frames its services against an 'industry standard,' making it impossible for an AI to understand its market position. Add a section explaining how the 'Razor' process differs from traditional business brokers or other aggregators.",
+            "evaluation": "The page includes no named competitors, comparison points, or framing against an \"industry standard.\" It exists in a market vacuum, which prevents AI from understanding its unique position. Add a section that contrasts the \"Society Brands\" community-based model with the purely financial approach of other aggregators.",
             "flags_emitted": []
           },
           "value_proposition_clarity": {
-            "score": 30,
-            "evaluation": "The first 200 words fail to clearly state the value proposition, missing 3 of the 4 core anchors. It vaguely hints at WHAT it does but omits WHO it's for (e-commerce sellers), WHY-THIS-ONE (its differentiator), and HOW-MUCH. Rewrite the opening paragraph to directly address an e-commerce founder looking to sell their business.",
+            "score": 50,
+            "evaluation": "The first 200 words identify WHAT the company does (acquires brands) and WHO it's for (entrepreneurs), but the WHY-THIS-ONE is a vague promise of \"community\" and HOW-MUCH is absent. This leaves two of the four critical questions unanswered. Clarify the 'why' with specific benefits of the community model and add information on the acquisition process.",
             "flags_emitted": []
           },
           "category_recognition_external": {
             "score": 0,
-            "evaluation": "External signals are nonexistent and misleading. The 36 organic Reddit mentions are all in irrelevant subreddits like 'nba' and 'philly', indicating they refer to the common word 'razor' or the scooter brand. This name collision makes the brand invisible in social conversations, providing no external validation for AI. A more unique brand name or modifier would be required to fix this long-term.",
+            "evaluation": "The 39 organic Reddit mentions are all false positives, discussing the generic concept of \"society brands\" or \"brands in society,\" not the company. This indicates zero external recognition in public forums. The brand is invisible, and AI has no third-party context to draw from. This requires a long-term PR and community strategy to fix.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Uses some relevant terms like 'Amazon Revenue' and 'sell'."
+            "Identifies target audience as 'entrepreneurs'",
+            "Names its focus area: 'Health and Personal Care'"
           ],
           "warn": [
-            "Omits the primary category term 'e-commerce aggregator'."
+            "Value proposition is a vague 'community'",
+            "Category hint 'DTC Brand Growth' mismatches content"
           ],
           "fail": [
-            "Names zero competitors or market differentiators.",
-            "Value proposition is missing 3 of 4 core elements.",
-            "External Reddit signals are 100% noise."
+            "Provides zero competitive context or differentiators",
+            "Lacks any mention of price or valuation model",
+            "External Reddit signals are 100% noise"
           ]
         }
       },
       "ai04_crawler_coverage": {
         "label": "AI CRAWL READINESS",
-        "score": 40,
-        "diagnosis": "NO GUIDANCE",
-        "so_what": "While Razor Group allows all major AI crawlers to access the site, it provides them with no map or guidance. The absence of a `robots.txt` and `sitemap.xml` is a basic infrastructure failure that signals low authority, and the missing `llms.txt` means AI agents have no summary of the site's purpose. This forces crawlers to waste resources guessing the site structure, reducing the efficiency and depth of their analysis. The fastest fix is to create and link a valid `sitemap.xml` from a new `/robots.txt` file.",
+        "score": 60,
+        "diagnosis": "TECHNICALLY SOUND",
+        "so_what": "Society Brands has a solid technical foundation, allowing all major AI crawlers to access the site via a clean robots.txt and sitemap. This is a significant strength. The only missing piece is an `llms.txt` file, which acts as a high-level guide for AI; adding one would be a simple optimization to direct AI attention to the most important content.",
         "sub_metrics": {
           "bot_coverage": {
             "score": 90,
@@ -799,40 +804,39 @@
             "flags_emitted": []
           },
           "infrastructure_basics": {
-            "score": 30,
-            "evaluation": "robots.txt: absent, sitemap_reference: no, sitemap_url: (empty) (non-canonical/missing), https_enforced: true. Add the missing signals (3 gaps) — robots/sitemap/HTTPS form the trust floor for AI crawlers.",
+            "score": 90,
+            "evaluation": "robots.txt: present, sitemap_reference: yes, sitemap_url: https://www.societybrands.com/sitemap.xml (canonical), https_enforced: true. All foundational crawl signals present.",
             "flags_emitted": []
           }
         },
         "checklist": {
           "pass": [
-            "Allows all major AI crawlers (GPTBot, ClaudeBot, etc.).",
-            "Enforces HTTPS for secure connections."
+            "Allows all major AI crawlers in robots.txt",
+            "Provides a sitemap reference in robots.txt",
+            "Enforces HTTPS sitewide"
           ],
           "warn": [
-            "Does not block any known bad bots."
+            "Sitemap URL is not versioned or dynamically named"
           ],
           "fail": [
-            "Lacks a robots.txt file.",
-            "Provides no sitemap.xml file.",
-            "Has no llms.txt file for AI agents."
+            "Lacks an llms.txt file to guide AI crawlers"
           ]
         }
       },
       "ai05_knowledge_anchoring": {
         "label": "AI KNOWLEDGE ANCHORING",
-        "score": 2,
-        "diagnosis": "IDENTITY COLLAPSE",
-        "so_what": "Razor Group has no stable anchor in the public knowledge graph, making its identity highly ambiguous to AI. The brand name \"Razor\" has severe collisions with other entities, and the lack of a Wikipedia/Wikidata entry, Trustpilot profile, or even basic `Organization` schema means there is no authoritative source to resolve this ambiguity. AI systems will consistently confuse Razor Group with Razor scooters or the common noun, crippling its visibility in search. The most urgent fix is to ship `Organization` schema with `sameAs` links to social profiles.",
+        "score": 12,
+        "diagnosis": "UNANCHORED ENTITY",
+        "so_what": "The brand name \"Society Brands\" is highly generic, leading to massive entity confusion with the common phrase. Compounding this, the company has no presence in foundational knowledge bases like Wikipedia or Wikidata, and is missing critical `Organization` schema. Without these anchors, AI systems cannot reliably distinguish the company from the concept, severely limiting its visibility.",
         "sub_metrics": {
           "brandname_uniqueness": {
             "score": 0,
-            "evaluation": "The brand name 'Razor' is a common English word and, more damagingly, the name of a globally recognized scooter brand. This creates massive entity collision, confirmed by irrelevant Reddit signals. AI will almost always default to the more famous entity, making the brand nearly impossible to find or classify correctly. Adding 'Group' helps, but the root word is too common.",
+            "evaluation": "The name \"Society Brands\" is composed of two extremely common words, creating massive name collision and ambiguity for AI models. This generic name is a fundamental handicap to building a distinct entity. Any search or query will be polluted by results for the general concept of brands within society.",
             "flags_emitted": []
           },
           "schema_category_fit": {
-            "score": 0,
-            "evaluation": "The site has zero JSON-LD blocks, a critical failure for a business. It misses the most fundamental schema type, `Organization`, which is the primary way to define a company's identity for AI. This absence of structured data forces AI to guess the company's purpose, location, and official name from unstructured text. Ship `Organization` schema immediately.",
+            "score": 50,
+            "evaluation": "The site uses `LocalBusiness` schema but is missing the more fundamental `Organization` schema, a category-defining gap for a corporate entity. This omission prevents AI from properly classifying the business at a high level. Add `Organization` schema with `legalName`, `foundingDate`, and `sameAs` properties pointing to social profiles.",
             "flags_emitted": []
           },
           "knowledge_graph_presence": {
@@ -842,7 +846,7 @@
           },
           "identity_convergence": {
             "score": 10,
-            "evaluation": "BRAND_NAMING.brand_inferred 'Razor Group' vs names_found: og_site_name=✗(); title_tag=✓(Razor Group); h1=✗(developing THE NEXT GENERATION); wikidata_label=✗(); wikipedia_title=✗(). 1/5 surfaces agree. Reconcile divergent surfaces — set og:site_name and align Wikipedia/Wikidata to match canonical brand name.",
+            "evaluation": "BRAND_NAMING.brand_inferred 'Society Brands' vs names_found: og_site_name=✓(Society Brands); title_tag=✗(Sell Your Ecommerce Business |); h1=✗(In, on, and around your body.); wikidata_label=✗(); wikipedia_title=✗(). 1/5 surfaces agree. Reconcile divergent surfaces — set og:site_name and align Wikipedia/Wikidata to match canonical brand name.",
             "flags_emitted": []
           },
           "trustpilot_anchoring": {
@@ -853,15 +857,16 @@
         },
         "checklist": {
           "pass": [
-            "Brand name is present in the title tag."
+            "og:site_name matches the brand name 'Society Brands'"
           ],
           "warn": [
-            "H1 tag 'developing THE NEXT GENERATION...' mismatches brand name."
+            "Brand name 'Society Brands' is extremely generic",
+            "Ships LocalBusiness schema but not Organization"
           ],
           "fail": [
-            "Brand name has severe collision with other entities.",
-            "Has no Wikipedia or Wikidata entry.",
-            "Ships zero Organization schema markup."
+            "Lacks a Wikipedia or Wikidata entry",
+            "Lacks a Trustpilot profile for social proof",
+            "H1 tag and Title tag do not match brand name"
           ]
         }
       }
