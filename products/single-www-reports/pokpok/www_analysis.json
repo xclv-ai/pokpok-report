@@ -3,49 +3,49 @@
   "brand": "Infoshare - The Biggest Tech Event in CEE",
   "5_truth": {
     "truth_1": {
-      "headline": "The brand's identity is split between its accessible Sage roots and its elite Ruler execution.",
-      "gap_description": "The 17-marker framework reveals a brand in tension with itself. Its archetypal core is The Sage (70%) and The Caregiver (20%), promising practical, community-focused knowledge. Yet, its execution lands as The Technical Authority (Tone), The Premium Specialist (Positioning), and The Insider Clique (Social Benefit), projecting an authoritative, exclusive Ruler. This creates a conflict between the brand's 'no bullshit' origin story and its current 'biggest in CEE' corporate presentation.",
-      "evidence": "'The Sage 70% / The Caregiver 20% / The Ruler 10%' (HI.marker_6.primary.archetype + .secondary + .tertiary) | 'The Insider Clique' (HI.marker_17.territory_name) | 'The Technical Authority' (HI.marker_7.territory_name) | 'The page projects a corporate 'Ruler' archetype... creating a voice gap between its accessible roots and its current massive scale.' (HI.hi.blind_spot)",
-      "why_matters": "An identity split risks alienating both target audiences. The 'Ruler' posture impresses visitors seeking scale and authority but can deter the community-seekers drawn to the original 'Sage/Caregiver' promise. The brand is trying to be both the exclusive club and the open community, which can lead to a perception of being inauthentic to one or both groups.",
-      "hard_choice": "The brand must decide whether this identity shift is a deliberate evolution or an accidental drift. One path is to fully embrace the Ruler archetype, rewriting its narrative to celebrate its market-leader status. Another is to re-inject the original Sage/Caregiver voice into the homepage to soften its corporate feel, potentially at the cost of its premium positioning. A third path involves carefully segmenting the messaging to speak to both the 'insider clique' and the broader community in different spaces. The strategic question is: Has the brand's success forced it to become the very thing its founders originally rebelled against?"
+      "headline": "The brand's identity is split between its 'Everyman' soul and its 'Ruler' scale.",
+      "gap_description": "The 17-marker framework reveals a core tension. The brand's foundation is The Everyman (60% archetype), rooted in an accessible, 'open for everybody' origin story. Yet, its homepage communication has drifted to a Ruler archetype, emphasizing its status as the 'biggest' and an 'Insider Clique'. This creates a conflict between the welcoming, community-focused brand it was and the dominant, authoritative industry leader it now projects itself to be.",
+      "evidence": "'The dominant archetype is The Everyman (60%), rooted in its 'open for everybody' origin' (HI.marker_6.primary.archetype + reasoning) | '...the homepage delivers a Ruler archetype ('biggest', 'lead', 'decide'), a significant shift in persona.' (HI.hi.metrics.hi03_voice_consistency.sub_metrics.voice_signature_match.evaluation) | 'The ultimate social benefit is joining The Insider Clique...' (HI.category_summaries.benefits.description) | 'The brand's origin story... has drifted towards a more corporate 'biggest is best' message.' (HI.hi.blind_spot)",
+      "why_matters": "This identity split risks alienating both core audiences. The grassroots community that valued the 'no hype' Everyman origin may feel the brand has become too corporate. Meanwhile, top-tier executives and investors looking for an exclusive 'Insider Clique' may be put off by the 'open for everybody' messaging. Trying to be both at once can dilute the brand's power for everyone.",
+      "hard_choice": "The brand must decide which identity takes precedence on its most important digital surface. One path is to recenter the homepage on the Everyman/Sage origin story, using its scale as a proof point of community success, not the primary message. Another is to fully embrace the Ruler/Insider identity, positioning the event as the definitive, must-attend gathering for serious players, and moving the origin story to a secondary page. A third approach could involve creating clearer content paths for different audiences directly from the hero. The strategic question is: Is Infoshare a massive community for everyone, or is it the exclusive center of the CEE tech ecosystem?"
     },
     "truth_2": {
-      "headline": "To AI engines, Infoshare is not a real-world event; it is just an unverified webpage.",
-      "gap_description": "The AI/GEO analysis returns a score of 42 ('AI WEAK') with a diagnosis of 'INVISIBLE ENTITY'. The core failure is foundational: the URL lacks the basic structured data, specifically `Event` schema, to declare what it is to machines. Compounded by a total absence from knowledge graphs like Wikipedia and Wikidata, AI engines are forced to guess the site's purpose, rendering it an unverified and untrustworthy entity in the machine-readable world.",
-      "evidence": "'diagnosis: INVISIBLE ENTITY' (GEO.diagnosis) | 'The page is missing the single most important schema for its category: Event. GEO_ANALYSIS shows zero JSON-LD blocks are present.' (GEO.metrics.ai05_knowledge_anchoring.sub_metrics.schema_category_fit.evaluation) | 'wikipedia_present: false; ... wikidata_id: 'absent'' (GEO.metrics.ai05_knowledge_anchoring.sub_metrics.knowledge_graph_presence.evaluation) | 'Ships zero JSON-LD blocks to define the event.' (GEO.metrics.ai01_findability.checklist.fail[0])",
-      "why_matters": "Because AI cannot confirm Infoshare is an event with dates and a location, it is omitted from AI-generated answers for queries like 'tech conferences in Europe' or 'what to do in Gdansk in May'. Competitors with proper schema appear in AI Overviews, travel planners, and conversational AI results, capturing potential attendees at the moment of discovery. Infoshare is findable only by those who already know its name.",
-      "hard_choice": "The brand faces a choice about its AI posture. It can continue to operate as a 'dumb' webpage, relying on direct traffic and existing brand equity, accepting its invisibility in the next generation of AI-driven discovery. Or, it can invest in foundational AI-readiness by shipping `Event` schema and creating a Wikidata entry. This would make the brand legible to machines, opening new discovery channels but requiring a shift from designing webpages to engineering data sources. The strategic question is: Is AI-driven discovery a critical channel for future growth, or a distraction from the marketing that has worked so far?"
+      "headline": "To AI engines, this major real-world event is an invisible, unverified ghost.",
+      "gap_description": "The AI/GEO analysis returns a score of 42 ('AI WEAK') with a diagnosis of 'INVISIBLE ENTITY'. Despite being a large-scale event, the URL provides zero foundational infrastructure for machines. It lacks the single most critical piece of structured data (`Event` schema), has no presence in knowledge graphs like Wikipedia or Wikidata, and offers no sitemap or `llms.txt` to guide crawlers. AI engines are permitted to visit but are given no context to understand what they are looking at.",
+      "evidence": "'score: 42, label: AI WEAK, diagnosis: INVISIBLE ENTITY' (GEO.score + .label + .diagnosis) | 'The page is missing the single most important schema for its category: `Event`. GEO_ANALYSIS shows zero JSON-LD blocks are present.' (GEO.metrics.ai05_knowledge_anchoring.sub_metrics.schema_category_fit.evaluation) | 'wikipedia_present: false; ... wikidata_id: 'absent'' (GEO.metrics.ai05_knowledge_anchoring.sub_metrics.knowledge_graph_presence.evaluation) | 'CRAWL_INFRASTRUCTURE.llms_txt_present: false. AI agents have no route map.' (GEO.metrics.ai04_crawler_coverage.sub_metrics.llms_txt_quality.evaluation)",
+      "why_matters": "Because AI cannot verify what Infoshare is, the brand is absent from AI-generated answers for discovery queries like 'top tech conferences in Europe' or 'best CEE events for startups'. Competitors with basic schema will be surfaced as verifiable entities, winning consideration at the top of the funnel. Infoshare has made itself invisible to the next generation of search and discovery.",
+      "hard_choice": "The brand faces a choice about its relationship with machine intelligence. It can continue to focus solely on its human-readable presentation, accepting that it will be omitted from AI-driven discovery and comparison, relying on its existing brand recognition. Alternatively, it can invest in foundational AI legibility by shipping `Event` schema, creating a Wikidata entry, and building a sitemap. This would translate its real-world status into a format machines can understand and recommend. The strategic question is: Is being understood by AI a critical channel for future growth, or an unnecessary distraction from the human community?"
     },
     "truth_3": {
-      "headline": "Humans are convinced by a brand voice its own origin story would not recognize.",
-      "gap_description": "While the overall human perception score is a high 80 ('LANDED'), the weakest metric is voice consistency (HI03 score 65). The most severe issue is the `voice_signature_match` sub-metric, scoring just 30. The page successfully converts visitors by projecting an authoritative 'Ruler' archetype ('biggest in CEE', 'Executive Pass'), but this is a significant drift from the accessible, community-focused 'Sage/Everyman' voice of its 'no marketing bullshit' founding story. The brand that visitors meet is not the brand from the manifesto.",
-      "evidence": "'voice_signature_match: score: 30' (HI.hi.metrics.hi03_voice_consistency.sub_metrics.voice_signature_match.score) | 'The brand's baseline archetype is a Sage/Everyman... The homepage delivers a strong Ruler archetype... This is a significant drift' (HI.hi.metrics.hi03_voice_consistency.sub_metrics.voice_signature_match.evaluation) | 'The brand's origin story of being a practical, 'no marketing bullshit' community event is lost on the homepage.' (HI.hi.blind_spot) | 'archetype drifts from accessible Sage/Everyman to authoritative Ruler' (HI.hi.metrics.hi03_voice_consistency.checklist.fail[0])",
-      "why_matters": "The current 'Ruler' voice effectively converts people impressed by scale, but it risks alienating the original community that valued the brand's accessibility and authenticity. This creates a brand that is respected for its size but may no longer be loved for its spirit. Over time, this can erode the core community, turning a passionate movement into just another large, corporate trade show.",
-      "hard_choice": "The brand must decide if this voice drift is an intentional evolution or an accidental betrayal of its roots. One path is to embrace the Ruler archetype fully, updating the 'About Us' story to reflect its current market-leader status. Another is to consciously re-inject the original Sage voice into the homepage, perhaps by featuring founder stories more prominently, which might soften the corporate edge but could confuse the premium positioning. The strategic question is: Who is Infoshare now—the scrappy, community-focused upstart, or the established market leader it has become?"
+      "headline": "The first thing a human visitor sees is a headline that fails to explain the product.",
+      "gap_description": "While the page performs well overall for human visitors (HI Score 78), its weakest point is the most prominent one: the main headline. With a clarity score of just 30/100, the headline '20 years of Infoshare. A new era begins.' is purely aspirational brand messaging. It forces a first-time visitor to read the smaller sub-headline to understand that this is a tech festival, creating unnecessary cognitive friction at the most critical moment of evaluation.",
+      "evidence": "'headline_clarity: score: 30' (HI.hi.metrics.hi01_message_clarity.sub_metrics.headline_clarity.score) | 'The headline... is purely brand-aspirational. It fails to state WHAT this is or WHO it's for...' (HI.hi.metrics.hi01_message_clarity.sub_metrics.headline_clarity.evaluation) | '...relying on the sub-headline 'Welcome to the biggest Tech Festival in CEE' to do the heavy lifting.' (HI.hi.metrics.hi01_message_clarity.sub_metrics.headline_clarity.evaluation) | 'The primary friction is cognitive load. The page is extremely long and dense with information...' (HI.hi.metrics.hi05_decision_confidence.sub_metrics.friction_signals.evaluation)",
+      "why_matters": "An ambiguous headline risks losing cold traffic within seconds. Potential attendees arriving without context may bounce before they find the sub-headline that clarifies the offer. The brand is prioritizing its internal narrative ('a new era') over the customer's primary need ('what is this and is it for me?'), a choice that costs top-of-funnel conversions.",
+      "hard_choice": "The brand must decide on the primary job of its homepage hero. One view is that it serves as a confident statement to an already-aware audience, for whom 'a new era' is meaningful context. Another view is that its job is to convert new visitors as efficiently as possible, which would mean replacing the aspirational headline with a descriptive one. A third path is to treat the headline as a variable to be tested against different audience segments to see which approach drives more pass sales. The strategic question is: Is the homepage hero a billboard for the brand's story or a doorway for the customer's journey?"
     },
     "truth_4": {
-      "headline": "The URL masterfully segments its human audience but provides zero market context for AI.",
-      "gap_description": "There is a stark divide in positioning. For humans, audience resonance is 'LASER-AIMED' (HI04 score 85), with clear passes for different cohorts like career-building Millennials and leadership-focused Gen X. For AI, positioning is in 'CONTEXT COLLAPSE' (AI03 score 35), with zero competitor placement and zero external category recognition. The page is brilliant at telling a human where they fit inside Infoshare, but it is silent on where Infoshare fits inside the world.",
-      "evidence": "'AUDIENCE RESONANCE, score: 85, diagnosis: LASER-AIMED' (HI.hi.metrics.hi04_audience_resonance.score + .diagnosis) | 'The page makes zero mention of competitors, industry alternatives... making it impossible for an AI to position it in the market.' (GEO.metrics.ai03_ai_positioning.sub_metrics.competitor_placement.evaluation) | 'SOCIAL_PROOF_EXTERNAL shows zero organic Reddit mentions. This complete absence of third-party discussion means AI models have no external validation' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.evaluation) | 'Millennials seeking to accelerate their tech careers...' (HI.hi.metrics.hi04_audience_resonance.audience_segments[0].label)",
-      "why_matters": "When a potential attendee asks an AI, 'Should I go to Infoshare or Web Summit?', the AI cannot give a meaningful answer. It has no data to compare, contrast, or rank the event within its category. This leaves Infoshare out of the AI-driven consideration set. The brand effectively converts visitors who have already decided to consider it but is invisible to those using AI tools for initial discovery and comparison.",
-      "hard_choice": "The brand can maintain its 'walled garden' positioning, focusing only on converting visitors who arrive directly, assuming they have already done their comparison shopping. This is efficient but limits top-of-funnel discovery. Alternatively, it can start providing explicit market context for AI by adding comparative language to its site and generating third-party discussion. This would make it visible in AI-powered comparison queries but requires a shift from pure self-promotion to market education. The strategic question is: Does Infoshare want to be a destination you have to know about, or a landmark that discovery tools can help you find?"
+      "headline": "The brand knows its audience perfectly but positions itself in a competitive vacuum.",
+      "gap_description": "The URL demonstrates a 'masterful understanding of its diverse tech audience' (HI04 diagnosis: 'LASER-AIMED'), with clear segmentation for Millennials, Gen X, and Gen Z. However, this internal clarity is contrasted by a total lack of external positioning. The AI/GEO analysis shows zero mention of competitors and zero organic third-party discussion on platforms like Reddit. The brand tells its audience who it's for, but gives them no context for what it's against or how it compares to any other event in the world.",
+      "evidence": "'The page demonstrates a masterful understanding of its diverse tech audience.' (HI.hi.metrics.hi04_audience_resonance.so_what) | 'The page makes zero mention of competitors, industry alternatives, or even 'traditional' event formats.' (GEO.metrics.ai03_ai_positioning.sub_metrics.competitor_placement.evaluation) | 'SOCIAL_PROOF_EXTERNAL shows zero organic Reddit mentions. This complete absence of third-party discussion means AI models have no external validation...' (GEO.metrics.ai03_ai_positioning.sub_metrics.category_recognition_external.evaluation) | 'It claims to be the 'biggest' but provides no comparative context...' (GEO.metrics.ai03_ai_positioning.sub_metrics.competitor_placement.evaluation)",
+      "why_matters": "By failing to provide competitive context, Infoshare forces potential attendees to do their own research to understand how it differs from other major tech events. This cedes control of the comparison narrative to competitors and third-party blogs. For AI, the lack of context makes it impossible to include Infoshare in answers to comparative queries, effectively removing it from the consideration set for anyone evaluating their options.",
+      "hard_choice": "The brand's positioning strategy is at a crossroads. It can maintain its current stance of existing in a category of one, projecting confidence but remaining invisible in comparative searches. This relies on the strength of its brand to draw people in directly. The alternative is to create content that explicitly positions Infoshare against other events, highlighting its unique focus on CEE and practical knowledge. This would improve its discoverability but could be seen as a less dominant posture. The strategic question is: Does Infoshare win by defining its own world in isolation, or by carving out its specific place in the wider world of tech events?"
     },
     "truth_5": {
-      "headline": "Humans see overwhelming proof of trust; AI engines see an unverified ghost.",
-      "gap_description": "The largest divergence in the entire analysis is on the dimension of trust. For humans, the Trust Score is 90 ('RECEIPTS LOUD'), built on a vast array of logos, speaker headshots, and testimonials. For AI, Knowledge Anchoring is 29 ('UNVERIFIED ENTITY'), based on a complete lack of machine-readable proof like a Wikipedia entry, Wikidata ID, or even basic `Event` schema. The brand has perfected the art of showing proof to people while providing zero verifiable facts to machines.",
-      "evidence": "'TRUST SCORE, score: 90, diagnosis: RECEIPTS LOUD' (HI.hi.metrics.hi02_trust_score.score + .diagnosis) | 'AI KNOWLEDGE ANCHORING, score: 29, diagnosis: UNVERIFIED ENTITY' (GEO.metrics.ai05_knowledge_anchoring.score + .diagnosis) | 'Social proof is exceptional... QUANTITY (vast logos walls and testimonials).' (HI.hi.metrics.hi02_trust_score.sub_metrics.social_proof.evaluation) | 'the complete lack of a Wikipedia/Wikidata presence and zero structured data means the brand has no anchor in the global knowledge graph.' (GEO.metrics.ai05_knowledge_anchoring.so_what)",
-      "why_matters": "The brand's authority is not portable. It exists only on the surface of its own webpage. As search and discovery shift to AI-synthesized answers, the human-facing proof (a JPEG of a Netflix logo) becomes invisible, while the lack of machine-readable proof (a Wikidata entry) becomes a critical failure. An AI cannot cite a wall of logos, so it concludes the brand's claims are unsubstantiated, effectively erasing its hard-won reputation.",
-      "hard_choice": "The brand must decide how to manage its reputation across two different realities. It can continue to focus exclusively on the human-readable layer, accepting that its authority will not translate to AI platforms. Or, it can begin the work of translating its human-world authority into machine-readable facts by creating knowledge graph entries and shipping structured data. This dual-layer strategy makes its reputation durable and portable, but it requires a new set of skills beyond web design. The strategic question is: Is brand authority something you display on a webpage, or is it a verifiable fact you register with the world's knowledge bases?"
+      "headline": "Humans see overwhelming trust; AI engines see an unverified entity. The brand's reputation is analog.",
+      "gap_description": "The sharpest divergence between the two lenses is on trust. For humans, the HI02 Trust Score is 82 ('RECEIPTS LOUD'), driven by a wall of speaker photos, partner logos, and testimonials. For machines, the AI05 Knowledge Anchoring score is a mere 29 ('UNVERIFIED ENTITY'), due to a complete lack of structured data, Wikipedia, or Wikidata entries. The brand has successfully built and displayed its reputation for human eyes, but that reputation is entirely illegible to machines.",
+      "evidence": "'HI02_trust_score: 82. Diagnosis: RECEIPTS LOUD. Trust is established through overwhelming force.' (HI.hi.metrics.hi02_trust_score.score + .diagnosis + .so_what) | 'AI05_knowledge_anchoring: 29. Diagnosis: UNVERIFIED ENTITY.' (GEO.metrics.ai05_knowledge_anchoring.score + .diagnosis) | 'Social proof is best-in-class... a wall of partner logos like Netflix and Airbus.' (HI.hi.metrics.hi02_trust_score.sub_metrics.social_proof.evaluation) | '...the complete lack of a Wikipedia/Wikidata presence and zero structured data means the brand has no anchor in the global knowledge graph.' (GEO.metrics.ai05_knowledge_anchoring.so_what)",
+      "why_matters": "This divergence means the brand wins conversions from visitors who land on its page but is losing the discovery battle in AI-powered search. Its hard-won reputation is an analog asset in a digital world. As AI-driven summaries and recommendations become a primary source of information, a brand whose trust signals cannot be read by machines will cease to be recommended, regardless of its real-world credibility.",
+      "hard_choice": "The brand must decide where its reputation needs to live. It can continue to focus on presenting trust signals for human consumption on its own website, accepting that this limits its reach in an AI-driven world. Or, it can begin the work of translating its analog reputation into machine-readable formats—creating a Wikidata entry, implementing `Event` schema with sponsor and speaker properties, and structuring its data. This would make its trust legible to the entire internet, not just visitors to its URL. The strategic question is: Is brand trust a story you tell on your homepage, or is it a fact you register with the world?"
     },
     "_usage": {
-      "prompt_tokens": 22314,
-      "completion_tokens": 2650,
-      "total_tokens": 29589,
+      "prompt_tokens": 21978,
+      "completion_tokens": 2725,
+      "total_tokens": 29004,
       "prompt_tokens_details": {
-        "cached_tokens": 0
+        "cached_tokens": 20392
       },
       "completion_tokens_details": {
-        "reasoning_tokens": 4625
+        "reasoning_tokens": 4301
       }
     },
     "_model": "gemini-2.5-pro",
@@ -57,32 +57,32 @@
     "product_title": "Infoshare Tech Festival",
     "url": "https://infoshare.pl/",
     "overall_perception_summary": {
-      "headline": "CEE's Knowledge Hub",
-      "description": "Infoshare positions itself as the definitive technology festival for Central and Eastern Europe, blending the authority of a serious knowledge-sharing platform with the vibrant energy of a massive community gathering. It differentiates by promising practical, 'no hype' content from global experts while simultaneously engineering vast networking opportunities. For attendees, Infoshare plays the role of a professional accelerator, offering a concentrated dose of industry knowledge, strategic connections, and a clear view of the future of technology in the CEE region."
+      "headline": "CEE's Community Festival",
+      "description": "Infoshare positions itself as the essential hub for the Central and Eastern European tech ecosystem, built on a foundation of community and practical knowledge. It masterfully blends the scale of a major industry event with the sincerity of a grassroots movement, promising not just access to information but membership in a 'trustworthy and caring community.' The brand differentiates by rejecting hype in favor of 'honest conversations,' making it feel like both a career-critical accelerator and a trusted gathering of peers."
     },
     "category_summaries": {
       "foundation": {
-        "title": "Practicality, Not Theory",
-        "description": "The brand's purpose is that of The Empowerer, born from a frustration with impractical conferences to give professionals actionable knowledge. Its values are rooted in Radical Transparency, promising 'no hype' and 'honest conversations' about technology that actually works. The positioning is The Premium Specialist, leveraging its status as the 'biggest in CEE' to justify investment-level ticket prices for a highly targeted professional audience. The payoff is access to a curated ecosystem of knowledge and connections that is both authoritative and deeply practical."
+        "title": "Community-Built Ecosystem",
+        "description": "Infoshare's purpose is The Empowerer, aiming to inspire innovation and help people grow stronger together. Its mission as The Ecosystem Builders is to connect the entire CEE tech scene, from startups to enterprise, on a massive scale. The brand's values land in Heritage & Craft, emphasizing care, respect, and a story-driven origin over technical specs. This is all delivered through an Accessible Helper positioning, with a wide range of ticket prices that make the 'biggest Tech Festival in CEE' feel open to everyone, not just the elite."
       },
       "identity": {
-        "title": "Authoritative Community Builder",
-        "description": "The brand's personality is a polished, high-authority guide, landing in The Luxury Icon territory by combining professional competence with a pleasant, community-oriented warmth. The dominant archetype is The Sage, driven by a mission to share worthy, practical knowledge, supported by The Caregiver's focus on building a 'trustworthy and caring community.' Visually, the identity is a Structured Humanist, using a highly organized, professional layout to contain the high-energy warmth of its vibrant red and teal brand colors. The tone is The Technical Authority, speaking with the direct, serious, and competent voice of an industry leader."
+        "title": "The Approachable Leader",
+        "description": "The brand's personality is The Trendsetter, combining the warmth of a community event with the authority of a major industry player. Its dominant archetype is The Everyman (60%), rooted in its 'open for everybody' origin, supported by The Sage's focus on practical knowledge. The Visual Identity is Structured Humanist, using a clean, professional grid to contain the high energy of its vibrant brand colors and photos of its community. This is matched by a Tone of Voice that is The Gentle Guide—helpful, professional, and encouraging without resorting to hype."
       },
       "communication": {
-        "title": "Expert-Led Value Proposition",
-        "description": "The messaging acts as The Systems Explainer, breaking the event down into its core components: stages, speakers, and networking opportunities. The USP is that of The Specialist, owning the niche of being the largest and most significant tech event for the CEE region. Proof comes from Expert-Validation, relying on an extensive list of high-profile speakers, partner logos like Netflix and Airbus, and glowing testimonials from industry leaders. The page's focus is a direct Conversion Push, using clear pricing tables and repeated 'Get Your Pass' calls-to-action to drive ticket sales."
+        "title": "Proof Through People",
+        "description": "The brand's messaging is The Promise Maker, selling an aspirational future where attendees 'shape tomorrow.' Its USP is The Specialist, owning the niche of being the largest and most practical tech event specifically for the CEE region. The primary communication strategy is Social Proof; the website is a testament to its scale and influence, dominated by vast galleries of speakers, partner logos, and glowing testimonials. The focus is on building trust and desire by showcasing the sheer force of its community."
       },
       "benefits": {
-        "title": "Strategic Professional Upgrade",
-        "description": "Functionally, Infoshare delivers a clear Capability Upgrade, providing attendees with new knowledge, skills, and connections to advance their careers and businesses. The emotional benefit is Intelligence; the experience makes attendees feel savvy, inspired, and connected to the vibrant heart of the CEE tech scene. For self-expression, it's a purchase for The Trend-Setter, signaling that one is current, relevant, and serious about their role in the technology industry. The social benefit is joining The Insider Clique, gaining access to a distinguished community of professionals and leaders, which confers both knowledge and status."
+        "title": "Insider's Strategic Advantage",
+        "description": "Functionally, Infoshare delivers a clear Capability Upgrade, providing practical knowledge and networking that helps attendees and their businesses grow. The core emotional benefit is Intelligence—the feeling of being smart, connected, and validated for participating in such a significant event. This translates to self-expression as The Trend-Setter, signaling relevance and connection to the industry's pulse. The ultimate social benefit is joining The Insider Clique, gaining access and status within the vibrant CEE tech community."
       }
     },
     "quick_labels": {
-      "brand_voice": "Authoritative Educator",
-      "visual_appeal": "Energetic Professional",
-      "value_prop": "CEE's Biggest Festival",
-      "positioning": "Premium Knowledge Platform"
+      "brand_voice": "Helpful Professional",
+      "visual_appeal": "Energetic & Structured",
+      "value_prop": "CEE's Tech Ecosystem",
+      "positioning": "Accessible Industry Hub"
     },
     "marker_1": {
       "marker_name": "Purpose",
@@ -90,16 +90,16 @@
       "slider_a_value": "5/5",
       "slider_a_position_name": "Raw Human Insight (community, culture, lived experience)",
       "slider_b_label": "[SLIDER] MISSION VECTOR (The Goal)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "Transformation (confidence, capability, identity)",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "Enhancement (Visible Improvement, texture, feel)",
       "territory_number": 4,
       "territory_name": "The Empowerer",
-      "reasoning": "Pass 1 (Holistic): The brand's origin story—founded by friends frustrated with impractical conferences—points to a purpose of empowering professionals with real, actionable knowledge. This suggests The Empowerer. Pass 2 (Sliders): The authority comes from the founders' lived experience and cultural insight (A=5/5). The mission is to 'inspire people to... come up with their own innovations' and 'grow stronger together,' which is transformational (B=5/5). The grid maps High(5) x High(5) directly to Territory 4, The Empowerer. Pass 3 (Audit): The holistic hypothesis and grid result are perfectly aligned.",
-      "evidence": "\"founded by four tech-passionate friends... another theoretical conference with no practical tips\" ... \"We promote it in hope to inspire people to embrace it and come up with their own innovations.\" ... \"We connect people, startups, and companies to help them grow stronger together.\"",
+      "reasoning": "Pass 1 Hypothesis: The Harmonizer, as the brand was founded to balance theoretical conferences with practical knowledge. Pass 2: Slider A is 5/5 Raw Human Insight, as the brand was 'Founded by four tech-passionate friends' to solve a shared frustration. Slider B is 4/5 Enhancement, as the goal is to 'inspire people to embrace' technology and 'come up with their own innovations,' which is an upgrade, not a critical fix. The grid maps High(5) x High(4) to The Empowerer. Pass 3: The grid result is a better fit. The language about inspiration and innovation aligns perfectly with the psychological uplift of The Empowerer territory.",
+      "evidence": "\"Founded by four tech-passionate friends, Infoshare has always been devoted to sharing practical knowledge among professionals.\" ... \"We promote it in hope to inspire people to embrace it and come up with their own innovations.\" ... \"We connect people, startups, and companies to help them grow stronger together.\"",
       "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
-        "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's purpose is explicitly stated in its origin story: to empower professionals with practical knowledge, which directly aligns with The Empowerer territory."
+        "coherence_status": "diverged",
+        "coherence_reasoning": "The initial hypothesis focused on the practical vs. theoretical balance (Harmonizer), but the explicit language about inspiring innovation and helping the community grow stronger aligns more closely with the psychological and capability uplift defined by The Empowerer."
       }
     },
     "marker_2": {
@@ -108,97 +108,97 @@
       "slider_a_value": "4/5",
       "slider_a_position_name": "Industry Reform (changing category standards)",
       "slider_b_label": "[SLIDER] ACCESS BARRIER (The Velvet Rope)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "Democratic (Universal access for everyone)",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "Approachable (Easy to find, easy to buy)",
       "territory_number": 3,
       "territory_name": "The Ecosystem Builders",
-      "reasoning": "Pass 1 (Holistic): The mission to be the 'biggest tech conference in CEE' and connect the entire community points towards building an ecosystem. Pass 2 (Sliders): The scope is industry-wide for the CEE region (A=4/5). Despite premium passes, the origin story emphasizes being 'open for everybody,' and a low-cost Visitor Pass exists, making access fundamentally democratic (B=5/5). The grid maps High(4) x High(5) to Territory 3, The Ecosystem Builders. Pass 3 (Audit): The holistic hypothesis and grid result are aligned. The mission is to serve and grow the entire regional tech ecosystem.",
-      "evidence": "\"the biggest tech conference in Central and Eastern Europe\" ... \"We connect people, startups, and companies to help them grow stronger together.\" ... \"an event that would be open for everybody who wanted to attend it\"",
-      "evidence_src": "ABOUT PAGE + TARGET PAGE (body copy)",
+      "reasoning": "Pass 1 Hypothesis: The Ecosystem Builders, given the focus on connecting the entire CEE tech community. Pass 2: Slider A is 4/5 Industry Reform, as the mission is to be the 'biggest tech conference in Central and Eastern Europe,' shaping the regional market. Slider B is 4/5 Approachable; while there are premium passes, the origin story emphasizes being 'open for everybody' and the low-cost Visitor Pass ensures wide access. The grid maps High(4) x High(4) to The Ecosystem Builders. Pass 3: Aligned. The mission is explicitly about building a large-scale, accessible community.",
+      "evidence": "\"becoming the biggest tech conference in Central and Eastern Europe\" ... \"an event that would be open for everybody who wanted to attend it\" ... \"We connect people, startups, and companies to help them grow stronger together. We build a trustworthy and caring community for tech-oriented people.\"",
+      "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's stated mission is to build and serve the entire CEE tech community, with broad access, which is the definition of The Ecosystem Builders."
+        "coherence_reasoning": "The sliders for large-scale impact and broad accessibility map directly to The Ecosystem Builders territory, which is consistent with the brand's narrative of connecting the CEE tech scene."
       }
     },
     "marker_3": {
       "marker_name": "Values",
       "slider_a_label": "[SLIDER] PERFORMANCE PRIORITY (The Trade-Off)",
-      "slider_a_value": "4/5",
-      "slider_a_position_name": "High-Performance (Actives take the lead)",
+      "slider_a_value": "2/5",
+      "slider_a_position_name": "Gentle (Effective but comfortable)",
       "slider_b_label": "[SLIDER] INFORMATION DENSITY (The Transparency)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "Evidence-First (Charts, diagrams, studies)",
-      "territory_number": 2,
-      "territory_name": "Radical Transparency",
-      "reasoning": "Pass 1 (Holistic): The brand's values are explicitly anti-hype ('no marketing bullshit') and pro-substance ('practical aspects'), suggesting Radical Transparency. Pass 2 (Sliders): The priority is high-performance content ('Technology that actually works... No hype. No shortcuts.') (A=4/5). The information density is evidence-first, showing speakers, partners, and agenda details rather than relying on mystique (B=2/5). The grid maps High(4) x High(2) to Territory 2, Radical Transparency. Pass 3 (Audit): The holistic hypothesis and grid result are aligned.",
-      "evidence": "\"a conference that would focus on practical aspects and not just theory\" ... \"No hype. No shortcuts. Just honest conversations about what works\" ... \"no marketing bullshit\"",
-      "evidence_src": "ABOUT PAGE + TARGET PAGE (body copy)",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "Story-First (Focus on legend or vibe)",
+      "territory_number": 3,
+      "territory_name": "Heritage & Craft",
+      "reasoning": "Pass 1 Hypothesis: Heritage & Craft, based on the human-centric values listed (Care, Respect, etc.) and the detailed origin story. Pass 2: Slider A is 2/5 Gentle, as values like 'CARE,' 'RESPECT,' and creating 'positive vibes' prioritize a supportive environment over aggressive outcomes. Slider B is 4/5 Story-First; the brand's values and history are communicated through a detailed narrative, not data sheets. The grid maps Low(2) x Low(4) to Heritage & Craft. Pass 3: Aligned. The brand's values are deeply rooted in its origin story and human-centric principles.",
+      "evidence": "\"OUR VALUES: CARE, INTEGRITY, RESPECT, PROFESSIONALISM, INSPIRATION\" ... \"We care about our community’s needs.\" ... \"The history of Infoshare starts with an IT conference that our founders, four colleagues, attended.\"",
+      "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's core value, born from its origin story, is to provide potent, practical content and transparently show its work, which perfectly matches Radical Transparency."
+        "coherence_reasoning": "The sliders for a gentle, supportive approach and a story-first communication style map directly to the Heritage & Craft territory, reflecting the brand's emphasis on its community-focused origin."
       }
     },
     "marker_4": {
       "marker_name": "Positioning",
       "slider_a_label": "[SLIDER] VISUAL CODE (The Uniform)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "Professional",
+      "slider_a_value": "3/5",
+      "slider_a_position_name": "Balanced (Science meets design)",
       "slider_b_label": "[SLIDER] VALUE PERCEPTION (The Status Signal)",
-      "slider_b_value": "4/5",
-      "slider_b_position_name": "Investment Piece",
-      "territory_number": 2,
-      "territory_name": "The Premium Specialist",
-      "reasoning": "Pass 1 (Holistic): The brand positions itself as a top-tier, authoritative event ('biggest in CEE') with a professional look and feel, justifying a premium price. This suggests The Premium Specialist. Pass 2 (Sliders): The visual code is a highly structured, professional grid, not purely sterile or expressive (A=2/5). With passes costing up to 2299 PLN and attracting brands like Netflix and Airbus, it's an investment piece, not a daily utility (B=4/5). The grid maps Low(2) x High(4) to Territory 2, The Premium Specialist. Pass 3 (Audit): The holistic hypothesis and grid result are aligned.",
-      "evidence": "\"Executive Pass 2299 PLN\" ... \"Brands that attended Infoshare: ING, Revolut, mBank, NETFLIX, AIRBUS\" ... \"biggest Tech Festival in CEE\"",
-      "evidence_src": "TARGET PAGE (body copy) + TARGET PAGE (visible text)",
+      "slider_b_value": "3/5",
+      "slider_b_position_name": "Elevated Everyday (Premium feel, accessible positioning)",
+      "territory_number": 3,
+      "territory_name": "The Accessible Helper",
+      "reasoning": "Pass 1 Hypothesis: The Accessible Helper, as it's a huge event with an accessible entry point. Pass 2: Slider A is 3/5 Balanced; the visual analysis identifies a 'Clinical Pop' style, mixing a structured, cool container with hot, expressive content. Slider B is 3/5 Elevated Everyday, with passes ranging from the accessible 'Visitor Pass' (161 PLN) to the premium 'Executive Pass,' positioning it as an accessible but significant event for professionals. The mid-scores trigger a fallback; the dominant message of 'one community' and 'open for everybody' strongly favors The Accessible Helper. Pass 3: Aligned. The brand combines professional polish with broad accessibility.",
+      "evidence": "\"Visitor Pass 161 PLN\" ... \"Executive Pass\" ... \"Different roles, one community.\" ... Visual analysis: 'Clinical Pop' territory with a cool container and hot content.",
+      "evidence_src": "TARGET PAGE (body copy) + TARGET PAGE (visual analysis)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The professional visual presentation and high-profile attendees justify the premium price point, fitting the Premium Specialist positioning."
+        "coherence_reasoning": "Both sliders scored in the middle, requiring a fallback decision. The brand's core messaging around community and accessibility, combined with its energetic visuals, aligns best with The Accessible Helper territory."
       }
     },
     "marker_5": {
       "marker_name": "Personality",
       "slider_a_label": "[SLIDER] WARMTH (The Thermostat)",
-      "slider_a_value": "3/5",
-      "slider_a_position_name": "Pleasant (Standard corporate friendliness. Neither extreme)",
+      "slider_a_value": "4/5",
+      "slider_a_position_name": "Affectionate (Soft, caring language)",
       "slider_b_label": "[SLIDER] COMPETENCE / AUTHORITY (The Power Dynamic)",
-      "slider_b_value": "4/5",
-      "slider_b_position_name": "The Specialist (Highly educated)",
-      "territory_number": 4,
-      "territory_name": "The Luxury Icon",
-      "reasoning": "Pass 1 (Holistic): The personality feels like a competent, authoritative expert due to its 'biggest in CEE' status and direct, no-nonsense language, suggesting The Reliable Expert. Pass 2 (Sliders): The warmth is pleasant, with phrases like 'caring community,' but the overall tone is professional, not effusive (A=3/5). The authority is high, stemming from its scale, history, and the caliber of its speakers (B=4/5). The grid maps Mid(3) x High(4) to Territory 4, The Luxury Icon. Pass 3 (Audit): Diverged. The grid result of 'Luxury Icon' is driven by the mid-level warmth. While not a luxury brand, the territory's descriptors ('polished, composed, curated') fit the brand's professional and authoritative presentation better than the colder 'Reliable Expert'.",
-      "evidence": "\"We build a trustworthy and caring community for tech-oriented people.\" ... \"biggest tech conference in Central and Eastern Europe\" ... \"No hype. No shortcuts. Just honest conversations\"",
-      "evidence_src": "ABOUT PAGE + TARGET PAGE (body copy)",
+      "slider_b_value": "3/5",
+      "slider_b_position_name": "The Guide (Helpful but leads)",
+      "territory_number": 2,
+      "territory_name": "The Trendsetter",
+      "reasoning": "Pass 1 Hypothesis: The Trusted Friend, due to the 'four friends' origin story and 'caring community' language. Pass 2: Slider A is 4/5 Affectionate, evidenced by phrases like 'caring community' and 'support each other.' Slider B is 3/5 The Guide; the brand is an authority ('biggest tech conference in CEE') but its tone is inclusive and guiding ('Choose your path'). The grid maps High(4) x Mid(3) to The Trendsetter. Pass 3: Diverged. The Trendsetter better captures the blend of community warmth and industry-leading scale and energy, which The Trusted Friend misses.",
+      "evidence": "\"We build a trustworthy and caring community for tech-oriented people.\" ... \"Choose your path and shape tomorrow with us.\" ... \"biggest tech conference in Central and Eastern Europe\"",
+      "evidence_src": "ABOUT PAGE + TARGET PAGE (headline)",
       "evaluation_check": {
         "coherence_status": "diverged",
-        "coherence_reasoning": "The holistic read suggested a colder 'Reliable Expert,' but the evidence of community-focused language pushes warmth to a 3/5. This, combined with high authority, results in the grid's 'Luxury Icon' territory, which captures the brand's polished and curated nature."
+        "coherence_reasoning": "The initial hypothesis of 'Trusted Friend' was based on the warm origin story, but it failed to account for the brand's scale and authority. The grid's result, 'The Trendsetter,' more accurately reflects the combination of affectionate warmth and guiding industry leadership."
       }
     },
     "marker_6": {
       "marker_name": "Archetypes Mix",
       "primary": {
-        "archetype": "The Sage",
-        "group": "B (Independence)",
-        "percentage": "70%"
+        "archetype": "The Everyman",
+        "group": "D (Belonging)",
+        "percentage": "60%"
       },
       "secondary": {
-        "archetype": "The Caregiver",
-        "group": "A (Stability)",
-        "percentage": "20%"
+        "archetype": "The Sage",
+        "group": "B (Independence)",
+        "percentage": "25%"
       },
       "tertiary": {
-        "archetype": "The Ruler",
+        "archetype": "The Caregiver",
         "group": "A (Stability)",
-        "percentage": "10%"
+        "percentage": "15%"
       },
-      "territory_number": 3,
-      "territory_name": "The Philosopher",
-      "reasoning": "The Sage (70%) is dominant, driven by the core mission of sharing 'practical knowledge,' 'substantive content,' and having 'honest conversations' with 'no hype.' The Caregiver (20%) is the secondary force, evident in the goal to 'build a trustworthy and caring community' and 'connect people.' The Ruler (10%) appears as a tertiary accent through the consistent claim of being the 'biggest tech conference in CEE.' Cross-validation revealed a conflict between ToV (Sage/Ruler) and VI (Caregiver/Everyman), so the ToV-aligned Sage was chosen as primary. The Sage's dominance places the brand in The Philosopher territory, reflecting its focus on clarity and principles.",
-      "evidence": "\"sharing practical knowledge among professionals\" (Sage) ... \"We build a trustworthy and caring community\" (Caregiver) ... \"the biggest tech conference in Central and Eastern Europe\" (Ruler)",
+      "territory_number": 2,
+      "territory_name": "The Insider",
+      "reasoning": "The primary archetype is The Everyman (60%), driven by the 'open for everybody' philosophy, 'one community' messaging, and accessible entry-level passes. The Sage (25%) is the strong secondary, as the event's core purpose is 'sharing practical knowledge' and rejecting 'marketing bullshit.' The Caregiver (15%) is tertiary, reflected in the promise to build a 'trustworthy and caring community.' The weighted dominance of The Everyman places the brand in The Insider territory, representing a large, welcoming community that people want to join. Cross-validation: ToV (Gentle Guide) and VI (Structured Humanist) both expect Everyman or Caregiver, making the primary and tertiary choices coherent.",
+      "evidence": "\"...an event that would be open for everybody who wanted to attend it\" (Everyman) ... \"sharing practical knowledge among professionals... no marketing bullshit\" (Sage) ... \"We build a trustworthy and caring community\" (Caregiver)",
       "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
-        "coherence_status": "diverged",
-        "coherence_reasoning": "The Cross-Validation Gate showed a conflict between ToV (Technical Authority -> Sage/Ruler) and VI (Structured Humanist -> Caregiver/Everyman). The ToV is a stronger signal for personality, so the Sage was prioritized as the primary archetype, which best reflects the brand's core promise of delivering practical, no-hype knowledge."
+        "coherence_status": "aligned",
+        "coherence_reasoning": "The primary archetype (The Everyman) is strongly supported by the ToV and VI territory analysis. The mix reflects the brand's core promise of an accessible community (Everyman) for practical learning (Sage) in a supportive environment (Caregiver)."
       }
     },
     "marker_7": {
@@ -210,139 +210,139 @@
       "slider_b_value": "3/5",
       "slider_b_position_name": "Professional (Clear, standard, neutral business tone)",
       "slider_c_label": "[SLIDER] RESPECT (The Power Dynamic)",
-      "slider_c_value": "3/5",
-      "slider_c_position_name": "Neutral (Direct, matter-of-fact)",
+      "slider_c_value": "2/5",
+      "slider_c_position_name": "Respectful (Polite, courteous, careful)",
       "slider_d_label": "[SLIDER] ENTHUSIASM (The Energy Level)",
-      "slider_d_value": "2/5",
-      "slider_d_position_name": "Dry (Just the facts, concise)",
-      "territory_number": 1,
-      "territory_name": "The Technical Authority",
-      "reasoning": "Pass 1 (Holistic): The tone feels direct, professional, and efficient, suggesting The Modern Minimalist. Pass 2 (Sliders): The copy is serious (A=2/5), professional (B=3/5), neutral in respect (C=3/5), and dry/matter-of-fact in enthusiasm (D=2/5). Applying the hard rules, Rule 1 for Technical Authority is met (Humor<=2, Enthusiasm<=2, Formality>=2). This rule fires first. Pass 3 (Audit): Diverged. The strict application of the hard rules maps the sliders to Territory 1, overriding the initial 'Modern Minimalist' hypothesis. The combination of low humor and low enthusiasm firmly places the tone in the authoritative camp.",
-      "evidence": "\"Technology that actually works in the real world.\" ... \"No hype. No shortcuts.\" ... \"Business decisions shaped by technology, not buzzwords.\"",
+      "slider_d_value": "3/5",
+      "slider_d_position_name": "Helpful (Encouraging, positive, but measured)",
+      "territory_number": 3,
+      "territory_name": "The Gentle Guide",
+      "reasoning": "Pass 1 Hypothesis: The Gentle Guide, as the copy is helpful and community-focused. Pass 2: Sliders are Serious (2/5), Professional (3/5), Respectful (2/5), and Helpful (3/5). The language is encouraging ('Shape tomorrow with us') but measured and professional. Applying the hard rules, Rule 1 (Technical Authority) and Rule 2 (Hype Beast) fail. Rule 3 (Gentle Guide) is a perfect match for the slider values. Pass 3: Aligned. The tone is consistently supportive, professional, and clear.",
+      "evidence": "\"Find your place at Infoshare\" ... \"Different roles, one community. Choose your path and shape tomorrow with us.\" ... \"No hype. No shortcuts. Just honest conversations about what works\"",
       "evidence_src": "TARGET PAGE (body copy)",
       "evaluation_check": {
-        "coherence_status": "diverged",
-        "coherence_reasoning": "The holistic hypothesis leaned towards the more neutral 'Modern Minimalist,' but the slider scores for low humor (2/5) and low enthusiasm (2/5) triggered the first hard rule, correctly assigning the more assertive 'Technical Authority' territory."
+        "coherence_status": "aligned",
+        "coherence_reasoning": "The slider scores directly match the criteria for The Gentle Guide in the hard rule evaluation. The tone is consistently professional, respectful, and helpful."
       }
     },
     "marker_8": {
       "marker_name": "Visual Identity",
       "slider_a_label": "[SLIDER] THE THERMOSTAT (Visual Temperature)",
-      "slider_a_value": "5/5",
-      "slider_a_position_name": "Hot (Saturated, sensory, tactile)",
+      "slider_a_value": "3/5",
+      "slider_a_position_name": "Neutral (Neither warm nor cold)",
       "slider_b_label": "[SLIDER] THE ENTROPY SCALE (Layout Control)",
       "slider_b_value": "2/5",
       "slider_b_position_name": "Structured (Orderly, predictable hierarchy)",
       "territory_number": 3,
       "territory_name": "Structured Humanist",
-      "reasoning": "Pass 1 (Holistic): The visual agent's 'Clinical Pop' label suggests a disruptive, edgy feel. Pass 2 (Sliders): The brand's own content visuals are 'hot,' driven by a vibrant, saturated red and high-energy crowd shots (A=5/5). The page layout is a highly controlled, structured grid (B=2/5). The grid maps High(5) x Low(2) to Territory 3, Structured Humanist. Pass 3 (Audit): Diverged significantly. The grid's result, 'Structured Humanist' (implying calm, spa-like aesthetics), is a very poor fit for the energetic, tech-focused visuals. The 2x2 grid model fails to capture the 'Clinical Pop' dynamic of high energy within a rigid structure. The grid result is followed, but the contradiction is noted.",
-      "evidence": "\"The stark contrast between the heavy black backgrounds and the electric 'Infoshare Red' creates an atmosphere of urgency, technology, and high-energy networking\" ... \"highly structured, informational grid\" ... \"layout_type: stacked-vertical\"",
+      "reasoning": "Pass 1 Hypothesis: Clinical Pop, as stated by the visual analysis. Pass 2: Slider A is 3/5 Neutral, reflecting the visual analysis's finding of a 'cool' container UI with 'hot' branded content (vibrant red, teal). Slider B is 2/5 Structured, based on the 'stacked-vertical' and 'grid-based' layout. The mid-score on Slider A triggers a fallback. The combination of a highly controlled layout with energetic, human-centric content (speaker photos, crowd shots, vibrant colors) is the definition of Structured Humanist. Pass 3: Diverged. 'Structured Humanist' is a more precise strategic description than the agent's 'Clinical Pop' label.",
+      "evidence": "\"container_analysis: temperature cool\" ... \"content_analysis: temperature hot\" ... \"layout_type: stacked-vertical\" ... \"Grid-based speaker and partner logo galleries\"",
       "evidence_src": "TARGET PAGE (visual analysis)",
-      "look_and_feel": "A professional and authoritative tech portal that uses a structured, clinical grid to frame high-energy, vibrant brand content, creating a dynamic of controlled power.",
-      "distinctive_asset_1": "Vibrant Infoshare Red (#FF2B2B) as a primary action color",
-      "distinctive_asset_2": "Geometric 'pixel' graphic elements and patterns",
-      "distinctive_asset_3": "Large, bold, sans-serif headline typography",
-      "distinctive_asset_4": "Dense grid galleries of speaker headshots and partner logos",
-      "distinctive_asset_5": "High-contrast black, white, and red color-blocked sections",
+      "look_and_feel": "A professional and energetic portal for a major tech event, using a clean, structured grid with black and white blocks to frame vibrant red and teal brand colors, speaker portraits, and dense partner logo walls.",
+      "distinctive_asset_1": "Vibrant Infoshare Red (#FF2B2B) as a primary accent color",
+      "distinctive_asset_2": "Dense, grid-based galleries of speaker and partner logos",
+      "distinctive_asset_3": "Large, bold sans-serif headline typography",
+      "distinctive_asset_4": "Geometric 'pixel' or block-like graphic motifs",
+      "distinctive_asset_5": "High-energy event photography showing crowds and networking",
       "palette_color_1": "#FF2B2B",
       "palette_color_2": "#00A69C",
       "palette_color_3": "#2D3436",
       "palette_color_4": "#000000",
       "palette_color_5": "#FFFFFF",
-      "primary_palette": "A high-contrast palette dominated by an energetic, vibrant red and a professional teal, set against a modern base of black and white to signal both passion and authority.",
+      "primary_palette": "A high-contrast palette of energetic red and professional teal against a modern black and white base, signaling action, technology, and authority.",
       "evaluation_check": {
         "coherence_status": "diverged",
-        "coherence_reasoning": "The grid result of 'Structured Humanist' is a poor match for the brand's actual high-energy, tech-focused aesthetic. The territory's description (calm, gentle) contradicts the visual evidence of urgency and dynamism. The 2-slider model struggles to classify this 'Clinical Pop' identity."
+        "coherence_reasoning": "The visual analysis labeled the territory 'Clinical Pop,' but a deeper look at the sliders (Neutral temp + Structured layout) and the nature of the content (human-focused, energetic) makes 'Structured Humanist' a more accurate strategic fit."
       }
     },
     "marker_9": {
       "marker_name": "Messaging",
       "slider_a_label": "[SLIDER] THE HOOK TARGET (The Subject)",
-      "slider_a_value": "3/5",
-      "slider_a_position_name": "The Feature (Action subject)",
+      "slider_a_value": "5/5",
+      "slider_a_position_name": "The Dream (identity/future-state subject)",
       "slider_b_label": "[SLIDER] THE PERSUASION LOGIC (The Argument)",
-      "slider_b_value": "2/5",
-      "slider_b_position_name": "Rational (Logical cause-and-effect)",
-      "territory_number": 1,
-      "territory_name": "The Systems Explainer",
-      "reasoning": "Pass 1 (Holistic): The page persuades by listing the event's components (stages, speakers, networking), which is characteristic of The Systems Explainer. Pass 2 (Sliders): The primary hooks are the features of the event, like '7 THEMATIC STAGES' and '5 DAYS OF NETWORKING' (A=3/5). The argument is rational, based on the quantity and quality of these features (B=2/5). The mid-score on Slider A with a low score on Slider B defaults to Territory 1, The Systems Explainer. Pass 3 (Audit): Aligned. The messaging strategy is to rationally explain the system of the conference to prove its value.",
-      "evidence": "\"7 THEMATIC STAGES\" ... \"6 SIDE EVENTS\" ... \"5 DAYS OF NETWORKING\" ... \"Seven themed stages built around what’s changing right now, in tech and business.\"",
-      "evidence_src": "TARGET PAGE (body copy)",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "Evocative (descriptive, symbolic, aspirational, or emotionally charged language)",
+      "territory_number": 3,
+      "territory_name": "The Promise Maker",
+      "reasoning": "Pass 1 Hypothesis: The Meaning Maker, focusing on the 'why' of the community. Pass 2: Slider A is 5/5 The Dream, with headlines like 'A new era begins' and 'Shape Tomorrow Today.' Slider B is 4/5 Evocative, using value-laden phrases like 'No hype. No shortcuts. Just honest conversations.' The grid maps High(5) x High(4) to The Promise Maker. Pass 3: Diverged. The Promise Maker is more accurate because the messaging focuses on the future-state *benefit* for the attendee (shaping tomorrow), not just the components of the event.",
+      "evidence": "\"20 years of Infoshare. A new era begins.\" ... \"Shape Tomorrow Today\" ... \"Networking built around people, not crowds.\" ... \"No hype. No shortcuts.\"",
+      "evidence_src": "TARGET PAGE (headline) + TARGET PAGE (body copy)",
       "evaluation_check": {
-        "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's messaging focuses on rationally presenting the features and components of the event, which is the core of The Systems Explainer territory."
+        "coherence_status": "diverged",
+        "coherence_reasoning": "The initial hypothesis (Meaning Maker) was plausible, but the messaging's focus on aspirational outcomes for the attendee ('Shape Tomorrow') makes it a better fit for The Promise Maker, which is defined by selling a future-state benefit."
       }
     },
     "marker_10": {
       "marker_name": "Narrative",
       "slider_a_label": "[SLIDER] THE PROTAGONIST (Who Solved It)",
       "slider_a_value": "5/5",
-      "slider_a_position_name": "The Lived-Problem Solver",
+      "slider_a_position_name": "The Lived-Problem Solver (founder/user who experienced the problem directly)",
       "slider_b_label": "[SLIDER] THE SETTING (Where It Happened)",
       "slider_b_value": "3/5",
-      "slider_b_position_name": "Built",
+      "slider_b_position_name": "Built (studio, workshop, prototype, small team, field testing, or craft-based origin)",
       "territory_number": 2,
       "territory_name": "The Founder-Led Solution",
-      "reasoning": "Pass 1 (Holistic): The 'About Us' section details the founders' frustration with existing conferences, a classic Founder-Led Solution narrative. Pass 2 (Sliders): The protagonists are the 'four tech-passionate friends' who experienced the problem directly (A=5/5). They built a new event—a system—to solve it (B=3/5). The grid, via mid-score fallback, maps High(5) x Mid(3) to Territory 2, The Founder-Led Solution, as the focus is on the practical system they built. Pass 3 (Audit): Aligned. The origin story is a textbook example of this narrative territory.",
-      "evidence": "\"Founded by four tech-passionate friends... discussed on the bus back that it had been yet another theoretical conference with no practical tips... decided to create their own event\"",
+      "reasoning": "Pass 1 Hypothesis: The Founder-Led Solution, as the 'About Us' page details the founders' story. Pass 2: Slider A is 5/5 The Lived-Problem Solver; the story explicitly states it was founded by 'four colleagues' frustrated with 'another theoretical conference.' Slider B is 3/5 Built, as it started in a 'university hall' with 'after-hours work.' The grid resolves this combination to The Founder-Led Solution. Pass 3: Aligned. The narrative is a textbook example of a personal problem leading to a built solution.",
+      "evidence": "\"The history of Infoshare starts with an IT conference that our founders, four colleagues, attended... it had been yet another theoretical conference with no practical tips... And so... they decided to create their own event.\"",
       "evidence_src": "ABOUT PAGE",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's origin story is explicitly about founders experiencing a problem and building a better system to solve it, perfectly matching The Founder-Led Solution."
+        "coherence_reasoning": "The brand's origin story is explicitly about founders experiencing a problem and building the solution themselves, which is a direct match for this territory."
       }
     },
     "marker_11": {
       "marker_name": "Key Selling Points",
       "slider_a_label": "[SLIDER] THE VALIDATOR (Who Says It Works?)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "The Specialists (researchers, operators, practitioners, advisors)",
+      "slider_a_value": "5/5",
+      "slider_a_position_name": "The Fans (community traction, reviews, rankings, Product Hunt, social proof)",
       "slider_b_label": "[SLIDER] THE PROOF TYPE (What Represents Truth?)",
       "slider_b_value": "3/5",
       "slider_b_position_name": "The Visual (screenshots, demos, before/after, examples)",
-      "territory_number": 1,
-      "territory_name": "Expert-Validation",
-      "reasoning": "Pass 1 (Holistic): The page is dominated by proof from high-profile speakers, partners, and testimonials, clearly indicating Expert-Validation. Pass 2 (Sliders): The validators are the industry specialists speaking at and attending the event (A=2/5). The proof is presented visually through grids of headshots and logos, and through direct quotes in testimonials (B=3/5). The grid maps Low(2) x Mid(3) to Territory 1, Expert-Validation. Pass 3 (Audit): Aligned. The brand's credibility is built on the authority of the experts and companies it attracts.",
-      "evidence": "\"MEET OUR SPEAKERS\" ... \"Brands that attended Infoshare: NETFLIX, AIRBUS, Revolut\" ... \"TESTIMONIALS\" ... \"Stefan Batory, founder of Booksy: 'I always come here to listen to others, get inspired by their stories'\"",
-      "evidence_src": "TARGET PAGE (body copy) + TARGET PAGE (headline)",
+      "territory_number": 3,
+      "territory_name": "Viral Results",
+      "reasoning": "Pass 1 Hypothesis: Viral Results, due to the overwhelming social proof. Pass 2: Slider A is 5/5 The Fans, with validation coming from attendee testimonials ('my favorite conference in Poland') and massive scale ('6000+ attendees'). Slider B is 3/5 The Visual; the most prominent proof is the visual wall of speaker headshots and partner logos. The grid maps High(5) x Mid(3) to Viral Results. Pass 3: Aligned. The key selling point is the scale and quality of the community, demonstrated through testimonials and visual proof.",
+      "evidence": "\"6000+ Attendees\" ... \"Brands that attended Infoshare: ING, Revolut, NETFLIX...\" ... \"TESTIMONIALS: 'What I love about Infoshare is that I always come here to listen to others, get inspired...' - Stefan Batory, founder of Booksy\"",
+      "evidence_src": "TARGET PAGE (body copy) + TARGET PAGE (claims)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The primary method of proving value is showcasing the high caliber of participating experts, companies, and partners, which is the definition of Expert-Validation."
+        "coherence_reasoning": "The brand heavily relies on the volume and quality of its attendees, speakers, and partners as proof, which is the core of the Viral Results territory."
       }
     },
     "marker_12": {
       "marker_name": "USP",
       "slider_a_label": "[SLIDER] THE OWNERSHIP CLAIM (What Makes You Unique)",
       "slider_a_value": "3/5",
-      "slider_a_position_name": "The Signature Complex (Trademarked blend)",
+      "slider_a_position_name": "The Signature Complex (Owned bundle, named method, framework, format, package, or recognizable combination)",
       "slider_b_label": "[SLIDER] THE TARGET SCOPE (Market Breadth)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "The Specialist",
+      "slider_b_value": "4/5",
+      "slider_b_position_name": "The Problem Solver (Targets a specific customer/user/context problem, role, workflow, niche, or pain point)",
       "territory_number": 4,
       "territory_name": "The Specialist",
-      "reasoning": "Pass 1 (Holistic): The unique claim is its scale and focus: being the 'biggest' and best for the 'CEE region.' This is a specialist play. Pass 2 (Sliders): The ownership is a unique complex of content, networking, and scale (A=3/5). The target scope is hyper-focused on the Central and Eastern Europe tech ecosystem, a specific professional niche (B=5/5). The grid maps Any x High(5) directly to Territory 4, The Specialist. Pass 3 (Audit): Aligned. The brand's unique position is its undisputed leadership within a specific, large geographical and professional niche.",
+      "reasoning": "Pass 1 Hypothesis: The Specialist, as its identity is tied to being the biggest event for the CEE tech market. Pass 2: Slider A is 3/5 The Signature Complex; the USP is the unique formula of practical talks, massive networking, and startup focus, not a single feature. Slider B is 4/5 The Problem Solver, as it specifically targets the CEE tech community. The grid maps any ownership claim against a niche scope to The Specialist. Pass 3: Aligned. The brand's unique position is its dominance and focus within a specific geographical and professional niche.",
       "evidence": "\"Welcome to the biggest Tech Festival in CEE\" ... \"Infoshare gives a sort of a view on what is happening (...) It's like a 'crash course' in what is happening in Poland and the CEE region.\"",
-      "evidence_src": "TARGET PAGE (body copy) + TARGET PAGE (claims)",
+      "evidence_src": "TARGET PAGE (headline) + TARGET PAGE (claims)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The brand's core differentiator is its specialist focus on and dominance of the Central and Eastern Europe tech market, making The Specialist a perfect fit."
+        "coherence_reasoning": "The brand's primary unique claim is its leadership position within a well-defined niche (CEE Tech), which is the definition of The Specialist."
       }
     },
     "marker_13": {
       "marker_name": "Focus",
       "slider_a_label": "[SLIDER] THE DEPTH GAUGE (Content Purpose)",
-      "slider_a_value": "2/5",
-      "slider_a_position_name": "The Explainer (Infographics, How it Works)",
+      "slider_a_value": "4/5",
+      "slider_a_position_name": "The Editorial (styled scenes, brand imagery, people, interface moments)",
       "slider_b_label": "[SLIDER] THE INTENT VECTOR (Content Goal)",
-      "slider_b_value": "5/5",
-      "slider_b_position_name": "The Hard Sell (plans, discounts, demos, lead capture, buy/subscribe CTAs)",
-      "territory_number": 4,
-      "territory_name": "Conversion Push",
-      "reasoning": "Pass 1 (Holistic): The page is structured as a sales funnel, with prominent 'Get Your Pass' buttons and detailed pricing tables, indicating a Conversion Push. Pass 2 (Sliders): The content explains the event's features but doesn't offer deep education on its own (A=2/5). The intent is clearly commercial, with multiple CTAs and pricing sections driving ticket sales (B=5/5). The grid maps Low(2) x High(5) to Territory 4, Conversion Push. Pass 3 (Audit): Aligned. The primary purpose of the homepage is to convert visitors into attendees.",
-      "evidence": "\"Get Your Pass\" ... \"Visitor Pass 161 PLN\" ... \"General Pass 1099 PLN\" ... \"Executive Pass\"",
-      "evidence_src": "TARGET PAGE (body copy) + TARGET PAGE (cta_button)",
+      "slider_b_value": "2/5",
+      "slider_b_position_name": "The Evidence (demos, case studies, before/after, user stats)",
+      "territory_number": 2,
+      "territory_name": "Social Proof",
+      "reasoning": "Pass 1 Hypothesis: Social Proof, as the page is dominated by logos, faces, and testimonials. Pass 2: Slider A is 4/5 The Editorial, as the content is primarily visual showcases of speakers, partners, and past events. Slider B is 2/5 The Evidence; the purpose of this visual content is to provide overwhelming evidence of the event's quality and scale to build trust. The grid maps High(4) x Low(2) to Social Proof. Pass 3: Aligned. The page's main function is to prove its value through the people and companies it attracts.",
+      "evidence": "\"TESTIMONIALS\" ... \"MEET OUR SPEAKERS\" ... \"Brands that attended Infoshare\" ... \"PARTNERS\" (followed by extensive logo walls)",
+      "evidence_src": "TARGET PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The page's structure, with its repeated calls-to-action and prominent pricing information, is overwhelmingly focused on driving ticket sales, aligning perfectly with the Conversion Push territory."
+        "coherence_reasoning": "The page content is overwhelmingly focused on showcasing speakers, partners, and testimonials as evidence of its value, which is a direct match for the Social Proof territory."
       }
     },
     "marker_14": {
@@ -355,48 +355,48 @@
       "slider_b_position_name": "Strategic Advantage (leverage, competitiveness, category advantage, identity shift)",
       "territory_number": 4,
       "territory_name": "Capability Upgrade",
-      "reasoning": "Pass 1 (Holistic): The core function of the event is to provide knowledge, connections, and opportunities that help attendees improve their professional standing. This is a Capability Upgrade. Pass 2 (Sliders): The mechanism enables new abilities through learning and networking (A=5/5). The outcome is a strategic advantage in one's career or business (B=5/5). The grid maps High(5) x High(5) to Territory 4, Capability Upgrade. Pass 3 (Audit): Aligned. The functional promise is a direct upgrade to a professional's capabilities.",
-      "evidence": "\"Expect practical talks, real stories, and ideas you can take back to work the next day.\" ... \"help you meet the right people, not just more people.\" ... \"connect with investors and partners\"",
-      "evidence_src": "TARGET PAGE (body copy)",
+      "reasoning": "Pass 1 Hypothesis: Capability Upgrade, as the event is about learning and networking for professional growth. Pass 2: Slider A is 5/5 The Enabler; it 'create[s] opportunities to network' and inspires 'innovations.' Slider B is 5/5 Strategic Advantage; the outcomes are about business growth, connections, and staying competitive. The grid maps High(5) x High(5) to Capability Upgrade. Pass 3: Aligned. The core functional promise is to provide attendees with knowledge and connections that give them a strategic edge.",
+      "evidence": "\"sharing practical knowledge among professionals\" ... \"create opportunities to network. We connect people, startups, and companies to help them grow stronger together.\" ... \"ideas you can take back to work the next day.\"",
+      "evidence_src": "ABOUT PAGE + TARGET PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The event's entire value proposition is centered on providing attendees with the knowledge and network to improve their professional capabilities and gain a strategic edge."
+        "coherence_reasoning": "The brand's promise of practical knowledge, valuable connections, and inspiration directly translates to a functional benefit of enhanced professional and business capabilities."
       }
     },
     "marker_15": {
       "marker_name": "Emotional Benefits",
       "slider_a_label": "[SLIDER] THE ANXIETY AXIS (The Emotional Direction)",
       "slider_a_value": "4/5",
-      "slider_a_position_name": "Delight (A pleasant surprise/smell)",
+      "slider_a_position_name": "Delight (Positive surprise, energy, pleasure, inspiration, or enjoyment)",
       "slider_b_label": "[SLIDER] THE SELF-PERCEPTION AXIS (The Audience)",
       "slider_b_value": "4/5",
       "slider_b_position_name": "Savvy (I feel smart/validated for choosing this)",
       "territory_number": 4,
       "territory_name": "Intelligence",
-      "reasoning": "Pass 1 (Holistic): Testimonials highlight feeling 'inspired' and being part of a 'vibrant community,' suggesting the emotional payoff is feeling smart, connected, and energized. This points to Intelligence. Pass 2 (Sliders): The emotion is positive delight and inspiration, not anxiety relief (A=4/5). The self-perception is feeling savvy and 'in the know' by attending the region's top event (B=4/5). The grid maps High(4) x High(4) to Territory 4, Intelligence. Pass 3 (Audit): Aligned. The emotional benefit is the feeling of competence and being at the center of the industry.",
-      "evidence": "\"I always come here to listen to others, get inspired by their stories and I always leave with a new dose of energy.\" ... \"It has this vibrant tech and IT community around it.\" ... \"This event (Infoshare) really is a hub for technology and innovation.\"",
+      "reasoning": "Pass 1 Hypothesis: Confidence, from being part of a knowledgeable community. Pass 2: Slider A is 4/5 Delight, based on testimonials describing 'inspiration,' 'new dose of energy,' and a 'vibrant tech and IT community.' Slider B is 4/5 Savvy; attending the 'biggest' and 'most interesting' event in the region provides a feeling of being smart and in-the-know. The grid maps High(4) x High(4) to Intelligence. Pass 3: Aligned. The emotional payoff is the feeling of competence and connection that comes from being at the center of the industry.",
+      "evidence": "\"I always leave with a new dose of energy.\" ... \"It has this vibrant tech and IT community around it.\" ... \"There is no such accumulation of knowledge and inspiration anywhere else\"",
       "evidence_src": "TARGET PAGE (claims)",
       "evaluation_check": {
         "coherence_status": "aligned",
-        "coherence_reasoning": "The testimonials and overall framing confirm that the emotional benefit is feeling inspired, energized, and intelligently connected to the tech ecosystem."
+        "coherence_reasoning": "The combination of positive energy (Delight) and the feeling of making a smart choice (Savvy) maps perfectly to the Intelligence territory, which represents competence-as-aura."
       }
     },
     "marker_16": {
       "marker_name": "Self-Expression",
-      "slider_a_label": "[SLIDER] THE SIGNAL DRIVER (Purchase Motivation)",
+      "slider_a_label": "[SLIDER] THE SIGNAL DRIVER (Choice Motivation)",
       "slider_a_value": "4/5",
-      "slider_a_position_name": "The Statement (I buy it to show my taste)",
+      "slider_a_position_name": "The Statement (I choose it to signal taste, belief, ambition, status, or worldview)",
       "slider_b_label": "[SLIDER] THE TRIBAL ORIENTATION (Social Position)",
       "slider_b_value": "3/5",
       "slider_b_position_name": "The Curated (Known by enthusiasts)",
       "territory_number": 2,
       "territory_name": "The Trend-Setter",
-      "reasoning": "Pass 1 (Holistic): Attending this event signals one's commitment to the CEE tech scene and deep knowledge, suggesting The Purist. Pass 2 (Sliders): The purchase is a statement about one's professional identity and seriousness (A=4/5). The tribe is the curated group of CEE tech enthusiasts, not the mass market (B=3/5). The grid's mid-score fallback for High(4) x Mid(3) leans towards Trend-Setter, as the event focuses on 'what’s changing right now.' Pass 3 (Audit): Diverged. While 'Purist' has merit, the event's focus on current trends and innovation makes 'Trend-Setter' a better fit for how an attendee would express their identity by participating.",
-      "evidence": "\"Find your place at Infoshare\" ... \"Choose your path and shape tomorrow with us.\" ... \"business is not separated from technology. We focus on how leaders, founders and teams make decisions in a world shaped by constant change\"",
-      "evidence_src": "TARGET PAGE (body copy)",
+      "reasoning": "Pass 1 Hypothesis: The Trend-Setter, as attending signals relevance in the tech scene. Pass 2: Slider A is 4/5 The Statement; attending the 'biggest' event is a signal of being a serious professional in the CEE tech space. Slider B is 3/5 The Curated; it's the main event for the CEE tech enthusiast community, which is a large but specific group. The mid-score on Slider B triggers a fallback. The strong identity signal combined with the event's energy and scale leans towards The Trend-Setter over The Purist. Pass 3: Aligned. It's a choice that signals you are current and connected.",
+      "evidence": "\"biggest Tech Festival in CEE\" ... \"vibrant tech and IT community\" ... \"definitely one of the most interesting events around technology in Poland\"",
+      "evidence_src": "TARGET PAGE (headline) + TARGET PAGE (claims)",
       "evaluation_check": {
-        "coherence_status": "diverged",
-        "coherence_reasoning": "The initial hypothesis was The Purist, but the brand's emphasis on 'constant change' and 'what's changing right now' aligns better with the identity signal of being a Trend-Setter who is current and relevant."
+        "coherence_status": "aligned",
+        "coherence_reasoning": "The choice to attend is a strong identity statement within a curated community. The fallback logic correctly identifies this combination as The Trend-Setter, signaling relevance and social awareness."
       }
     },
     "marker_17": {
@@ -409,95 +409,95 @@
       "slider_b_position_name": "The Club (Enthusiasts/Fans)",
       "territory_number": 4,
       "territory_name": "The Insider Clique",
-      "reasoning": "Pass 1 (Holistic): The social benefit seems to be joining the 'in-the-know' club of CEE tech professionals, suggesting The Knowledge Club. Pass 2 (Sliders): Attending is an act of distinction, separating oneself as a serious player in the ecosystem (A=4/5). The group is a dedicated club of enthusiasts, with tiers like 'Executive' and 'Investor' creating exclusive sub-groups (B=4/5). The grid maps High(4) x High(4) to Territory 4, The Insider Clique. Pass 3 (Audit): Diverged. The grid result is more accurate; the tiered passes and focus on connecting with 'top-tier investors' create a sense of an exclusive clique, not just a knowledge club.",
-      "evidence": "\"Executive Pass\" ... \"Investor Pass\" ... \"Premium access to networking, exclusive events and all stages - built for leaders\" ... \"connect with top-tier investors\"",
+      "reasoning": "Pass 1 Hypothesis: The Knowledge Club, focusing on joining a group of smart people. Pass 2: Slider A is 4/5 Distinction; the goal is to stand out by gaining access to exclusive knowledge and connections. Slider B is 4/5 The Club; the 'CEE tech ecosystem' is a large club of enthusiasts and professionals. The grid maps High(4) x High(4) to The Insider Clique. Pass 3: Diverged. The Insider Clique is a better fit, as the benefit isn't just joining the club, but gaining the status and access that comes from being part of the *leading* event, which creates a sense of being an insider.",
+      "evidence": "\"meet the right people, not just more people\" ... \"connect with top-tier investors\" ... \"Meaningful conversations and connections that last beyond the event.\"",
       "evidence_src": "TARGET PAGE (body copy)",
       "evaluation_check": {
         "coherence_status": "diverged",
-        "coherence_reasoning": "While knowledge is a component, the tiered access and focus on connecting with elite investors and leaders provide a social benefit of exclusivity and status, which is better captured by The Insider Clique than The Knowledge Club."
+        "coherence_reasoning": "The initial hypothesis (Knowledge Club) focused on assimilation. However, the brand's promise of 'meaningful conversations' and access to 'top-tier investors' points to a benefit of differentiation and exclusive access, which is better captured by The Insider Clique."
       }
     },
     "_usage": {
       "prompt_tokens": 21811,
-      "completion_tokens": 3288,
-      "total_tokens": 29281,
+      "completion_tokens": 3088,
+      "total_tokens": 29533,
       "prompt_tokens_details": {
-        "cached_tokens": 20392
+        "cached_tokens": 0
       },
       "completion_tokens_details": {
-        "reasoning_tokens": 4182
+        "reasoning_tokens": 4634
       }
     },
     "_model": "gemini-2.5-pro",
     "_finish_reason": "STOP",
     "_parse_status": "ok",
     "hi": {
-      "score": 80,
-      "label": "LANDED",
-      "diagnosis": "FULLY CONVINCING",
-      "profile": "The homepage is a powerhouse of social proof, functioning as an overwhelming argument for the event's scale and importance in the CEE tech scene. It is built for immediate action, funneling visitors directly to a clear, multi-tiered pricing structure with prominent calls-to-action. The brand perception is one of an established, unmissable industry institution that knows its value and expects visitors to be ready to commit.",
-      "blind_spot": "The brand's origin story of being a practical, 'no marketing bullshit' community event is lost on the homepage. The page projects a corporate 'Ruler' archetype ('biggest in CEE', 'Executive Pass'), creating a voice gap between its accessible roots and its current massive scale. Re-injecting the 'practical tips' ethos from the founder's story into the hero section could bridge this perception gap.",
+      "score": 78,
+      "label": "READABLE",
+      "diagnosis": "CLEAR READ",
+      "profile": "The page functions as a high-density, high-trust prospectus for a major tech festival. It uses overwhelming social proof—speaker lists, partner logos, testimonials—to establish itself as the dominant event in its region. The primary user journey is transactional, funneling visitors with clear pricing and calls-to-action towards a pass purchase.",
+      "blind_spot": "The brand's origin story of 'four friends' creating a 'no marketing bullshit' event is a powerful asset, but the homepage's voice has drifted towards a more corporate 'biggest is best' message. This Ruler archetype risks alienating the very community it was built to serve. Re-injecting the Everyman/Sage voice from the 'About Us' page into the hero section could bridge the gap between its scale and its soul.",
       "metrics": {
         "hi01_message_clarity": {
           "label": "MESSAGE CLARITY",
-          "score": 75,
+          "score": 70,
           "diagnosis": "UNDERSTANDABLE",
-          "so_what": "The page clearly communicates its core differentiator as the 'biggest Tech Festival in CEE' and provides a clean information architecture. However, the main headline is purely aspirational, forcing a visitor to read further to understand the event's purpose. The value is clear, but the initial hook is weak.",
+          "so_what": "The page clearly communicates what it is (a tech festival) and its scale, but the main headline is aspirational rather than informational. A visitor understands the offer within seconds due to the strong sub-headline and value props, but the brand's core story is secondary to its size.",
           "sub_metrics": {
             "headline_clarity": {
-              "score": 50,
-              "evaluation": "The headline '20 years of Infoshare. A new era begins.' states WHAT (Infoshare) but not WHO it's for or WHY this event is the right choice. It's a brand-aspirational statement that relies on prior knowledge, landing only one of three Krug anchors."
+              "score": 30,
+              "evaluation": "The headline '20 years of Infoshare. A new era begins.' is purely brand-aspirational. It fails to state WHAT this is or WHO it's for, relying on the sub-headline 'Welcome to the biggest Tech Festival in CEE' to do the heavy lifting."
             },
             "value_prop_above_fold": {
-              "score": 70,
-              "evaluation": "The sub-headline 'Welcome to the biggest Tech Festival in CEE' delivers a clear BENEFIT (access) and CONTRAST (biggest). It lacks an explicit MECHANISM for how this value is delivered, but the implication is strong enough to be effective."
+              "score": 90,
+              "evaluation": "The first 150 words deliver the BENEFIT ('shape tomorrow'), MECHANISM ('Tech Festival'), and CONTRAST ('biggest in CEE'). This combination effectively communicates the core value proposition to a first-time visitor."
             },
             "benefit_hierarchy": {
-              "score": 90,
-              "evaluation": "The lead benefit, being the 'biggest Tech Festival in CEE', is the brand's core differentiator and is stated explicitly. This positions the event's scale and network access as the primary reason to attend, which is a powerful and clear hierarchy."
+              "score": 70,
+              "evaluation": "The lead benefit is scale: 'the biggest Tech Festival in CEE'. This is a powerful differentiator but is adjacent to the core 'no hype, practical knowledge' story found on the About page. It sells the size, not the soul."
             },
             "jargon_load": {
               "score": 90,
-              "evaluation": "The copy is remarkably clean of unexplained jargon. Terms used are either common industry parlance ('startups', 'investors') or self-explanatory within the context of an event ('matchmaking', 'round tables'), making the page highly accessible to its target audience."
+              "evaluation": "The copy is exceptionally clean and accessible. Terms like 'Matchmaking' or 'Round Tables' are standard industry vocabulary, and the page even defines a pass for those with 'no tech background needed'."
             }
           },
           "checklist": {
             "pass": [
-              "leads with its core differentiator: 'biggest Tech Festival in CEE'"
+              "states value prop 'biggest Tech Festival in CEE' above fold"
             ],
             "warn": [
-              "value proposition lacks an explicit mechanism in the first 150 words"
+              "leads with scale as the primary benefit, not practical knowledge"
             ],
             "fail": [
-              "main headline 'A new era begins' omits WHO the event is for"
+              "uses a purely aspirational headline: 'A new era begins.'"
             ]
           }
         },
         "hi02_trust_score": {
           "label": "TRUST SCORE",
-          "score": 90,
+          "score": 82,
           "diagnosis": "RECEIPTS LOUD",
-          "so_what": "Trust is the page's strongest asset, established through an overwhelming volume of high-quality evidence. The brand doesn't just claim to be a major player; it proves it with extensive lists of world-class partners, named speakers, and government patronage. A first-time visitor is left with little doubt about the event's legitimacy and scale.",
+          "so_what": "Trust is established through overwhelming force. The page presents a wall of evidence: high-profile speakers, globally recognized partner logos, specific testimonials, and government patronage. For a visitor, the impression is one of an established, unmissable industry institution.",
           "sub_metrics": {
             "hype_index": {
-              "score": 90,
-              "evaluation": "The primary superlative, 'biggest Tech Festival in CEE', is heavily substantiated by the sheer volume of partners, speakers, and attendee numbers cited on the page. Other copy is direct and benefit-driven, resulting in a very low hype-to-evidence ratio."
+              "score": 70,
+              "evaluation": "The page uses a few key superlatives like 'biggest' as a core positioning statement. While technically unsupported by a direct citation, the surrounding evidence makes it plausible. It stays within the 3-5 claims band."
             },
             "claim_to_evidence_ratio": {
-              "score": 90,
-              "evaluation": "The page is dominated by Level A and B evidence: named speakers, named corporate partners (Netflix, Airbus), specific testimonials, and government patronage seals. Vague claims are almost non-existent, creating a high ratio of verifiable proof."
+              "score": 70,
+              "evaluation": "Claims like '6000+' attendees are Level B, while the 'biggest' claim is Level C. However, the sheer volume of named speakers and partners (Level A evidence of participation) pushes the overall evidence ratio into the 50-69% band."
             },
             "social_proof": {
               "score": 90,
-              "evaluation": "Social proof is exceptional, hitting all three Cialdini axes. It shows SPECIFICITY (named speakers/reviewers), SIMILARITY (industry leaders the audience aspires to), and QUANTITY (vast logos walls and testimonials)."
+              "evaluation": "Social proof is best-in-class. It combines SPECIFICITY (named testimonials from figures like the founder of Booksy), SIMILARITY (tech leaders), and massive QUANTITY (a wall of partner logos like Netflix and Airbus)."
             },
             "trust_signals": {
               "score": 90,
-              "evaluation": "All four of Fogg's credibility types are present: SURFACE (professional design), EARNED (testimonials, partners), PRESUMED (clear pricing), and REPUTED (government patronage, major media partners). This creates a comprehensive trust profile."
+              "evaluation": "All four Fogg credibility types are present: SURFACE (professional design), EARNED (testimonials), PRESUMED (clear pricing), and REPUTED (partner logos, government patronage). This creates a comprehensive trust narrative."
             },
             "visible_certifications": {
               "score": 90,
-              "evaluation": "The page displays multiple high-authority logos, including government 'Honorary Patronage' seals and logos from dozens of globally recognized brands like Netflix and Airbus. This serves as powerful third-party validation."
+              "evaluation": "The page displays multiple forms of third-party endorsement. The 'Honorary Patronage' section shows official government seals, and the extensive list of partner logos acts as a powerful set of industry certifications."
             }
           },
           "checklist": {
@@ -505,45 +505,45 @@
               "cites dozens of named partners like Netflix and Airbus"
             ],
             "warn": [
-              "attendee numbers like '6000+' are specific but lack a source"
+              "claim 'biggest in CEE' is plausible but lacks a direct source"
             ],
             "fail": [
-              "omits a concise 'trusted by' summary line near the hero"
+              "omits specific data sources for attendee/company counts"
             ]
           }
         },
         "hi03_voice_consistency": {
           "label": "VOICE CONSISTENCY",
-          "score": 65,
+          "score": 75,
           "diagnosis": "MOSTLY COHERENT",
-          "so_what": "The homepage successfully reinforces the brand's core promises of networking and knowledge-sharing. However, there's a noticeable drift from the passionate, community-focused voice of the 'About Us' page to a more formal, corporate tone on the homepage. The brand's 'what' is consistent, but its 'how it feels' has changed with scale.",
+          "so_what": "The brand's voice is largely consistent, but it has evolved from its 'scrappy founder' origins to a more dominant 'industry leader' tone. While the homepage successfully reinforces core claims like 'no hype', it projects a Ruler archetype that contrasts with the Everyman/Sage feel of its own 'About Us' story.",
           "sub_metrics": {
             "tone_alignment": {
-              "score": 50,
-              "evaluation": "The 'About Us' page has a casual, passionate tone ('tech-passionate friends', 'no marketing bullshit'). The homepage is more formal and consultative ('Connect. Lead. Decide.'). This two-step shift in register creates a disconnect between the brand's origin story and its current presentation."
+              "score": 70,
+              "evaluation": "The 'About Us' page uses a casual, narrative tone ('four tech-passionate friends'). The homepage is more consultative and declarative ('Shape Tomorrow Today'). This is a one-step difference, reflecting a shift from origin story to market-facing message."
             },
             "vocabulary_alignment": {
               "score": 90,
-              "evaluation": "The semantic fields are highly aligned. The 'About Us' focus on 'community', 'sharing', and 'practical knowledge' is directly reflected on the homepage with sections on 'Networking', 'Technology beyond the hype', and 'Business... not buzzwords'."
+              "evaluation": "The homepage strongly uses the brand's core semantic fields of community, networking, technology, and business, which are established in the 'About Us' page. The alignment is direct and effective."
             },
             "voice_signature_match": {
-              "score": 30,
-              "evaluation": "The brand's baseline archetype is a Sage/Everyman (sharing practical knowledge, humble roots). The homepage delivers a strong Ruler archetype ('biggest in CEE', 'Executive Pass'). This is a significant drift that positions the brand as an authority but loses the accessible feel of its founding story."
+              "score": 50,
+              "evaluation": "There is a clear archetype drift. The 'About Us' page establishes an Everyman/Sage archetype (accessible, for the people, sharing wisdom). The homepage delivers a Ruler archetype ('biggest', 'lead', 'decide'), a significant shift in persona."
             },
             "claim_stack_alignment": {
               "score": 90,
-              "evaluation": "The core claims from the 'About Us' page—connecting people and sharing practical knowledge—are strongly reinforced on the homepage. Sections on networking, thematic stages, and a 'no hype' promise deliver on the brand's foundational promises."
+              "evaluation": "The homepage directly reinforces the 'About Us' claim of being against 'marketing bullshit' with its own section titled 'Technology beyond the hype. No hype. No shortcuts.' This is a textbook example of claim stack alignment."
             }
           },
           "checklist": {
             "pass": [
-              "vocabulary aligns with 'no hype' and 'community' themes"
+              "reinforces 'no hype' claim from About page directly on homepage"
             ],
             "warn": [
-              "tone shifts from casual origin story to formal homepage"
+              "homepage tone is more corporate than the 'four friends' origin story"
             ],
             "fail": [
-              "archetype drifts from accessible Sage/Everyman to authoritative Ruler"
+              "archetype shifts from Everyman/Sage to a more dominant Ruler"
             ]
           }
         },
@@ -551,57 +551,57 @@
           "label": "AUDIENCE RESONANCE",
           "score": 85,
           "diagnosis": "LASER-AIMED",
-          "so_what": "The page demonstrates a masterful understanding of its diverse professional audience by segmenting its offering with extreme clarity. From students to C-level executives, each visitor can immediately 'Find your place' via tailored passes and value propositions. This clarity removes ambiguity and signals that the event is designed for serious professionals at all career stages.",
+          "so_what": "The page demonstrates a masterful understanding of its diverse tech audience. It uses clear segmentation—offering different passes for investors, startups, and even non-technical visitors—to ensure everyone can 'find their place'. Visual and text signals are tightly coherent, projecting an image of a high-energy, professional, and essential industry event.",
           "sub_metrics": {
             "audience_segment_probability": {
               "score": 70,
-              "evaluation": "The page clearly targets a professional tech audience, with a strong center of gravity on career-building Millennials (≈0.5) and leadership-focused Gen X (≈0.4). The segmentation into passes for startups, investors, and general visitors is excellent evidence of a well-understood, multi-cohort strategy."
+              "evaluation": "The page targets a broad professional tech audience with a clear center of gravity in Millennials (≈0.50), who are often in startup/scaling phases. It also strongly appeals to Gen X investors (≈0.30) and emerging Gen Z talent (≈0.20)."
             },
             "signal_coherence": {
               "score": 90,
-              "evaluation": "Text and visual signals are perfectly aligned. The textual segmentation (e.g., 'Startup Pass', 'Executive Pass') is anchored by a 'Clinical Pop' visual style that feels professional, modern, and energetic, appealing directly to a tech-savvy audience."
+              "evaluation": "Text signals (startups, investors, CEE, networking) and visual signals (high-energy red, professional speaker photos, clean grid layout) are perfectly aligned. Both communicate a modern, ambitious, and credible tech event."
             },
             "intent_match": {
               "score": 90,
-              "evaluation": "The page is unambiguously designed for the decision/action stage of the funnel. Every element, from the speaker lists to the value props, is engineered to drive a visitor towards the clear, comprehensive pricing section to 'Get Your Pass'."
+              "evaluation": "The page is built for a single, clear intent: driving ticket sales. It serves the consideration and decision stages of the funnel, providing all necessary information (speakers, agenda, pricing) to facilitate a purchase."
             },
             "accessibility_signals": {
               "score": 90,
-              "evaluation": "All four accessibility signals are present. Commitment tiers are highly visible with explicit pricing, language is inclusive for different roles, core concepts are explained in plain language ('No hype'), and CTAs are direct action verbs ('Get Your Pass')."
+              "evaluation": "All four accessibility signals are present. Commitment is clear with visible pricing. Language is inclusive with defined roles. Jargon is managed via a 'no tech background needed' pass. CTAs are plain-language ('Get Your Pass')."
             }
           },
           "audience_segments": [
             {
-              "label": "Millennials seeking to accelerate their tech careers through networking and practical knowledge",
+              "label": "Millennials seeking to scale their tech career or startup through high-value networking and practical knowledge",
               "cohort": "millennials",
               "probability": 0.5,
-              "evidence_text": "General Pass. Learn. Meet. Explore. Full access to stages, networking options and the Infoshare experience.",
-              "evidence_visual": "Vibrant Infoshare Red and Teal accents, high-energy and saturated brand visuals, crowd scenes from past events."
+              "evidence_text": "Learn. Meet. Explore. Full access to stages, networking options and the Infoshare experience.",
+              "evidence_visual": "The brand visuals are high-energy and saturated, led by a vibrant primary red and secondary teal."
             },
             {
-              "label": "Gen X seeking to lead, invest, and make high-value connections in the tech ecosystem",
+              "label": "Gen X seeking to invest in emerging technologies and connect with the next generation of founders",
               "cohort": "gen_x",
-              "probability": 0.4,
-              "evidence_text": "Executive Pass. Connect. Lead. Decide. Premium access to networking, exclusive events and all stages - built for leaders who value meaningful relationships and real impact.",
-              "evidence_visual": "Dense 'wall' of diverse partner and investor logos that signal industry scale and networking potential."
+              "probability": 0.3,
+              "evidence_text": "Investor Pass. Connect. Access. Lead deals. All-access pass with VIP networking... built for active investors.",
+              "evidence_visual": "Grid-based speaker and partner logo galleries"
             },
             {
-              "label": "Gen Z seeking inspiration and entry points into the tech industry and startup community",
+              "label": "Gen Z seeking inspiration and entry points into the tech industry without a deep technical background",
               "cohort": "gen_z",
-              "probability": 0.1,
-              "evidence_text": "Visitor Pass. Discover. Explore. Get inspired. Access to key stages, Expo and Innovation Village - perfect for curious minds, no tech background needed.",
-              "evidence_visual": "The 'Call For Bands' and 'Aftermovie' sections suggest a younger, festival-like atmosphere alongside the professional conference."
+              "probability": 0.2,
+              "evidence_text": "Visitor Pass... perfect for curious minds, no tech background needed.",
+              "evidence_visual": "Vibrant Infoshare Red and Teal accents"
             }
           ],
           "checklist": {
             "pass": [
-              "shows explicit pricing for all commitment tiers"
+              "explicitly carves out a pass for non-technical visitors"
             ],
             "warn": [
-              "visuals could more explicitly show the different audience roles"
+              "broad audience makes specific JTBD targeting difficult"
             ],
             "fail": [
-              "lacks a clear track for first-time attendees vs. returning veterans"
+              "lacks content specifically for student or academic attendees"
             ]
           }
         },
@@ -609,34 +609,34 @@
           "label": "DECISION CONFIDENCE",
           "score": 80,
           "diagnosis": "DECISIVE",
-          "so_what": "The brand projects extreme confidence in what it wants the visitor to do: buy a pass. The path to purchase is unambiguous, with clear pricing and dominant CTAs. The only point of hesitation is the sheer volume of information, which creates a cognitive load that may slow down, but not stop, a determined visitor.",
+          "so_what": "The brand projects extreme confidence in its call to action. Pricing is transparent, the next step is obvious, and the primary CTA is clear and persistent. The only point of friction is the sheer volume of information, which creates a high cognitive load that could overwhelm a visitor in the first 10 seconds.",
           "sub_metrics": {
             "cta_clarity": {
               "score": 90,
-              "evaluation": "A single, dominant CTA—'Get Your Pass'—is repeated throughout the page with high visual prominence. Secondary CTAs for agenda or speakers exist but are clearly subordinate, creating a strong and unambiguous action hierarchy."
+              "evaluation": "A single, dominant CTA ('Get Your Pass') is repeated throughout the page with high visual prominence. Secondary actions like viewing the agenda are available but do not compete, creating a clear hierarchy."
             },
             "pricing_visibility": {
               "score": 90,
-              "evaluation": "Pricing is a core feature of the page, not an afterthought. Multiple pass types are presented in a clear grid with explicit costs (PLN, including VAT), demonstrating transparency and respect for the visitor's time."
+              "evaluation": "Pricing is explicit and visible above the fold. The page clearly lists multiple pass types with their respective costs in PLN, demonstrating transparency and respecting the visitor's time."
             },
             "next_step_obviousness": {
               "score": 90,
-              "evaluation": "The next step is crystal clear: select the pass that matches your role and purchase it. The page is structured as a direct funnel to this decision, leaving no ambiguity about what a visitor should do next."
+              "evaluation": "The visitor's next step is unambiguously to select and purchase a pass. The entire page is structured to provide reasons to attend, culminating in the transactional pass selection section."
             },
             "friction_signals": {
               "score": 50,
-              "evaluation": "The primary friction is cognitive load. The page is extremely long and dense with text and logos, requiring significant scrolling and reading. While the information is well-organized, its sheer volume is a major source of friction for a 10-second visitor."
+              "evaluation": "The primary friction is cognitive load. The page is extremely long and dense with information (speakers, partners, pass types, testimonials), which can be overwhelming and violates the 'don't make me think' principle for a quick scan."
             }
           },
           "checklist": {
             "pass": [
-              "displays clear, multi-tiered pricing high on the page"
+              "shows clear pricing for all pass tiers above the fold"
             ],
             "warn": [
-              "offers many pass types, which could cause minor choice paralysis"
+              "offers 7 different pass types, risking choice paralysis"
             ],
             "fail": [
-              "page length and text density create significant scroll friction"
+              "heavy text density creates high cognitive load in 10 seconds"
             ]
           }
         }
