@@ -86,6 +86,34 @@
 
 ---
 
+## 2026-05-24
+
+### Brand Perception — Labels
+- **feature:** UniversalDataProvider v1.24.0 — restored the **Labels Source dropdown** (`labelsSource` Enum) on the report data provider (`cqhovi4`). Picking a product loads `labels_<product_type>.json` from the Supabase `labels` bucket; option value = canonical `product_type` so the URL auto-derives (no hardcoded map). Custom + 7 products (X-Ray, Index, Treat excluded). Deployed to the Framer draft (not yet published).
+- **improvement:** Uploaded 6 placeholder label files to the `labels` bucket so every dropdown option resolves (the live Brand Perception v1.0.7 labels file left untouched).
+
+> **Note:** Documented the recurring Supabase service-role-key gotcha — the `~/dev/.env` key is a different project (obok-me); POKPOK's key is fetched via the Management API token in `~/dev/.mcp.json`. Captured in the `supabase` skill.
+
+---
+
+## 2026-05-10
+
+### Customer Notifications email pipeline (Brand Perception WWW)
+
+- **feature:** New n8n sub-workflow `zJDYnDoV2qRUWSDe` (Customer Notifications) — active. Inputs `event`, `email`, `brand`, `www_link`, `report_url`, `product_name`, `error_reason`. Switch on `event` (`report_ready` / `report_failed`) sends the correct Resend template. Project: PokPok ecomm.
+- **feature:** Two Resend templates published — `pokpok-report-ready` (`7555b2e2-678c-4553-a4af-5e6e6cf91835`) with subject `Your {{{BRAND}}} brand perception is ready`, and `pokpok-report-failed` (`6731bf86-abaf-4798-bdf4-3a2b737ee566`) with subject `We hit a snag analysing {{{BRAND}}}`. Brand-canonical visual style (teal header / off-white card / yellow accent / "Truth is the ultimate cure" footer) mirroring the user's verified Welcome Subscription template. From `POKPOK <hello@hey.pokpok.ai>`, reply-to `ceo@xclv.com`. HTML mirrors at `pokpok-ai/marketing/email-templates/report-{ready,failed}.resend.html`.
+- **feature:** `Email customer (ready)` `executeWorkflow` node added at the tail of `52lZstOsQMhgspl8` (after `Update Cost Telemetry`) — calls Customer Notifications with the order data. Paste-ready JSON: `pokpok-ai/products/diagnose/brand-perception/n8n/status-nodes/12-email-customer-ready.json`.
+- **fix:** Resend template "POKPOK Brand Perception Score — weighted **60% HI / 40% AI**" was wrong. Live `Compute Overall Score` n8n node uses `W = { hi: 0.7, geo: 0.3 }`. Patched to **70% HI / 30% AI** in both local HTML and live Resend template, re-published.
+- **fix:** Customer Notifications subflow expression bug — `email = $('Update purchased_reports: ready').first().json.customer_email` resolved to undefined because the column is `user_email`, not `customer_email`. Caused 4 successive `Resend: Missing 'to' field` (HTTP 422) sub-flow failures; analysis workflow showed green because `waitForSubWorkflow: false`. Patched live workflow via REST API to `user_email`.
+- **fix:** Used canonical product naming from `pokpok-ai/ops/docs/product-catalog-v2.md` — `product_name` field passes "Brand Perception Truth (Single URL)" (NOT legacy "WWW Brand Perception").
+- **improvement:** Documented n8n MCP `update_workflow` failure mode — workflows whose settings carry `availableInMCP: true` / `binaryMode` / `timeSavedMode` fail validation on round-trip. Workaround: direct REST API PUT with `{settings: {executionOrder: "v1"}}`. Captured as F089 in `pokpok-ai/.claude/skills/n8n-workflows/references/failures.md`.
+- **improvement:** Documented Resend `{{{VAR}}}` subject-line gotcha — `n8n-nodes-resend.resend` sends the subject to Resend's API as a literal string; Resend only interpolates `{{{VAR}}}` inside the rendered template body. Use n8n expression mode (`=Your {{ $json.brand }} ...`) on the Subject field. Captured as F090.
+- **improvement:** Documented hallucinated-column failure pattern — never write a Supabase expression referencing a column without verifying via `information_schema.columns`. Captured as F091.
+
+> **Note:** Open follow-ups: change `Update purchased_reports: ready` filter from `slug` → `polar_order_id` (multi-row Update bug for emails with multiple auth.users); patch Subject fields in `zJDYnDoV2qRUWSDe` per F090; build error-handler workflow + set as `52lZstOsQMhgspl8` Workflow Settings → Error Workflow for `report_failed` emails. Full record: `pokpok-ai/products/diagnose/brand-perception/architecture/sessions/2026-05-10-email-pipeline.md`.
+
+---
+
 ## 2026-05-08
 
 ### Polar env unification + n8n V3.10 user_id fix + DB backfill + OrderList notch color
